@@ -1,1 +1,169 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="مكتبة Online4Tech لملفات القنوات والباك أب والشروحات لأجهزة الاستقبال.">
+  <title>Online4Tech | ملفات القنوات والباك أب والشروحات</title>
+  <style>
+    :root{--bg:#0b1220;--panel:#121d30;--panel2:#192840;--text:#f4f7fb;--muted:#b8c5d8;--accent:#60c5ff;--line:#2a3b55}
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#0b1220,#101a2b);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+    a{color:inherit}
+    .wrap{width:min(1080px,92%);margin:auto}
+    header{padding:28px 0 18px;border-bottom:1px solid var(--line)}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{width:52px;height:52px;border-radius:15px;background:#203650;display:grid;place-items:center;font-size:25px}
+    h1,h2,h3,p{margin-top:0}
+    h1{font-size:clamp(1.5rem,4vw,2.3rem);margin-bottom:2px}
+    .sub,.muted{color:var(--muted)}
+    .hero{padding:38px 0 26px}
+    .hero-box{background:linear-gradient(135deg,#1b3150,#142137);border:1px solid var(--line);border-radius:22px;padding:clamp(22px,5vw,42px)}
+    .hero h2{font-size:clamp(1.5rem,4vw,2.4rem);line-height:1.4;margin-bottom:10px}
+    .btn{display:inline-block;text-decoration:none;background:var(--accent);color:#071321;font-weight:bold;padding:10px 17px;border-radius:11px;margin:8px 6px 0 0}
+    .btn.secondary{background:#263a55;color:var(--text);border:1px solid #3b5271}
+    .tools{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}
+    input,select{font:inherit;background:#101b2d;color:var(--text);border:1px solid #354a68;border-radius:10px;padding:12px;min-width:0}
+    input{flex:1;min-width:220px}
+    .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+    .filter{border:1px solid #354a68;background:#142137;color:var(--text);padding:8px 13px;border-radius:999px;cursor:pointer}
+    .filter.active{background:var(--accent);color:#071321;border-color:var(--accent);font-weight:bold}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:20px;display:flex;flex-direction:column;gap:7px}
+    .tag{font-size:.8rem;color:#9bdcff}
+    .card h3{margin-bottom:0}
+    .card p{color:var(--muted);margin-bottom:4px}
+    .download{display:inline-block;margin-top:auto;text-align:center;background:#203650;padding:9px 12px;border-radius:9px;text-decoration:none;border:1px solid #3a5271}
+    .download:hover,.btn:hover{filter:brightness(1.08)}
+    section{padding:20px 0 30px}
+    .notice{border-right:4px solid var(--accent);background:#121d30;padding:14px 17px;border-radius:10px;color:var(--muted)}
+    footer{border-top:1px solid var(--line);padding:22px 0 35px;color:var(--muted);font-size:.9rem}
+    .empty{display:none;color:var(--muted);padding:18px 0}
+    @media(max-width:560px){.tools{display:block}.tools input,.tools select{width:100%;margin-bottom:9px}.hero{padding-top:24px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap brand">
+      <div class="logo" aria-hidden="true">📡</div>
+      <div>
+        <h1>Online4Tech</h1>
+        <div class="sub">ملفات القنوات • الباك أب • الشروحات</div>
+      </div>
+    </div>
+  </header>
 
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-box">
+        <h2>كل ملفات جهازك في مكان واحد</h2>
+        <p class="muted">مكتبة مرتبة لملفات القنوات والنسخ الاحتياطية والشروحات. اختار نوع الملف وابحث عن موديل جهازك قبل التحميل.</p>
+        <a class="btn" href="#downloads">تصفّح الملفات</a>
+        <a class="btn secondary" href="#guides">شوف الشروحات</a>
+      </div>
+    </section>
+
+    <section id="downloads">
+      <h2>مكتبة التحميل</h2>
+      <p class="muted">دي أمثلة تجريبية. غيّر أسماء الملفات والوصف وروابط التحميل قبل نشر الموقع.</p>
+      <div class="tools">
+        <input id="search" type="search" placeholder="ابحث باسم الجهاز أو الملف..." aria-label="ابحث في الملفات">
+        <select id="sort" aria-label="ترتيب الملفات">
+          <option value="all">كل أنواع الملفات</option>
+          <option value="channels">ملفات القنوات</option>
+          <option value="backup">باك أب</option>
+          <option value="tools">أدوات وملفات مساعدة</option>
+        </select>
+      </div>
+      <div class="filters" aria-label="فلترة حسب النوع">
+        <button class="filter active" data-kind="all">الكل</button>
+        <button class="filter" data-kind="channels">ملفات القنوات</button>
+        <button class="filter" data-kind="backup">باك أب</button>
+        <button class="filter" data-kind="tools">أدوات مساعدة</button>
+      </div>
+      <div class="grid" id="file-list">
+        <article class="card" data-kind="channels">
+          <span class="tag">ملف قنوات</span>
+          <h3>ملف قنوات Enigma2</h3>
+          <p>اكتب هنا تاريخ التحديث والأقمار والأجهزة المتوافقة.</p>
+          <a class="download" href="downloads/README.txt">رابط تجريبي — استبدله</a>
+        </article>
+        <article class="card" data-kind="backup">
+          <span class="tag">نسخة احتياطية</span>
+          <h3>Backup لجهاز VU+</h3>
+          <p>اكتب موديل الجهاز وإصدار الصورة وملاحظات التثبيت.</p>
+          <a class="download" href="downloads/README.txt">رابط تجريبي — استبدله</a>
+        </article>
+        <article class="card" data-kind="tools">
+          <span class="tag">ملف مساعد</span>
+          <h3>أدوات وملفات مساعدة</h3>
+          <p>أضف وصفًا واضحًا للملف وطريقة استخدامه.</p>
+          <a class="download" href="downloads/README.txt">رابط تجريبي — استبدله</a>
+        </article>
+      </div>
+      <p class="empty" id="empty">مفيش نتائج مطابقة للبحث.</p>
+    </section>
+
+    <section id="guides">
+      <h2>الشروحات</h2>
+      <div class="grid">
+        <article class="card">
+          <span class="tag">شرح للمبتدئين</span>
+          <h3>طريقة تثبيت ملف القنوات</h3>
+          <p>اكتب خطوات التثبيت، الأدوات المطلوبة، والأجهزة المدعومة.</p>
+          <a class="download" href="guides/README.txt">إضافة الشرح</a>
+        </article>
+        <article class="card">
+          <span class="tag">شرح للمبتدئين</span>
+          <h3>طريقة استعادة الباك أب</h3>
+          <p>وضّح موديل الجهاز وإصدار النظام قبل تنفيذ الخطوات.</p>
+          <a class="download" href="guides/README.txt">إضافة الشرح</a>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>قبل التحميل</h2>
+      <div class="notice">اتأكد من موديل الجهاز وإصدار النظام وتاريخ الملف. احتفظ بنسخة احتياطية من إعداداتك، واستخدم فقط الملفات التي تملك حق توزيعها ومن مصدر موثوق.</div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>Online4Tech</strong> — مكتبة ملفات وشروحات للأجهزة المدعومة.
+      <div>للتواصل: أضف هنا رابط صفحة الدعم أو وسيلة التواصل الرسمية.</div>
+    </div>
+  </footer>
+
+  <script>
+    const search = document.getElementById('search');
+    const sort = document.getElementById('sort');
+    const cards = [...document.querySelectorAll('#file-list .card')];
+    const filters = [...document.querySelectorAll('.filter')];
+    const empty = document.getElementById('empty');
+    let selectedKind = 'all';
+
+    function updateCards() {
+      const term = search.value.trim().toLowerCase();
+      const kind = sort.value !== 'all' ? sort.value : selectedKind;
+      let visible = 0;
+      cards.forEach(card => {
+        const matchesText = card.innerText.toLowerCase().includes(term);
+        const matchesKind = kind === 'all' || card.dataset.kind === kind;
+        card.style.display = matchesText && matchesKind ? 'flex' : 'none';
+        if (matchesText && matchesKind) visible++;
+      });
+      empty.style.display = visible ? 'none' : 'block';
+      filters.forEach(button => button.classList.toggle('active', button.dataset.kind === selectedKind));
+    }
+    search.addEventListener('input', updateCards);
+    sort.addEventListener('change', updateCards);
+    filters.forEach(button => button.addEventListener('click', () => {
+      selectedKind = button.dataset.kind;
+      sort.value = 'all';
+      updateCards();
+    }));
+    updateCards();
+  </script>
+</body>
+</html>
