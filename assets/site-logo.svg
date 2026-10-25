@@ -1,10 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="118" viewBox="0 0 560 118" role="img" aria-labelledby="title desc">
-<title id="title">Online4Tech — خليك دايما اونلاين</title><desc id="desc">شعار تقني باللون الكحلي والأزرق مع طبق استقبال وإشارة اتصال.</desc>
-<defs><linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#25c6e8"/><stop offset="1" stop-color="#2875f5"/></linearGradient></defs>
-<g transform="translate(8 15)" fill="none" stroke="url(#blue)" stroke-width="5" stroke-linecap="round"><path d="M12 40 A35 35 0 0 1 47 5"/><path d="M20 48 A48 48 0 0 1 60 8"/><path d="M28 56 A60 60 0 0 1 72 12"/></g>
-<g transform="translate(20 38)"><path d="M0 24 Q25 -1 52 2 Q45 31 17 42 Z" fill="url(#blue)"/><path d="M7 27 L45 5" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/><circle cx="50" cy="3" r="4" fill="#21304a"/></g>
-<text x="535" y="56" text-anchor="end" font-family="Arial,Tahoma,sans-serif" font-size="43" font-weight="800" letter-spacing="-1.5" fill="#21304a">Online<tspan fill="url(#blue)">4</tspan>Tech</text>
-<path d="M190 70 H370" stroke="#d7e7f7" stroke-width="1.5"/>
-<text x="535" y="99" text-anchor="end" font-family="Tahoma,Arial,sans-serif" font-size="24" font-weight="700" fill="#2875d8">خليك دايما اونلاين</text>
-<path d="M375 91 H405 M510 91 H535" stroke="url(#blue)" stroke-width="2.5" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="132" viewBox="0 0 560 132" role="img" aria-labelledby="title desc">
+<title id="title">Online4Tech — خليك دايما اونلاين</title>
+<desc id="desc">شعار Online4Tech بتصميم تقني، رقم 4 باللون الأزرق، طبق استقبال وإشارة، وتحته خليك دايما اونلاين.</desc>
+<defs>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#20c6e8"/><stop offset="1" stop-color="#1766ee"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#304663"/><stop offset="1" stop-color="#182941"/></linearGradient>
+</defs>
+<!-- satellite signal and dish -->
+<g transform="translate(20 6)" fill="none" stroke="url(#blue)" stroke-width="5.5" stroke-linecap="round">
+ <path d="M28 28 A20 20 0 0 1 48 8"/><path d="M24 19 A31 31 0 0 1 55 0"/><path d="M35 37 A40 40 0 0 1 75 -3"/>
+</g>
+<g transform="translate(31 20) rotate(-12 28 25)">
+ <path d="M3 12 Q29 -5 55 9 Q47 37 20 44 Q8 32 3 12Z" fill="url(#metal)"/>
+ <path d="M7 14 Q28 1 49 11 Q42 29 22 36 Q12 27 7 14Z" fill="#f8fbff"/>
+ <path d="M10 15 L44 12" stroke="url(#blue)" stroke-width="3" stroke-linecap="round"/>
+ <path d="M23 38 L13 48" stroke="#405875" stroke-width="5" stroke-linecap="round"/>
+</g>
+<!-- blue orbital swoosh around the O -->
+<path d="M20 73 C33 44 57 36 83 36 C61 43 43 59 34 83 C29 95 41 103 62 102 C42 113 13 104 11 88 C10 82 14 77 20 73Z" fill="url(#blue)"/>
+<text x="548" y="76" text-anchor="end" font-family="Arial,Helvetica,sans-serif" font-size="48" font-style="italic" font-weight="900" letter-spacing="-2" fill="#1d2e48">Online<tspan fill="url(#blue)">4</tspan>Tech</text>
+<path d="M150 91 H410" stroke="#d7e7f7" stroke-width="1.5"/>
+<path d="M350 113 H390 M502 113 H535" stroke="url(#blue)" stroke-width="2.5" stroke-linecap="round"/>
+<text x="530" y="121" text-anchor="end" font-family="Tahoma,Arial,sans-serif" font-size="25" font-weight="800" fill="#2475de">خليك دايما اونلاين</text>
 </svg>
