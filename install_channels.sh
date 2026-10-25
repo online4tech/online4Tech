@@ -4,7 +4,7 @@ set -eu
 
 ARCHIVE_URL="https://github.com/online4tech/Enigma2-Chanal-List-BYRomeh/raw/refs/heads/main/channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz"
 TMP_DIR="$(mktemp -d /tmp/online4tech-channels.XXXXXX)"
-BACKUP_DIR="/etc/enigma2/online4tech-backup-$(date +%Y%m%d-%H%M%S)"
+BACKUP_DIR="/etc/enigma2-backup-online4tech-$(date +%Y%m%d-%H%M%S)"
 GUI_STOPPED=0
 
 cleanup() {
