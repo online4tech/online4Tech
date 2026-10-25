@@ -33,6 +33,17 @@
 @media(max-width:760px){.products{grid-template-columns:repeat(2,minmax(0,1fr))}.product-gallery{height:205px;flex-basis:205px}.product-gallery .gallery-main{height:165px}.details{padding:15px}}
 @media(max-width:520px){.products{grid-template-columns:1fr}.product-gallery{height:250px;flex-basis:250px}.product-gallery .gallery-main{height:210px}.details h2,.product-description{min-height:0}}
 
+
+.used-section{margin:34px 0;padding:clamp(18px,3vw,30px);border:1px solid var(--line);border-radius:24px;background:linear-gradient(145deg,#0d1a2c,#0a1626);scroll-margin-top:110px}
+.section-heading{margin:0 0 20px}.section-heading h2{font-size:clamp(1.6rem,4vw,2.3rem);margin:5px 0}.section-heading p{color:var(--muted);margin:0}
+.used-products{grid-template-columns:repeat(3,minmax(0,1fr))}
+.used-device-placeholder{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:radial-gradient(circle at center,#173a58,#0b1727 72%);color:var(--muted);font-size:.8rem}
+.used-receiver{width:72%;max-width:270px;aspect-ratio:2.1;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;border:2px solid #7891a8;border-radius:10px;background:linear-gradient(#35495c,#111c29);box-shadow:0 22px 35px #0006;color:#dbe8f7;letter-spacing:2px;font-size:.85rem}
+.used-receiver b{font-size:1rem;color:var(--blue)}
+.used-receiver i{position:absolute;left:12%;bottom:18%;width:6px;height:6px;border-radius:50%;background:var(--blue);box-shadow:0 0 12px var(--blue)}
+@media(max-width:760px){.used-products{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.used-products{grid-template-columns:1fr}}
+
 </style>
 <link rel="stylesheet" href="../assets/site.css?v=1">
 <style>.site-logo-brand{display:flex;align-items:center;flex:0 1 auto;min-width:0;text-decoration:none}.site-logo-brand img{display:block;width:clamp(190px,27vw,300px);max-width:100%;height:auto;object-fit:contain}.site-logo-brand .brand-slogan{display:block;margin-top:2px;color:#fff;font-family:Tahoma,Arial,sans-serif;font-size:clamp(.82rem,1.2vw,1rem);font-weight:900;letter-spacing:.3px;line-height:1.45;-webkit-text-stroke:.45px #e53945;text-shadow:1px 1px 0 #e53945,-1px 1px 0 #e53945,1px -1px 0 #e53945,-1px -1px 0 #e53945,0 2px 5px #0008;}.site-logo-brand:focus-visible{outline:3px solid #3478f6;outline-offset:4px;border-radius:8px}@media(max-width:760px){.site-logo-brand{margin-inline:auto}.site-logo-brand img{width:clamp(190px,68vw,260px)}}@media(max-width:420px){.site-logo-brand img{width:190px}}</style>
@@ -89,7 +100,28 @@
 <div class="feature-list"><span class="feature-chip">4K UHD</span><span class="feature-chip">Enigma2</span><span class="feature-chip">Dual FBC</span></div>
 <a class="buy-now" href="https://wa.me/201092978131?text=%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%B4%D8%B1%D8%A7%D8%A1%20Vu%2B%20Duo%204K%20SE%20%D9%85%D9%86%20Online4Tech" target="_blank" rel="noopener noreferrer">🛒 اطلب الجهاز الآن عبر واتساب</a><button class="specs-toggle" type="button" aria-expanded="false"><span>عرض المواصفات الفنية</span><span>＋</span></button><div class="specs-panel" hidden><div class="specs-title">المواصفات الفنية</div><ul class="facts"><li><b>المعالج:</b> ARM رباعي النواة 1.5GHz</li><li><b>الذاكرة:</b> RAM ‏3GB وذاكرة eMMC ‏4GB</li><li><b>الصورة:</b> 4K UHD وHEVC/H.265</li><li><b>التوصيل:</b> HDMI 2.0 دخول وخروج، وGigabit LAN</li><li><b>الشبكة:</b> Wi‑Fi مزدوج النطاق 2.4/5GHz وBluetooth 4.1</li><li><b>USB:</b> منفذا USB 3.0 ومنفذ USB 2.0</li><li><b>التونر:</b> فتحتان لتونر FBC أو التكوينات المتوافقة</li><li><b>التخزين:</b> إمكانية تركيب HDD SATA مقاس 2.5 بوصة حتى ارتفاع 15 مم</li><li><b>مميزات إضافية:</b> شاشة ملونة 3.5 بوصة MiniTV، وDual HD Transcoding، وHbbTV</li></ul></div></div></article>
 </section>
-<div id="used" class="empty">قسم الأجهزة المستعملة جاهز لإضافة الأجهزة وأسعارها عند إرسال التفاصيل.</div>
+<section id="used" class="used-section" aria-labelledby="used-title">
+  <div class="section-heading"><span class="eyebrow">PRE-OWNED DEVICES</span><h2 id="used-title">الأجهزة المستعملة</h2><p>أجهزة مستعملة متاحة حسب الحالة والتوفر. تواصل معانا للتأكد من التفاصيل والسعر.</p></div>
+  <div class="products used-products">
+    <article class="product used-product">
+      <div class="product-gallery used-dreambox-gallery" aria-label="صورة جهاز Dreambox ONE UHD">
+        <div class="gallery-main used-device-placeholder">
+          <div class="receiver used-receiver"><span>DREAMBOX</span><b>ONE UHD</b><i></i></div>
+          <small>Dreambox ONE UHD</small>
+        </div>
+        <div class="gallery-controls"><span class="gallery-count">جهاز مستعمل</span></div>
+      </div>
+      <div class="details">
+        <span class="status">متاح للاستفسار</span>
+        <h2>Dreambox ONE UHD</h2>
+        <div class="price">السعر عند التواصل</div>
+        <p class="product-description">جهاز Dreambox ONE UHD مستعمل. تواصل معانا للتأكد من الحالة والتجهيزات المتاحة قبل الشراء.</p>
+        <div class="feature-list"><span class="feature-chip">Dreambox</span><span class="feature-chip">UHD</span><span class="feature-chip">Enigma2</span></div>
+        <a class="buy-now" href="https://wa.me/201092978131?text=%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AC%D9%87%D8%A7%D8%B2%20Dreambox%20ONE%20UHD%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%B9%D9%85%D9%84%20%D9%85%D9%86%20Online4Tech" target="_blank" rel="noopener noreferrer">🛒 استفسر عن الجهاز على واتساب</a>
+      </div>
+    </article>
+  </div>
+</section>
 
 <section id="payment" class="payment-section" aria-labelledby="payment-title">
 <style>
