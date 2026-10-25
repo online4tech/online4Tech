@@ -1,0 +1,15 @@
+/* Online4Tech — shared header layout. Header only; does not alter page buttons/cards. */
+.site-logo-brand{display:flex;flex-direction:column;align-items:flex-end;justify-content:center;gap:2px;min-width:0;max-width:100%;margin-inline-start:auto;margin-inline-end:0;text-decoration:none}
+.site-logo-brand img{display:block;width:clamp(190px,27vw,300px);max-width:100%;height:auto;object-fit:contain}
+.site-logo-brand .brand-slogan{display:block;width:100%;margin-top:2px;text-align:right;color:#fff;font-family:Tahoma,Arial,sans-serif;font-size:clamp(.82rem,1.2vw,1rem);font-weight:900;letter-spacing:.3px;line-height:1.45;-webkit-text-stroke:.45px #e53945;text-shadow:1px 1px 0 #e53945,-1px 1px 0 #e53945,1px -1px 0 #e53945,-1px -1px 0 #e53945,0 2px 5px #0008}
+.site-logo-brand:focus-visible{outline:3px solid #3478f6;outline-offset:4px;border-radius:8px}
+/* Shared top-level header: brand first, main navigation below it. */
+header .wrap.top,header .wrap.head,.top-inner{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:10px;padding-top:10px;padding-bottom:10px}
+header .wrap.top>.site-logo-brand,header .wrap.head>.site-logo-brand,.top-inner>.site-logo-brand{align-self:flex-end}
+header .nav,header .site-main-nav{display:flex;align-items:center;justify-content:flex-start;flex-wrap:wrap;gap:8px;width:100%}
+@media(max-width:760px){
+ .site-logo-brand{align-self:flex-end}
+ .site-logo-brand img{width:clamp(180px,68vw,250px)}
+ header .nav,header .site-main-nav{justify-content:center}
+ header .nav a,header .site-main-nav a{white-space:nowrap}
+}
