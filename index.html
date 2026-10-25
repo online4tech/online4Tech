@@ -1,511 +1,521 @@
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#0b1220">
-<title>ملفات الباك أب | Online4Tech</title>
-<meta name="description" content="تحميل ملفات الباك أب لأجهزة Vu+ مع روابط مباشرة وتحديثات الصور.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Online4Tech — مكتبة باك أب وصور أنظمة Enigma2 لأجهزة Vu+.">
+<meta name="theme-color" content="#0a1020">
+<title>Online4Tech | مكتبة الباك أب</title>
 
 <style>
-:root {
-  --bg: #0b1220;
-  --panel: #121d30;
-  --panel2: #18263c;
-  --text: #f1f5f9;
-  --muted: #aab8cc;
-  --green: #22c55e;
-  --blue: #1677ff;
-  --border: #29384e;
+:root{
+  --bg:#0a1020;
+  --panel:#111c30;
+  --panel2:#172640;
+  --text:#f4f7fc;
+  --muted:#b7c4d8;
+  --line:#2b3d59;
+  --accent:#61c7ff;
+  --green:#9fe3c0
 }
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-  margin: 0;
-  background: var(--bg);
-  color: var(--text);
-  font-family: Tahoma, Arial, sans-serif;
-  line-height: 1.8;
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:radial-gradient(ellipse at top,#152642 0,#0a1020 52%);
+  color:var(--text);
+  font-family:Tahoma,Arial,sans-serif;
+  line-height:1.8
 }
-a { color: inherit; }
-.container {
-  width: min(1100px, 92%);
-  margin: auto;
+a{color:inherit}
+.wrap{width:min(1120px,92%);margin:auto}
+header{border-bottom:1px solid var(--line);background:#0a1020cc}
+.top{
+  display:flex;align-items:center;justify-content:space-between;
+  gap:16px;padding:17px 0;flex-wrap:wrap
 }
-header {
-  background: #101a2b;
-  border-bottom: 1px solid var(--border);
-  padding: 15px 0;
+.brand{display:flex;align-items:center;gap:12px}
+.logo{
+  width:48px;height:48px;display:grid;place-items:center;
+  border-radius:14px;background:#203b59;font-size:25px
 }
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 15px;
-  flex-wrap: wrap;
+.brand h1{font-size:1.35rem;margin:0}
+.brand p{margin:0;color:var(--muted);font-size:.86rem}
+nav{display:flex;gap:8px;flex-wrap:wrap}
+nav a{
+  text-decoration:none;color:var(--muted);
+  padding:7px 11px;border-radius:9px
 }
-.logo {
-  color: white;
-  font-size: 23px;
-  font-weight: bold;
-  text-decoration: none;
+nav a:hover,nav a.active{background:var(--panel2);color:white}
+.hero{padding:34px 0 22px}
+.hero-box{
+  border:1px solid var(--line);border-radius:24px;
+  padding:clamp(22px,5vw,44px);
+  background:linear-gradient(120deg,#1b3656,#121e32 72%)
 }
-.logo span { color: var(--green); }
-.nav a.home {
-  text-decoration: none;
-  padding: 8px 15px;
-  border-radius: 9px;
-  background: var(--panel2);
+.eyebrow{color:var(--accent);font-weight:bold;font-size:.9rem}
+.hero h2{
+  font-size:clamp(1.7rem,4.4vw,2.7rem);
+  line-height:1.35;margin:8px 0 12px
 }
-.hero {
-  text-align: center;
-  padding: 42px 0 28px;
+.hero p{color:var(--muted);max-width:760px;margin:0}
+.btn,.download{
+  display:inline-block;text-decoration:none;font-weight:bold;
+  border-radius:10px;padding:10px 15px;cursor:pointer;
+  font-family:inherit
 }
-.hero h1 {
-  margin: 0 0 10px;
-  font-size: clamp(26px, 5vw, 38px);
+.btn{background:var(--accent);color:#071321;margin:16px 6px 0 0}
+.btn.alt{background:#243a57;color:var(--text);border:1px solid #3a5272}
+.stats{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:12px;margin-top:20px
 }
-.hero h1 span { color: var(--green); }
-.hero p {
-  max-width: 700px;
-  margin: auto;
-  color: var(--muted);
+.stat{
+  border:1px solid var(--line);border-radius:14px;
+  padding:13px;background:#101b2c
 }
-.search-area {
-  margin: 18px auto 28px;
-  display: grid;
-  grid-template-columns: 1fr 220px;
-  gap: 12px;
+.stat strong{display:block;font-size:1.05rem}
+.stat span{font-size:.84rem;color:var(--muted)}
+section{padding:22px 0}
+.section-head{
+  display:flex;align-items:end;justify-content:space-between;
+  gap:14px;flex-wrap:wrap;margin-bottom:15px
 }
-input, select {
-  width: 100%;
-  min-width: 0;
-  padding: 14px;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  color: white;
-  background: var(--panel);
-  font: inherit;
-  outline: none;
+.section-head h2{margin:0;font-size:1.5rem}
+.section-head p{margin:3px 0 0;color:var(--muted);font-size:.92rem}
+.searchbar{
+  display:grid;grid-template-columns:1fr 220px;
+  gap:10px;margin:17px 0 12px
 }
-input:focus, select:focus {
-  border-color: var(--green);
+.searchbar input,.searchbar select{
+  width:100%;padding:12px 14px;border-radius:11px;
+  border:1px solid #354966;background:#0f1a2c;
+  color:var(--text);font:inherit;min-width:0
 }
-select option { background: var(--panel); }
-.section-title {
-  font-size: 22px;
-  margin: 28px 0 15px;
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:17px}
+.filter{
+  background:#13213a;color:var(--muted);
+  border:1px solid #354966;padding:7px 13px;
+  border-radius:999px;cursor:pointer;font:inherit
 }
-.backup-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-  padding-bottom: 25px;
+.filter.active{
+  background:var(--accent);border-color:var(--accent);
+  color:#061321;font-weight:bold
 }
-.backup-card {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  padding: 19px;
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  background: linear-gradient(145deg, var(--panel), #101a2b);
-  transition: transform .2s, border-color .2s;
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(245px,1fr));
+  gap:14px
 }
-.backup-card:hover {
-  transform: translateY(-3px);
-  border-color: #3caa72;
+.card{
+  background:linear-gradient(180deg,#142139,#101a2b);
+  border:1px solid var(--line);border-radius:17px;
+  padding:18px;display:flex;flex-direction:column;
+  align-items:flex-start;min-height:255px
 }
-.card-top {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 8px;
+.icon{font-size:1.7rem}
+.tag{
+  font-size:.78rem;color:var(--accent);
+  background:#19314b;border-radius:6px;padding:2px 8px
 }
-.device-icon { font-size: 28px; }
-.tag {
-  display: inline-block;
-  background: #193a2b;
-  color: #86efac;
-  border-radius: 20px;
-  padding: 3px 9px;
-  font-size: 11px;
-  white-space: nowrap;
+.tag.pending{color:#ffd68a;background:#382d1d}
+.card h3{margin:9px 0 3px;font-size:1.08rem}
+.card p{color:var(--muted);font-size:.91rem;margin:0 0 8px}
+.meta{font-size:.8rem;color:#9eacc1;margin:0 0 12px}
+.download{
+  margin-top:auto;border:1px solid #3a5272;
+  background:#203650;padding:8px 13px
 }
-.backup-card h3 {
-  margin: 10px 0 7px;
-  font-size: 18px;
-  line-height: 1.6;
+.download:hover{border-color:var(--accent)}
+.download.disabled{
+  opacity:.55;cursor:not-allowed;color:var(--muted);
+  background:#172235
 }
-.backup-card p {
-  margin: 5px 0;
-  color: var(--muted);
-  font-size: 13px;
-  overflow-wrap: anywhere;
+.notice{
+  background:#101d30;border:1px solid var(--line);
+  border-right:4px solid var(--accent);
+  border-radius:12px;padding:14px 16px;color:var(--muted)
 }
-.card-meta {
-  margin: 12px 0 16px;
-  padding-top: 10px;
-  border-top: 1px solid var(--border);
-  font-size: 12px;
-  color: var(--muted);
-}
-.download-btn {
-  display: block;
-  margin-top: auto;
-  padding: 11px 14px;
-  text-align: center;
-  border-radius: 10px;
-  background: var(--green);
-  color: #052e16;
-  text-decoration: none;
-  font-weight: bold;
-}
-.download-btn:hover { filter: brightness(1.08); }
-.info-box {
-  margin: 8px 0 30px;
-  padding: 15px 17px;
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  background: #111c2d;
-  color: var(--muted);
-  font-size: 13px;
-}
-.empty {
-  display: none;
-  padding: 25px;
-  margin-bottom: 25px;
-  text-align: center;
-  border: 1px dashed var(--border);
-  border-radius: 12px;
-  color: var(--muted);
-}
+.small{font-size:.84rem;color:var(--muted)}
+.empty{display:none;color:var(--muted);padding:20px 0}
 
-/* قسم التواصل أسفل الصفحة */
-.site-footer {
-  margin-top: 20px;
-  padding: 35px 0 18px;
-  background: #101a2b;
-  border-top: 3px solid var(--green);
+/* الفوتر */
+footer{
+  border-top:1px solid var(--line);margin-top:20px;
+  padding:24px 0 30px;color:var(--muted);font-size:.9rem
 }
-.footer-content {
-  max-width: 760px;
-  margin: auto;
-  text-align: center;
+.footer-row{
+  display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap
 }
-.footer-content h2 {
-  margin: 0 0 6px;
-  font-size: 24px;
+.footer-row a{color:var(--accent);text-decoration:none}
+
+/* أزرار التواصل أسفل الصفحة */
+.contact-box{
+  text-align:center;
+  padding:24px;
+  background:linear-gradient(120deg,#14243b,#101b2d);
+  border-right:4px solid var(--green)
 }
-.footer-content > p {
-  margin: 5px 0;
-  color: var(--muted);
-  font-size: 14px;
+.contact-box h2{
+  margin:0 0 5px;
+  color:var(--text);
+  font-size:1.45rem
 }
-.contact-links {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 14px;
-  margin: 22px 0;
+.contact-box > p{
+  margin:0;
+  color:var(--muted);
+  font-size:.92rem
 }
-.contact-link {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 14px;
-  border-radius: 13px;
-  color: white;
-  text-decoration: none;
-  text-align: right;
-  transition: transform .2s, filter .2s;
+.contact-buttons{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+  max-width:650px;
+  margin:22px auto 4px
 }
-.contact-link:hover {
-  transform: translateY(-3px);
-  filter: brightness(1.08);
+.contact-btn{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:15px;
+  border:1px solid #ffffff20;
+  border-radius:14px;
+  text-decoration:none;
+  color:white;
+  text-align:right;
+  transition:transform .2s,filter .2s
 }
-.contact-link svg {
-  width: 30px;
-  height: 30px;
-  fill: currentColor;
-  flex-shrink: 0;
+.contact-btn:hover{
+  transform:translateY(-3px);
+  filter:brightness(1.1)
 }
-.contact-link span {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
+.contact-btn svg{
+  display:block;
+  width:32px;
+  height:32px;
+  fill:currentColor;
+  flex-shrink:0
 }
-.contact-link strong { font-size: 14px; }
-.contact-link small {
-  font-size: 11px;
-  opacity: .9;
+.contact-btn span{
+  display:flex;
+  flex-direction:column;
+  line-height:1.7
 }
-.whatsapp { background: #168a49; }
-.messenger { background: #0866ff; }
-.footer-tip {
-  padding: 12px;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  color: #c1cede;
-  font-size: 12px;
+.contact-btn strong{font-size:.95rem}
+.contact-btn small{font-size:.76rem;opacity:.9}
+.contact-whatsapp{background:#168a49}
+.contact-messenger{background:#0866ff}
+.contact-tip{
+  margin-top:18px;
+  font-size:.8rem;
+  color:var(--muted)
 }
-.footer-bottom {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-top: 25px;
-  padding-top: 16px;
-  border-top: 1px solid var(--border);
-  color: var(--muted);
-  font-size: 12px;
-}
-.footer-bottom p { margin: 0; }
-.footer-bottom a {
-  color: white;
-  text-decoration: none;
-}
-@media (max-width: 850px) {
-  .backup-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-@media (max-width: 560px) {
-  .search-area { grid-template-columns: 1fr; }
-  .backup-grid { grid-template-columns: 1fr; }
-  .hero { padding-top: 30px; }
-  .contact-links { grid-template-columns: 1fr; }
-  .footer-bottom {
-    flex-direction: column;
-    text-align: center;
-  }
+@media(max-width:620px){
+  .searchbar{grid-template-columns:1fr}
+  .stats{grid-template-columns:1fr}
+  .top{align-items:flex-start}
+  nav{width:100%}
+  .hero{padding-top:22px}
+  .contact-buttons{grid-template-columns:1fr}
+  .contact-box{padding:20px 14px}
 }
 </style>
 </head>
 
 <body>
-
 <header>
-  <div class="container nav">
-    <a class="logo" href="../index.html">Online<span>4Tech</span></a>
-    <a class="home" href="../index.html">🏠 الصفحة الرئيسية</a>
+  <div class="wrap top">
+    <div class="brand">
+      <div class="logo">📡</div>
+      <div>
+        <h1>Online4Tech</h1>
+        <p>مكتبة ملفات وشروحات Enigma2</p>
+      </div>
+    </div>
+
+    <nav>
+      <a href="../index.html">الرئيسية</a>
+      <a href="../index.html#downloads">التحميلات</a>
+      <a href="index.html" class="active">الباك أب</a>
+      <a href="../index.html#guides">الشروحات</a>
+    </nav>
   </div>
 </header>
 
-<main class="container">
+<main class="wrap">
+
   <section class="hero">
-    <h1>📦 ملفات <span>الباك أب</span></h1>
-    <p>اختار موديل جهازك، وابحث عن صورة النظام المناسبة، ثم انتقل إلى رابط التحميل.</p>
+    <div class="hero-box">
+      <div class="eyebrow">ONLINE4TECH BACKUP CENTER</div>
+      <h2>مكتبة الباك أب لأجهزة Vu+</h2>
+      <p>
+        كل نسخ الباك أب في مكان واحد. اختار موديل جهازك،
+        وراجع اسم الصورة وإصدارها وتاريخ الملف قبل التحميل.
+      </p>
+
+      <a class="btn" href="#backup-list">تصفّح الباك أب</a>
+      <a class="btn alt" href="../index.html">الرجوع للرئيسية</a>
+
+      <div class="stats">
+        <div class="stat">
+          <strong>VU+ Zero 4K</strong>
+          <span>نسخ احتياطية للجهاز</span>
+        </div>
+        <div class="stat">
+          <strong>VU+ Uno 4K SE</strong>
+          <span>EGAMI وOpenATV وPure2</span>
+        </div>
+        <div class="stat">
+          <strong>أجهزة Vu+ أخرى</strong>
+          <span>قابلة لإضافة روابط جديدة</span>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section aria-label="البحث والتصفية">
-    <div class="search-area">
+  <section id="backup-list">
+    <div class="section-head">
+      <div>
+        <h2>تحميل نسخ الباك أب</h2>
+        <p>ابحث باسم الجهاز أو الصورة، أو استخدم الفلاتر.</p>
+      </div>
+      <span class="small">الروابط المتاحة فقط هي القابلة للتحميل</span>
+    </div>
+
+    <div class="searchbar">
       <input
-        id="searchInput"
+        id="search"
         type="search"
-        placeholder="🔎 ابحث باسم الجهاز أو النظام..."
-        aria-label="البحث عن ملف باك أب"
+        placeholder="ابحث عن الجهاز أو الصورة أو الإصدار..."
+        aria-label="البحث عن باك أب"
       >
-      <select id="deviceFilter" aria-label="تصفية حسب الجهاز">
+
+      <select id="device" aria-label="فلترة حسب الجهاز">
         <option value="all">كل الأجهزة</option>
         <option value="zero">VU+ Zero 4K</option>
         <option value="uno">VU+ Uno 4K SE</option>
         <option value="duo">VU+ Duo 4K</option>
-        <option value="other">مكتبة صور أخرى</option>
+        <option value="other">أجهزة Vu+ أخرى</option>
       </select>
+    </div>
+
+    <div class="filters">
+      <button class="filter active" data-filter="all" type="button">كل الأجهزة</button>
+      <button class="filter" data-filter="zero" type="button">Zero 4K</button>
+      <button class="filter" data-filter="uno" type="button">Uno 4K SE</button>
+      <button class="filter" data-filter="duo" type="button">Duo 4K</button>
+      <button class="filter" data-filter="other" type="button">أجهزة أخرى</button>
+    </div>
+
+    <div class="grid" id="file-list">
+
+      <article class="card" data-device="zero">
+        <span class="icon">📦</span>
+        <span class="tag">باك أب متاح</span>
+        <h3>VU+ Zero 4K — OpenATV 7.5.1</h3>
+        <p>نسخة باك أب لجهاز VU+ Zero 4K بنظام OpenATV.</p>
+        <div class="meta">التاريخ: 26 مارس 2026 • ZIP</div>
+        <a class="download"
+           href="https://www.mediafire.com/file/n69s61im02ijoxb/openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip/file"
+           target="_blank" rel="noopener noreferrer">تحميل الباك أب</a>
+      </article>
+
+      <article class="card" data-device="uno">
+        <span class="icon">📦</span>
+        <span class="tag">باك أب متاح</span>
+        <h3>VU+ Uno 4K SE — EGAMI 11.0 R21</h3>
+        <p>نسخة باك أب بنظام EGAMI 11.0 R21.</p>
+        <div class="meta">التاريخ: 22 أغسطس 2026 • ZIP</div>
+        <a class="download"
+           href="https://www.mediafire.com/file/b650mz4s93d12dr/egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip/file"
+           target="_blank" rel="noopener noreferrer">تحميل الباك أب</a>
+      </article>
+
+      <article class="card" data-device="uno">
+        <span class="icon">📦</span>
+        <span class="tag">باك أب متاح</span>
+        <h3>VU+ Uno 4K SE — OpenATV 7.5.1</h3>
+        <p>نسخة باك أب بنظام OpenATV 7.5.1 بصيغة USB.</p>
+        <div class="meta">التاريخ: 5 أغسطس 2026 • 17:01 • ZIP</div>
+        <a class="download"
+           href="https://www.mediafire.com/file/rtlhobp5ys0uzdo/openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip/file"
+           target="_blank" rel="noopener noreferrer">تحميل الباك أب</a>
+      </article>
+
+      <article class="card" data-device="uno">
+        <span class="icon">📦</span>
+        <span class="tag">باك أب متاح</span>
+        <h3>VU+ Uno 4K SE — Pure2 7.6</h3>
+        <p>نسخة باك أب بنظام Pure2 7.6 بصيغة USB.</p>
+        <div class="meta">التاريخ: 5 أغسطس 2026 • 17:41 • ZIP</div>
+        <a class="download"
+           href="https://www.mediafire.com/file/ibngfj4ekxxha0a/pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip/file"
+           target="_blank" rel="noopener noreferrer">تحميل الباك أب</a>
+      </article>
+
+      <article class="card" data-device="duo">
+        <span class="icon">📦</span>
+        <span class="tag pending">الرابط قيد الإضافة</span>
+        <h3>VU+ Duo 4K</h3>
+        <p>أضف هنا نسخ الباك أب المتوافقة مع جهاز VU+ Duo 4K.</p>
+        <div class="meta">الصورة والإصدار: يُضافان لاحقًا</div>
+        <button class="download disabled" type="button" disabled>
+          رابط التحميل غير متوفر
+        </button>
+      </article>
+
+      <article class="card" data-device="other">
+        <span class="icon">🛰️</span>
+        <span class="tag">مكتبة خارجية</span>
+        <h3>باك أب لأجهزة Vu+ المختلفة</h3>
+        <p>افتح المكتبة الخارجية وابحث عن الموديل المطابق لجهازك.</p>
+        <div class="meta">المصدر: Dreambox4U</div>
+        <a class="download"
+           href="https://www.dreambox4u.com/downloads/images/vuplus/backup/"
+           target="_blank" rel="noopener noreferrer">فتح مكتبة الباك أب</a>
+      </article>
+
+      <article class="card" data-device="other">
+        <span class="icon">📁</span>
+        <span class="tag pending">خانة لإضافة رابط</span>
+        <h3>باك أب جديد</h3>
+        <p>يمكن استبدال هذه البطاقة باسم الجهاز وإصدار الصورة ورابط التحميل الجديد.</p>
+        <div class="meta">الموديل: يُضاف لاحقًا</div>
+        <button class="download disabled" type="button" disabled>
+          أضف رابط التحميل لاحقًا
+        </button>
+      </article>
+
+    </div>
+
+    <p class="empty" id="empty">
+      مفيش نتائج مطابقة. جرّب كلمة بحث تانية أو اختار جهاز مختلف.
+    </p>
+  </section>
+
+  <section>
+    <div class="notice">
+      <b>تنبيه مهم:</b>
+      اتأكد من موديل الجهاز وإصدار الصورة قبل استعادة الباك أب.
+      احتفظ بنسخة من إعداداتك الحالية، واستخدم ملفات مخصصة لموديل جهازك.
     </div>
   </section>
 
-  <h2 class="section-title">⬇️ ملفات التحميل المتاحة</h2>
-
-  <section class="backup-grid" id="backupGrid">
-
-    <article class="backup-card" data-device="zero">
-      <div class="card-top">
-        <span class="device-icon">📡</span>
-        <span class="tag">VU+ Zero 4K</span>
-      </div>
-      <h3>OpenATV 7.5.1</h3>
-      <p>نسخة باك أب لجهاز VU+ Zero 4K.</p>
-      <div class="card-meta">
-        🗓️ تاريخ النسخة: 26 مارس 2026
-      </div>
-      <a class="download-btn"
-         href="https://www.mediafire.com/file/n69s61im02ijoxb/openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip/file"
-         target="_blank" rel="noopener noreferrer">
-        ⬇️ تحميل الباك أب
-      </a>
-    </article>
-
-    <article class="backup-card" data-device="uno">
-      <div class="card-top">
-        <span class="device-icon">📡</span>
-        <span class="tag">VU+ Uno 4K SE</span>
-      </div>
-      <h3>EGAMI 11.0 R21</h3>
-      <p>ملف باك أب لنظام EGAMI.</p>
-      <div class="card-meta">
-        🗓️ تاريخ النسخة: 22 أغسطس 2026
-      </div>
-      <a class="download-btn"
-         href="https://www.mediafire.com/file/b650mz4s93d12dr/egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip/file"
-         target="_blank" rel="noopener noreferrer">
-        ⬇️ تحميل الباك أب
-      </a>
-    </article>
-
-    <article class="backup-card" data-device="uno">
-      <div class="card-top">
-        <span class="device-icon">📡</span>
-        <span class="tag">VU+ Uno 4K SE</span>
-      </div>
-      <h3>OpenATV 7.5.1</h3>
-      <p>ملف باك أب لنظام OpenATV.</p>
-      <div class="card-meta">
-        🗓️ تاريخ النسخة: 5 أغسطس 2026 — 17:01
-      </div>
-      <a class="download-btn"
-         href="https://www.mediafire.com/file/rtlhobp5ys0uzdo/openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip/file"
-         target="_blank" rel="noopener noreferrer">
-        ⬇️ تحميل الباك أب
-      </a>
-    </article>
-
-    <article class="backup-card" data-device="uno">
-      <div class="card-top">
-        <span class="device-icon">📡</span>
-        <span class="tag">VU+ Uno 4K SE</span>
-      </div>
-      <h3>Pure2 7.6</h3>
-      <p>ملف باك أب لنظام Pure2.</p>
-      <div class="card-meta">
-        🗓️ تاريخ النسخة: 5 أغسطس 2026 — 17:41
-      </div>
-      <a class="download-btn"
-         href="https://www.mediafire.com/file/ibngfj4ekxxha0a/pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip/file"
-         target="_blank" rel="noopener noreferrer">
-        ⬇️ تحميل الباك أب
-      </a>
-    </article>
-
-    <article class="backup-card" data-device="duo">
-      <div class="card-top">
-        <span class="device-icon">📡</span>
-        <span class="tag">VU+ Duo 4K</span>
-      </div>
-      <h3>ملفات الباك أب</h3>
-      <p>سيتم إضافة روابط التحميل الخاصة بالجهاز عند توفرها.</p>
-      <div class="card-meta">ℹ️ رابط تحميل مباشر غير مضاف حاليًا</div>
-      <span class="download-btn" style="background:#344256;color:#dce5ef">
-        ⏳ قريبًا
-      </span>
-    </article>
-
-    <article class="backup-card" data-device="other">
-      <div class="card-top">
-        <span class="device-icon">🗂️</span>
-        <span class="tag">مكتبة خارجية</span>
-      </div>
-      <h3>Dreambox4U — صور أجهزة Vu+</h3>
-      <p>افتح المكتبة الخارجية للبحث عن صور الأنظمة والملفات المتاحة.</p>
-      <div class="card-meta">🌐 مكتبة تحميل خارجية</div>
-      <a class="download-btn"
-         href="https://www.dreambox4u.com/downloads/images/vuplus/backup/"
-         target="_blank" rel="noopener noreferrer">
-        🌐 فتح مكتبة الملفات
-      </a>
-    </article>
-
-  </section>
-
-  <div class="empty" id="emptyMessage">
-    😕 مفيش نتائج مطابقة للبحث. جرّب اسم جهاز أو نظام مختلف.
-  </div>
-
-  <div class="info-box">
-    ⚠️ <strong>مهم:</strong>
-    اتأكد من موديل جهازك قبل تحميل أو تثبيت أي ملف. روابط التحميل بتفتح مواقع خارجية، وقد تختلف طريقة التثبيت حسب الجهاز وصورة النظام.
-  </div>
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-content">
+  <!-- قسم التواصل الجديد -->
+  <section id="contact">
+    <div class="notice contact-box">
       <h2>💬 تواصل مع Online4Tech</h2>
-      <p>عندك استفسار أو محتاج مساعدة؟ اختار وسيلة التواصل المناسبة ليك.</p>
+      <p>محتاج مساعدة أو عندك استفسار؟ اختار وسيلة التواصل المناسبة ليك.</p>
 
-      <div class="contact-links">
-        <a class="contact-link whatsapp"
+      <div class="contact-buttons">
+
+        <a class="contact-btn contact-whatsapp"
            href="https://wa.me/201092978131"
-           target="_blank" rel="noopener noreferrer"
+           target="_blank"
+           rel="noopener noreferrer"
            aria-label="التواصل عبر واتساب">
+
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.1 1.6 5.9L.2 24l6.5-1.7a11.8 11.8 0 0 0 5.4 1.3h.1C18.7 23.6 24 18.3 24 11.8c0-3.1-1.2-6.1-3.5-8.3ZM12.1 21.6c-1.7 0-3.4-.5-4.8-1.4l-.4-.2-3.9 1 1-3.8-.3-.4a9.7 9.7 0 1 1 8.4 4.8Zm5.3-7.3c-.3-.2-1.7-.8-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.2-.4-2.3-1.4-.8-.7-1.4-1.6-1.6-1.9-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6-.1-.2-.7-1.7-.9-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.2 3.2c.2.2 2.2 3.4 5.4 4.7.8.4 1.4.6 1.9.7.8.3 1.5.2 2 .1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.5-.4Z"/>
           </svg>
+
           <span>
-            <strong>واتساب</strong>
-            <small>راسلنا مباشرة</small>
+            <strong>تواصل عبر واتساب</strong>
+            <small>راسلنا مباشرة على 01092978131</small>
           </span>
         </a>
 
-        <a class="contact-link messenger"
+        <a class="contact-btn contact-messenger"
            href="https://m.me/ahmad.m.romeh"
-           target="_blank" rel="noopener noreferrer"
+           target="_blank"
+           rel="noopener noreferrer"
            aria-label="التواصل عبر ماسنجر">
+
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M12 0C5.4 0 0 4.9 0 11c0 3.5 1.8 6.6 4.7 8.6V24l4.3-2.4c1 .3 2 .4 3 .4 6.6 0 12-4.9 12-11S18.6 0 12 0Zm1.2 14.8-3.1-3.3-6 3.3 6.6-7 3.2 3.3 5.9-3.3-6.6 7Z"/>
           </svg>
+
           <span>
-            <strong>ماسنجر</strong>
-            <small>ابعتلنا رسالة على فيسبوك</small>
+            <strong>راسلنا على ماسنجر</strong>
+            <small>ابعت رسالتك من خلال فيسبوك</small>
           </span>
         </a>
+
       </div>
 
-      <div class="footer-tip">
-        💡 نصيحة: اختار ملف الباك أب المطابق لموديل جهازك قبل التحميل.
+      <div class="contact-tip">
+        📌 اتأكد من موديل جهازك واسم الصورة قبل طلب الدعم الفني.
       </div>
     </div>
+  </section>
 
-    <div class="footer-bottom">
-      <p>© <span id="copyrightYear"></span> Online4Tech — جميع الحقوق محفوظة</p>
-      <a href="../index.html">🏠 الرجوع للصفحة الرئيسية</a>
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <div>
+      <b>Online4Tech</b><br>
+      مكتبة ملفات وشروحات أجهزة Enigma2
+    </div>
+    <div>
+      <a href="https://www.facebook.com/ahmad.m.romeh/"
+         target="_blank"
+         rel="noopener noreferrer">صفحة التواصل على فيسبوك</a>
     </div>
   </div>
 </footer>
 
 <script>
-(function () {
-  const searchInput = document.getElementById("searchInput");
-  const deviceFilter = document.getElementById("deviceFilter");
-  const cards = Array.from(document.querySelectorAll(".backup-card"));
-  const emptyMessage = document.getElementById("emptyMessage");
+const search = document.getElementById('search');
+const device = document.getElementById('device');
+const cards = [...document.querySelectorAll('#file-list .card')];
+const buttons = [...document.querySelectorAll('.filter')];
+const empty = document.getElementById('empty');
 
-  function filterBackups() {
-    const query = searchInput.value.trim().toLowerCase();
-    const device = deviceFilter.value;
-    let visibleCount = 0;
+let selected = 'all';
 
-    cards.forEach(function (card) {
-      const text = card.textContent.toLowerCase();
-      const matchesText = text.includes(query);
-      const matchesDevice =
-        device === "all" || card.dataset.device === device;
-      const visible = matchesText && matchesDevice;
+function applyFilters(){
+  const query = search.value.trim().toLowerCase();
+  const kind = device.value === 'all' ? selected : device.value;
+  let count = 0;
 
-      card.style.display = visible ? "flex" : "none";
-      if (visible) visibleCount++;
-    });
+  cards.forEach(card => {
+    const matchesText = card.innerText.toLowerCase().includes(query);
+    const matchesDevice = kind === 'all' || card.dataset.device === kind;
+    const visible = matchesText && matchesDevice;
 
-    emptyMessage.style.display = visibleCount ? "none" : "block";
-  }
+    card.style.display = visible ? 'flex' : 'none';
 
-  searchInput.addEventListener("input", filterBackups);
-  deviceFilter.addEventListener("change", filterBackups);
+    if(visible) count++;
+  });
 
-  document.getElementById("copyrightYear").textContent =
-    new Date().getFullYear();
-})();
+  empty.style.display = count ? 'none' : 'block';
+
+  buttons.forEach(button => {
+    button.classList.toggle(
+      'active',
+      button.dataset.filter === selected
+    );
+  });
+}
+
+search.addEventListener('input', applyFilters);
+
+device.addEventListener('change', () => {
+  selected = device.value;
+  applyFilters();
+});
+
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    selected = button.dataset.filter;
+    device.value = 'all';
+    applyFilters();
+  });
+});
+
+applyFilters();
 </script>
-
 </body>
 </html>
