@@ -1,33 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
 <title id="title">OnLine4Tech — خليك دايما اونلاين</title>
-<desc id="desc">شعار تقني بخلفية كحلي داكنة، حرف O أبيض بداخله دائرة حمراء، مثلث أحمر فوق i، رقم 4 أزرق، وطبق استقبال فضائي.</desc>
+<desc id="desc">شعار Online4Tech بخلفية شفافة، حروف بيضاء بتحديد كحلي، دائرة حمراء داخل O، مثلث أحمر فوق i، رقم 4 أزرق، وطبق استقبال فضائي، وتحته السلوغان.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07182f"/><stop offset=".55" stop-color="#020b1a"/><stop offset="1" stop-color="#09254b"/></linearGradient>
- <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#d5deeb"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dbe6f4"/></linearGradient>
  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08d1f4"/><stop offset="1" stop-color="#0872ff"/></linearGradient>
  <linearGradient id="red" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff424b"/><stop offset="1" stop-color="#d90020"/></linearGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+ <filter id="shadow" x="-15%" y="-20%" width="130%" height="145%"><feGaussianBlur in="SourceAlpha" stdDeviation="2.5" result="blur"/><feOffset dy="2" result="off"/><feComponentTransfer><feFuncA type="linear" slope=".8"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="900" height="220" rx="12" fill="url(#bg)"/>
-<ellipse cx="450" cy="102" rx="350" ry="65" fill="#0b55a0" opacity=".12" filter="url(#glow)"/>
 <!-- Satellite dish and signal -->
 <g fill="none" stroke="url(#blue)" stroke-width="5" stroke-linecap="round">
  <path d="M108 29 A22 22 0 0 1 130 51"/><path d="M105 14 A38 38 0 0 1 145 54"/><path d="M102 1 A51 51 0 0 1 158 57"/>
 </g>
 <g transform="translate(82 24) rotate(-24 22 20)">
- <path d="M0 5 Q22 -5 43 5 Q39 28 17 39 Q4 25 0 5Z" fill="url(#silver)"/>
- <path d="M7 8 Q22 2 35 8 Q30 22 17 30 Q10 21 7 8Z" fill="#07182f"/>
- <path d="M18 34 L11 47" stroke="#d9e5f5" stroke-width="5" stroke-linecap="round"/>
+ <path d="M0 5 Q22 -5 43 5 Q39 28 17 39 Q4 25 0 5Z" fill="url(#silver)" stroke="#0b2343" stroke-width="3"/>
+ <path d="M7 8 Q22 2 35 8 Q30 22 17 30 Q10 21 7 8Z" fill="#0b2343"/>
+ <path d="M18 34 L11 47" stroke="#0b2343" stroke-width="5" stroke-linecap="round"/>
 </g>
-<!-- O with red target center -->
-<text x="34" y="126" font-family="Arial,Helvetica,sans-serif" font-size="106" font-style="italic" font-weight="900" fill="url(#silver)">O</text>
-<circle cx="81" cy="91" r="20" fill="url(#red)"/>
-<text x="101" y="126" font-family="Arial,Helvetica,sans-serif" font-size="92" font-style="italic" font-weight="900" letter-spacing="-5" fill="url(#silver)">nLine</text>
-<!-- red triangular i dot -->
-<path d="M222 27 L251 43 L220 58Z" fill="url(#red)"/>
-<text x="435" y="126" font-family="Arial,Helvetica,sans-serif" font-size="110" font-style="italic" font-weight="900" letter-spacing="-4" fill="url(#blue)">4</text>
-<text x="495" y="126" font-family="Arial,Helvetica,sans-serif" font-size="92" font-style="italic" font-weight="900" letter-spacing="-4" fill="url(#silver)">Tech</text>
-<path d="M160 150 H740" stroke="#8db9e8" stroke-opacity=".55" stroke-width="1.5"/>
-<path d="M214 180 H300 M600 180 H686" stroke="url(#blue)" stroke-width="3" stroke-linecap="round"/>
-<text x="450" y="191" text-anchor="middle" direction="rtl" font-family="Tahoma,Arial,sans-serif" font-size="29" font-weight="800" fill="url(#silver)">خليك دايما اونلاين</text>
+<!-- Connected wordmark: no separators -->
+<g filter="url(#shadow)" paint-order="stroke fill" stroke="#0b2343" stroke-width="2.8" stroke-linejoin="round">
+ <text x="34" y="126" font-family="Arial,Helvetica,sans-serif" font-size="106" font-style="italic" font-weight="900" fill="url(#silver)">O</text>
+ <circle cx="81" cy="91" r="20" fill="url(#red)" stroke="#0b2343" stroke-width="2.8"/>
+ <text x="101" y="126" font-family="Arial,Helvetica,sans-serif" font-size="92" font-style="italic" font-weight="900" letter-spacing="-5" fill="url(#silver)">nLine</text>
+ <path d="M222 27 L251 43 L220 58Z" fill="url(#red)" stroke="#0b2343" stroke-width="2"/>
+ <text x="435" y="126" font-family="Arial,Helvetica,sans-serif" font-size="110" font-style="italic" font-weight="900" letter-spacing="-4" fill="url(#blue)">4</text>
+ <text x="495" y="126" font-family="Arial,Helvetica,sans-serif" font-size="92" font-style="italic" font-weight="900" letter-spacing="-4" fill="url(#silver)">Tech</text>
+</g>
+<path d="M64 151 Q360 164 742 151" fill="none" stroke="url(#blue)" stroke-width="7" stroke-linecap="round"/>
+<path d="M214 180 H300 M600 180 H686" stroke="url(#blue)" stroke-width="3.5" stroke-linecap="round"/>
+<text x="450" y="193" text-anchor="middle" direction="rtl" font-family="Tahoma,Arial,sans-serif" font-size="30" font-weight="900" fill="#ffffff" stroke="#0b2343" stroke-width="3" paint-order="stroke fill">خليك دايما اونلاين</text>
 </svg>
