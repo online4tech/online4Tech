@@ -1,78 +1,511 @@
 
-<!-- أزرار التواصل المباشر -->
-<div class="contact-float">
-  <a
-    class="contact-btn whatsapp"
-    href="https://wa.me/201092978131"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="تواصل معنا على واتساب"
-    title="راسلنا على واتساب"
-  >
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.1 1.6 5.9L.2 24l6.5-1.7a11.8 11.8 0 0 0 5.4 1.3h.1C18.7 23.6 24 18.3 24 11.8c0-3.1-1.2-6.1-3.5-8.3ZM12.1 21.6c-1.7 0-3.4-.5-4.8-1.4l-.4-.2-3.9 1 1-3.8-.3-.4a9.7 9.7 0 1 1 8.4 4.8Zm5.3-7.3c-.3-.2-1.7-.8-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.2-.4-2.3-1.4-.8-.7-1.4-1.6-1.6-1.9-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6-.1-.2-.7-1.7-.9-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.2 3.2c.2.2 2.2 3.4 5.4 4.7.8.4 1.4.6 1.9.7.8.3 1.5.2 2 .1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.5-.4Z"/>
-    </svg>
-    <span>واتساب</span>
-  </a>
-
-  <a
-    class="contact-btn messenger"
-    href="https://m.me/ahmad.m.romeh"
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="راسلنا على ماسنجر"
-    title="راسلنا على ماسنجر"
-  >
-    <svg viewBox="0 0 24 24" aria-hidden="true">
-      <path d="M12 0C5.4 0 0 4.9 0 11c0 3.5 1.8 6.6 4.7 8.6V24l4.3-2.4c1 .3 2 .4 3 .4 6.6 0 12-4.9 12-11S18.6 0 12 0Zm1.2 14.8-3.1-3.3-6 3.3 6.6-7 3.2 3.3 5.9-3.3-6.6 7Z"/>
-    </svg>
-    <span>ماسنجر</span>
-  </a>
-</div>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1220">
+<title>ملفات الباك أب | Online4Tech</title>
+<meta name="description" content="تحميل ملفات الباك أب لأجهزة Vu+ مع روابط مباشرة وتحديثات الصور.">
 
 <style>
-.contact-float{
-  position:fixed;
-  left:18px;
-  bottom:20px;
-  z-index:9999;
-  display:flex;
-  flex-direction:column;
-  gap:10px;
+:root {
+  --bg: #0b1220;
+  --panel: #121d30;
+  --panel2: #18263c;
+  --text: #f1f5f9;
+  --muted: #aab8cc;
+  --green: #22c55e;
+  --blue: #1677ff;
+  --border: #29384e;
 }
-.contact-btn{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:8px;
-  min-width:125px;
-  padding:11px 15px;
-  border-radius:30px;
-  color:#fff;
-  text-decoration:none;
-  font-family:Tahoma,Arial,sans-serif;
-  font-size:14px;
-  font-weight:bold;
-  box-shadow:0 5px 18px #0005;
-  transition:transform .2s,opacity .2s;
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Tahoma, Arial, sans-serif;
+  line-height: 1.8;
 }
-.contact-btn:hover{
-  transform:translateY(-3px);
-  opacity:.92;
+a { color: inherit; }
+.container {
+  width: min(1100px, 92%);
+  margin: auto;
 }
-.contact-btn svg{
-  width:22px;
-  height:22px;
-  fill:currentColor;
-  flex-shrink:0;
+header {
+  background: #101a2b;
+  border-bottom: 1px solid var(--border);
+  padding: 15px 0;
 }
-.whatsapp{background:#20b95a}
-.messenger{background:#087cff}
-@media(max-width:480px){
-  .contact-float{left:12px;bottom:14px}
-  .contact-btn{min-width:0;padding:12px;border-radius:50%}
-  .contact-btn span{display:none}
-  .contact-btn svg{width:25px;height:25px}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.logo {
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.logo span { color: var(--green); }
+.nav a.home {
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 9px;
+  background: var(--panel2);
+}
+.hero {
+  text-align: center;
+  padding: 42px 0 28px;
+}
+.hero h1 {
+  margin: 0 0 10px;
+  font-size: clamp(26px, 5vw, 38px);
+}
+.hero h1 span { color: var(--green); }
+.hero p {
+  max-width: 700px;
+  margin: auto;
+  color: var(--muted);
+}
+.search-area {
+  margin: 18px auto 28px;
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: 12px;
+}
+input, select {
+  width: 100%;
+  min-width: 0;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: white;
+  background: var(--panel);
+  font: inherit;
+  outline: none;
+}
+input:focus, select:focus {
+  border-color: var(--green);
+}
+select option { background: var(--panel); }
+.section-title {
+  font-size: 22px;
+  margin: 28px 0 15px;
+}
+.backup-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  padding-bottom: 25px;
+}
+.backup-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 19px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: linear-gradient(145deg, var(--panel), #101a2b);
+  transition: transform .2s, border-color .2s;
+}
+.backup-card:hover {
+  transform: translateY(-3px);
+  border-color: #3caa72;
+}
+.card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+.device-icon { font-size: 28px; }
+.tag {
+  display: inline-block;
+  background: #193a2b;
+  color: #86efac;
+  border-radius: 20px;
+  padding: 3px 9px;
+  font-size: 11px;
+  white-space: nowrap;
+}
+.backup-card h3 {
+  margin: 10px 0 7px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.backup-card p {
+  margin: 5px 0;
+  color: var(--muted);
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.card-meta {
+  margin: 12px 0 16px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--muted);
+}
+.download-btn {
+  display: block;
+  margin-top: auto;
+  padding: 11px 14px;
+  text-align: center;
+  border-radius: 10px;
+  background: var(--green);
+  color: #052e16;
+  text-decoration: none;
+  font-weight: bold;
+}
+.download-btn:hover { filter: brightness(1.08); }
+.info-box {
+  margin: 8px 0 30px;
+  padding: 15px 17px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #111c2d;
+  color: var(--muted);
+  font-size: 13px;
+}
+.empty {
+  display: none;
+  padding: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  color: var(--muted);
+}
+
+/* قسم التواصل أسفل الصفحة */
+.site-footer {
+  margin-top: 20px;
+  padding: 35px 0 18px;
+  background: #101a2b;
+  border-top: 3px solid var(--green);
+}
+.footer-content {
+  max-width: 760px;
+  margin: auto;
+  text-align: center;
+}
+.footer-content h2 {
+  margin: 0 0 6px;
+  font-size: 24px;
+}
+.footer-content > p {
+  margin: 5px 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+.contact-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 22px 0;
+}
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  border-radius: 13px;
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  transition: transform .2s, filter .2s;
+}
+.contact-link:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.08);
+}
+.contact-link svg {
+  width: 30px;
+  height: 30px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+.contact-link span {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.contact-link strong { font-size: 14px; }
+.contact-link small {
+  font-size: 11px;
+  opacity: .9;
+}
+.whatsapp { background: #168a49; }
+.messenger { background: #0866ff; }
+.footer-tip {
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: #c1cede;
+  font-size: 12px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+}
+.footer-bottom p { margin: 0; }
+.footer-bottom a {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 850px) {
+  .backup-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 560px) {
+  .search-area { grid-template-columns: 1fr; }
+  .backup-grid { grid-template-columns: 1fr; }
+  .hero { padding-top: 30px; }
+  .contact-links { grid-template-columns: 1fr; }
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="logo" href="../index.html">Online<span>4Tech</span></a>
+    <a class="home" href="../index.html">🏠 الصفحة الرئيسية</a>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>📦 ملفات <span>الباك أب</span></h1>
+    <p>اختار موديل جهازك، وابحث عن صورة النظام المناسبة، ثم انتقل إلى رابط التحميل.</p>
+  </section>
+
+  <section aria-label="البحث والتصفية">
+    <div class="search-area">
+      <input
+        id="searchInput"
+        type="search"
+        placeholder="🔎 ابحث باسم الجهاز أو النظام..."
+        aria-label="البحث عن ملف باك أب"
+      >
+      <select id="deviceFilter" aria-label="تصفية حسب الجهاز">
+        <option value="all">كل الأجهزة</option>
+        <option value="zero">VU+ Zero 4K</option>
+        <option value="uno">VU+ Uno 4K SE</option>
+        <option value="duo">VU+ Duo 4K</option>
+        <option value="other">مكتبة صور أخرى</option>
+      </select>
+    </div>
+  </section>
+
+  <h2 class="section-title">⬇️ ملفات التحميل المتاحة</h2>
+
+  <section class="backup-grid" id="backupGrid">
+
+    <article class="backup-card" data-device="zero">
+      <div class="card-top">
+        <span class="device-icon">📡</span>
+        <span class="tag">VU+ Zero 4K</span>
+      </div>
+      <h3>OpenATV 7.5.1</h3>
+      <p>نسخة باك أب لجهاز VU+ Zero 4K.</p>
+      <div class="card-meta">
+        🗓️ تاريخ النسخة: 26 مارس 2026
+      </div>
+      <a class="download-btn"
+         href="https://www.mediafire.com/file/n69s61im02ijoxb/openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip/file"
+         target="_blank" rel="noopener noreferrer">
+        ⬇️ تحميل الباك أب
+      </a>
+    </article>
+
+    <article class="backup-card" data-device="uno">
+      <div class="card-top">
+        <span class="device-icon">📡</span>
+        <span class="tag">VU+ Uno 4K SE</span>
+      </div>
+      <h3>EGAMI 11.0 R21</h3>
+      <p>ملف باك أب لنظام EGAMI.</p>
+      <div class="card-meta">
+        🗓️ تاريخ النسخة: 22 أغسطس 2026
+      </div>
+      <a class="download-btn"
+         href="https://www.mediafire.com/file/b650mz4s93d12dr/egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip/file"
+         target="_blank" rel="noopener noreferrer">
+        ⬇️ تحميل الباك أب
+      </a>
+    </article>
+
+    <article class="backup-card" data-device="uno">
+      <div class="card-top">
+        <span class="device-icon">📡</span>
+        <span class="tag">VU+ Uno 4K SE</span>
+      </div>
+      <h3>OpenATV 7.5.1</h3>
+      <p>ملف باك أب لنظام OpenATV.</p>
+      <div class="card-meta">
+        🗓️ تاريخ النسخة: 5 أغسطس 2026 — 17:01
+      </div>
+      <a class="download-btn"
+         href="https://www.mediafire.com/file/rtlhobp5ys0uzdo/openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip/file"
+         target="_blank" rel="noopener noreferrer">
+        ⬇️ تحميل الباك أب
+      </a>
+    </article>
+
+    <article class="backup-card" data-device="uno">
+      <div class="card-top">
+        <span class="device-icon">📡</span>
+        <span class="tag">VU+ Uno 4K SE</span>
+      </div>
+      <h3>Pure2 7.6</h3>
+      <p>ملف باك أب لنظام Pure2.</p>
+      <div class="card-meta">
+        🗓️ تاريخ النسخة: 5 أغسطس 2026 — 17:41
+      </div>
+      <a class="download-btn"
+         href="https://www.mediafire.com/file/ibngfj4ekxxha0a/pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip/file"
+         target="_blank" rel="noopener noreferrer">
+        ⬇️ تحميل الباك أب
+      </a>
+    </article>
+
+    <article class="backup-card" data-device="duo">
+      <div class="card-top">
+        <span class="device-icon">📡</span>
+        <span class="tag">VU+ Duo 4K</span>
+      </div>
+      <h3>ملفات الباك أب</h3>
+      <p>سيتم إضافة روابط التحميل الخاصة بالجهاز عند توفرها.</p>
+      <div class="card-meta">ℹ️ رابط تحميل مباشر غير مضاف حاليًا</div>
+      <span class="download-btn" style="background:#344256;color:#dce5ef">
+        ⏳ قريبًا
+      </span>
+    </article>
+
+    <article class="backup-card" data-device="other">
+      <div class="card-top">
+        <span class="device-icon">🗂️</span>
+        <span class="tag">مكتبة خارجية</span>
+      </div>
+      <h3>Dreambox4U — صور أجهزة Vu+</h3>
+      <p>افتح المكتبة الخارجية للبحث عن صور الأنظمة والملفات المتاحة.</p>
+      <div class="card-meta">🌐 مكتبة تحميل خارجية</div>
+      <a class="download-btn"
+         href="https://www.dreambox4u.com/downloads/images/vuplus/backup/"
+         target="_blank" rel="noopener noreferrer">
+        🌐 فتح مكتبة الملفات
+      </a>
+    </article>
+
+  </section>
+
+  <div class="empty" id="emptyMessage">
+    😕 مفيش نتائج مطابقة للبحث. جرّب اسم جهاز أو نظام مختلف.
+  </div>
+
+  <div class="info-box">
+    ⚠️ <strong>مهم:</strong>
+    اتأكد من موديل جهازك قبل تحميل أو تثبيت أي ملف. روابط التحميل بتفتح مواقع خارجية، وقد تختلف طريقة التثبيت حسب الجهاز وصورة النظام.
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-content">
+      <h2>💬 تواصل مع Online4Tech</h2>
+      <p>عندك استفسار أو محتاج مساعدة؟ اختار وسيلة التواصل المناسبة ليك.</p>
+
+      <div class="contact-links">
+        <a class="contact-link whatsapp"
+           href="https://wa.me/201092978131"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="التواصل عبر واتساب">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.6 0 .3 5.3.3 11.8c0 2.1.6 4.1 1.6 5.9L.2 24l6.5-1.7a11.8 11.8 0 0 0 5.4 1.3h.1C18.7 23.6 24 18.3 24 11.8c0-3.1-1.2-6.1-3.5-8.3ZM12.1 21.6c-1.7 0-3.4-.5-4.8-1.4l-.4-.2-3.9 1 1-3.8-.3-.4a9.7 9.7 0 1 1 8.4 4.8Zm5.3-7.3c-.3-.2-1.7-.8-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.2-.4-2.3-1.4-.8-.7-1.4-1.6-1.6-1.9-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6-.1-.2-.7-1.7-.9-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.6s1.1 3 1.2 3.2c.2.2 2.2 3.4 5.4 4.7.8.4 1.4.6 1.9.7.8.3 1.5.2 2 .1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.5-.4Z"/>
+          </svg>
+          <span>
+            <strong>واتساب</strong>
+            <small>راسلنا مباشرة</small>
+          </span>
+        </a>
+
+        <a class="contact-link messenger"
+           href="https://m.me/ahmad.m.romeh"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="التواصل عبر ماسنجر">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 0C5.4 0 0 4.9 0 11c0 3.5 1.8 6.6 4.7 8.6V24l4.3-2.4c1 .3 2 .4 3 .4 6.6 0 12-4.9 12-11S18.6 0 12 0Zm1.2 14.8-3.1-3.3-6 3.3 6.6-7 3.2 3.3 5.9-3.3-6.6 7Z"/>
+          </svg>
+          <span>
+            <strong>ماسنجر</strong>
+            <small>ابعتلنا رسالة على فيسبوك</small>
+          </span>
+        </a>
+      </div>
+
+      <div class="footer-tip">
+        💡 نصيحة: اختار ملف الباك أب المطابق لموديل جهازك قبل التحميل.
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="copyrightYear"></span> Online4Tech — جميع الحقوق محفوظة</p>
+      <a href="../index.html">🏠 الرجوع للصفحة الرئيسية</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  const searchInput = document.getElementById("searchInput");
+  const deviceFilter = document.getElementById("deviceFilter");
+  const cards = Array.from(document.querySelectorAll(".backup-card"));
+  const emptyMessage = document.getElementById("emptyMessage");
+
+  function filterBackups() {
+    const query = searchInput.value.trim().toLowerCase();
+    const device = deviceFilter.value;
+    let visibleCount = 0;
+
+    cards.forEach(function (card) {
+      const text = card.textContent.toLowerCase();
+      const matchesText = text.includes(query);
+      const matchesDevice =
+        device === "all" || card.dataset.device === device;
+      const visible = matchesText && matchesDevice;
+
+      card.style.display = visible ? "flex" : "none";
+      if (visible) visibleCount++;
+    });
+
+    emptyMessage.style.display = visibleCount ? "none" : "block";
+  }
+
+  searchInput.addEventListener("input", filterBackups);
+  deviceFilter.addEventListener("change", filterBackups);
+
+  document.getElementById("copyrightYear").textContent =
+    new Date().getFullYear();
+})();
+</script>
+
 </body>
+</html>
