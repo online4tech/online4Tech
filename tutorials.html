@@ -7,104 +7,64 @@
 <meta name="description" content="دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.">
 <title>دليل الشرح | Online4Tech</title>
 <style>
-:root{--ink:#17243b;--muted:#64748b;--blue:#2563eb;--cyan:#06b6d4;--orange:#f59e0b;--line:#e2e8f0;--paper:#fff;--bg:#f4f7fb}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:radial-gradient(ellipse at 90% 0%,#e0f2fe 0,transparent 35%),linear-gradient(180deg,#f4f7fb 0,#fff 60%,#f8fafc 100%);color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.85}
-a{color:inherit;text-decoration:none}
-.wrap{width:min(1120px,92%);margin-inline:auto}
-header{position:sticky;top:0;z-index:5;background:#ffffffed;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
-.head{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:12px 0}
-.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:1.05rem;white-space:nowrap}
-.brandmark{display:grid;place-items:center;width:42px;height:42px;border-radius:14px;color:#fff;background:linear-gradient(135deg,var(--blue),var(--cyan));box-shadow:0 7px 18px #2563eb30;font-size:1.25rem}
-.brandcopy{display:flex;flex-direction:column;line-height:1.35}
-.brandcopy small{font-size:.72rem;color:var(--muted);font-weight:600}
-nav{display:flex;align-items:center;justify-content:flex-start;gap:8px;flex-wrap:wrap}
-nav a{padding:8px 12px;border-radius:11px;color:#475569;font-size:.92rem;font-weight:700;transition:background .2s,color .2s}
-nav a:hover,nav a[aria-current=page]{background:#eaf2ff;color:var(--blue)}
-.hero{padding:clamp(34px,6vw,66px) 0 24px}
-.eyebrow{display:inline-flex;align-items:center;gap:7px;padding:5px 13px;border-radius:999px;background:#e0f2fe;color:#075985;font-size:.86rem;font-weight:800}
-.eyebrow:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--orange)}
+:root{--ink:#17243b;--muted:#64748b;--blue:#3478f6;--cyan:#30b8c8;--orange:#ffad60;--pink:#ff7c9b;--line:#dce3ed;--paper:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:linear-gradient(180deg,#edf1f7 0,#f4f6fa 55%,#e9eef6 100%);color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.85}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin-inline:auto}
+header{position:sticky;top:0;z-index:10;background:#edf1f7ed;backdrop-filter:blur(14px);border-bottom:1px solid #dce3ed}
+.top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:12px 0}
+.site-logo-brand{display:flex;flex-direction:column;align-items:flex-start;gap:3px;flex:0 1 auto;min-width:0;text-decoration:none}
+.site-logo-brand img{display:block;width:clamp(190px,27vw,300px);max-width:100%;height:auto;object-fit:contain}
+.site-logo-brand .brand-slogan{display:block;margin-top:2px;color:#fff;font-family:Tahoma,Arial,sans-serif;font-size:clamp(.82rem,1.2vw,1rem);font-weight:900;letter-spacing:.3px;line-height:1.45;-webkit-text-stroke:.45px #e53945;text-shadow:1px 1px 0 #e53945,-1px 1px 0 #e53945,1px -1px 0 #e53945,-1px -1px 0 #e53945,0 2px 5px #0008}
+.site-logo-brand:focus-visible{outline:3px solid #3478f6;outline-offset:4px;border-radius:8px}
+.nav{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+.nav a{text-decoration:none;padding:10px 15px;border-radius:13px;color:#fff;font-size:.88rem;font-weight:bold;white-space:nowrap;border:1px solid #ffffff80;box-shadow:0 4px 0 #00000017,0 8px 15px #2a426b18;transition:transform .18s,filter .18s,box-shadow .18s}
+.nav a:hover{transform:translateY(-3px);filter:brightness(1.04);box-shadow:0 7px 0 #00000012,0 12px 20px #2a426b20}
+.nav a:active{transform:translateY(2px);box-shadow:0 1px 0 #00000015}
+.nav .nav-home{background:linear-gradient(135deg,#448cff,#2864df);box-shadow:0 4px 0 #204cb1,0 8px 15px #3478f626}
+.nav .nav-library{background:linear-gradient(135deg,#26b9b4,#168b91);box-shadow:0 4px 0 #107078,0 8px 15px #26b9b426}
+.nav .nav-store{background:linear-gradient(135deg,#ffb45f,#f08a36);box-shadow:0 4px 0 #c76b25,0 8px 15px #ffad6026}
+.nav .nav-tutorials{background:linear-gradient(135deg,#fa7f9d,#e75079);box-shadow:0 4px 0 #bb3b61,0 8px 15px #ff7c9b26}
+.nav .nav-contact{background:linear-gradient(135deg,#fa7f9d,#e75079);box-shadow:0 4px 0 #bb3b61,0 8px 15px #ff7c9b26}
+.hero{padding:clamp(34px,6vw,62px) 0 24px}
+.eyebrow{display:inline-flex;align-items:center;gap:7px;padding:5px 13px;border-radius:999px;background:#eaf8f8;color:#188c9a;border:1px solid #d3f0ee;font-size:.86rem;font-weight:800}
 .hero h1{font-size:clamp(2rem,5vw,3.35rem);line-height:1.25;letter-spacing:-.6px;margin:15px 0 12px;font-weight:900}
-.hero h1 span{background:linear-gradient(90deg,var(--blue),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
-.hero p{color:var(--muted);max-width:720px;margin:0;font-size:1.04rem}
+.hero h1 span{color:var(--blue)}.hero p{color:var(--muted);max-width:720px;margin:0;font-size:1.04rem}
 .section-label{font-size:.95rem;color:#475569;font-weight:800;margin:18px 0 12px}
 .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding:8px 0 30px}
 .card{position:relative;display:flex;flex-direction:column;align-items:flex-start;min-width:0;overflow:hidden;background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 12px 34px #17243b0a;transition:transform .2s,box-shadow .2s,border-color .2s}
-.card:before{content:"";position:absolute;inset:0 0 auto;height:4px;background:linear-gradient(90deg,var(--blue),var(--cyan),var(--orange));opacity:.9}
+.card:before{content:"";position:absolute;inset:0 0 auto;height:4px;background:linear-gradient(90deg,var(--blue),var(--cyan),var(--orange))}
 .card:hover{transform:translateY(-4px);border-color:#b7d3fa;box-shadow:0 18px 42px #2563eb15}
 .icon{display:grid;place-items:center;width:58px;height:58px;border-radius:18px;background:linear-gradient(135deg,#eaf2ff,#e0faff);font-size:1.9rem}
-.card h2{margin:15px 0 7px;font-size:1.3rem;font-weight:900}
-.card p{color:var(--muted);margin:0 0 20px;flex:1}
+.card h2{margin:15px 0 7px;font-size:1.3rem;font-weight:900}.card p{color:var(--muted);margin:0 0 20px;flex:1}
 .go{display:inline-flex;align-items:center;gap:7px;background:#edf4ff;color:#1d4ed8;padding:9px 14px;border-radius:12px;font-weight:800;font-size:.92rem}
-.card:nth-child(2) .go{background:#fff7e6;color:#a16207}
-.card:nth-child(3) .go{background:#e6fffb;color:#0f766e}
+.card:nth-child(2) .go{background:#fff7e6;color:#a16207}.card:nth-child(3) .go{background:#e6fffb;color:#0f766e}
 .subnav{margin:0 0 46px;padding:20px 22px;border:1px solid var(--line);background:#ffffffdc;border-radius:20px;box-shadow:0 8px 26px #17243b08}
-.subnav summary{cursor:pointer;font-weight:900;list-style-position:inside}
-.subnav summary::marker{color:var(--blue)}
+.subnav summary{cursor:pointer;font-weight:900;list-style-position:inside}.subnav summary::marker{color:var(--blue)}
 .subnav ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 24px;padding-right:22px;margin:16px 0 0}
-.subnav li::marker{color:var(--orange)}
-.subnav a{color:var(--blue);font-weight:700}
-.subnav a:hover{text-decoration:underline}
+.subnav li::marker{color:var(--orange)}.subnav a{color:var(--blue);font-weight:700}.subnav a:hover{text-decoration:underline}
 footer{border-top:1px solid var(--line);padding:23px 0;color:var(--muted);font-size:.9rem;background:#ffffffa8}
 .foot-inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-@media(max-width:760px){.head{align-items:flex-start;flex-direction:column;gap:10px}.head nav{width:100%;gap:5px}.head nav a{padding:7px 9px;font-size:.86rem}.grid{grid-template-columns:1fr;gap:14px}.card{padding:21px}.hero{padding-top:35px}.subnav ul{grid-template-columns:1fr}}
+@media(max-width:760px){.top{flex-wrap:wrap;justify-content:center}.site-logo-brand{margin-inline:auto;align-items:center}.site-logo-brand img{width:clamp(190px,68vw,260px)}.nav{width:100%;overflow-x:auto;justify-content:flex-start;gap:7px;padding:3px 0 8px}.nav a{padding:9px 11px;font-size:.82rem}.grid{grid-template-columns:1fr;gap:14px}.card{padding:21px}.hero{padding-top:35px}.subnav ul{grid-template-columns:1fr}}
 @media(min-width:761px) and (max-width:980px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.card:last-child{grid-column:1/-1}}
+@media(max-width:420px){.site-logo-brand img{width:190px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 </style>
 </head>
 <body>
-<header>
-  <div class="wrap head">
-    <a class="brand" href="index.html" aria-label="Online4Tech - الرئيسية">
-      <span class="brandmark" aria-hidden="true">O</span>
-      <span class="brandcopy">Online4Tech<small>التقنية أسهل</small></span>
-    </a>
-    <nav aria-label="التنقل الرئيسي">
-      <a href="index.html">الرئيسية</a>
-      <a href="library.html">مكتبة التحميل</a>
-      <a href="tutorials.html" aria-current="page">دليل الشرح</a>
-      <a href="guides.html">الشروحات التفصيلية</a>
-    </nav>
-  </div>
-</header>
+<header><div class="wrap top">
+<a class="brand site-logo-brand" href="./" aria-label="Online4Tech - خليك دايما اونلاين"><img src="assets/site-logo.svg" alt="Online4Tech — خليك دايما اونلاين"><span class="brand-slogan">خليك دايمًا أونلاين… التقنية أسهل</span></a>
+<nav class="nav" aria-label="القائمة الرئيسية"><a class="nav-home" href="./">⌂ الرئيسية</a><a class="nav-library" href="library.html">📂 مكتبة التحميل</a><a class="nav-store" href="store/index.html">🛍️ المتجر</a><a class="nav-tutorials" href="tutorials.html" aria-current="page">📘 شــــرح</a><a class="nav-contact" href="./#contact">✉️ الاتصال بنا</a></nav>
+</div></header>
 <main class="wrap">
-  <section class="hero">
-    <span class="eyebrow">دليل Online4Tech</span>
-    <h1>كل اللي محتاجه، <span>في مكان واحد</span></h1>
-    <p>اختار القسم المناسب ليك للوصول للبلجنز والسكينات والشروحات الخاصة بأجهزة Enigma2، بتصميم واضح وسهل من الموبايل أو الكمبيوتر.</p>
-  </section>
-  <h2 class="section-label">اختار القسم اللي محتاجه</h2>
-  <section class="grid" aria-label="الأقسام الرئيسية">
-    <a class="card" href="plugins/index.html">
-      <div class="icon" aria-hidden="true">🧩</div>
-      <h2>البلجن</h2>
-      <p>استعرض البلجنز المتاحة، وتعرّف على وظيفة كل بلجن وطريقة التثبيت والاستخدام.</p>
-      <span class="go">استكشف البلجن <span aria-hidden="true">←</span></span>
-    </a>
-    <a class="card" href="skins.html">
-      <div class="icon" aria-hidden="true">🎨</div>
-      <h2>الاسكين</h2>
-      <p>اكتشف السكينات وتعرّف على طرق تثبيتها وتخصيص واجهة جهاز Enigma2.</p>
-      <span class="go">افتح قسم الاسكين <span aria-hidden="true">←</span></span>
-    </a>
-    <a class="card" href="guides.html">
-      <div class="icon" aria-hidden="true">📘</div>
-      <h2>الشرح</h2>
-      <p>وصل للشروحات التفصيلية المرتبة حسب الموضوع، خطوة بخطوة وبطريقة سهلة.</p>
-      <span class="go">افتح صفحة الشرح <span aria-hidden="true">←</span></span>
-    </a>
-  </section>
-  <details class="subnav">
-    <summary>روابط سريعة للشروحات الفرعية</summary>
-    <ul>
-      <li><a href="guides.html#backup-install">تركيب الباك أب</a></li>
-      <li><a href="guides.html#diseqc">إعدادات الدايسك 4 مخرج</a></li>
-      <li><a href="guides.html#ajpanel-channels">إضافة واستعادة ملف القنوات من AJPanel</a></li>
-      <li><a href="guides.html#telnet-mobile">استخدام Telnet / SSH من الموبايل</a></li>
-      <li><a href="guides.html#plugins">قائمة البلجنز</a></li>
-    </ul>
-  </details>
+<section class="hero"><span class="eyebrow">دليل Online4Tech</span><h1>كل اللي محتاجه، <span>في مكان واحد</span></h1><p>اختار القسم المناسب ليك للوصول للبلجنز والسكينات والشروحات الخاصة بأجهزة Enigma2، بتصميم واضح وسهل من الموبايل أو الكمبيوتر.</p></section>
+<h2 class="section-label">اختار القسم اللي محتاجه</h2>
+<section class="grid" aria-label="الأقسام الرئيسية">
+<a class="card" href="plugins/index.html"><div class="icon" aria-hidden="true">🧩</div><h2>البلجن</h2><p>استعرض البلجنز المتاحة، وتعرّف على وظيفة كل بلجن وطريقة التثبيت والاستخدام.</p><span class="go">استكشف البلجن <span aria-hidden="true">←</span></span></a>
+<a class="card" href="skins.html"><div class="icon" aria-hidden="true">🎨</div><h2>الاسكين</h2><p>اكتشف السكينات وتعرّف على طرق تثبيتها وتخصيص واجهة جهاز Enigma2.</p><span class="go">افتح قسم الاسكين <span aria-hidden="true">←</span></span></a>
+<a class="card" href="guides.html"><div class="icon" aria-hidden="true">📘</div><h2>الشرح</h2><p>وصل للشروحات التفصيلية المرتبة حسب الموضوع، خطوة بخطوة وبطريقة سهلة.</p><span class="go">افتح صفحة الشرح <span aria-hidden="true">←</span></span></a>
+</section>
+<details class="subnav"><summary>روابط سريعة للشروحات الفرعية</summary><ul><li><a href="guides.html#backup-install">تركيب الباك أب</a></li><li><a href="guides.html#diseqc">إعدادات الدايسك 4 مخرج</a></li><li><a href="guides.html#ajpanel-channels">إضافة واستعادة ملف القنوات من AJPanel</a></li><li><a href="guides.html#telnet-mobile">استخدام Telnet / SSH من الموبايل</a></li><li><a href="guides.html#plugins">قائمة البلجنز</a></li></ul></details>
 </main>
 <footer><div class="wrap foot-inner"><span>© Online4Tech — التقنية أسهل</span><span>دليل الشروحات لأجهزة Enigma2</span></div></footer>
 </body>
