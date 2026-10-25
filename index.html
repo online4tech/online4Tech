@@ -1,330 +1,81 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Online4Tech | ملفات Enigma2</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Online4Tech — مكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2.">
+<title>Online4Tech | مكتبة Enigma2</title>
 <style>
-:root {
-  --bg:#080a0d;
-  --card:#111519;
-  --border:#292e33;
-  --blue:#20b5ed;
-  --text:#f4f7fa;
-  --muted:#9ba8b2;
-}
-* { box-sizing:border-box; }
-body {
-  margin:0;
-  background:var(--bg);
-  color:var(--text);
-  font-family:Arial,Tahoma,sans-serif;
-  line-height:1.7;
-}
-header {
-  padding:28px 18px;
-  text-align:center;
-  background:linear-gradient(135deg,#111b23,#080a0d);
-  border-bottom:1px solid var(--border);
-}
-header h1 { margin:0 0 8px; }
-header p { color:var(--muted); margin:0; }
-nav {
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
-  gap:10px;
-  padding:14px;
-  border-bottom:1px solid var(--border);
-}
-nav a {
-  color:var(--text);
-  text-decoration:none;
-  padding:7px 14px;
-  border-radius:8px;
-  background:#171c21;
-}
-nav a:hover { background:var(--blue); color:#06131a; }
-.container { width:min(1120px,94%); margin:auto; }
-section { padding:28px 0; }
-.section-head { margin-bottom:18px; }
-.section-head h2 { margin:0 0 5px; }
-.section-head p,.muted { color:var(--muted); margin:0; }
-.notice {
-  padding:14px;
-  margin:16px 0;
-  border:1px solid #33434d;
-  border-radius:10px;
-  color:#cbd6de;
-  background:#10171c;
-}
-.backup-grid {
-  display:grid;
-  grid-template-columns:repeat(4,minmax(0,1fr));
-  gap:12px;
-}
-.backup-card {
-  overflow:hidden;
-  display:flex;
-  flex-direction:column;
-  background:#0b0d10;
-  border:1px solid var(--border);
-  border-radius:16px;
-  min-width:0;
-  transition:transform .2s,border-color .2s;
-}
-.backup-card:hover {
-  transform:translateY(-3px);
-  border-color:#247da0;
-}
-.device-visual {
-  height:120px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:12px;
-  background:radial-gradient(ellipse at center,#1d2a30,#111417 72%);
-  border-bottom:1px solid #24292d;
-}
-.device-visual img {
-  max-width:90%;
-  max-height:95px;
-  object-fit:contain;
-}
-.device-icon { font-size:48px; opacity:.8; }
-.backup-info {
-  padding:11px 10px 10px;
-  display:flex;
-  flex-direction:column;
-  text-align:center;
-  flex:1;
-}
-.brand { color:var(--blue); font-size:11px; }
-.backup-info h3 { font-size:14px; margin:3px 0 10px; }
-.download {
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:8px;
-  width:100%;
-  padding:8px 10px;
-  margin-top:auto;
-  background:var(--blue);
-  color:#04151c;
-  font-size:12px;
-  font-weight:bold;
-  text-decoration:none;
-  border-radius:9px;
-}
-.count {
-  background:#087fae;
-  color:white;
-  min-width:30px;
-  padding:2px 9px;
-  border-radius:20px;
-}
-.download.disabled {
-  background:#252b30;
-  color:#aeb8bf;
-  cursor:not-allowed;
-}
-.content-grid {
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
-  gap:14px;
-}
-.info-card {
-  padding:18px;
-  background:var(--card);
-  border:1px solid var(--border);
-  border-radius:12px;
-}
-.info-card h3 { margin-top:0; }
-.info-card p { color:var(--muted); }
-footer {
-  text-align:center;
-  padding:25px 12px;
-  border-top:1px solid var(--border);
-  color:var(--muted);
-  margin-top:25px;
-}
-@media(max-width:850px) {
-  .backup-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
-}
-@media(max-width:600px) {
-  .backup-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:9px; }
-  .device-visual { height:100px; }
-  .backup-info { padding:9px 7px; }
-  .backup-info h3 { font-size:12px; }
-  .download { font-size:11px; padding:7px; }
-}
+:root{--bg:#0a1020;--panel:#111c30;--panel2:#172640;--text:#f4f7fc;--muted:#b7c4d8;--line:#2b3d59;--accent:#61c7ff;--green:#9fe3c0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at top,#152642 0,#0a1020 52%);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+header{border-bottom:1px solid var(--line);background:#0a1020cc}.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:17px 0;flex-wrap:wrap}.brand{display:flex;align-items:center;gap:12px}.logo{width:48px;height:48px;display:grid;place-items:center;border-radius:14px;background:#203b59;font-size:25px}.brand h1{font-size:1.35rem;margin:0}.brand p{margin:0;color:var(--muted);font-size:.86rem}
+nav{display:flex;gap:8px;flex-wrap:wrap}nav a{text-decoration:none;color:var(--muted);padding:7px 11px;border-radius:9px}nav a:hover{background:var(--panel2);color:white}
+.hero{padding:34px 0 22px}.hero-box{border:1px solid var(--line);border-radius:24px;padding:clamp(22px,5vw,44px);background:linear-gradient(120deg,#1b3656,#121e32 72%);position:relative;overflow:hidden}.eyebrow{color:var(--accent);font-weight:bold;font-size:.9rem}.hero h2{font-size:clamp(1.7rem,4.4vw,2.7rem);line-height:1.35;margin:8px 0 12px}.hero p{color:var(--muted);max-width:760px;margin:0}.btn{display:inline-block;text-decoration:none;background:var(--accent);color:#071321;font-weight:bold;border-radius:10px;padding:10px 16px;margin:16px 6px 0 0;border:0;cursor:pointer;font-family:inherit}.btn.alt{background:#243a57;color:var(--text);border:1px solid #3a5272}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.stat{border:1px solid var(--line);border-radius:14px;padding:13px;background:#101b2c}.stat strong{display:block;font-size:1.1rem}.stat span{font-size:.84rem;color:var(--muted)}
+section{padding:22px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:15px}.section-head h2{margin:0;font-size:1.5rem}.section-head p{margin:3px 0 0;color:var(--muted);font-size:.92rem}
+.searchbar{display:grid;grid-template-columns:1fr 210px;gap:10px;margin:17px 0 12px}.searchbar input,.searchbar select{width:100%;padding:12px 14px;border-radius:11px;border:1px solid #354966;background:#0f1a2c;color:var(--text);font:inherit;min-width:0}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:17px}.filter{background:#13213a;color:var(--muted);border:1px solid #354966;padding:7px 13px;border-radius:999px;cursor:pointer;font:inherit}.filter.active{background:var(--accent);border-color:var(--accent);color:#061321;font-weight:bold}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:14px}.card{background:linear-gradient(180deg,#142139,#101a2b);border:1px solid var(--line);border-radius:17px;padding:18px;display:flex;flex-direction:column;align-items:flex-start;min-height:235px}.icon{font-size:1.7rem}.tag{font-size:.78rem;color:var(--accent);background:#19314b;border-radius:6px;padding:2px 8px}.card h3{margin:9px 0 3px;font-size:1.08rem}.card p{color:var(--muted);font-size:.91rem;margin:0 0 8px}.meta{font-size:.8rem;color:#9eacc1;margin:0 0 12px}.download{margin-top:auto;display:inline-block;text-decoration:none;border:1px solid #3a5272;background:#203650;padding:8px 13px;border-radius:9px;font-weight:bold}.download:hover{border-color:var(--accent)}
+.guides{counter-reset:guide}.guide-card{min-height:190px}.guide-card ol{padding-right:20px;color:var(--muted);font-size:.9rem;margin:5px 0 12px}.notice{background:#101d30;border:1px solid var(--line);border-right:4px solid var(--accent);border-radius:12px;padding:14px 16px;color:var(--muted)}.empty{display:none;color:var(--muted);padding:20px 0}.small{font-size:.84rem;color:var(--muted)}
+footer{border-top:1px solid var(--line);margin-top:20px;padding:24px 0 36px;color:var(--muted);font-size:.9rem}.footer-row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:620px){.searchbar{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.top{align-items:flex-start}nav{width:100%}.hero{padding-top:22px}}
 </style>
 </head>
 <body>
-
 <header>
-  <h1>Online4Tech</h1>
-  <p>ملفات قنوات وباك أب وشروحات أجهزة Enigma2</p>
+ <div class="wrap top">
+  <div class="brand"><div class="logo">📡</div><div><h1>Online4Tech</h1><p>مكتبة ملفات وشروحات Enigma2</p></div></div>
+  <nav><a href="#downloads">التحميلات</a><a href="#channels">ملفات القنوات</a><a href="#backups">الباك أب</a><a href="#guides">الشروحات</a></nav>
+ </div>
 </header>
-
-<nav>
-  <a href="#backups">ملفات الباك أب</a>
-  <a href="#channels">ملفات القنوات</a>
-  <a href="#guides">الشروحات</a>
-</nav>
-
-<main class="container">
-
-<section id="backups">
-  <div class="section-head">
-    <h2>📦 ملفات الباك أب حسب الجهاز</h2>
-    <p>اختار موديل جهازك وشوف ملفات الباك أب المتاحة ليه.</p>
+<main class="wrap">
+ <section class="hero">
+  <div class="hero-box">
+   <div class="eyebrow">ENIGMA2 DOWNLOAD CENTER</div>
+   <h2>ملفات جهازك… منظمة وسهلة الوصول</h2>
+   <p>دور على ملف القنوات أو الباك أب أو الشرح المناسب لجهازك. راجع موديل الجهاز وإصدار الصورة وتاريخ الملف قبل التحميل.</p>
+   <a class="btn" href="#downloads">تصفّح مكتبة التحميل</a><a class="btn alt" href="#guides">ابدأ من الشروحات</a>
+   <div class="stats"><div class="stat"><strong>ملفات القنوات</strong><span>حسب الجهاز والقمر والتحديث</span></div><div class="stat"><strong>نسخ احتياطية</strong><span>حسب الموديل والصورة</span></div><div class="stat"><strong>شروحات مبسطة</strong><span>خطوات واضحة للمبتدئين</span></div></div>
   </div>
+ </section>
 
-  <div class="notice">
-    ⚠️ اتأكد من موديل الجهاز وإصدار الصورة قبل استعادة أي باك أب.
-    الباك أب غير المتوافق ممكن يسبب مشاكل في تشغيل الجهاز.
+ <section id="downloads">
+  <div class="section-head"><div><h2>مكتبة التحميل</h2><p>استخدم البحث والفلاتر للوصول للملف المطلوب.</p></div><span class="small">الملفات الحالية أمثلة توضيحية</span></div>
+  <div class="searchbar"><input id="search" type="search" placeholder="ابحث باسم الجهاز أو الملف أو إصدار الصورة..." aria-label="بحث"><select id="type" aria-label="فلترة النوع"><option value="all">كل الأقسام</option><option value="channels">ملفات القنوات</option><option value="backups">باك أب</option><option value="tools">أدوات مساعدة</option></select></div>
+  <div class="filters"><button class="filter active" data-filter="all">الكل</button><button class="filter" data-filter="channels">ملفات القنوات</button><button class="filter" data-filter="backups">الباك أب</button><button class="filter" data-filter="tools">أدوات مساعدة</button></div>
+  <div class="grid" id="file-list">
+   <article class="card" data-kind="channels"><span class="icon">🛰️</span><span class="tag">ملف قنوات وباك أب</span><h3>ملف قنوات Enigma2 — OpenATV</h3><p>نسخة ملف قنوات/باك أب مضغوطة بصيغة TAR.GZ من مستودع Online4Tech. راجع توافقها مع موديل جهازك وإصدار OpenATV قبل الاستعادة.</p><div class="meta">النظام: OpenATV • النوع: TAR.GZ</div><a class="download" href="https://github.com/online4tech/Enigma2-Chanal-List-BYRomeh/raw/refs/heads/main/channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz" target="_blank" rel="noopener noreferrer">تحميل ملف القنوات</a></article>
+   <article class="card" data-kind="backups"><span class="icon">📦</span><span class="tag">باك أب</span><h3>Backup — مثال</h3><p>اكتب موديل الجهاز واسم الصورة وإصدارها قبل التحميل.</p><div class="meta">الصورة: اكتب الإصدار • الجهاز: اكتب الموديل</div><a class="download" href="downloads/backups/README.txt">رابط تجريبي</a></article>
+   <article class="card" data-kind="tools"><span class="icon">🧰</span><span class="tag">أدوات مساعدة</span><h3>أدوات Enigma2 — مثال</h3><p>اكتب وظيفة الأداة وطريقة الاستخدام والتوافق.</p><div class="meta">التوافق: راجع وصف الملف</div><a class="download" href="downloads/README.txt">رابط تجريبي</a></article>
   </div>
+  <p class="empty" id="empty">مفيش ملفات مطابقة للبحث. جرّب كلمة تانية أو اختار قسم مختلف.</p>
+ </section>
 
-  <div class="backup-grid">
+ <section id="channels">
+  <div class="section-head"><div><h2>ملفات القنوات</h2><p>يفضل كتابة تاريخ التحديث والأقمار والأجهزة المتوافقة في كل بطاقة.</p></div></div>
+  <div class="notice">اقتراح لتنظيم الملفات: <b>اسم الجهاز → القمر/الأقمار → تاريخ التحديث</b>. ما تكتبش إن الملف متوافق مع جهاز إلا بعد التأكد منه.</div>
+ </section>
 
-    <article class="backup-card">
-      <div class="device-visual"><span class="device-icon">📺</span></div>
-      <div class="backup-info">
-        <span class="brand">VuPlus</span>
-        <h3>Vu+ Ultimo 4K</h3>
-        <span class="download disabled"><span class="count">0</span><span>لا يوجد ملف حاليًا</span></span>
-      </div>
-    </article>
+ <section id="backups">
+  <div class="section-head"><div><h2>ملفات الباك أب</h2><p>وضح موديل الجهاز وإصدار الصورة قبل ما الزائر ينزّل.</p></div></div>
+  <div class="notice">النسخة الاحتياطية ممكن تختلف من موديل للتاني حتى لو الأجهزة بتستخدم Enigma2. نبّه الزائر ياخد نسخة من إعداداته الحالية ويتأكد من التوافق قبل الاستعادة.</div>
+ </section>
 
-    ```html
-<div class="backup-grid">
-
- <article class="backup-card">
-      <div class="device-visual"><span class="device-icon">📺</span></div>
-      <div class="backup-info">
-        <span class="brand">VuPlus</span>
-        alt="Vu+ Zero 4K"
-        class="device-image"
-      >
-    </div>
-
-    <div class="backup-info">
-      <span class="brand">VuPlus</span>
-      <h3>Vu+ Zero 4K</h3>
-
-      <a
-        href="https://www.mediafire.com/file/n69s61im02ijoxb/openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip/file"
-        class="download"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span class="count">1</span>
-        <span>تحميل الباك أب</span>
-      </a>
-    </div>
-  </article>
-
-</div>
-```
-
-    <article class="backup-card">
-      <div class="device-visual"><span class="device-icon">📺</span></div>
-      <div class="backup-info">
-        <span class="brand">VuPlus</span>
-        <h3>Vu+ Uno 4K SE</h3>
-        <span class="download disabled"><span class="count">0</span><span>لا يوجد ملف حاليًا</span></span>
-      </div>
-    </article>
-
-    <article class="backup-card">
-      <div class="device-visual"><span class="device-icon">📺</span></div>
-      <div class="backup-info">
-        <span class="brand">VuPlus</span>
-        <h3>Vu+ Duo 4K SE</h3>
-        <span class="download disabled"><span class="count">0</span><span>لا يوجد ملف حاليًا</span></span>
-      </div>
-    </article>
-
-    <article class="backup-card">
-      <div class="device-visual"><span class="device-icon">📺</span></div>
-      <div class="backup-info">
-        <span class="brand">VuPlus</span>
-        <h3>Vu+ Zero HD</h3>
-        <span class="download disabled"><span class="count">0</span><span>لا يوجد ملف حاليًا</span></span>
-      </div>
-    </article>
-
-    <article class="backup-card">
-      <div class="device-visual"><span class="device-icon">📺</span></div>
-      <div class="backup-info">
-        <span class="brand">VuPlus</span>
-        <h3>Vu+ Uno 4K</h3>
-        <span class="download disabled"><span class="count">0</span><span>لا يوجد ملف حاليًا</span></span>
-      </div>
-    </article>
-
-    <article class="backup-card">
-      <div class="device-visual"><span class="device-icon">📺</span></div>
-      <div class="backup-info">
-        <span class="brand">VuPlus</span>
-        <h3>Vu+ Duo 4K</h3>
-        <span class="download disabled"><span class="count">0</span><span>لا يوجد ملف حاليًا</span></span>
-      </div>
-    </article>
-
-    <article class="backup-card">
-      <div class="device-visual"><span class="device-icon">📺</span></div>
-      <div class="backup-info">
-        <span class="brand">VuPlus</span>
-        <h3>Vu+ Solo 4K</h3>
-        <span class="download disabled"><span class="count">0</span><span>لا يوجد ملف حاليًا</span></span>
-      </div>
-    </article>
-
+ <section id="guides" class="guides">
+  <div class="section-head"><div><h2>مركز الشروحات</h2><p>أضف شرحًا جديدًا بتعديل النصوص والروابط في هذه البطاقات.</p></div></div>
+  <div class="grid">
+   <article class="card guide-card"><span class="icon">📘</span><span class="tag">للمبتدئين</span><h3>طريقة نقل ملف القنوات</h3><ol><li>تأكد من موديل الجهاز.</li><li>نزّل الملف المتوافق.</li><li>اتبع تعليمات الملف أو الشرح الخاص به.</li></ol><a class="download" href="guides/README.txt">ملف تعليمات تجريبي</a></article>
+   <article class="card guide-card"><span class="icon">🔄</span><span class="tag">للمبتدئين</span><h3>طريقة استعادة الباك أب</h3><ol><li>راجع موديل الجهاز وإصدار الصورة.</li><li>احتفظ بنسخة من إعداداتك.</li><li>اتبع خطوات الاستعادة المناسبة لجهازك.</li></ol><a class="download" href="guides/README.txt">ملف تعليمات تجريبي</a></article>
+   <article class="card guide-card"><span class="icon">⚙️</span><span class="tag">إعدادات</span><h3>مراجعة إعدادات Enigma2</h3><ol><li>راجع إعدادات الـ Tuner.</li><li>تأكد من توصيلات الدش وDiSEqC.</li><li>غيّر إعدادًا واحدًا كل مرة.</li></ol><a class="download" href="guides/README.txt">ملف تعليمات تجريبي</a></article>
   </div>
-</section>
-
-<section id="channels">
-  <div class="section-head">
-    <h2>🛰️ ملفات القنوات</h2>
-    <p>ملفات قنوات Enigma2 المتاحة للتحميل.</p>
-  </div>
-
-  <div class="content-grid">
-    <article class="info-card">
-      <h3>ملف قنوات وباك أب OpenATV</h3>
-      <p>ملف مضغوط بصيغة TAR.GZ من مستودع Online4Tech. راجع التوافق مع جهازك قبل الاستعادة.</p>
-      <a class="download" href="https://github.com/online4tech/Enigma2-Chanal-List-BYRomeh/raw/refs/heads/main/channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz" target="_blank" rel="noopener noreferrer">
-        <span>تحميل ملف القنوات</span><span>⬇</span>
-      </a>
-    </article>
-  </div>
-</section>
-
-<section id="guides">
-  <div class="section-head">
-    <h2>📘 الشروحات</h2>
-    <p>إرشادات تثبيت الملفات وتحديث أجهزة Enigma2.</p>
-  </div>
-  <div class="content-grid">
-    <article class="info-card">
-      <h3>تحديث ملف القنوات عبر SSH</h3>
-      <p>أضف هنا خطوات التحديث والأوامر الخاصة بالصورة المستخدمة على جهازك.</p>
-    </article>
-    <article class="info-card">
-      <h3>استعادة الباك أب</h3>
-      <p>أضف شرح الاستعادة المناسب لكل موديل وإصدار صورة.</p>
-    </article>
-  </div>
-</section>
-
+ </section>
+ <section><div class="notice"><b>تنبيه:</b> الروابط الموجودة حاليًا تجريبية وليست ملفات حقيقية. ارفع فقط الملفات التي تملك حق توزيعها، ولا ترفع كلمات مرور أو بيانات خاصة داخل المستودع العام.</div></section>
 </main>
-
-<footer>
-  <p>© Online4Tech — ملفات وشروحات Enigma2</p>
-</footer>
-
-</body>
-</html>
+<footer><div class="wrap footer-row"><div><b>Online4Tech</b><br>مكتبة ملفات وشروحات أجهزة Enigma2</div><div>أضف هنا رابط صفحة الدعم أو التواصل الرسمي.</div></div></footer>
+<script>
+const search=document.getElementById('search'),type=document.getElementById('type'),cards=[...document.querySelectorAll('#file-list .card')],buttons=[...document.querySelectorAll('.filter')],empty=document.getElementById('empty');let selected='all';
+function apply(){const q=search.value.trim().toLowerCase(),kind=type.value==='all'?selected:type.value;let count=0;cards.forEach(c=>{const okText=c.innerText.toLowerCase().includes(q),okKind=kind==='all'||c.dataset.kind===kind;c.style.display=okText&&okKind?'flex':'none';if(okText&&okKind)count++});empty.style.display=count?'none':'block';buttons.forEach(b=>b.classList.toggle('active',b.dataset.filter===selected))}
+search.addEventListener('input',apply);type.addEventListener('change',apply);buttons.forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.filter;type.value='all';apply()}));apply();
+</script>
+</body></html>
