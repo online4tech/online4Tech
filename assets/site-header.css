@@ -4,7 +4,7 @@
 .site-logo-brand .brand-slogan,header .wrap.head>.brand .brand-slogan,header .wrap.head>a:has(>img.logo) .brand-slogan{display:block;width:100%;margin-top:2px;text-align:right;color:#fff;font-family:Tahoma,Arial,sans-serif;font-size:clamp(.82rem,1.2vw,1rem);font-weight:900;letter-spacing:.3px;line-height:1.45;-webkit-text-stroke:.45px #e53945;text-shadow:1px 1px 0 #e53945,-1px 1px 0 #e53945,1px -1px 0 #e53945,-1px -1px 0 #e53945,0 2px 5px #0008}
 .site-logo-brand:focus-visible,header .wrap.head>.brand:focus-visible{outline:3px solid #3478f6;outline-offset:4px;border-radius:8px}
 /* Shared top-level header: brand first, main navigation below it. */
-header .wrap.top,header .wrap.head,.top-inner{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:10px;padding-top:10px;padding-bottom:10px}
+header .wrap,header .wrap.top,header .wrap.head,.top-inner{display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:10px;padding-top:10px;padding-bottom:10px}
 header .wrap.top>.site-logo-brand,header .wrap.head>.site-logo-brand,header .wrap.head>.brand,header .wrap.head>a:has(>img.logo),.top-inner>.site-logo-brand{align-self:flex-end}
 header .nav,header .site-main-nav{display:flex;align-items:center;justify-content:flex-start;flex-wrap:wrap;gap:8px;width:100%}
 @media(max-width:760px){
