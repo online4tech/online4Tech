@@ -72,7 +72,7 @@ footer{border-top:1px solid var(--line);margin-top:20px;padding:24px 0 36px;colo
  </section>
  <section><div class="notice"><b>تنبيه:</b> الروابط الموجودة حاليًا تجريبية وليست ملفات حقيقية. ارفع فقط الملفات التي تملك حق توزيعها، ولا ترفع كلمات مرور أو بيانات خاصة داخل المستودع العام.</div></section>
 </main>
-<footer><div class="wrap footer-row"><div><b>Online4Tech</b><br>مكتبة ملفات وشروحات أجهزة Enigma2</div><div>أضف هنا رابط صفحة الدعم أو التواصل الرسمي.</div></div></footer>
+<footer><div class="wrap footer-row"><div><b>Online4Tech</b><br>مكتبة ملفات وشروحات أجهزة Enigma2</div><div>https://www.facebook.com/ahmad.m.romeh/.</div></div></footer>
 <script>
 const search=document.getElementById('search'),type=document.getElementById('type'),cards=[...document.querySelectorAll('#file-list .card')],buttons=[...document.querySelectorAll('.filter')],empty=document.getElementById('empty');let selected='all';
 function apply(){const q=search.value.trim().toLowerCase(),kind=type.value==='all'?selected:type.value;let count=0;cards.forEach(c=>{const okText=c.innerText.toLowerCase().includes(q),okKind=kind==='all'||c.dataset.kind===kind;c.style.display=okText&&okKind?'flex':'none';if(okText&&okKind)count++});empty.style.display=count?'none':'block';buttons.forEach(b=>b.classList.toggle('active',b.dataset.filter===selected))}
