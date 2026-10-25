@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /backups/
+Sitemap: https://online4tech.github.io/online4Teh-DownLoad/sitemap.xml
