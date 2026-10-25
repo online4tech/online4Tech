@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="118" viewBox="0 0 560 118" role="img" aria-labelledby="title desc">
+<title id="title">Online4Tech — خليك دايما اونلاين</title><desc id="desc">شعار تقني باللون الكحلي والأزرق مع طبق استقبال وإشارة اتصال.</desc>
+<defs><linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#25c6e8"/><stop offset="1" stop-color="#2875f5"/></linearGradient></defs>
+<g transform="translate(8 15)" fill="none" stroke="url(#blue)" stroke-width="5" stroke-linecap="round"><path d="M12 40 A35 35 0 0 1 47 5"/><path d="M20 48 A48 48 0 0 1 60 8"/><path d="M28 56 A60 60 0 0 1 72 12"/></g>
+<g transform="translate(20 38)"><path d="M0 24 Q25 -1 52 2 Q45 31 17 42 Z" fill="url(#blue)"/><path d="M7 27 L45 5" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/><circle cx="50" cy="3" r="4" fill="#21304a"/></g>
+<text x="535" y="56" text-anchor="end" font-family="Arial,Tahoma,sans-serif" font-size="43" font-weight="800" letter-spacing="-1.5" fill="#21304a">Online<tspan fill="url(#blue)">4</tspan>Tech</text>
+<path d="M190 70 H370" stroke="#d7e7f7" stroke-width="1.5"/>
+<text x="535" y="99" text-anchor="end" font-family="Tahoma,Arial,sans-serif" font-size="24" font-weight="700" fill="#2875d8">خليك دايما اونلاين</text>
+<path d="M375 91 H405 M510 91 H535" stroke="url(#blue)" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
