@@ -29,11 +29,17 @@
   background:linear-gradient(135deg,#ffb45f,#f08a36)!important;
 }
 .site-main-nav a:nth-child(4),.nav a.nav-tutorials{
-  background:linear-gradient(135deg,#8b7cf6,#6652d9)!important;
+  background:linear-gradient(135deg,#ffb45f,#e87925)!important;
+  box-shadow:0 4px 0 #bd5d18,0 8px 15px #e8792526!important;
 }
 .site-main-nav a:last-child,.nav a.nav-contact{
   background:linear-gradient(135deg,#fa7f9d,#e75079)!important;
 }
+.nav a.nav-home{box-shadow:0 4px 0 #204cb1,0 8px 15px #3478f626!important}
+.nav a.nav-library{box-shadow:0 4px 0 #107078,0 8px 15px #26b9b426!important}
+.nav a.nav-store{box-shadow:0 4px 0 #c76b25,0 8px 15px #ffad6026!important}
+.nav a.nav-contact{box-shadow:0 4px 0 #bb3b61,0 8px 15px #ff7c9b26!important}
+.nav a.nav-tutorials:hover{filter:brightness(1.06)!important}
 .site-main-nav a:hover,.nav a:hover{
   color:#fff!important;-webkit-text-fill-color:#fff!important;
   filter:brightness(1.06);transform:translateY(-3px);
