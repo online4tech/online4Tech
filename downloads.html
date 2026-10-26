@@ -132,6 +132,15 @@ header.o4t-header{position:relative!important;top:auto!important;z-index:1000!im
   .quick-card { min-height: 130px; }
 }
 </style>
+
+<style id="downloads-three-cards-only-final">
+/* Keep only the three main category cards visible on the downloads page.
+   The hidden model groups remain in the DOM because the category modals use them. */
+header:empty{display:none!important}
+.quick-center{padding-top:24px!important;margin-top:0!important}
+.quick-center>.head{display:none!important}
+#downloads,#faq{display:none!important}
+</style>
 </head>
 <body><header></header>
 <section class="quick-center" aria-labelledby="quick-title"><div class="head"><div><span class="kicker">FAST ACCESS</span><h2 id="quick-title">اختار نوع الملفات</h2><p>اضغط على القسم المطلوب، واختار موديل جهازك من النافذة المنبثقة.</p></div></div><div class="quick-grid">
