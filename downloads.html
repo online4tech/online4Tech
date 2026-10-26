@@ -162,6 +162,19 @@ header:empty{display:none!important}
 .quick-center>.head{display:none!important}
 #downloads,#faq{display:none!important}
 </style>
+<style id="online4tech-downloads-final-polish">
+/* Final consistency layer: preserve all download content and keep the existing compact layout. */
+:root{color-scheme:dark}
+.quick-card,.device-card,.card,.feature,.trust article,.device-group,.search-panel{border-radius:18px!important;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.quick-card,.device-card,.card{background:linear-gradient(155deg,#11243a,#0b1727)!important;border:1px solid #29435f!important;box-shadow:0 12px 30px #0003!important}
+.quick-card:hover,.device-card:hover,.card:hover{transform:translateY(-3px);border-color:#67d2ff!important;box-shadow:0 18px 34px #0004!important}
+.quick-card:focus-visible,.device-card:focus-visible,.card a:focus-visible,.btn:focus-visible,.primary:focus-visible,.download:focus-visible{outline:3px solid #67d2ff!important;outline-offset:3px}
+.quick-card h2,.quick-card h3,.device-card h3,.card h2,.card h3{color:#f4f8ff}
+.quick-card p,.device-card p,.card p{color:#b8cbe0}
+.quick-card .btn,.device-card .btn,.card .btn{border-radius:11px}
+@media(max-width:600px){.quick-grid{gap:12px}.quick-card{min-height:122px;padding:18px}.device-card,.card{padding:15px}}
+@media(prefers-reduced-motion:reduce){.quick-card,.device-card,.card{transition:none}.quick-card:hover,.device-card:hover,.card:hover{transform:none}}
+</style>
 </head>
 <body><header></header>
 <section class="quick-center" aria-labelledby="quick-title"><div class="head"><div><span class="kicker">FAST ACCESS</span><h2 id="quick-title">اختار نوع الملفات</h2><p>اضغط على القسم المطلوب، واختار موديل جهازك من النافذة المنبثقة.</p></div></div><div class="quick-grid">
@@ -201,17 +214,5 @@ search.addEventListener('input',filterFiles);kind.addEventListener('change',filt
 </script>
 
 <script src="assets/site-header.js?v=4" defer></script>
-<style id="online4tech-downloads-final-polish">
-/* Final consistency layer: preserve all download content and keep the existing compact layout. */
-:root{color-scheme:dark}
-.quick-card,.device-card,.card,.feature,.trust article,.device-group,.search-panel{border-radius:18px!important;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
-.quick-card,.device-card,.card{background:linear-gradient(155deg,#11243a,#0b1727)!important;border:1px solid #29435f!important;box-shadow:0 12px 30px #0003!important}
-.quick-card:hover,.device-card:hover,.card:hover{transform:translateY(-3px);border-color:#67d2ff!important;box-shadow:0 18px 34px #0004!important}
-.quick-card:focus-visible,.device-card:focus-visible,.card a:focus-visible,.btn:focus-visible,.primary:focus-visible,.download:focus-visible{outline:3px solid #67d2ff!important;outline-offset:3px}
-.quick-card h2,.quick-card h3,.device-card h3,.card h2,.card h3{color:#f4f8ff}
-.quick-card p,.device-card p,.card p{color:#b8cbe0}
-.quick-card .btn,.device-card .btn,.card .btn{border-radius:11px}
-@media(max-width:600px){.quick-grid{gap:12px}.quick-card{min-height:122px;padding:18px}.device-card,.card{padding:15px}}
-@media(prefers-reduced-motion:reduce){.quick-card,.device-card,.card{transition:none}.quick-card:hover,.device-card:hover,.card:hover{transform:none}}
-</style>
+
 </body></html>
