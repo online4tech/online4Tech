@@ -83,8 +83,20 @@
     if (!document.getElementById('o4t-plugin-gallery-style')) {
       const css = document.createElement('style');
       css.id = 'o4t-plugin-gallery-style';
-      css.textContent = '.plugin-gallery-panel{margin:18px 0}.plugin-gallery-panel h2{margin:0 0 12px}.plugin-gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:14px}.plugin-gallery-item{margin:0;overflow:hidden;border:1px solid #29435f;border-radius:13px;background:#0b1727}.plugin-gallery-item a{display:block;cursor:zoom-in}.plugin-gallery-item img{display:block;width:100%;height:190px;object-fit:cover;background:#07111f}.plugin-gallery-item figcaption{padding:8px 10px;font-size:.8rem;overflow-wrap:anywhere;color:inherit}.plugin-gallery-status{color:#9fb1c8;font-size:.9rem}@media(max-width:520px){.plugin-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.plugin-gallery-item img{height:135px}}';
+      css.textContent = '.plugin-gallery-panel{margin:18px 0}.plugin-gallery-panel h2{margin:0 0 12px}.plugin-gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:12px;margin-top:14px}.plugin-gallery-item{margin:0;overflow:hidden;border:1px solid #29435f;border-radius:13px;background:#0b1727;aspect-ratio:1/1;min-width:0}.plugin-gallery-item a{display:flex;width:100%;height:100%;cursor:zoom-in;align-items:center;justify-content:center}.plugin-gallery-item img{display:block;width:100%;height:100%;object-fit:cover;background:#07111f;transition:transform .2s}.plugin-gallery-item a:hover img{transform:scale(1.04)}.plugin-gallery-item figcaption{display:none}.plugin-gallery-status{color:#9fb1c8;font-size:.9rem}.o4t-image-lightbox{position:fixed;inset:0;z-index:99999;display:none;align-items:center;justify-content:center;padding:64px 22px 24px;background:rgba(1,7,15,.94);backdrop-filter:blur(7px)}.o4t-image-lightbox.open{display:flex}.o4t-image-lightbox img{display:block;max-width:min(92vw,1400px);max-height:84vh;object-fit:contain;border-radius:10px;box-shadow:0 18px 60px #0009}.o4t-image-lightbox-close{position:absolute;top:16px;right:16px;min-width:44px;min-height:44px;padding:8px 14px;border:1px solid #6b8ba8;border-radius:12px;background:#10243a;color:#fff;font:700 15px Tahoma,Arial,sans-serif;cursor:pointer}.o4t-image-lightbox-close:hover{background:#1b3e5c;border-color:#67d2ff}.o4t-image-lightbox-hint{position:absolute;top:25px;left:18px;color:#d6e5f5;font:12px Tahoma,Arial,sans-serif}@media(max-width:520px){.plugin-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.plugin-gallery-item{border-radius:10px}.o4t-image-lightbox{padding:66px 10px 18px}.o4t-image-lightbox img{max-width:96vw;max-height:82vh}.o4t-image-lightbox-hint{display:none}}';
       document.head.appendChild(css);
+    }
+    function openPluginImage(url, name) {
+      let viewer = document.getElementById('o4t-image-lightbox');
+      if (!viewer) {
+        viewer = document.createElement('div'); viewer.id = 'o4t-image-lightbox'; viewer.className = 'o4t-image-lightbox'; viewer.setAttribute('role','dialog'); viewer.setAttribute('aria-modal','true'); viewer.setAttribute('aria-label','عرض صورة البلجن مكبرة');
+        viewer.innerHTML = '<button type="button" class="o4t-image-lightbox-close" aria-label="إغلاق الصورة">✕ إغلاق</button><span class="o4t-image-lightbox-hint">اضغط خارج الصورة أو Esc للإغلاق</span><img alt="">';
+        document.body.appendChild(viewer);
+        viewer.querySelector('button').addEventListener('click', () => { viewer.classList.remove('open'); viewer.querySelector('img').src = ''; });
+        viewer.addEventListener('click', event => { if (event.target === viewer) { viewer.classList.remove('open'); viewer.querySelector('img').src = ''; } });
+        document.addEventListener('keydown', event => { if (event.key === 'Escape' && viewer.classList.contains('open')) { viewer.classList.remove('open'); viewer.querySelector('img').src = ''; } });
+      }
+      const image = viewer.querySelector('img'); image.src = url; image.alt = name; viewer.classList.add('open'); viewer.querySelector('button').focus();
     }
     const grid = section.querySelector('.plugin-gallery-grid');
     const status = section.querySelector('.plugin-gallery-status');
@@ -109,8 +121,8 @@
           const figure = document.createElement('figure');
           figure.className = 'plugin-gallery-item';
           const link = document.createElement('a');
-          link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer';
-          link.setAttribute('aria-label', 'فتح صورة البلجن ' + name);
+          link.href = url; link.setAttribute('aria-label', 'تكبير صورة البلجن ' + name);
+          link.addEventListener('click', event => { event.preventDefault(); openPluginImage(url, name); });
           const img = document.createElement('img');
           img.src = url; img.alt = name; img.loading = 'lazy';
           link.appendChild(img);
