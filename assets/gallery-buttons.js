@@ -6,12 +6,12 @@ var allowed=/\.(png|jpe?g|gif|webp|avif|svg)$/i, checked={}, indexPromise=null;
 var style=document.createElement('style');style.textContent='.gallery-link{display:inline-flex;align-items:center;justify-content:center;margin:8px 0 0;padding:8px 12px;border:1px solid #315574;border-radius:11px;background:linear-gradient(145deg,#102a42,#0b1b2b);color:#8bdcff;font-weight:bold;font-size:.82rem;text-decoration:none;cursor:pointer}.gallery-link:hover{background:#173954;border-color:#67d2ff}.gallery-link[hidden]{display:none!important}';document.head.appendChild(style);
 function slugify(value){return String(value||'item').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'')||'item'}
 function getFileIndex(){
- if(!indexPromise)indexPromise=fetch(indexUrl).then(function(r){if(!r.ok)throw new Error('index unavailable');return r.json()}).then(function(data){if(!Array.isArray(data.files))throw new Error('invalid index');return data.files.map(function(f){return String(f.name||'').replace(/^\\/+/, '')})});
+ if(!indexPromise)indexPromise=fetch(indexUrl).then(function(r){if(!r.ok)throw new Error('index unavailable');return r.json()}).then(function(data){if(!Array.isArray(data.files))throw new Error('invalid index');return data.files.map(function(f){return String(f.name||'').replace(/^\/+/, '')})});
  return indexPromise;
 }
 function check(folder){
  if(checked[folder])return checked[folder];
- checked[folder]=getFileIndex().then(function(files){var prefix=folder.replace(/^\\/+|\\/+$/g,'')+'/';return files.some(function(path){return path.indexOf(prefix)===0&&allowed.test(path)})}).catch(function(){return null});
+ checked[folder]=getFileIndex().then(function(files){var prefix=folder.replace(/^\/+|\/+$/g,'')+'/';return files.some(function(path){return path.indexOf(prefix)===0&&allowed.test(path)})}).catch(function(){return null});
  return checked[folder];
 }
 function setup(node){
