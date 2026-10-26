@@ -125,6 +125,6 @@ const search=document.getElementById('pluginSearch'),cards=[...document.querySel
 function filterPlugins(){const q=search.value.trim().toLocaleLowerCase('ar');let visible=0;cards.forEach(card=>{const show=card.textContent.toLocaleLowerCase('ar').includes(q);card.hidden=!show;if(show)visible++});count.textContent=visible+' من '+cards.length+' بلجن';empty.style.display=visible?'none':'block'}
 search.addEventListener('input',filterPlugins);
 </script>
-<script src="../assets/gallery-buttons.js?v=4" defer></script>
+<script src="../assets/gallery-buttons.js?v=5" defer></script>
 <script src="../assets/site-header.js?v=5" defer></script>
 </body></html>
