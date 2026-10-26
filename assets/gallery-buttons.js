@@ -7,8 +7,20 @@ var style=document.createElement('style');style.textContent='.gallery-link{displ
 function slugify(value){return String(value||'item').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'')||'item'}
 function check(folder){
  if(checked[folder])return checked[folder];
- checked[folder]=fetch(api+folder.split('/').map(encodeURIComponent).join('/')+'?ref=main',{headers:{Accept:'application/vnd.github+json'}}).then(function(r){return r.ok?r.json():[]}).then(function(items){return Array.isArray(items)&&items.some(function(f){return f.type==='file'&&allowed.test(f.name)})}).catch(function(){return false});
+ checked[folder]=loadFolder(folder,new Set()).catch(function(){return false});
  return checked[folder];
+}
+function loadFolder(folder,seen){
+ if(seen.has(folder))return Promise.resolve(false);
+ seen.add(folder);
+ return fetch(api+folder.split('/').map(encodeURIComponent).join('/')+'?ref=main',{headers:{Accept:'application/vnd.github+json'}})
+  .then(function(r){return r.ok?r.json():[]})
+  .then(function(items){
+   if(!Array.isArray(items))return false;
+   if(items.some(function(f){return f.type==='file'&&allowed.test(f.name)}))return true;
+   var dirs=items.filter(function(f){return f.type==='dir'}).map(function(f){return f.path});
+   return dirs.reduce(function(p,dir){return p.then(function(found){return found?true:loadFolder(dir,seen)})},Promise.resolve(false));
+  });
 }
 function setup(node){
  if(node.dataset.galleryChecked==='1')return;
