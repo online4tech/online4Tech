@@ -51,4 +51,77 @@
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', buildHeader);
   else buildHeader();
+
+  function addPluginGallery() {
+    if (!/\/plugins\//i.test(window.location.pathname) || page === 'index.html') return;
+    const slug = page.replace(/\.html?$/i, '');
+    const folder = 'images/plugins/' + slug;
+    const main = document.querySelector('main');
+    if (!main) return;
+    let heading = Array.from(main.querySelectorAll('h2,h3')).find(el => /صور\s*البلجن/i.test(el.textContent || ''));
+    let section = heading && heading.closest('section, .panel, article');
+    if (!section) {
+      section = document.createElement('section');
+      section.className = 'panel plugin-gallery-panel';
+      section.innerHTML = '<h2>🖼️ صور البلجن</h2><p class="plugin-gallery-status">جاري تحميل صور البلجن…</p><div class="plugin-gallery-grid"></div>';
+      const hero = main.querySelector('.hero');
+      if (hero && hero.nextSibling) main.insertBefore(section, hero.nextSibling);
+      else if (hero) main.appendChild(section);
+      else main.appendChild(section);
+    } else {
+      let grid = section.querySelector('.plugin-gallery-grid');
+      if (!grid) {
+        const status = document.createElement('p');
+        status.className = 'plugin-gallery-status';
+        status.textContent = 'جاري تحميل صور البلجن…';
+        grid = document.createElement('div');
+        grid.className = 'plugin-gallery-grid';
+        section.appendChild(status);
+        section.appendChild(grid);
+      }
+    }
+    if (!document.getElementById('o4t-plugin-gallery-style')) {
+      const css = document.createElement('style');
+      css.id = 'o4t-plugin-gallery-style';
+      css.textContent = '.plugin-gallery-panel{margin:18px 0}.plugin-gallery-panel h2{margin:0 0 12px}.plugin-gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:14px}.plugin-gallery-item{margin:0;overflow:hidden;border:1px solid #29435f;border-radius:13px;background:#0b1727}.plugin-gallery-item a{display:block;cursor:zoom-in}.plugin-gallery-item img{display:block;width:100%;height:190px;object-fit:cover;background:#07111f}.plugin-gallery-item figcaption{padding:8px 10px;font-size:.8rem;overflow-wrap:anywhere;color:inherit}.plugin-gallery-status{color:#9fb1c8;font-size:.9rem}@media(max-width:520px){.plugin-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.plugin-gallery-item img{height:135px}}';
+      document.head.appendChild(css);
+    }
+    const grid = section.querySelector('.plugin-gallery-grid');
+    const status = section.querySelector('.plugin-gallery-status');
+    if (!grid || grid.dataset.loaded === '1') return;
+    grid.dataset.loaded = '1';
+    fetch('https://api.github.com/repos/online4tech/online4Tech/git/trees/main?recursive=1', {headers:{Accept:'application/vnd.github+json'}})
+      .then(response => {
+        if (!response.ok) throw new Error(response.status === 403 ? 'GitHub حدّ عدد الطلبات مؤقتًا.' : 'تعذر قراءة الصور من GitHub.');
+        return response.json();
+      })
+      .then(data => {
+        const prefix = folder + '/';
+        const files = (data.tree || []).filter(item => item.type === 'blob' && item.path.startsWith(prefix) && /\.(png|jpe?g|gif|webp|avif|svg)$/i.test(item.path));
+        if (!files.length) {
+          if (status) status.textContent = 'لسه مفيش صور مرفوعة للبلجن ده.';
+          return;
+        }
+        if (status) status.remove();
+        files.sort((a,b) => a.path.localeCompare(b.path)).forEach(file => {
+          const url = 'https://raw.githubusercontent.com/online4tech/online4Tech/main/' + file.path;
+          const name = file.path.slice(prefix.length);
+          const figure = document.createElement('figure');
+          figure.className = 'plugin-gallery-item';
+          const link = document.createElement('a');
+          link.href = url; link.target = '_blank'; link.rel = 'noopener noreferrer';
+          link.setAttribute('aria-label', 'فتح صورة البلجن ' + name);
+          const img = document.createElement('img');
+          img.src = url; img.alt = name; img.loading = 'lazy';
+          link.appendChild(img);
+          const caption = document.createElement('figcaption');
+          caption.textContent = name;
+          figure.appendChild(link); figure.appendChild(caption); grid.appendChild(figure);
+        });
+      })
+      .catch(error => { if (status) status.textContent = error.message + ' جرّب تحديث الصفحة بعد قليل.'; });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', addPluginGallery);
+  else addPluginGallery();
+
 })();
