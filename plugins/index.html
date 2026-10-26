@@ -114,12 +114,12 @@ footer{background:#050c16;border-top-color:#263d58}
 #pluginGrid .topic:hover p,#pluginGrid .topic:focus-visible p{opacity:1;max-height:none;transform:none}
 #pluginGrid .topic:hover .link,#pluginGrid .topic:focus-visible .link{opacity:1;max-height:none;padding:6px 11px}
 @media(hover:none),(max-width:650px){
- #pluginGrid .topic{grid-template-columns:minmax(0,1fr) 44px;grid-template-rows:auto auto auto auto;column-gap:12px;row-gap:8px;padding:14px}
- #pluginGrid .topic h2{grid-column:1;grid-row:1;padding:9px 11px}
- #pluginGrid .topic .icon{grid-column:2;grid-row:1;width:40px;height:40px}
- #pluginGrid .topic p{grid-column:1 / -1;grid-row:2;margin:0;opacity:1;max-height:none;overflow:visible;transform:none}
- #pluginGrid .topic .link{grid-column:1;grid-row:3;margin-top:0;justify-self:start}
- #pluginGrid .topic .gallery-link{grid-column:1;grid-row:4;justify-self:start;align-self:start}
+ #pluginGrid .topic{grid-template-columns:108px minmax(0,1fr) 40px;grid-template-rows:auto auto auto;column-gap:10px;row-gap:6px;padding:14px}
+ #pluginGrid .topic h2{grid-column:2;grid-row:1;padding:0;margin:0}
+ #pluginGrid .topic .icon{grid-column:3;grid-row:1 / span 2;width:40px;height:40px}
+ #pluginGrid .topic p{grid-column:2;grid-row:2;margin:0;opacity:1;max-height:none;overflow:visible;transform:none}
+ #pluginGrid .topic .link{grid-column:2;grid-row:3;margin-top:0;justify-self:start}
+ #pluginGrid .topic .gallery-link{grid-column:1;grid-row:1 / span 2;justify-self:start;align-self:center;position:relative;z-index:2;margin:0;white-space:nowrap}
 }
 @media(prefers-reduced-motion:reduce){#pluginGrid .topic,#pluginGrid .topic *{transition:none!important}}
 </style></head>
