@@ -23,7 +23,8 @@
     .o4t-head-inner{max-width:1240px;margin:0 auto;padding:15px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:nowrap}
     .o4t-brand{display:flex;flex-direction:column;align-items:flex-end;justify-content:center;text-decoration:none!important;flex:0 1 auto;min-width:0;max-width:100%;color:#fff!important}
     .o4t-brand img{display:block;width:clamp(260px,32vw,390px);max-width:100%;height:auto;max-height:112px;object-fit:contain;object-position:right center}
-    .o4t-brand-copy{display:none}\n    .o4t-brand-slogan{display:block;margin-top:3px;width:100%;text-align:center;font-family:Tahoma,Arial,sans-serif;font-size:clamp(13px,1.35vw,17px);font-weight:800;line-height:1.35;letter-spacing:.15px;color:#f4f7fb;text-shadow:0 1px 0 #000,0 0 8px #3b82f6;white-space:nowrap}
+    .o4t-brand-copy{display:none}
+    .o4t-brand-slogan{display:block;margin-top:3px;width:100%;text-align:center;font-family:Tahoma,Arial,sans-serif;font-size:clamp(13px,1.35vw,17px);font-weight:800;line-height:1.35;letter-spacing:.15px;color:#f4f7fb;text-shadow:0 1px 0 #000,0 0 8px #3b82f6;white-space:nowrap}
     .o4t-brand-name{display:none}
     .o4t-nav{display:flex;align-items:center;justify-content:flex-end;gap:7px;flex:1;flex-wrap:wrap}
     .o4t-nav a{color:#e8eef8!important;text-decoration:none!important;font-size:13px;font-weight:750;padding:10px 11px;border-radius:10px;white-space:nowrap;transition:background .2s,color .2s}
