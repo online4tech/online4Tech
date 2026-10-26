@@ -24,7 +24,7 @@ function setup(node){
   node.dataset.galleryChecked='1';node.dataset.galleryFolder=folder;node.dataset.galleryName=title;
   var shell=document.createElement('div');shell.className='topic-shell';node.parentNode.insertBefore(shell,node);shell.appendChild(node);node=shell;
  } else if(!folder&&/\/skins\.html$/.test(location.pathname)&&node.matches('article.card')){
-  folder='images/skins/'+slugify(title);node.dataset.galleryFolder=folder;node.dataset.galleryName=title;
+  folder='images/skins/'+slugify(title).replace(/-pli$/,'-openpli');node.dataset.galleryFolder=folder;node.dataset.galleryName=title;
  }
  if(!folder)return;
  node.dataset.galleryChecked='1';
