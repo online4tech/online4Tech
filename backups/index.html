@@ -4,9 +4,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Online4Tech — مكتبة باك أب وصور أنظمة Enigma2 لأجهزة Vu+.">
+<meta name="description" content="Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.">
 <meta name="theme-color" content="#07111f">
-<title>Online4Tech | مكتبة الباك أب</title>
+<title>Online4Tech | أجهزة الباك أب</title>
 
 <style>
 :root{
@@ -140,6 +140,21 @@ section{padding:22px 0}
 .small{font-size:.84rem;color:var(--muted)}
 .empty{display:none;color:var(--muted);padding:20px 0}
 
+.family-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;padding:10px 0 28px}
+.family-card{display:flex;flex-direction:column;overflow:hidden;text-decoration:none;background:linear-gradient(160deg,#172b46,#101a2b);border:1px solid #314966;border-radius:22px;min-width:0;box-shadow:0 16px 34px #0002;transition:transform .2s,border-color .2s,box-shadow .2s}
+.family-card:hover{transform:translateY(-5px);border-color:var(--accent);box-shadow:0 20px 40px #0003}
+.family-image{height:235px;display:flex;align-items:center;justify-content:center;padding:18px;background:radial-gradient(ellipse at center,#294867,#091321 78%);border-bottom:1px solid #2b3d59}
+.family-image img{width:100%;height:100%;object-fit:contain;display:block}
+.family-content{padding:22px;display:flex;flex-direction:column;align-items:flex-start;flex:1}
+.family-content .tag{margin-bottom:7px}
+.family-content h3{font-size:1.45rem;margin:0 0 7px}
+.family-content p{color:var(--muted);margin:0 0 18px}
+.family-content .download{margin-top:auto}
+.family-count{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 14px}
+.family-count span{font-size:.8rem;border:1px solid #344d6b;border-radius:999px;padding:4px 9px;color:#d4e4f8;background:#13243a}
+@media(max-width:680px){.family-grid{grid-template-columns:1fr}.family-image{height:205px}.family-content{padding:18px}}
+
+
 /* الفوتر */
 footer{
   border-top:1px solid var(--line);margin-top:20px;
@@ -257,198 +272,54 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 
   <section class="hero">
     <div class="hero-box">
-      <div class="eyebrow">ONLINE4TECH BACKUP CENTER</div>
-      <h2>مكتبة الباك أب لأجهزة Vu+</h2>
-      <p>
-        كل نسخ الباك أب في مكان واحد. اختار موديل جهازك،
-        وراجع اسم الصورة وإصدارها وتاريخ الملف قبل التحميل.
-      </p>
-
-      <a class="btn" href="#backup-list">تصفّح الباك أب</a>
+      <div class="eyebrow">ONLINE4TECH DEVICE CENTER</div>
+      <h2>مكتبة أجهزة الباك أب</h2>
+      <p>اختار الشركة المصنّعة علشان تستعرض موديلات الأجهزة والصور الخاصة بكل موديل، وتوصل بسرعة للصفحة المناسبة لجهازك.</p>
+      <a class="btn" href="#device-families">اختار نوع الجهاز</a>
       <a class="btn alt" href="../index.html">الرجوع للرئيسية</a>
-
       <div class="stats">
-        <div class="stat">
-          <strong>VU+ Zero 4K</strong>
-          <span>نسخ احتياطية للجهاز</span>
-        </div>
-        <div class="stat">
-          <strong>VU+ Uno 4K SE</strong>
-          <span>EGAMI وOpenATV وPure2</span>
-        </div>
-        <div class="stat">
-          <strong>أجهزة Vu+ أخرى</strong>
-          <span>قابلة لإضافة روابط جديدة</span>
-        </div>
+        <div class="stat"><strong>Vu+</strong><span>استعراض موديلات أجهزة Vu+</span></div>
+        <div class="stat"><strong>Dreambox</strong><span>استعراض موديلات أجهزة Dreambox</span></div>
+        <div class="stat"><strong>صور لكل موديل</strong><span>اختار الجهاز لعرض التفاصيل</span></div>
       </div>
     </div>
   </section>
 
-  <section id="backup-list">
+  <section id="device-families">
     <div class="section-head">
       <div>
-        <h2>تحميل نسخ الباك أب</h2>
-        <p>ابحث باسم الجهاز أو الصورة، أو استخدم الفلاتر.</p>
+        <h2>اختار الشركة المصنّعة</h2>
+        <p>الصفحتين متاحين هنا في شكل كروت، وكل كارت يفتح قائمة الموديلات الخاصة بالشركة.</p>
       </div>
-      <span class="small">الروابط المتاحة فقط هي القابلة للتحميل</span>
     </div>
 
-    <div class="searchbar">
-      <input
-        id="search"
-        type="search"
-        placeholder="ابحث عن الجهاز أو الصورة أو الإصدار..."
-        aria-label="البحث عن باك أب"
-      >
+    <div class="family-grid">
+      <a class="family-card" href="../devices/vuplus.html">
+        <div class="family-image">
+          <img src="https://static.wixstatic.com/media/46aad9_795a5d4f884e4fd5bec13297b056f2c5~mv2.png" alt="أجهزة Vu+ Enigma2" loading="lazy">
+        </div>
+        <div class="family-content">
+          <span class="tag">Vu+ · Enigma2</span>
+          <h3>أجهزة Vu+</h3>
+          <p>استعرض موديلات Vu+ وصور الأجهزة، وبعدها اختار الموديل المناسب لعرض صفحته.</p>
+          <div class="family-count"><span>موديلات متعددة</span><span>صور الأجهزة</span></div>
+          <span class="download">استعراض أجهزة Vu+ ←</span>
+        </div>
+      </a>
 
-      <select id="device" aria-label="فلترة حسب الجهاز">
-        <option value="all">كل الأجهزة</option>
-        <option value="zero">VU+ Zero 4K</option>
-        <option value="uno">VU+ Uno 4K SE</option>
-        <option value="duo">VU+ Duo 4K</option>
-        <option value="duose">VU+ Duo SE 4K</option>
-        <option value="other">أجهزة Vu+ أخرى</option>
-      </select>
+      <a class="family-card" href="../devices/dreambox.html">
+        <div class="family-image">
+          <img src="https://cdn11.bigcommerce.com/s-nzq3uug1hn/images/stencil/1280x1280/products/964/3639/2540_5__04373.1728577480.jpg?c=1%3Fimbypass%3Don" alt="أجهزة Dreambox Enigma2" loading="lazy">
+        </div>
+        <div class="family-content">
+          <span class="tag">Dreambox · Enigma2</span>
+          <h3>أجهزة Dreambox</h3>
+          <p>شوف موديلات Dreambox وصورها، وافتح صفحة أي موديل لمراجعة التفاصيل المتاحة.</p>
+          <div class="family-count"><span>موديلات متعددة</span><span>صور الأجهزة</span></div>
+          <span class="download">استعراض أجهزة Dreambox ←</span>
+        </div>
+      </a>
     </div>
-
-    <div class="filters">
-      <button class="filter active" data-filter="all" type="button">كل الأجهزة</button>
-      <button class="filter" data-filter="zero" type="button">Zero 4K</button>
-      <button class="filter" data-filter="uno" type="button">Uno 4K SE</button>
-      <button class="filter" data-filter="duo" type="button">Duo 4K</button>
-      <button class="filter" data-filter="duose" type="button">Duo SE 4K</button>
-      <button class="filter" data-filter="other" type="button">أجهزة أخرى</button>
-    </div>
-
-    <div class="grid" id="file-list">
-
-      <article class="card" data-device="zero">
-        <span class="icon">📦</span>
-        <span class="tag">باك أب متاح</span>
-        <h3>VU+ Zero 4K — OpenATV 7.5.1</h3>
-        <p>نسخة باك أب لجهاز VU+ Zero 4K بنظام OpenATV.</p>
-        <div class="meta">التاريخ: 26 مارس 2026 • ZIP</div>
-        <a class="download"
-           href="https://www.mediafire.com/file/n69s61im02ijoxb/openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip/file"
-           target="_blank" rel="noopener noreferrer">تحميل الباك أب</a>
-      </article>
-
-      <article class="card" data-device="uno">
-        <span class="icon">📦</span>
-        <span class="tag">باك أب متاح</span>
-        <h3>VU+ Uno 4K SE — EGAMI 11.0 R21</h3>
-        <p>نسخة باك أب بنظام EGAMI 11.0 R21.</p>
-        <div class="meta">التاريخ: 22 أغسطس 2026 • ZIP</div>
-        <a class="download"
-           href="https://www.mediafire.com/file/b650mz4s93d12dr/egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip/file"
-           target="_blank" rel="noopener noreferrer">تحميل الباك أب</a>
-      </article>
-
-      <article class="card" data-device="uno">
-        <span class="icon">📦</span>
-        <span class="tag">باك أب متاح</span>
-        <h3>VU+ Uno 4K SE — OpenATV 7.5.1</h3>
-        <p>نسخة باك أب بنظام OpenATV 7.5.1 بصيغة USB.</p>
-        <div class="meta">التاريخ: 5 أغسطس 2026 • 17:01 • ZIP</div>
-        <a class="download"
-           href="https://www.mediafire.com/file/rtlhobp5ys0uzdo/openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip/file"
-           target="_blank" rel="noopener noreferrer">تحميل الباك أب</a>
-      </article>
-
-      <article class="card" data-device="uno">
-        <span class="icon">📦</span>
-        <span class="tag">باك أب متاح</span>
-        <h3>VU+ Uno 4K SE — Pure2 7.6</h3>
-        <p>نسخة باك أب بنظام Pure2 7.6 بصيغة USB.</p>
-        <div class="meta">التاريخ: 5 أغسطس 2026 • 17:41 • ZIP</div>
-        <a class="download"
-           href="https://www.mediafire.com/file/ibngfj4ekxxha0a/pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip/file"
-           target="_blank" rel="noopener noreferrer">تحميل الباك أب</a>
-      </article>
-
-      <article class="card" data-device="uno">
-        <span class="icon">📦</span>
-        <span class="tag">باك أب متاح</span>
-        <h3>VU+ Uno 4K SE — EGAMI 11.0 R23</h3>
-        <p>باك أب بتاريخ 9 أكتوبر 2026، يحتوي على الإيموهات المتداولة مثل OSCam وNCam، ومجموعة من البلجن المهمة بأحدث إصداراتها. تم ضبط مشغلات IPTV على extplayer3، بدون سكنات لتتمكن من اختيار السكن المناسب لك.</p>
-        <p><b>الإضافات:</b> AjPanel، Audio Shift، Iptosat، EPG Import، SubsSupport Pro، BouquetMakerXtream، Plugins Weather، ReadQuick Signal، KayAdder، Transmission، liveFeed، Xklass، TMBD، MultiCamAdder، MultiIPTVAdder.</p>
-        <div class="meta">التاريخ: 9 أكتوبر 2026 • USB • ZIP</div>
-        <a class="download"
-           href="https://www.mediafire.com/file/nkllhd2psb7gyvt/egami-11.0.r23-vuuno4kse-backup-20261009_1521_usb.zip/file"
-           target="_blank" rel="noopener noreferrer">تحميل الباك أب</a>
-      </article>
-
-      <article class="card" data-device="duo">
-        <span class="icon">📦</span>
-        <span class="tag pending">الرابط قيد الإضافة</span>
-        <h3>VU+ Duo 4K</h3>
-        <p>أضف هنا نسخ الباك أب المتوافقة مع جهاز VU+ Duo 4K.</p>
-        <div class="meta">الصورة والإصدار: يُضافان لاحقًا</div>
-        <button class="download disabled" type="button" disabled>
-          رابط التحميل غير متوفر
-        </button>
-      </article>
-
-      <article class="card" data-device="duose">
-        <span class="icon">📦</span>
-        <span class="tag">باك أب متاح</span>
-        <h3>VU+ Duo SE 4K — OpenATV 7.4</h3>
-        <p>نسخة باك أب لجهاز VU+ Duo SE 4K بنظام OpenATV 7.4.</p>
-        <div class="meta">التاريخ: 3 يوليو 2024 • ZIP</div>
-        <a class="download"
-           href="https://www.mediafire.com/file/5bmwrlm7gqrrq8w/openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip/file"
-           target="_blank" rel="noopener noreferrer">تحميل الباك أب</a>
-      </article>
-
-      <article class="card" data-device="duose">
-        <span class="icon">📦</span>
-        <span class="tag">باك أب متاح</span>
-        <h3>VU+ Duo SE 4K — EGAMI R7</h3>
-        <p>نسخة باك أب لجهاز VU+ Duo SE 4K بنظام EGAMI. اسم الملف يشير إلى الإصدار 10.5 R7؛ يُرجى التأكد من الإصدار قبل التفليش.</p>
-        <div class="meta">التاريخ: 3 يوليو 2024 • ZIP</div>
-        <a class="download"
-           href="https://www.mediafire.com/file/jcz1ga5js3j4d4z/egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip/file"
-           target="_blank" rel="noopener noreferrer">تحميل الباك أب</a>
-      </article>
-
-      <article class="card" data-device="duose">
-        <span class="icon">📦</span>
-        <span class="tag">باك أب متاح</span>
-        <h3>VU+ Duo SE 4K — OpenViX 6.9.002</h3>
-        <p>نسخة باك أب بنظام OpenViX 6.9.002 لجهاز VU+ Duo SE 4K، بصيغة USB.</p>
-        <div class="meta">التاريخ: 20 سبتمبر 2026 • USB • ZIP</div>
-        <a class="download"
-           href="https://www.mediafire.com/file/6vuo53rdqffltvh/openvix-6.9.002.release-vuduo4kse-20260920_141153-usb.zip/file"
-           target="_blank" rel="noopener noreferrer">تحميل الباك أب</a>
-      </article>
-
-      <article class="card" data-device="other">
-        <span class="icon">🛰️</span>
-        <span class="tag">مكتبة خارجية</span>
-        <h3>باك أب لأجهزة Vu+ المختلفة</h3>
-        <p>افتح المكتبة الخارجية وابحث عن الموديل المطابق لجهازك.</p>
-        <div class="meta">المصدر: Dreambox4U</div>
-        <a class="download"
-           href="https://www.dreambox4u.com/downloads/images/vuplus/backup/"
-           target="_blank" rel="noopener noreferrer">فتح مكتبة الباك أب</a>
-      </article>
-
-      <article class="card" data-device="other">
-        <span class="icon">📁</span>
-        <span class="tag pending">خانة لإضافة رابط</span>
-        <h3>باك أب جديد</h3>
-        <p>يمكن استبدال هذه البطاقة باسم الجهاز وإصدار الصورة ورابط التحميل الجديد.</p>
-        <div class="meta">الموديل: يُضاف لاحقًا</div>
-        <button class="download disabled" type="button" disabled>
-          أضف رابط التحميل لاحقًا
-        </button>
-      </article>
-
-    </div>
-
-    <p class="empty" id="empty">
-      مفيش نتائج مطابقة. جرّب كلمة بحث تانية أو اختار جهاز مختلف.
-    </p>
   </section>
 
   <section>
@@ -523,57 +394,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
   </div>
 </footer>
 
-<script>
-const search = document.getElementById('search');
-const device = document.getElementById('device');
-const cards = [...document.querySelectorAll('#file-list .card')];
-const buttons = [...document.querySelectorAll('.filter')];
-const empty = document.getElementById('empty');
-
-let selected = 'all';
-
-function applyFilters(){
-  const query = search.value.trim().toLowerCase();
-  const kind = device.value === 'all' ? selected : device.value;
-  let count = 0;
-
-  cards.forEach(card => {
-    const matchesText = card.innerText.toLowerCase().includes(query);
-    const matchesDevice = kind === 'all' || card.dataset.device === kind;
-    const visible = matchesText && matchesDevice;
-
-    card.style.display = visible ? 'flex' : 'none';
-
-    if(visible) count++;
-  });
-
-  empty.style.display = count ? 'none' : 'block';
-
-  buttons.forEach(button => {
-    button.classList.toggle(
-      'active',
-      button.dataset.filter === selected
-    );
-  });
-}
-
-search.addEventListener('input', applyFilters);
-
-device.addEventListener('change', () => {
-  selected = device.value;
-  applyFilters();
-});
-
-buttons.forEach(button => {
-  button.addEventListener('click', () => {
-    selected = button.dataset.filter;
-    device.value = 'all';
-    applyFilters();
-  });
-});
-
-applyFilters();
-</script>
 <script src="../assets/site-header.js?v=5" defer></script>
 </body>
 </html>
