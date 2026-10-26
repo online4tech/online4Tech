@@ -93,13 +93,13 @@ footer{background:#020b17;border-color:#17466e;color:#9fb4cc}
   var photos=Array.from(document.querySelectorAll('.gallery-rotating-photo'));
   if(!photos.length)return;
   var endpoint='https://data.jsdelivr.com/v1/package/gh/online4tech/online4Tech@main/flat';
-  var allowed=/\\.(png|jpe?g|gif|webp|avif)$/i;
+  var allowed=/\.(png|jpe?g|gif|webp|avif)$/i;
   var current=0, pool=[];
   fetch(endpoint).then(function(r){if(!r.ok)throw new Error('gallery index unavailable');return r.json()})
     .then(function(data){
       if(!Array.isArray(data.files))return;
-      pool=data.files.map(function(x){return String(x.name||'').replace(/^\\/+/, '')})
-        .filter(function(path){return path.indexOf('images/')===0&&allowed.test(path)&&!/(^|\\/)site-logo\\.svg$/i.test(path)})
+      pool=data.files.map(function(x){return String(x.name||'').replace(/^\/+/, '')})
+        .filter(function(path){return path.indexOf('images/')===0&&allowed.test(path)&&!/(^|\/)site-logo\.svg$/i.test(path)})
         .map(function(path){return 'https://raw.githubusercontent.com/online4tech/online4Tech/main/'+path});
       if(pool.length>1){
         photos.forEach(function(img,i){img.dataset.galleryIndex=String((i*7)%pool.length)});
