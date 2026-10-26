@@ -4,125 +4,63 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#07111f">
-<meta name="description" content="مركز Online4Tech للوصول السريع إلى تحميلات Enigma2 وملفات القنوات والباك أب والشروحات.">
-<meta name="robots" content="index,follow">
+<meta name="description" content="مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.">
 <link rel="canonical" href="https://online4tech.github.io/online4Tech/library.html">
 <title>مكتبة التحميل | Online4Tech</title>
 <style>
-:root{color-scheme:dark;--bg:#07111f;--panel:#0d1a2c;--panel2:#11243a;--line:#263d58;--text:#f4f8ff;--muted:#a8bad0;--blue:#67d2ff;--red:#e63946;--mint:#8ce6c2}
+:root{color-scheme:light;--bg:#f7fbff;--line:#e2eaf4;--text:#21304a;--muted:#65738a;--blue:#3478f6;--mint:#16a765;--gold:#d88137;--purple:#8063df}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 80% -12%,#183a5b 0,transparent 43%),radial-gradient(ellipse at 0 45%,#102443 0,transparent 35%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+body{margin:0;min-height:100vh;background:linear-gradient(180deg,#fffaf2 0,#fff 42%,var(--bg) 100%);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
 a{color:inherit}
-.wrap{width:min(1160px,92%);margin:auto}
-header{position:sticky;top:0;z-index:1000}
-main{padding-bottom:54px}
-.hero{padding:48px 0 28px}
-.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:5px 12px;border:1px solid #31516f;border-radius:999px;background:#10253c;color:var(--blue);font-size:.82rem;font-weight:700}
-.eyebrow i{width:7px;height:7px;border-radius:50%;background:var(--mint);box-shadow:0 0 0 5px #8ce6c21c}
-.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:30px}
-h1{font-size:clamp(2rem,4.5vw,3.5rem);line-height:1.3;letter-spacing:-.7px;margin:16px 0 12px}
-h1 span{color:var(--blue)}
-.lead{max-width:680px;margin:0;color:#b8c8dc;font-size:1.02rem}
-.hero-art{position:relative;min-height:220px;display:grid;place-items:center}
-.art-panel{width:min(100%,390px);padding:24px;border:1px solid #2b4666;border-radius:24px;background:linear-gradient(145deg,#152c47,#0d192b);box-shadow:0 24px 55px #0004;transform:rotate(-2deg)}
-.art-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:16px;border-bottom:1px solid #2a405c}
-.art-top strong{font-size:1rem}.art-top span{font-size:.78rem;color:var(--mint)}
-.art-lines{display:grid;gap:10px;margin-top:17px}
-.art-line{height:12px;border-radius:99px;background:#203b58;overflow:hidden}
-.art-line:after{content:"";display:block;height:100%;width:var(--w);border-radius:99px;background:linear-gradient(90deg,#338bdb,#67d2ff)}
-.art-foot{display:flex;gap:9px;margin-top:18px;flex-wrap:wrap}
-.art-chip{padding:5px 10px;border-radius:9px;background:#10233a;border:1px solid #2b4564;color:#cfe8ff;font-size:.78rem}
-.section-head{display:flex;align-items:end;justify-content:space-between;gap:14px;flex-wrap:wrap;margin:8px 0 18px}
-.section-head h2{font-size:1.55rem;margin:0}
-.section-head p{margin:3px 0 0;color:var(--muted);font-size:.92rem}
+.wrap{width:min(1160px,92%);margin:0 auto;padding:28px 0}
 .card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-.main-card{position:relative;display:flex;flex-direction:column;min-height:240px;padding:25px;border:1px solid var(--line);border-radius:22px;overflow:hidden;text-decoration:none;background:linear-gradient(145deg,#13243a,#0c1829 80%);box-shadow:0 16px 35px #0002;transition:transform .2s,border-color .2s,box-shadow .2s}
-.main-card:before{content:"";position:absolute;top:-70px;left:-55px;width:190px;height:190px;border-radius:50%;background:var(--glow,#2c9be5);opacity:.13;filter:blur(5px);pointer-events:none}
-.main-card:hover,.main-card:focus-visible{transform:translateY(-5px);border-color:var(--accent,#67d2ff);box-shadow:0 22px 45px #0004;outline:none}
+.main-card{position:relative;display:flex;flex-direction:column;min-height:230px;padding:25px;border:1px solid var(--line);border-radius:22px;overflow:hidden;text-decoration:none;background:linear-gradient(145deg,#fff,#f8fbff 80%);box-shadow:0 14px 35px #2a426b10;transition:transform .2s,border-color .2s,box-shadow .2s}
+.main-card:before{content:"";position:absolute;top:-70px;left:-55px;width:190px;height:190px;border-radius:50%;background:var(--glow,#2c9be5);opacity:.10;filter:blur(5px);pointer-events:none}
+.main-card:hover,.main-card:focus-visible{transform:translateY(-4px);border-color:var(--accent,#3478f6);box-shadow:0 20px 42px #2a426b18;outline:none}
 .card-head{display:flex;align-items:center;justify-content:space-between;gap:12px;position:relative}
-.card-icon{width:58px;height:58px;display:grid;place-items:center;border-radius:17px;font-size:1.8rem;background:#102a43;border:1px solid #2b4c6b}
-.card-badge{padding:4px 10px;border:1px solid #31516f;border-radius:999px;color:var(--accent,#67d2ff);font-size:.75rem;font-weight:700;white-space:nowrap}
-.main-card h3{font-size:1.35rem;margin:18px 0 6px;position:relative}
-.main-card p{color:var(--muted);margin:0 0 20px;max-width:500px;position:relative}
+.card-icon{width:56px;height:56px;display:grid;place-items:center;border-radius:17px;font-size:1.8rem;background:#edf5ff;border:1px solid #d9e8fb}
+.card-badge{padding:4px 10px;border:1px solid #dce8f5;border-radius:999px;color:var(--accent,#3478f6);font-size:.75rem;font-weight:700;white-space:nowrap;background:#fff}
+.main-card h2{font-size:1.3rem;margin:18px 0 6px;position:relative}
+.main-card p{color:var(--muted);margin:0 0 20px;position:relative}
 .card-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;position:relative}
-.card-bottom strong{font-size:.9rem;color:var(--accent,#67d2ff)}
-.arrow{display:grid;place-items:center;width:34px;height:34px;border:1px solid #304b68;border-radius:11px;background:#102138;font-size:1.15rem}
-.channels{--accent:#67d2ff;--glow:#2d9ce5}
-.backups{--accent:#8ce6c2;--glow:#30c49a}
-.plugins{--accent:#f2c879;--glow:#dca846}
-.guides{--accent:#b9a3ff;--glow:#9074ff}
-.quick-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:18px}
-.quick-link{display:flex;align-items:center;gap:12px;padding:15px 17px;border:1px solid var(--line);border-radius:15px;background:#0d1a2c;text-decoration:none;transition:background .2s,border-color .2s}
-.quick-link:hover{background:#13243a;border-color:#416386}
-.quick-icon{font-size:1.35rem}
-.quick-link strong{display:block;font-size:.92rem}
-.quick-link small{display:block;color:var(--muted);font-size:.78rem}
-.note{display:flex;align-items:flex-start;gap:12px;margin-top:24px;padding:16px 18px;border:1px solid #2b4662;border-radius:16px;background:#0c1a2b;color:#c1d0e2}
-.note b{color:var(--blue);white-space:nowrap}
-footer{border-top:1px solid #223852;padding:22px 0;color:#8fa5bf;font-size:.84rem}
-.footer-inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-@media(max-width:760px){.hero{padding:32px 0 18px}.hero-grid{grid-template-columns:1fr;gap:10px}.hero-art{min-height:155px}.art-panel{max-width:350px;padding:18px}.card-grid{gap:12px}.main-card{padding:19px;min-height:235px}.main-card h3{font-size:1.15rem}.quick-row{grid-template-columns:1fr}}
-@media(max-width:520px){.card-grid{grid-template-columns:1fr}.main-card{min-height:0}.card-icon{width:51px;height:51px}.section-head h2{font-size:1.3rem}.note{display:block}.note b{display:block;margin-bottom:5px}}
+.card-bottom strong{font-size:.9rem;color:var(--accent,#3478f6)}
+.arrow{display:grid;place-items:center;width:34px;height:34px;border:1px solid #dce8f5;border-radius:11px;background:#fff;font-size:1.15rem}
+.channels{--accent:#3478f6;--glow:#2c9be5}
+.backups{--accent:#159b72;--glow:#30c49a}
+.plugins{--accent:#bd7a19;--glow:#dca846}
+.guides{--accent:#8063df;--glow:#9074ff}
+@media(max-width:650px){.wrap{width:92%;padding:18px 0}.card-grid{grid-template-columns:1fr;gap:13px}.main-card{min-height:0;padding:20px}.main-card h2{font-size:1.15rem}}
 </style>
 </head>
 <body>
-<header></header>
 <main class="wrap">
-<section class="hero" aria-labelledby="page-title">
-<div class="hero-grid">
-<div>
-<div class="eyebrow"><i></i> مركز التحميلات الرسمي</div>
-<h1 id="page-title">كل ملفاتك التقنية… <span>في مكان واحد</span></h1>
-<p class="lead">اختار القسم اللي محتاجه ووصل للملفات بسهولة. جمعنالك ملفات القنوات والباك أب والشروحات في أقسام واضحة، بتصميم مريح ومتوافق مع الموبايل والكمبيوتر.</p>
-</div>
-<div class="hero-art" aria-hidden="true">
-<div class="art-panel">
-<div class="art-top"><strong>Online4Tech Library</strong><span>● منظّمة وسهلة</span></div>
-<div class="art-lines"><div class="art-line" style="--w:86%"></div><div class="art-line" style="--w:65%"></div><div class="art-line" style="--w:76%"></div></div>
-<div class="art-foot"><span class="art-chip">ملفات قنوات</span><span class="art-chip">Backup</span><span class="art-chip">Enigma2</span></div>
-</div>
-</div>
-</div>
-</section>
-<section aria-labelledby="sections-title">
-<div class="section-head"><div><h2 id="sections-title">اختار القسم</h2><p>كل كارت يوصّلك مباشرة للقسم المطلوب.</p></div></div>
 <div class="card-grid">
-<a class="main-card channels" href="downloads.html#channels">
+<a class="main-card channels" href="downloads.html#downloads">
 <div class="card-head"><span class="card-icon" aria-hidden="true">📡</span><span class="card-badge">تحميل مباشر</span></div>
-<h3>ملفات القنوات والتحميلات</h3>
-<p>قوائم قنوات Enigma2، ملفات جاهزة وروابط المصادر، مع إمكانية البحث والتصفية حسب نوع الملف والجهاز.</p>
+<h2>ملفات القنوات والتحميلات</h2>
+<p>قوائم قنوات Enigma2 والملفات المتاحة، مع البحث والتصفية حسب نوع الملف والجهاز.</p>
 <div class="card-bottom"><strong>افتح مكتبة التحميلات</strong><span class="arrow" aria-hidden="true">←</span></div>
 </a>
 <a class="main-card backups" href="backups/index.html">
 <div class="card-head"><span class="card-icon" aria-hidden="true">📦</span><span class="card-badge">حسب موديل الجهاز</span></div>
-<h3>الباك أب وصور الأنظمة</h3>
-<p>نسخ احتياطية وصور أنظمة لأجهزة Vu+، مرتبة حسب الموديل والإصدار عشان توصل للملف المناسب بسرعة.</p>
+<h2>الباك أب وصور الأنظمة</h2>
+<p>نسخ احتياطية وصور أنظمة لأجهزة Vu+، مرتبة حسب الموديل والإصدار.</p>
 <div class="card-bottom"><strong>تصفّح ملفات الباك أب</strong><span class="arrow" aria-hidden="true">←</span></div>
 </a>
 <a class="main-card plugins" href="plugins/index.html">
 <div class="card-head"><span class="card-icon" aria-hidden="true">🧩</span><span class="card-badge">إضافات Enigma2</span></div>
-<h3>البلجنات والإضافات</h3>
-<p>مجموعة الإضافات المتاحة لأجهزة Enigma2، مع معلومات الإصدار وروابط التحميل عند توفرها.</p>
+<h2>البلجنات والإضافات</h2>
+<p>إضافات أجهزة Enigma2 مع معلومات الإصدار وروابط التحميل المتاحة.</p>
 <div class="card-bottom"><strong>استكشف البلجنات</strong><span class="arrow" aria-hidden="true">←</span></div>
 </a>
 <a class="main-card guides" href="guides.html">
 <div class="card-head"><span class="card-icon" aria-hidden="true">📘</span><span class="card-badge">شرح خطوة بخطوة</span></div>
-<h3>الشروحات والمساعدة</h3>
-<p>شروحات التشغيل والتثبيت والتحديث، ونصائح تساعدك تختار الملف الصحيح وتستخدمه بشكل سليم.</p>
+<h2>الشروحات والمساعدة</h2>
+<p>شروحات التشغيل والتثبيت والتحديث لأجهزة Enigma2.</p>
 <div class="card-bottom"><strong>اذهب إلى مركز الشروحات</strong><span class="arrow" aria-hidden="true">←</span></div>
 </a>
 </div>
-<div class="quick-row">
-<a class="quick-link" href="devices/vuplus.html"><span class="quick-icon">📺</span><span><strong>أجهزة Vu+</strong><small>تعرف على الأجهزة المدعومة</small></span></a>
-<a class="quick-link" href="devices/dreambox.html"><span class="quick-icon">🛰️</span><span><strong>أجهزة Dreambox</strong><small>معلومات وروابط مفيدة</small></span></a>
-<a class="quick-link" href="https://github.com/online4tech/Enigma2-Chanal-List-BYRomeh" target="_blank" rel="noopener noreferrer"><span class="quick-icon">↗</span><span><strong>مستودع ملفات القنوات</strong><small>المصدر على GitHub</small></span></a>
-</div>
-<div class="note"><b>قبل التحميل</b><span>اتأكد من موديل جهازك ونوع الصورة المثبتة عليه قبل استخدام أي ملف باك أب أو تحديث. لو مش متأكد، راجع الشرح المرتبط بالقسم أو تواصل معانا.</span></div>
-</section>
 </main>
-<footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> Online4Tech</span><span>خليك دايمًا أونلاين — التقنية أسهل</span></div></footer>
-<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
-<script src="assets/site-header.js" defer></script>
 </body>
 </html>
