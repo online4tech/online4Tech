@@ -19,7 +19,7 @@
     ['🛠️ خدماتنا', 'services.html', ['services.html']],
     ['ℹ️ من نحن', 'about.html', ['about.html']]
   ];
-  const current = path.replace(/^\//, '').toLowerCase();
+  const current = parts.join('/').toLowerCase();
   const style = document.createElement('style');
   style.id = 'online4tech-shared-header-style';
   style.textContent = `
