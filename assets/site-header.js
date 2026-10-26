@@ -10,11 +10,11 @@
   const routes = [
     ['الرئيسية', 'index.html', ['index.html']],
     ['المتجر', 'store/index.html', ['store/']],
-    ['مكتبة التحميل', 'library.html', ['library.html', 'downloads.html']],
+    ['مكتبة التحميل', 'library.html', ['library.html', 'downloads.html', 'backups/']],
     ['الشروحات', 'tutorials.html', ['guides.html', 'guides/index.html', 'tutorials.html', 'skins.html', 'plugins/']],
     ['خدماتنا', 'services.html', ['services.html']]
   ];
-  const current = parts.join('/').toLowerCase();
+  const current = (parts.join('/') || 'index.html').toLowerCase();
   const style = document.createElement('style');
   style.id = 'online4tech-shared-header-style';
   style.textContent = `
