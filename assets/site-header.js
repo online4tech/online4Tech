@@ -2,6 +2,7 @@
 (function () {
   const path = window.location.pathname;
   const parts = path.split('/').filter(Boolean);
+  if (parts[0] && parts[0].toLowerCase() === 'online4tech') parts.shift();
   const isFile = /\.html?$/i.test(parts[parts.length - 1] || '');
   const depth = Math.max(0, parts.length - (isFile ? 1 : 0));
   const base = '../'.repeat(depth);
