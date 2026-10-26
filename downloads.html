@@ -71,6 +71,13 @@ footer{margin-top:auto;border-top:1px solid var(--line);background:#050c16;paddi
 @media(max-width:390px){.modal-model-grid{grid-template-columns:1fr}}
  .quick-nav .channel-download-link{background:linear-gradient(135deg,#27c979,#119c5b)!important;color:#fff!important;border-color:#62e6a2!important;font-weight:900;box-shadow:0 5px 0 #087846,0 8px 18px #14a76325}.quick-nav .channel-download-link:hover{filter:brightness(1.08)}
 /* Footer aligned like the rest of the site */
+
+/* Keep footer brand and navigation at opposite ends of the full row */
+footer .wrap.foot{width:min(1180px,92%);display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;justify-content:initial;direction:rtl;gap:24px}
+footer .foot-brand{justify-self:start;text-align:right}
+footer .foot-links{justify-self:end;display:flex;align-items:center;justify-content:flex-start;gap:9px;flex-wrap:wrap}
+@media(max-width:600px){footer .wrap.foot{grid-template-columns:minmax(0,1fr);gap:13px}footer .foot-brand,footer .foot-links{justify-self:stretch}footer .foot-brand{text-align:right}}
+
 .foot{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
 .foot-brand{color:var(--muted);font-size:.82rem}
 .foot-links{display:flex;align-items:center;justify-content:flex-start;gap:9px;flex-wrap:wrap}
