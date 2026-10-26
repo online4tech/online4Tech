@@ -136,19 +136,6 @@ footer{background:#050c16!important;color:#f4f8ff!important;border-color:#263d58
 @media(max-width:720px){html{scroll-padding-top:170px}.quick-nav{position:relative;top:auto}.quick-nav a{white-space:normal}}
 </style>
 
-<style id="downloads-header-consistency">
-/* Keep the shared site header identical to other Online4Tech pages. */
-header.o4t-header{position:relative!important;top:auto!important;z-index:1000!important;background:linear-gradient(135deg,#101827 0%,#172438 60%,#111b2a 100%)!important;border-bottom:2px solid #e63946!important;backdrop-filter:none!important}
-.o4t-header .o4t-head-inner{max-width:1240px!important;margin:0 auto!important;padding:15px 22px!important;display:flex!important;align-items:center!important;justify-content:space-between!important;gap:18px!important;flex-wrap:nowrap!important}
-.o4t-header .o4t-brand{display:flex!important;flex-direction:column!important;align-items:flex-end!important;justify-content:center!important;text-decoration:none!important;min-width:0!important;max-width:100%!important;color:#fff!important}
-.o4t-header .o4t-brand img{display:block!important;width:clamp(260px,32vw,390px)!important;max-width:100%!important;height:auto!important;max-height:112px!important;object-fit:contain!important;object-position:right center!important}
-.o4t-header .o4t-brand-slogan{display:block!important;margin-top:3px!important;width:100%!important;text-align:center!important;font-family:Tahoma,Arial,sans-serif!important;font-size:clamp(13px,1.35vw,17px)!important;font-weight:800!important;line-height:1.35!important;color:#f4f7fb!important;text-shadow:0 1px 0 #000,0 0 8px #3b82f6!important;white-space:nowrap!important;-webkit-text-stroke:0!important}
-.o4t-header .o4t-nav{display:flex!important;align-items:center!important;justify-content:flex-end!important;gap:7px!important;flex:1!important;flex-wrap:wrap!important;width:auto!important}
-.o4t-header .o4t-nav a,.o4t-header .o4t-nav a:nth-child(n){color:#e8eef8!important;background:transparent!important;border:0!important;box-shadow:none!important;text-decoration:none!important;font-size:13px!important;font-weight:750!important;padding:10px 11px!important;border-radius:10px!important;white-space:nowrap!important;transform:none!important;outline:none!important}
-.o4t-header .o4t-nav a:hover,.o4t-header .o4t-nav a[aria-current=page]{background:#e63946!important;color:#fff!important}
-@media(max-width:850px){.o4t-header .o4t-head-inner{justify-content:space-between!important;padding:12px 14px!important;gap:10px!important}.o4t-header .o4t-brand img{width:clamp(180px,34vw,280px)!important;max-height:82px!important}.o4t-header .o4t-brand-slogan{font-size:13px!important}.o4t-header .o4t-nav{justify-content:flex-end!important;gap:4px!important}.o4t-header .o4t-nav a{padding:9px 8px!important;font-size:12px!important}}
-@media(max-width:600px){.o4t-header .o4t-head-inner{justify-content:center!important;flex-wrap:wrap!important;gap:8px!important}.o4t-header .o4t-brand{width:100%!important;justify-content:flex-end!important}.o4t-header .o4t-brand img{width:min(72vw,300px)!important;max-height:78px!important}.o4t-header .o4t-brand-slogan{font-size:13px!important}.o4t-header .o4t-nav{width:100%!important;justify-content:center!important;gap:3px!important}.o4t-header .o4t-nav a{font-size:11px!important;padding:8px 7px!important}}
-</style>
 <style id="downloads-three-cards-only">
 /* Minimal downloads landing: show only the three main SS-style cards. */
 #downloads ~ section { display: none !important; }
@@ -214,4 +201,17 @@ search.addEventListener('input',filterFiles);kind.addEventListener('change',filt
 </script>
 
 <script src="assets/site-header.js?v=4" defer></script>
+<style id="online4tech-downloads-final-polish">
+/* Final consistency layer: preserve all download content and keep the existing compact layout. */
+:root{color-scheme:dark}
+.quick-card,.device-card,.card,.feature,.trust article,.device-group,.search-panel{border-radius:18px!important;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.quick-card,.device-card,.card{background:linear-gradient(155deg,#11243a,#0b1727)!important;border:1px solid #29435f!important;box-shadow:0 12px 30px #0003!important}
+.quick-card:hover,.device-card:hover,.card:hover{transform:translateY(-3px);border-color:#67d2ff!important;box-shadow:0 18px 34px #0004!important}
+.quick-card:focus-visible,.device-card:focus-visible,.card a:focus-visible,.btn:focus-visible,.primary:focus-visible,.download:focus-visible{outline:3px solid #67d2ff!important;outline-offset:3px}
+.quick-card h2,.quick-card h3,.device-card h3,.card h2,.card h3{color:#f4f8ff}
+.quick-card p,.device-card p,.card p{color:#b8cbe0}
+.quick-card .btn,.device-card .btn,.card .btn{border-radius:11px}
+@media(max-width:600px){.quick-grid{gap:12px}.quick-card{min-height:122px;padding:18px}.device-card,.card{padding:15px}}
+@media(prefers-reduced-motion:reduce){.quick-card,.device-card,.card{transition:none}.quick-card:hover,.device-card:hover,.card:hover{transform:none}}
+</style>
 </body></html>
