@@ -89,7 +89,40 @@ footer{background:#050c16;border-top-color:#263d58}
 @media(max-width:600px){#pluginGrid .topic{grid-template-columns:48px minmax(0,1fr);grid-template-rows:auto auto auto;column-gap:12px}#pluginGrid .topic .icon{grid-column:1;grid-row:1 / span 2;width:46px;height:46px}#pluginGrid .topic h2{grid-column:2;grid-row:1 / span 2}#pluginGrid .topic p,#pluginGrid .topic .link{grid-column:1 / -1}}
 </style>
 
-<style id="gallery-link-style">.gallery-link{display:inline-flex;align-items:center;justify-content:center;margin:8px 0 0;padding:8px 12px;border:1px solid #315574;border-radius:11px;background:linear-gradient(145deg,#102a42,#0b1b2b);color:#8bdcff;font-weight:bold;font-size:.82rem;text-decoration:none;cursor:pointer}.gallery-link:hover{background:#173954;border-color:#67d2ff}.gallery-link[hidden]{display:none!important}</style></head>
+<style id="plugin-row-final-layout">
+/* Keep plugin details visible and place the image button at the far left. */
+#pluginGrid .topic-shell{width:100%;min-width:0}
+#pluginGrid .topic{
+ display:grid;grid-template-columns:120px minmax(0,1fr) minmax(190px,270px) 48px;
+ grid-template-rows:auto auto;direction:ltr;align-items:center;column-gap:16px;row-gap:4px;
+}
+#pluginGrid .topic .gallery-link{
+ grid-column:1;grid-row:1 / span 2;justify-self:start;align-self:center;
+ position:relative;z-index:2;margin:0;white-space:nowrap;direction:rtl;
+}
+#pluginGrid .topic p{
+ grid-column:2;grid-row:1;direction:rtl;text-align:right;
+ color:#d8e5f6;opacity:1;max-height:none;overflow:visible;transform:none;
+ margin:0;align-self:center;
+}
+#pluginGrid .topic h2{grid-column:3;grid-row:1 / span 2;direction:rtl;text-align:right;margin:0}
+#pluginGrid .topic .icon{grid-column:4;grid-row:1 / span 2}
+#pluginGrid .topic .link{
+ grid-column:2;grid-row:2;justify-self:start;direction:rtl;
+ opacity:1;max-height:none;overflow:visible;padding:6px 11px;margin-top:5px;
+}
+#pluginGrid .topic:hover p,#pluginGrid .topic:focus-visible p{opacity:1;max-height:none;transform:none}
+#pluginGrid .topic:hover .link,#pluginGrid .topic:focus-visible .link{opacity:1;max-height:none;padding:6px 11px}
+@media(hover:none),(max-width:650px){
+ #pluginGrid .topic{grid-template-columns:minmax(0,1fr) 44px;grid-template-rows:auto auto auto auto;column-gap:12px;row-gap:8px;padding:14px}
+ #pluginGrid .topic h2{grid-column:1;grid-row:1;padding:9px 11px}
+ #pluginGrid .topic .icon{grid-column:2;grid-row:1;width:40px;height:40px}
+ #pluginGrid .topic p{grid-column:1 / -1;grid-row:2;margin:0;opacity:1;max-height:none;overflow:visible;transform:none}
+ #pluginGrid .topic .link{grid-column:1;grid-row:3;margin-top:0;justify-self:start}
+ #pluginGrid .topic .gallery-link{grid-column:1;grid-row:4;justify-self:start;align-self:start}
+}
+@media(prefers-reduced-motion:reduce){#pluginGrid .topic,#pluginGrid .topic *{transition:none!important}}
+</style></head>
 <body>
 <header><div class="wrap top">
 <a class="brand site-logo-brand" href="../index.html" aria-label="Online4Tech - خليك دايما اونلاين"><img src="../assets/site-logo.svg" alt="Online4Tech — خليك دايما اونلاين"><span class="brand-slogan">خليك دايمًا أونلاين… التقنية أسهل</span></a>
@@ -125,6 +158,6 @@ const search=document.getElementById('pluginSearch'),cards=[...document.querySel
 function filterPlugins(){const q=search.value.trim().toLocaleLowerCase('ar');let visible=0;cards.forEach(card=>{const show=card.textContent.toLocaleLowerCase('ar').includes(q);card.hidden=!show;if(show)visible++});count.textContent=visible+' من '+cards.length+' بلجن';empty.style.display=visible?'none':'block'}
 search.addEventListener('input',filterPlugins);
 </script>
-<script src="../assets/gallery-buttons.js?v=6" defer></script>
+<script src="../assets/gallery-buttons.js?v=7" defer></script>
 <script src="../assets/site-header.js?v=5" defer></script>
 </body></html>
