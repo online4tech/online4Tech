@@ -28,6 +28,56 @@ header{background:#07111fee;border-bottom-color:#263d58}
 footer{background:#050c16;border-top-color:#263d58}
 .topic:focus-visible{outline-color:#67d2ff}
 </style>
+
+<style id="online4tech-plugin-rows">
+/* Long plugin rows with an inset name plate and details revealed on hover */
+#pluginGrid.grid{display:flex;flex-direction:column;gap:13px;padding:18px 0 52px}
+#pluginGrid .topic{
+  display:grid;grid-template-columns:52px minmax(190px,270px) minmax(0,1fr);
+  grid-template-rows:auto auto;align-items:center;column-gap:18px;row-gap:3px;
+  min-height:112px;padding:16px 20px;border-radius:17px;
+  background:linear-gradient(105deg,#0b1727 0%,#11243a 100%);
+  border:1px solid #29435f;box-shadow:0 10px 25px #0002;
+}
+#pluginGrid .topic:after{left:auto;right:-34px;bottom:-52px;width:110px;height:110px;background:#18334c;opacity:.45}
+#pluginGrid .topic .icon{grid-column:1;grid-row:1 / span 2;width:48px;height:48px;border-radius:13px;font-size:1.55rem;z-index:1}
+#pluginGrid .topic h2{
+  grid-column:2;grid-row:1 / span 2;position:relative;z-index:1;
+  margin:0;padding:13px 15px;border-radius:12px;
+  background:#132a42;border:1px solid #315372;
+  box-shadow:inset 0 1px 0 #ffffff08;
+  font-size:1rem;line-height:1.6;transition:background .2s,border-color .2s,color .2s;
+}
+#pluginGrid .topic p{
+  grid-column:3;grid-row:1;margin:0;position:relative;z-index:1;
+  color:#c0cee0;font-size:.91rem;line-height:1.8;
+  opacity:0;max-height:0;overflow:hidden;transform:translateX(-5px);
+  transition:opacity .2s,max-height .25s,transform .2s;
+}
+#pluginGrid .topic .link{
+  grid-column:3;grid-row:2;justify-self:start;position:relative;z-index:1;
+  margin-top:5px;opacity:0;max-height:0;overflow:hidden;padding-top:0;padding-bottom:0;
+  transition:opacity .2s,max-height .25s,padding .2s;
+}
+#pluginGrid .topic:hover,#pluginGrid .topic:focus-visible{
+  border-color:#67d2ff;box-shadow:0 16px 34px #0004;transform:translateY(-2px);
+}
+#pluginGrid .topic:hover h2,#pluginGrid .topic:focus-visible h2{background:#173954;border-color:#67d2ff;color:#fff}
+#pluginGrid .topic:hover p,#pluginGrid .topic:focus-visible p{opacity:1;max-height:180px;transform:translateX(0)}
+#pluginGrid .topic:hover .link,#pluginGrid .topic:focus-visible .link{opacity:1;max-height:44px;padding-top:6px;padding-bottom:6px}
+#pluginGrid .topic:focus-visible{outline:3px solid #67d2ff;outline-offset:3px}
+#pluginGrid .topic[hidden]{display:none!important}
+@media(hover:none),(max-width:650px){
+  #pluginGrid .topic{grid-template-columns:42px minmax(0,1fr);column-gap:12px;padding:14px;min-height:0}
+  #pluginGrid .topic .icon{grid-column:1;grid-row:1;width:40px;height:40px;font-size:1.25rem}
+  #pluginGrid .topic h2{grid-column:2;grid-row:1;padding:9px 11px;font-size:.95rem}
+  #pluginGrid .topic p{grid-column:1 / -1;grid-row:2;opacity:1;max-height:none;overflow:visible;transform:none;margin-top:8px}
+  #pluginGrid .topic .link{grid-column:1 / -1;grid-row:3;opacity:1;max-height:none;padding-top:6px;padding-bottom:6px;margin-top:4px}
+}
+@media(prefers-reduced-motion:reduce){
+  #pluginGrid .topic,#pluginGrid .topic *{transition:none!important;scroll-behavior:auto!important}
+}
+</style>
 </head>
 <body>
 <header><div class="wrap top">
@@ -36,7 +86,7 @@ footer{background:#050c16;border-top-color:#263d58}
 </div></header>
 <main class="wrap">
 <section class="hero"><span class="tag">🧩 دليل Online4Tech</span><h1>قائمة البلجنز</h1><p>كل البلجنز في مكان واحد، بتصميم متناسق مع الموقع. اختار البلجن لعرض التفاصيل وطريقة التثبيت والاستخدام.</p>
-<div class="tools"><input id="pluginSearch" class="search" type="search" placeholder="ابحث باسم البلجن أو وظيفته..." aria-label="ابحث في البلجنز"><span class="count" id="pluginCount">15 عنصر</span></div>
+<div class="tools"><input id="pluginSearch" class="search" type="search" placeholder="ابحث باسم البلجن أو وظيفته..." aria-label="ابحث في البلجنز"><span class="count" id="pluginCount">16 بلجن</span></div>
 </section>
 <section class="grid" id="pluginGrid" aria-label="قائمة البلجنز">
 <a class="topic" href="picons.html"><div class="icon">🖼️</div><h2>بيكونات القنوات (Picons)</h2><p>صور وشعارات القنوات اللي بتظهر جنب اسم القناة في قائمة القنوات والواجهة، لتسهيل التعرّف على القنوات وإضافة شكل منظم للرسيفر.</p><span class="link">تحميل البيكونات وطريقة التثبيت ←</span></a>
