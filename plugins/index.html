@@ -88,13 +88,8 @@ footer{background:#050c16;border-top-color:#263d58}
 #pluginGrid .topic .plugin-thumb img:not([src]),#pluginGrid .topic .plugin-thumb img[style*="display: none"]{display:none}
 @media(max-width:600px){#pluginGrid .topic{grid-template-columns:48px minmax(0,1fr);grid-template-rows:auto auto auto;column-gap:12px}#pluginGrid .topic .icon{grid-column:1;grid-row:1 / span 2;width:46px;height:46px}#pluginGrid .topic h2{grid-column:2;grid-row:1 / span 2}#pluginGrid .topic p,#pluginGrid .topic .link{grid-column:1 / -1}}
 </style>
-<style id="plugin-gallery-buttons">
-#pluginGrid .topic-shell{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:stretch;gap:10px;width:100%}
-#pluginGrid .gallery-link{align-self:center;display:inline-flex;align-items:center;justify-content:center;padding:10px 13px;border-radius:12px;border:1px solid #315574;background:linear-gradient(145deg,#102a42,#0b1b2b);color:#8bdcff;font-weight:bold;font-size:.82rem;white-space:nowrap}
-#pluginGrid .gallery-link:hover{background:#173954;border-color:#67d2ff}
-@media(max-width:650px){#pluginGrid .topic-shell{grid-template-columns:1fr;gap:7px}#pluginGrid .gallery-link{justify-self:start;margin-right:8px;margin-bottom:3px}}
-</style>
-</head>
+
+<style id="gallery-link-style">.gallery-link{display:inline-flex;align-items:center;justify-content:center;margin:8px 0 0;padding:8px 12px;border:1px solid #315574;border-radius:11px;background:linear-gradient(145deg,#102a42,#0b1b2b);color:#8bdcff;font-weight:bold;font-size:.82rem;text-decoration:none;cursor:pointer}.gallery-link:hover{background:#173954;border-color:#67d2ff}.gallery-link[hidden]{display:none!important}</style></head>
 <body>
 <header><div class="wrap top">
 <a class="brand site-logo-brand" href="../index.html" aria-label="Online4Tech - خليك دايما اونلاين"><img src="../assets/site-logo.svg" alt="Online4Tech — خليك دايما اونلاين"><span class="brand-slogan">خليك دايمًا أونلاين… التقنية أسهل</span></a>
@@ -130,16 +125,6 @@ const search=document.getElementById('pluginSearch'),cards=[...document.querySel
 function filterPlugins(){const q=search.value.trim().toLocaleLowerCase('ar');let visible=0;cards.forEach(card=>{const show=card.textContent.toLocaleLowerCase('ar').includes(q);card.hidden=!show;if(show)visible++});count.textContent=visible+' من '+cards.length+' بلجن';empty.style.display=visible?'none':'block'}
 search.addEventListener('input',filterPlugins);
 </script>
-<script id="plugin-gallery-script">
-document.querySelectorAll('#pluginGrid a.topic').forEach(function(card){
-  var slug=card.getAttribute('href').split('/').pop().replace(/\.html$/,'');
-  var title=card.querySelector('h2')?card.querySelector('h2').textContent.trim():slug;
-  var shell=document.createElement('div');shell.className='topic-shell';
-  card.parentNode.insertBefore(shell,card);shell.appendChild(card);
-  var link=document.createElement('a');link.className='gallery-link';link.textContent='🖼️ الصور';
-  link.href='../gallery.html?folder=images/plugins/'+encodeURIComponent(slug)+'&name='+encodeURIComponent(title);
-  shell.appendChild(link);
-});
-</script>
+<script src="../assets/gallery-buttons.js?v=2" defer></script>
 <script src="../assets/site-header.js?v=5" defer></script>
 </body></html>
