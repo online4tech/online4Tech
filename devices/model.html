@@ -31,25 +31,15 @@ const params = new URLSearchParams(location.search);
 const slug = params.get("device");
 const device = devices.find(d => d.slug === slug);
 const devicePhotos = {
- "vu-zero-4k":"https://www.vuplus.de/wp-content/uploads/zero4k.png",
- "vu-uno-4k-se":"https://www.vuplus.de/wp-content/uploads/uno4kse.png",
- "vu-duo-4k-se":"https://www.vuplus.de/wp-content/uploads/duo4kse.png",
- "vu-duo-4k":"https://www.vuplus.de/wp-content/uploads/duo4k.png",
- "vu-ultimo-4k":"https://www.vuplus.de/wp-content/uploads/ultimo4k.png",
- "vu-solo-4k":"https://www.vuplus.de/wp-content/uploads/solo4k.png",
- "vu-solo-se-v2":"https://www.vuplus.de/wp-content/uploads/solose.png",
- "vu-duo2":"https://www.vuplus.de/wp-content/uploads/duo2.png",
- "vu-uno-se":"https://www.vuplus.de/wp-content/uploads/unose.png",
- "vu-zero":"https://www.vuplus.de/wp-content/uploads/zero.png",
- "dm-two-uhd":"https://www.dreambox.de/wp-content/uploads/DM-TWO-UHD.png",
- "dm-one-uhd":"https://www.dreambox.de/wp-content/uploads/DM-ONE-UHD.png",
- "dm920-uhd":"https://www.dreambox.de/wp-content/uploads/DM920-UHD.png",
- "dm900-uhd":"https://www.dreambox.de/wp-content/uploads/DM900-UHD.png",
- "dm820-hd":"https://www.dreambox.de/wp-content/uploads/DM820-HD.png",
- "dm7080-hd":"https://www.dreambox.de/wp-content/uploads/DM7080-HD.png",
- "dm520-hd":"https://www.dreambox.de/wp-content/uploads/DM520-HD.png",
- "dm525-hd":"https://www.dreambox.de/wp-content/uploads/DM525-HD.png",
- "dm8000-hd":"https://www.dreambox.de/wp-content/uploads/DM8000-HD.png"
+ "vu-zero-4k":"../images/zero%204k.jpg",
+ "vu-uno-4k-se":"../images/vu%2B%20uno%204k.jpg",
+ "vu-duo-4k-se":"../images/duo%204k.jpg",
+ "vu-duo-4k":"../images/duo%204k.jpg",
+ "vu-ultimo-4k":"../images/ultimo.jpg",
+ "vu-solo-4k":"../images/vu%2B%20solo%204k.jpg",
+ "vu-uno-se":"../images/uno%20se%204k.jpg",
+ "vu-zero":"../images/vu%2B%20zero.jpg",
+ "dm-one-uhd":"../images/dm%20one.jpg"
 };
 const title = document.getElementById("pageTitle");
 const list = document.getElementById("backupList");
@@ -64,7 +54,7 @@ if (!device) {
  title.textContent = "باك أب " + device.brand + " " + device.model;
  document.getElementById("brandLabel").textContent = device.brand.toUpperCase();
  document.getElementById("modelTitle").textContent = device.model;
- const photo = document.getElementById("devicePhoto"); photo.src = devicePhotos[device.slug] || ""; photo.alt = device.brand + " " + device.model; photo.onerror = () => { photo.onerror = null; photo.src = "https://placehold.co/360x180/0d1a2c/9fb2ca?text=" + encodeURIComponent(device.brand + " " + device.model); }; document.getElementById("modelIntro").textContent = device.backups.length ? "دي النسخ المضافة حاليًا لموديل " + device.model + "." : "صفحة مخصصة لموديل " + device.model + ". هنضيف هنا أي نسخ باك أب جديدة خاصة بالموديل ده.";
+ const photo = document.getElementById("devicePhoto"); photo.src = devicePhotos[device.slug] || ""; photo.alt = device.brand + " " + device.model; photo.onerror = () => { photo.onerror = null; photo.style.display = "none"; }; document.getElementById("modelIntro").textContent = device.backups.length ? "دي النسخ المضافة حاليًا لموديل " + device.model + "." : "صفحة مخصصة لموديل " + device.model + ". هنضيف هنا أي نسخ باك أب جديدة خاصة بالموديل ده.";
  if (device.backups.length) {
    list.innerHTML = device.backups.map(b => '<article class="card"><span class="pill">'+b.tag+'</span><h3>'+b.title+'</h3><p>'+b.desc+'</p><div class="meta">تاريخ النسخة: '+b.date+'</div><a class="btn" href="'+b.url+'" target="_blank" rel="noopener noreferrer">تحميل الباك أب ↗</a><a class="guide-btn" href="../guides.html#backup-install">شرح تركيب الباك أب</a></article>').join("");
  } else {
