@@ -217,6 +217,30 @@ function filterFiles(){const q=search.value.trim().toLocaleLowerCase('ar'),k=kin
 search.addEventListener('input',filterFiles);kind.addEventListener('change',filterFiles);filters.forEach(b=>b.addEventListener('click',()=>{selected=b.dataset.filter;kind.value='all';filterFiles()}));const menuBtn=document.getElementById('menuBtn'),nav=document.getElementById('nav');menuBtn.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open))});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuBtn.setAttribute('aria-expanded','false')}));document.getElementById('year').textContent=new Date().getFullYear();filterFiles();
 </script>
 
-<script src="assets/gallery-buttons.js?v=3" defer></script><script src="assets/site-header.js?v=5" defer>
+<script src="assets/gallery-buttons.js?v=3" defer></script><script src="assets/site-header.js?v=5" defer></script>
+<script>
+(function(){
+  var modalContent=document.getElementById('modalContent');
+  if(!modalContent)return;
+  var imagePattern=/\.(png|jpe?g|gif|webp|avif|svg)$/i;
+  var observer=new MutationObserver(function(){
+    var list=modalContent.querySelector('.channel-modal-list');
+    if(!list||list.querySelector('[data-channel-gallery]'))return;
+    fetch('https://api.github.com/repos/online4tech/online4Tech/contents/images/channels?ref=main',{headers:{Accept:'application/vnd.github+json'}})
+      .then(function(r){return r.ok?r.json():[]})
+      .then(function(files){
+        if(!Array.isArray(files)||!files.some(function(file){return file.type==='file'&&imagePattern.test(file.name)}))return;
+        if(!modalContent.querySelector('[data-channel-gallery]')){
+          var link=document.createElement('a');
+          link.href='gallery.html?folder='+encodeURIComponent('images/channels')+'&name='+encodeURIComponent('ملف القنوات');
+          link.setAttribute('data-channel-gallery','1');
+          link.innerHTML='<strong>🖼️ معرض صور ملف القنوات</strong><span>عرض الصور المرفوعة الخاصة بملف القنوات</span>';
+          list.appendChild(link);
+        }
+      }).catch(function(){});
+  });
+  observer.observe(modalContent,{childList:true,subtree:true});
+})();
+</script>
 
 </body></html>
