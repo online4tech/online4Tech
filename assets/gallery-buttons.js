@@ -3,7 +3,7 @@
 'use strict';
 var indexUrl='https://data.jsdelivr.com/v1/package/gh/online4tech/online4Tech@main/flat';
 var allowed=/\.(png|jpe?g|gif|webp|avif|svg)$/i, checked={}, indexPromise=null;
-var style=document.createElement('style');style.textContent='.gallery-link{display:inline-flex;align-items:center;justify-content:center;margin:8px 0 0;padding:8px 12px;border:1px solid #315574;border-radius:11px;background:linear-gradient(145deg,#102a42,#0b1b2b);color:#8bdcff;font-weight:bold;font-size:.82rem;text-decoration:none;cursor:pointer}.gallery-link:hover{background:#173954;border-color:#67d2ff}.gallery-link[hidden]{display:none!important}';document.head.appendChild(style);
+var style=document.createElement('style');style.textContent='.gallery-link{display:inline-flex;align-items:center;justify-content:center;margin:8px 0 0;padding:8px 12px;border:1px solid #315574;border-radius:11px;background:linear-gradient(145deg,#102a42,#0b1b2b);color:#8bdcff;font-weight:bold;font-size:.82rem;text-decoration:none;cursor:pointer}.gallery-link:hover{background:#173954;border-color:#67d2ff}.gallery-link[hidden]{display:none!important}.gallery-link.is-disabled{opacity:.42;cursor:not-allowed;filter:grayscale(.35);pointer-events:none}.gallery-link.is-disabled:hover{background:linear-gradient(145deg,#102a42,#0b1b2b);border-color:#315574}';document.head.appendChild(style);
 function slugify(value){return String(value||'item').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'')||'item'}
 function getFileIndex(){
  if(!indexPromise)indexPromise=fetch(indexUrl).then(function(r){if(!r.ok)throw new Error('index unavailable');return r.json()}).then(function(data){if(!Array.isArray(data.files))throw new Error('invalid index');return data.files.map(function(f){return String(f.name||'').replace(/^\/+/, '')})});
@@ -29,9 +29,9 @@ function setup(node){
  if(!folder)return;
  node.dataset.galleryChecked='1';
  var base=(location.pathname.indexOf('/plugins/')!==-1||location.pathname.indexOf('/devices/')!==-1)?'../':'';
- var link=document.createElement('a');link.className='gallery-link';link.textContent='🖼️ الصور';link.href=base+'gallery.html?folder='+encodeURIComponent(folder)+'&name='+encodeURIComponent(title);link.hidden=false;link.dataset.ready='1';link.setAttribute('aria-label','عرض صور '+title);
+ var link=document.createElement('a');link.className='gallery-link is-disabled';link.textContent='🖼️ الصور';link.removeAttribute('href');link.hidden=false;link.dataset.ready='0';link.setAttribute('aria-label','زر الصور غير مفعل لعدم وجود صور مرفوعة');link.setAttribute('aria-disabled','true');link.setAttribute('tabindex','-1');link.title='هيتفعّل تلقائيًا بعد إضافة صور للمجلد';
  node.appendChild(link);
- check(folder).then(function(hasImages){if(!link.isConnected)return;if(hasImages===false&&location.pathname.indexOf('/skins.html')===-1)link.remove()});
+ check(folder).then(function(hasImages){if(!link.isConnected)return;if(hasImages===true){link.href=base+'gallery.html?folder='+encodeURIComponent(folder)+'&name='+encodeURIComponent(title);link.classList.remove('is-disabled');link.dataset.ready='1';link.setAttribute('aria-label','عرض صور '+title);link.removeAttribute('aria-disabled');link.removeAttribute('tabindex');link.removeAttribute('title')}else{link.removeAttribute('href');link.classList.add('is-disabled');link.dataset.ready='0';link.setAttribute('aria-disabled','true');link.setAttribute('tabindex','-1');link.setAttribute('aria-label','زر الصور غير مفعل لعدم وجود صور مرفوعة');link.title=hasImages===false?'هيتفعّل تلقائيًا بعد إضافة صور للمجلد':'تعذر التأكد من وجود الصور؛ جرّب تحديث الصفحة لاحقًا'}});
 }
 function scan(root){
  var nodes=[];
