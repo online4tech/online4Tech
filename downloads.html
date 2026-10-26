@@ -115,6 +115,18 @@ header.o4t-header{position:relative!important;top:auto!important;z-index:1000!im
 @media(max-width:850px){.o4t-header .o4t-head-inner{justify-content:space-between!important;padding:12px 14px!important;gap:10px!important}.o4t-header .o4t-brand img{width:clamp(180px,34vw,280px)!important;max-height:82px!important}.o4t-header .o4t-brand-slogan{font-size:13px!important}.o4t-header .o4t-nav{justify-content:flex-end!important;gap:4px!important}.o4t-header .o4t-nav a{padding:9px 8px!important;font-size:12px!important}}
 @media(max-width:600px){.o4t-header .o4t-head-inner{justify-content:center!important;flex-wrap:wrap!important;gap:8px!important}.o4t-header .o4t-brand{width:100%!important;justify-content:flex-end!important}.o4t-header .o4t-brand img{width:min(72vw,300px)!important;max-height:78px!important}.o4t-header .o4t-brand-slogan{font-size:13px!important}.o4t-header .o4t-nav{width:100%!important;justify-content:center!important;gap:3px!important}.o4t-header .o4t-nav a{font-size:11px!important;padding:8px 7px!important}}
 </style>
+<style id="downloads-three-cards-only">
+/* Minimal downloads landing: show only the three main SS-style cards. */
+#downloads,
+#faq { display: none !important; }
+.quick-center { padding-top: 18px; }
+.quick-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.quick-card { min-height: 190px; border-radius: 12px; }
+@media (max-width: 760px) {
+  .quick-grid { grid-template-columns: 1fr; }
+  .quick-card { min-height: 130px; }
+}
+</style>
 </head>
 <body><header></header>
 <section class="quick-center" aria-labelledby="quick-title"><div class="head"><div><span class="kicker">FAST ACCESS</span><h2 id="quick-title">اختار نوع الملفات</h2><p>اضغط على القسم المطلوب، واختار موديل جهازك من النافذة المنبثقة.</p></div></div><div class="quick-grid">
