@@ -6,35 +6,50 @@
 <meta name="theme-color" content="#07111f">
 <meta name="description" content="مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.">
 <link rel="canonical" href="https://online4tech.github.io/online4Tech/library.html">
+<link rel="stylesheet" href="assets/site.css">
 <title>مكتبة التحميل | Online4Tech</title>
 <style>
-:root{color-scheme:light;--bg:#f7fbff;--line:#e2eaf4;--text:#21304a;--muted:#65738a;--blue:#3478f6;--mint:#16a765;--gold:#d88137;--purple:#8063df}
+:root{color-scheme:dark;--bg:#07111f;--panel:#0d1a2c;--panel2:#11233a;--line:#233a56;--text:#f4f8ff;--muted:#9fb2ca;--blue:#67d2ff;--mint:#8ce6c2;--gold:#f2c879;--purple:#b6a2ff}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;min-height:100vh;background:linear-gradient(180deg,#fffaf2 0,#fff 42%,var(--bg) 100%);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.8}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 80% -10%,#153a5b 0,transparent 42%),radial-gradient(ellipse at 0% 40%,#102443 0,transparent 36%),var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.85}
 a{color:inherit}
-.wrap{width:min(1160px,92%);margin:0 auto;padding:28px 0}
+.page-wrap{width:min(1180px,92%);margin:0 auto;padding:38px 0 46px}
+.page-intro{text-align:center;margin:0 auto 27px;max-width:760px}
+.eyebrow{display:inline-block;border:1px solid #31516f;background:#10253c;color:var(--blue);border-radius:999px;padding:5px 13px;font-size:.78rem;font-weight:bold}
+.page-intro h1{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.35;margin:13px 0 7px}
+.page-intro p{color:var(--muted);margin:0;font-size:.96rem}
 .card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-.main-card{position:relative;display:flex;flex-direction:column;min-height:230px;padding:25px;border:1px solid var(--line);border-radius:22px;overflow:hidden;text-decoration:none;background:linear-gradient(145deg,#fff,#f8fbff 80%);box-shadow:0 14px 35px #2a426b10;transition:transform .2s,border-color .2s,box-shadow .2s}
-.main-card:before{content:"";position:absolute;top:-70px;left:-55px;width:190px;height:190px;border-radius:50%;background:var(--glow,#2c9be5);opacity:.10;filter:blur(5px);pointer-events:none}
-.main-card:hover,.main-card:focus-visible{transform:translateY(-4px);border-color:var(--accent,#3478f6);box-shadow:0 20px 42px #2a426b18;outline:none}
+.main-card{--accent:var(--blue);--glow:#2c9be5;position:relative;display:flex;flex-direction:column;min-width:0;min-height:240px;padding:25px;border:1px solid var(--line);border-radius:22px;overflow:hidden;text-decoration:none;background:linear-gradient(145deg,#12243a,#0b1727 78%);box-shadow:0 18px 42px #0002;transition:transform .2s,border-color .2s,box-shadow .2s}
+.main-card:before{content:"";position:absolute;top:-70px;left:-55px;width:190px;height:190px;border-radius:50%;background:var(--glow);opacity:.16;filter:blur(7px);pointer-events:none}
+.main-card:hover,.main-card:focus-visible{transform:translateY(-4px);border-color:var(--accent);box-shadow:0 22px 48px #0004;outline:none}
 .card-head{display:flex;align-items:center;justify-content:space-between;gap:12px;position:relative}
-.card-icon{width:56px;height:56px;display:grid;place-items:center;border-radius:17px;font-size:1.8rem;background:#edf5ff;border:1px solid #d9e8fb}
-.card-badge{padding:4px 10px;border:1px solid #dce8f5;border-radius:999px;color:var(--accent,#3478f6);font-size:.75rem;font-weight:700;white-space:nowrap;background:#fff}
-.main-card h2{font-size:1.3rem;margin:18px 0 6px;position:relative}
+.card-icon{width:58px;height:58px;display:grid;place-items:center;border-radius:17px;font-size:1.8rem;background:#16314c;border:1px solid #2b4c6a}
+.card-badge{padding:4px 10px;border:1px solid #2e4d68;border-radius:999px;color:var(--accent);font-size:.75rem;font-weight:700;white-space:nowrap;background:#112a42}
+.main-card h2{font-size:1.28rem;margin:18px 0 6px;position:relative}
 .main-card p{color:var(--muted);margin:0 0 20px;position:relative}
 .card-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;position:relative}
-.card-bottom strong{font-size:.9rem;color:var(--accent,#3478f6)}
-.arrow{display:grid;place-items:center;width:34px;height:34px;border:1px solid #dce8f5;border-radius:11px;background:#fff;font-size:1.15rem}
-.channels{--accent:#3478f6;--glow:#2c9be5}
-.backups{--accent:#159b72;--glow:#30c49a}
-.plugins{--accent:#bd7a19;--glow:#dca846}
-.guides{--accent:#8063df;--glow:#9074ff}
-@media(max-width:650px){.wrap{width:92%;padding:18px 0}.card-grid{grid-template-columns:1fr;gap:13px}.main-card{min-height:0;padding:20px}.main-card h2{font-size:1.15rem}}
+.card-bottom strong{font-size:.9rem;color:var(--accent)}
+.arrow{display:grid;place-items:center;width:36px;height:36px;border:1px solid #345574;border-radius:11px;background:#11253a;color:var(--text);font-size:1.15rem}
+.channels{--accent:#67d2ff;--glow:#2c9be5}
+.backups{--accent:#8ce6c2;--glow:#30c49a}
+.plugins{--accent:#f2c879;--glow:#dca846}
+.guides{--accent:#b6a2ff;--glow:#9074ff}
+footer{border-top:1px solid #233a56;background:#050c16;padding:22px 0;color:var(--muted);font-size:.82rem}
+.foot{width:min(1180px,92%);margin:auto;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.foot a{color:var(--blue);text-decoration:none}
+@media(max-width:650px){.page-wrap{width:91%;padding:27px 0 34px}.card-grid{grid-template-columns:1fr;gap:13px}.main-card{min-height:0;padding:21px}.main-card h2{font-size:1.15rem}.page-intro{margin-bottom:20px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
 </style>
 </head>
 <body>
-<main class="wrap">
+<header></header>
+<main class="page-wrap">
+<div class="page-intro">
+<span class="eyebrow">ONLINE4TECH · مكتبة الموقع</span>
+<h1>كل ملفاتك وشروحاتك في مكان واحد</h1>
+<p>اختار القسم اللي محتاجه، وهتلاقي المحتوى مترتب بشكل واضح ومتناسق مع تصميم الموقع.</p>
+</div>
 <div class="card-grid">
 <a class="main-card channels" href="downloads.html">
 <div class="card-head"><span class="card-icon" aria-hidden="true">📡</span><span class="card-badge">تحميل مباشر</span></div>
@@ -62,5 +77,7 @@ a{color:inherit}
 </a>
 </div>
 </main>
+<footer><div class="foot"><span>© 2026 Online4Tech — ملفات وشروحات تقنية بشكل أبسط.</span><span><a href="library.html">مكتبة التحميل</a> · <a href="about.html">عن الموقع</a> · <a href="https://www.facebook.com/ahmad.m.romeh/" target="_blank" rel="noopener">Facebook</a> · <a href="https://m.me/ahmad.m.romeh/" target="_blank" rel="noopener">Messenger</a></span></div></footer>
+<script src="assets/site-header.js" defer></script>
 </body>
 </html>
