@@ -78,6 +78,16 @@ footer{background:#050c16;border-top-color:#263d58}
   #pluginGrid .topic,#pluginGrid .topic *{transition:none!important;scroll-behavior:auto!important}
 }
 </style>
+
+<style id="plugin-thumbnail-styles">
+/* Compact thumbnails beside plugin names */
+#pluginGrid .topic .plugin-thumb{position:relative;display:grid;place-items:center;overflow:hidden;background:#0a1727;border:1px solid #31506e;border-radius:12px}
+#pluginGrid .topic .plugin-thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+#pluginGrid .topic .plugin-thumb .thumb-fallback-icon{position:relative;z-index:1;display:grid;place-items:center;width:100%;height:100%;font-size:1.65rem;background:linear-gradient(145deg,#183957,#0b1727)}
+#pluginGrid .topic .plugin-thumb:not(.thumb-fallback) .thumb-fallback-icon{display:none}
+#pluginGrid .topic .plugin-thumb img:not([src]),#pluginGrid .topic .plugin-thumb img[style*="display: none"]{display:none}
+@media(max-width:600px){#pluginGrid .topic{grid-template-columns:48px minmax(0,1fr);grid-template-rows:auto auto auto;column-gap:12px}#pluginGrid .topic .icon{grid-column:1;grid-row:1 / span 2;width:46px;height:46px}#pluginGrid .topic h2{grid-column:2;grid-row:1 / span 2}#pluginGrid .topic p,#pluginGrid .topic .link{grid-column:1 / -1}}
+</style>
 </head>
 <body>
 <header><div class="wrap top">
@@ -89,23 +99,23 @@ footer{background:#050c16;border-top-color:#263d58}
 <div class="tools"><input id="pluginSearch" class="search" type="search" placeholder="ابحث باسم البلجن أو وظيفته..." aria-label="ابحث في البلجنز"><span class="count" id="pluginCount">16 بلجن</span></div>
 </section>
 <section class="grid" id="pluginGrid" aria-label="قائمة البلجنز">
-<a class="topic" href="picons.html"><div class="icon">🖼️</div><h2>بيكونات القنوات (Picons)</h2><p>صور وشعارات القنوات اللي بتظهر جنب اسم القناة في قائمة القنوات والواجهة، لتسهيل التعرّف على القنوات وإضافة شكل منظم للرسيفر.</p><span class="link">تحميل البيكونات وطريقة التثبيت ←</span></a>
-<a class="topic" href="enigmaplay.html"><div class="icon">🛍️</div><h2>EnigmaPlay — متجر بلجنز Enigma2</h2><p>متجر شبيه بجوجل بلاي للرسيفر، يضم أكثر من 200 بلجن حسب وصف المشروع، مع التثبيت والتحديث وإدارة البلجنز.</p><span class="link">عرض التفاصيل ←</span></a>
-<a class="topic" href="ultraaudio.html"><div class="icon">🎧</div><h2>UltraAudio للصوتيات</h2><p>أمر التثبيت عبر Telnet / SSH، طريقة التثبيت، ومعلومات البلجن.</p><span class="link">عرض التفاصيل ←</span></a>
-<a class="topic" href="alkuds-audio.html"><div class="icon">🔊</div><h2>القدس لتشغيل الصوتيات</h2><p>أمر التثبيت عبر Telnet / SSH، وخطوات التثبيت ومعلومات المصدر.</p><span class="link">عرض التفاصيل ←</span></a>
-<a class="topic" href="footonsat.html"><div class="icon">⚽</div><h2>FootOnSat لمواعيد وتفاصيل المباريات</h2><p>مواعيد المباريات والنتائج المباشرة والترتيب والتنبيهات، مع صور من المستودع.</p><span class="link">عرض التفاصيل ←</span></a>
-<a class="topic" href="arabicsavior.html"><div class="icon">🔤</div><h2>المنقذ ArabicSavior لاستعادة اللغة العربية</h2><p>إصلاح الخطوط العربية وتغيير نوع الخط في واجهة Enigma2.</p><span class="link">عرض التفاصيل ←</span></a>
-<a class="topic" href="quran-kareem.html"><div class="icon">📖</div><h2>Quran Kareem</h2><p>بلجن القرآن الكريم لأجهزة Enigma2 — تفاصيل المصدر والتثبيت.</p><span class="link">عرض التفاصيل ←</span></a>
-<a class="topic" href="ipaudio-pro.html"><div class="icon">🎧</div><h2>IP Audio Pro للصوتيات</h2><p>قوائم تشغيل متعددة، تحكم بالصوت، وإدارة عبر واجهة الويب مع صور حقيقية.</p><span class="link">عرض التفاصيل ←</span></a>
-<a class="topic" href="subssupportpro.html"><div class="icon">💬</div><h2>SubsSupportPro للترجمة</h2><p>البحث عن الترجمات، اختيارها وضبط تزامنها مع الفيديو، مع مراجع للمميزات.</p><span class="link">عرض التفاصيل ←</span></a>
-<a class="topic" href="raedquicksignal.html"><div class="icon">📡</div><h2>RaedQuickSignal لعرض الإشارة</h2><p>عرض SNR وAGC ومعلومات التشفير وPicons مع إمكانية تنزيل صور القنوات.</p><span class="link">عرض التفاصيل ←</span></a>
-<a class="topic" href="ajpanel.html"><div class="icon">🧰</div><h2>AJPanel لوحة الأدوات</h2><p>إدارة الملفات والقنوات وIPTV وPicons وEPG والشبكة والنسخ الاحتياطي ومراقبة الإشارة.</p><span class="link">عرض التفاصيل ←</span></a>
-<a class="topic" href="timeshift-delay.html"><div class="icon">⏱️</div><h2>TimeShift Delay</h2><p>إضافة خيار لتحديد تأخير بدء التايم شفت بالثواني، مع خيارات تصل إلى 30 ثانية حسب وصف الإصدار.</p><span class="link">عرض التفاصيل ←</span></a>
-<a class="topic" href="xtreamnew.html"><div class="icon">📺</div><h2>XtreamNew لتشغيل IPTV</h2><p>البث المباشر والأفلام والمسلسلات وEPG، مع متطلبات التوافق وملاحظات الأمان.</p><span class="link">عرض التفاصيل ←</span></a>
-<a class="topic" href="mystreamer.html"><div class="icon">🎬</div><h2>MyStreamer 1.0.0 للأفلام والمسلسلات والرياضة</h2><p>29 موقعًا عربيًا للأفلام والمسلسلات و4 مواقع رياضية، مع أمر التثبيت وملاحظات التوافق والمعماريات.</p><span class="link">عرض التفاصيل ←</span></a>
-<a class="topic" href="mobile-telnet.html"><div class="icon">📱</div><h2>شرح تطبيق Mobile Telnet</h2><p>طريقة الاتصال برسيفر Enigma2 من الموبايل، إدخال عنوان IP، تسجيل الدخول وتنفيذ الأوامر الأساسية بأمان.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="picons.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🖼️</span></div><h2>بيكونات القنوات (Picons)</h2><p>صور وشعارات القنوات اللي بتظهر جنب اسم القناة في قائمة القنوات والواجهة، لتسهيل التعرّف على القنوات وإضافة شكل منظم للرسيفر.</p><span class="link">تحميل البيكونات وطريقة التثبيت ←</span></a>
+<a class="topic" href="enigmaplay.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🛍️</span></div><h2>EnigmaPlay — متجر بلجنز Enigma2</h2><p>متجر شبيه بجوجل بلاي للرسيفر، يضم أكثر من 200 بلجن حسب وصف المشروع، مع التثبيت والتحديث وإدارة البلجنز.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="ultraaudio.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🎧</span></div><h2>UltraAudio للصوتيات</h2><p>أمر التثبيت عبر Telnet / SSH، طريقة التثبيت، ومعلومات البلجن.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="alkuds-audio.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🔊</span></div><h2>القدس لتشغيل الصوتيات</h2><p>أمر التثبيت عبر Telnet / SSH، وخطوات التثبيت ومعلومات المصدر.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="footonsat.html"><div class="icon plugin-thumb"><img src="https://user-images.githubusercontent.com/43075184/115863673-50b95300-a425-11eb-9862-5f1261a6de74.jpg" alt="صورة footonsat" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('thumb-fallback')"><span class="thumb-fallback-icon">⚽</span></div><h2>FootOnSat لمواعيد وتفاصيل المباريات</h2><p>مواعيد المباريات والنتائج المباشرة والترتيب والتنبيهات، مع صور من المستودع.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="arabicsavior.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🔤</span></div><h2>المنقذ ArabicSavior لاستعادة اللغة العربية</h2><p>إصلاح الخطوط العربية وتغيير نوع الخط في واجهة Enigma2.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="quran-kareem.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">📖</span></div><h2>Quran Kareem</h2><p>بلجن القرآن الكريم لأجهزة Enigma2 — تفاصيل المصدر والتثبيت.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="ipaudio-pro.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🎧</span></div><h2>IP Audio Pro للصوتيات</h2><p>قوائم تشغيل متعددة، تحكم بالصوت، وإدارة عبر واجهة الويب مع صور حقيقية.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="subssupportpro.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">💬</span></div><h2>SubsSupportPro للترجمة</h2><p>البحث عن الترجمات، اختيارها وضبط تزامنها مع الفيديو، مع مراجع للمميزات.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="raedquicksignal.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">📡</span></div><h2>RaedQuickSignal لعرض الإشارة</h2><p>عرض SNR وAGC ومعلومات التشفير وPicons مع إمكانية تنزيل صور القنوات.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="ajpanel.html"><div class="icon plugin-thumb"><img src="https://raw.githubusercontent.com/AMAJamry/AJPanel/main/help/ChannelsBrowser.jpg" alt="صورة ajpanel" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('thumb-fallback')"><span class="thumb-fallback-icon">🧰</span></div><h2>AJPanel لوحة الأدوات</h2><p>إدارة الملفات والقنوات وIPTV وPicons وEPG والشبكة والنسخ الاحتياطي ومراقبة الإشارة.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="timeshift-delay.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">⏱️</span></div><h2>TimeShift Delay</h2><p>إضافة خيار لتحديد تأخير بدء التايم شفت بالثواني، مع خيارات تصل إلى 30 ثانية حسب وصف الإصدار.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="xtreamnew.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">📺</span></div><h2>XtreamNew لتشغيل IPTV</h2><p>البث المباشر والأفلام والمسلسلات وEPG، مع متطلبات التوافق وملاحظات الأمان.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="mystreamer.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🎬</span></div><h2>MyStreamer 1.0.0 للأفلام والمسلسلات والرياضة</h2><p>29 موقعًا عربيًا للأفلام والمسلسلات و4 مواقع رياضية، مع أمر التثبيت وملاحظات التوافق والمعماريات.</p><span class="link">عرض التفاصيل ←</span></a>
+<a class="topic" href="mobile-telnet.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">📱</span></div><h2>شرح تطبيق Mobile Telnet</h2><p>طريقة الاتصال برسيفر Enigma2 من الموبايل، إدخال عنوان IP، تسجيل الدخول وتنفيذ الأوامر الأساسية بأمان.</p><span class="link">عرض التفاصيل ←</span></a>
 
-<a class="topic" href="scripts-tools.html"><div class="icon">🛠️</div><h2>سكريبتات وأدوات Enigma2</h2><p>مكتبة منظمة للسكريبتات والأدوات والبانلات والسمات وملفات الباك أب، مع البحث والتصنيف وروابط المصدر والتنزيل.</p><span class="link">استكشف الأدوات ←</span></a>
+<a class="topic" href="scripts-tools.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🛠️</span></div><h2>سكريبتات وأدوات Enigma2</h2><p>مكتبة منظمة للسكريبتات والأدوات والبانلات والسمات وملفات الباك أب، مع البحث والتصنيف وروابط المصدر والتنزيل.</p><span class="link">استكشف الأدوات ←</span></a>
 </section><div class="empty" id="emptyState">مفيش بلجن مطابق لكلمة البحث. جرّب كلمة تانية.</div>
 </main>
 <footer><div class="wrap foot"><span>© Online4Tech — التقنية أسهل</span><a href="../index.html">الرجوع للصفحة الرئيسية ↑</a></div></footer>
