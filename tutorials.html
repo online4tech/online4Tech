@@ -31,6 +31,17 @@ header{position:sticky;top:0;z-index:10;background:#0b1424ed;backdrop-filter:blu
 .hero h1{font-size:clamp(2rem,5vw,3.35rem);line-height:1.25;letter-spacing:-.6px;margin:15px 0 12px;font-weight:900}
 .hero h1 span{color:var(--blue)}.hero p{color:var(--muted);max-width:720px;margin:0;font-size:1.04rem}
 .section-label{font-size:.95rem;color:#c0cbe0;font-weight:800;margin:18px 0 12px}
+.beginner-path{margin:8px 0 30px;padding:22px;border:1px solid #2b496b;border-radius:22px;background:linear-gradient(135deg,#10243a,#111d30);box-shadow:0 12px 30px #00000020}
+.beginner-path-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:16px}
+.beginner-path h2{margin:0;font-size:1.35rem;font-weight:900}
+.beginner-path-head p{margin:5px 0 0;color:var(--muted)}
+.beginner-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.beginner-step{display:flex;flex-direction:column;align-items:flex-start;gap:7px;min-width:0;padding:16px;border:1px solid #2a4058;border-radius:16px;background:#0b1728;transition:transform .18s,border-color .18s}
+.beginner-step:hover,.beginner-step:focus-visible{transform:translateY(-3px);border-color:var(--blue);outline:none}
+.beginner-step .step-number{display:grid;place-items:center;width:34px;height:34px;border-radius:11px;background:#1b3151;color:#9fc4ff;font-weight:900}
+.beginner-step strong{font-size:1rem}
+.beginner-step small{color:var(--muted);font-size:.86rem;line-height:1.65}
+.beginner-step .step-go{margin-top:auto;padding-top:5px;color:#8fc1ff;font-weight:800;font-size:.88rem}
 .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding:8px 0 30px}
 .card{position:relative;display:flex;flex-direction:column;align-items:flex-start;min-width:0;overflow:hidden;background:var(--paper);border:1px solid var(--line);border-radius:22px;padding:24px;box-shadow:0 12px 34px #00000025;transition:transform .2s,box-shadow .2s,border-color .2s}
 .card:before{content:"";position:absolute;inset:0 0 auto;height:4px;background:linear-gradient(90deg,var(--blue),var(--cyan),var(--orange))}
@@ -58,7 +69,16 @@ footer{border-top:1px solid var(--line);padding:23px 0;color:var(--muted);font-s
 </div></header>
 <main class="wrap">
 <section class="hero"><span class="eyebrow">دليل Online4Tech</span><h1>كل اللي محتاجه، <span>في مكان واحد</span></h1><p>اختار القسم المناسب ليك للوصول للبلجنز والسكينات والشروحات الخاصة بأجهزة Enigma2، بتصميم واضح وسهل من الموبايل أو الكمبيوتر.</p></section>
-<h2 class="section-label">اختار القسم اللي محتاجه</h2>
+<section class="beginner-path" aria-labelledby="beginner-path-title">
+<div class="beginner-path-head"><div><h2 id="beginner-path-title">🌱 أول مرة تستخدم Enigma2؟ ابدأ من هنا</h2><p>امشي بالترتيب، وكل خطوة هتوصّلك للشرح أو الصفحة المناسبة من غير ما تتوه بين الأقسام.</p></div></div>
+<div class="beginner-steps">
+<a class="beginner-step" href="guides.html#channel-list"><span class="step-number">1</span><strong>ملف القنوات</strong><small>اعرف مكان ملف القنوات وطريقة تنزيله وتثبيته.</small><span class="step-go">ابدأ بالشرح ←</span></a>
+<a class="beginner-step" href="guides.html#backup-install"><span class="step-number">2</span><strong>تركيب الباك أب</strong><small>راجع موديل جهازك واختار النسخة المتوافقة قبل التثبيت.</small><span class="step-go">افهم الخطوات ←</span></a>
+<a class="beginner-step" href="guides.html#diseqc"><span class="step-number">3</span><strong>ضبط الدايسك</strong><small>تعرّف على إعدادات توصيل الأقمار الأربعة.</small><span class="step-go">افتح الشرح ←</span></a>
+<a class="beginner-step" href="plugins/mobile-telnet.html"><span class="step-number">4</span><strong>التحكم من الموبايل</strong><small>اتعرّف على الاتصال بالرسيفر باستخدام Mobile Telnet.</small><span class="step-go">شوف الخطوات ←</span></a>
+</div>
+</section>
+<h2 class="section-label">أو اختار القسم اللي محتاجه</h2>
 <section class="grid" aria-label="الأقسام الرئيسية">
 <a class="card" href="plugins/index.html"><div class="icon" aria-hidden="true">🧩</div><h2>البلجن</h2><p>استعرض البلجنز المتاحة، وتعرّف على وظيفة كل بلجن وطريقة التثبيت والاستخدام.</p><span class="go">استكشف البلجن <span aria-hidden="true">←</span></span></a>
 <a class="card" href="skins.html"><div class="icon" aria-hidden="true">🎨</div><h2>الاسكين</h2><p>اكتشف السكينات وتعرّف على طرق تثبيتها وتخصيص واجهة جهاز Enigma2.</p><span class="go">افتح قسم الاسكين <span aria-hidden="true">←</span></span></a>
