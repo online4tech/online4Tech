@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="690" height="150" viewBox="0 0 690 150" role="img" aria-labelledby="title desc">
 <title id="title">OnLine4Tech — خليك دايما اونلاين</title>
 <desc id="desc">شعار Online4Tech بخلفية شفافة، حروف متصلة بدون فواصل زخرفية، دائرة حمراء داخل O، رقم 4 أزرق، وطبق استقبال فضائي.</desc>
 <defs>
@@ -22,7 +22,7 @@
  <circle cx="81" cy="91" r="20" fill="url(#red)" stroke="#0b2343" stroke-width="2.8"/>
  <text x="101" y="126" font-family="Arial,Helvetica,sans-serif" font-size="92" font-style="italic" font-weight="900" letter-spacing="-5" fill="url(#silver)">nLine</text>
  <path d="M222 27 L251 43 L220 58Z" fill="url(#red)" stroke="#0b2343" stroke-width="2"/>
- <text x="435" y="126" font-family="Arial,Helvetica,sans-serif" font-size="110" font-style="italic" font-weight="900" letter-spacing="-4" fill="url(#blue)">4</text>
- <text x="495" y="126" font-family="Arial,Helvetica,sans-serif" font-size="92" font-style="italic" font-weight="900" letter-spacing="-4" fill="url(#silver)">Tech</text>
+ <text x="386" y="126" font-family="Arial,Helvetica,sans-serif" font-size="110" font-style="italic" font-weight="900" letter-spacing="-4" fill="url(#blue)">4</text>
+ <text x="444" y="126" font-family="Arial,Helvetica,sans-serif" font-size="92" font-style="italic" font-weight="900" letter-spacing="-4" fill="url(#silver)">Tech</text>
 </g>
 </svg>
