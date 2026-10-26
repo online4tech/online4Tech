@@ -45,4 +45,5 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:#9fb4cc;font-size:.
 <script>
 (function(){const search=document.getElementById('search'),kind=document.getElementById('kind'),cards=[...document.querySelectorAll('.card')],empty=document.getElementById('empty');function filter(){const q=search.value.trim().toLowerCase(),k=kind.value;let count=0;cards.forEach(card=>{const match=card.dataset.search.toLowerCase().includes(q)||card.innerText.toLowerCase().includes(q);const show=match&&(k==='all'||card.dataset.kind===k);card.hidden=!show;if(show)count++});empty.style.display=count?'none':'block'}search.addEventListener('input',filter);kind.addEventListener('change',filter)})();
 </script>
+<script src="assets/site-header.js" defer></script>
 </body></html>
