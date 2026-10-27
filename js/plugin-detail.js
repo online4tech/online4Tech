@@ -184,7 +184,7 @@
 
       const downloads = plugin.downloads || {};
       const githubOnly = value => { try { const u = new URL(String(value || '')); return u.protocol === 'https:' && ['github.com','www.github.com','raw.githubusercontent.com'].includes(u.hostname) ? u.href : ''; } catch (_) { return ''; } };
-      const downloadUrl = githubOnly(downloads.githubRelease) || githubOnly(downloads.repository) || githubOnly(plugin.downloadUrl);
+      const downloadUrl = githubOnly(downloads.githubRelease);
       const githubUrl = githubOnly(plugin.githubUrl) || githubOnly(downloads.repository);
       const screenshotItems = (Array.isArray(plugin.screenshots) ? plugin.screenshots : []).map(item => typeof item === 'string' ? item : item?.url).filter(hasValue).map(value => asset(value));
       const screenshotHtml = screenshotItems.map((src, index) => '<a class="screenshot screenshot-slide' + (index === 0 ? ' is-active' : '') + '" data-gallery-slide="' + index + '" href="' + esc(src) + '" data-lightbox="' + index + '" aria-label="فتح الصورة"><img loading="lazy" decoding="async" src="' + esc(src) + '"' + imageError() + ' alt="' + esc(plugin.name) + ' — صورة ' + (index + 1) + '"></a>').join('');
@@ -225,7 +225,7 @@
       const aside = metadata || sideActions ? '<aside>' + panel('بيانات الإضافة', metadata + (sideActions ? '<div class="card-actions">' + sideActions + '</div>' : ''), true) + '</aside>' : '';
 
       const heroLogo = visual(plugin, 'icon');
-      $('pluginDetail').innerHTML = '<section class="detail-hero">' + (heroLogo ? '<div class="detail-icon">' + heroLogo + '</div>' : '') + '<div><div class="eyebrow">ENIGMA2 PLUGIN' + (hasValue(plugin.category) ? ' · ' + esc(plugin.category) : '') + '</div><h1>' + esc(plugin.name) + '</h1>' + (heroBadges ? '<div class="badge-row">' + heroBadges + '</div>' : '') + (hasValue(plugin.arabicDescription || plugin.description) ? '<p>' + esc(plugin.arabicDescription || plugin.description) + '</p>' : '') + (actionLinks ? '<div class="card-actions">' + actionLinks + '</div>' : '') + '</div></section><div class="detail-columns"><div>' + panels + '</div>' + aside + '</div>';
+      $('pluginDetail').innerHTML = '<section class="detail-hero' + (heroLogo ? ' has-logo' : ' no-logo') + '">' + (heroLogo ? '<div class="detail-icon">' + heroLogo + '</div>' : '') + '<div><div class="eyebrow">ENIGMA2 PLUGIN' + (hasValue(plugin.category) ? ' · ' + esc(plugin.category) : '') + '</div><h1>' + esc(plugin.name) + '</h1>' + (heroBadges ? '<div class="badge-row">' + heroBadges + '</div>' : '') + (hasValue(plugin.arabicDescription || plugin.description) ? '<p>' + esc(plugin.arabicDescription || plugin.description) + '</p>' : '') + (actionLinks ? '<div class="card-actions">' + actionLinks + '</div>' : '') + '</div></section><div class="detail-columns"><div>' + panels + '</div>' + aside + '</div>';
 
       const relatedIds = listValues(plugin.relatedPlugins);
       const related = relatedIds.map(value => data.plugins.find(item => item.id === value || item.slug === value)).filter(item => item && item.id !== plugin.id);
