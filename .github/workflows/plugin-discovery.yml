@@ -29,7 +29,7 @@ jobs:
         run: cp data/plugins.json plugins.backup.json
       - name: Discover, validate and update plugin catalog
         env:
-          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -Eeuo pipefail
           trap 'cp plugins.backup.json data/plugins.json; git checkout -- data/plugins.json data/search-index.json sitemap.xml data/discovery-report.json 2>/dev/null || true' ERR
@@ -42,7 +42,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: plugin-discovery-\${{ github.run_number }}
+          name: plugin-discovery-${{ github.run_number }}
           path: |
             plugins.backup.json
             data/discovery-report.json
@@ -52,11 +52,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/plugins.json data/search-index.json sitemap.xml data/discovery-report.json
+          git add data/plugins.json data/search-index.json sitemap.xml
           if git diff --cached --quiet; then
-            echo "No changes detected; no commit created."
+            echo "No catalog, search index or sitemap changes; no commit created."
             exit 0
           fi
+          git add data/discovery-report.json
           git commit -m "chore(plugins): daily plugin catalog update"
           for attempt in 1 2 3; do
             git pull --rebase origin main
