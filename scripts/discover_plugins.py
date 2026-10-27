@@ -139,6 +139,7 @@ def main():
         except DiscoveryError as e:failed.append({"source":r.get("full_name",k),"error":str(e)})
     byrepo={key_url(p.get("githubUrl") or (p.get("downloads") or {}).get("repository")):p for p in plugins}
     byid={str(p.get("id","")).lower():p for p in plugins}; byname={norm(p.get("name")):p for p in plugins}
+    initial_plugins=json.dumps(plugins,sort_keys=True,ensure_ascii=False)
     added=[];updated=[];seen=set()
     for k,r in valid:
         if k in seen:duplicates+=1;continue
@@ -150,16 +151,19 @@ def main():
             before=json.dumps(old,sort_keys=True,ensure_ascii=False)
             rec["id"]=old.get("id") or rec["id"];rec["slug"]=old.get("slug") or rec["slug"]
             if old.get("description") and not r.get("description"):rec["description"]=old["description"]
-            rec["changelog"]=list(old.get("changelog") or [])+[{"date":TODAY,"action":"plugin-updated"}]
-            rec["changelog"]=rec["changelog"][-30:]
-            if json.dumps(rec,sort_keys=True,ensure_ascii=False)!=before:old.clear();old.update(rec);updated.append(rec["id"])
+            rec["changelog"]=list(old.get("changelog") or [])
+            if json.dumps(rec,sort_keys=True,ensure_ascii=False)!=before:
+                rec["changelog"].append({"date":TODAY,"action":"plugin-updated"})
+                rec["changelog"]=rec["changelog"][-30:]
+                old.clear();old.update(rec);updated.append(rec["id"])
         else:
             rec["changelog"].append({"date":TODAY,"action":"plugin-added"});plugins.append(rec);byrepo[k]=rec;byid[rec["id"].lower()]=rec;byname[norm(rec["name"])]=rec;added.append(rec["id"])
     ranked=sorted(plugins,key=lambda p:float(p.get("popularityScore") or 0),reverse=True)
     top={p.get("id") for p in ranked[:max(1,math.ceil(len(ranked)*.1))]} if ranked else set()
     for p in plugins:
         if "popularityScore" in p:p["featured"]=p.get("id") in top
-    data["generatedAt"]=TODAY;data["schemaVersion"]=max(2,int(data.get("schemaVersion") or 2))
+    if json.dumps(plugins,sort_keys=True,ensure_ascii=False)!=initial_plugins:data["generatedAt"]=TODAY
+    data["schemaVersion"]=max(2,int(data.get("schemaVersion") or 2))
     CATALOG.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     report={"date":TODAY,"sources":QUERIES,"plugins_found":found,"valid_repositories":len(valid),"plugins_added":len(added),"plugins_updated":len(updated),"duplicates_skipped":duplicates,"failed_sources":failed,"added":added,"updated":updated,"catalog_total":len(plugins),"limits":{"max_candidates_checked":MAX_CANDIDATES,"max_new_per_run":MAX_NEW,"recent_activity_days":RECENT_DAYS}}
     REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
