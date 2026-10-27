@@ -69,7 +69,7 @@ jobs:
             if (/(screenshot|preview|banner|header)/i.test(iconName)) throw new Error('Forbidden screenshot/banner icon: ' + (p.id || p.name));
             if (thumbnailName !== 'thumbnail.webp') throw new Error('Plugin thumbnail must be thumbnail.webp: ' + (p.id || p.name));
             for (const shot of p.screenshots) {
-              if (!/^screenshot-\\d+\\.webp$/i.test(path.posix.basename(shot))) {
+              if (!/^screenshot-\d+\.webp$/i.test(path.posix.basename(shot))) {
                 throw new Error('Gallery item must use screenshot-N.webp: ' + (p.id || p.name) + ' => ' + shot);
               }
             }
