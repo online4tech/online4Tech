@@ -108,8 +108,7 @@ jobs:
           git add data/image-report.json
           git commit -m "feat(images): automatic GitHub plugin image discovery and gallery system"
           for attempt in 1 2 3; do
-            git pull --rebase origin main
-            if git push origin HEAD:main; then trap - ERR; exit 0; fi
+            if git pull --rebase origin main && git push origin HEAD:main; then trap - ERR; exit 0; fi
             sleep 3
           done
           echo "Push failed after retries."
