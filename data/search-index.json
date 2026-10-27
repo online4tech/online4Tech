@@ -720,14 +720,6 @@
     "type": "Plugin"
   },
   {
-    "title": "AJPanel لوحة الأدوات",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
     "title": "ArabicSavior | المنقذ لاستعادة اللغة العربية - Online4Tech",
     "description": "ArabicSavior | المنقذ لاستعادة اللغة العربية - Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugins/arabicsavior.html",
@@ -784,25 +776,9 @@
     "type": "Plugin"
   },
   {
-    "title": "FootOnSat لمواعيد وتفاصيل المباريات",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
     "title": "FootOnSat — مواعيد وتفاصيل المباريات",
     "description": "FootOnSat | مواعيد وتفاصيل المباريات - Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugins/footonsat.html",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
-    "title": "IP Audio Pro للصوتيات",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
@@ -840,25 +816,9 @@
     "type": "Plugin"
   },
   {
-    "title": "MyStreamer 1.0.0 للأفلام والمسلسلات والرياضة",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
     "title": "MyStreamer — الإصدار 1.0.0",
     "description": "شرح بلجن MyStreamer 1.0.0 لأجهزة Enigma2: مواقع عربية للأفلام والمسلسلات والأحداث الرياضية، أمر التثبيت وملاحظات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mystreamer.html",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
-    "title": "Quran Kareem",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
@@ -896,22 +856,6 @@
     "type": "Plugin"
   },
   {
-    "title": "RaedQuickSignal لعرض الإشارة",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
-    "title": "SubsSupportPro للترجمة",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
     "title": "SubsSupportPro للترجمة | Online4Tech",
     "description": "SubsSupportPro للترجمة | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugins/subssupportpro.html",
@@ -929,14 +873,6 @@
   },
   {
     "title": "TimeShift Delay",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
-    "title": "TimeShift Delay",
     "description": "TimeShift Delay | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugins/timeshift-delay.html",
     "category": "إضافات",
@@ -947,14 +883,6 @@
     "title": "TimeShift Delay | Online4Tech",
     "description": "TimeShift Delay | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugins/timeshift-delay.html",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
-    "title": "UltraAudio للصوتيات",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
@@ -984,14 +912,6 @@
     "type": "Plugin"
   },
   {
-    "title": "XtreamNew لتشغيل IPTV",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
     "title": "XtreamNew لتشغيل IPTV | Online4Tech",
     "description": "شرح بلجن XtreamNew لأجهزة Enigma2 لتشغيل IPTV وLive TV والأفلام والمسلسلات، مع أمر التثبيت ومتطلبات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/xtreamnew.html",
@@ -1003,6 +923,14 @@
     "title": "إزاي تنفّذ أمر؟",
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "إضافات مشابهة",
+    "description": "تفاصيل وتوافق إضافات Enigma2 من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
@@ -1088,33 +1016,9 @@
     "type": "Tutorial"
   },
   {
-    "title": "الرجوع للصفحة الرئيسية ↑",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/index.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Tutorial"
-  },
-  {
-    "title": "الشروحات التفصيلية",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Tutorial"
-  },
-  {
-    "title": "القدس لتشغيل الصوتيات",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
-    "title": "المنقذ ArabicSavior لاستعادة اللغة العربية",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
+    "title": "الفئات",
+    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
@@ -1131,14 +1035,6 @@
     "title": "بلجن القدس لتشغيل الصوتيات | Online4Tech",
     "description": "بلجن القدس لتشغيل الصوتيات | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugins/alkuds-audio.html",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
-    "title": "بيكونات القنوات (Picons)",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
@@ -1168,11 +1064,19 @@
     "type": "Tutorial"
   },
   {
-    "title": "سكريبتات وأدوات Enigma2",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
+    "title": "تصفية النتائج",
+    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "تفاصيل البلجن | Online4Tech",
+    "description": "تفاصيل وتوافق إضافات Enigma2 من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1193,14 +1097,6 @@
   },
   {
     "title": "شرح تطبيق Mobile Telnet",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
-    "title": "شرح تطبيق Mobile Telnet",
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
@@ -1216,20 +1112,60 @@
     "type": "Plugin"
   },
   {
-    "title": "قائمة البلجن | Online4Tech",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
     "title": "قائمة البلجنز",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Tutorial"
+  },
+  {
+    "title": "كل إضافات Enigma2 في مكان واحد",
+    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "كل الإضافات",
+    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "كل البلجنز",
+    "description": "تفاصيل وتوافق إضافات Enigma2 من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "مركز إضافات Enigma2",
+    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
+    "url": "https://online4tech.github.io/online4Tech/index.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "مركز البلجنز",
+    "description": "تفاصيل وتوافق إضافات Enigma2 من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "مركز بلجنز Enigma2 | Online4Tech",
+    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
   },
   {
     "title": "مش قادر أكتب أو أنفّذ الأمر",
@@ -1254,6 +1190,22 @@
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Tutorial"
+  },
+  {
+    "title": "مكتبة الشروحات",
+    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Tutorial"
+  },
+  {
+    "title": "← الرجوع لمركز البلجنز",
+    "description": "تفاصيل وتوافق إضافات Enigma2 من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
   },
   {
     "title": "→ الرجوع لقائمة البلجن",
@@ -1352,14 +1304,6 @@
     "type": "Plugin"
   },
   {
-    "title": "⏱️TimeShift Delayإضافة خيار لتحديد تأخير بدء التايم شفت بالثواني، مع خيارات تصل إلى 30 ثانية حسب وصف الإصدار.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/timeshift-delay.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "⚙️ أمر التثبيت",
     "description": "شرح بلجن XtreamNew لأجهزة Enigma2 لتشغيل IPTV وLive TV والأفلام والمسلسلات، مع أمر التثبيت ومتطلبات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/xtreamnew.html",
@@ -1405,14 +1349,6 @@
     "url": "https://online4tech.github.io/online4Tech/plugins/raedquicksignal.html",
     "category": "إضافات",
     "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
-    "title": "⚽FootOnSat لمواعيد وتفاصيل المبارياتمواعيد المباريات والنتائج المباشرة والترتيب والتنبيهات، مع صور من المستودع.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/footonsat.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
     "type": "Plugin"
   },
   {
@@ -1528,44 +1464,12 @@
     "type": "Plugin"
   },
   {
-    "title": "🎧IP Audio Pro للصوتياتقوائم تشغيل متعددة، تحكم بالصوت، وإدارة عبر واجهة الويب مع صور حقيقية.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/ipaudio-pro.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "🎧UltraAudio للصوتياتأمر التثبيت عبر Telnet / SSH، طريقة التثبيت، ومعلومات البلجن.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/ultraaudio.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "🎨الاسكيناكتشف السكينات وتعرّف على طرق تثبيتها وتخصيص واجهة جهاز Enigma2.افتح قسم الاسكين ←",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/skins.html",
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Tutorial"
-  },
-  {
-    "title": "🎬MyStreamer 1.0.0 للأفلام والمسلسلات والرياضة29 موقعًا عربيًا للأفلام والمسلسلات و4 مواقع رياضية، مع أمر التثبيت وملاحظات التوافق والمعماريات.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/mystreamer.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "💬SubsSupportPro للترجمةالبحث عن الترجمات، اختيارها وضبط تزامنها مع الفيديو، مع مراجع للمميزات.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/subssupportpro.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
   },
   {
     "title": "💻 أمر Telnet / SSH لتنزيل الملف للرسيفر",
@@ -1664,14 +1568,6 @@
     "type": "Plugin"
   },
   {
-    "title": "📖Quran Kareemبلجن القرآن الكريم لأجهزة Enigma2 — تفاصيل المصدر والتثبيت.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/quran-kareem.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "📘الشرحوصل للشروحات التفصيلية المرتبة حسب الموضوع، خطوة بخطوة وبطريقة سهلة.افتح صفحة الشرح ←",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
@@ -1696,14 +1592,6 @@
     "type": "Tutorial"
   },
   {
-    "title": "📡RaedQuickSignal لعرض الإشارةعرض SNR وAGC ومعلومات التشفير وPicons مع إمكانية تنزيل صور القنوات.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/raedquicksignal.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "📡تحميل مباشر ملفات القنوات والتحميلات قوائم قنوات Enigma2 والملفات المتاحة، مع البحث والتصفية حسب نوع الملف والجهاز. افتح مكتبة التحميلات←",
     "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
     "url": "https://online4tech.github.io/online4Tech/downloads.html",
@@ -1726,30 +1614,6 @@
     "category": "إضافات",
     "brand": "Vu+",
     "type": "Backups"
-  },
-  {
-    "title": "📱شرح تطبيق Mobile Telnetطريقة الاتصال برسيفر Enigma2 من الموبايل، إدخال عنوان IP، تسجيل الدخول وتنفيذ الأوامر الأساسية بأمان.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "📺XtreamNew لتشغيل IPTVالبث المباشر والأفلام والمسلسلات وEPG، مع متطلبات التوافق وملاحظات الأمان.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/xtreamnew.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "🔊القدس لتشغيل الصوتياتأمر التثبيت عبر Telnet / SSH، وخطوات التثبيت ومعلومات المصدر.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/alkuds-audio.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
   },
   {
     "title": "🔎 إيه هو Telnet؟",
@@ -1821,14 +1685,6 @@
     "url": "https://online4tech.github.io/online4Tech/plugins/arabicsavior.html",
     "category": "إضافات",
     "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
-    "title": "🔤المنقذ ArabicSavior لاستعادة اللغة العربيةإصلاح الخطوط العربية وتغيير نوع الخط في واجهة Enigma2.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/arabicsavior.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
     "type": "Plugin"
   },
   {
@@ -1912,14 +1768,6 @@
     "type": "Plugin"
   },
   {
-    "title": "🖼️بيكونات القنوات (Picons)صور وشعارات القنوات اللي بتظهر جنب اسم القناة في قائمة القنوات والواجهة، لتسهيل التعرّف على القنوات وإضافة شكل منظم للرسيفر.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/picons.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "🛠️ حل أشهر مشاكل الاتصال",
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
@@ -1984,14 +1832,6 @@
     "type": "Plugin"
   },
   {
-    "title": "🛠️سكريبتات وأدوات Enigma2مكتبة منظمة للسكريبتات والأدوات والبانلات والسمات وملفات الباك أب، مع البحث والتصنيف وروابط المصدر والتنزيل.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/scripts-tools.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "🧩 البلجن",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html#plugins",
@@ -2035,14 +1875,6 @@
     "title": "🧩البلجناستعرض البلجنز المتاحة، وتعرّف على وظيفة كل بلجن وطريقة التثبيت والاستخدام.استكشف البلجن ←",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "🧰AJPanel لوحة الأدواتإدارة الملفات والقنوات وIPTV وPicons وEPG والشبكة والنسخ الاحتياطي ومراقبة الإشارة.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/ajpanel.html",
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Plugin"
@@ -2293,6 +2125,14 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
     "category": "شروحات",
     "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الرجوع للصفحة الرئيسية ↑",
+    "description": "دليل سكريبتات وأدوات Enigma2 على Online4Tech مع البحث والتصنيف وروابط المصدر.",
+    "url": "https://online4tech.github.io/online4Tech/index.html",
+    "category": "شروحات",
+    "brand": "Enigma2",
     "type": "Tutorial"
   },
   {
@@ -3456,14 +3296,6 @@
     "type": "Product"
   },
   {
-    "title": "EnigmaPlay — متجر بلجنز Enigma2",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
-    "category": "منتجات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "Inverto",
     "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
     "url": "https://online4tech.github.io/online4Tech/store/index.html#dreambox-brands",
@@ -3798,14 +3630,6 @@
     "category": "منتجات",
     "brand": "Vu+",
     "type": "Product"
-  },
-  {
-    "title": "🛍️EnigmaPlay — متجر بلجنز Enigma2متجر شبيه بجوجل بلاي للرسيفر، يضم أكثر من 200 بلجن حسب وصف المشروع، مع التثبيت والتحديث وإدارة البلجنز.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
-    "category": "منتجات",
-    "brand": "Enigma2",
-    "type": "Plugin"
   },
   {
     "title": "🛠️شروحات وإرشاداتادخل قسم الشروحات عشان توصل للمقالات والإرشادات التقنية.افتح قسم الشروحات ←",
