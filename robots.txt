@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
-Disallow: /backups/
-Sitemap: https://online4tech.github.io/online4Teh-DownLoad/sitemap.xml
+Disallow: /online4Tech/bridge/
+Disallow: /online4Tech/enigma2-manager.html
+Disallow: /online4Tech/search.html?
+
+Sitemap: https://online4tech.github.io/online4Tech/sitemap.xml
