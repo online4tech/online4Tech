@@ -1,0 +1,538 @@
+[
+  {
+    "title": "Online4Tech — الصفحة الرئيسية",
+    "description": "موقع Online4Tech لملفات Enigma2 وأجهزة Vu+ وDreambox والتحميلات والشروحات والخدمات.",
+    "url": "index.html",
+    "category": "صفحة",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "مكتبة التحميل",
+    "description": "ملفات القنوات والباك أب وصور الأنظمة والبلجنات والأدوات.",
+    "url": "library.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Library"
+  },
+  {
+    "title": "ملفات القنوات والتحميلات",
+    "description": "تحميل ملفات قنوات Enigma2 والملفات التقنية.",
+    "url": "downloads.html",
+    "category": "ملفات",
+    "brand": "Enigma2",
+    "type": "Channels"
+  },
+  {
+    "title": "مكتبة الباك أب",
+    "description": "نسخ احتياطية وصور أنظمة مرتبة حسب موديل الجهاز.",
+    "url": "backups/index.html",
+    "category": "ملفات",
+    "brand": "Enigma2",
+    "type": "Backups"
+  },
+  {
+    "title": "صور الإنجيما الخام",
+    "description": "صور أنظمة Enigma2 للأجهزة المدعومة.",
+    "url": "vuplus-images.html",
+    "category": "ملفات",
+    "brand": "Enigma2",
+    "type": "Tools"
+  },
+  {
+    "title": "الشرح والدروس",
+    "description": "شروحات تركيب الباك أب وملفات القنوات وإعدادات Enigma2.",
+    "url": "tutorials.html",
+    "category": "شروحات",
+    "brand": "Enigma2",
+    "type": "Tutorials"
+  },
+  {
+    "title": "دليل الشروحات",
+    "description": "البلجنات والسكينات والأدلة التقنية.",
+    "url": "guides/index.html",
+    "category": "شروحات",
+    "brand": "Enigma2",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الخدمات",
+    "description": "خدمات الدعم والبرمجة لأجهزة الاستقبال.",
+    "url": "services.html",
+    "category": "خدمات",
+    "brand": "Online4Tech",
+    "type": "Service"
+  },
+  {
+    "title": "متجر الأجهزة والإكسسوارات",
+    "description": "أجهزة استقبال جديدة ومستعملة وإكسسوارات Vu+ وDreambox.",
+    "url": "store/index.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Store"
+  },
+  {
+    "title": "موديلات Vu+",
+    "description": "قائمة موديلات Vu+ ومعلومات الأجهزة.",
+    "url": "devices/vuplus.html",
+    "category": "أجهزة",
+    "brand": "Vu+",
+    "type": "Device"
+  },
+  {
+    "title": "موديلات Dreambox",
+    "description": "قائمة موديلات Dreambox ومعلومات الأجهزة.",
+    "url": "devices/dreambox.html",
+    "category": "أجهزة",
+    "brand": "Dreambox",
+    "type": "Device"
+  },
+  {
+    "title": "تحميل باك أب الجهاز",
+    "description": "معلومات ملفات الباك أب وصور الأنظمة للأجهزة.",
+    "url": "devices/model.html",
+    "category": "ملفات",
+    "brand": "Enigma2",
+    "type": "Backups"
+  },
+  {
+    "title": "معلومات الباك أب",
+    "description": "تفاصيل النسخ الاحتياطية وصور النظام.",
+    "url": "backup-info.html",
+    "category": "ملفات",
+    "brand": "Enigma2",
+    "type": "Backups"
+  },
+  {
+    "title": "معرض الصور",
+    "description": "معرض صور الأجهزة والبلجنات والسكينات.",
+    "url": "gallery.html",
+    "category": "صور",
+    "brand": "Online4Tech",
+    "type": "Gallery"
+  },
+  {
+    "title": "السكينات",
+    "description": "سكينات Enigma2 ومظهر واجهة الرسيفر.",
+    "url": "skins.html",
+    "category": "ملفات",
+    "brand": "Enigma2",
+    "type": "Tools"
+  },
+  {
+    "title": "عن Online4Tech",
+    "description": "تعرف على موقع Online4Tech ومحتواه.",
+    "url": "about.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "سياسة الخصوصية",
+    "description": "سياسة الخصوصية واستخدام الموقع.",
+    "url": "privacy.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "Enigma2 Manager",
+    "description": "أداة محلية لتشخيص وإدارة جهاز Enigma2 عبر SSH.",
+    "url": "enigma2-manager.html",
+    "category": "أدوات",
+    "brand": "Enigma2",
+    "type": "Tools"
+  },
+  {
+    "title": "Vu+ Zero 4K",
+    "description": "رسيفر Vu+ Zero 4K ودعم Enigma2.",
+    "url": "devices/vuplus.html",
+    "category": "أجهزة",
+    "brand": "Vu+",
+    "type": "Device"
+  },
+  {
+    "title": "Vu+ Uno 4K SE",
+    "description": "رسيفر Vu+ Uno 4K SE.",
+    "url": "devices/vuplus.html",
+    "category": "أجهزة",
+    "brand": "Vu+",
+    "type": "Device"
+  },
+  {
+    "title": "Vu+ Duo 4K SE",
+    "description": "رسيفر Vu+ Duo 4K SE.",
+    "url": "devices/vuplus.html",
+    "category": "أجهزة",
+    "brand": "Vu+",
+    "type": "Device"
+  },
+  {
+    "title": "Vu+ Duo 4K",
+    "description": "رسيفر Vu+ Duo 4K.",
+    "url": "devices/vuplus.html",
+    "category": "أجهزة",
+    "brand": "Vu+",
+    "type": "Device"
+  },
+  {
+    "title": "Vu+ Ultimo 4K",
+    "description": "رسيفر Vu+ Ultimo 4K.",
+    "url": "devices/vuplus.html",
+    "category": "أجهزة",
+    "brand": "Vu+",
+    "type": "Device"
+  },
+  {
+    "title": "Vu+ Solo 4K",
+    "description": "رسيفر Vu+ Solo 4K.",
+    "url": "devices/vuplus.html",
+    "category": "أجهزة",
+    "brand": "Vu+",
+    "type": "Device"
+  },
+  {
+    "title": "Vu+ Solo SE V2",
+    "description": "رسيفر Vu+ Solo SE V2.",
+    "url": "devices/vuplus.html",
+    "category": "أجهزة",
+    "brand": "Vu+",
+    "type": "Device"
+  },
+  {
+    "title": "Vu+ Duo2",
+    "description": "رسيفر Vu+ Duo2.",
+    "url": "devices/vuplus.html",
+    "category": "أجهزة",
+    "brand": "Vu+",
+    "type": "Device"
+  },
+  {
+    "title": "Vu+ Uno SE",
+    "description": "رسيفر Vu+ Uno SE.",
+    "url": "devices/vuplus.html",
+    "category": "أجهزة",
+    "brand": "Vu+",
+    "type": "Device"
+  },
+  {
+    "title": "Vu+ Zero",
+    "description": "رسيفر Vu+ Zero.",
+    "url": "devices/vuplus.html",
+    "category": "أجهزة",
+    "brand": "Vu+",
+    "type": "Device"
+  },
+  {
+    "title": "Dreambox DM TWO UHD",
+    "description": "رسيفر Dreambox DM TWO UHD.",
+    "url": "devices/dreambox.html",
+    "category": "أجهزة",
+    "brand": "Dreambox",
+    "type": "Device"
+  },
+  {
+    "title": "Dreambox DM ONE UHD",
+    "description": "رسيفر Dreambox DM ONE UHD.",
+    "url": "devices/dreambox.html",
+    "category": "أجهزة",
+    "brand": "Dreambox",
+    "type": "Device"
+  },
+  {
+    "title": "Dreambox DM920 UHD",
+    "description": "رسيفر Dreambox DM920 UHD.",
+    "url": "devices/dreambox.html",
+    "category": "أجهزة",
+    "brand": "Dreambox",
+    "type": "Device"
+  },
+  {
+    "title": "Dreambox DM900 UHD",
+    "description": "رسيفر Dreambox DM900 UHD.",
+    "url": "devices/dreambox.html",
+    "category": "أجهزة",
+    "brand": "Dreambox",
+    "type": "Device"
+  },
+  {
+    "title": "Dreambox DM820 HD",
+    "description": "رسيفر Dreambox DM820 HD.",
+    "url": "devices/dreambox.html",
+    "category": "أجهزة",
+    "brand": "Dreambox",
+    "type": "Device"
+  },
+  {
+    "title": "Dreambox DM7080 HD",
+    "description": "رسيفر Dreambox DM7080 HD.",
+    "url": "devices/dreambox.html",
+    "category": "أجهزة",
+    "brand": "Dreambox",
+    "type": "Device"
+  },
+  {
+    "title": "Dreambox DM520 HD",
+    "description": "رسيفر Dreambox DM520 HD.",
+    "url": "devices/dreambox.html",
+    "category": "أجهزة",
+    "brand": "Dreambox",
+    "type": "Device"
+  },
+  {
+    "title": "Dreambox DM525 HD",
+    "description": "رسيفر Dreambox DM525 HD.",
+    "url": "devices/dreambox.html",
+    "category": "أجهزة",
+    "brand": "Dreambox",
+    "type": "Device"
+  },
+  {
+    "title": "Dreambox DM8000 HD",
+    "description": "رسيفر Dreambox DM8000 HD.",
+    "url": "devices/dreambox.html",
+    "category": "أجهزة",
+    "brand": "Dreambox",
+    "type": "Device"
+  },
+  {
+    "title": "بيكونات القنوات Picons",
+    "description": "إضافة بيكونات القنوات لأجهزة Enigma2.",
+    "url": "plugins/picons.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "EnigmaPlay",
+    "description": "بلجن EnigmaPlay لأجهزة Enigma2.",
+    "url": "plugins/enigmaplay.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "UltraAudio",
+    "description": "بلجن UltraAudio للصوتيات.",
+    "url": "plugins/ultraaudio.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "القدس لتشغيل الصوتيات",
+    "description": "بلجن تشغيل الصوتيات.",
+    "url": "plugins/alkuds-audio.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "FootOnSat",
+    "description": "بلجن مواعيد وتفاصيل المباريات.",
+    "url": "plugins/footonsat.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "ArabicSavior",
+    "description": "أداة استعادة اللغة العربية.",
+    "url": "plugins/arabicsavior.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "Quran Kareem",
+    "description": "بلجن Quran Kareem.",
+    "url": "plugins/quran-kareem.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "IP Audio Pro",
+    "description": "بلجن IP Audio Pro للصوتيات.",
+    "url": "plugins/ipaudio-pro.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "SubsSupportPro",
+    "description": "بلجن دعم الترجمة.",
+    "url": "plugins/subssupportpro.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "RaedQuickSignal",
+    "description": "أداة عرض إشارة القمر.",
+    "url": "plugins/raedquicksignal.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "AJPanel",
+    "description": "لوحة أدوات Enigma2.",
+    "url": "plugins/ajpanel.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "TimeShift Delay",
+    "description": "بلجن TimeShift Delay.",
+    "url": "plugins/timeshift-delay.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "XtreamNew",
+    "description": "بلجن XtreamNew لتشغيل قوائم IPTV المصرح بها.",
+    "url": "plugins/xtreamnew.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "MyStreamer 1.0.0",
+    "description": "بلجن MyStreamer لمصادر الفيديو المتوافقة.",
+    "url": "plugins/mystreamer.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "Mobile Telnet",
+    "description": "شرح تطبيق Mobile Telnet والاتصال بأجهزة Enigma2.",
+    "url": "plugins/mobile-telnet.html",
+    "category": "شروحات",
+    "brand": "Enigma2",
+    "type": "Tutorial"
+  },
+  {
+    "title": "سكريبتات وأدوات Enigma2",
+    "description": "سكريبتات مساعدة وأدوات لأجهزة Enigma2.",
+    "url": "plugins/scripts-tools.html",
+    "category": "أدوات",
+    "brand": "Enigma2",
+    "type": "Tools"
+  },
+  {
+    "title": "Vu+ Zero 4K — متجر",
+    "description": "رسيفر Vu+ Zero 4K متوفر في متجر Online4Tech.",
+    "url": "store/index.html#new",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Product",
+    "status": "متوفر"
+  },
+  {
+    "title": "Vu+ Uno 4K SE — متجر",
+    "description": "رسيفر Vu+ Uno 4K SE من متجر Online4Tech.",
+    "url": "store/index.html#new",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Product",
+    "status": "متوفر"
+  },
+  {
+    "title": "Vu+ Duo 4K SE — متجر",
+    "description": "رسيفر Vu+ Duo 4K SE من متجر Online4Tech.",
+    "url": "store/index.html#new",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Product",
+    "status": "متوفر"
+  },
+  {
+    "title": "Dreambox ONE UHD — مستعمل",
+    "description": "جهاز Dreambox ONE UHD مستعمل؛ تأكد من الحالة والتوفر.",
+    "url": "store/index.html#used",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Product",
+    "status": "حسب التوفر"
+  },
+  {
+    "title": "Vu+ Zero 4K PVR KIT",
+    "description": "ملحق PVR KIT لجهاز Vu+ Zero 4K.",
+    "url": "store/index.html#accessories",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Accessory",
+    "status": "متوفر"
+  },
+  {
+    "title": "ريموت VU+ — موديل 1",
+    "description": "ريموت كنترول لأجهزة Vu+.",
+    "url": "store/index.html#accessories",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Accessory",
+    "status": "حسب التوفر"
+  },
+  {
+    "title": "ريموت VU+ — موديل 2",
+    "description": "ريموت كنترول لأجهزة Vu+.",
+    "url": "store/index.html#accessories",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Accessory",
+    "status": "حسب التوفر"
+  },
+  {
+    "title": "ريموت VU+ — موديل 3",
+    "description": "ريموت كنترول لأجهزة Vu+.",
+    "url": "store/index.html#accessories",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Accessory",
+    "status": "حسب التوفر"
+  },
+  {
+    "title": "ملف القنوات Enigma2",
+    "description": "ملفات قنوات لأجهزة Enigma2.",
+    "url": "downloads.html#channels",
+    "category": "ملفات",
+    "brand": "Enigma2",
+    "type": "Channels"
+  },
+  {
+    "title": "باك أب Vu+ Zero 4K OpenATV 7.5.1",
+    "description": "نسخة احتياطية وصورة نظام لجهاز Vu+ Zero 4K.",
+    "url": "backups/index.html",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Backups"
+  },
+  {
+    "title": "سكينات Enigma2",
+    "description": "مجموعة سكينات وصور واجهات Enigma2.",
+    "url": "skins.html",
+    "category": "ملفات",
+    "brand": "Enigma2",
+    "type": "Tools"
+  },
+  {
+    "title": "شرح تركيب الباك أب",
+    "description": "طريقة تركيب صورة باك أب من USB واستعادة الإعدادات.",
+    "url": "tutorials.html",
+    "category": "شروحات",
+    "brand": "Enigma2",
+    "type": "Tutorial"
+  },
+  {
+    "title": "شرح إعداد DiSEqC",
+    "description": "شرح توصيل وضبط الدايسك على Enigma2 وOpenATV.",
+    "url": "tutorials.html",
+    "category": "شروحات",
+    "brand": "Enigma2",
+    "type": "Tutorial"
+  }
+]
