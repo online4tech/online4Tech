@@ -41,9 +41,14 @@ jobs:
           set -Eeuo pipefail
           rollback() {
             echo "::error::Image collection failed. Restoring the catalog and discarding generated changes."
-            if [ -f backup/plugins.backup.json ]; then cp backup/plugins.backup.json data/plugins.json; fi
+            mkdir -p "$RUNNER_TEMP/plugin-image-rollback"
+            if [ -f backup/plugins.backup.json ]; then cp backup/plugins.backup.json "$RUNNER_TEMP/plugin-image-rollback/plugins.backup.json"; fi
+            if [ -f data/image-report.json ]; then cp data/image-report.json "$RUNNER_TEMP/plugin-image-rollback/image-report.json"; fi
             git reset --hard "$GITHUB_SHA"
             git clean -fd images/plugins data/image-cache.json data/image-report.json backup/plugins.backup.json
+            mkdir -p backup data
+            if [ -f "$RUNNER_TEMP/plugin-image-rollback/plugins.backup.json" ]; then cp "$RUNNER_TEMP/plugin-image-rollback/plugins.backup.json" backup/plugins.backup.json; fi
+            if [ -f "$RUNNER_TEMP/plugin-image-rollback/image-report.json" ]; then cp "$RUNNER_TEMP/plugin-image-rollback/image-report.json" data/image-report.json; fi
           }
           trap rollback ERR
           node --check scripts/download-plugin-images.js
@@ -63,6 +68,52 @@ jobs:
           }
           console.log('Validated visual fields for ' + data.plugins.length + ' plugins');
           NODE
+      - name: Commit generated assets and catalog
+        run: |
+          set -Eeuo pipefail
+          rollback() {
+            echo "::error::Commit/push failed. Discarding the local commit and restoring the backup reference."
+            mkdir -p "$RUNNER_TEMP/plugin-image-rollback"
+            if [ -f backup/plugins.backup.json ]; then cp backup/plugins.backup.json "$RUNNER_TEMP/plugin-image-rollback/plugins.backup.json"; fi
+            if [ -f data/image-report.json ]; then cp data/image-report.json "$RUNNER_TEMP/plugin-image-rollback/image-report.json"; fi
+            git reset --hard "$GITHUB_SHA"
+            git clean -fd images/plugins data/image-cache.json data/image-report.json backup/plugins.backup.json
+            mkdir -p backup data
+            if [ -f "$RUNNER_TEMP/plugin-image-rollback/plugins.backup.json" ]; then cp "$RUNNER_TEMP/plugin-image-rollback/plugins.backup.json" backup/plugins.backup.json; fi
+            if [ -f "$RUNNER_TEMP/plugin-image-rollback/image-report.json" ]; then cp "$RUNNER_TEMP/plugin-image-rollback/image-report.json" data/image-report.json; fi
+          }
+          trap rollback ERR
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/plugins.json data/image-cache.json images/plugins/ backup/plugins.backup.json
+          REPORT_CHANGED=false
+          if git cat-file -e HEAD:data/image-report.json 2>/dev/null; then
+            if python - <<'PY'
+          import json, subprocess
+          with open('data/image-report.json', encoding='utf-8') as f:
+              current = json.load(f)
+          previous = json.loads(subprocess.check_output(['git', 'show', 'HEAD:data/image-report.json'], text=True))
+          current.pop('generatedAt', None)
+          previous.pop('generatedAt', None)
+          raise SystemExit(0 if current == previous else 1)
+          PY
+            then REPORT_CHANGED=false; else REPORT_CHANGED=true; fi
+          else
+            REPORT_CHANGED=true
+          fi
+          if git diff --cached --quiet && [ "$REPORT_CHANGED" = false ]; then
+            echo "No catalog, cache, backup, image or meaningful report changes; no commit created."
+            exit 0
+          fi
+          git add data/image-report.json
+          git commit -m "feat(images): automatic GitHub plugin image discovery and gallery system"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then trap - ERR; exit 0; fi
+            sleep 3
+          done
+          echo "Push failed after retries."
+          exit 1
       - name: Upload image report and rollback catalog
         if: always()
         uses: actions/upload-artifact@v4
@@ -73,22 +124,3 @@ jobs:
             backup/plugins.backup.json
           if-no-files-found: warn
           retention-days: 30
-      - name: Commit generated assets and catalog
-        run: |
-          set -Eeuo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/plugins.json data/image-cache.json images/plugins/ backup/plugins.backup.json
-          if git diff --cached --quiet; then
-            echo "No catalog, cache, backup or image changes; report remains available as an artifact."
-            exit 0
-          fi
-          git add data/image-report.json
-          git commit -m "feat(images): automatic GitHub plugin image discovery and gallery system"
-          for attempt in 1 2 3; do
-            git pull --rebase origin main
-            if git push origin HEAD:main; then exit 0; fi
-            sleep 3
-          done
-          echo "Push failed after retries."
-          exit 1
