@@ -25,29 +25,14 @@
     if (!Array.isArray(value)) return [];
     return value.filter(hasValue);
   }
-  function asset(value) {
-    const path = String(value || '').trim();
-    return path.startsWith('images/plugins/') ? '../' + path : (path || '../images/plugins/default/thumbnail.webp');
-  }
-  function imageError() {
-    return ' onerror="this.onerror=null;this.src=&quot;../images/plugins/default/thumbnail.webp&quot;"';
-  }
-  function visual(plugin, kind) {
-    const raw = (kind === 'icon' ? plugin.icon : plugin.thumbnail) || plugin.icon || plugin.thumbnail || '../images/plugins/default/thumbnail.webp';
-    const src = asset(raw);
-    if (String(src).includes('placeholder.svg')) {
-      const parts = String(plugin.name || 'E2').trim().split(/\s+/);
-      const initials = (parts.length > 1 ? parts[0][0] + parts[1][0] : parts[0].slice(0, 2)).toUpperCase();
-      const colors = {'IPTV':'#63e4f2','Media':'#c39bff','EPG':'#f2c879','System Tools':'#8ee7a5','Skins':'#ff9ab5','Weather':'#7bc7ff','File Managers':'#b9d8ff','Streaming':'#ff9c67','Network':'#83e2d0','Utilities':'#8bb6ff','Developer Tools':'#d5a0ff'};
-      const accent = colors[plugin.category] || '#6cdbef';
-      return '<div class="plugin-visual-placeholder" style="--plugin-accent:' + accent + '"><span class="placeholder-initials">' + esc(initials) + '</span><small>' + esc(plugin.category || 'Enigma2') + '</small>' + (Number(plugin.githubStars) > 0 ? '<em>★ ' + Number(plugin.githubStars).toLocaleString('en-US') + '</em>' : '') + '</div>';
-    }
-    return '<img loading="lazy" decoding="async" src="' + esc(src) + '"' + imageError() + ' alt="' + esc(plugin.name || 'Plugin') + '">';
-  }
+  function asset(value) { const path=String(value||'').trim(); return path.startsWith('images/plugins/') ? '../'+path : (/^https:\/\//.test(path) ? path : ''); }
+  function imageError() { return ' onerror="this.onerror=null;this.closest(\\'a[data-gallery-slide]\\')?.remove()"'; }
+  function visual(plugin, kind) { if (plugin.logoFound !== true) return ''; const raw=(kind==='icon'?plugin.icon:plugin.thumbnail)||plugin.icon||''; const src=asset(raw); if(!src)return ''; return '<img loading="lazy" decoding="async" src="'+esc(src)+'" alt="'+esc(plugin.name||'Plugin')+'">'; }
   function card(plugin) {
+    const logo=visual(plugin,'icon');
     return '<article class="plugin-card' + (plugin.featured ? ' is-featured' : '') + '">' +
       (plugin.featured ? '<span class="featured-ribbon">FEATURED</span>' : '') +
-      '<a class="card-top" href="plugin.html?id=' + encodeURIComponent(plugin.id) + '"><div class="plugin-thumb">' + visual(plugin, 'icon') + '</div><div><h3>' + esc(plugin.name) + '</h3><div class="card-version">' + (hasValue(plugin.version) ? esc(plugin.version) : '') + '</div></div></a>' +
+      '<a class="card-top" href="plugin.html?id=' + encodeURIComponent(plugin.id) + '">' + (logo ? '<div class="plugin-thumb">' + logo + '</div>' : '') + '<div><h3>' + esc(plugin.name) + '</h3><div class="card-version">' + (hasValue(plugin.version) ? esc(plugin.version) : '') + '</div></div></a>' +
       '<div class="badge-row">' + (hasValue(plugin.category) ? '<span class="pill">' + esc(plugin.category) + '</span>' : '') + (Number(plugin.githubStars) > 0 ? '<span class="pill">GitHub ★ ' + Number(plugin.githubStars).toLocaleString('en-US') + '</span>' : '') + '</div>' +
       (hasValue(plugin.arabicDescription || plugin.description) ? '<p>' + esc(plugin.arabicDescription || plugin.description) + '</p>' : '') +
       '<a class="btn btn-secondary" href="plugin.html?id=' + encodeURIComponent(plugin.id) + '">عرض التفاصيل</a></article>';
@@ -198,8 +183,9 @@
       const structuredData = document.createElement('script'); structuredData.type = 'application/ld+json'; structuredData.textContent = JSON.stringify(schema); document.head.append(structuredData);
 
       const downloads = plugin.downloads || {};
-      const downloadUrl = plugin.downloadUrl || downloads.githubRelease || downloads.repository;
-      const githubUrl = hasValue(plugin.githubUrl) ? plugin.githubUrl : '';
+      const githubOnly = value => { try { const u = new URL(String(value || '')); return u.protocol === 'https:' && ['github.com','www.github.com','raw.githubusercontent.com'].includes(u.hostname) ? u.href : ''; } catch (_) { return ''; } };
+      const downloadUrl = githubOnly(downloads.githubRelease) || githubOnly(downloads.repository) || githubOnly(plugin.downloadUrl);
+      const githubUrl = githubOnly(plugin.githubUrl) || githubOnly(downloads.repository);
       const screenshotItems = (Array.isArray(plugin.screenshots) ? plugin.screenshots : []).map(item => typeof item === 'string' ? item : item?.url).filter(hasValue).map(value => asset(value));
       const screenshotHtml = screenshotItems.map((src, index) => '<a class="screenshot screenshot-slide' + (index === 0 ? ' is-active' : '') + '" data-gallery-slide="' + index + '" href="' + esc(src) + '" data-lightbox="' + index + '" aria-label="فتح الصورة"><img loading="lazy" decoding="async" src="' + esc(src) + '"' + imageError() + ' alt="' + esc(plugin.name) + ' — صورة ' + (index + 1) + '"></a>').join('');
       const gallery = screenshotItems.length ? '<div class="screenshots screenshot-carousel" data-gallery>' + screenshotHtml + '<div class="gallery-controls"><button type="button" data-gallery-prev aria-label="الصورة السابقة">‹</button><span data-gallery-count>1 / ' + screenshotItems.length + '</span><button type="button" data-gallery-next aria-label="الصورة التالية">›</button></div></div>' : '';
