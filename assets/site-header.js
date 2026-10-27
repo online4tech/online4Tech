@@ -141,7 +141,7 @@
     const parts=location.pathname.split('/').filter(Boolean);
     const repo=parts.findIndex(p=>p.toLowerCase()==='online4tech');
     const rel=(repo>=0?parts.slice(repo+1):parts).join('/');
-    const canonicalPath=(!rel||rel.toLowerCase()==='index.html')?'':(rel.toLowerCase().endsWith('/index.html')?rel.slice(0,-'index.html'.length):(rel.toLowerCase().endsWith('index.html')?rel.slice(0,-'index.html'.length):rel));
+    const canonicalPath=(!rel||rel.toLowerCase()==='index.html')?'':(rel.toLowerCase().endsWith('.html')?rel:(rel.replace(/\/+$/,'')+'/'));
     const canonicalUrl=siteRoot+canonicalPath;
     const title=(document.title||'Online4Tech').replace(/\s+/g,' ').trim();
     const h=document.querySelector('main h1,h1');
