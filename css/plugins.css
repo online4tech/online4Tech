@@ -35,3 +35,15 @@
 .gallery-controls span{min-width:55px;text-align:center;color:var(--muted);font-size:.82rem;font-variant-numeric:tabular-nums}
 @keyframes gallery-in{from{opacity:.45;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:640px){.plugin-thumb{flex-basis:58px;width:58px;height:58px}.detail-icon .plugin-visual-placeholder{width:112px;height:112px;min-height:112px}.detail-icon .placeholder-initials{font-size:2.2rem}.gallery-controls{gap:12px}}
+
+/* Downloaded WebP assets and accessible screenshot lightbox. */
+.plugin-thumb img,.detail-icon img{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}
+.detail-icon img{width:150px;height:150px;max-width:100%;object-fit:contain;border:1px solid var(--line);background:#0a1a2a;border-radius:28px;box-shadow:0 0 34px #65dff322}
+.plugin-lightbox{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;padding:72px 6vw;background:rgba(2,8,16,.94);backdrop-filter:blur(12px)}
+.plugin-lightbox img{display:block;max-width:min(92vw,1400px);max-height:80vh;object-fit:contain;border-radius:12px;box-shadow:0 20px 90px #0009}
+.plugin-lightbox button{position:absolute;display:grid;place-items:center;width:44px;height:44px;border-radius:50%;border:1px solid #4b7898;background:#112b42;color:#effaff;font-size:2rem;line-height:1;cursor:pointer}
+.plugin-lightbox .lightbox-close{top:18px;right:20px;font-size:1.8rem}
+.plugin-lightbox .lightbox-prev{left:18px;top:50%;transform:translateY(-50%)}
+.plugin-lightbox .lightbox-next{right:18px;top:50%;transform:translateY(-50%)}
+.plugin-lightbox .lightbox-count{position:absolute;bottom:22px;left:0;right:0;text-align:center;color:#d4e8fa;font-variant-numeric:tabular-nums}
+@media(max-width:640px){.plugin-lightbox{padding:64px 12px}.plugin-lightbox img{max-width:96vw;max-height:76vh}.plugin-lightbox .lightbox-prev{left:8px}.plugin-lightbox .lightbox-next{right:8px}}
