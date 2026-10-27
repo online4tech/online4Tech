@@ -1,61 +1,5 @@
 [
   {
-    "title": "1. قبل نقل أو تثبيت ملف القنوات",
-    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/guides/index.html#channels",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "1️⃣ جهّز الرسيفر والموبايل",
-    "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "2. الاستعداد لاستعادة نسخة باك أب",
-    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/guides/index.html#backups",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "3. مراجعة إعدادات Tuner وDiSEqC",
-    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/guides/index.html#tuner",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "4. رابط تحميل لا يعمل؟",
-    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/guides/index.html#links",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "4التحكم من الموبايلاتعرّف على الاتصال بالرسيفر باستخدام Mobile Telnet.شوف الخطوات ←",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "Dreambox",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#dreambox-brands",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Product"
-  },
-  {
     "title": "Dreambox DM ONE UHD",
     "description": "موديلات Dreambox — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/dreambox.html",
@@ -200,28 +144,12 @@
     "type": "Device"
   },
   {
-    "title": "Dreambox ONE UHD",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#used",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Product"
-  },
-  {
     "title": "Dreambox · Enigma2 أجهزة Dreambox شوف موديلات Dreambox وصورها، وافتح صفحة أي موديل لمراجعة التفاصيل المتاحة. موديلات متعددةصور الأجهزة استعراض أجهزة Dreambox ←",
     "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
     "url": "https://online4tech.github.io/online4Tech/devices/dreambox.html",
     "category": "أجهزة",
     "brand": "Dreambox",
     "type": "Device"
-  },
-  {
-    "title": "Dreambox4U",
-    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Tutorial"
   },
   {
     "title": "DreamboxDM ONE UHDعرض الباك أب ←",
@@ -296,91 +224,11 @@
     "type": "Device"
   },
   {
-    "title": "EnigmaPlay — جوجل بلاي الرسيفر",
-    "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "Online4Tech | أجهزة الباك أب",
-    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
-    "url": "https://online4tech.github.io/online4Tech/backups/index.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "Online4Tech | التقنية أسهل",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "OpenATV",
-    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Tutorial"
-  },
-  {
-    "title": "OpenBlackHole",
-    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Tutorial"
-  },
-  {
-    "title": "OpenPLi",
-    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Tutorial"
-  },
-  {
-    "title": "OpenSPA",
-    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Tutorial"
-  },
-  {
-    "title": "Pur-E2",
-    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Tutorial"
-  },
-  {
-    "title": "VTi",
-    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Tutorial"
-  },
-  {
-    "title": "Vu+",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#dreambox-brands",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
     "title": "Vu+ Duo 4K",
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
     "category": "أجهزة",
-    "brand": "Dreambox",
+    "brand": "Vu+",
     "type": "Device"
   },
   {
@@ -388,16 +236,8 @@
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
     "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Device"
-  },
-  {
-    "title": "Vu+ Duo 4K SE",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#new",
-    "category": "أجهزة",
     "brand": "Vu+",
-    "type": "Product"
+    "type": "Device"
   },
   {
     "title": "Vu+ Duo 4K SEملفات الباك أب والمصادر المتاحة للموديل.فتح صفحة الجهاز ←",
@@ -420,7 +260,7 @@
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
     "category": "أجهزة",
-    "brand": "Dreambox",
+    "brand": "Vu+",
     "type": "Device"
   },
   {
@@ -436,7 +276,7 @@
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
     "category": "أجهزة",
-    "brand": "Dreambox",
+    "brand": "Vu+",
     "type": "Device"
   },
   {
@@ -452,7 +292,7 @@
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
     "category": "أجهزة",
-    "brand": "Dreambox",
+    "brand": "Vu+",
     "type": "Device"
   },
   {
@@ -468,7 +308,7 @@
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
     "category": "أجهزة",
-    "brand": "Dreambox",
+    "brand": "Vu+",
     "type": "Device"
   },
   {
@@ -484,16 +324,8 @@
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
     "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Device"
-  },
-  {
-    "title": "Vu+ Uno 4K SE",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#new",
-    "category": "أجهزة",
     "brand": "Vu+",
-    "type": "Product"
+    "type": "Device"
   },
   {
     "title": "Vu+ Uno 4K SEملفات الباك أب والمصادر المتاحة للموديل.فتح صفحة الجهاز ←",
@@ -508,7 +340,7 @@
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
     "category": "أجهزة",
-    "brand": "Dreambox",
+    "brand": "Vu+",
     "type": "Device"
   },
   {
@@ -524,7 +356,7 @@
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
     "category": "أجهزة",
-    "brand": "Dreambox",
+    "brand": "Vu+",
     "type": "Device"
   },
   {
@@ -532,24 +364,8 @@
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
     "category": "أجهزة",
-    "brand": "Dreambox",
+    "brand": "Vu+",
     "type": "Device"
-  },
-  {
-    "title": "Vu+ Zero 4K",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#new",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "VU+ Zero 4K — PVR KIT",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#accessories",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Product"
   },
   {
     "title": "Vu+ Zero 4Kملفات الباك أب والمصادر المتاحة للموديل.فتح صفحة الجهاز ←",
@@ -574,14 +390,6 @@
     "category": "أجهزة",
     "brand": "Dreambox",
     "type": "Device"
-  },
-  {
-    "title": "Vu+ — السوفتوير الأصلي",
-    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Tutorial"
   },
   {
     "title": "Vu+Duo 4K SEعرض الباك أب ←",
@@ -669,47 +477,15 @@
     "url": "https://online4tech.github.io/online4Tech/#devices",
     "category": "أجهزة",
     "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "أجهزة Dreambox",
-    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
-    "url": "https://online4tech.github.io/online4Tech/backups/index.html#device-families",
-    "category": "أجهزة",
-    "brand": "Dreambox",
     "type": "Page"
-  },
-  {
-    "title": "أجهزة Dreambox",
-    "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
-    "url": "https://online4tech.github.io/online4Tech/downloads.html#downloads",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Channels"
   },
   {
     "title": "أجهزة Vu+",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/#devices",
     "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "أجهزة Vu+",
-    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
-    "url": "https://online4tech.github.io/online4Tech/backups/index.html#device-families",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Page"
-  },
-  {
-    "title": "أجهزة Vu+",
-    "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
-    "url": "https://online4tech.github.io/online4Tech/downloads.html#downloads",
-    "category": "أجهزة",
     "brand": "Vu+",
-    "type": "Channels"
+    "type": "Page"
   },
   {
     "title": "إدارة الرسيفر…بخطوات أبسط",
@@ -720,156 +496,12 @@
     "type": "Page"
   },
   {
-    "title": "إيه اللي هتلاقيه على الموقع؟",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/#services",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "ابدأ باختيار نوع جهازك",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/#devices",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "اختار الشركة المصنّعة",
-    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
-    "url": "https://online4tech.github.io/online4Tech/backups/index.html#device-families",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Page"
-  },
-  {
-    "title": "اختار جهازك ←",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "اختار نوع الجهاز",
-    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
-    "url": "https://online4tech.github.io/online4Tech/backups/index.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Page"
-  },
-  {
-    "title": "استخدام الملفات بمسؤولية",
-    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/about.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "البرمجة الكاملة لأي رسيفر",
-    "description": "خدمات Online4Tech لأجهزة الاستقبال: اشتراكات الشيرنج وIPTV والصوتيات والترجمة والبرمجة وبيع وشراء واستبدال الأجهزة.",
-    "url": "https://online4tech.github.io/online4Tech/services.html",
-    "category": "أجهزة",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "الخطوة 1: هات عنوان IP بتاع الرسيفر",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "الخطوة 2: نقل الملف إلى الرسيفر",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#ajpanel-channels",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "الخطوة 3: اتصل بالرسيفر",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "الرجوع للرئيسية",
     "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
     "url": "https://online4tech.github.io/online4Tech/index.html",
     "category": "أجهزة",
     "brand": "Dreambox",
     "type": "Page"
-  },
-  {
-    "title": "العودة إلى ملفات الباك أب ↗",
-    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "العودة إلى ملفات القنوات ↗",
-    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "العودة للرئيسية",
-    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "العودة للصفحة الرئيسية",
-    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "باك أب أجهزة Dreambox",
-    "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
-    "url": "https://online4tech.github.io/online4Tech/downloads.html#downloads",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "بتدور على جهاز استقبال؟",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "بيكونات القنوات Picons | Online4Tech",
-    "description": "تحميل بيكونات Picons للقنوات لأجهزة Enigma2 مع أمر Telnet لتنزيل الملف إلى الرسيفر.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/picons.html",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "بيكونات القنوات — Picons",
-    "description": "تحميل بيكونات Picons للقنوات لأجهزة Enigma2 مع أمر Telnet لتنزيل الملف إلى الرسيفر.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/picons.html",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
   },
   {
     "title": "تحميل باك أب الجهاز",
@@ -888,38 +520,6 @@
     "type": "Device"
   },
   {
-    "title": "تصفح مكتبة التحميل",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/library.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "تواصل أو بلّغ عن مشكلة",
-    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/about.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "خدماتنا",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "خليك دايمًا أونلاين… التقنية أسهل",
-    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/index.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
     "title": "ربط مباشر بالرسيفر",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#local-bridge",
@@ -928,148 +528,12 @@
     "type": "Page"
   },
   {
-    "title": "ريموت VU+ — موديل 1",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#accessories",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "ريموت VU+ — موديل 2",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#accessories",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "ريموت VU+ — موديل 3",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#accessories",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "شروحات Enigma2",
-    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/guides/index.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "شروحات وإرشادات",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/#services",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "صور السوفتوير لأجهزة Vu+",
-    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Tutorial"
-  },
-  {
-    "title": "صور السوفتوير لأجهزة Vu+ | Online4Tech",
-    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Tutorial"
-  },
-  {
-    "title": "عن Online4Tech | مكتبة Enigma2",
-    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/about.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "كل اللي يخص جهازك…في مكان واحد.",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "ليه تختار جهاز Vu+ بنظام Enigma2؟",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "محتاج مساعدة؟ إحنا معاك 👋",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/#contact",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "محتوى تقني متجمع في مكان واحد",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "مركز الشروحات | Online4Tech",
-    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/guides/index.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "مكتبة أجهزة الباك أب",
-    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
-    "url": "https://online4tech.github.io/online4Tech/backups/index.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "مكتبة باك أب Vu+ — Dreambox4U",
-    "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
-    "url": "https://online4tech.github.io/online4Tech/downloads.html#downloads",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "مكتبة تقنية، مرتبة وواضحة.",
-    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/about.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
     "title": "ملفات الباك أب المتاحة",
     "description": "تحميل باك أب الجهاز | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/model.html",
     "category": "أجهزة",
     "brand": "Online4Tech",
     "type": "Device"
-  },
-  {
-    "title": "ملفات القنوات",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/#services",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
   },
   {
     "title": "موديلات Dreambox",
@@ -1092,7 +556,7 @@
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
     "category": "أجهزة",
-    "brand": "Dreambox",
+    "brand": "Vu+",
     "type": "Device"
   },
   {
@@ -1100,96 +564,8 @@
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
     "category": "أجهزة",
-    "brand": "Dreambox",
+    "brand": "Vu+",
     "type": "Device"
-  },
-  {
-    "title": "نسخ الباك أب",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/#services",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "هدفنا",
-    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/about.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "⌂ الرئيسية",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "⌂ الرئيسية",
-    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/index.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "⚙️ Enigma2 Manager",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "⚙️Enigma2 Managerأدوات إدارة أجهزة Enigma2",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "✉️ الاتصال بنا",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "✉️ الاتصال بنا",
-    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/index.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "✦ خدماتنا",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/services.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "✦خدماتنامش مجرد أجهزة وملفات… بنقدملك حلول متكاملة لجهازك.اشتراكات الشيرنجIPTV والصوتياتالترجمة الاحترافيةالبرمجة وتبديل الأجهزةاكتشف خدماتنا ←",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/services.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "⬇️ تحميل مباشر",
-    "description": "تحميل بيكونات Picons للقنوات لأجهزة Enigma2 مع أمر Telnet لتنزيل الملف إلى الرسيفر.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/picons.html",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
   },
   {
     "title": "🏠 الرئيسية",
@@ -1200,73 +576,9 @@
     "type": "Page"
   },
   {
-    "title": "💡 معلومة مهمة",
-    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Tutorial"
-  },
-  {
-    "title": "💬 تواصل مع Online4Tech",
-    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
-    "url": "https://online4tech.github.io/online4Tech/backups/index.html#contact",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Page"
-  },
-  {
-    "title": "💻 أمر Telnet / SSH لتنزيل الملف للرسيفر",
-    "description": "تحميل بيكونات Picons للقنوات لأجهزة Enigma2 مع أمر Telnet لتنزيل الملف إلى الرسيفر.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/picons.html",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "💾نسخ الباك أبانتقل لمكتبة التحميل، واختار الشركة والموديل المناسب لجهازك.اختار جهازك ←",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/library.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "💿صور خام · Enigma2 صور الإنجيما الخام مكتبة صور أنظمة Enigma2 الخام لأجهزة Vu+، مع روابط الوصول لصفحة الصور والتفاصيل لاختيار الصورة المناسبة لموديل جهازك. استعرض صور الأنظمة←",
-    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Plugin"
-  },
-  {
-    "title": "📂 مكتبة التحميل",
-    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/library.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Backups"
-  },
-  {
-    "title": "📂مكتبة تحميل منظمةملفات قنوات وباك أب",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/downloads.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
     "title": "📘 الشروحات",
     "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
     "url": "https://online4tech.github.io/online4Tech/index.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Page"
-  },
-  {
-    "title": "📘 شــــرح",
-    "description": "موديلات Dreambox — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "أجهزة",
     "brand": "Dreambox",
     "type": "Page"
@@ -1288,68 +600,12 @@
     "type": "Page"
   },
   {
-    "title": "📥 أمر التثبيت على الرسيفر",
-    "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "📥 التحميلات",
-    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
-    "url": "https://online4tech.github.io/online4Tech/index.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Page"
-  },
-  {
-    "title": "📦 الباك أب",
-    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
-    "url": "https://online4tech.github.io/online4Tech/backups/index.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "📦حسب موديل الجهاز الباك أب وصور الأنظمة نسخ احتياطية وصور أنظمة لأجهزة Vu+، مرتبة حسب الموديل والإصدار. تصفّح ملفات الباك أب←",
-    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
-    "url": "https://online4tech.github.io/online4Tech/backups/index.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Plugin"
-  },
-  {
-    "title": "📱شرح تطبيق Mobile Telnetطريقة الاتصال برسيفر Enigma2 من الموبايل، إدخال عنوان IP، تسجيل الدخول وتنفيذ الأوامر الأساسية بأمان.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "📶 اتصال الرسيفر",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#connection",
     "category": "أجهزة",
     "brand": "Enigma2",
     "type": "Page"
-  },
-  {
-    "title": "📺ملفات القنواتافتح مكتبة التحميل للوصول لملفات القنوات والملفات المتاحة.افتح مكتبة التحميل ←",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/library.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "🔎 إزاي تختار الملف الصح؟",
-    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Tutorial"
   },
   {
     "title": "🔗 ربط الرسيفر مباشرة",
@@ -1360,76 +616,12 @@
     "type": "Page"
   },
   {
-    "title": "🔥 عرض الآن ←",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Product"
-  },
-  {
-    "title": "🖼️بيكونات القنوات (Picons)صور وشعارات القنوات اللي بتظهر جنب اسم القناة في قائمة القنوات والواجهة، لتسهيل التعرّف على القنوات وإضافة شكل منظم للرسيفر.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/picons.html",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "🛍️ المتجر",
-    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "🛍️EnigmaPlay — متجر بلجنز Enigma2متجر شبيه بجوجل بلاي للرسيفر، يضم أكثر من 200 بلجن حسب وصف المشروع، مع التثبيت والتحديث وإدارة البلجنز.",
-    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
-    "category": "أجهزة",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "🛠️شروحات وإرشاداتادخل قسم الشروحات عشان توصل للمقالات والإرشادات التقنية.افتح قسم الشروحات ←",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
-    "title": "🛰️ صور Vu+",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Backups"
-  },
-  {
     "title": "🛰️أجهزة Dreamboxاختار موديل Dreambox للوصول إلى الملفات والمصادر المناسبة.عرض موديلات Dreambox ←",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/devices/dreambox.html",
     "category": "أجهزة",
     "brand": "Dreambox",
     "type": "Device"
-  },
-  {
-    "title": "🧩وصول أسرع للبلجنقائمة البلجن والإضافات",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
-    "category": "أجهزة",
-    "brand": "Dreambox",
-    "type": "Plugin"
-  },
-  {
-    "title": "1) التوصيل قبل الضبط",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#diseqc",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
   },
   {
     "title": "1) رابط التثبيت من مستودع المطوّر",
@@ -1445,6 +637,14 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
+    "type": "Tutorial"
+  },
+  {
+    "title": "1️⃣ جهّز الرسيفر والموبايل",
+    "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1456,35 +656,19 @@
     "type": "Plugin"
   },
   {
-    "title": "2) ضبط الإعدادات على Enigma2 / OpenATV",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#diseqc",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "2تركيب الباك أبراجع موديل جهازك واختار النسخة المتوافقة قبل التثبيت.افهم الخطوات ←",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "2️⃣ إعداد الاتصال في Mobile Telnet",
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "3) لو الإشارة مش شغالة على قمر أو أكتر",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#diseqc",
-    "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1493,11 +677,19 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "3️⃣ جرّب أمر بسيط للتأكد من الاتصال",
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "4التحكم من الموبايلاتعرّف على الاتصال بالرسيفر باستخدام Mobile Telnet.شوف الخطوات ←",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
     "brand": "Enigma2",
@@ -1508,7 +700,7 @@
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1532,7 +724,7 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1556,7 +748,7 @@
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1564,7 +756,23 @@
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "EnigmaPlay | Online4Tech",
+    "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "EnigmaPlay — جوجل بلاي الرسيفر",
+    "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1580,7 +788,7 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1596,7 +804,7 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1620,7 +828,7 @@
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1628,7 +836,7 @@
     "description": "شرح بلجن MyStreamer 1.0.0 لأجهزة Enigma2: مواقع عربية للأفلام والمسلسلات والأحداث الرياضية، أمر التثبيت وملاحظات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mystreamer.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1636,7 +844,7 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1644,7 +852,7 @@
     "description": "شرح بلجن MyStreamer 1.0.0 لأجهزة Enigma2: مواقع عربية للأفلام والمسلسلات والأحداث الرياضية، أمر التثبيت وملاحظات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mystreamer.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1652,7 +860,7 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1692,7 +900,7 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1700,7 +908,7 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1724,7 +932,7 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1748,7 +956,7 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1756,7 +964,7 @@
     "description": "شرح بلجن UltraAudio للصوتيات على أجهزة Enigma2، وأمر التثبيت عبر Telnet أو SSH.",
     "url": "https://online4tech.github.io/online4Tech/plugins/ultraaudio.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1764,7 +972,7 @@
     "description": "شرح بلجن UltraAudio للصوتيات على أجهزة Enigma2، وأمر التثبيت عبر Telnet أو SSH.",
     "url": "https://online4tech.github.io/online4Tech/plugins/ultraaudio.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1772,7 +980,7 @@
     "description": "شرح بلجن XtreamNew لأجهزة Enigma2 لتشغيل IPTV وLive TV والأفلام والمسلسلات، مع أمر التثبيت ومتطلبات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/xtreamnew.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1780,7 +988,7 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1788,23 +996,7 @@
     "description": "شرح بلجن XtreamNew لأجهزة Enigma2 لتشغيل IPTV وLive TV والأفلام والمسلسلات، مع أمر التثبيت ومتطلبات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/xtreamnew.html",
     "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "أو اختار القسم اللي محتاجه",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "إزاي تنفّذ أمر تثبيت أو صيانة؟",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
-    "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1812,7 +1004,7 @@
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -1821,7 +1013,7 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "إعدادات الدايسك 4 مخرج",
@@ -1829,7 +1021,7 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "استخدام Telnet / SSH من الموبايل",
@@ -1837,47 +1029,23 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "افتح قائمة البلجن",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html#plugins",
     "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "افتح مكتبة الباك أب",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#backup-install",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "الاسكين",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "الباك أب وصور الأنظمة",
-    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
-    "url": "https://online4tech.github.io/online4Tech/library.html",
-    "category": "إضافات",
     "brand": "Online4Tech",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "البلجن",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
+    "brand": "Online4Tech",
+    "type": "Tutorial"
   },
   {
     "title": "البلجن والسكين",
@@ -1885,7 +1053,7 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "البلجنات والإضافات",
@@ -1904,60 +1072,12 @@
     "type": "Plugin"
   },
   {
-    "title": "التنزيل من خلال Telnet / SSH",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#channel-list",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "الخطوة 1: تنزيل ملف القنوات من الموقع",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#ajpanel-channels",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "الخطوة 2: نزّل تطبيق SSH / Telnet",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "الخطوة 3: استعادة القنوات من AJPanel",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#ajpanel-channels",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "الخطوة 4: التأكد إن القنوات رجعت",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#ajpanel-channels",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "الخطوة 4: نفّذ أمر بسيط وآمن للتأكد من الاتصال",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "الرجوع لقسم البلجن",
     "description": "بلجن القدس لتشغيل الصوتيات | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Online4Tech",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "الرجوع لقسم البلجنات",
@@ -1965,7 +1085,7 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Online4Tech",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "الرجوع للصفحة الرئيسية ↑",
@@ -1973,15 +1093,7 @@
     "url": "https://online4tech.github.io/online4Tech/index.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "الشرح",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "الشروحات التفصيلية",
@@ -1989,38 +1101,14 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "الشروحات والمساعدة",
-    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
-    "url": "https://online4tech.github.io/online4Tech/library.html",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
-    "title": "الطريقة الأولى: تركيب صورة باك أب من USB",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#backup-install",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "الطريقة الثانية: استعادة القنوات أو الإعدادات فقط",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#backup-install",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "القدس لتشغيل الصوتيات",
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2028,7 +1116,7 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2052,7 +1140,23 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "بيكونات القنوات Picons | Online4Tech",
+    "description": "تحميل بيكونات Picons للقنوات لأجهزة Enigma2 مع أمر Telnet لتنزيل الملف إلى الرسيفر.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/picons.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "بيكونات القنوات — Picons",
+    "description": "تحميل بيكونات Picons للقنوات لأجهزة Enigma2 مع أمر Telnet لتنزيل الملف إلى الرسيفر.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/picons.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2061,23 +1165,7 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "حل أشهر مشاكل الاتصال",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "دليل الشرح | Online4Tech",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "سكريبتات وأدوات Enigma2",
@@ -2108,7 +1196,7 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html#pluginGrid",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2116,21 +1204,13 @@
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
     "title": "شرح تطبيق Mobile Telnet | Online4Tech",
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "صور الإنجيما الخام",
-    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
-    "url": "https://online4tech.github.io/online4Tech/library.html",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
@@ -2140,7 +1220,7 @@
     "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2149,38 +1229,14 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "قبل ما تبدأ — قائمة مراجعة سريعة",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#backup-install",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "كل اللي محتاجه، في مكان واحد",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "كل ملفاتك وشروحاتك في مكان واحد",
-    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
-    "url": "https://online4tech.github.io/online4Tech/library.html",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "مش قادر أكتب أو أنفّذ الأمر",
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2189,15 +1245,7 @@
     "url": "https://online4tech.github.io/online4Tech/backups/index.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "مكتبة التحميل | Online4Tech",
-    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
-    "url": "https://online4tech.github.io/online4Tech/library.html",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "مكتبة التحميل في Online4Tech",
@@ -2205,15 +1253,7 @@
     "url": "https://online4tech.github.io/online4Tech/library.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "ملفات القنوات والتحميلات",
-    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
-    "url": "https://online4tech.github.io/online4Tech/library.html",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "→ الرجوع لقائمة البلجن",
@@ -2221,7 +1261,7 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "→ الرجوع لقسم البلجن",
@@ -2229,7 +1269,7 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "⌨️ أمر التثبيت عبر Telnet / SSH",
@@ -2284,7 +1324,7 @@
     "description": "شرح بلجن UltraAudio للصوتيات على أجهزة Enigma2، وأمر التثبيت عبر Telnet أو SSH.",
     "url": "https://online4tech.github.io/online4Tech/plugins/ultraaudio.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2324,7 +1364,7 @@
     "description": "شرح بلجن XtreamNew لأجهزة Enigma2 لتشغيل IPTV وLive TV والأفلام والمسلسلات، مع أمر التثبيت ومتطلبات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/xtreamnew.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2332,7 +1372,7 @@
     "description": "شرح بلجن MyStreamer 1.0.0 لأجهزة Enigma2: مواقع عربية للأفلام والمسلسلات والأحداث الرياضية، أمر التثبيت وملاحظات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mystreamer.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2340,7 +1380,7 @@
     "description": "شرح بلجن MyStreamer 1.0.0 لأجهزة Enigma2: مواقع عربية للأفلام والمسلسلات والأحداث الرياضية، أمر التثبيت وملاحظات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mystreamer.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2380,7 +1420,7 @@
     "description": "شرح بلجن XtreamNew لأجهزة Enigma2 لتشغيل IPTV وLive TV والأفلام والمسلسلات، مع أمر التثبيت ومتطلبات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/xtreamnew.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2388,7 +1428,7 @@
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2396,7 +1436,7 @@
     "description": "شرح بلجن XtreamNew لأجهزة Enigma2 لتشغيل IPTV وLive TV والأفلام والمسلسلات، مع أمر التثبيت ومتطلبات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/xtreamnew.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2404,7 +1444,23 @@
     "description": "شرح بلجن MyStreamer 1.0.0 لأجهزة Enigma2: مواقع عربية للأفلام والمسلسلات والأحداث الرياضية، أمر التثبيت وملاحظات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mystreamer.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "⬇️ تحميل مباشر",
+    "description": "تحميل بيكونات Picons للقنوات لأجهزة Enigma2 مع أمر Telnet لتنزيل الملف إلى الرسيفر.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/picons.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "⭐ أبرز المميزات",
+    "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2464,11 +1520,11 @@
     "type": "Plugin"
   },
   {
-    "title": "🌱 أول مرة تستخدم Enigma2؟ ابدأ من هنا",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
+    "title": "🌐 روابط الخدمة",
+    "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2488,20 +1544,12 @@
     "type": "Plugin"
   },
   {
-    "title": "🎨 السكين",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#skins",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "🎨الاسكيناكتشف السكينات وتعرّف على طرق تثبيتها وتخصيص واجهة جهاز Enigma2.افتح قسم الاسكين ←",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/skins.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "🎬MyStreamer 1.0.0 للأفلام والمسلسلات والرياضة29 موقعًا عربيًا للأفلام والمسلسلات و4 مواقع رياضية، مع أمر التثبيت وملاحظات التوافق والمعماريات.",
@@ -2518,6 +1566,22 @@
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Plugin"
+  },
+  {
+    "title": "💻 أمر Telnet / SSH لتنزيل الملف للرسيفر",
+    "description": "تحميل بيكونات Picons للقنوات لأجهزة Enigma2 مع أمر Telnet لتنزيل الملف إلى الرسيفر.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/picons.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "💿صور خام · Enigma2 صور الإنجيما الخام مكتبة صور أنظمة Enigma2 الخام لأجهزة Vu+، مع روابط الوصول لصفحة الصور والتفاصيل لاختيار الصورة المناسبة لموديل جهازك. استعرض صور الأنظمة←",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html",
+    "category": "إضافات",
+    "brand": "Vu+",
+    "type": "Backups"
   },
   {
     "title": "📌 عن البلجن",
@@ -2596,7 +1660,7 @@
     "description": "شرح بلجن UltraAudio للصوتيات على أجهزة Enigma2، وأمر التثبيت عبر Telnet أو SSH.",
     "url": "https://online4tech.github.io/online4Tech/plugins/ultraaudio.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2613,7 +1677,7 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "📘شرح خطوة بخطوة الشروحات والمساعدة شروحات التشغيل والتثبيت والتحديث لأجهزة Enigma2. اذهب إلى مركز الشروحات←",
@@ -2621,7 +1685,7 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "📚افتح مكتبة الباك أباختار الجهاز والإصدار المناسب قبل التحميل.الانتقال للمكتبة ←",
@@ -2629,15 +1693,7 @@
     "url": "https://online4tech.github.io/online4Tech/backups/index.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "📡 شرح إعدادات الدايسك DiSEqC ‏4 مخرج",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#diseqc",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Tutorial"
   },
   {
     "title": "📡RaedQuickSignal لعرض الإشارةعرض SNR وAGC ومعلومات التشفير وPicons مع إمكانية تنزيل صور القنوات.",
@@ -2653,28 +1709,28 @@
     "url": "https://online4tech.github.io/online4Tech/downloads.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
+    "type": "Backups"
   },
   {
-    "title": "📦 شرح تركيب الباك أب على أجهزة Enigma2",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#backup-install",
+    "title": "📥 أمر التثبيت على الرسيفر",
+    "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
-    "title": "📱 شرح استخدام أوامر Telnet من الموبايل لأجهزة Enigma2",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
+    "title": "📦حسب موديل الجهاز الباك أب وصور الأنظمة نسخ احتياطية وصور أنظمة لأجهزة Vu+، مرتبة حسب الموديل والإصدار. تصفّح ملفات الباك أب←",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/backups/index.html",
     "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
+    "brand": "Vu+",
+    "type": "Backups"
   },
   {
-    "title": "📺 ملف القنوات — Online4Tech",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#channel-list",
+    "title": "📱شرح تطبيق Mobile Telnetطريقة الاتصال برسيفر Enigma2 من الموبايل، إدخال عنوان IP، تسجيل الدخول وتنفيذ الأوامر الأساسية بأمان.",
+    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Plugin"
@@ -2700,7 +1756,7 @@
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2708,7 +1764,7 @@
     "description": "شرح بلجن XtreamNew لأجهزة Enigma2 لتشغيل IPTV وLive TV والأفلام والمسلسلات، مع أمر التثبيت ومتطلبات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/xtreamnew.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2756,7 +1812,7 @@
     "description": "شرح بلجن XtreamNew لأجهزة Enigma2 لتشغيل IPTV وLive TV والأفلام والمسلسلات، مع أمر التثبيت ومتطلبات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/xtreamnew.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2812,7 +1868,7 @@
     "description": "شرح بلجن UltraAudio للصوتيات على أجهزة Enigma2، وأمر التثبيت عبر Telnet أو SSH.",
     "url": "https://online4tech.github.io/online4Tech/plugins/ultraaudio.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2852,6 +1908,14 @@
     "description": "شرح بلجن XtreamNew لأجهزة Enigma2 لتشغيل IPTV وLive TV والأفلام والمسلسلات، مع أمر التثبيت ومتطلبات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/xtreamnew.html",
     "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "🖼️بيكونات القنوات (Picons)صور وشعارات القنوات اللي بتظهر جنب اسم القناة في قائمة القنوات والواجهة، لتسهيل التعرّف على القنوات وإضافة شكل منظم للرسيفر.",
+    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/picons.html",
+    "category": "إضافات",
     "brand": "Enigma2",
     "type": "Plugin"
   },
@@ -2860,7 +1924,7 @@
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2884,7 +1948,7 @@
     "description": "شرح بلجن UltraAudio للصوتيات على أجهزة Enigma2، وأمر التثبيت عبر Telnet أو SSH.",
     "url": "https://online4tech.github.io/online4Tech/plugins/ultraaudio.html",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -2928,25 +1992,25 @@
     "type": "Plugin"
   },
   {
-    "title": "🛰️ شرح إضافة ملف القنوات من الموقع واستعادته باستخدام AJPanel",
-    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html#ajpanel-channels",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "🧩 البلجن",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html#plugins",
     "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
+    "brand": "Online4Tech",
+    "type": "Tutorial"
   },
   {
     "title": "🧩 البلجنات الموجودة في الباك أب",
     "description": "تفاصيل ومعلومات نسخة الباك أب على Online4Tech",
     "url": "https://online4tech.github.io/online4Tech/backup-info.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Backups"
+  },
+  {
+    "title": "🧩 التوافق المذكور",
+    "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
@@ -3008,6 +2072,14 @@
     "type": "Page"
   },
   {
+    "title": "البرمجة الكاملة لأي رسيفر",
+    "description": "خدمات Online4Tech لأجهزة الاستقبال: اشتراكات الشيرنج وIPTV والصوتيات والترجمة والبرمجة وبيع وشراء واستبدال الأجهزة.",
+    "url": "https://online4tech.github.io/online4Tech/services.html",
+    "category": "خدمات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "الترجمة الاحترافية",
     "description": "خدمات Online4Tech لأجهزة الاستقبال: اشتراكات الشيرنج وIPTV والصوتيات والترجمة والبرمجة وبيع وشراء واستبدال الأجهزة.",
     "url": "https://online4tech.github.io/online4Tech/services.html",
@@ -3056,12 +2128,180 @@
     "type": "Page"
   },
   {
+    "title": "1) التوصيل قبل الضبط",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#diseqc",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "1. قبل نقل أو تثبيت ملف القنوات",
+    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/guides/index.html#channels",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "2) ضبط الإعدادات على Enigma2 / OpenATV",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#diseqc",
+    "category": "شروحات",
+    "brand": "Enigma2",
+    "type": "Tutorial"
+  },
+  {
+    "title": "2. الاستعداد لاستعادة نسخة باك أب",
+    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/guides/index.html#backups",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "3) لو الإشارة مش شغالة على قمر أو أكتر",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#diseqc",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "3. مراجعة إعدادات Tuner وDiSEqC",
+    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/guides/index.html#tuner",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "4. رابط تحميل لا يعمل؟",
+    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/guides/index.html#links",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "أو اختار القسم اللي محتاجه",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "إزاي تنفّذ أمر تثبيت أو صيانة؟",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
     "title": "اضغط هنا لفتح مركز الشروحات الجديد",
     "description": "جاري تحويلك إلى مركز الشروحات | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "شروحات",
     "brand": "Online4Tech",
-    "type": "Page"
+    "type": "Tutorial"
+  },
+  {
+    "title": "افتح مكتبة الباك أب",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#backup-install",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الاسكين",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "التنزيل من خلال Telnet / SSH",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#channel-list",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الخطوة 1: تنزيل ملف القنوات من الموقع",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#ajpanel-channels",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الخطوة 1: هات عنوان IP بتاع الرسيفر",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الخطوة 2: نزّل تطبيق SSH / Telnet",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الخطوة 2: نقل الملف إلى الرسيفر",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#ajpanel-channels",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الخطوة 3: اتصل بالرسيفر",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الخطوة 3: استعادة القنوات من AJPanel",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#ajpanel-channels",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الخطوة 4: التأكد إن القنوات رجعت",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#ajpanel-channels",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الخطوة 4: نفّذ أمر بسيط وآمن للتأكد من الاتصال",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الشرح",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
   },
   {
     "title": "الشروحات",
@@ -3069,7 +2309,7 @@
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "شروحات",
     "brand": "Enigma2",
-    "type": "Page"
+    "type": "Tutorial"
   },
   {
     "title": "الشروحات التفصيلية",
@@ -3080,12 +2320,76 @@
     "type": "Tutorial"
   },
   {
+    "title": "الطريقة الأولى: تركيب صورة باك أب من USB",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#backup-install",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الطريقة الثانية: استعادة القنوات أو الإعدادات فقط",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#backup-install",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "حل أشهر مشاكل الاتصال",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "دليل الشرح | Online4Tech",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
     "title": "شرح تركيب الباك أب",
     "description": "تفاصيل ومعلومات نسخة الباك أب على Online4Tech",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "شروحات",
     "brand": "Online4Tech",
-    "type": "Backups"
+    "type": "Tutorial"
+  },
+  {
+    "title": "شروحات Enigma2",
+    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/guides/index.html",
+    "category": "شروحات",
+    "brand": "Enigma2",
+    "type": "Tutorial"
+  },
+  {
+    "title": "قبل ما تبدأ — قائمة مراجعة سريعة",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#backup-install",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "كل اللي محتاجه، في مكان واحد",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "مركز الشروحات | Online4Tech",
+    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/guides/index.html",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
   },
   {
     "title": "← الرجوع لقائمة الشروحات",
@@ -3096,12 +2400,76 @@
     "type": "Tutorial"
   },
   {
+    "title": "🌱 أول مرة تستخدم Enigma2؟ ابدأ من هنا",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
+    "category": "شروحات",
+    "brand": "Enigma2",
+    "type": "Tutorial"
+  },
+  {
+    "title": "🎨 السكين",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#skins",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
     "title": "📘 الشروحات",
     "description": "تفاصيل ومعلومات نسخة الباك أب على Online4Tech",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "شروحات",
     "brand": "Online4Tech",
-    "type": "Backups"
+    "type": "Tutorial"
+  },
+  {
+    "title": "📘 شــــرح",
+    "description": "موديلات Dreambox — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
+    "category": "شروحات",
+    "brand": "Dreambox",
+    "type": "Tutorial"
+  },
+  {
+    "title": "📡 شرح إعدادات الدايسك DiSEqC ‏4 مخرج",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#diseqc",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "📦 شرح تركيب الباك أب على أجهزة Enigma2",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#backup-install",
+    "category": "شروحات",
+    "brand": "Enigma2",
+    "type": "Tutorial"
+  },
+  {
+    "title": "📱 شرح استخدام أوامر Telnet من الموبايل لأجهزة Enigma2",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#telnet-mobile",
+    "category": "شروحات",
+    "brand": "Enigma2",
+    "type": "Tutorial"
+  },
+  {
+    "title": "📺 ملف القنوات — Online4Tech",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#channel-list",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "🛰️ شرح إضافة ملف القنوات من الموقع واستعادته باستخدام AJPanel",
+    "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html#ajpanel-channels",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
   },
   {
     "title": "AutoBouquetsMaker",
@@ -3152,6 +2520,14 @@
     "type": "Page"
   },
   {
+    "title": "Online4Tech | التقنية أسهل",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "OpenATV",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#catalogSection",
@@ -3181,6 +2557,22 @@
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#connection",
     "category": "معلومات",
     "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "إيه اللي هتلاقيه على الموقع؟",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/#services",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "ابدأ باختيار نوع جهازك",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/#devices",
+    "category": "معلومات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
@@ -3240,11 +2632,27 @@
     "type": "Page"
   },
   {
+    "title": "بتدور على جهاز استقبال؟",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "تبدأ منين؟",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html",
     "category": "معلومات",
     "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "تواصل أو بلّغ عن مشكلة",
+    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/about.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
@@ -3272,6 +2680,14 @@
     "type": "Page"
   },
   {
+    "title": "خدماتنا",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "خليك دايمًا أونلاين… التقنية أسهل",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/",
@@ -3296,6 +2712,14 @@
     "type": "Page"
   },
   {
+    "title": "شروحات وإرشادات",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/#services",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "صندوق الأدوات",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#tools",
@@ -3304,8 +2728,40 @@
     "type": "Page"
   },
   {
+    "title": "عن Online4Tech | مكتبة Enigma2",
+    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/about.html",
+    "category": "معلومات",
+    "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "كل اللي يخص جهازك…في مكان واحد.",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "كل طرق التواصل",
     "description": "خدمات Online4Tech لأجهزة الاستقبال: اشتراكات الشيرنج وIPTV والصوتيات والترجمة والبرمجة وبيع وشراء واستبدال الأجهزة.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "محتاج مساعدة؟ إحنا معاك 👋",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/#contact",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "محتوى تقني متجمع في مكان واحد",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/",
     "category": "معلومات",
     "brand": "Online4Tech",
@@ -3333,6 +2789,22 @@
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#catalogSection",
     "category": "معلومات",
     "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "مكتبة تقنية، مرتبة وواضحة.",
+    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/about.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "هدفنا",
+    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/about.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
@@ -3388,64 +2860,168 @@
     "description": "مكتبة سكينات Enigma2 من Online4Tech — روابط السكينات ومصادرها الأصلية.",
     "url": "https://online4tech.github.io/online4Tech/skins.html",
     "category": "ملفات",
-    "brand": "Enigma2",
-    "type": "Tools"
+    "brand": "Online4Tech",
+    "type": "Page"
   },
   {
     "title": "Aglare-FHD — PLI",
     "description": "مكتبة سكينات Enigma2 من Online4Tech — روابط السكينات ومصادرها الأصلية.",
     "url": "https://online4tech.github.io/online4Tech/skins.html",
     "category": "ملفات",
-    "brand": "Enigma2",
-    "type": "Tools"
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "Dreambox4U",
+    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
+    "category": "ملفات",
+    "brand": "Dreambox",
+    "type": "Page"
   },
   {
     "title": "Luka-FHD — OpenATV",
     "description": "مكتبة سكينات Enigma2 من Online4Tech — روابط السكينات ومصادرها الأصلية.",
     "url": "https://online4tech.github.io/online4Tech/skins.html",
     "category": "ملفات",
-    "brand": "Enigma2",
-    "type": "Tools"
+    "brand": "Online4Tech",
+    "type": "Page"
   },
   {
     "title": "Luka-FHD — PLI",
     "description": "مكتبة سكينات Enigma2 من Online4Tech — روابط السكينات ومصادرها الأصلية.",
     "url": "https://online4tech.github.io/online4Tech/skins.html",
     "category": "ملفات",
-    "brand": "Enigma2",
-    "type": "Tools"
+    "brand": "Online4Tech",
+    "type": "Page"
   },
   {
     "title": "Maxy-FHD — OpenATV",
     "description": "مكتبة سكينات Enigma2 من Online4Tech — روابط السكينات ومصادرها الأصلية.",
     "url": "https://online4tech.github.io/online4Tech/skins.html",
     "category": "ملفات",
-    "brand": "Enigma2",
-    "type": "Tools"
+    "brand": "Online4Tech",
+    "type": "Page"
   },
   {
     "title": "Maxy-FHD — PLI",
     "description": "مكتبة سكينات Enigma2 من Online4Tech — روابط السكينات ومصادرها الأصلية.",
     "url": "https://online4tech.github.io/online4Tech/skins.html",
     "category": "ملفات",
-    "brand": "Enigma2",
-    "type": "Tools"
+    "brand": "Online4Tech",
+    "type": "Page"
   },
   {
     "title": "Metrix Skinparts",
     "description": "مكتبة سكينات Enigma2 من Online4Tech — روابط السكينات ومصادرها الأصلية.",
     "url": "https://online4tech.github.io/online4Tech/skins.html",
     "category": "ملفات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Tools"
+  },
+  {
+    "title": "Online4Tech | أجهزة الباك أب",
+    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/index.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Backups"
+  },
+  {
+    "title": "OpenATV",
+    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Page"
+  },
+  {
+    "title": "OpenBlackHole",
+    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Page"
+  },
+  {
+    "title": "OpenPLi",
+    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Page"
+  },
+  {
+    "title": "OpenSPA",
+    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Page"
+  },
+  {
+    "title": "Pur-E2",
+    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Page"
+  },
+  {
+    "title": "VTi",
+    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Page"
+  },
+  {
+    "title": "Vu+ — السوفتوير الأصلي",
+    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Page"
+  },
+  {
+    "title": "أجهزة Dreambox",
+    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/index.html#device-families",
+    "category": "ملفات",
+    "brand": "Dreambox",
+    "type": "Page"
+  },
+  {
+    "title": "أجهزة Dreambox",
+    "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
+    "url": "https://online4tech.github.io/online4Tech/downloads.html#downloads",
+    "category": "ملفات",
+    "brand": "Dreambox",
+    "type": "Page"
+  },
+  {
+    "title": "أجهزة Vu+",
+    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/index.html#device-families",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Page"
+  },
+  {
+    "title": "أجهزة Vu+",
+    "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
+    "url": "https://online4tech.github.io/online4Tech/downloads.html#downloads",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Page"
   },
   {
     "title": "أسئلة شائعة",
     "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
     "url": "https://online4tech.github.io/online4Tech/downloads.html#faq",
     "category": "ملفات",
-    "brand": "Enigma2",
-    "type": "Channels"
+    "brand": "Online4Tech",
+    "type": "Page"
   },
   {
     "title": "إنشاء ملفات السيرفرات",
@@ -3456,20 +3032,44 @@
     "type": "Page"
   },
   {
+    "title": "اختار الشركة المصنّعة",
+    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/index.html#device-families",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "اختار القسم",
     "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
     "url": "https://online4tech.github.io/online4Tech/downloads.html",
     "category": "ملفات",
-    "brand": "Enigma2",
-    "type": "Channels"
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "اختار نوع الجهاز",
+    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/index.html",
+    "category": "ملفات",
+    "brand": "Dreambox",
+    "type": "Page"
   },
   {
     "title": "اختار نوع الملفات",
     "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
     "url": "https://online4tech.github.io/online4Tech/downloads.html",
     "category": "ملفات",
-    "brand": "Enigma2",
-    "type": "Channels"
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "استخدام الملفات بمسؤولية",
+    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/about.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Page"
   },
   {
     "title": "الاسكينات (Skins)",
@@ -3478,6 +3078,14 @@
     "category": "ملفات",
     "brand": "Enigma2",
     "type": "Tools"
+  },
+  {
+    "title": "الباك أب وصور الأنظمة",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Backups"
   },
   {
     "title": "التحميلات",
@@ -3494,6 +3102,54 @@
     "category": "ملفات",
     "brand": "Enigma2",
     "type": "Channels"
+  },
+  {
+    "title": "الشروحات والمساعدة",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "العودة إلى ملفات الباك أب ↗",
+    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Backups"
+  },
+  {
+    "title": "العودة إلى ملفات القنوات ↗",
+    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Backups"
+  },
+  {
+    "title": "العودة للرئيسية",
+    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Backups"
+  },
+  {
+    "title": "العودة للصفحة الرئيسية",
+    "description": "إرشادات عامة لملفات القنوات والباك أب وإعدادات أجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Backups"
+  },
+  {
+    "title": "باك أب أجهزة Dreambox",
+    "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
+    "url": "https://online4tech.github.io/online4Tech/downloads.html#downloads",
+    "category": "ملفات",
+    "brand": "Dreambox",
+    "type": "Backups"
   },
   {
     "title": "تحميل bridge.py",
@@ -3524,7 +3180,7 @@
     "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
     "url": "https://online4tech.github.io/online4Tech/downloads.html",
     "category": "ملفات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Channels"
   },
   {
@@ -3544,12 +3200,20 @@
     "type": "Backups"
   },
   {
+    "title": "خليك دايمًا أونلاين… التقنية أسهل",
+    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/index.html",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Backups"
+  },
+  {
     "title": "سكينات Enigma2",
     "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
     "url": "https://online4tech.github.io/online4Tech/downloads.html#downloads",
     "category": "ملفات",
     "brand": "Enigma2",
-    "type": "Channels"
+    "type": "Tools"
   },
   {
     "title": "سكينات Enigma2 | Online4Tech",
@@ -3560,12 +3224,44 @@
     "type": "Tools"
   },
   {
+    "title": "صور الإنجيما الخام",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "صور السوفتوير لأجهزة Vu+",
+    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Page"
+  },
+  {
+    "title": "صور السوفتوير لأجهزة Vu+ | Online4Tech",
+    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Page"
+  },
+  {
     "title": "عن الموقع",
     "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
     "url": "https://online4tech.github.io/online4Tech/about.html",
     "category": "ملفات",
     "brand": "Enigma2",
     "type": "Channels"
+  },
+  {
+    "title": "كل ملفاتك وشروحاتك في مكان واحد",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Page"
   },
   {
     "title": "معلومات أكتر عن الباك أب",
@@ -3584,11 +3280,51 @@
     "type": "Backups"
   },
   {
+    "title": "مكتبة أجهزة الباك أب",
+    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/index.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Backups"
+  },
+  {
     "title": "مكتبة التحميل",
     "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
     "url": "https://online4tech.github.io/online4Tech/library.html",
     "category": "ملفات",
     "brand": "Enigma2",
+    "type": "Channels"
+  },
+  {
+    "title": "مكتبة التحميل | Online4Tech",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "مكتبة باك أب Vu+ — Dreambox4U",
+    "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
+    "url": "https://online4tech.github.io/online4Tech/downloads.html#downloads",
+    "category": "ملفات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
+    "title": "ملفات القنوات",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/#services",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Channels"
+  },
+  {
+    "title": "ملفات القنوات والتحميلات",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
     "type": "Channels"
   },
   {
@@ -3600,6 +3336,14 @@
     "type": "Page"
   },
   {
+    "title": "نسخ الباك أب",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/#services",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Backups"
+  },
+  {
     "title": "← رجوع",
     "description": "معرض الصور | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/downloads.html",
@@ -3608,11 +3352,27 @@
     "type": "Page"
   },
   {
+    "title": "⌂ الرئيسية",
+    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/index.html",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Backups"
+  },
+  {
     "title": "⚙️ الإعدادات والتخصيصات",
     "description": "تفاصيل ومعلومات نسخة الباك أب على Online4Tech",
     "url": "https://online4tech.github.io/online4Tech/backup-info.html",
     "category": "ملفات",
     "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "✉️ الاتصال بنا",
+    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/index.html",
+    "category": "ملفات",
+    "brand": "Vu+",
     "type": "Backups"
   },
   {
@@ -3624,20 +3384,76 @@
     "type": "Tools"
   },
   {
+    "title": "💡 معلومة مهمة",
+    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Page"
+  },
+  {
+    "title": "💬 تواصل مع Online4Tech",
+    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/index.html#contact",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "📂 مكتبة التحميل",
+    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Backups"
+  },
+  {
+    "title": "📥 التحميلات",
+    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
+    "url": "https://online4tech.github.io/online4Tech/index.html",
+    "category": "ملفات",
+    "brand": "Dreambox",
+    "type": "Page"
+  },
+  {
+    "title": "📦 الباك أب",
+    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/index.html",
+    "category": "ملفات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
+    "title": "🔎 إزاي تختار الملف الصح؟",
+    "description": "دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html",
+    "category": "ملفات",
+    "brand": "Vu+",
+    "type": "Page"
+  },
+  {
     "title": "🖼️ الصور ولقطات الشاشة",
     "description": "تفاصيل ومعلومات نسخة الباك أب على Online4Tech",
     "url": "https://online4tech.github.io/online4Tech/backup-info.html",
     "category": "ملفات",
     "brand": "Online4Tech",
-    "type": "Backups"
+    "type": "Page"
   },
   {
-    "title": "EnigmaPlay | Online4Tech",
-    "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
+    "title": "Dreambox",
+    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html#dreambox-brands",
     "category": "منتجات",
-    "brand": "Enigma2",
-    "type": "Plugin"
+    "brand": "Dreambox",
+    "type": "Product"
+  },
+  {
+    "title": "Dreambox ONE UHD",
+    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html#used",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Product"
   },
   {
     "title": "EnigmaPlay — متجر بلجنز Enigma2",
@@ -3664,12 +3480,60 @@
     "type": "Page"
   },
   {
+    "title": "Vu+",
+    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html#dreambox-brands",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Product"
+  },
+  {
+    "title": "Vu+ Duo 4K SE",
+    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html#new",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Product"
+  },
+  {
+    "title": "Vu+ Uno 4K SE",
+    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html#new",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Product"
+  },
+  {
+    "title": "Vu+ Zero 4K",
+    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html#new",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Product"
+  },
+  {
+    "title": "VU+ Zero 4K — PVR KIT",
+    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html#accessories",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Product"
+  },
+  {
     "title": "إنستا باي InstaPay",
     "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
     "url": "https://online4tech.github.io/online4Tech/store/index.html#payment",
     "category": "منتجات",
     "brand": "Online4Tech",
     "type": "Product"
+  },
+  {
+    "title": "اختار جهازك ←",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Backups"
   },
   {
     "title": "ادفع بسهولة… وكمّل طلبك في دقايق",
@@ -3760,12 +3624,44 @@
     "type": "Product"
   },
   {
+    "title": "تصفح مكتبة التحميل",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
     "title": "دليل الشرح",
     "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "منتجات",
     "brand": "Enigma2",
     "type": "Tutorial"
+  },
+  {
+    "title": "ريموت VU+ — موديل 1",
+    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html#accessories",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Product"
+  },
+  {
+    "title": "ريموت VU+ — موديل 2",
+    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html#accessories",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Product"
+  },
+  {
+    "title": "ريموت VU+ — موديل 3",
+    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html#accessories",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Product"
   },
   {
     "title": "طرق الدفع والاستبدال والشحن",
@@ -3792,6 +3688,14 @@
     "type": "Plugin"
   },
   {
+    "title": "ليه تختار جهاز Vu+ بنظام Enigma2؟",
+    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Product"
+  },
+  {
     "title": "ماركات أجهزة الاستقبال والإكسسوارات",
     "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
     "url": "https://online4tech.github.io/online4Tech/store/index.html#dreambox-brands",
@@ -3808,27 +3712,123 @@
     "type": "Plugin"
   },
   {
-    "title": "⭐ أبرز المميزات",
-    "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
+    "title": "⌂ الرئيسية",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
+    "title": "⚙️ Enigma2 Manager",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
+    "title": "⚙️Enigma2 Managerأدوات إدارة أجهزة Enigma2",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
+    "title": "✉️ الاتصال بنا",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
+    "title": "✦ خدماتنا",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/services.html",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
+    "title": "✦خدماتنامش مجرد أجهزة وملفات… بنقدملك حلول متكاملة لجهازك.اشتراكات الشيرنجIPTV والصوتياتالترجمة الاحترافيةالبرمجة وتبديل الأجهزةاكتشف خدماتنا ←",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/services.html",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
+    "title": "💾نسخ الباك أبانتقل لمكتبة التحميل، واختار الشركة والموديل المناسب لجهازك.اختار جهازك ←",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
+    "title": "📂مكتبة تحميل منظمةملفات قنوات وباك أب",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/downloads.html",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
+    "title": "📺ملفات القنواتافتح مكتبة التحميل للوصول لملفات القنوات والملفات المتاحة.افتح مكتبة التحميل ←",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
+    "title": "🔥 عرض الآن ←",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Product"
+  },
+  {
+    "title": "🛍️ المتجر",
+    "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html",
+    "category": "منتجات",
+    "brand": "Vu+",
+    "type": "Product"
+  },
+  {
+    "title": "🛍️EnigmaPlay — متجر بلجنز Enigma2متجر شبيه بجوجل بلاي للرسيفر، يضم أكثر من 200 بلجن حسب وصف المشروع، مع التثبيت والتحديث وإدارة البلجنز.",
+    "description": "دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
     "category": "منتجات",
     "brand": "Enigma2",
     "type": "Plugin"
   },
   {
-    "title": "🌐 روابط الخدمة",
-    "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
+    "title": "🛠️شروحات وإرشاداتادخل قسم الشروحات عشان توصل للمقالات والإرشادات التقنية.افتح قسم الشروحات ←",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "منتجات",
-    "brand": "Enigma2",
-    "type": "Plugin"
+    "brand": "Dreambox",
+    "type": "Tutorial"
   },
   {
-    "title": "🧩 التوافق المذكور",
-    "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
+    "title": "🛰️ صور Vu+",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/vuplus-images.html",
     "category": "منتجات",
-    "brand": "Enigma2",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
+    "title": "🧩وصول أسرع للبلجنقائمة البلجن والإضافات",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
+    "category": "منتجات",
+    "brand": "Dreambox",
     "type": "Plugin"
   }
 ]
