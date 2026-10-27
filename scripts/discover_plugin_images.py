@@ -140,8 +140,10 @@ def main():
         scanned += bool(repo_key(plugin))
         old_icon = str(plugin.get("icon") or "")
         old_thumb = str(plugin.get("thumbnail") or "")
-        new_icon = found["icon"] or (old_icon if old_icon and "placeholder.svg" not in old_icon else PLACEHOLDER)
-        new_thumb = found["thumbnail"] or (old_thumb if old_thumb and "placeholder.svg" not in old_thumb else new_icon or PLACEHOLDER)
+        existing_shots = plugin.get("screenshots") if isinstance(plugin.get("screenshots"), list) else []
+        shot_fallback = next((item if isinstance(item, str) else item.get("url", "") for item in (found["screenshots"] + existing_shots) if (item if isinstance(item, str) else item.get("url", ""))), "")
+        new_icon = found["icon"] or (old_icon if old_icon and "placeholder.svg" not in old_icon else shot_fallback or PLACEHOLDER)
+        new_thumb = found["thumbnail"] or (old_thumb if old_thumb and "placeholder.svg" not in old_thumb else shot_fallback or new_icon or PLACEHOLDER)
         # A real repository image outranks a generic fallback; existing manually curated images remain if no discovery succeeds.
         if new_icon != old_icon:
             plugin["icon"] = new_icon
