@@ -3598,14 +3598,6 @@
     "type": "Backups"
   },
   {
-    "title": "البلجنز",
-    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
-    "url": "https://online4tech.github.io/online4Tech/plugins.html",
-    "category": "منتجات",
-    "brand": "Dreambox",
-    "type": "Plugin"
-  },
-  {
     "title": "المتجر",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/store/index.html",
