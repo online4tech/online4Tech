@@ -1017,7 +1017,7 @@
   },
   {
     "title": "الفئات",
-    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
+    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
     "category": "إضافات",
     "brand": "Online4Tech",
@@ -1065,14 +1065,14 @@
   },
   {
     "title": "تصفية النتائج",
-    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
+    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
-    "title": "تفاصيل البلجن | Online4Tech",
+    "title": "تفاصيل الإضافة | Online4Tech",
     "description": "تفاصيل وتوافق إضافات Enigma2 من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html",
     "category": "إضافات",
@@ -1112,6 +1112,14 @@
     "type": "Plugin"
   },
   {
+    "title": "عرض المكتبة",
+    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
     "title": "قائمة البلجنز",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
@@ -1120,16 +1128,8 @@
     "type": "Tutorial"
   },
   {
-    "title": "كل إضافات Enigma2 في مكان واحد",
-    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "كل الإضافات",
-    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
+    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
     "category": "إضافات",
     "brand": "Online4Tech",
@@ -1144,9 +1144,9 @@
     "type": "Plugin"
   },
   {
-    "title": "مركز إضافات Enigma2",
-    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
-    "url": "https://online4tech.github.io/online4Tech/index.html",
+    "title": "مركز إضافات Enigma2 | Online4Tech",
+    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Plugin"
@@ -1154,14 +1154,6 @@
   {
     "title": "مركز البلجنز",
     "description": "تفاصيل وتوافق إضافات Enigma2 من Online4Tech.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "مركز بلجنز Enigma2 | Online4Tech",
-    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
     "category": "إضافات",
     "brand": "Enigma2",
@@ -1187,14 +1179,6 @@
     "title": "مكتبة التحميل في Online4Tech",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/library.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Tutorial"
-  },
-  {
-    "title": "مكتبة الشروحات",
-    "description": "مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Tutorial"
@@ -1416,6 +1400,14 @@
     "type": "Plugin"
   },
   {
+    "title": "⭐ إضافات مميزة",
+    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#featuredSection",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
     "title": "⭐ المميزات المؤكدة",
     "description": "RaedQuickSignal | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugins/raedquicksignal.html",
@@ -1451,6 +1443,14 @@
     "title": "⭐ معلومات ومميزات مؤكدة",
     "description": "ArabicSavior | المنقذ لاستعادة اللغة العربية - Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugins/arabicsavior.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "🆕 أحدث الإضافات",
+    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#latestSection",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
@@ -1683,6 +1683,14 @@
     "title": "🔗 مصادر البحث",
     "description": "ArabicSavior | المنقذ لاستعادة اللغة العربية - Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugins/arabicsavior.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "🔥 الأكثر شعبية",
+    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#popularSection",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
@@ -2232,6 +2240,14 @@
     "type": "Tutorial"
   },
   {
+    "title": "مكتبة الشروحات",
+    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials.html",
+    "category": "شروحات",
+    "brand": "Enigma2",
+    "type": "Tutorial"
+  },
+  {
     "title": "← الرجوع لقائمة الشروحات",
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
@@ -2605,6 +2621,14 @@
     "url": "https://online4tech.github.io/online4Tech/",
     "category": "معلومات",
     "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "مركز إضافات Enigma2",
+    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
+    "url": "https://online4tech.github.io/online4Tech/index.html",
+    "category": "معلومات",
+    "brand": "Enigma2",
     "type": "Page"
   },
   {
@@ -3534,6 +3558,14 @@
     "category": "منتجات",
     "brand": "Online4Tech",
     "type": "Product"
+  },
+  {
+    "title": "متجر إضافات Enigma2",
+    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
+    "category": "منتجات",
+    "brand": "Enigma2",
+    "type": "Plugin"
   },
   {
     "title": "← الرجوع لقائمة البلجنز",
