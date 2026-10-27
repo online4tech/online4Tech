@@ -1,0 +1,93 @@
+name: Automatic plugin image collection
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/plugins.json'
+      - 'scripts/download-plugin-images.js'
+      - '.github/workflows/plugin-images.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: automatic-plugin-images
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install image optimizer
+        run: npm install --no-save --no-package-lock sharp
+      - name: Download, optimize and validate plugin images
+        env:
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -Eeuo pipefail
+          rollback() {
+            echo "::error::Image collection failed. Restoring the catalog and discarding generated changes."
+            if [ -f backup/plugins.backup.json ]; then cp backup/plugins.backup.json data/plugins.json; fi
+            git reset --hard HEAD
+            git clean -fd images/plugins data/image-cache.json data/image-report.json backup/plugins.backup.json
+          }
+          trap rollback ERR
+          node --check scripts/download-plugin-images.js
+          node scripts/download-plugin-images.js
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const data = JSON.parse(fs.readFileSync('data/plugins.json', 'utf8'));
+          const report = JSON.parse(fs.readFileSync('data/image-report.json', 'utf8'));
+          if (!Array.isArray(data.plugins)) throw new Error('Invalid plugin catalog');
+          for (const p of data.plugins) {
+            if (!p.icon || !p.thumbnail || !Array.isArray(p.screenshots)) {
+              throw new Error('Missing image fields: ' + (p.id || p.name));
+            }
+          }
+          if (!Array.isArray(report.missingImages) || !Array.isArray(report.failedRepositories)) {
+            throw new Error('Invalid image report');
+          }
+          console.log('Validated visual fields for ' + data.plugins.length + ' plugins');
+          NODE
+          trap - ERR
+      - name: Upload image report and rollback catalog
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: plugin-image-report-and-backup-\${{ github.run_number }}
+          path: |
+            data/image-report.json
+            backup/plugins.backup.json
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Commit generated assets and catalog
+        run: |
+          set -Eeuo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/plugins.json data/image-cache.json data/image-report.json images/plugins/ backup/plugins.backup.json
+          if git diff --cached --quiet; then
+            echo "No image or catalog changes; no commit created."
+            exit 0
+          fi
+          git commit -m "feat(images): automatic GitHub plugin image discovery and gallery system"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 3
+          done
+          echo "Push failed after retries."
+          exit 1
