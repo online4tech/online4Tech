@@ -103,7 +103,18 @@ def create_backup(client):
     return archive
 
 
-def run_operation(client, operation):
+def run_operation(client, operation, custom_command=None):
+    # Explicit read-only allowlist: never pass arbitrary browser text to a shell.
+    safe_custom_commands = {
+        "uname -a": "uname -a",
+        "df -h": "df -h",
+        "free -h": "free -h",
+        "ip addr": "ip addr",
+        "cat /etc/image-version": "cat /etc/image-version 2>/dev/null",
+        "opkg list-installed": "opkg list-installed",
+        "ps": "ps",
+        "uptime": "uptime",
+    }
     commands = {
         "info": "printf '%s\\n' '--- image-version ---'; cat /etc/image-version 2>/dev/null; printf '%s\\n' '--- issue ---'; cat /etc/issue 2>/dev/null; printf '%s\\n' '--- uptime ---'; uptime 2>/dev/null",
         "space": "df -h",
@@ -111,6 +122,10 @@ def run_operation(client, operation):
     }
     if operation == "backup":
         return "استخدم زر «تنزيل النسخة الاحتياطية» لتنزيل ملف مضغوط إلى الكمبيوتر.", "", 0
+    elif operation == "custom":
+        if custom_command not in safe_custom_commands:
+            raise ValueError("الأمر غير موجود في قائمة التشخيص الآمنة. اختر أمرًا معتمدًا من القائمة.")
+        command = safe_custom_commands[custom_command]
     elif operation in commands:
         command = commands[operation]
     else:
@@ -199,7 +214,7 @@ class Handler(BaseHTTPRequestHandler):
             with _sessions_lock:
                 _sessions[key]["last_used"] = time.time()
             if self.path == "/run":
-                output, error, code = run_operation(client, str(payload.get("operation") or ""))
+                output, error, code = run_operation(client, str(payload.get("operation") or ""), str(payload.get("command_text") or ""))
                 self.send_json(200, {"ok": code == 0, "output": output, "error": error, "exit_code": code})
             elif self.path == "/download-backup":
                 archive = create_backup(client)
