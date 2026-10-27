@@ -1,13 +1,23 @@
 {
-  "generatedAt": "2026-10-27T17:43:11.102Z",
+  "generatedAt": "2026-10-27T18:06:15.643Z",
   "pluginsScanned": 30,
-  "imagesDownloaded": 0,
+  "imagesDownloaded": 34,
   "imagesUpdated": 0,
-  "placeholdersGenerated": 0,
-  "totalStoredImages": 116,
-  "repositoryImagesStored": 64,
-  "placeholderAssetsStored": 52,
+  "placeholdersGenerated": 28,
+  "totalStoredImages": 119,
+  "repositoryImagesStored": 57,
+  "placeholderAssetsStored": 62,
   "missingImages": [
+    {
+      "plugin": "ajpanel",
+      "repository": "AMAJamry/AJPanel",
+      "reason": "No approved icon/logo file; generated 64x64 category icon used"
+    },
+    {
+      "plugin": "mystreamer",
+      "repository": "popking159/MyStreamer",
+      "reason": "No approved icon/logo file; generated 64x64 category icon used"
+    },
     {
       "plugin": "picons",
       "reason": "No GitHub repository URL"
@@ -21,12 +31,22 @@
       "reason": "No GitHub repository URL"
     },
     {
+      "plugin": "enigmaplay",
+      "repository": "Ahmadarjan1/EnigmaPlay-Repo",
+      "reason": "No approved icon/logo file; generated 64x64 category icon used"
+    },
+    {
       "plugin": "footonsat",
       "reason": "No GitHub repository URL"
     },
     {
       "plugin": "mobile-telnet",
       "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "raedquicksignal",
+      "repository": "fairbird/RaedQuickSignal",
+      "reason": "No approved icon/logo file; generated 64x64 category icon used"
     },
     {
       "plugin": "timeshift-delay",
@@ -106,6 +126,6 @@
     }
   ],
   "failedRepositories": [],
-  "cachedRepositories": 6,
-  "catalogChanged": false
+  "cachedRepositories": 0,
+  "catalogChanged": true
 }
