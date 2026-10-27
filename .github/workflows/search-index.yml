@@ -5,6 +5,11 @@ on:
     branches: [main]
     paths:
       - '**.html'
+      - 'js/**'
+      - 'css/**'
+      - 'assets/site-header.js'
+      - 'robots.txt'
+      - 'sitemap.xml'
       - 'scripts/build_search_index.py'
       - '.github/workflows/search-index.yml'
   workflow_dispatch:
@@ -22,6 +27,12 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+      - name: Check JavaScript syntax
+        run: |
+          node --check js/search.js
+          node --check assets/site-header.js
+      - name: Validate search index JSON
+        run: python -m json.tool data/search-index.json > /dev/null
       - name: Generate search index
         run: python scripts/build_search_index.py
       - name: Commit generated index when changed
