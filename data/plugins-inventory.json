@@ -1,0 +1,60 @@
+{
+  "generatedFrom": "repository scan",
+  "generatedAt": "2026-10-27",
+  "pluginPages": [
+    {
+      "file": "plugins/ajpanel.html"
+    },
+    {
+      "file": "plugins/alkuds-audio.html"
+    },
+    {
+      "file": "plugins/arabicsavior.html"
+    },
+    {
+      "file": "plugins/enigmaplay.html"
+    },
+    {
+      "file": "plugins/footonsat.html"
+    },
+    {
+      "file": "plugins/ipaudio-pro.html"
+    },
+    {
+      "file": "plugins/mobile-telnet.html"
+    },
+    {
+      "file": "plugins/mystreamer.html"
+    },
+    {
+      "file": "plugins/picons.html"
+    },
+    {
+      "file": "plugins/quran-kareem.html"
+    },
+    {
+      "file": "plugins/raedquicksignal.html"
+    },
+    {
+      "file": "plugins/scripts-tools.html"
+    },
+    {
+      "file": "plugins/subssupportpro.html"
+    },
+    {
+      "file": "plugins/timeshift-delay.html"
+    },
+    {
+      "file": "plugins/ultraaudio.html"
+    },
+    {
+      "file": "plugins/xtreamnew.html"
+    }
+  ],
+  "packages": [],
+  "summary": {
+    "pluginPages": 16,
+    "packages": 0
+  },
+  "note": "لم يتم العثور على ملفات IPK/ZIP/TAR/DEB ضمن مستودع Git عند إنشاء هذا الفهرس."
+}
