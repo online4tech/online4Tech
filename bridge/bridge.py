@@ -92,6 +92,17 @@ def get_client(payload):
     return client, key
 
 
+def create_backup(client):
+    command = "if [ -d /etc/tuxbox ]; then tar -czf - /etc/enigma2 /etc/tuxbox 2>/dev/null; else tar -czf - /etc/enigma2 2>/dev/null; fi"
+    stdin, stdout, stderr = client.exec_command(command, timeout=90)
+    archive = stdout.read()
+    error = stderr.read()
+    code = stdout.channel.recv_exit_status()
+    if code != 0 or not archive:
+        raise RuntimeError(error.decode("utf-8", "replace") or "تعذر إنشاء النسخة الاحتياطية.")
+    return archive
+
+
 def run_operation(client, operation):
     commands = {
         "info": "printf '%s\\n' '--- image-version ---'; cat /etc/image-version 2>/dev/null; printf '%s\\n' '--- issue ---'; cat /etc/issue 2>/dev/null; printf '%s\\n' '--- uptime ---'; uptime 2>/dev/null",
@@ -113,6 +124,20 @@ def run_operation(client, operation):
             raise RuntimeError(err.decode("utf-8", "replace") or "تعذر إنشاء النسخة الاحتياطية.")
         return out, err.decode("utf-8", "replace"), code
     return out.decode("utf-8", "replace"), err.decode("utf-8", "replace"), code
+
+
+def session_reaper():
+    while True:
+        time.sleep(60)
+        now = time.time()
+        with _sessions_lock:
+            for key, item in list(_sessions.items()):
+                if now - item["last_used"] > SESSION_TTL:
+                    try:
+                        item["client"].close()
+                    except Exception:
+                        pass
+                    _sessions.pop(key, None)
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -177,7 +202,7 @@ class Handler(BaseHTTPRequestHandler):
                 output, error, code = run_operation(client, str(payload.get("operation") or ""))
                 self.send_json(200, {"ok": code == 0, "output": output, "error": error, "exit_code": code})
             elif self.path == "/download-backup":
-                archive, error, code = run_operation(client, "backup")
+                archive = create_backup(client)
                 self.send_response(200)
                 self.headers_common()
                 self.send_header("Content-Type", "application/gzip")
@@ -204,6 +229,7 @@ def main():
         input("اضغط Enter للخروج...")
         return
     server = ThreadingHTTPServer((HOST, PORT), Handler)
+    threading.Thread(target=session_reaper, daemon=True).start()
     print("Online4Tech Bridge يعمل على هذا الكمبيوتر فقط: http://127.0.0.1:8765")
     print("افتح صفحة Enigma2 Manager على موقع Online4Tech. أغلق هذه النافذة لإيقاف الخدمة.")
     try:
