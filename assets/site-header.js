@@ -151,7 +151,7 @@
     let canon=document.head.querySelector('link[rel="canonical"]');if(!canon){canon=document.createElement('link');canon.rel='canonical';document.head.appendChild(canon)}canon.href=canonicalUrl;
     if(!descNode)meta('description',desc.slice(0,300),false);
     meta('og:title',title,true);meta('og:description',desc.slice(0,300),true);meta('og:image',siteRoot+'assets/site-logo.svg',true);meta('og:url',canonicalUrl,true);
-    meta('og:type',/tutorial|guide|plugin/i.test(rel)?'article':'website',true);meta('twitter:card','summary',false);meta('robots','index,follow,max-image-preview:large',false);
+    meta('og:type',/tutorial|guide|plugin/i.test(rel)?'article':'website',true);meta('twitter:card','summary',false);meta('robots',/^(search\.html|404\.html)$/i.test(rel)?'noindex,follow':'index,follow,max-image-preview:large',false);
     if(!document.querySelector('script[type="application/ld+json"]')){
       let schema;
       if(!rel||rel.toLowerCase()==='index.html')schema={'@context':'https://schema.org','@type':'WebSite',name:'Online4Tech',url:siteRoot,inLanguage:'ar',potentialAction:{'@type':'SearchAction',target:siteRoot+'search.html?q={search_term_string}','query-input':'required name=search_term_string'}};
