@@ -1,0 +1,31 @@
+name: Refresh plugin inventory
+on:
+  push:
+    branches: [main, feature/plugin-center]
+    paths:
+      - 'plugins/*.html'
+      - 'scripts/build_plugins_inventory.py'
+      - '.github/workflows/plugins-inventory.yml'
+      - 'data/plugins-inventory.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Build repository inventory
+        run: python scripts/build_plugins_inventory.py
+      - name: Commit refreshed inventory
+        run: |
+          if ! git diff --quiet -- data/plugins-inventory.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/plugins-inventory.json
+            git commit -m "chore(plugins): refresh repository inventory"
+            git push
+          fi
