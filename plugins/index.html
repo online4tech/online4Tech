@@ -1,35 +1,32 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#07111f">
-<title>مركز بلجنز Enigma2 | Online4Tech</title>
-<meta name="description" content="مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07111f">
+<title>مركز إضافات Enigma2 | Online4Tech</title><meta name="description" content="مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.">
 <link rel="canonical" href="https://online4tech.github.io/online4Tech/plugins/">
-<meta property="og:title" content="مركز بلجنز Enigma2 | Online4Tech"><meta property="og:description" content="اكتشف إضافات Enigma2 وابحث عنها حسب الفئة والتوافق."><meta property="og:type" content="website"><meta property="og:url" content="https://online4tech.github.io/online4Tech/plugins/">
-<meta name="twitter:card" content="summary">
-<link rel="stylesheet" href="../assets/site-header.css?v=4"><link rel="stylesheet" href="../css/plugins.css">
-<script defer src="../assets/site-header.js?v=4"></script>
-<script defer src="../js/plugins-search.js"></script><script defer src="../js/plugins-filters.js"></script><script defer src="../js/plugins.js"></script>
+<meta property="og:title" content="مركز إضافات Enigma2 | Online4Tech"><meta property="og:description" content="اكتشف إضافات Enigma2 وابحث عنها حسب الفئة والتوافق."><meta property="og:type" content="website"><meta property="og:url" content="https://online4tech.github.io/online4Tech/plugins/"><meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="../assets/site-header.css?v=4"><link rel="stylesheet" href="../css/plugins.css?v=2">
+<script defer src="../assets/site-header.js?v=4"></script><script defer src="../js/plugins-search.js?v=2"></script><script defer src="../js/plugins-filters.js?v=2"></script><script defer src="../js/plugins.js?v=2"></script>
 </head>
 <body>
 <header class="site-top"><div class="container topbar"><a href="../index.html" class="brand"><img src="../assets/site-logo.svg" alt="Online4Tech" width="210" height="55"><span>مركز إضافات Enigma2</span></a><nav><a href="../index.html">الرئيسية</a><a href="../library.html">مكتبة التحميل</a><a href="../tutorials.html">الشروحات</a></nav></div></header>
 <main class="container">
-<section class="hero"><div class="eyebrow">✦ ONLINE4TECH PLUGIN CENTER</div><h1>كل إضافات <span>Enigma2</span> في مكان واحد</h1><p>اكتشف الإضافات، راجع التوافق، وابحث بسرعة حسب الاسم أو الوظيفة أو صورة النظام. راجع تفاصيل كل إضافة قبل التثبيت.</p>
-<div class="searchbar"><span aria-hidden="true">⌕</span><input id="pluginSearch" type="search" placeholder="ابحث بالاسم أو الوصف أو المطوّر… / Search plugins" autocomplete="off" aria-label="البحث عن بلجن"><button id="clearSearch" type="button" aria-label="مسح البحث">✕</button></div>
-<div class="stats"><div><strong id="statTotal">—</strong><span>إضافة بالفهرس</span></div><div><strong id="statCategories">11</strong><span>فئة</span></div><div><strong>Enigma2</strong><span>المنصة</span></div><div><strong>AR + EN</strong><span>بحث عربي وإنجليزي</span></div></div></section>
-<section class="category-section"><div class="section-heading"><div><small>تصفّح حسب الاستخدام</small><h2>الفئات</h2></div><button class="text-button" id="showAllCategories">عرض الكل</button></div><div class="category-chips" id="categoryChips"></div></section>
-<div class="catalog-layout">
-<aside class="filters" id="filterPanel"><div class="filter-head"><h2>تصفية النتائج</h2><button id="resetFilters" type="button">إعادة ضبط</button></div>
+<section class="hero"><div class="eyebrow">✦ ONLINE4TECH PLUGIN CENTER</div><h1>متجر إضافات <span>Enigma2</span></h1><p>اكتشف الإضافات، قارن التوافق، وافتح صفحة مستقلة لكل إضافة. كل البطاقات والأقسام بتتولد تلقائيًا من ملف بيانات واحد.</p>
+<div class="searchbar"><span aria-hidden="true">⌕</span><input id="pluginSearch" type="search" placeholder="ابحث بالاسم أو الوصف أو الفئة أو المطوّر…" autocomplete="off" aria-label="البحث عن إضافة"><button id="clearSearch" type="button" aria-label="مسح البحث">✕</button></div>
+<div class="stats"><div><strong id="statTotal">—</strong><span>إضافة بالفهرس</span></div><div><strong id="statCategories">—</strong><span>فئة</span></div><div><strong>Enigma2</strong><span>المنصة</span></div><div><strong>AR + EN</strong><span>بحث عربي وإنجليزي</span></div></div></section>
+<section class="showcase-section" id="featuredSection"><div class="section-heading"><div><small>اختياراتنا</small><h2>⭐ إضافات مميزة</h2></div><a class="text-button" href="#allPlugins">عرض المكتبة</a></div><div class="plugin-grid showcase-grid" id="featuredGrid"></div></section>
+<section class="showcase-section" id="latestSection"><div class="section-heading"><div><small>وصلت حديثًا</small><h2>🆕 أحدث الإضافات</h2></div></div><div class="plugin-grid showcase-grid" id="latestGrid"></div></section>
+<section class="showcase-section" id="popularSection"><div class="section-heading"><div><small>الأكثر رواجًا</small><h2>🔥 الأكثر شعبية</h2></div></div><div class="plugin-grid showcase-grid" id="popularGrid"></div></section>
+<section class="category-section"><div class="section-heading"><div><small>اكتشف حسب الاستخدام</small><h2>الفئات</h2></div><button class="text-button" id="showAllCategories" type="button">عرض الكل</button></div><div class="category-chips" id="categoryChips"></div></section>
+<div class="catalog-layout" id="allPlugins"><aside class="filters" id="filterPanel"><div class="filter-head"><h2>تصفية النتائج</h2><button id="resetFilters" type="button">إعادة ضبط</button></div>
 <label>الفئة<select id="categoryFilter"><option value="">كل الفئات</option></select></label>
-<label>الجهاز<select id="deviceFilter"><option value="">كل الأجهزة</option><option>VU+</option><option>Dreambox</option><option>Octagon</option><option>Other Enigma2</option></select></label>
-<label>صورة النظام<select id="imageFilter"><option value="">كل الصور</option><option>OpenATV</option><option>OpenViX</option><option>Egami</option><option>OpenPLi</option></select></label>
-<label>التوافق<select id="compatFilter"><option value="">كل حالات التوافق</option><option value="listed">التوافق موضح</option><option value="tutorial">له صفحة تفاصيل أو شرح</option><option value="download">رابط تنزيل مباشر متاح</option></select></label>
-<label>المميزات<select id="featureFilter"><option value="">كل الإضافات</option><option value="featured">مميزة</option><option value="tutorial">لها شرح</option><option value="download">رابط تنزيل مباشر</option></select></label>
+<label>الجهاز<select id="deviceFilter"><option value="">كل الأجهزة</option></select></label>
+<label>صورة النظام<select id="imageFilter"><option value="">كل الصور</option></select></label>
+<label>الترتيب<select id="sortFilter"><option value="featured">المميزة أولًا</option><option value="downloads">الأكثر تنزيلًا</option><option value="rating">أعلى تقييم</option><option value="latest">الأحدث</option><option value="name">الاسم</option></select></label>
+<label>حالة الإضافة<select id="featureFilter"><option value="">كل الإضافات</option><option value="featured">المميزة فقط</option><option value="latest">الأحدث فقط</option><option value="popular">الأكثر شعبية</option></select></label>
 <p class="filter-note">التوافق يختلف حسب إصدار الصورة والمعمارية؛ راجع معلومات المطوّر قبل التثبيت.</p></aside>
-<section class="results"><div class="section-heading result-head"><div><small>مكتبة الإضافات</small><h2 id="resultsTitle">كل الإضافات</h2></div><label class="sort-label">ترتيب حسب<select id="sortFilter"><option value="featured">المميزة أولًا</option><option value="downloads">الأكثر تنزيلًا</option><option value="rating">التقييم</option><option value="latest">الأحدث</option><option value="name">الاسم</option></select></label></div>
-<p class="results-count" id="resultsCount" aria-live="polite">جاري تحميل الفهرس…</p><div class="plugin-grid" id="pluginGrid"><div class="loading">جاري تحميل الإضافات…</div></div><div class="empty-state" id="emptyState" hidden><strong>ملقيناش نتائج مطابقة</strong><p>جرّب كلمة بحث تانية أو قلّل الفلاتر.</p><button id="emptyReset" type="button">مسح الفلاتر</button></div>
-</section></div>
-<section class="notice"><strong>ملاحظة مهمة</strong><p>بعض الإضافات تعتمد على مصادر خارجية أو إصدارات قديمة. الروابط غير المتوفرة لن تظهر كتحميل مباشر، ولازم تتأكد من توافق الإضافة مع جهازك وصورة النظام قبل التثبيت.</p></section>
+<section class="results"><div class="section-heading result-head"><div><small>كتالوج الإضافات</small><h2 id="resultsTitle">كل الإضافات</h2></div></div><p class="results-count" id="resultsCount" aria-live="polite">جاري تحميل الفهرس…</p>
+<div class="plugin-grid" id="pluginGrid"><div class="loading">جاري تحميل الإضافات…</div></div><div class="empty-state" id="emptyState" hidden><strong>ملقيناش نتائج مطابقة</strong><p>جرّب كلمة بحث تانية أو قلّل الفلاتر.</p><button id="emptyReset" type="button">مسح الفلاتر</button></div></section></div>
+<section class="notice"><strong>قبل التثبيت</strong><p>راجع إصدار الصورة ومعمارية الجهاز وتعليمات المطوّر. وجود رابط للمصدر لا يعني بالضرورة وجود ملف تثبيت مباشر أو ضمان التوافق.</p></section>
 </main><footer><div class="container footer-inner"><span>© Online4Tech — Enigma2 Plugin Center</span><a href="../tutorials.html#plugins">مكتبة الشروحات</a></div></footer>
 </body></html>
