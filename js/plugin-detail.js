@@ -184,7 +184,8 @@
 
       const downloads = plugin.downloads || {};
       const githubOnly = value => { try { const u = new URL(String(value || '')); return u.protocol === 'https:' && ['github.com','www.github.com','raw.githubusercontent.com'].includes(u.hostname) ? u.href : ''; } catch (_) { return ''; } };
-      const downloadUrl = githubOnly(downloads.githubRelease);
+      const directPackage = /\.(?:ipk|deb)(?:$|\?)/i.test(String(plugin.downloadUrl || '')) ? githubOnly(plugin.downloadUrl) : '';
+      const downloadUrl = directPackage || githubOnly(downloads.githubRelease);
       const githubUrl = githubOnly(plugin.githubUrl) || githubOnly(downloads.repository);
       const screenshotItems = (Array.isArray(plugin.screenshots) ? plugin.screenshots : []).map(item => typeof item === 'string' ? item : item?.url).filter(hasValue).map(value => asset(value));
       const screenshotHtml = screenshotItems.map((src, index) => '<a class="screenshot screenshot-slide' + (index === 0 ? ' is-active' : '') + '" data-gallery-slide="' + index + '" href="' + esc(src) + '" data-lightbox="' + index + '" aria-label="فتح الصورة"><img loading="lazy" decoding="async" src="' + esc(src) + '"' + imageError() + ' alt="' + esc(plugin.name) + ' — صورة ' + (index + 1) + '"></a>').join('');
