@@ -38,7 +38,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/AMAJamry/AJPanel",
         "githubRelease": ""
       },
       "featured": true,
@@ -53,7 +53,7 @@
         "images/plugins/ajpanel/screenshot-7.webp",
         "images/plugins/ajpanel/screenshot-8.webp"
       ],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/AMAJamry/AJPanel",
       "tutorialUrl": "../plugins/ajpanel.html",
       "changelog": [],
       "tags": [
@@ -70,7 +70,7 @@
       "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
       "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/AMAJamry/AJPanel",
       "relatedPlugins": [
         "arabicsavior",
         "raedquicksignal"
@@ -114,13 +114,13 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/popking159/MyStreamer",
         "githubRelease": ""
       },
       "featured": true,
       "thumbnail": "",
       "screenshots": [],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/popking159/MyStreamer",
       "tutorialUrl": "../plugins/mystreamer.html",
       "changelog": [],
       "tags": [
@@ -137,7 +137,7 @@
       "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
       "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/popking159/MyStreamer",
       "relatedPlugins": [
         "enigmaplay",
         "mediaportal",
@@ -178,13 +178,13 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/popking159/SubsSupportPro",
         "githubRelease": ""
       },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/popking159/SubsSupportPro",
       "tutorialUrl": "../plugins/subssupportpro.html",
       "changelog": [],
       "tags": [
@@ -201,7 +201,7 @@
       "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
       "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/popking159/SubsSupportPro",
       "relatedPlugins": [
         "ipaudio-pro",
         "alkuds-audio",
@@ -295,8 +295,8 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
-        "githubRelease": ""
+        "repository": "https://github.com/popking159/ipaudio",
+        "githubRelease": "https://github.com/popking159/ipaudio/releases"
       },
       "featured": false,
       "thumbnail": "",
@@ -310,7 +310,7 @@
         "images/plugins/ipaudio-pro/screenshot-7.webp",
         "images/plugins/ipaudio-pro/screenshot-8.webp"
       ],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/popking159/ipaudio/releases",
       "tutorialUrl": "../plugins/ipaudio-pro.html",
       "changelog": [],
       "tags": [
@@ -327,7 +327,7 @@
       "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
       "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/popking159/ipaudio",
       "relatedPlugins": [
         "subssupportpro",
         "alkuds-audio",
@@ -489,7 +489,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
         "githubRelease": ""
       },
       "featured": false,
@@ -504,7 +504,7 @@
         "images/plugins/enigmaplay/screenshot-7.webp",
         "images/plugins/enigmaplay/screenshot-8.webp"
       ],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
       "tutorialUrl": "../plugins/enigmaplay.html",
       "changelog": [],
       "tags": [
@@ -521,7 +521,7 @@
       "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
       "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
       "relatedPlugins": [
         "mystreamer",
         "mediaportal",
@@ -675,7 +675,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/fairbird/RaedQuickSignal",
         "githubRelease": ""
       },
       "featured": false,
@@ -690,7 +690,7 @@
         "images/plugins/raedquicksignal/screenshot-7.webp",
         "images/plugins/raedquicksignal/screenshot-8.webp"
       ],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/fairbird/RaedQuickSignal",
       "tutorialUrl": "../plugins/raedquicksignal.html",
       "changelog": [],
       "tags": [
@@ -707,7 +707,7 @@
       "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
       "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/fairbird/RaedQuickSignal",
       "relatedPlugins": [
         "ajpanel",
         "arabicsavior"
