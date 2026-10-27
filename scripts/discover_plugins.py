@@ -75,11 +75,7 @@ def score(r):
     return math.log1p(max(0,int(r.get("stargazers_count") or 0)))*2+math.log1p(max(0,int(r.get("forks_count") or 0)))*1.5+fresh*2
 def make_record(r,old=None):
     old=old or {}; rm=readme(r); rel=release(r); name=r.get("name") or r["full_name"].split("/")[-1]; url=r.get("html_url") or "https://github.com/"+r["full_name"]
-    shots=list(old.get("screenshots") or [])
-    for m in re.finditer(r"!\[[^\]]*\]\((https?://[^)\s]+)",rm,re.I):
-        u=m.group(1).rstrip(".,)")
-        if any(x in u.lower() for x in (".png",".jpg",".jpeg",".webp",".gif","githubusercontent.com","imgur.com")) and u not in shots:shots.append(u)
-        if len(shots)>=8:break
+    shots=[x for x in (old.get("screenshots") or []) if isinstance(x,str) and x.startswith("images/plugins/") and re.search(r"/screenshot-\\d+\\.webp$",x)]
     desc=(r.get("description") or "").strip()
     if not desc:
         for line in rm.splitlines():
@@ -98,7 +94,7 @@ def make_record(r,old=None):
       "supportedImages":old.get("supportedImages") or ["Enigma2","OpenATV","OpenPLi"],
       "rating":round(min(5,3.5+min(1.5,math.log1p(max(0,int(r.get("stargazers_count") or 0)))/8)),1),
       "downloads":{"repository":url,"githubRelease":(rel or {}).get("html_url","")},"featured":False,
-      "thumbnail":old.get("thumbnail") or (shots[0] if shots else ""),"screenshots":shots,
+      "icon":old.get("icon") if old.get("logoFound") is True else "","logoFound":bool(old.get("logoFound") is True and old.get("icon")),"thumbnail":old.get("thumbnail") if old.get("logoFound") is True else "","screenshots":shots,
       "downloadUrl":(rel or {}).get("html_url") or url,"tutorialUrl":old.get("tutorialUrl") or "",
       "changelog":list(old.get("changelog") or []),"tags":tags,"arabicDescription":old.get("arabicDescription") or desc[:500],
       "latest":bool(release_date and recent(release_date)),"downloadsCount":max(downloads,int(old.get("downloadsCount") or 0)),
