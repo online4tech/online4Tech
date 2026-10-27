@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-10-27T18:06:15.643Z",
+  "generatedAt": "2026-10-27T18:33:36.489Z",
   "pluginsScanned": 30,
-  "imagesDownloaded": 34,
+  "imagesDownloaded": 28,
   "imagesUpdated": 0,
-  "placeholdersGenerated": 28,
-  "totalStoredImages": 119,
-  "repositoryImagesStored": 57,
-  "placeholderAssetsStored": 62,
+  "placeholdersGenerated": 0,
+  "totalStoredImages": 54,
+  "repositoryImagesStored": 54,
+  "placeholderAssetsStored": 0,
   "missingImages": [
     {
       "plugin": "ajpanel",
       "repository": "AMAJamry/AJPanel",
-      "reason": "No approved icon/logo file; generated 64x64 category icon used"
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "mystreamer",
       "repository": "popking159/MyStreamer",
-      "reason": "No approved icon/logo file; generated 64x64 category icon used"
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "picons",
@@ -24,20 +24,18 @@
     },
     {
       "plugin": "alkuds-audio",
-      "reason": "No GitHub repository URL"
-    },
-    {
-      "plugin": "arabicsavior",
-      "reason": "No GitHub repository URL"
+      "repository": "xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "enigmaplay",
       "repository": "Ahmadarjan1/EnigmaPlay-Repo",
-      "reason": "No approved icon/logo file; generated 64x64 category icon used"
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "footonsat",
-      "reason": "No GitHub repository URL"
+      "repository": "fairbird/FootOnsat",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "mobile-telnet",
@@ -46,7 +44,7 @@
     {
       "plugin": "raedquicksignal",
       "repository": "fairbird/RaedQuickSignal",
-      "reason": "No approved icon/logo file; generated 64x64 category icon used"
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "timeshift-delay",
@@ -54,7 +52,8 @@
     },
     {
       "plugin": "ultraaudio",
-      "reason": "No GitHub repository URL"
+      "repository": "K3bOra/UltraAudio",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "scripts-tools",

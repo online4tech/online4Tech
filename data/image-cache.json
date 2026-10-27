@@ -1,52 +1,49 @@
 {
   "AMAJamry/AJPanel": {
-    "schema": 2,
+    "schema": 3,
     "sha": "d38af503a359dd9e1b6b4e0b7a8f9af9577b86c5",
     "slug": "ajpanel",
-    "icon": "images/plugins/ajpanel/icon.webp",
-    "thumbnail": "images/plugins/ajpanel/thumbnail.webp",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
     "screenshots": [
-      "images/plugins/ajpanel/screenshot-1.webp",
-      "images/plugins/ajpanel/screenshot-2.webp",
-      "images/plugins/ajpanel/screenshot-3.webp",
-      "images/plugins/ajpanel/screenshot-4.webp",
-      "images/plugins/ajpanel/screenshot-5.webp",
-      "images/plugins/ajpanel/screenshot-6.webp",
-      "images/plugins/ajpanel/screenshot-7.webp",
-      "images/plugins/ajpanel/screenshot-8.webp"
+      "images/plugins/ajpanel/screenshot-1.webp"
     ],
     "githubStars": 12,
-    "iconSource": "generated",
-    "checkedAt": "2026-10-27T18:06:15.643Z"
+    "iconSource": "",
+    "checkedAt": "2026-10-27T18:33:36.489Z"
   },
   "popking159/MyStreamer": {
-    "schema": 2,
+    "schema": 3,
     "sha": "8b6a0effef652f7e1a807358520ed41e5fda83a9",
     "slug": "mystreamer",
-    "icon": "images/plugins/mystreamer/icon.webp",
-    "thumbnail": "images/plugins/mystreamer/thumbnail.webp",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
     "screenshots": [],
     "githubStars": 1,
-    "iconSource": "generated",
-    "checkedAt": "2026-10-27T18:06:15.643Z"
+    "iconSource": "",
+    "checkedAt": "2026-10-27T18:33:36.489Z"
   },
   "popking159/SubsSupportPro": {
-    "schema": 2,
+    "schema": 3,
     "sha": "8baa048829de10cf1b1f7f343110f4db22a4c35d",
     "slug": "subssupportpro",
     "icon": "images/plugins/subssupportpro/icon.webp",
     "thumbnail": "images/plugins/subssupportpro/thumbnail.webp",
+    "logoFound": true,
     "screenshots": [],
     "githubStars": 0,
     "iconSource": "SubsSupportPro/seekers/LocalDrive/logo.png",
-    "checkedAt": "2026-10-27T18:06:15.643Z"
+    "checkedAt": "2026-10-27T18:33:36.489Z"
   },
   "popking159/ipaudio": {
-    "schema": 2,
+    "schema": 3,
     "sha": "01d6e8e552b479ffc3419fc6c715e524d69c1aa0",
     "slug": "ipaudio-pro",
     "icon": "images/plugins/ipaudio-pro/icon.webp",
     "thumbnail": "images/plugins/ipaudio-pro/thumbnail.webp",
+    "logoFound": true,
     "screenshots": [
       "images/plugins/ipaudio-pro/screenshot-1.webp",
       "images/plugins/ipaudio-pro/screenshot-2.webp",
@@ -59,46 +56,98 @@
     ],
     "githubStars": 1,
     "iconSource": "source/logo.png",
-    "checkedAt": "2026-10-27T18:06:15.643Z"
+    "checkedAt": "2026-10-27T18:33:36.489Z"
   },
   "Ahmadarjan1/EnigmaPlay-Repo": {
-    "schema": 2,
+    "schema": 3,
     "sha": "123863e3b9ed1c47a5a5d5f8274979f2ba3f0579",
     "slug": "enigmaplay",
-    "icon": "images/plugins/enigmaplay/icon.webp",
-    "thumbnail": "images/plugins/enigmaplay/thumbnail.webp",
-    "screenshots": [
-      "images/plugins/enigmaplay/screenshot-1.webp",
-      "images/plugins/enigmaplay/screenshot-2.webp",
-      "images/plugins/enigmaplay/screenshot-3.webp",
-      "images/plugins/enigmaplay/screenshot-4.webp",
-      "images/plugins/enigmaplay/screenshot-5.webp",
-      "images/plugins/enigmaplay/screenshot-6.webp",
-      "images/plugins/enigmaplay/screenshot-7.webp",
-      "images/plugins/enigmaplay/screenshot-8.webp"
-    ],
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [],
     "githubStars": 0,
-    "iconSource": "generated",
-    "checkedAt": "2026-10-27T18:06:15.643Z"
+    "iconSource": "",
+    "checkedAt": "2026-10-27T18:33:36.489Z"
   },
   "fairbird/RaedQuickSignal": {
-    "schema": 2,
+    "schema": 3,
     "sha": "10ea7e1051fd65b8bcd7596671928c0cc2877167",
     "slug": "raedquicksignal",
-    "icon": "images/plugins/raedquicksignal/icon.webp",
-    "thumbnail": "images/plugins/raedquicksignal/thumbnail.webp",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
     "screenshots": [
       "images/plugins/raedquicksignal/screenshot-1.webp",
-      "images/plugins/raedquicksignal/screenshot-2.webp",
-      "images/plugins/raedquicksignal/screenshot-3.webp",
-      "images/plugins/raedquicksignal/screenshot-4.webp",
-      "images/plugins/raedquicksignal/screenshot-5.webp",
-      "images/plugins/raedquicksignal/screenshot-6.webp",
-      "images/plugins/raedquicksignal/screenshot-7.webp",
-      "images/plugins/raedquicksignal/screenshot-8.webp"
+      "images/plugins/raedquicksignal/screenshot-2.webp"
     ],
     "githubStars": 4,
-    "iconSource": "generated",
-    "checkedAt": "2026-10-27T18:06:15.643Z"
+    "iconSource": "",
+    "checkedAt": "2026-10-27T18:33:36.489Z"
+  },
+  "xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player": {
+    "schema": 3,
+    "sha": "9ddcc3e7fd96b0c2c54fa31b0afe17eec9b37987",
+    "slug": "alkuds-audio",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [],
+    "githubStars": 1,
+    "iconSource": "",
+    "checkedAt": "2026-10-27T18:33:36.489Z"
+  },
+  "fairbird/ArabicSavior": {
+    "schema": 3,
+    "sha": "6fdfc3ef9a5916a7b8c4b182bf6101d47305287b",
+    "slug": "arabicsavior",
+    "icon": "images/plugins/arabicsavior/icon.webp",
+    "thumbnail": "images/plugins/arabicsavior/thumbnail.webp",
+    "logoFound": true,
+    "screenshots": [
+      "images/plugins/arabicsavior/screenshot-1.webp",
+      "images/plugins/arabicsavior/screenshot-2.webp"
+    ],
+    "githubStars": 3,
+    "iconSource": "usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior/icon.png",
+    "checkedAt": "2026-10-27T18:33:36.489Z"
+  },
+  "fairbird/FootOnsat": {
+    "schema": 3,
+    "sha": "73d8472c59d18a2dcb013fa239321e0f854c345b",
+    "slug": "footonsat",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [
+      "images/plugins/footonsat/screenshot-1.webp",
+      "images/plugins/footonsat/screenshot-2.webp",
+      "images/plugins/footonsat/screenshot-3.webp",
+      "images/plugins/footonsat/screenshot-4.webp"
+    ],
+    "githubStars": 1,
+    "iconSource": "",
+    "checkedAt": "2026-10-27T18:33:36.489Z"
+  },
+  "K3bOra/UltraAudio": {
+    "schema": 3,
+    "sha": "1fa95774511b343339eca6f78c00be37ad4ba48a",
+    "slug": "ultraaudio",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [
+      "images/plugins/ultraaudio/screenshot-1.webp",
+      "images/plugins/ultraaudio/screenshot-2.webp",
+      "images/plugins/ultraaudio/screenshot-3.webp",
+      "images/plugins/ultraaudio/screenshot-4.webp",
+      "images/plugins/ultraaudio/screenshot-5.webp",
+      "images/plugins/ultraaudio/screenshot-6.webp",
+      "images/plugins/ultraaudio/screenshot-7.webp",
+      "images/plugins/ultraaudio/screenshot-8.webp"
+    ],
+    "githubStars": 0,
+    "iconSource": "",
+    "checkedAt": "2026-10-27T18:33:36.489Z"
   }
 }

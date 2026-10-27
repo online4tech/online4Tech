@@ -44,14 +44,7 @@
       "featured": true,
       "thumbnail": "",
       "screenshots": [
-        "images/plugins/ajpanel/screenshot-1.webp",
-        "images/plugins/ajpanel/screenshot-2.webp",
-        "images/plugins/ajpanel/screenshot-3.webp",
-        "images/plugins/ajpanel/screenshot-4.webp",
-        "images/plugins/ajpanel/screenshot-5.webp",
-        "images/plugins/ajpanel/screenshot-6.webp",
-        "images/plugins/ajpanel/screenshot-7.webp",
-        "images/plugins/ajpanel/screenshot-8.webp"
+        "images/plugins/ajpanel/screenshot-1.webp"
       ],
       "downloadUrl": "https://github.com/AMAJamry/AJPanel",
       "tutorialUrl": "",
@@ -182,7 +175,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "images/plugins/subssupportpro/thumbnail.webp",
       "screenshots": [],
       "downloadUrl": "https://github.com/popking159/SubsSupportPro",
       "tutorialUrl": "",
@@ -215,8 +208,8 @@
           "command": "wget -q \"--no-check-certificate\" https://github.com/popking159/SubsSupportPro/raw/main/subssupportpro-install.sh -O - | /bin/sh"
         }
       ],
-      "icon": "",
-      "logoFound": false,
+      "icon": "images/plugins/subssupportpro/icon.webp",
+      "logoFound": true,
       "officialWebsite": ""
     },
     {
@@ -299,7 +292,7 @@
         "githubRelease": "https://github.com/popking159/ipaudio/releases"
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "images/plugins/ipaudio-pro/thumbnail.webp",
       "screenshots": [
         "images/plugins/ipaudio-pro/screenshot-1.webp",
         "images/plugins/ipaudio-pro/screenshot-2.webp",
@@ -341,9 +334,9 @@
           "command": "wget -q --no-check-certificate https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | bash"
         }
       ],
-      "icon": "",
+      "icon": "images/plugins/ipaudio-pro/icon.webp",
       "githubStars": 1,
-      "logoFound": false,
+      "logoFound": true,
       "officialWebsite": ""
     },
     {
@@ -406,7 +399,8 @@
       ],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "githubStars": 1
     },
     {
       "id": "arabicsavior",
@@ -433,8 +427,11 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
-      "screenshots": [],
+      "thumbnail": "images/plugins/arabicsavior/thumbnail.webp",
+      "screenshots": [
+        "images/plugins/arabicsavior/screenshot-1.webp",
+        "images/plugins/arabicsavior/screenshot-2.webp"
+      ],
       "downloadUrl": "https://github.com/fairbird/ArabicSavior",
       "tutorialUrl": "",
       "changelog": [],
@@ -464,9 +461,10 @@
           "command": "wget https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh"
         }
       ],
-      "icon": "",
-      "logoFound": false,
-      "officialWebsite": ""
+      "icon": "images/plugins/arabicsavior/icon.webp",
+      "logoFound": true,
+      "officialWebsite": "",
+      "githubStars": 3
     },
     {
       "id": "enigmaplay",
@@ -494,16 +492,7 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [
-        "images/plugins/enigmaplay/screenshot-1.webp",
-        "images/plugins/enigmaplay/screenshot-2.webp",
-        "images/plugins/enigmaplay/screenshot-3.webp",
-        "images/plugins/enigmaplay/screenshot-4.webp",
-        "images/plugins/enigmaplay/screenshot-5.webp",
-        "images/plugins/enigmaplay/screenshot-6.webp",
-        "images/plugins/enigmaplay/screenshot-7.webp",
-        "images/plugins/enigmaplay/screenshot-8.webp"
-      ],
+      "screenshots": [],
       "downloadUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
       "tutorialUrl": "",
       "changelog": [],
@@ -564,7 +553,12 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/footonsat/screenshot-1.webp",
+        "images/plugins/footonsat/screenshot-2.webp",
+        "images/plugins/footonsat/screenshot-3.webp",
+        "images/plugins/footonsat/screenshot-4.webp"
+      ],
       "downloadUrl": "https://github.com/fairbird/FootOnsat",
       "tutorialUrl": "",
       "changelog": [],
@@ -598,7 +592,8 @@
       ],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "githubStars": 1
     },
     {
       "id": "mobile-telnet",
@@ -682,13 +677,7 @@
       "thumbnail": "",
       "screenshots": [
         "images/plugins/raedquicksignal/screenshot-1.webp",
-        "images/plugins/raedquicksignal/screenshot-2.webp",
-        "images/plugins/raedquicksignal/screenshot-3.webp",
-        "images/plugins/raedquicksignal/screenshot-4.webp",
-        "images/plugins/raedquicksignal/screenshot-5.webp",
-        "images/plugins/raedquicksignal/screenshot-6.webp",
-        "images/plugins/raedquicksignal/screenshot-7.webp",
-        "images/plugins/raedquicksignal/screenshot-8.webp"
+        "images/plugins/raedquicksignal/screenshot-2.webp"
       ],
       "downloadUrl": "https://github.com/fairbird/RaedQuickSignal",
       "tutorialUrl": "",
@@ -801,7 +790,16 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/ultraaudio/screenshot-1.webp",
+        "images/plugins/ultraaudio/screenshot-2.webp",
+        "images/plugins/ultraaudio/screenshot-3.webp",
+        "images/plugins/ultraaudio/screenshot-4.webp",
+        "images/plugins/ultraaudio/screenshot-5.webp",
+        "images/plugins/ultraaudio/screenshot-6.webp",
+        "images/plugins/ultraaudio/screenshot-7.webp",
+        "images/plugins/ultraaudio/screenshot-8.webp"
+      ],
       "downloadUrl": "https://github.com/K3bOra/UltraAudio",
       "tutorialUrl": "",
       "changelog": [],
