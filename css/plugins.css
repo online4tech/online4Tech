@@ -59,3 +59,5 @@
 .detail-icon img{width:56px;height:56px;object-fit:contain;border-radius:8px;}
 .detail-hero-image{display:none!important;}
 @media(max-width:640px){.plugin-thumb{flex-basis:48px;width:48px;height:48px}.plugin-thumb>img{width:48px;height:48px}.detail-icon,.detail-icon img{width:48px;height:48px;min-width:48px}}
+
+.detail-hero.no-logo{grid-template-columns:minmax(0,1fr)}
