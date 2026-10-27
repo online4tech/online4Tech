@@ -36,6 +36,11 @@ on:
       - 'scripts/build_search_index.py'
       - '.github/workflows/plugin-discovery.yml'
       - '.github/workflows/plugin-image-assets.yml'
+      - 'scripts/download-plugin-images.js'
+      - '.github/workflows/plugin-images.yml'
+      - 'css/plugins.css'
+      - 'plugins/index.html'
+      - 'plugins/plugin.html'
 jobs:
   validate:
     runs-on: ubuntu-latest
