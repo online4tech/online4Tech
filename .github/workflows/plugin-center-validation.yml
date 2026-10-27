@@ -21,6 +21,8 @@ on:
       - 'scripts/build_plugin_sitemap.py'
       - 'scripts/discover_plugins.py'
       - 'scripts/build_search_index.py'
+      - 'scripts/check_plugin_releases.py'
+      - '.github/workflows/plugin-release-check.yml'
       - '.github/workflows/plugin-discovery.yml'
       - '.github/workflows/plugin-image-assets.yml'
       - '.github/workflows/plugin-center-validation.yml'
@@ -34,6 +36,8 @@ on:
       - 'scripts/build_plugin_sitemap.py'
       - 'scripts/discover_plugins.py'
       - 'scripts/build_search_index.py'
+      - 'scripts/check_plugin_releases.py'
+      - '.github/workflows/plugin-release-check.yml'
       - '.github/workflows/plugin-discovery.yml'
       - '.github/workflows/plugin-image-assets.yml'
       - 'scripts/download-plugin-images.js'
@@ -62,4 +66,4 @@ jobs:
           node --check js/plugins-search.js
           node --check js/plugins-filters.js
       - name: Check Python generators
-        run: python -m py_compile scripts/build_plugin_sitemap.py scripts/build_search_index.py scripts/discover_plugins.py scripts/discover_plugin_images.py
+        run: python -m py_compile scripts/build_plugin_sitemap.py scripts/build_search_index.py scripts/discover_plugins.py scripts/discover_plugin_images.py scripts/check_plugin_releases.py
