@@ -66,7 +66,17 @@
         "arabicsavior",
         "raedquicksignal"
       ],
-      "features": []
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت الرسمي",
+          "command": "wget --no-check-certificate https://raw.githubusercontent.com/AMAJamry/AJPanel/main/installer.sh -O - | /bin/sh"
+        },
+        {
+          "label": "أمر المستودع الثاني",
+          "command": "wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh"
+        }
+      ]
     },
     {
       "id": "mystreamer",
@@ -120,7 +130,13 @@
         "mediaportal",
         "youtube"
       ],
-      "features": []
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -qO - https://raw.githubusercontent.com/popking159/MyStreamer/refs/heads/main/myinstaller.sh | /bin/sh"
+        }
+      ]
     },
     {
       "id": "subssupportpro",
@@ -175,7 +191,13 @@
         "footonsat",
         "ultraaudio"
       ],
-      "features": []
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -q \"--no-check-certificate\" https://github.com/popking159/SubsSupportPro/raw/main/subssupportpro-install.sh -O - | /bin/sh"
+        }
+      ]
     },
     {
       "id": "picons",
@@ -280,7 +302,13 @@
         "footonsat",
         "ultraaudio"
       ],
-      "features": []
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -q --no-check-certificate https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | bash"
+        }
+      ]
     },
     {
       "id": "alkuds-audio",
@@ -333,7 +361,13 @@
         "footonsat",
         "ultraaudio"
       ],
-      "features": []
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -qO- https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh | sh"
+        }
+      ]
     },
     {
       "id": "arabicsavior",
@@ -384,7 +418,13 @@
         "ajpanel",
         "raedquicksignal"
       ],
-      "features": []
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh"
+        }
+      ]
     },
     {
       "id": "enigmaplay",
@@ -436,7 +476,13 @@
         "mediaportal",
         "youtube"
       ],
-      "features": []
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -qO- https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/install.sh | sh"
+        }
+      ]
     },
     {
       "id": "footonsat",
@@ -489,7 +535,13 @@
         "alkuds-audio",
         "ultraaudio"
       ],
-      "features": []
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh -O - | /bin/sh"
+        }
+      ]
     },
     {
       "id": "mobile-telnet",
@@ -591,7 +643,13 @@
         "ajpanel",
         "arabicsavior"
       ],
-      "features": []
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh"
+        }
+      ]
     },
     {
       "id": "timeshift-delay",
@@ -692,7 +750,13 @@
         "alkuds-audio",
         "footonsat"
       ],
-      "features": []
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -qO- https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh | /bin/sh"
+        }
+      ]
     },
     {
       "id": "scripts-tools",
@@ -1526,7 +1590,13 @@
         "alkuds-audio",
         "footonsat"
       ],
-      "features": []
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -qO - https://raw.githubusercontent.com/popking159/QuranKareem/refs/heads/main/myinstaller.sh | /bin/sh"
+        }
+      ]
     },
     {
       "id": "xtreamnew",
@@ -1575,7 +1645,13 @@
         "jedi-maker-xtream",
         "xtreamity"
       ],
-      "features": []
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/ahmedhussein4342-lgtm/XtreamNew/main/install_xtreamnew.sh -O - | /bin/sh"
+        }
+      ]
     }
   ]
 }
