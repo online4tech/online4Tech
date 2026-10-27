@@ -2958,14 +2958,6 @@
     "type": "Page"
   },
   {
-    "title": "✉️ اتصل بنا",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
     "title": "📘 مركز الشروحات اتنقل",
     "description": "جاري تحويلك إلى مركز الشروحات | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/guides.html",
@@ -3574,25 +3566,9 @@
     "type": "Page"
   },
   {
-    "title": "Dreambox",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#dreambox-brands",
-    "category": "منتجات",
-    "brand": "Dreambox",
-    "type": "Product"
-  },
-  {
-    "title": "Dreambox ONE UHD",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#used",
-    "category": "منتجات",
-    "brand": "Dreambox",
-    "type": "Product"
-  },
-  {
-    "title": "Inverto",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#dreambox-brands",
+    "title": "Online4Tech Store",
+    "description": "قارن مواصفات أجهزة الاستقبال من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html",
     "category": "منتجات",
     "brand": "Online4Tech",
     "type": "Product"
@@ -3606,57 +3582,9 @@
     "type": "Page"
   },
   {
-    "title": "Vu+",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#dreambox-brands",
-    "category": "منتجات",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "Vu+ Duo 4K SE",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#new",
-    "category": "منتجات",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "Vu+ Uno 4K SE",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#new",
-    "category": "منتجات",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "Vu+ Zero 4K",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#new",
-    "category": "منتجات",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "VU+ Zero 4K — PVR KIT",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#accessories",
-    "category": "منتجات",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "Vu+ Zero 4K — مستعمل",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#used",
-    "category": "منتجات",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "إنستا باي InstaPay",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#payment",
+    "title": "اختار جهازك الصح،وقارن قبل ما تشتري.",
+    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html",
     "category": "منتجات",
     "brand": "Online4Tech",
     "type": "Product"
@@ -3670,76 +3598,12 @@
     "type": "Backups"
   },
   {
-    "title": "ادفع بسهولة… وكمّل طلبك في دقايق",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#payment",
+    "title": "البلجنز",
+    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
+    "url": "https://online4tech.github.io/online4Tech/plugins.html",
     "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
-    "title": "الأجهزة الجديدة",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
-    "title": "الأجهزة المتاحة للبيع",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
-    "title": "الأجهزة المتاحة للبيع | Online4Tech",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
-    "title": "الأجهزة المستعملة",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
-    "title": "الأجهزة المستعملة",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#used",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
-    "title": "الإكسسوارات",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
-    "title": "الإكسسوارات",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#accessories",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
-    "title": "الدفع والاستبدال",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
+    "brand": "Dreambox",
+    "type": "Plugin"
   },
   {
     "title": "المتجر",
@@ -3747,14 +3611,6 @@
     "url": "https://online4tech.github.io/online4Tech/store/index.html",
     "category": "منتجات",
     "brand": "Enigma2",
-    "type": "Product"
-  },
-  {
-    "title": "بدّل جهازك أو بيعهولنا بكل سهولة",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#payment",
-    "category": "منتجات",
-    "brand": "Online4Tech",
     "type": "Product"
   },
   {
@@ -3766,52 +3622,20 @@
     "type": "Backups"
   },
   {
+    "title": "تفاصيل المنتج | Online4Tech",
+    "description": "تفاصيل المنتج ومواصفاته والتوافق وطرق الشراء من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/store/product.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
     "title": "دليل الشرح",
     "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "منتجات",
     "brand": "Enigma2",
     "type": "Tutorial"
-  },
-  {
-    "title": "ريموت VU+ — موديل 1",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#accessories",
-    "category": "منتجات",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "ريموت VU+ — موديل 2",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#accessories",
-    "category": "منتجات",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "ريموت VU+ — موديل 3",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#accessories",
-    "category": "منتجات",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "طرق الدفع والاستبدال والشحن",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#payment",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
-    "title": "فودافون كاش",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#payment",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
   },
   {
     "title": "قائمة البلجنز",
@@ -3822,19 +3646,11 @@
     "type": "Plugin"
   },
   {
-    "title": "ليه تختار جهاز Vu+ بنظام Enigma2؟",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
+    "title": "متجر Online4Tech | أجهزة وملحقات Enigma2",
+    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
     "url": "https://online4tech.github.io/online4Tech/store/index.html",
     "category": "منتجات",
-    "brand": "Vu+",
-    "type": "Product"
-  },
-  {
-    "title": "ماركات أجهزة الاستقبال والإكسسوارات",
-    "description": "الأجهزة المتاحة للبيع من Online4Tech، مع الأسعار وطرق الدفع والاستبدال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html#dreambox-brands",
-    "category": "منتجات",
-    "brand": "Online4Tech",
+    "brand": "Enigma2",
     "type": "Product"
   },
   {
@@ -3844,6 +3660,22 @@
     "category": "منتجات",
     "brand": "Enigma2",
     "type": "Plugin"
+  },
+  {
+    "title": "مقارنة الأجهزة",
+    "description": "قارن مواصفات أجهزة الاستقبال من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/store/compare.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
+    "title": "مقارنة الأجهزة | Online4Tech",
+    "description": "قارن مواصفات أجهزة الاستقبال من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/store/compare.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
   },
   {
     "title": "← الرجوع لقائمة البلجنز",
@@ -3902,6 +3734,38 @@
     "type": "Backups"
   },
   {
+    "title": "⭐ أجهزة مختارة",
+    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
+    "title": "🆕 وصل حديثًا",
+    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
+    "title": "💰 عروض الأسبوع",
+    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
+    "title": "💳 طرق الدفع والثقة",
+    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
     "title": "💾نسخ الباك أبانتقل لمكتبة التحميل، واختار الشركة والموديل المناسب لجهازك.اختار جهازك ←",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/library.html",
@@ -3918,12 +3782,36 @@
     "type": "Backups"
   },
   {
+    "title": "📦 الإكسسوارات",
+    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
     "title": "📺ملفات القنواتافتح مكتبة التحميل للوصول لملفات القنوات والملفات المتاحة.افتح مكتبة التحميل ←",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/library.html",
     "category": "منتجات",
     "brand": "Dreambox",
     "type": "Backups"
+  },
+  {
+    "title": "🔎 ابحث وصفّي النتائج",
+    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
+    "title": "🔥 الأكثر طلبًا",
+    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
   },
   {
     "title": "🔥 عرض الآن ←",
@@ -3939,6 +3827,14 @@
     "url": "https://online4tech.github.io/online4Tech/store/index.html",
     "category": "منتجات",
     "brand": "Vu+",
+    "type": "Product"
+  },
+  {
+    "title": "🛍️ كل المنتجات",
+    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
     "type": "Product"
   },
   {
