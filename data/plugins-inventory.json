@@ -1,0 +1,179 @@
+{
+  "generatedFrom": "repository scan",
+  "pluginPages": [
+    {
+      "file": "plugins/ajpanel.html",
+      "title": "AJPanel | Online4Tech",
+      "heading": "AJPanel",
+      "description": "",
+      "sourceLinks": [
+        "https://github.com/AMAJamry/AJPanel",
+        "https://github.com/AMAJamry/AJPanel/assets/164648277/08fb2f4c-a792-4066-991c-0ba31366116f",
+        "https://github.com/AMAJamry/AJPanel/tree/main/help",
+        "https://github.com/biko-73/AjPanel"
+      ]
+    },
+    {
+      "file": "plugins/alkuds-audio.html",
+      "title": "بلجن القدس لتشغيل الصوتيات | Online4Tech",
+      "heading": "بلجن القدس لتشغيل الصوتيات",
+      "description": "",
+      "sourceLinks": [
+        "https://github.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player",
+        "https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh"
+      ]
+    },
+    {
+      "file": "plugins/arabicsavior.html",
+      "title": "ArabicSavior | المنقذ لاستعادة اللغة العربية - Online4Tech",
+      "heading": "ArabicSavior — المنقذ لاستعادة اللغة العربية",
+      "description": "",
+      "sourceLinks": [
+        "https://github.com/fairbird/ArabicSavior",
+        "https://github.com/fairbird/ArabicSavior/blob/main/README.md",
+        "https://github.com/fairbird/ArabicSavior/blob/main/installer.sh",
+        "https://github.com/fairbird/ArabicSavior/tree/main",
+        "https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh",
+        "https://wp.dreambox4u.com/downloads/telnet/plugins/"
+      ]
+    },
+    {
+      "file": "plugins/enigmaplay.html",
+      "title": "EnigmaPlay | Online4Tech",
+      "heading": "EnigmaPlay — جوجل بلاي الرسيفر",
+      "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
+      "sourceLinks": [
+        "https://enigmaplay-api.ahmadalarjan2.workers.dev",
+        "https://enigmaplay-api.ahmadalarjan2.workers.dev/apk",
+        "https://github.com/Ahmadarjan1/EnigmaPlay-Repo"
+      ]
+    },
+    {
+      "file": "plugins/footonsat.html",
+      "title": "FootOnSat | مواعيد وتفاصيل المباريات - Online4Tech",
+      "heading": "FootOnSat — مواعيد وتفاصيل المباريات",
+      "description": "",
+      "sourceLinks": [
+        "https://github.com/fairbird/FootOnsat",
+        "https://github.com/fairbird/FootOnsat/blob/main/README.md",
+        "https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh",
+        "https://www.linuxsat-support.com/thread/148355-footonsat/"
+      ]
+    },
+    {
+      "file": "plugins/ipaudio-pro.html",
+      "title": "IP Audio Pro للصوتيات | Online4Tech",
+      "heading": "IPAudio Pro — مشغل الصوتيات والبث",
+      "description": "",
+      "sourceLinks": [
+        "https://github.com/popking159/ipaudio",
+        "https://github.com/popking159/ipaudio/blob/main/README.md",
+        "https://github.com/popking159/ipaudio/blob/main/installer-ipaudio.sh",
+        "https://github.com/popking159/ipaudio/releases",
+        "https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh"
+      ]
+    },
+    {
+      "file": "plugins/mobile-telnet.html",
+      "title": "شرح تطبيق Mobile Telnet | Online4Tech",
+      "heading": "شرح تطبيق Mobile Telnet",
+      "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
+      "sourceLinks": []
+    },
+    {
+      "file": "plugins/mystreamer.html",
+      "title": "MyStreamer 1.0.0 | Online4Tech",
+      "heading": "MyStreamer — الإصدار 1.0.0",
+      "description": "شرح بلجن MyStreamer 1.0.0 لأجهزة Enigma2: مواقع عربية للأفلام والمسلسلات والأحداث الرياضية، أمر التثبيت وملاحظات التوافق.",
+      "sourceLinks": [
+        "https://github.com/popking159/MyStreamer"
+      ]
+    },
+    {
+      "file": "plugins/picons.html",
+      "title": "بيكونات القنوات Picons | Online4Tech",
+      "heading": "بيكونات القنوات — Picons",
+      "description": "تحميل بيكونات Picons للقنوات لأجهزة Enigma2 مع أمر Telnet لتنزيل الملف إلى الرسيفر.",
+      "sourceLinks": [
+        "https://drive.google.com/uc?export=download&id=1Cmfa7r5P01db2YP3qvD3V8LVjv9j16Hi"
+      ]
+    },
+    {
+      "file": "plugins/quran-kareem.html",
+      "title": "Quran Kareem | Online4Tech",
+      "heading": "Quran Kareem",
+      "description": "",
+      "sourceLinks": [
+        "https://github.com/popking159/QuranKareem",
+        "https://raw.githubusercontent.com/popking159/QuranKareem/refs/heads/main/myinstaller.sh"
+      ]
+    },
+    {
+      "file": "plugins/raedquicksignal.html",
+      "title": "RaedQuickSignal | Online4Tech",
+      "heading": "RaedQuickSignal",
+      "description": "",
+      "sourceLinks": [
+        "https://github.com/fairbird/RaedQuickSignal",
+        "https://github.com/fairbird/RaedQuickSignal/blob/main/README.md"
+      ]
+    },
+    {
+      "file": "plugins/scripts-tools.html",
+      "title": "سكريبتات وأدوات Enigma2 | Online4Tech",
+      "heading": "سكريبتات وأدوات Enigma2",
+      "description": "دليل سكريبتات وأدوات Enigma2 على Online4Tech مع البحث والتصنيف وروابط المصدر.",
+      "sourceLinks": [
+        "https://github.com/KhaledAli65/Backup/tree/main/Backup_image"
+      ]
+    },
+    {
+      "file": "plugins/subssupportpro.html",
+      "title": "SubsSupportPro للترجمة | Online4Tech",
+      "heading": "SubsSupportPro — الترجمة",
+      "description": "",
+      "sourceLinks": [
+        "https://github.com/popking159/SubsSupportPro/blob/main/subssupportpro-install.sh",
+        "https://openatv.github.io/enigma2-doku/en/wiedergabe/subssupport/",
+        "https://www.linuxsat-support.com/thread/163000-subssupportpro-plugin/",
+        "https://www.satsupreme.com/showthread.php/471696-%E2%95%91%E2%9E%BD%E2%95%91E%C2%B2%E2%95%91Plugin%E2%95%91%E2%9E%BD%E2%95%91SubsSupport-PRO%E2%95%91v-1-3-%E2%95%91%F0%9F%94%B4By-odem2014"
+      ]
+    },
+    {
+      "file": "plugins/timeshift-delay.html",
+      "title": "TimeShift Delay | Online4Tech",
+      "heading": "TimeShift Delay",
+      "description": "",
+      "sourceLinks": [
+        "https://dreambox4u.com/mosadpro/scripts/timeshift-delay.sh",
+        "https://www.linuxsat-support.com/thread/163088-timeshift-delay/"
+      ]
+    },
+    {
+      "file": "plugins/ultraaudio.html",
+      "title": "UltraAudio للصوتيات | Online4Tech",
+      "heading": "UltraAudio للصوتيات",
+      "description": "شرح بلجن UltraAudio للصوتيات على أجهزة Enigma2، وأمر التثبيت عبر Telnet أو SSH.",
+      "sourceLinks": [
+        "https://github.com/K3bOra/UltraAudio",
+        "https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh"
+      ]
+    },
+    {
+      "file": "plugins/xtreamnew.html",
+      "title": "XtreamNew لتشغيل IPTV | Online4Tech",
+      "heading": "XtreamNew",
+      "description": "شرح بلجن XtreamNew لأجهزة Enigma2 لتشغيل IPTV وLive TV والأفلام والمسلسلات، مع أمر التثبيت ومتطلبات التوافق.",
+      "sourceLinks": [
+        "https://github.com/ahmedhussein4342-lgtm/XtreamNew",
+        "https://github.com/ahmedhussein4342-lgtm/XtreamNew/blob/main/install_xtreamnew.sh",
+        "https://github.com/ahmedhussein4342-lgtm/XtreamNew/blob/main/version.json"
+      ]
+    }
+  ],
+  "packages": [],
+  "summary": {
+    "pluginPages": 16,
+    "packages": 0
+  }
+}
