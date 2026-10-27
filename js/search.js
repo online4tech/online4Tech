@@ -169,7 +169,22 @@
     try {
       const matches = findMatches(await getIndex(), q, 100);
       count.textContent = matches.length ? 'تم العثور على '+matches.length+' نتيجة' : 'لم يتم العثور على نتائج مطابقة';
-      list.innerHTML = matches.length ? matches.map(item => '<a class="o4t-search-card" href="'+esc(absolute(item.url))+'"><span class="o4t-search-category">'+esc(item.category || item.type || 'نتيجة')+' · '+esc(item.brand || '')+'</span><h2>'+esc(item.title)+'</h2><p>'+esc(item.description || '')+'</p></a>').join('') : '<p class="o4t-search-empty">لم يتم العثور على نتائج مطابقة</p>';
+      if (!matches.length) {
+        list.innerHTML = '<p class="o4t-search-empty">لم يتم العثور على نتائج مطابقة</p>';
+      } else {
+        const groupFor = item => {
+          const type = normalize(item.type || '');
+          const cat = item.category || 'نتائج أخرى';
+          if (type.includes('device') || cat === 'أجهزة') return 'الأجهزة';
+          if (type.includes('product') || type.includes('accessory') || cat === 'منتجات') return 'المنتجات';
+          if (type.includes('tutorial') || type.includes('plugin') || cat === 'شروحات' || cat === 'إضافات') return 'الشروحات والإضافات';
+          if (['Backups','Channels','Tools'].includes(item.type) || cat === 'ملفات' || cat === 'تحميلات') return 'الملفات';
+          return cat;
+        };
+        const groups = new Map();
+        matches.forEach(item => { const key=groupFor(item); if(!groups.has(key))groups.set(key,[]); groups.get(key).push(item); });
+        list.innerHTML = Array.from(groups.entries()).map(([name,items]) => '<section class="o4t-search-result-group"><h2>'+esc(name)+'</h2><div class="o4t-search-grid">'+items.map(item => '<a class="o4t-search-card" href="'+esc(absolute(item.url))+'"><span class="o4t-search-category">'+esc(item.category || item.type || 'نتيجة')+' · '+esc(item.brand || '')+'</span><h2>'+esc(item.title)+'</h2><p>'+esc(item.description || '')+'</p></a>').join('')+'</div></section>').join('');
+      }
     } catch (_) {
       count.textContent = 'تعذر تحميل فهرس البحث';
       list.innerHTML = '<p class="o4t-search-empty">تعذر تحميل البحث الآن. حدّث الصفحة بعد قليل.</p>';
