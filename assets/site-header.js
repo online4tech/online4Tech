@@ -136,4 +136,35 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', addPluginGallery);
   else addPluginGallery();
 
+  function addOnline4TechSearchAndSEO() {
+    const siteRoot='https://online4tech.github.io/online4Tech/';
+    const parts=location.pathname.split('/').filter(Boolean);
+    const repo=parts.findIndex(p=>p.toLowerCase()==='online4tech');
+    const rel=(repo>=0?parts.slice(repo+1):parts).join('/');
+    const canonicalUrl=siteRoot+rel;
+    const title=(document.title||'Online4Tech').replace(/\s+/g,' ').trim();
+    const h=document.querySelector('main h1,h1');
+    const descNode=document.querySelector('meta[name="description"]');
+    const desc=(descNode&&descNode.content)||(((h&&h.textContent.trim())||title)+' — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.');
+    function meta(key,value,isProperty){const a=isProperty?'property':'name';let n=document.head.querySelector('meta['+a+'="'+key+'"]');if(!n){n=document.createElement('meta');n.setAttribute(a,key);document.head.appendChild(n)}n.content=value;}
+    let canon=document.head.querySelector('link[rel="canonical"]');if(!canon){canon=document.createElement('link');canon.rel='canonical';document.head.appendChild(canon)}canon.href=canonicalUrl;
+    if(!descNode)meta('description',desc.slice(0,300),false);
+    meta('og:title',title,true);meta('og:description',desc.slice(0,300),true);meta('og:image',siteRoot+'assets/site-logo.svg',true);meta('og:url',canonicalUrl,true);
+    meta('og:type',/tutorial|guide|plugin/i.test(rel)?'article':'website',true);meta('twitter:card','summary',false);meta('robots','index,follow,max-image-preview:large',false);
+    if(!document.querySelector('script[type="application/ld+json"]')){
+      let schema;
+      if(!rel||rel.toLowerCase()==='index.html')schema={'@context':'https://schema.org','@type':'WebSite',name:'Online4Tech',url:siteRoot,inLanguage:'ar',potentialAction:{'@type':'SearchAction',target:siteRoot+'search.html?q={search_term_string}','query-input':'required name=search_term_string'}};
+      else if(/^devices\/(vuplus|dreambox)\.html$/i.test(rel))schema={'@context':'https://schema.org','@type':'Product',name:(h&&h.textContent.trim())||title,description:desc,brand:{'@type':'Brand',name:/dreambox/i.test(rel)?'Dreambox':'Vu+'},url:canonicalUrl};
+      else if(/tutorial|guide|plugins\//i.test(rel))schema={'@context':'https://schema.org','@type':'Article',headline:(h&&h.textContent.trim())||title,description:desc,inLanguage:'ar',mainEntityOfPage:canonicalUrl,publisher:{'@type':'Organization',name:'Online4Tech',url:siteRoot}};
+      else if(/^store\//i.test(rel))schema={'@context':'https://schema.org','@type':'ItemList',name:title,description:desc,url:canonicalUrl,itemListElement:Array.from(document.querySelectorAll('.product')).slice(0,12).map((item,i)=>({'@type':'ListItem',position:i+1,item:{'@type':'Product',name:(item.querySelector('h2,h3')||{}).textContent||title,description:(item.querySelector('.product-description,p')||{}).textContent||desc,url:canonicalUrl+'#'+(item.closest('section')?.id||'products')}}))};
+      else schema={'@context':'https://schema.org','@type':'WebPage',name:title,description:desc,url:canonicalUrl,inLanguage:'ar'};
+      const ld=document.createElement('script');ld.type='application/ld+json';ld.textContent=JSON.stringify(schema);document.head.appendChild(ld);
+    }
+    document.querySelectorAll('img:not([loading])').forEach(img=>{if(!img.closest('header')&&!img.hasAttribute('fetchpriority'))img.loading='lazy'});
+    if(!document.querySelector('link[data-o4t-search-css]')){const css=document.createElement('link');css.rel='stylesheet';css.href=siteRoot+'css/search.css?v=1';css.dataset.o4tSearchCss='1';document.head.appendChild(css)}
+    if(!document.querySelector('script[data-o4t-search-js]')){const js=document.createElement('script');js.src=siteRoot+'js/search.js?v=1';js.dataset.o4tSearchJs='1';js.async=true;document.body.appendChild(js)}
+    if(!document.querySelector('link[data-o4t-preload-logo]')){const p=document.createElement('link');p.rel='preload';p.as='image';p.href=siteRoot+'assets/site-logo.svg';p.dataset.o4tPreloadLogo='1';document.head.appendChild(p)}
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',addOnline4TechSearchAndSEO,{once:true});else addOnline4TechSearchAndSEO();
+
 })();
