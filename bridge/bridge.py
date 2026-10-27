@@ -99,7 +99,7 @@ def run_operation(client, operation):
         "services": "printf '%s\\n' '--- Enigma2 ---'; pgrep -af '[e]nigma2' 2>/dev/null || true; printf '%s\\n' '--- OSCam / NCam / CCcam ---'; pgrep -af '[o]scam|[n]cam|[C]CCam' 2>/dev/null || true",
     }
     if operation == "backup":
-        command = "tar -czf - /etc/enigma2 /etc/tuxbox 2>/dev/null"
+        return "استخدم زر «تنزيل النسخة الاحتياطية» لتنزيل ملف مضغوط إلى الكمبيوتر.", "", 0
     elif operation in commands:
         command = commands[operation]
     else:
@@ -166,6 +166,9 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         try:
+            if self.path not in ("/run", "/download-backup"):
+                self.send_json(404, {"ok": False, "error": "المسار غير موجود."})
+                return
             payload = self.read_payload()
             client, key = get_client(payload)
             with _sessions_lock:
