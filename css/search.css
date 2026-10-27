@@ -1,0 +1,30 @@
+/* Online4Tech global search — inherits the site's existing visual identity */
+.o4t-search-shell{width:min(1120px,92%);margin:14px auto 18px;position:relative;z-index:30;font-family:Tahoma,Arial,sans-serif}
+.o4t-search-form{display:flex;align-items:center;gap:9px;padding:9px;border:1px solid #294761;border-radius:16px;background:linear-gradient(135deg,#0b1a2d,#10243a);box-shadow:0 10px 24px #0002}
+.o4t-search-mark{font-size:1.15rem;padding-inline:7px;color:#67d2ff}
+.o4t-search-input{width:100%;min-width:0;border:0;outline:0;background:transparent;color:#f4f8ff;font:inherit;font-size:.95rem;padding:9px 3px}
+.o4t-search-input::placeholder{color:#a8bad0}
+.o4t-search-submit{border:0;border-radius:11px;background:linear-gradient(135deg,#67d2ff,#478bff);color:#061321;font:inherit;font-weight:700;padding:9px 14px;cursor:pointer;white-space:nowrap}
+.o4t-search-results{display:none;position:absolute;top:calc(100% + 7px);inset-inline:0;max-height:min(55vh,420px);overflow:auto;border:1px solid #294761;border-radius:14px;background:#0b1a2d;color:#f4f8ff;box-shadow:0 18px 40px #0005}
+.o4t-search-results.is-open{display:block}
+.o4t-search-result{display:block;padding:11px 14px;text-decoration:none;border-bottom:1px solid #ffffff12}
+.o4t-search-result:last-child{border-bottom:0}
+.o4t-search-result:hover,.o4t-search-result:focus-visible{background:#17314b;outline:0}
+.o4t-search-result strong{display:block;font-size:.92rem}
+.o4t-search-result small{display:block;color:#a8bad0;font-size:.78rem;margin-top:2px}
+.o4t-search-empty{padding:14px;color:#a8bad0}
+.o4t-filter-panel{display:flex;align-items:end;gap:12px;flex-wrap:wrap;margin:0 0 18px;padding:14px;border:1px solid #294761;border-radius:15px;background:#0b1a2d;color:#f4f8ff}
+.o4t-filter-field{display:grid;gap:5px;min-width:150px;flex:1}
+.o4t-filter-field label{font-size:.8rem;color:#a8bad0}
+.o4t-filter-field select{width:100%;border:1px solid #294761;border-radius:10px;background:#10243a;color:#f4f8ff;padding:9px;font:inherit}
+.o4t-result-count{font-size:.85rem;color:#67d2ff;font-weight:700;margin-inline-start:auto;padding:8px 0}
+.o4t-search-page{width:min(1120px,92%);margin:28px auto 60px;color:var(--ink,#f4f8ff)}
+.o4t-search-page h1{font-size:clamp(1.5rem,3vw,2.2rem);margin:0 0 8px}
+.o4t-search-page .o4t-search-lead{color:var(--muted,#a8bad0);margin:0 0 20px}
+.o4t-search-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:14px}
+.o4t-search-card{display:block;padding:17px;border:1px solid #294761;border-radius:16px;background:#0d1a2c;color:#f4f8ff;text-decoration:none;transition:transform .16s,border-color .16s}
+.o4t-search-card:hover{transform:translateY(-2px);border-color:#67d2ff}
+.o4t-search-card .o4t-search-category{display:inline-block;color:#67d2ff;font-size:.75rem;margin-bottom:7px}
+.o4t-search-card h2{font-size:1.03rem;margin:0 0 6px}
+.o4t-search-card p{color:#a8bad0;font-size:.86rem;margin:0;line-height:1.75}
+@media(max-width:560px){.o4t-search-shell{width:94%;margin:10px auto 14px}.o4t-search-form{gap:5px}.o4t-search-submit{padding:9px 10px;font-size:.82rem}.o4t-filter-field{min-width:calc(50% - 8px)}.o4t-result-count{width:100%;margin:0}}
