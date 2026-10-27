@@ -27,13 +27,13 @@
   }
   function asset(value) {
     const path = String(value || '').trim();
-    return path.startsWith('images/plugins/') ? '../' + path : (path || '../images/plugins/default/thumb.webp');
+    return path.startsWith('images/plugins/') ? '../' + path : (path || '../images/plugins/default/thumbnail.webp');
   }
   function imageError() {
-    return ' onerror="this.onerror=null;this.src=&quot;../images/plugins/default/thumb.webp&quot;"';
+    return ' onerror="this.onerror=null;this.src=&quot;../images/plugins/default/thumbnail.webp&quot;"';
   }
   function visual(plugin, kind) {
-    const raw = (kind === 'icon' ? plugin.icon : plugin.thumbnail) || plugin.icon || plugin.thumbnail || '../images/plugins/default/thumb.webp';
+    const raw = (kind === 'icon' ? plugin.icon : plugin.thumbnail) || plugin.icon || plugin.thumbnail || '../images/plugins/default/thumbnail.webp';
     const src = asset(raw);
     if (String(src).includes('placeholder.svg')) {
       const parts = String(plugin.name || 'E2').trim().split(/\s+/);
@@ -131,7 +131,7 @@
       index = (next + items.length) % items.length;
       img.src = items[index].getAttribute('href');
       img.alt = items[index].querySelector('img')?.alt || 'صورة الإضافة';
-      img.onerror = () => { img.onerror = null; img.src = '../images/plugins/default/thumb.webp'; };
+      img.onerror = () => { img.onerror = null; img.src = '../images/plugins/default/thumbnail.webp'; };
       count.textContent = (index + 1) + ' / ' + items.length;
     };
     show(index);
