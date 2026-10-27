@@ -1,0 +1,41 @@
+name: Validate plugin center
+on:
+  push:
+    branches: [main, feature/plugin-center-json-driven]
+    paths:
+      - 'data/plugins.json'
+      - 'js/plugins.js'
+      - 'js/plugin-detail.js'
+      - 'js/plugins-search.js'
+      - 'js/plugins-filters.js'
+      - 'scripts/build_plugin_sitemap.py'
+      - '.github/workflows/plugin-center-validation.yml'
+  pull_request:
+    paths:
+      - 'data/plugins.json'
+      - 'js/plugins.js'
+      - 'js/plugin-detail.js'
+      - 'js/plugins-search.js'
+      - 'js/plugins-filters.js'
+      - 'scripts/build_plugin_sitemap.py'
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Validate JSON catalog
+        run: python -c "import json; d=json.load(open('data/plugins.json', encoding='utf-8')); assert isinstance(d.get('plugins'), list); ids=[p.get('id') for p in d['plugins']]; assert len(ids)==len(set(ids)); print(f'Validated {len(ids)} plugins')"
+      - name: Check JavaScript syntax
+        run: |
+          node --check js/plugins.js
+          node --check js/plugin-detail.js
+          node --check js/plugins-search.js
+          node --check js/plugins-filters.js
+      - name: Check sitemap generator
+        run: python -m py_compile scripts/build_plugin_sitemap.py
