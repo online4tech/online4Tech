@@ -43,7 +43,7 @@ def search(q,failed):
 
 def validate(repo,failed):
     full=repo.get("full_name","")
-    if not full or repo.get("archived") or repo.get("disabled") or not recent(repo.get("pushed_at")):return None
+    if not full or repo.get("private") or repo.get("archived") or repo.get("disabled") or not recent(repo.get("pushed_at")):return None
     if set(re.findall(r"[a-z0-9]+",(repo.get("name") or "").lower())) & SKIP:return None
     if repo.get("fork"):
         try:
