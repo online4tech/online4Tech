@@ -279,9 +279,7 @@
       "bestSeller": true,
       "description": "حوّل جهاز VU+ Zero 4K إلى جهاز يدعم التسجيل والـ Time Shift باستخدام هارد متوافق.",
       "images": [
-        "https://img.datacomp.sk/pvr-kit-pre-vu-zero-4k_i363481.jpg",
-        "https://img.datacomp.sk/pvr-kit-pre-vu-zero-4k-obrazok-1-big_ies2450077.jpg",
-        "https://img.datacomp.sk/pvr-kit-pre-vu-zero-4k-obrazok-2-big_ies2450078.jpg"
+        "https://img.datacomp.sk/pvr-kit-pre-vu-zero-4k_i363481.jpg"
       ],
       "specifications": {
         "Compatibility": "Vu+ Zero 4K",
