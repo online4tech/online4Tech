@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-27",
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "categories": [
     "Developer Tools",
     "EPG",
@@ -44,14 +44,7 @@
       "featured": true,
       "thumbnail": "",
       "screenshots": [
-        "images/plugins/ajpanel/screenshot-1.webp",
-        "images/plugins/ajpanel/screenshot-2.webp",
-        "images/plugins/ajpanel/screenshot-3.webp",
-        "images/plugins/ajpanel/screenshot-4.webp",
-        "images/plugins/ajpanel/screenshot-5.webp",
-        "images/plugins/ajpanel/screenshot-6.webp",
-        "images/plugins/ajpanel/screenshot-7.webp",
-        "images/plugins/ajpanel/screenshot-8.webp"
+        "images/plugins/ajpanel/screenshot-1.webp"
       ],
       "downloadUrl": "https://github.com/AMAJamry/AJPanel",
       "tutorialUrl": "",
@@ -67,8 +60,8 @@
       "arabicDescription": "إدارة الملفات والقنوات والشبكة والنسخ الاحتياطي من واجهة واحدة.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/AMAJamry/AJPanel",
       "relatedPlugins": [
@@ -78,12 +71,8 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "أمر التثبيت الرسمي",
-          "command": "wget --no-check-certificate https://raw.githubusercontent.com/AMAJamry/AJPanel/main/installer.sh -O - | /bin/sh"
-        },
-        {
-          "label": "أمر المستودع الثاني",
-          "command": "wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh"
+          "label": "تثبيت من مستودع المطوّر",
+          "command": "wget -qO- https://raw.githubusercontent.com/AMAJamry/AJPanel/main/installer.sh | /bin/sh"
         }
       ],
       "icon": "",
@@ -134,8 +123,8 @@
       "arabicDescription": "يوفّر واجهة للوصول إلى مواقع عربية للأفلام والمسلسلات وبعض المحتوى الرياضي.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "المستودع المسجّل غير متاح علنًا حاليًا، ولم أجد IPK موثّقًا؛ لم أضف أمر تثبيت تخمينيًا.",
+      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/popking159/MyStreamer",
       "relatedPlugins": [
@@ -144,12 +133,7 @@
         "youtube"
       ],
       "features": [],
-      "telnetCommands": [
-        {
-          "label": "أمر التثبيت",
-          "command": "wget -qO - https://raw.githubusercontent.com/popking159/MyStreamer/refs/heads/main/myinstaller.sh | /bin/sh"
-        }
-      ],
+      "telnetCommands": [],
       "icon": "",
       "githubStars": 1,
       "logoFound": false,
@@ -182,7 +166,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "images/plugins/subssupportpro/thumbnail.webp",
       "screenshots": [],
       "downloadUrl": "https://github.com/popking159/SubsSupportPro",
       "tutorialUrl": "",
@@ -198,8 +182,8 @@
       "arabicDescription": "أدوات دعم الترجمة وإدارة ملفات الترجمة أثناء تشغيل الوسائط.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/popking159/SubsSupportPro",
       "relatedPlugins": [
@@ -211,12 +195,12 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "أمر التثبيت",
-          "command": "wget -q \"--no-check-certificate\" https://github.com/popking159/SubsSupportPro/raw/main/subssupportpro-install.sh -O - | /bin/sh"
+          "label": "تثبيت SubsSupport",
+          "command": "wget -qO- https://raw.githubusercontent.com/popking159/ssupport/main/subssupport-install.sh | /bin/sh"
         }
       ],
-      "icon": "",
-      "logoFound": false,
+      "icon": "images/plugins/subssupportpro/icon.webp",
+      "logoFound": true,
       "officialWebsite": ""
     },
     {
@@ -262,8 +246,8 @@
       "arabicDescription": "عرض شعارات القنوات داخل الواجهة أو قائمة القنوات حسب إعدادات الصورة والسكين.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "ملفات Picons تختلف حسب القمر والقنوات وصورة النظام؛ لا يوجد ملف تثبيت واحد مناسب لكل الأجهزة.",
+      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -272,7 +256,8 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": []
     },
     {
       "id": "ipaudio-pro",
@@ -296,10 +281,10 @@
       "rating": 0,
       "downloads": {
         "repository": "https://github.com/popking159/ipaudio",
-        "githubRelease": "https://github.com/popking159/ipaudio/releases"
+        "githubRelease": "https://github.com/popking159/ipaudio/releases/tag/IPAudio"
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "images/plugins/ipaudio-pro/thumbnail.webp",
       "screenshots": [
         "images/plugins/ipaudio-pro/screenshot-1.webp",
         "images/plugins/ipaudio-pro/screenshot-2.webp",
@@ -310,7 +295,7 @@
         "images/plugins/ipaudio-pro/screenshot-7.webp",
         "images/plugins/ipaudio-pro/screenshot-8.webp"
       ],
-      "downloadUrl": "https://github.com/popking159/ipaudio/releases",
+      "downloadUrl": "https://github.com/popking159/ipaudio/releases/download/IPAudio/enigma2-plugin-extensions-ipaudio_8.11_all.ipk",
       "tutorialUrl": "",
       "changelog": [],
       "tags": [
@@ -324,8 +309,8 @@
       "arabicDescription": "أدوات صوت إضافية لأجهزة Enigma2؛ راجع صفحة الشرح للتفاصيل والتوافق.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/popking159/ipaudio",
       "relatedPlugins": [
@@ -337,13 +322,13 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "أمر التثبيت",
-          "command": "wget -q --no-check-certificate https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | bash"
+          "label": "تنزيل وتثبيت IPK الرسمي",
+          "command": "opkg install https://github.com/popking159/ipaudio/releases/download/IPAudio/enigma2-plugin-extensions-ipaudio_8.11_all.ipk"
         }
       ],
-      "icon": "",
+      "icon": "images/plugins/ipaudio-pro/icon.webp",
       "githubStars": 1,
-      "logoFound": false,
+      "logoFound": true,
       "officialWebsite": ""
     },
     {
@@ -387,8 +372,8 @@
       "arabicDescription": "إضافة صوتية لأجهزة Enigma2 مع معلومات التثبيت المتاحة في صفحة التفاصيل.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "رابط المستودع المسجّل غير متاح حاليًا، لذلك لم أضف رابط تنزيل أو أمرًا غير موثوق.",
+      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player",
       "relatedPlugins": [
@@ -398,15 +383,11 @@
         "ultraaudio"
       ],
       "features": [],
-      "telnetCommands": [
-        {
-          "label": "أمر التثبيت",
-          "command": "wget -qO- https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh | sh"
-        }
-      ],
+      "telnetCommands": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "githubStars": 1
     },
     {
       "id": "arabicsavior",
@@ -433,8 +414,11 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
-      "screenshots": [],
+      "thumbnail": "images/plugins/arabicsavior/thumbnail.webp",
+      "screenshots": [
+        "images/plugins/arabicsavior/screenshot-1.webp",
+        "images/plugins/arabicsavior/screenshot-2.webp"
+      ],
       "downloadUrl": "https://github.com/fairbird/ArabicSavior",
       "tutorialUrl": "",
       "changelog": [],
@@ -449,8 +433,8 @@
       "arabicDescription": "أداة مساعدة عربية لأجهزة Enigma2. راجع صفحة التفاصيل قبل التثبيت.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/fairbird/ArabicSavior",
       "relatedPlugins": [
@@ -460,13 +444,14 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "أمر التثبيت",
-          "command": "wget https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh"
+          "label": "تثبيت من مستودع المطوّر",
+          "command": "wget -qO- https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh | /bin/sh"
         }
       ],
-      "icon": "",
-      "logoFound": false,
-      "officialWebsite": ""
+      "icon": "images/plugins/arabicsavior/icon.webp",
+      "logoFound": true,
+      "officialWebsite": "",
+      "githubStars": 3
     },
     {
       "id": "enigmaplay",
@@ -494,16 +479,7 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [
-        "images/plugins/enigmaplay/screenshot-1.webp",
-        "images/plugins/enigmaplay/screenshot-2.webp",
-        "images/plugins/enigmaplay/screenshot-3.webp",
-        "images/plugins/enigmaplay/screenshot-4.webp",
-        "images/plugins/enigmaplay/screenshot-5.webp",
-        "images/plugins/enigmaplay/screenshot-6.webp",
-        "images/plugins/enigmaplay/screenshot-7.webp",
-        "images/plugins/enigmaplay/screenshot-8.webp"
-      ],
+      "screenshots": [],
       "downloadUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
       "tutorialUrl": "",
       "changelog": [],
@@ -518,8 +494,8 @@
       "arabicDescription": "إضافة تشغيل وسائط على Enigma2؛ التفاصيل وخطوات الاستخدام في صفحة الإضافة.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
       "relatedPlugins": [
@@ -530,7 +506,7 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "أمر التثبيت",
+          "label": "تثبيت متجر EnigmaPlay",
           "command": "wget -qO- https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/install.sh | sh"
         }
       ],
@@ -564,7 +540,12 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/footonsat/screenshot-1.webp",
+        "images/plugins/footonsat/screenshot-2.webp",
+        "images/plugins/footonsat/screenshot-3.webp",
+        "images/plugins/footonsat/screenshot-4.webp"
+      ],
       "downloadUrl": "https://github.com/fairbird/FootOnsat",
       "tutorialUrl": "",
       "changelog": [],
@@ -579,8 +560,8 @@
       "arabicDescription": "إضافة مرتبطة بمحتوى رياضي على أجهزة Enigma2؛ راجع صفحة التفاصيل والتوافق.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/fairbird/FootOnsat",
       "relatedPlugins": [
@@ -592,13 +573,14 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "أمر التثبيت",
-          "command": "wget https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh -O - | /bin/sh"
+          "label": "تثبيت من مستودع المطوّر",
+          "command": "wget -q https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh -O - | /bin/sh"
         }
       ],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "githubStars": 1
     },
     {
       "id": "mobile-telnet",
@@ -642,8 +624,8 @@
       "arabicDescription": "شرح وأدوات الاتصال وإدارة الرسيفر عن بُعد باستخدام Telnet من الهاتف.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "لم أعثر على مصدر عام موثّق أو حزمة متوافقة يمكن ربطها بأمان.",
+      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -652,7 +634,8 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": []
     },
     {
       "id": "raedquicksignal",
@@ -682,13 +665,7 @@
       "thumbnail": "",
       "screenshots": [
         "images/plugins/raedquicksignal/screenshot-1.webp",
-        "images/plugins/raedquicksignal/screenshot-2.webp",
-        "images/plugins/raedquicksignal/screenshot-3.webp",
-        "images/plugins/raedquicksignal/screenshot-4.webp",
-        "images/plugins/raedquicksignal/screenshot-5.webp",
-        "images/plugins/raedquicksignal/screenshot-6.webp",
-        "images/plugins/raedquicksignal/screenshot-7.webp",
-        "images/plugins/raedquicksignal/screenshot-8.webp"
+        "images/plugins/raedquicksignal/screenshot-2.webp"
       ],
       "downloadUrl": "https://github.com/fairbird/RaedQuickSignal",
       "tutorialUrl": "",
@@ -704,8 +681,8 @@
       "arabicDescription": "أداة مساعدة لمتابعة الإشارة وضبط الاستقبال على أجهزة Enigma2.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/fairbird/RaedQuickSignal",
       "relatedPlugins": [
@@ -715,8 +692,8 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "أمر التثبيت",
-          "command": "wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh"
+          "label": "تثبيت من مستودع المطوّر",
+          "command": "wget -qO- https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh | /bin/sh"
         }
       ],
       "icon": "",
@@ -765,15 +742,16 @@
       "arabicDescription": "معلومات وأدوات مرتبطة بإعدادات الـ Timeshift وتقليل التأخير حسب الجهاز والصورة.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "لم أعثر على ملف IPK أو أمر تثبيت يمكن التحقق منه لهذا الإدخال.",
+      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [],
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": []
     },
     {
       "id": "ultraaudio",
@@ -797,12 +775,21 @@
       "rating": 0,
       "downloads": {
         "repository": "https://github.com/K3bOra/UltraAudio",
-        "githubRelease": ""
+        "githubRelease": "https://github.com/K3bOra/UltraAudio/releases/tag/v1.0.10"
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [],
-      "downloadUrl": "https://github.com/K3bOra/UltraAudio",
+      "screenshots": [
+        "images/plugins/ultraaudio/screenshot-1.webp",
+        "images/plugins/ultraaudio/screenshot-2.webp",
+        "images/plugins/ultraaudio/screenshot-3.webp",
+        "images/plugins/ultraaudio/screenshot-4.webp",
+        "images/plugins/ultraaudio/screenshot-5.webp",
+        "images/plugins/ultraaudio/screenshot-6.webp",
+        "images/plugins/ultraaudio/screenshot-7.webp",
+        "images/plugins/ultraaudio/screenshot-8.webp"
+      ],
+      "downloadUrl": "https://github.com/K3bOra/UltraAudio/releases/download/v1.0.10/Ultra_Audio_Final_V1.ipk",
       "tutorialUrl": "",
       "changelog": [],
       "tags": [
@@ -816,8 +803,8 @@
       "arabicDescription": "إضافة صوتية لأجهزة Enigma2. راجع صفحة التفاصيل لمعرفة المتطلبات.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/K3bOra/UltraAudio",
       "relatedPlugins": [
@@ -829,8 +816,8 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "أمر التثبيت",
-          "command": "wget -qO- https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh | /bin/sh"
+          "label": "تنزيل وتثبيت IPK الرسمي",
+          "command": "opkg install https://github.com/K3bOra/UltraAudio/releases/download/v1.0.10/Ultra_Audio_Final_V1.ipk"
         }
       ],
       "icon": "",
@@ -880,15 +867,16 @@
       "arabicDescription": "مجموعة أدوات وسكربتات لإدارة وتشخيص بعض مهام Enigma2.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "هذا الإدخال عام وليس اسم بلجن مستقل بملف تثبيت واحد.",
+      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [],
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": []
     },
     {
       "id": "jedi-maker-xtream",
@@ -933,8 +921,8 @@
       "arabicDescription": "إدارة قوائم Xtream وتحويلها إلى قوائم IPTV مناسبة لبيئات Enigma2 المتوافقة.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -944,7 +932,13 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": [
+        {
+          "label": "تثبيت من مستودع المطوّر",
+          "command": "wget -qO- https://raw.githubusercontent.com/biko-73/JediMakerXtream/main/installer.sh | /bin/sh"
+        }
+      ]
     },
     {
       "id": "xtreamity",
@@ -989,8 +983,8 @@
       "arabicDescription": "واجهة للوصول إلى محتوى Xtream Codes على أجهزة Enigma2 المتوافقة.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "لم أتحقق من ملف IPK أو أمر تثبيت رسمي يطابق هذا الاسم تحديدًا؛ لم أستخدم مصدرًا لبلجن مشابه بالاسم.",
+      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1000,7 +994,8 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": []
     },
     {
       "id": "epg-import",
@@ -1045,8 +1040,8 @@
       "arabicDescription": "استيراد بيانات دليل البرامج الإلكتروني EPG من مصادر قابلة للتهيئة.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1056,7 +1051,13 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": [
+        {
+          "label": "التثبيت من مستودع صورة النظام",
+          "command": "opkg update && opkg install enigma2-plugin-extensions-epgimport"
+        }
+      ]
     },
     {
       "id": "tmdb",
@@ -1100,8 +1101,8 @@
       "arabicDescription": "عرض بيانات وصفية للأفلام والمسلسلات من The Movie Database في البلجنز المتوافقة.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "المستودع العام المتاح لا يثبت وجود IPK متوافق مع OpenATV/OpenPLI؛ لم أضف أمر تثبيت غير مؤكّد.",
+      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1113,7 +1114,8 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": []
     },
     {
       "id": "autotimer",
@@ -1158,8 +1160,8 @@
       "arabicDescription": "إنشاء تسجيلات تلقائية اعتمادًا على قواعد البحث في دليل البرامج الإلكتروني.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1169,7 +1171,13 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": [
+        {
+          "label": "التثبيت من مستودع صورة النظام",
+          "command": "opkg update && opkg install enigma2-plugin-extensions-autotimer"
+        }
+      ]
     },
     {
       "id": "seriesplugin",
@@ -1213,8 +1221,8 @@
       "arabicDescription": "مساعدة في التعرف على المسلسلات وربطها بمعلومات الحلقات حسب المصدر والإعدادات.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1224,7 +1232,13 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": [
+        {
+          "label": "التثبيت من مستودع صورة النظام",
+          "command": "opkg update && opkg install enigma2-plugin-extensions-seriesplugin"
+        }
+      ]
     },
     {
       "id": "dreamexplorer",
@@ -1269,8 +1283,8 @@
       "arabicDescription": "استعراض الملفات والمجلدات على جهاز Enigma2 وإدارة الملفات المدعومة.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1279,7 +1293,13 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": [
+        {
+          "label": "التثبيت من مستودع صورة النظام",
+          "command": "opkg update && opkg install enigma2-plugin-extensions-dreamexplorer"
+        }
+      ]
     },
     {
       "id": "filecommander",
@@ -1323,8 +1343,8 @@
       "arabicDescription": "مدير ملفات لأجهزة Enigma2 لتصفح الملفات وتنفيذ عمليات الإدارة المتاحة.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1333,7 +1353,13 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": [
+        {
+          "label": "التثبيت من مستودع صورة النظام",
+          "command": "opkg update && opkg install enigma2-plugin-extensions-filecommander"
+        }
+      ]
     },
     {
       "id": "mediaportal",
@@ -1377,8 +1403,8 @@
       "arabicDescription": "بوابة محتوى وسائط لأجهزة Enigma2؛ يعتمد التوافق على الإصدار ومصادر المحتوى.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "لم أتحقق من حزمة حديثة متوافقة أو مثبت رسمي موثوق لهذا الإدخال.",
+      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1389,7 +1415,8 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": []
     },
     {
       "id": "kodi-lite",
@@ -1432,8 +1459,8 @@
       "arabicDescription": "حل خفيف للوصول إلى بعض وظائف الوسائط حيث يتوفر إصدار متوافق مع صورة الجهاز.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "لم أتحقق من IPK حديث أو أمر تثبيت متوافق مع صورة النظام.",
+      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1445,7 +1472,8 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": []
     },
     {
       "id": "youtube",
@@ -1489,8 +1517,8 @@
       "arabicDescription": "الوصول إلى محتوى YouTube عبر إضافة متوافقة مع إصدار Enigma2 المثبت.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1501,7 +1529,13 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": [
+        {
+          "label": "التثبيت من مستودع صورة النظام",
+          "command": "opkg update && opkg install enigma2-plugin-extensions-youtube"
+        }
+      ]
     },
     {
       "id": "weather-plugin",
@@ -1545,15 +1579,21 @@
       "arabicDescription": "عرض حالة الطقس والتوقعات عبر خدمات ومصادر تدعمها الإضافة.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [],
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": [
+        {
+          "label": "التثبيت من مستودع صورة النظام",
+          "command": "opkg update && opkg install enigma2-plugin-extensions-weatherplugin"
+        }
+      ]
     },
     {
       "id": "openwebif",
@@ -1598,8 +1638,8 @@
       "arabicDescription": "واجهة ويب لإدارة الرسيفر ومشاهدة معلوماته والتحكم في بعض وظائفه عبر الشبكة.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
+      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1608,7 +1648,13 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": [
+        {
+          "label": "التثبيت من مستودع صورة النظام",
+          "command": "opkg update && opkg install enigma2-plugin-extensions-openwebif"
+        }
+      ]
     },
     {
       "id": "skin-selector",
@@ -1652,8 +1698,8 @@
       "arabicDescription": "اختيار السكين وتبديله من بين الواجهات المثبتة والمتوافقة مع صورة الجهاز.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "غالبًا ما تكون إدارة/اختيار الاسكين جزءًا من صورة النظام نفسها؛ لا يوجد ملف تثبيت مستقل موثّق لهذا الإدخال.",
+      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1662,7 +1708,8 @@
       "features": [],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "telnetCommands": []
     },
     {
       "id": "quran-kareem",
@@ -1704,8 +1751,8 @@
       "arabicDescription": "إضافة القرآن الكريم لأجهزة Enigma2؛ راجع صفحة الإضافة لمعرفة الخصائص وطريقة الاستخدام.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "لم أعثر على مستودع عام أو ملف IPK موثّق لهذا الإدخال.",
+      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1715,12 +1762,7 @@
         "footonsat"
       ],
       "features": [],
-      "telnetCommands": [
-        {
-          "label": "أمر التثبيت",
-          "command": "wget -qO - https://raw.githubusercontent.com/popking159/QuranKareem/refs/heads/main/myinstaller.sh | /bin/sh"
-        }
-      ],
+      "telnetCommands": [],
       "icon": "",
       "logoFound": false,
       "officialWebsite": ""
@@ -1764,8 +1806,8 @@
       "arabicDescription": "إضافة IPTV لأجهزة Enigma2؛ راجع صفحة التفاصيل للتعرّف على الوظائف ومصدر المشروع.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
-      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "installationMethod": "لم أعثر على مستودع عام أو ملف IPK موثّق يطابق هذا الاسم.",
+      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [
@@ -1773,12 +1815,7 @@
         "xtreamity"
       ],
       "features": [],
-      "telnetCommands": [
-        {
-          "label": "أمر التثبيت",
-          "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/ahmedhussein4342-lgtm/XtreamNew/main/install_xtreamnew.sh -O - | /bin/sh"
-        }
-      ],
+      "telnetCommands": [],
       "icon": "",
       "logoFound": false,
       "officialWebsite": ""

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-27T18:33:36.489Z",
+  "generatedAt": "2026-10-27T18:43:49.122Z",
   "pluginsScanned": 30,
-  "imagesDownloaded": 28,
+  "imagesDownloaded": 15,
   "imagesUpdated": 0,
   "placeholdersGenerated": 0,
   "totalStoredImages": 54,
@@ -125,6 +125,6 @@
     }
   ],
   "failedRepositories": [],
-  "cachedRepositories": 0,
-  "catalogChanged": true
+  "cachedRepositories": 3,
+  "catalogChanged": false
 }
