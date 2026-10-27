@@ -1,9 +1,12 @@
 {
-  "generatedAt": "2026-10-27T17:41:04.227Z",
+  "generatedAt": "2026-10-27T17:43:11.102Z",
   "pluginsScanned": 30,
   "imagesDownloaded": 0,
   "imagesUpdated": 0,
   "placeholdersGenerated": 0,
+  "totalStoredImages": 116,
+  "repositoryImagesStored": 64,
+  "placeholderAssetsStored": 52,
   "missingImages": [
     {
       "plugin": "picons",
