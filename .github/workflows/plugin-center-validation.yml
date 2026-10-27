@@ -13,6 +13,11 @@ on:
       - 'plugins/plugin.html'
       - 'images/plugins/placeholder.svg'
       - 'scripts/discover_plugin_images.py'
+      - 'scripts/download-plugin-images.js'
+      - 'data/image-cache.json'
+      - 'data/image-report.json'
+      - 'backup/plugins.backup.json'
+      - '.github/workflows/plugin-images.yml'
       - 'scripts/build_plugin_sitemap.py'
       - 'scripts/discover_plugins.py'
       - 'scripts/build_search_index.py'
@@ -31,6 +36,11 @@ on:
       - 'scripts/build_search_index.py'
       - '.github/workflows/plugin-discovery.yml'
       - '.github/workflows/plugin-image-assets.yml'
+      - 'scripts/download-plugin-images.js'
+      - '.github/workflows/plugin-images.yml'
+      - 'css/plugins.css'
+      - 'plugins/index.html'
+      - 'plugins/plugin.html'
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -46,6 +56,7 @@ jobs:
         run: python -c "import json; d=json.load(open('data/plugins.json', encoding='utf-8')); assert isinstance(d.get('plugins'), list); ids=[p.get('id') for p in d['plugins']]; assert len(ids)==len(set(ids)); print(f'Validated {len(ids)} plugins')"
       - name: Check JavaScript syntax
         run: |
+          node --check scripts/download-plugin-images.js
           node --check js/plugins.js
           node --check js/plugin-detail.js
           node --check js/plugins-search.js
