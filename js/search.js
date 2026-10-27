@@ -88,7 +88,7 @@
     if (v.includes('channel') || v.includes('قنوات')) return 'Channels';
     if (v.includes('tutorial') || v.includes('شرح') || v.includes('دليل')) return 'Tutorial';
     if (v.includes('plugin') || v.includes('بلجن') || v.includes('إضافة')) return 'Plugin';
-    if (v.includes('tool') || v.includes('أداة') || v.includes('سكين')) return 'Tools';
+    if (v.includes('tool') || v.includes('أداة') || v.includes('سكين') || v.includes('صور الانجيما')) return 'Tools';
     return 'Device';
   }
   function tagCards() {
