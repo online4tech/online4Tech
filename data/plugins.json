@@ -65,7 +65,8 @@
       "relatedPlugins": [
         "arabicsavior",
         "raedquicksignal"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "mystreamer",
@@ -118,7 +119,8 @@
         "enigmaplay",
         "mediaportal",
         "youtube"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "subssupportpro",
@@ -172,7 +174,8 @@
         "alkuds-audio",
         "footonsat",
         "ultraaudio"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "picons",
@@ -223,7 +226,8 @@
       "githubUrl": "",
       "relatedPlugins": [
         "skin-selector"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "ipaudio-pro",
@@ -275,7 +279,8 @@
         "alkuds-audio",
         "footonsat",
         "ultraaudio"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "alkuds-audio",
@@ -327,7 +332,8 @@
         "ipaudio-pro",
         "footonsat",
         "ultraaudio"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "arabicsavior",
@@ -377,7 +383,8 @@
       "relatedPlugins": [
         "ajpanel",
         "raedquicksignal"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "enigmaplay",
@@ -428,7 +435,8 @@
         "mystreamer",
         "mediaportal",
         "youtube"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "footonsat",
@@ -480,7 +488,8 @@
         "ipaudio-pro",
         "alkuds-audio",
         "ultraaudio"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "mobile-telnet",
@@ -530,7 +539,8 @@
       "githubUrl": "",
       "relatedPlugins": [
         "openwebif"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "raedquicksignal",
@@ -580,7 +590,8 @@
       "relatedPlugins": [
         "ajpanel",
         "arabicsavior"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "timeshift-delay",
@@ -627,7 +638,8 @@
       "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "",
-      "relatedPlugins": []
+      "relatedPlugins": [],
+      "features": []
     },
     {
       "id": "ultraaudio",
@@ -679,7 +691,8 @@
         "ipaudio-pro",
         "alkuds-audio",
         "footonsat"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "scripts-tools",
@@ -728,7 +741,8 @@
       "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "",
-      "relatedPlugins": []
+      "relatedPlugins": [],
+      "features": []
     },
     {
       "id": "jedi-maker-xtream",
@@ -780,7 +794,8 @@
       "relatedPlugins": [
         "xtreamity",
         "xtreamnew"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "xtreamity",
@@ -832,7 +847,8 @@
       "relatedPlugins": [
         "jedi-maker-xtream",
         "xtreamnew"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "epg-import",
@@ -884,7 +900,8 @@
       "relatedPlugins": [
         "autotimer",
         "seriesplugin"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "tmdb",
@@ -937,7 +954,8 @@
         "ipaudio-pro",
         "alkuds-audio",
         "footonsat"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "autotimer",
@@ -989,7 +1007,8 @@
       "relatedPlugins": [
         "epg-import",
         "seriesplugin"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "seriesplugin",
@@ -1040,7 +1059,8 @@
       "relatedPlugins": [
         "epg-import",
         "autotimer"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "dreamexplorer",
@@ -1091,7 +1111,8 @@
       "githubUrl": "",
       "relatedPlugins": [
         "filecommander"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "filecommander",
@@ -1141,7 +1162,8 @@
       "githubUrl": "",
       "relatedPlugins": [
         "dreamexplorer"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "mediaportal",
@@ -1193,7 +1215,8 @@
         "mystreamer",
         "enigmaplay",
         "youtube"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "kodi-lite",
@@ -1245,7 +1268,8 @@
         "ipaudio-pro",
         "alkuds-audio",
         "footonsat"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "youtube",
@@ -1297,7 +1321,8 @@
         "mystreamer",
         "enigmaplay",
         "mediaportal"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "weather-plugin",
@@ -1345,7 +1370,8 @@
       "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "",
-      "relatedPlugins": []
+      "relatedPlugins": [],
+      "features": []
     },
     {
       "id": "openwebif",
@@ -1396,7 +1422,8 @@
       "githubUrl": "",
       "relatedPlugins": [
         "mobile-telnet"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "skin-selector",
@@ -1446,7 +1473,8 @@
       "githubUrl": "",
       "relatedPlugins": [
         "picons"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "quran-kareem",
@@ -1497,7 +1525,8 @@
         "ipaudio-pro",
         "alkuds-audio",
         "footonsat"
-      ]
+      ],
+      "features": []
     },
     {
       "id": "xtreamnew",
@@ -1545,7 +1574,8 @@
       "relatedPlugins": [
         "jedi-maker-xtream",
         "xtreamity"
-      ]
+      ],
+      "features": []
     }
   ]
 }
