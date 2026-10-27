@@ -12,7 +12,6 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data" / "plugins.json"
-PLACEHOLDER = ""
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 API = "https://api.github.com"
 IMAGE_EXT = (".png", ".jpg", ".jpeg", ".webp", ".gif")
