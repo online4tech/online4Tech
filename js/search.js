@@ -90,7 +90,7 @@
   }
   function tagCards() {
     const path = location.pathname.toLowerCase();
-    document.querySelectorAll('article, .main-card, .product, .item, .backup-card, .quick-card').forEach(card => {
+    document.querySelectorAll('article, [class*="card"], .product, .item').forEach(card => {
       const text = card.innerText || card.textContent || '';
       const brand = inferBrand(text, path);
       const type = inferType(text, path);
