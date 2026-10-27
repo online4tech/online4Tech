@@ -19,18 +19,20 @@ def clean(value):
 def category_for(path, title, text=""):
     p = path.lower()
     t = (title + " " + text).lower()
-    if p.startswith("devices/") or "vu+" in t or "dreambox" in t or "رسيفر" in t:
+    if p.startswith("devices/") or p.startswith("device/"):
         return "أجهزة"
     if p.startswith("store/") or any(x in t for x in ("منتج", "متجر", "إكسسوار", "ريموت")):
         return "منتجات"
     if p.startswith("plugins/") or "بلجن" in t or "plugin" in t:
         return "إضافات"
-    if any(x in t for x in ("شرح", "tutorial", "دليل", "how to")) or p.startswith("guides/") or p == "tutorials.html":
+    if p.startswith("tutorials") or p.startswith("guides/") or any(x in t for x in ("شرح", "tutorial", "دليل", "how to")):
         return "شروحات"
-    if any(x in t for x in ("باك أب", "backup", "قنوات", "channels", "تحميل", "ملفات", "سكين", "skin")) or p in ("downloads.html", "library.html", "vuplus-images.html"):
+    if p.startswith("backups/") or p in ("downloads.html", "library.html", "vuplus-images.html", "backup-info.html", "skins.html") or any(x in t for x in ("باك أب", "backup", "قنوات", "channels", "تحميل", "ملفات", "سكين", "skin")):
         return "ملفات"
     if p == "services.html":
         return "خدمات"
+    if "vu+" in t or "dreambox" in t or "رسيفر" in t:
+        return "أجهزة"
     return "معلومات"
 
 
@@ -41,16 +43,18 @@ def type_for(path, title, text=""):
         return "Product"
     if p.startswith("devices/"):
         return "Device"
-    if p.startswith("plugins/") or "بلجن" in t or "plugin" in t:
+    if p.startswith("plugins/"):
         return "Plugin"
+    if p.startswith("tutorials") or p.startswith("guides/") or any(x in t for x in ("شرح", "tutorial", "دليل")):
+        return "Tutorial"
     if any(x in t for x in ("باك أب", "backup")):
         return "Backups"
     if any(x in t for x in ("قنوات", "channels")):
         return "Channels"
-    if any(x in t for x in ("شرح", "tutorial", "دليل")):
-        return "Tutorial"
     if any(x in t for x in ("أداة", "tools", "سكين", "skin")):
         return "Tools"
+    if "بلجن" in t or "plugin" in t:
+        return "Plugin"
     return "Page"
 
 
@@ -147,14 +151,14 @@ def main():
             if record["title"] and key not in seen:
                 seen.add(key)
                 records.append(record)
-        add(make_record(title, desc, page_url, category_for(rel, title, desc),
-                        brand_for(title + " " + desc, rel), type_for(rel, title, desc)))
+        add(make_record(title, desc, page_url, category_for(rel, title),
+                        brand_for(title, rel), type_for(rel, title)))
         for heading, section_id in parser.headings:
             if heading.casefold() == title.casefold():
                 continue
             target = page_url + (("#" + section_id) if section_id else "")
-            add(make_record(heading, desc, target, category_for(rel, heading, desc),
-                            brand_for(heading + " " + desc, rel), type_for(rel, heading, desc)))
+            add(make_record(heading, desc, target, category_for(rel, heading),
+                            brand_for(heading, rel), type_for(rel, heading)))
         for href, link_text in parser.links:
             if not link_text or len(link_text) < 3 or href.startswith(IGNORE_SCHEMES):
                 continue
