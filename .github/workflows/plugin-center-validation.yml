@@ -8,6 +8,11 @@ on:
       - 'js/plugin-detail.js'
       - 'js/plugins-search.js'
       - 'js/plugins-filters.js'
+      - 'css/plugins.css'
+      - 'plugins/index.html'
+      - 'plugins/plugin.html'
+      - 'images/plugins/placeholder.svg'
+      - 'scripts/discover_plugin_images.py'
       - 'scripts/build_plugin_sitemap.py'
       - 'scripts/discover_plugins.py'
       - 'scripts/build_search_index.py'
@@ -44,4 +49,4 @@ jobs:
           node --check js/plugins-search.js
           node --check js/plugins-filters.js
       - name: Check Python generators
-        run: python -m py_compile scripts/build_plugin_sitemap.py scripts/build_search_index.py scripts/discover_plugins.py
+        run: python -m py_compile scripts/build_plugin_sitemap.py scripts/build_search_index.py scripts/discover_plugins.py scripts/discover_plugin_images.py

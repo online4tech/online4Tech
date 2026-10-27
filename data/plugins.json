@@ -42,7 +42,7 @@
         "githubRelease": ""
       },
       "featured": true,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "https://github.com/AMAJamry/AJPanel",
       "tutorialUrl": "../plugins/ajpanel.html",
@@ -76,7 +76,8 @@
           "label": "أمر المستودع الثاني",
           "command": "wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "mystreamer",
@@ -105,7 +106,7 @@
         "githubRelease": ""
       },
       "featured": true,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "https://github.com/popking159/MyStreamer",
       "tutorialUrl": "../plugins/mystreamer.html",
@@ -136,7 +137,8 @@
           "label": "أمر التثبيت",
           "command": "wget -qO - https://raw.githubusercontent.com/popking159/MyStreamer/refs/heads/main/myinstaller.sh | /bin/sh"
         }
-      ]
+      ],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "subssupportpro",
@@ -165,7 +167,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "https://github.com/popking159/SubsSupportPro/blob/main/subssupportpro-install.sh",
       "tutorialUrl": "../plugins/subssupportpro.html",
@@ -197,7 +199,8 @@
           "label": "أمر التثبيت",
           "command": "wget -q \"--no-check-certificate\" https://github.com/popking159/SubsSupportPro/raw/main/subssupportpro-install.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "picons",
@@ -226,7 +229,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "https://drive.google.com/uc?export=download&id=1Cmfa7r5P01db2YP3qvD3V8LVjv9j16Hi",
       "tutorialUrl": "../plugins/picons.html",
@@ -249,7 +252,8 @@
       "relatedPlugins": [
         "skin-selector"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "ipaudio-pro",
@@ -276,7 +280,7 @@
         "githubRelease": "https://github.com/popking159/ipaudio/releases"
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "https://github.com/popking159/ipaudio/releases",
       "tutorialUrl": "../plugins/ipaudio-pro.html",
@@ -308,7 +312,8 @@
           "label": "أمر التثبيت",
           "command": "wget -q --no-check-certificate https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | bash"
         }
-      ]
+      ],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "alkuds-audio",
@@ -367,7 +372,8 @@
           "label": "أمر التثبيت",
           "command": "wget -qO- https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh | sh"
         }
-      ]
+      ],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "arabicsavior",
@@ -424,7 +430,8 @@
           "label": "أمر التثبيت",
           "command": "wget https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "enigmaplay",
@@ -451,7 +458,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
       "tutorialUrl": "../plugins/enigmaplay.html",
@@ -482,7 +489,8 @@
           "label": "أمر التثبيت",
           "command": "wget -qO- https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/install.sh | sh"
         }
-      ]
+      ],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "footonsat",
@@ -509,7 +517,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh",
       "tutorialUrl": "../plugins/footonsat.html",
@@ -541,7 +549,8 @@
           "label": "أمر التثبيت",
           "command": "wget https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "mobile-telnet",
@@ -569,7 +578,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "../plugins/mobile-telnet.html",
@@ -592,7 +601,8 @@
       "relatedPlugins": [
         "openwebif"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "raedquicksignal",
@@ -619,7 +629,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "https://github.com/fairbird/RaedQuickSignal",
       "tutorialUrl": "../plugins/raedquicksignal.html",
@@ -649,7 +659,8 @@
           "label": "أمر التثبيت",
           "command": "wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "timeshift-delay",
@@ -676,7 +687,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "../plugins/timeshift-delay.html",
@@ -697,7 +708,8 @@
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "ultraaudio",
@@ -724,7 +736,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh",
       "tutorialUrl": "../plugins/ultraaudio.html",
@@ -756,7 +768,8 @@
           "label": "أمر التثبيت",
           "command": "wget -qO- https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh | /bin/sh"
         }
-      ]
+      ],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "scripts-tools",
@@ -785,7 +798,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "../plugins/scripts-tools.html",
@@ -806,7 +819,8 @@
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "jedi-maker-xtream",
@@ -835,7 +849,7 @@
         "githubRelease": ""
       },
       "featured": true,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -859,7 +873,8 @@
         "xtreamity",
         "xtreamnew"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "xtreamity",
@@ -888,7 +903,7 @@
         "githubRelease": ""
       },
       "featured": true,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -912,7 +927,8 @@
         "jedi-maker-xtream",
         "xtreamnew"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "epg-import",
@@ -941,7 +957,7 @@
         "githubRelease": ""
       },
       "featured": true,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -965,7 +981,8 @@
         "autotimer",
         "seriesplugin"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "tmdb",
@@ -993,7 +1010,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -1019,7 +1036,8 @@
         "alkuds-audio",
         "footonsat"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "autotimer",
@@ -1048,7 +1066,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -1072,7 +1090,8 @@
         "epg-import",
         "seriesplugin"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "seriesplugin",
@@ -1100,7 +1119,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -1124,7 +1143,8 @@
         "epg-import",
         "autotimer"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "dreamexplorer",
@@ -1153,7 +1173,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -1176,7 +1196,8 @@
       "relatedPlugins": [
         "filecommander"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "filecommander",
@@ -1204,7 +1225,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -1227,7 +1248,8 @@
       "relatedPlugins": [
         "dreamexplorer"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "mediaportal",
@@ -1255,7 +1277,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -1280,7 +1302,8 @@
         "enigmaplay",
         "youtube"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "kodi-lite",
@@ -1307,7 +1330,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -1333,7 +1356,8 @@
         "alkuds-audio",
         "footonsat"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "youtube",
@@ -1361,7 +1385,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -1386,7 +1410,8 @@
         "enigmaplay",
         "mediaportal"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "weather-plugin",
@@ -1414,7 +1439,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -1435,7 +1460,8 @@
       "youtubeVideo": "",
       "githubUrl": "",
       "relatedPlugins": [],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "openwebif",
@@ -1464,7 +1490,7 @@
         "githubRelease": ""
       },
       "featured": true,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -1487,7 +1513,8 @@
       "relatedPlugins": [
         "mobile-telnet"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "skin-selector",
@@ -1515,7 +1542,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -1538,7 +1565,8 @@
       "relatedPlugins": [
         "picons"
       ],
-      "features": []
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "quran-kareem",
@@ -1565,7 +1593,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "../plugins/quran-kareem.html",
@@ -1596,7 +1624,8 @@
           "label": "أمر التثبيت",
           "command": "wget -qO - https://raw.githubusercontent.com/popking159/QuranKareem/refs/heads/main/myinstaller.sh | /bin/sh"
         }
-      ]
+      ],
+      "icon": "../images/plugins/placeholder.svg"
     },
     {
       "id": "xtreamnew",
@@ -1623,7 +1652,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "../images/plugins/placeholder.svg",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "../plugins/xtreamnew.html",
@@ -1651,7 +1680,8 @@
           "label": "أمر التثبيت",
           "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/ahmedhussein4342-lgtm/XtreamNew/main/install_xtreamnew.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "icon": "../images/plugins/placeholder.svg"
     }
   ]
 }
