@@ -28,3 +28,5 @@
 .o4t-search-card h2{font-size:1.03rem;margin:0 0 6px}
 .o4t-search-card p{color:#a8bad0;font-size:.86rem;margin:0;line-height:1.75}
 @media(max-width:560px){.o4t-search-shell{width:94%;margin:10px auto 14px}.o4t-search-form{gap:5px}.o4t-search-submit{padding:9px 10px;font-size:.82rem}.o4t-filter-field{min-width:calc(50% - 8px)}.o4t-result-count{width:100%;margin:0}}
+
+.o4t-search-result-group{margin:22px 0}.o4t-search-result-group>h2{font-size:1.2rem;margin:0 0 10px;color:#67d2ff}
