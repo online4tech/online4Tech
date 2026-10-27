@@ -26,7 +26,7 @@
     return value.filter(hasValue);
   }
   function asset(value) { const path=String(value||'').trim(); return path.startsWith('images/plugins/') ? '../'+path : (/^https:\/\//.test(path) ? path : ''); }
-  function imageError() { return ' onerror="this.onerror=null;this.closest(\\'a[data-gallery-slide]\\')?.remove()"'; }
+  function imageError() { return ' onerror="this.onerror=null;this.parentElement.remove()"'; }
   function visual(plugin, kind) { if (plugin.logoFound !== true) return ''; const raw=(kind==='icon'?plugin.icon:plugin.thumbnail)||plugin.icon||''; const src=asset(raw); if(!src)return ''; return '<img loading="lazy" decoding="async" src="'+esc(src)+'" alt="'+esc(plugin.name||'Plugin')+'">'; }
   function card(plugin) {
     const logo=visual(plugin,'icon');
