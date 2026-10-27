@@ -9,6 +9,7 @@ on:
       - 'css/**'
       - 'assets/site-header.js'
       - 'robots.txt'
+      - 'data/plugins.json'
       - 'sitemap.xml'
       - 'scripts/build_search_index.py'
       - '.github/workflows/search-index.yml'

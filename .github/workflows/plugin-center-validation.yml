@@ -56,8 +56,33 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - name: Validate JSON catalog
-        run: python -c "import json; d=json.load(open('data/plugins.json', encoding='utf-8')); assert isinstance(d.get('plugins'), list); ids=[p.get('id') for p in d['plugins']]; assert len(ids)==len(set(ids)); print(f'Validated {len(ids)} plugins')"
+      - name: Validate JSON catalog and GitHub-only policy
+        run: |
+          python - <<'PY'
+          import json, re
+          from urllib.parse import urlparse
+          d = json.load(open('data/plugins.json', encoding='utf-8'))
+          assert isinstance(d.get('plugins'), list), 'plugins must be a list'
+          plugins = d['plugins']
+          ids = [p.get('id') for p in plugins]
+          assert all(ids) and len(ids) == len(set(ids)), 'plugin IDs must be unique and non-empty'
+          required = ('id','name','slug','description','arabicDescription','version','author','category','featured','latest','rating','downloadsCount','icon','logoFound','screenshots','supportedDevices','supportedImages','installationMethod','requirements','youtubeVideo','githubUrl','officialWebsite','downloads','tags','changelog','relatedPlugins')
+          for p in plugins:
+              missing = [key for key in required if key not in p]
+              assert not missing, f"{p.get('id')}: missing schema fields {missing}"
+              assert isinstance(p['logoFound'], bool), f"{p['id']}: logoFound must be boolean"
+              assert isinstance(p['screenshots'], list), f"{p['id']}: screenshots must be a list"
+              assert p['logoFound'] or not p.get('icon') and not p.get('thumbnail'), f"{p['id']}: unverified logo reference"
+              for shot in p['screenshots']:
+                  assert isinstance(shot, str) and re.fullmatch(r'images/plugins/[^/]+/screenshot-\d+\.webp', shot), f"{p['id']}: screenshot must be a local WebP asset"
+              for value in (p.get('githubUrl'), p.get('downloadUrl'), p.get('officialWebsite'), (p.get('downloads') or {}).get('repository'), (p.get('downloads') or {}).get('githubRelease')):
+                  if value:
+                      parsed = urlparse(value)
+                      assert parsed.scheme == 'https' and parsed.hostname in ('github.com','www.github.com','raw.githubusercontent.com'), f"{p['id']}: non-GitHub URL blocked: {value}"
+              release = (p.get('downloads') or {}).get('githubRelease', '')
+              assert not release or '/releases' in urlparse(release).path, f"{p['id']}: release link is not a GitHub Releases URL"
+          print(f"Validated {len(plugins)} plugins, required schema, logo policy, local galleries and GitHub-only URLs")
+          PY
       - name: Check JavaScript syntax
         run: |
           node --check scripts/download-plugin-images.js

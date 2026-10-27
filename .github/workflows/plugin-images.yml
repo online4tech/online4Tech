@@ -60,17 +60,19 @@ jobs:
           if (!Array.isArray(data.plugins)) throw new Error('Invalid plugin catalog');
           const path = require('node:path');
           for (const p of data.plugins) {
-            if (!p.icon || !p.thumbnail || !Array.isArray(p.screenshots)) {
-              throw new Error('Missing image fields: ' + (p.id || p.name));
+            if (typeof p.logoFound !== 'boolean' || !Array.isArray(p.screenshots)) {
+              throw new Error('Missing logo/gallery fields: ' + (p.id || p.name));
             }
-            const iconName = path.posix.basename(p.icon).toLowerCase();
-            const thumbnailName = path.posix.basename(p.thumbnail).toLowerCase();
-            if (iconName !== 'icon.webp') throw new Error('Plugin icon must be icon.webp: ' + (p.id || p.name) + ' => ' + p.icon);
-            if (/(screenshot|preview|banner|header)/i.test(iconName)) throw new Error('Forbidden screenshot/banner icon: ' + (p.id || p.name));
-            if (thumbnailName !== 'thumbnail.webp') throw new Error('Plugin thumbnail must be thumbnail.webp: ' + (p.id || p.name));
+            if (p.logoFound) {
+              if (!p.icon || !p.thumbnail || !/^images\/plugins\/[^/]+\/icon\.webp$/i.test(p.icon) || !/^images\/plugins\/[^/]+\/thumbnail\.webp$/i.test(p.thumbnail)) {
+                throw new Error('A verified logo must use stored icon.webp and thumbnail.webp assets: ' + (p.id || p.name));
+              }
+            } else if (p.icon || p.thumbnail) {
+              throw new Error('A plugin without a verified logo must not reference an icon/thumbnail: ' + (p.id || p.name));
+            }
             for (const shot of p.screenshots) {
-              if (!/^screenshot-\d+\.webp$/i.test(path.posix.basename(shot))) {
-                throw new Error('Gallery item must use screenshot-N.webp: ' + (p.id || p.name) + ' => ' + shot);
+              if (!/^images\/plugins\/[^/]+\/screenshot-\d+\.webp$/i.test(shot)) {
+                throw new Error('Gallery item must be a locally stored screenshot-N.webp: ' + (p.id || p.name) + ' => ' + shot);
               }
             }
           }
