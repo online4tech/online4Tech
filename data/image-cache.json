@@ -1,0 +1,99 @@
+{
+  "AMAJamry/AJPanel": {
+    "sha": "d38af503a359dd9e1b6b4e0b7a8f9af9577b86c5",
+    "slug": "ajpanel",
+    "icon": "images/plugins/ajpanel/14-screenshot-hotkeys.webp",
+    "thumbnail": "images/plugins/ajpanel/14-screenshot-hotkeys.webp",
+    "screenshots": [
+      "images/plugins/ajpanel/01-archive-from-different-paths.webp",
+      "images/plugins/ajpanel/02-channelsbrowser.webp",
+      "images/plugins/ajpanel/03-custom-menu-samples.webp",
+      "images/plugins/ajpanel/04-customcommandsfile.webp",
+      "images/plugins/ajpanel/05-hotkeysassign.webp",
+      "images/plugins/ajpanel/06-iptv-changereferenceforbouquets.webp",
+      "images/plugins/ajpanel/07-iptv-favouriteservers.webp",
+      "images/plugins/ajpanel/08-playerbar-launching.webp"
+    ],
+    "githubStars": 12,
+    "checkedAt": "2026-10-27T17:38:42.371Z"
+  },
+  "popking159/MyStreamer": {
+    "sha": "8b6a0effef652f7e1a807358520ed41e5fda83a9",
+    "slug": "mystreamer",
+    "icon": "images/plugins/mystreamer/icon.webp",
+    "thumbnail": "images/plugins/mystreamer/thumb.webp",
+    "screenshots": [],
+    "checkedAt": "2026-10-27T17:38:42.371Z"
+  },
+  "popking159/SubsSupportPro": {
+    "sha": "8baa048829de10cf1b1f7f343110f4db22a4c35d",
+    "slug": "subssupportpro",
+    "icon": "images/plugins/subssupportpro/01-logo.webp",
+    "thumbnail": "images/plugins/subssupportpro/01-logo.webp",
+    "screenshots": [
+      "images/plugins/subssupportpro/02-logo.webp",
+      "images/plugins/subssupportpro/03-logo.webp",
+      "images/plugins/subssupportpro/04-logo.webp",
+      "images/plugins/subssupportpro/05-logo.webp",
+      "images/plugins/subssupportpro/06-logo.webp",
+      "images/plugins/subssupportpro/07-logo.webp",
+      "images/plugins/subssupportpro/08-logo.webp"
+    ],
+    "githubStars": 0,
+    "checkedAt": "2026-10-27T17:38:42.371Z"
+  },
+  "popking159/ipaudio": {
+    "sha": "01d6e8e552b479ffc3419fc6c715e524d69c1aa0",
+    "slug": "ipaudio-pro",
+    "icon": "images/plugins/ipaudio-pro/01-logo.webp",
+    "thumbnail": "images/plugins/ipaudio-pro/01-logo.webp",
+    "screenshots": [
+      "images/plugins/ipaudio-pro/02-default-grid-picon.webp",
+      "images/plugins/ipaudio-pro/03-default-picon.webp",
+      "images/plugins/ipaudio-pro/04-frame-lime.webp",
+      "images/plugins/ipaudio-pro/05-frame-orange.webp",
+      "images/plugins/ipaudio-pro/06-frame-teal.webp",
+      "images/plugins/ipaudio-pro/07-nile-fm.webp",
+      "images/plugins/ipaudio-pro/08-mega-fm.webp",
+      "images/plugins/ipaudio-pro/09-nagham-fm.webp"
+    ],
+    "githubStars": 1,
+    "checkedAt": "2026-10-27T17:38:42.371Z"
+  },
+  "Ahmadarjan1/EnigmaPlay-Repo": {
+    "sha": "b2441372d2e1cbb1a9a8382706cd965f280541db",
+    "slug": "enigmaplay",
+    "icon": "images/plugins/enigmaplay/01-1.webp",
+    "thumbnail": "images/plugins/enigmaplay/02-1.webp",
+    "screenshots": [
+      "images/plugins/enigmaplay/03-1.webp",
+      "images/plugins/enigmaplay/04-1.webp",
+      "images/plugins/enigmaplay/05-1.webp",
+      "images/plugins/enigmaplay/06-1.webp",
+      "images/plugins/enigmaplay/07-1.webp",
+      "images/plugins/enigmaplay/08-2.webp",
+      "images/plugins/enigmaplay/09-3.webp",
+      "images/plugins/enigmaplay/10-4.webp"
+    ],
+    "githubStars": 0,
+    "checkedAt": "2026-10-27T17:38:42.371Z"
+  },
+  "fairbird/RaedQuickSignal": {
+    "sha": "10ea7e1051fd65b8bcd7596671928c0cc2877167",
+    "slug": "raedquicksignal",
+    "icon": "images/plugins/raedquicksignal/01-analog-tuner-bg.webp",
+    "thumbnail": "images/plugins/raedquicksignal/02-frame-of-picon3c.webp",
+    "screenshots": [
+      "images/plugins/raedquicksignal/03-analog-tuner-bg.webp",
+      "images/plugins/raedquicksignal/04-frame-of-picon3c.webp",
+      "images/plugins/raedquicksignal/05-analog-tuner-bg.webp",
+      "images/plugins/raedquicksignal/06-frame-of-picon3c.webp",
+      "images/plugins/raedquicksignal/07-arrow-quick1.webp",
+      "images/plugins/raedquicksignal/08-frame-base-fs8.webp",
+      "images/plugins/raedquicksignal/09-frame-of-picon.webp",
+      "images/plugins/raedquicksignal/10-frame-of-picon2.webp"
+    ],
+    "githubStars": 4,
+    "checkedAt": "2026-10-27T17:38:42.371Z"
+  }
+}

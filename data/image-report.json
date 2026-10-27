@@ -1,0 +1,112 @@
+{
+  "generatedAt": "2026-10-27T17:38:42.371Z",
+  "pluginsScanned": 30,
+  "imagesDownloaded": 116,
+  "imagesUpdated": 0,
+  "missingImages": [
+    {
+      "plugin": "mystreamer",
+      "repository": "popking159/MyStreamer",
+      "reason": "No usable repository images; generated placeholder"
+    },
+    {
+      "plugin": "picons",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "alkuds-audio",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "arabicsavior",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "footonsat",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "mobile-telnet",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "timeshift-delay",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "ultraaudio",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "scripts-tools",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "jedi-maker-xtream",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "xtreamity",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "epg-import",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "tmdb",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "autotimer",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "seriesplugin",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "dreamexplorer",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "filecommander",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "mediaportal",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "kodi-lite",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "youtube",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "weather-plugin",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "openwebif",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "skin-selector",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "quran-kareem",
+      "reason": "No GitHub repository URL"
+    },
+    {
+      "plugin": "xtreamnew",
+      "reason": "No GitHub repository URL"
+    }
+  ],
+  "failedRepositories": [],
+  "cachedRepositories": 0,
+  "catalogChanged": true
+}

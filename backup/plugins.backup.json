@@ -1,0 +1,1729 @@
+{
+  "generatedAt": "2026-10-27",
+  "schemaVersion": 2,
+  "categories": [
+    "Developer Tools",
+    "EPG",
+    "File Managers",
+    "IPTV",
+    "Media",
+    "Network",
+    "Skins",
+    "Streaming",
+    "System Tools",
+    "Utilities",
+    "Weather"
+  ],
+  "plugins": [
+    {
+      "id": "ajpanel",
+      "name": "AJPanel",
+      "slug": "ajpanel",
+      "description": "إدارة الملفات والقنوات والشبكة والنسخ الاحتياطي من واجهة واحدة.",
+      "version": "10.8.6",
+      "releaseDate": "",
+      "author": "AMA Jamry",
+      "category": "Utilities",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/AMAJamry/AJPanel",
+        "githubRelease": ""
+      },
+      "featured": true,
+      "thumbnail": "https://raw.githubusercontent.com/AMAJamry/AJPanel/main/help/Screenshot_OSDFileName.jpg",
+      "screenshots": [
+        "https://raw.githubusercontent.com/AMAJamry/AJPanel/main/help/Screenshot_OSDFileName.jpg",
+        "https://github.com/AMAJamry/AJPanel/assets/164648277/08fb2f4c-a792-4066-991c-0ba31366116f"
+      ],
+      "downloadUrl": "https://github.com/AMAJamry/AJPanel",
+      "tutorialUrl": "../plugins/ajpanel.html",
+      "changelog": [],
+      "tags": [
+        "AJPanel",
+        "Utilities",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "ajpanel"
+      ],
+      "arabicDescription": "إدارة الملفات والقنوات والشبكة والنسخ الاحتياطي من واجهة واحدة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/AMAJamry/AJPanel",
+      "relatedPlugins": [
+        "arabicsavior",
+        "raedquicksignal"
+      ],
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت الرسمي",
+          "command": "wget --no-check-certificate https://raw.githubusercontent.com/AMAJamry/AJPanel/main/installer.sh -O - | /bin/sh"
+        },
+        {
+          "label": "أمر المستودع الثاني",
+          "command": "wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/AMAJamry/AJPanel/main/help/Screenshot_Hotkeys.jpg",
+      "githubStars": 12
+    },
+    {
+      "id": "mystreamer",
+      "name": "MyStreamer",
+      "slug": "mystreamer",
+      "description": "يوفّر واجهة للوصول إلى مواقع عربية للأفلام والمسلسلات وبعض المحتوى الرياضي.",
+      "version": "1.0.0",
+      "releaseDate": "",
+      "author": "Online4Tech catalog",
+      "category": "Streaming",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/popking159/MyStreamer",
+        "githubRelease": ""
+      },
+      "featured": true,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "https://github.com/popking159/MyStreamer",
+      "tutorialUrl": "../plugins/mystreamer.html",
+      "changelog": [],
+      "tags": [
+        "MyStreamer",
+        "Streaming",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "mystreamer"
+      ],
+      "arabicDescription": "يوفّر واجهة للوصول إلى مواقع عربية للأفلام والمسلسلات وبعض المحتوى الرياضي.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/popking159/MyStreamer",
+      "relatedPlugins": [
+        "enigmaplay",
+        "mediaportal",
+        "youtube"
+      ],
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -qO - https://raw.githubusercontent.com/popking159/MyStreamer/refs/heads/main/myinstaller.sh | /bin/sh"
+        }
+      ],
+      "icon": "../images/plugins/placeholder.svg",
+      "githubStars": 1
+    },
+    {
+      "id": "subssupportpro",
+      "name": "SubsSupport Pro",
+      "slug": "subssupportpro",
+      "description": "أدوات دعم الترجمة وإدارة ملفات الترجمة أثناء تشغيل الوسائط.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "Media",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/popking159/SubsSupportPro/blob/main/subssupportpro-install.sh",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "https://raw.githubusercontent.com/popking159/SubsSupportPro/main/SubsSupportPro/seekers/LocalDrive/logo.png",
+      "screenshots": [],
+      "downloadUrl": "https://github.com/popking159/SubsSupportPro/blob/main/subssupportpro-install.sh",
+      "tutorialUrl": "../plugins/subssupportpro.html",
+      "changelog": [],
+      "tags": [
+        "SubsSupport Pro",
+        "Media",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "subssupportpro"
+      ],
+      "arabicDescription": "أدوات دعم الترجمة وإدارة ملفات الترجمة أثناء تشغيل الوسائط.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/popking159/SubsSupportPro/blob/main/subssupportpro-install.sh",
+      "relatedPlugins": [
+        "ipaudio-pro",
+        "alkuds-audio",
+        "footonsat",
+        "ultraaudio"
+      ],
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -q \"--no-check-certificate\" https://github.com/popking159/SubsSupportPro/raw/main/subssupportpro-install.sh -O - | /bin/sh"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/popking159/SubsSupportPro/main/SubsSupportPro/seekers/LocalDrive/logo.png"
+    },
+    {
+      "id": "picons",
+      "name": "Picons",
+      "slug": "picons",
+      "description": "عرض شعارات القنوات داخل الواجهة أو قائمة القنوات حسب إعدادات الصورة والسكين.",
+      "version": "متعدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "Skins",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://drive.google.com/uc?export=download&id=1Cmfa7r5P01db2YP3qvD3V8LVjv9j16Hi",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1Cmfa7r5P01db2YP3qvD3V8LVjv9j16Hi",
+      "tutorialUrl": "../plugins/picons.html",
+      "changelog": [],
+      "tags": [
+        "Picons",
+        "Skins",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "picons"
+      ],
+      "arabicDescription": "عرض شعارات القنوات داخل الواجهة أو قائمة القنوات حسب إعدادات الصورة والسكين.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "skin-selector"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "ipaudio-pro",
+      "name": "IPAudio Pro",
+      "slug": "ipaudio-pro",
+      "description": "أدوات صوت إضافية لأجهزة Enigma2؛ راجع صفحة الشرح للتفاصيل والتوافق.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "Online4Tech catalog",
+      "category": "Media",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/popking159/ipaudio/releases",
+        "githubRelease": "https://github.com/popking159/ipaudio/releases"
+      },
+      "featured": false,
+      "thumbnail": "https://github.com/user-attachments/assets/2789f97c-0f3c-4c48-b9a6-6f1425c29421",
+      "screenshots": [
+        "https://github.com/user-attachments/assets/2789f97c-0f3c-4c48-b9a6-6f1425c29421",
+        "https://github.com/user-attachments/assets/f69cf4ab-4d76-4518-8100-c14f01f3e891",
+        "https://github.com/user-attachments/assets/982b001b-21fb-43c0-b811-9339a6cda485",
+        "https://github.com/user-attachments/assets/57ea6e26-07f2-489c-a063-02954ddb5944",
+        "https://github.com/user-attachments/assets/3ee4ce0f-f132-4987-ae69-ce103e3bd15c",
+        "https://github.com/user-attachments/assets/a1b2034b-0bb6-4568-a828-da5130a681ec",
+        "https://img.shields.io/badge/version-8.0-blue",
+        "https://img.shields.io/badge/license-GPL--2.0-green"
+      ],
+      "downloadUrl": "https://github.com/popking159/ipaudio/releases",
+      "tutorialUrl": "../plugins/ipaudio-pro.html",
+      "changelog": [],
+      "tags": [
+        "IPAudio Pro",
+        "Media",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "ipaudio-pro"
+      ],
+      "arabicDescription": "أدوات صوت إضافية لأجهزة Enigma2؛ راجع صفحة الشرح للتفاصيل والتوافق.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/popking159/ipaudio/releases",
+      "relatedPlugins": [
+        "subssupportpro",
+        "alkuds-audio",
+        "footonsat",
+        "ultraaudio"
+      ],
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -q --no-check-certificate https://raw.githubusercontent.com/popking159/ipaudio/main/installer-ipaudio.sh -O - | bash"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/popking159/ipaudio/main/source/logo.png",
+      "githubStars": 1
+    },
+    {
+      "id": "alkuds-audio",
+      "name": "Alkuds Audio",
+      "slug": "alkuds-audio",
+      "description": "إضافة صوتية لأجهزة Enigma2 مع معلومات التثبيت المتاحة في صفحة التفاصيل.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "Online4Tech catalog",
+      "category": "Media",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/alkuds-audio/image.png",
+      "screenshots": [],
+      "downloadUrl": "https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh",
+      "tutorialUrl": "../plugins/alkuds-audio.html",
+      "changelog": [],
+      "tags": [
+        "Alkuds Audio",
+        "Media",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "alkuds-audio"
+      ],
+      "arabicDescription": "إضافة صوتية لأجهزة Enigma2 مع معلومات التثبيت المتاحة في صفحة التفاصيل.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "subssupportpro",
+        "ipaudio-pro",
+        "footonsat",
+        "ultraaudio"
+      ],
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -qO- https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh | sh"
+        }
+      ],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "arabicsavior",
+      "name": "Arabic Savior",
+      "slug": "arabicsavior",
+      "description": "أداة مساعدة عربية لأجهزة Enigma2. راجع صفحة التفاصيل قبل التثبيت.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "Online4Tech catalog",
+      "category": "Utilities",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/arabicsavior/1_0_19_4440_1000_1_CFDACE7_0_0_0_20210423111603.jpg",
+      "screenshots": [],
+      "downloadUrl": "https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh",
+      "tutorialUrl": "../plugins/arabicsavior.html",
+      "changelog": [],
+      "tags": [
+        "Arabic Savior",
+        "Utilities",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "arabicsavior"
+      ],
+      "arabicDescription": "أداة مساعدة عربية لأجهزة Enigma2. راجع صفحة التفاصيل قبل التثبيت.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "ajpanel",
+        "raedquicksignal"
+      ],
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh"
+        }
+      ],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "enigmaplay",
+      "name": "EnigmaPlay",
+      "slug": "enigmaplay",
+      "description": "إضافة تشغيل وسائط على Enigma2؛ التفاصيل وخطوات الاستخدام في صفحة الإضافة.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "Online4Tech catalog",
+      "category": "Streaming",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/category-images/1.jpg",
+      "screenshots": [
+        "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/category-images/1.jpg",
+        "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/category-picons/1.jpg",
+        "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/category-settings/1.jpg",
+        "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/ciefp-plugins/1.jpg",
+        "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/ciefpbouquetupdater/1.jpg",
+        "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/ciefpchannelhistory/1.jpg",
+        "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/ciefpchannelhistory/2.jpg",
+        "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/ciefpchannelhistory/3.jpg",
+        "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/ciefpchannelhistory/4.jpg",
+        "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/ciefpchannelmanager/1.jpg",
+        "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/ciefpchannelmanager/2.jpg",
+        "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/ciefpchannelmanager/3.jpg"
+      ],
+      "downloadUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
+      "tutorialUrl": "../plugins/enigmaplay.html",
+      "changelog": [],
+      "tags": [
+        "EnigmaPlay",
+        "Streaming",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "enigmaplay"
+      ],
+      "arabicDescription": "إضافة تشغيل وسائط على Enigma2؛ التفاصيل وخطوات الاستخدام في صفحة الإضافة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
+      "relatedPlugins": [
+        "mystreamer",
+        "mediaportal",
+        "youtube"
+      ],
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -qO- https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/install.sh | sh"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/screenshots/category-display/1.jpg"
+    },
+    {
+      "id": "footonsat",
+      "name": "FootOnSat",
+      "slug": "footonsat",
+      "description": "إضافة مرتبطة بمحتوى رياضي على أجهزة Enigma2؛ راجع صفحة التفاصيل والتوافق.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "Online4Tech catalog",
+      "category": "Media",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh",
+      "tutorialUrl": "../plugins/footonsat.html",
+      "changelog": [],
+      "tags": [
+        "FootOnSat",
+        "Media",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "footonsat"
+      ],
+      "arabicDescription": "إضافة مرتبطة بمحتوى رياضي على أجهزة Enigma2؛ راجع صفحة التفاصيل والتوافق.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "subssupportpro",
+        "ipaudio-pro",
+        "alkuds-audio",
+        "ultraaudio"
+      ],
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh -O - | /bin/sh"
+        }
+      ],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "mobile-telnet",
+      "name": "Mobile Telnet",
+      "slug": "mobile-telnet",
+      "description": "شرح وأدوات الاتصال وإدارة الرسيفر عن بُعد باستخدام Telnet من الهاتف.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "Online4Tech catalog",
+      "category": "Network",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "../plugins/mobile-telnet.html",
+      "changelog": [],
+      "tags": [
+        "Mobile Telnet",
+        "Network",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "mobile-telnet"
+      ],
+      "arabicDescription": "شرح وأدوات الاتصال وإدارة الرسيفر عن بُعد باستخدام Telnet من الهاتف.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "openwebif"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "raedquicksignal",
+      "name": "Raed Quick Signal",
+      "slug": "raedquicksignal",
+      "description": "أداة مساعدة لمتابعة الإشارة وضبط الاستقبال على أجهزة Enigma2.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "Online4Tech catalog",
+      "category": "Utilities",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/fairbird/RaedQuickSignal",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "https://img.shields.io/badge/License-GPLv3-blue.svg",
+      "screenshots": [
+        "https://img.shields.io/badge/License-GPLv3-blue.svg",
+        "https://github.com/fairbird/RaedQuickSignal/actions/workflows/RaedQuickSignal.yml/badge.svg",
+        "https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal/images/analog/FHD/frame_of_picon3c.png",
+        "https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal/images/analog/HD/analog_tuner_bg.png",
+        "https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal/images/analog/HD/frame_of_picon3c.png",
+        "https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal/images/analog/UHD/analog_tuner_bg.png",
+        "https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal/images/analog/UHD/frame_of_picon3c.png",
+        "https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal/images/ArmyTouch/FHD/arrow_quick1.png",
+        "https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal/images/ArmyTouch/FHD/frame_base-fs8.png",
+        "https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal/images/ArmyTouch/FHD/frame_of_picon.png",
+        "https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal/images/ArmyTouch/FHD/frame_of_picon2.png",
+        "https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal/images/ArmyTouch/FHD/frame_of_picon3.png"
+      ],
+      "downloadUrl": "https://github.com/fairbird/RaedQuickSignal",
+      "tutorialUrl": "../plugins/raedquicksignal.html",
+      "changelog": [],
+      "tags": [
+        "Raed Quick Signal",
+        "Utilities",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "raedquicksignal"
+      ],
+      "arabicDescription": "أداة مساعدة لمتابعة الإشارة وضبط الاستقبال على أجهزة Enigma2.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/fairbird/RaedQuickSignal",
+      "relatedPlugins": [
+        "ajpanel",
+        "arabicsavior"
+      ],
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh"
+        }
+      ],
+      "icon": "https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/usr/lib/enigma2/python/Plugins/Extensions/RaedQuickSignal/images/analog/FHD/analog_tuner_bg.png",
+      "githubStars": 4
+    },
+    {
+      "id": "timeshift-delay",
+      "name": "Timeshift Delay",
+      "slug": "timeshift-delay",
+      "description": "معلومات وأدوات مرتبطة بإعدادات الـ Timeshift وتقليل التأخير حسب الجهاز والصورة.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "Online4Tech catalog",
+      "category": "System Tools",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "../plugins/timeshift-delay.html",
+      "changelog": [],
+      "tags": [
+        "Timeshift Delay",
+        "System Tools",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "timeshift-delay"
+      ],
+      "arabicDescription": "معلومات وأدوات مرتبطة بإعدادات الـ Timeshift وتقليل التأخير حسب الجهاز والصورة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "ultraaudio",
+      "name": "UltraAudio",
+      "slug": "ultraaudio",
+      "description": "إضافة صوتية لأجهزة Enigma2. راجع صفحة التفاصيل لمعرفة المتطلبات.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "Online4Tech catalog",
+      "category": "Media",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh",
+      "tutorialUrl": "../plugins/ultraaudio.html",
+      "changelog": [],
+      "tags": [
+        "UltraAudio",
+        "Media",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "ultraaudio"
+      ],
+      "arabicDescription": "إضافة صوتية لأجهزة Enigma2. راجع صفحة التفاصيل لمعرفة المتطلبات.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "subssupportpro",
+        "ipaudio-pro",
+        "alkuds-audio",
+        "footonsat"
+      ],
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -qO- https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh | /bin/sh"
+        }
+      ],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "scripts-tools",
+      "name": "Scripts & Tools",
+      "slug": "scripts-tools",
+      "description": "مجموعة أدوات وسكربتات لإدارة وتشخيص بعض مهام Enigma2.",
+      "version": "متعدد",
+      "releaseDate": "",
+      "author": "Online4Tech catalog",
+      "category": "Developer Tools",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "../plugins/scripts-tools.html",
+      "changelog": [],
+      "tags": [
+        "Scripts & Tools",
+        "Developer Tools",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "scripts-tools"
+      ],
+      "arabicDescription": "مجموعة أدوات وسكربتات لإدارة وتشخيص بعض مهام Enigma2.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "jedi-maker-xtream",
+      "name": "Jedi Maker Xtream",
+      "slug": "jedi-maker-xtream",
+      "description": "إدارة قوائم Xtream وتحويلها إلى قوائم IPTV مناسبة لبيئات Enigma2 المتوافقة.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "Jedi",
+      "category": "IPTV",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": true,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "Jedi Maker Xtream",
+        "IPTV",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "jedi-maker-xtream"
+      ],
+      "arabicDescription": "إدارة قوائم Xtream وتحويلها إلى قوائم IPTV مناسبة لبيئات Enigma2 المتوافقة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "xtreamity",
+        "xtreamnew"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "xtreamity",
+      "name": "Xtreamity",
+      "slug": "xtreamity",
+      "description": "واجهة للوصول إلى محتوى Xtream Codes على أجهزة Enigma2 المتوافقة.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "IPTV",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": true,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "Xtreamity",
+        "IPTV",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "xtreamity"
+      ],
+      "arabicDescription": "واجهة للوصول إلى محتوى Xtream Codes على أجهزة Enigma2 المتوافقة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "jedi-maker-xtream",
+        "xtreamnew"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "epg-import",
+      "name": "EPG Import",
+      "slug": "epg-import",
+      "description": "استيراد بيانات دليل البرامج الإلكتروني EPG من مصادر قابلة للتهيئة.",
+      "version": "متعدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "EPG",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": true,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "EPG Import",
+        "EPG",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "epg-import"
+      ],
+      "arabicDescription": "استيراد بيانات دليل البرامج الإلكتروني EPG من مصادر قابلة للتهيئة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "autotimer",
+        "seriesplugin"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "tmdb",
+      "name": "TMDB",
+      "slug": "tmdb",
+      "description": "عرض بيانات وصفية للأفلام والمسلسلات من The Movie Database في البلجنز المتوافقة.",
+      "version": "متعدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "Media",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "TMDB",
+        "Media",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "tmdb"
+      ],
+      "arabicDescription": "عرض بيانات وصفية للأفلام والمسلسلات من The Movie Database في البلجنز المتوافقة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "subssupportpro",
+        "ipaudio-pro",
+        "alkuds-audio",
+        "footonsat"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "autotimer",
+      "name": "AutoTimer",
+      "slug": "autotimer",
+      "description": "إنشاء تسجيلات تلقائية اعتمادًا على قواعد البحث في دليل البرامج الإلكتروني.",
+      "version": "متعدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "EPG",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "AutoTimer",
+        "EPG",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "autotimer"
+      ],
+      "arabicDescription": "إنشاء تسجيلات تلقائية اعتمادًا على قواعد البحث في دليل البرامج الإلكتروني.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "epg-import",
+        "seriesplugin"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "seriesplugin",
+      "name": "SeriesPlugin",
+      "slug": "seriesplugin",
+      "description": "مساعدة في التعرف على المسلسلات وربطها بمعلومات الحلقات حسب المصدر والإعدادات.",
+      "version": "متعدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "EPG",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "SeriesPlugin",
+        "EPG",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "seriesplugin"
+      ],
+      "arabicDescription": "مساعدة في التعرف على المسلسلات وربطها بمعلومات الحلقات حسب المصدر والإعدادات.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "epg-import",
+        "autotimer"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "dreamexplorer",
+      "name": "DreamExplorer",
+      "slug": "dreamexplorer",
+      "description": "استعراض الملفات والمجلدات على جهاز Enigma2 وإدارة الملفات المدعومة.",
+      "version": "متعدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "File Managers",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "DreamExplorer",
+        "File Managers",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "dreamexplorer"
+      ],
+      "arabicDescription": "استعراض الملفات والمجلدات على جهاز Enigma2 وإدارة الملفات المدعومة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "filecommander"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "filecommander",
+      "name": "FileCommander",
+      "slug": "filecommander",
+      "description": "مدير ملفات لأجهزة Enigma2 لتصفح الملفات وتنفيذ عمليات الإدارة المتاحة.",
+      "version": "متعدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "File Managers",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "FileCommander",
+        "File Managers",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "filecommander"
+      ],
+      "arabicDescription": "مدير ملفات لأجهزة Enigma2 لتصفح الملفات وتنفيذ عمليات الإدارة المتاحة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "dreamexplorer"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "mediaportal",
+      "name": "MediaPortal",
+      "slug": "mediaportal",
+      "description": "بوابة محتوى وسائط لأجهزة Enigma2؛ يعتمد التوافق على الإصدار ومصادر المحتوى.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "Streaming",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "MediaPortal",
+        "Streaming",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "mediaportal"
+      ],
+      "arabicDescription": "بوابة محتوى وسائط لأجهزة Enigma2؛ يعتمد التوافق على الإصدار ومصادر المحتوى.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "mystreamer",
+        "enigmaplay",
+        "youtube"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "kodi-lite",
+      "name": "Kodi Lite",
+      "slug": "kodi-lite",
+      "description": "حل خفيف للوصول إلى بعض وظائف الوسائط حيث يتوفر إصدار متوافق مع صورة الجهاز.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "Media",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "Kodi Lite",
+        "Media",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "kodi-lite"
+      ],
+      "arabicDescription": "حل خفيف للوصول إلى بعض وظائف الوسائط حيث يتوفر إصدار متوافق مع صورة الجهاز.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "subssupportpro",
+        "ipaudio-pro",
+        "alkuds-audio",
+        "footonsat"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "slug": "youtube",
+      "description": "الوصول إلى محتوى YouTube عبر إضافة متوافقة مع إصدار Enigma2 المثبت.",
+      "version": "متعدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "Streaming",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "YouTube",
+        "Streaming",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "youtube"
+      ],
+      "arabicDescription": "الوصول إلى محتوى YouTube عبر إضافة متوافقة مع إصدار Enigma2 المثبت.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "mystreamer",
+        "enigmaplay",
+        "mediaportal"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "weather-plugin",
+      "name": "Weather Plugin",
+      "slug": "weather-plugin",
+      "description": "عرض حالة الطقس والتوقعات عبر خدمات ومصادر تدعمها الإضافة.",
+      "version": "متعدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "Weather",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "Weather Plugin",
+        "Weather",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "weather-plugin"
+      ],
+      "arabicDescription": "عرض حالة الطقس والتوقعات عبر خدمات ومصادر تدعمها الإضافة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "openwebif",
+      "name": "OpenWebif",
+      "slug": "openwebif",
+      "description": "واجهة ويب لإدارة الرسيفر ومشاهدة معلوماته والتحكم في بعض وظائفه عبر الشبكة.",
+      "version": "متعدد",
+      "releaseDate": "",
+      "author": "OpenWebif project",
+      "category": "Network",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": true,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "OpenWebif",
+        "Network",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "openwebif"
+      ],
+      "arabicDescription": "واجهة ويب لإدارة الرسيفر ومشاهدة معلوماته والتحكم في بعض وظائفه عبر الشبكة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "mobile-telnet"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "skin-selector",
+      "name": "SKIN Selector",
+      "slug": "skin-selector",
+      "description": "اختيار السكين وتبديله من بين الواجهات المثبتة والمتوافقة مع صورة الجهاز.",
+      "version": "متعدد",
+      "releaseDate": "",
+      "author": "مجتمع Enigma2",
+      "category": "Skins",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "",
+      "changelog": [],
+      "tags": [
+        "SKIN Selector",
+        "Skins",
+        "Enigma2",
+        "بلجن",
+        "إضافة",
+        "skin-selector"
+      ],
+      "arabicDescription": "اختيار السكين وتبديله من بين الواجهات المثبتة والمتوافقة مع صورة الجهاز.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "picons"
+      ],
+      "features": [],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "quran-kareem",
+      "name": "Quran Kareem",
+      "slug": "quran-kareem",
+      "description": "إضافة القرآن الكريم لأجهزة Enigma2؛ راجع صفحة الإضافة لمعرفة الخصائص وطريقة الاستخدام.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "Online4Tech catalog",
+      "category": "Media",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "../plugins/quran-kareem.html",
+      "changelog": [],
+      "tags": [
+        "Quran Kareem",
+        "القرآن الكريم",
+        "قرآن",
+        "Media",
+        "Enigma2"
+      ],
+      "arabicDescription": "إضافة القرآن الكريم لأجهزة Enigma2؛ راجع صفحة الإضافة لمعرفة الخصائص وطريقة الاستخدام.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "subssupportpro",
+        "ipaudio-pro",
+        "alkuds-audio",
+        "footonsat"
+      ],
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -qO - https://raw.githubusercontent.com/popking159/QuranKareem/refs/heads/main/myinstaller.sh | /bin/sh"
+        }
+      ],
+      "icon": "../images/plugins/placeholder.svg"
+    },
+    {
+      "id": "xtreamnew",
+      "name": "Xtream New",
+      "slug": "xtreamnew",
+      "description": "إضافة IPTV لأجهزة Enigma2؛ راجع صفحة التفاصيل للتعرّف على الوظائف ومصدر المشروع.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "Online4Tech catalog",
+      "category": "IPTV",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2"
+      ],
+      "rating": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "thumbnail": "../images/plugins/placeholder.svg",
+      "screenshots": [],
+      "downloadUrl": "",
+      "tutorialUrl": "../plugins/xtreamnew.html",
+      "changelog": [],
+      "tags": [
+        "Xtream New",
+        "Xtream",
+        "IPTV",
+        "Enigma2"
+      ],
+      "arabicDescription": "إضافة IPTV لأجهزة Enigma2؛ راجع صفحة التفاصيل للتعرّف على الوظائف ومصدر المشروع.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "jedi-maker-xtream",
+        "xtreamity"
+      ],
+      "features": [],
+      "telnetCommands": [
+        {
+          "label": "أمر التثبيت",
+          "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/ahmedhussein4342-lgtm/XtreamNew/main/install_xtreamnew.sh -O - | /bin/sh"
+        }
+      ],
+      "icon": "../images/plugins/placeholder.svg"
+    }
+  ]
+}
