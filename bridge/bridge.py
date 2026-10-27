@@ -19,7 +19,7 @@ PORT = 8765
 ALLOWED_ORIGIN = "https://online4tech.github.io"
 MAX_BODY = 8 * 1024 * 1024
 MAX_IPTV_FILE = 5 * 1024 * 1024
-IPTV_UPLOAD_DIR = "/etc/enigma2/iptv-imports"
+IPTV_UPLOAD_DIR = "/etc/enigma2"
 SESSION_TTL = 600
 _sessions = {}
 _sessions_lock = threading.Lock()
@@ -161,14 +161,16 @@ def upload_iptv_file(client, payload):
         raise ValueError("حجم الملف يجب أن يكون بين 1 بايت و5 ميجابايت.")
     if not content.lstrip(b"\xef\xbb\xbf\r\n \t").startswith(b"#EXTM3U"):
         raise ValueError("الملف لا يبدو كقائمة M3U صحيحة: السطر الأول المتوقع هو #EXTM3U.")
+    # /etc/enigma2 is the standard Enigma2 configuration directory across images.
+    # Do not assume an IPTV-specific subdirectory or create image-specific paths.
     directory = IPTV_UPLOAD_DIR
     path = directory + "/" + filename
     sftp = client.open_sftp()
     try:
         try:
             sftp.stat(directory)
-        except OSError:
-            sftp.mkdir(directory)
+        except OSError as exc:
+            raise RuntimeError("المجلد القياسي /etc/enigma2 غير موجود أو لا يمكن الوصول إليه على الرسيفر؛ لم يتم رفع الملف.") from exc
         with sftp.file(path, "wb") as remote:
             remote.write(content)
         info = sftp.stat(path)
