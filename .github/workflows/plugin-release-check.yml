@@ -1,0 +1,72 @@
+name: Weekly Enigma2 plugin release check
+
+on:
+  schedule:
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-plugin-release-check
+  cancel-in-progress: false
+
+jobs:
+  release-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Prepare rollback backup
+        run: cp data/plugins.json plugin-release-check-backup.json
+
+      - name: Check latest stable releases and validate generated data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -Eeuo pipefail
+          trap 'cp plugin-release-check-backup.json data/plugins.json; git checkout -- data/search-index.json sitemap.xml 2>/dev/null || true' ERR
+          python -m py_compile scripts/check_plugin_releases.py scripts/build_search_index.py scripts/build_plugin_sitemap.py
+          python scripts/check_plugin_releases.py
+          python -m json.tool data/plugins.json > /dev/null
+          python -m json.tool data/search-index.json > /dev/null
+          python -m xml.etree.ElementTree sitemap.xml > /dev/null
+
+      - name: Upload rollback backup and release report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: plugin-release-check-${{ github.run_number }}
+          path: |
+            plugin-release-check-backup.json
+            data/release-check-report.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Commit catalog and generated indexes only when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/plugins.json data/search-index.json sitemap.xml
+          if git diff --cached --quiet; then
+            echo "No release metadata changes; no commit created."
+            exit 0
+          fi
+          git commit -m "chore(plugins): check latest GitHub releases"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 3
+          done
+          echo "Push failed after retries."
+          exit 1
