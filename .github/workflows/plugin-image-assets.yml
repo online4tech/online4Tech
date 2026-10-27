@@ -1,0 +1,77 @@
+name: Discover plugin visual assets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/discover_plugin_images.py'
+      - '.github/workflows/plugin-image-assets.yml'
+      - 'images/plugins/placeholder.svg'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: plugin-image-assets
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Prepare catalog backup
+        run: cp data/plugins.json plugins-visual-assets.backup.json
+      - name: Discover icons, thumbnails and screenshots
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -Eeuo pipefail
+          python -m py_compile scripts/discover_plugin_images.py scripts/build_search_index.py scripts/build_plugin_sitemap.py
+          python scripts/discover_plugin_images.py
+          python - <<'PY'
+          import json
+          with open('data/plugins.json', encoding='utf-8') as f:
+              data = json.load(f)
+          plugins = data.get('plugins')
+          assert isinstance(plugins, list), 'plugins must be a list'
+          for plugin in plugins:
+              assert plugin.get('icon'), f"Missing icon: {plugin.get('id')}"
+              assert plugin.get('thumbnail'), f"Missing thumbnail: {plugin.get('id')}"
+              assert isinstance(plugin.get('screenshots'), list), f"Invalid screenshots: {plugin.get('id')}"
+          print(f"Validated visual fields for {len(plugins)} plugins")
+          PY
+      - name: Upload catalog backup
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: plugin-visual-assets-backup-${{ github.run_number }}
+          path: plugins-visual-assets.backup.json
+          if-no-files-found: warn
+          retention-days: 30
+      - name: Commit discovered assets when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/plugins.json data/search-index.json sitemap.xml images/plugins/
+          if git diff --cached --quiet; then
+            echo "No visual asset changes; no commit created."
+            exit 0
+          fi
+          git commit -m "chore(plugins): refresh plugin visual assets"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then exit 0; fi
+            sleep 3
+          done
+          echo "Push failed after retries."
+          exit 1
