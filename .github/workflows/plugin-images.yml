@@ -20,7 +20,7 @@ concurrency:
 
 jobs:
   collect:
-    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
+    if: github.event_name != 'push' || github.event.head_commit.message != 'feat(images): automatic GitHub plugin image discovery and gallery system'
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
