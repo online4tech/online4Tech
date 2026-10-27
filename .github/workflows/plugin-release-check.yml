@@ -40,7 +40,7 @@ jobs:
           python scripts/check_plugin_releases.py
           python -m json.tool data/plugins.json > /dev/null
           python -m json.tool data/search-index.json > /dev/null
-          python -m xml.etree.ElementTree sitemap.xml > /dev/null
+          python -c "import xml.etree.ElementTree as ET; ET.parse('sitemap.xml')"
 
       - name: Upload rollback backup and release report
         if: always()
