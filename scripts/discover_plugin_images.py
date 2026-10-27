@@ -12,10 +12,10 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "data" / "plugins.json"
-PLACEHOLDER = "../images/plugins/placeholder.svg"
+PLACEHOLDER = ""
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 API = "https://api.github.com"
-IMAGE_EXT = (".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg")
+IMAGE_EXT = (".png", ".jpg", ".jpeg", ".webp", ".gif")
 README_IMAGE = re.compile(r"!\[[^\]]*\]\((<?[^)\s>]+>?)")
 HTML_IMAGE = re.compile(r"<img\b[^>]*?src=[\"']([^\"']+)[\"']", re.I)
 
@@ -102,16 +102,15 @@ def discover(plugin):
     imgs = [p for p in paths if image_path(p)]
     def named(pattern):
         return sorted((p for p in imgs if re.fullmatch(pattern, Path(p).name, re.I)), key=lambda p: (p.count("/"), p.lower()))
-    icons = named(r"icon\.(png|jpe?g|webp|svg)")
-    logos = named(r"logo\.(png|jpe?g|webp|svg)")
-    banners = named(r"banner\.(png|jpe?g|webp|svg)")
-    screenshot_files = sorted((p for p in imgs if re.match(r"screenshot[^/]*\.(png|jpe?g|webp|gif)$", Path(p).name, re.I)), key=lambda p: (p.count("/"), p.lower()))
+    icons = named(r"icon\.(png|jpe?g|webp)")
+    logos = named(r"logo\.(png|jpe?g|webp)") + named(r"plugin-logo\.(png|jpe?g|webp)")
+    screenshot_files = sorted((p for p in imgs if re.match(r"(screenshot|screen|preview|demo|image)[^/]*\.(png|jpe?g|webp|gif)$", Path(p).name, re.I) and any(seg.lower() in ("screenshots", "images", "assets", "docs") for seg in p.split("/")[:-1])), key=lambda p: (p.count("/"), p.lower()))
     folder_images = sorted((p for p in imgs if any(seg.lower() in ("screenshots", "images", "assets") for seg in p.split("/")[:-1])), key=lambda p: (0 if "screenshots" in p.lower() else 1 if "images" in p.lower() else 2, p.lower()))
     readme_images = readme_urls(owner, name, branch, paths)
 
     def urls(paths_):
         return [raw_url(owner, name, branch, p) for p in paths_]
-    icon_url = (urls(icons) or urls(logos) or urls(screenshot_files) or urls(folder_images) or readme_images or [None])[0]
+    icon_url = (urls(icons) or urls(logos) or [None])[0]
     gallery = []
     gallery.extend(urls(screenshot_files))
     gallery.extend(urls([p for p in folder_images if "screenshots" in p.lower()]))
@@ -122,8 +121,8 @@ def discover(plugin):
     for u in gallery:
         if u and u != icon_url and u not in unique and len(unique) < 12:
             unique.append(u)
-    thumbnail_url = (unique or urls(logos) or urls(banners) or [icon_url])[0]
-    return {"icon": icon_url, "thumbnail": thumbnail_url, "screenshots": unique, "githubStars": int(meta.get("stargazers_count") or 0)}
+    thumbnail_url = icon_url or ""
+    return {"icon": icon_url or "", "thumbnail": thumbnail_url, "logoFound": bool(icon_url), "screenshots": unique, "githubStars": int(meta.get("stargazers_count") or 0)}
 
 
 def main():
@@ -136,43 +135,34 @@ def main():
     for plugin in plugins:
         found = discover(plugin)
         if found is None:
-            found = {"icon": None, "thumbnail": None, "screenshots": [], "githubStars": int(plugin.get("githubStars") or 0)}
+            found = {"icon": "", "thumbnail": "", "logoFound": False, "screenshots": [], "githubStars": int(plugin.get("githubStars") or 0)}
         scanned += bool(repo_key(plugin))
         old_icon = str(plugin.get("icon") or "")
         old_thumb = str(plugin.get("thumbnail") or "")
-        existing_shots = plugin.get("screenshots") if isinstance(plugin.get("screenshots"), list) else []
-        shot_fallback = next((item if isinstance(item, str) else item.get("url", "") for item in (found["screenshots"] + existing_shots) if (item if isinstance(item, str) else item.get("url", ""))), "")
-        new_icon = found["icon"] or (old_icon if old_icon and "placeholder.svg" not in old_icon else shot_fallback or PLACEHOLDER)
-        new_thumb = found["thumbnail"] or (old_thumb if old_thumb and "placeholder.svg" not in old_thumb else shot_fallback or new_icon or PLACEHOLDER)
-        # A real repository image outranks a generic fallback; existing manually curated images remain if no discovery succeeds.
+        new_icon = found.get("icon") or ""
+        new_thumb = found.get("thumbnail") or ""
         if new_icon != old_icon:
             plugin["icon"] = new_icon
             changed = True
         if new_thumb != old_thumb:
             plugin["thumbnail"] = new_thumb
             changed = True
-        previous = plugin.get("screenshots")
-        previous = previous if isinstance(previous, list) else []
-        combined = []
-        for item in (found["screenshots"] + previous):
-            value = item if isinstance(item, str) else (item.get("url", "") if isinstance(item, dict) else "")
-            if value and value not in combined:
-                combined.append(value)
-        if combined != previous:
-            plugin["screenshots"] = combined[:12]
+        logo_found = bool(found.get("logoFound") and new_icon)
+        if plugin.get("logoFound") is not logo_found:
+            plugin["logoFound"] = logo_found
             changed = True
-        elif not isinstance(plugin.get("screenshots"), list):
+        # The local asset workflow owns screenshot downloads and stores them under images/plugins/{slug}/.
+        existing = plugin.get("screenshots") if isinstance(plugin.get("screenshots"), list) else []
+        local_shots = [x for x in existing if isinstance(x, str) and x.startswith("images/plugins/") and re.search(r"/screenshot-\\d+\\.webp$", x)]
+        if local_shots != existing:
+            plugin["screenshots"] = local_shots
+            changed = True
+        elif "screenshots" not in plugin:
             plugin["screenshots"] = []
             changed = True
         stars = int(found.get("githubStars") or plugin.get("githubStars") or 0)
         if stars != int(plugin.get("githubStars") or 0):
             plugin["githubStars"] = stars
-            changed = True
-        if not plugin.get("icon"):
-            plugin["icon"] = PLACEHOLDER
-            changed = True
-        if not plugin.get("thumbnail"):
-            plugin["thumbnail"] = plugin["icon"] or PLACEHOLDER
             changed = True
         if "screenshots" not in plugin:
             plugin["screenshots"] = []
