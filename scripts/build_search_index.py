@@ -5,6 +5,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse, urldefrag
 import json
 import re
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://online4tech.github.io/online4Tech/"
@@ -172,6 +173,27 @@ def main():
                 target_path = "index.html"
             add(make_record(link_text, desc, absolute, category_for(target_path, link_text, desc),
                             brand_for(link_text + " " + desc, target_path), type_for(target_path, link_text, desc)))
+    # Include catalog plugins in the global search index, even though their detail pages are query-driven.
+    catalog_path = ROOT / "data" / "plugins.json"
+    if catalog_path.exists():
+        try:
+            catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+            for plugin in catalog.get("plugins", []):
+                pid = clean(str(plugin.get("id", "")))
+                title = clean(plugin.get("name", ""))
+                if not pid or not title:
+                    continue
+                description = clean(plugin.get("arabicDescription") or plugin.get("description") or title)
+                target = BASE + "plugins/plugin.html?id=" + pid
+                record = make_record(title, description, target, "إضافات",
+                                     brand_for(title + " " + description), "Plugin",
+                                     str(plugin.get("version") or ""))
+                key = (record["title"].casefold(), record["url"])
+                if key not in seen:
+                    seen.add(key)
+                    records.append(record)
+        except (OSError, json.JSONDecodeError) as exc:
+            print(f"Warning: could not add catalog plugins to search index: {exc}", file=sys.stderr)
     records.sort(key=lambda item: (item["category"], item["title"].casefold(), item["url"]))
     out = ROOT / "data" / "search-index.json"
     out.parent.mkdir(parents=True, exist_ok=True)
