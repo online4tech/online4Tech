@@ -58,9 +58,20 @@ jobs:
           const data = JSON.parse(fs.readFileSync('data/plugins.json', 'utf8'));
           const report = JSON.parse(fs.readFileSync('data/image-report.json', 'utf8'));
           if (!Array.isArray(data.plugins)) throw new Error('Invalid plugin catalog');
+          const path = require('node:path');
           for (const p of data.plugins) {
             if (!p.icon || !p.thumbnail || !Array.isArray(p.screenshots)) {
               throw new Error('Missing image fields: ' + (p.id || p.name));
+            }
+            const iconName = path.posix.basename(p.icon).toLowerCase();
+            const thumbnailName = path.posix.basename(p.thumbnail).toLowerCase();
+            if (iconName !== 'icon.webp') throw new Error('Plugin icon must be icon.webp: ' + (p.id || p.name) + ' => ' + p.icon);
+            if (/(screenshot|preview|banner|header)/i.test(iconName)) throw new Error('Forbidden screenshot/banner icon: ' + (p.id || p.name));
+            if (thumbnailName !== 'thumbnail.webp') throw new Error('Plugin thumbnail must be thumbnail.webp: ' + (p.id || p.name));
+            for (const shot of p.screenshots) {
+              if (!/^screenshot-\\d+\\.webp$/i.test(path.posix.basename(shot))) {
+                throw new Error('Gallery item must use screenshot-N.webp: ' + (p.id || p.name) + ' => ' + shot);
+              }
             }
           }
           if (!Array.isArray(report.missingImages) || !Array.isArray(report.failedRepositories)) {
