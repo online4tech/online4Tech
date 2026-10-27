@@ -64,14 +64,14 @@ jobs:
               throw new Error('Missing logo/gallery fields: ' + (p.id || p.name));
             }
             if (p.logoFound) {
-              if (!p.icon || !p.thumbnail || !/^images\\/plugins\\/[^/]+\\/icon\\.webp$/i.test(p.icon) || !/^images\\/plugins\\/[^/]+\\/thumbnail\\.webp$/i.test(p.thumbnail)) {
+              if (!p.icon || !p.thumbnail || !/^images\/plugins\/[^/]+\/icon\.webp$/i.test(p.icon) || !/^images\/plugins\/[^/]+\/thumbnail\.webp$/i.test(p.thumbnail)) {
                 throw new Error('A verified logo must use stored icon.webp and thumbnail.webp assets: ' + (p.id || p.name));
               }
             } else if (p.icon || p.thumbnail) {
               throw new Error('A plugin without a verified logo must not reference an icon/thumbnail: ' + (p.id || p.name));
             }
             for (const shot of p.screenshots) {
-              if (!/^images\\/plugins\\/[^/]+\\/screenshot-\\d+\\.webp$/i.test(shot)) {
+              if (!/^images\/plugins\/[^/]+\/screenshot-\d+\.webp$/i.test(shot)) {
                 throw new Error('Gallery item must be a locally stored screenshot-N.webp: ' + (p.id || p.name) + ' => ' + shot);
               }
             }
