@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Online4Tech local Enigma2 bridge. Binds to loopback only."""
+import base64
 import ipaddress
 import json
+import os
+import re
 import threading
 import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -14,7 +17,9 @@ except ImportError:
 HOST = "127.0.0.1"
 PORT = 8765
 ALLOWED_ORIGIN = "https://online4tech.github.io"
-MAX_BODY = 64 * 1024
+MAX_BODY = 8 * 1024 * 1024
+MAX_IPTV_FILE = 5 * 1024 * 1024
+IPTV_UPLOAD_DIR = "/etc/enigma2/iptv-imports"
 SESSION_TTL = 600
 _sessions = {}
 _sessions_lock = threading.Lock()
@@ -141,6 +146,39 @@ def run_operation(client, operation, custom_command=None):
     return out.decode("utf-8", "replace"), err.decode("utf-8", "replace"), code
 
 
+def upload_iptv_file(client, payload):
+    filename = os.path.basename(str(payload.get("filename") or "").strip())
+    if not filename or not re.fullmatch(r"[A-Za-z0-9 _().-]+\.m3u8?", filename, re.IGNORECASE):
+        raise ValueError("اسم الملف غير صالح. استخدم اسمًا إنجليزيًا بسيطًا وينتهي بـ .m3u أو .m3u8.")
+    encoded = str(payload.get("content_base64") or "")
+    if not encoded or len(encoded) > ((MAX_IPTV_FILE + 2) // 3) * 4 + 8:
+        raise ValueError("محتوى الملف فارغ أو أكبر من الحد المسموح.")
+    try:
+        content = base64.b64decode(encoded, validate=True)
+    except Exception:
+        raise ValueError("تعذر قراءة محتوى الملف المرسل.")
+    if not content or len(content) > MAX_IPTV_FILE:
+        raise ValueError("حجم الملف يجب أن يكون بين 1 بايت و5 ميجابايت.")
+    if not content.lstrip(b"\\xef\\xbb\\xbf\\r\\n \\t").startswith(b"#EXTM3U"):
+        raise ValueError("الملف لا يبدو كقائمة M3U صحيحة: السطر الأول المتوقع هو #EXTM3U.")
+    directory = IPTV_UPLOAD_DIR
+    path = directory + "/" + filename
+    sftp = client.open_sftp()
+    try:
+        try:
+            sftp.stat(directory)
+        except OSError:
+            sftp.mkdir(directory)
+        with sftp.file(path, "wb") as remote:
+            remote.write(content)
+        info = sftp.stat(path)
+        if info.st_size != len(content):
+            raise RuntimeError("التحقق من حجم الملف بعد الرفع لم ينجح.")
+        return {"filename": filename, "path": path, "size": info.st_size}
+    finally:
+        sftp.close()
+
+
 def session_reaper():
     while True:
         time.sleep(60)
@@ -206,7 +244,7 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         try:
-            if self.path not in ("/run", "/download-backup"):
+            if self.path not in ("/run", "/download-backup", "/upload-iptv"):
                 self.send_json(404, {"ok": False, "error": "المسار غير موجود."})
                 return
             payload = self.read_payload()
@@ -216,6 +254,9 @@ class Handler(BaseHTTPRequestHandler):
             if self.path == "/run":
                 output, error, code = run_operation(client, str(payload.get("operation") or ""), str(payload.get("command_text") or ""))
                 self.send_json(200, {"ok": code == 0, "output": output, "error": error, "exit_code": code})
+            elif self.path == "/upload-iptv":
+                result = upload_iptv_file(client, payload)
+                self.send_json(200, {"ok": True, **result})
             elif self.path == "/download-backup":
                 archive = create_backup(client)
                 self.send_response(200)
