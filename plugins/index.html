@@ -3,152 +3,33 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#07111f">
-<meta name="description" content="دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.">
-<title>قائمة البلجن | Online4Tech</title>
-<style>
-:root{--ink:#edf3fc;--muted:#aab8cc;--blue:#3478f6;--cyan:#30b8c8;--orange:#ffad60;--line:#2b3a50;--shadow:0 18px 45px #0004}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#101827 0,#141f30 48%,#0d1522 100%);color:var(--ink);font-family:Tahoma,Arial,sans-serif;line-height:1.85}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
-header{position:sticky;top:0;z-index:10;background:#101827ed;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:12px 0}.brand{display:flex;align-items:center;gap:10px;min-width:0}.site-logo-brand img{display:block;width:clamp(155px,19vw,220px);max-height:58px;object-fit:contain;object-position:right center}.brand-slogan{display:block;color:var(--muted);font-size:.74rem;white-space:nowrap}.brand strong{display:block;font-size:1.12rem}.brand small{display:block;color:var(--muted);font-size:.74rem}.nav{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.nav a{padding:10px 15px;border-radius:13px;color:#fff;font-size:.88rem;font-weight:bold;white-space:nowrap;border:1px solid #ffffff80;box-shadow:0 4px 0 #00000017,0 8px 15px #2a426b18;transition:transform .18s,filter .18s}.nav a:hover{transform:translateY(-3px);filter:brightness(1.04)}.nav-home{background:linear-gradient(135deg,#448cff,#2864df)}.nav-library{background:linear-gradient(135deg,#26b9b4,#168b91)}.nav-guide{background:linear-gradient(135deg,#ffb45f,#f08a36)}.nav-detail{background:linear-gradient(135deg,#fa7f9d,#e75079)}
-.hero{padding:46px 0 20px}.tag{display:inline-flex;align-items:center;gap:8px;background:#15353b;color:#72d9d2;border:1px solid #24535a;border-radius:999px;padding:5px 13px;font-size:.8rem;font-weight:bold}.hero h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.28;margin:14px 0 10px;letter-spacing:-.5px}.hero p{color:var(--muted);margin:0;max-width:760px}.tools{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:22px}.search{width:min(100%,420px);padding:12px 15px;border:1px solid #d6e0ee;border-radius:13px;background:#19263a;color:var(--ink);border-color:#34445c;font:inherit;outline:none}.search:focus{border-color:var(--blue);box-shadow:0 0 0 3px #3478f61a}.count{color:var(--muted);font-size:.88rem}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding:18px 0 52px}.topic{position:relative;overflow:hidden;display:block;background:#19263a;border:1px solid var(--line);border-radius:20px;padding:21px;box-shadow:var(--shadow);transition:transform .2s,border-color .2s,box-shadow .2s}.topic:hover{transform:translateY(-4px);border-color:#b8cff7;box-shadow:0 22px 48px #2a426b17}.icon{display:grid;place-items:center;width:54px;height:54px;border-radius:17px;background:#24364f;color:#8db7ff;font-size:1.8rem}.topic h2{font-size:1.1rem;line-height:1.5;margin:12px 0 7px}.topic p{color:var(--muted);margin:0 0 14px;font-size:.9rem}.link{display:inline-flex;color:#9fc2ff;font-weight:bold;background:#24364f;border:1px solid #344d70;padding:6px 11px;border-radius:10px;font-size:.87rem}.topic:after{content:"";position:absolute;left:-32px;bottom:-42px;width:105px;height:105px;border-radius:50%;background:#24364f;pointer-events:none}.topic:focus-visible{outline:3px solid var(--blue);outline-offset:3px}.empty{display:none;padding:24px;background:#19263a;border:1px dashed #34445c;border-radius:16px;color:var(--muted);text-align:center;margin:0 0 35px}footer{margin-top:12px;background:#101827;border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:.85rem}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
-@media(max-width:850px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.top{align-items:flex-start;flex-direction:column}.site-logo-brand img{width:190px}.brand-slogan{white-space:normal}.nav{width:100%;gap:7px}.nav a{padding:9px 11px;font-size:.82rem}}
-@media(max-width:520px){.grid{grid-template-columns:1fr;gap:12px}.topic{padding:18px}.hero{padding-top:32px}.hero h1{font-size:2.2rem}.nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.nav a{text-align:center}}
-</style>
-<style id="online4tech-dark-polish">
-:root{color-scheme:dark;--ink:#f1f6ff;--muted:#a8bad0;--blue:#67d2ff;--cyan:#30b8c8;--orange:#f2c879;--line:#263d58;--shadow:0 18px 45px #0004}
-body{background:radial-gradient(ellipse at 82% -8%,#163b5d 0,transparent 38%),radial-gradient(ellipse at 0 40%,#102441 0,transparent 35%),#07111f;color:var(--ink)}
-header{background:#07111fee;border-bottom-color:#263d58}
-.topic,.empty{background:linear-gradient(155deg,#11243a,#0b1727);border-color:#29435f;color:#f4f8ff}
-.topic:hover{border-color:#67d2ff;box-shadow:0 22px 48px #0005}
-.icon{background:#17334f;color:#67d2ff}
-.link{color:#8bdcff;background:#10243a;border-color:#2b4865}
-.search{background:#071421;color:#f4f8ff;border-color:#2c4662}
-.search::placeholder{color:#8095af}
-.search:focus{border-color:#67d2ff;box-shadow:0 0 0 3px #67d2ff20}
-footer{background:#050c16;border-top-color:#263d58}
-.topic:focus-visible{outline-color:#67d2ff}
-</style>
-
-<style id="online4tech-plugin-rows">
-/* Long plugin rows with an inset name plate and details revealed on hover */
-#pluginGrid.grid{display:flex;flex-direction:column;gap:13px;padding:18px 0 52px}
-#pluginGrid .topic{
-  display:grid;grid-template-columns:52px minmax(190px,270px) minmax(0,1fr);
-  grid-template-rows:auto auto;align-items:center;column-gap:18px;row-gap:3px;
-  min-height:112px;padding:16px 20px;border-radius:17px;
-  background:linear-gradient(105deg,#0b1727 0%,#11243a 100%);
-  border:1px solid #29435f;box-shadow:0 10px 25px #0002;
-}
-#pluginGrid .topic:after{left:auto;right:-34px;bottom:-52px;width:110px;height:110px;background:#18334c;opacity:.45}
-#pluginGrid .topic .icon{grid-column:1;grid-row:1 / span 2;width:48px;height:48px;border-radius:13px;font-size:1.55rem;z-index:1}
-#pluginGrid .topic h2{
-  grid-column:2;grid-row:1 / span 2;position:relative;z-index:1;
-  margin:0;padding:13px 15px;border-radius:12px;
-  background:#132a42;border:1px solid #315372;
-  box-shadow:inset 0 1px 0 #ffffff08;
-  font-size:1rem;line-height:1.6;transition:background .2s,border-color .2s,color .2s;
-}
-#pluginGrid .topic p{
-  grid-column:3;grid-row:1;margin:0;position:relative;z-index:1;
-  color:#c0cee0;font-size:.91rem;line-height:1.8;
-  opacity:0;max-height:0;overflow:hidden;transform:translateX(-5px);
-  transition:opacity .2s,max-height .25s,transform .2s;
-}
-#pluginGrid .topic .link{
-  grid-column:3;grid-row:2;justify-self:start;position:relative;z-index:1;
-  margin-top:5px;opacity:0;max-height:0;overflow:hidden;padding-top:0;padding-bottom:0;
-  transition:opacity .2s,max-height .25s,padding .2s;
-}
-#pluginGrid .topic:hover,#pluginGrid .topic:focus-visible{
-  border-color:#67d2ff;box-shadow:0 16px 34px #0004;transform:translateY(-2px);
-}
-#pluginGrid .topic:hover h2,#pluginGrid .topic:focus-visible h2{background:#173954;border-color:#67d2ff;color:#fff}
-#pluginGrid .topic:hover p,#pluginGrid .topic:focus-visible p{opacity:1;max-height:180px;transform:translateX(0)}
-#pluginGrid .topic:hover .link,#pluginGrid .topic:focus-visible .link{opacity:1;max-height:44px;padding-top:6px;padding-bottom:6px}
-#pluginGrid .topic:focus-visible{outline:3px solid #67d2ff;outline-offset:3px}
-#pluginGrid .topic[hidden]{display:none!important}
-@media(hover:none),(max-width:650px){
-  #pluginGrid .topic{grid-template-columns:42px minmax(0,1fr);column-gap:12px;padding:14px;min-height:0}
-  #pluginGrid .topic .icon{grid-column:1;grid-row:1;width:40px;height:40px;font-size:1.25rem}
-  #pluginGrid .topic h2{grid-column:2;grid-row:1;padding:9px 11px;font-size:.95rem}
-  #pluginGrid .topic p{grid-column:1 / -1;grid-row:2;opacity:1;max-height:none;overflow:visible;transform:none;margin-top:8px}
-  #pluginGrid .topic .link{grid-column:1 / -1;grid-row:3;opacity:1;max-height:none;padding-top:6px;padding-bottom:6px;margin-top:4px}
-}
-@media(prefers-reduced-motion:reduce){
-  #pluginGrid .topic,#pluginGrid .topic *{transition:none!important;scroll-behavior:auto!important}
-}
-</style>
-
-<style id="plugin-thumbnail-styles">
-/* Compact thumbnails beside plugin names */
-#pluginGrid .topic .plugin-thumb{position:relative;display:grid;place-items:center;overflow:hidden;background:#0a1727;border:1px solid #31506e;border-radius:12px}
-#pluginGrid .topic .plugin-thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-#pluginGrid .topic .plugin-thumb .thumb-fallback-icon{position:relative;z-index:1;display:grid;place-items:center;width:100%;height:100%;font-size:1.65rem;background:linear-gradient(145deg,#183957,#0b1727)}
-#pluginGrid .topic .plugin-thumb:not(.thumb-fallback) .thumb-fallback-icon{display:none}
-#pluginGrid .topic .plugin-thumb img:not([src]),#pluginGrid .topic .plugin-thumb img[style*="display: none"]{display:none}
-@media(max-width:600px){#pluginGrid .topic{grid-template-columns:48px minmax(0,1fr);grid-template-rows:auto auto auto;column-gap:12px}#pluginGrid .topic .icon{grid-column:1;grid-row:1 / span 2;width:46px;height:46px}#pluginGrid .topic h2{grid-column:2;grid-row:1 / span 2}#pluginGrid .topic p,#pluginGrid .topic .link{grid-column:1 / -1}}
-</style>
-
-<style id="plugin-row-final-layout">
-/* Previous row layout, with the details action removed. */
-#pluginGrid .topic-shell{width:100%;min-width:0}
-#pluginGrid .topic{display:grid;grid-template-columns:120px minmax(0,1fr) minmax(190px,270px) 48px;grid-template-rows:auto auto;direction:ltr;align-items:center;column-gap:16px;row-gap:4px}
-#pluginGrid .topic .gallery-link{grid-column:1;grid-row:1 / span 2;justify-self:start;align-self:center;position:relative;z-index:2;margin:0;white-space:nowrap;direction:rtl}
-#pluginGrid .topic p{grid-column:2;grid-row:1;direction:rtl;text-align:right;color:#d8e5f6;opacity:1;max-height:none;overflow:visible;transform:none;margin:0;align-self:center}
-#pluginGrid .topic h2{grid-column:3;grid-row:1 / span 2;direction:rtl;text-align:right;margin:0}
-#pluginGrid .topic .icon{grid-column:4;grid-row:1 / span 2}
-#pluginGrid .topic:hover p,#pluginGrid .topic:focus-visible p{opacity:1;max-height:none;transform:none}
-@media(hover:none),(max-width:650px){
- #pluginGrid .topic{grid-template-columns:108px minmax(0,1fr) 40px;grid-template-rows:auto auto auto;column-gap:10px;row-gap:6px;padding:14px}
- #pluginGrid .topic h2{grid-column:2;grid-row:1;padding:0;margin:0}
- #pluginGrid .topic .icon{grid-column:3;grid-row:1 / span 2;width:40px;height:40px}
- #pluginGrid .topic p{grid-column:2;grid-row:2;margin:0;opacity:1;max-height:none;overflow:visible;transform:none}
- #pluginGrid .topic .gallery-link{grid-column:1;grid-row:1 / span 2;justify-self:start;align-self:center;position:relative;z-index:2;margin:0;white-space:nowrap}
-}
-@media(prefers-reduced-motion:reduce){#pluginGrid .topic,#pluginGrid .topic *{transition:none!important}}
-</style><link rel="canonical" href="https://online4tech.github.io/online4Tech/plugins/index.html">
-<meta property="og:title" content="قائمة البلجن | Online4Tech">
-<meta property="og:description" content="دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.">
-<meta property="og:image" content="https://online4tech.github.io/online4Tech/assets/site-logo.svg">
-<meta property="og:url" content="https://online4tech.github.io/online4Tech/plugins/index.html">
+<title>مركز بلجنز Enigma2 | Online4Tech</title>
+<meta name="description" content="مركز Online4Tech لبلجنز Enigma2: اكتشف الإضافات وابحث عنها وصفّيها حسب الفئة والجهاز وصورة النظام.">
+<link rel="canonical" href="https://online4tech.github.io/online4Tech/plugins/">
+<meta property="og:title" content="مركز بلجنز Enigma2 | Online4Tech"><meta property="og:description" content="اكتشف إضافات Enigma2 وابحث عنها حسب الفئة والتوافق."><meta property="og:type" content="website"><meta property="og:url" content="https://online4tech.github.io/online4Tech/plugins/">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"قائمة البلجن | Online4Tech","description":"دليل بلجنز Enigma2 على Online4Tech: تفاصيل البلجنز وطريقة التثبيت والاستخدام.","url":"https://online4tech.github.io/online4Tech/plugins/index.html","inLanguage":"ar"}</script>
+<link rel="stylesheet" href="../assets/site-header.css?v=4"><link rel="stylesheet" href="../css/plugins.css">
+<script defer src="../assets/site-header.js?v=4"></script>
+<script defer src="../js/plugins-search.js"></script><script defer src="../js/plugins-filters.js"></script><script defer src="../js/plugins.js"></script>
 </head>
 <body>
-<header><div class="wrap top">
-<a class="brand site-logo-brand" href="../index.html" aria-label="Online4Tech - خليك دايما اونلاين"><img loading="lazy" src="../assets/site-logo.svg" alt="Online4Tech — خليك دايما اونلاين"><span class="brand-slogan">خليك دايمًا أونلاين… التقنية أسهل</span></a>
-<nav class="nav" aria-label="القائمة الرئيسية"><a class="nav-home" href="../index.html">الرئيسية</a><a class="nav-library" href="../library.html">مكتبة التحميل</a><a class="nav-guide" href="../tutorials.html">دليل الشرح</a><a class="nav-detail" href="../tutorials.html">الشروحات التفصيلية</a></nav>
-</div></header>
-<main class="wrap">
-<section class="hero"><span class="tag">🧩 دليل Online4Tech</span><h1>قائمة البلجنز</h1><p>كل البلجنز في مكان واحد، بتصميم متناسق مع الموقع. اختار البلجن لعرض التفاصيل وطريقة التثبيت والاستخدام.</p>
-<div class="tools"><input id="pluginSearch" class="search" type="search" placeholder="ابحث باسم البلجن أو وظيفته..." aria-label="ابحث في البلجنز"><span class="count" id="pluginCount">16 بلجن</span></div>
-</section>
-<section class="grid" id="pluginGrid" aria-label="قائمة البلجنز">
-<a class="topic" href="picons.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🖼️</span></div><h2>بيكونات القنوات (Picons)</h2><p>صور وشعارات القنوات اللي بتظهر جنب اسم القناة في قائمة القنوات والواجهة، لتسهيل التعرّف على القنوات وإضافة شكل منظم للرسيفر.</p></a>
-<a class="topic" href="enigmaplay.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🛍️</span></div><h2>EnigmaPlay — متجر بلجنز Enigma2</h2><p>متجر شبيه بجوجل بلاي للرسيفر، يضم أكثر من 200 بلجن حسب وصف المشروع، مع التثبيت والتحديث وإدارة البلجنز.</p></a>
-<a class="topic" href="ultraaudio.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🎧</span></div><h2>UltraAudio للصوتيات</h2><p>أمر التثبيت عبر Telnet / SSH، طريقة التثبيت، ومعلومات البلجن.</p></a>
-<a class="topic" href="alkuds-audio.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🔊</span></div><h2>القدس لتشغيل الصوتيات</h2><p>أمر التثبيت عبر Telnet / SSH، وخطوات التثبيت ومعلومات المصدر.</p></a>
-<a class="topic" href="footonsat.html"><div class="icon plugin-thumb"><img src="https://user-images.githubusercontent.com/43075184/115863673-50b95300-a425-11eb-9862-5f1261a6de74.jpg" alt="صورة footonsat" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('thumb-fallback')"><span class="thumb-fallback-icon">⚽</span></div><h2>FootOnSat لمواعيد وتفاصيل المباريات</h2><p>مواعيد المباريات والنتائج المباشرة والترتيب والتنبيهات، مع صور من المستودع.</p></a>
-<a class="topic" href="arabicsavior.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🔤</span></div><h2>المنقذ ArabicSavior لاستعادة اللغة العربية</h2><p>إصلاح الخطوط العربية وتغيير نوع الخط في واجهة Enigma2.</p></a>
-<a class="topic" href="quran-kareem.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">📖</span></div><h2>Quran Kareem</h2><p>بلجن القرآن الكريم لأجهزة Enigma2 — تفاصيل المصدر والتثبيت.</p></a>
-<a class="topic" href="ipaudio-pro.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🎧</span></div><h2>IP Audio Pro للصوتيات</h2><p>قوائم تشغيل متعددة، تحكم بالصوت، وإدارة عبر واجهة الويب مع صور حقيقية.</p></a>
-<a class="topic" href="subssupportpro.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">💬</span></div><h2>SubsSupportPro للترجمة</h2><p>البحث عن الترجمات، اختيارها وضبط تزامنها مع الفيديو، مع مراجع للمميزات.</p></a>
-<a class="topic" href="raedquicksignal.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">📡</span></div><h2>RaedQuickSignal لعرض الإشارة</h2><p>عرض SNR وAGC ومعلومات التشفير وPicons مع إمكانية تنزيل صور القنوات.</p></a>
-<a class="topic" href="ajpanel.html"><div class="icon plugin-thumb"><img src="https://raw.githubusercontent.com/AMAJamry/AJPanel/main/help/ChannelsBrowser.jpg" alt="صورة ajpanel" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('thumb-fallback')"><span class="thumb-fallback-icon">🧰</span></div><h2>AJPanel لوحة الأدوات</h2><p>إدارة الملفات والقنوات وIPTV وPicons وEPG والشبكة والنسخ الاحتياطي ومراقبة الإشارة.</p></a>
-<a class="topic" href="timeshift-delay.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">⏱️</span></div><h2>TimeShift Delay</h2><p>إضافة خيار لتحديد تأخير بدء التايم شفت بالثواني، مع خيارات تصل إلى 30 ثانية حسب وصف الإصدار.</p></a>
-<a class="topic" href="xtreamnew.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">📺</span></div><h2>XtreamNew لتشغيل IPTV</h2><p>البث المباشر والأفلام والمسلسلات وEPG، مع متطلبات التوافق وملاحظات الأمان.</p></a>
-<a class="topic" href="mystreamer.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🎬</span></div><h2>MyStreamer 1.0.0 للأفلام والمسلسلات والرياضة</h2><p>29 موقعًا عربيًا للأفلام والمسلسلات و4 مواقع رياضية، مع أمر التثبيت وملاحظات التوافق والمعماريات.</p></a>
-<a class="topic" href="mobile-telnet.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">📱</span></div><h2>شرح تطبيق Mobile Telnet</h2><p>طريقة الاتصال برسيفر Enigma2 من الموبايل، إدخال عنوان IP، تسجيل الدخول وتنفيذ الأوامر الأساسية بأمان.</p></a>
-
-<a class="topic" href="scripts-tools.html"><div class="icon plugin-thumb thumb-fallback"><span class="thumb-fallback-icon">🛠️</span></div><h2>سكريبتات وأدوات Enigma2</h2><p>مكتبة منظمة للسكريبتات والأدوات والبانلات والسمات وملفات الباك أب، مع البحث والتصنيف وروابط المصدر والتنزيل.</p></a>
-</section><div class="empty" id="emptyState">مفيش بلجن مطابق لكلمة البحث. جرّب كلمة تانية.</div>
-</main>
-<footer><div class="wrap foot"><span>© Online4Tech — التقنية أسهل</span><a href="../index.html">الرجوع للصفحة الرئيسية ↑</a></div></footer>
-<script>
-const search=document.getElementById('pluginSearch'),cards=[...document.querySelectorAll('.topic')],count=document.getElementById('pluginCount'),empty=document.getElementById('emptyState');
-function filterPlugins(){const q=search.value.trim().toLocaleLowerCase('ar');let visible=0;cards.forEach(card=>{const show=card.textContent.toLocaleLowerCase('ar').includes(q);card.hidden=!show;if(show)visible++});count.textContent=visible+' من '+cards.length+' بلجن';empty.style.display=visible?'none':'block'}
-search.addEventListener('input',filterPlugins);
-</script>
-<script src="../assets/gallery-buttons.js?v=7" defer></script>
-<script src="../assets/site-header.js?v=5" defer></script>
+<header class="site-top"><div class="container topbar"><a href="../index.html" class="brand"><img src="../assets/site-logo.svg" alt="Online4Tech" width="210" height="55"><span>مركز إضافات Enigma2</span></a><nav><a href="../index.html">الرئيسية</a><a href="../library.html">مكتبة التحميل</a><a href="../tutorials.html">الشروحات</a></nav></div></header>
+<main class="container">
+<section class="hero"><div class="eyebrow">✦ ONLINE4TECH PLUGIN CENTER</div><h1>كل إضافات <span>Enigma2</span> في مكان واحد</h1><p>اكتشف الإضافات، راجع التوافق، وابحث بسرعة حسب الاسم أو الوظيفة أو صورة النظام. راجع تفاصيل كل إضافة قبل التثبيت.</p>
+<div class="searchbar"><span aria-hidden="true">⌕</span><input id="pluginSearch" type="search" placeholder="ابحث بالاسم أو الوصف أو المطوّر… / Search plugins" autocomplete="off" aria-label="البحث عن بلجن"><button id="clearSearch" type="button" aria-label="مسح البحث">✕</button></div>
+<div class="stats"><div><strong id="statTotal">—</strong><span>إضافة بالفهرس</span></div><div><strong id="statCategories">11</strong><span>فئة</span></div><div><strong>Enigma2</strong><span>المنصة</span></div><div><strong>AR + EN</strong><span>بحث عربي وإنجليزي</span></div></div></section>
+<section class="category-section"><div class="section-heading"><div><small>تصفّح حسب الاستخدام</small><h2>الفئات</h2></div><button class="text-button" id="showAllCategories">عرض الكل</button></div><div class="category-chips" id="categoryChips"></div></section>
+<div class="catalog-layout">
+<aside class="filters" id="filterPanel"><div class="filter-head"><h2>تصفية النتائج</h2><button id="resetFilters" type="button">إعادة ضبط</button></div>
+<label>الفئة<select id="categoryFilter"><option value="">كل الفئات</option></select></label>
+<label>الجهاز<select id="deviceFilter"><option value="">كل الأجهزة</option><option>VU+</option><option>Dreambox</option><option>Octagon</option><option>Other Enigma2</option></select></label>
+<label>صورة النظام<select id="imageFilter"><option value="">كل الصور</option><option>OpenATV</option><option>OpenViX</option><option>Egami</option><option>OpenPLi</option></select></label>
+<label>التوافق<select id="compatFilter"><option value="">كل حالات التوافق</option><option value="listed">التوافق موضح</option><option value="tutorial">له صفحة تفاصيل أو شرح</option><option value="download">رابط تنزيل مباشر متاح</option></select></label>
+<label>المميزات<select id="featureFilter"><option value="">كل الإضافات</option><option value="featured">مميزة</option><option value="tutorial">لها شرح</option><option value="download">رابط تنزيل مباشر</option></select></label>
+<p class="filter-note">التوافق يختلف حسب إصدار الصورة والمعمارية؛ راجع معلومات المطوّر قبل التثبيت.</p></aside>
+<section class="results"><div class="section-heading result-head"><div><small>مكتبة الإضافات</small><h2 id="resultsTitle">كل الإضافات</h2></div><label class="sort-label">ترتيب حسب<select id="sortFilter"><option value="featured">المميزة أولًا</option><option value="downloads">الأكثر تنزيلًا</option><option value="rating">التقييم</option><option value="latest">الأحدث</option><option value="name">الاسم</option></select></label></div>
+<p class="results-count" id="resultsCount" aria-live="polite">جاري تحميل الفهرس…</p><div class="plugin-grid" id="pluginGrid"><div class="loading">جاري تحميل الإضافات…</div></div><div class="empty-state" id="emptyState" hidden><strong>ملقيناش نتائج مطابقة</strong><p>جرّب كلمة بحث تانية أو قلّل الفلاتر.</p><button id="emptyReset" type="button">مسح الفلاتر</button></div>
+</section></div>
+<section class="notice"><strong>ملاحظة مهمة</strong><p>بعض الإضافات تعتمد على مصادر خارجية أو إصدارات قديمة. الروابط غير المتوفرة لن تظهر كتحميل مباشر، ولازم تتأكد من توافق الإضافة مع جهازك وصورة النظام قبل التثبيت.</p></section>
+</main><footer><div class="container footer-inner"><span>© Online4Tech — Enigma2 Plugin Center</span><a href="../tutorials.html#plugins">مكتبة الشروحات</a></div></footer>
 </body></html>
