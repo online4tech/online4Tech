@@ -54,7 +54,7 @@
         "images/plugins/ajpanel/screenshot-8.webp"
       ],
       "downloadUrl": "https://github.com/AMAJamry/AJPanel",
-      "tutorialUrl": "../plugins/ajpanel.html",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "AJPanel",
@@ -121,7 +121,7 @@
       "thumbnail": "",
       "screenshots": [],
       "downloadUrl": "https://github.com/popking159/MyStreamer",
-      "tutorialUrl": "../plugins/mystreamer.html",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "MyStreamer",
@@ -185,7 +185,7 @@
       "thumbnail": "",
       "screenshots": [],
       "downloadUrl": "https://github.com/popking159/SubsSupportPro",
-      "tutorialUrl": "../plugins/subssupportpro.html",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "SubsSupport Pro",
@@ -249,7 +249,7 @@
       "thumbnail": "",
       "screenshots": [],
       "downloadUrl": "",
-      "tutorialUrl": "../plugins/picons.html",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "Picons",
@@ -311,7 +311,7 @@
         "images/plugins/ipaudio-pro/screenshot-8.webp"
       ],
       "downloadUrl": "https://github.com/popking159/ipaudio/releases",
-      "tutorialUrl": "../plugins/ipaudio-pro.html",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "IPAudio Pro",
@@ -367,14 +367,14 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player",
         "githubRelease": ""
       },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
-      "downloadUrl": "",
-      "tutorialUrl": "../plugins/alkuds-audio.html",
+      "downloadUrl": "https://github.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "Alkuds Audio",
@@ -390,7 +390,7 @@
       "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
       "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player",
       "relatedPlugins": [
         "subssupportpro",
         "ipaudio-pro",
@@ -429,14 +429,14 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/fairbird/ArabicSavior",
         "githubRelease": ""
       },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
-      "downloadUrl": "",
-      "tutorialUrl": "../plugins/arabicsavior.html",
+      "downloadUrl": "https://github.com/fairbird/ArabicSavior",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "Arabic Savior",
@@ -452,7 +452,7 @@
       "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
       "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/fairbird/ArabicSavior",
       "relatedPlugins": [
         "ajpanel",
         "raedquicksignal"
@@ -505,7 +505,7 @@
         "images/plugins/enigmaplay/screenshot-8.webp"
       ],
       "downloadUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
-      "tutorialUrl": "../plugins/enigmaplay.html",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "EnigmaPlay",
@@ -559,14 +559,14 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/fairbird/FootOnsat",
         "githubRelease": ""
       },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
-      "downloadUrl": "",
-      "tutorialUrl": "../plugins/footonsat.html",
+      "downloadUrl": "https://github.com/fairbird/FootOnsat",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "FootOnSat",
@@ -582,7 +582,7 @@
       "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
       "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/fairbird/FootOnsat",
       "relatedPlugins": [
         "subssupportpro",
         "ipaudio-pro",
@@ -629,7 +629,7 @@
       "thumbnail": "",
       "screenshots": [],
       "downloadUrl": "",
-      "tutorialUrl": "../plugins/mobile-telnet.html",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "Mobile Telnet",
@@ -691,7 +691,7 @@
         "images/plugins/raedquicksignal/screenshot-8.webp"
       ],
       "downloadUrl": "https://github.com/fairbird/RaedQuickSignal",
-      "tutorialUrl": "../plugins/raedquicksignal.html",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "Raed Quick Signal",
@@ -752,7 +752,7 @@
       "thumbnail": "",
       "screenshots": [],
       "downloadUrl": "",
-      "tutorialUrl": "../plugins/timeshift-delay.html",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "Timeshift Delay",
@@ -796,14 +796,14 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/K3bOra/UltraAudio",
         "githubRelease": ""
       },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
-      "downloadUrl": "",
-      "tutorialUrl": "../plugins/ultraaudio.html",
+      "downloadUrl": "https://github.com/K3bOra/UltraAudio",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "UltraAudio",
@@ -819,7 +819,7 @@
       "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
       "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/K3bOra/UltraAudio",
       "relatedPlugins": [
         "subssupportpro",
         "ipaudio-pro",
@@ -867,7 +867,7 @@
       "thumbnail": "",
       "screenshots": [],
       "downloadUrl": "",
-      "tutorialUrl": "../plugins/scripts-tools.html",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "Scripts & Tools",
@@ -1692,7 +1692,7 @@
       "thumbnail": "",
       "screenshots": [],
       "downloadUrl": "",
-      "tutorialUrl": "../plugins/quran-kareem.html",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "Quran Kareem",
@@ -1753,7 +1753,7 @@
       "thumbnail": "",
       "screenshots": [],
       "downloadUrl": "",
-      "tutorialUrl": "../plugins/xtreamnew.html",
+      "tutorialUrl": "",
       "changelog": [],
       "tags": [
         "Xtream New",
