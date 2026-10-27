@@ -159,7 +159,7 @@ def upload_iptv_file(client, payload):
         raise ValueError("تعذر قراءة محتوى الملف المرسل.")
     if not content or len(content) > MAX_IPTV_FILE:
         raise ValueError("حجم الملف يجب أن يكون بين 1 بايت و5 ميجابايت.")
-    if not content.lstrip(b"\\xef\\xbb\\xbf\\r\\n \\t").startswith(b"#EXTM3U"):
+    if not content.lstrip(b"\xef\xbb\xbf\r\n \t").startswith(b"#EXTM3U"):
         raise ValueError("الملف لا يبدو كقائمة M3U صحيحة: السطر الأول المتوقع هو #EXTM3U.")
     directory = IPTV_UPLOAD_DIR
     path = directory + "/" + filename
