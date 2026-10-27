@@ -331,6 +331,70 @@
       "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
       "features": [],
       "createdAt": "2026-10-27"
+    },
+    {
+      "id": "vu-remote-2",
+      "name": "ريموت VU+ — موديل 2",
+      "slug": "vu-remote-2",
+      "brand": "Vu+",
+      "category": "Remote",
+      "condition": "New",
+      "status": "Available",
+      "price": 0,
+      "oldPrice": 0,
+      "currency": "EGP",
+      "featured": false,
+      "bestSeller": false,
+      "description": "ريموت تحكم لأجهزة الاستقبال. ابعت موديل الرسيفر على واتساب لتأكيد التوافق.",
+      "images": [
+        "https://raw.githubusercontent.com/online4tech/online4Tech/main/images/Screenshot%202026-10-25%20170205.jpg"
+      ],
+      "specifications": {
+        "Compatibility": "يرجى تأكيد الموديل"
+      },
+      "supportedImages": [],
+      "compatiblePlugins": [],
+      "compatibleBackups": [],
+      "compatibleTutorials": [],
+      "stock": 5,
+      "rating": 0,
+      "salesCount": 0,
+      "whatsappLink": "https://wa.me/201092978131?text=ريموت%20VU%2B",
+      "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
+      "features": [],
+      "createdAt": "2026-10-27"
+    },
+    {
+      "id": "vu-remote-3",
+      "name": "ريموت VU+ — موديل 3",
+      "slug": "vu-remote-3",
+      "brand": "Vu+",
+      "category": "Remote",
+      "condition": "New",
+      "status": "Available",
+      "price": 0,
+      "oldPrice": 0,
+      "currency": "EGP",
+      "featured": false,
+      "bestSeller": false,
+      "description": "ريموت تحكم لأجهزة الاستقبال. ابعت موديل الرسيفر على واتساب لتأكيد التوافق.",
+      "images": [
+        "https://raw.githubusercontent.com/online4tech/online4Tech/main/images/Screenshot%202026-10-25%20170157.jpg"
+      ],
+      "specifications": {
+        "Compatibility": "يرجى تأكيد الموديل"
+      },
+      "supportedImages": [],
+      "compatiblePlugins": [],
+      "compatibleBackups": [],
+      "compatibleTutorials": [],
+      "stock": 5,
+      "rating": 0,
+      "salesCount": 0,
+      "whatsappLink": "https://wa.me/201092978131?text=ريموت%20VU%2B",
+      "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
+      "features": [],
+      "createdAt": "2026-10-27"
     }
   ]
 }
