@@ -85,29 +85,33 @@ footer{background:#031020;border-color:#17466e;color:#a8bad2}
 <link rel="stylesheet" href="assets/site.css?v=2">
 <link rel="stylesheet" href="assets/site-header.css?v=5">
 <style id="homepage-header-match">
-/* Match the homepage header/navigation; override manager-only legacy rules. */
-header{position:sticky!important;top:0!important;z-index:20!important;background:#031020ed!important;border-bottom:1px solid #17466e!important;backdrop-filter:blur(14px)!important}
-header .wrap.top{display:flex!important;flex-direction:row!important;flex-wrap:wrap!important;align-items:center!important;justify-content:space-between!important;gap:18px!important;width:min(100%,1280px)!important;margin-inline:auto!important;padding:12px 22px!important;box-sizing:border-box!important}
-header .site-logo-brand{display:flex!important;flex:0 1 auto!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:3px!important;min-width:0!important;margin-inline:auto!important;text-decoration:none!important}
-header .site-logo-brand img{display:block!important;width:clamp(190px,27vw,300px)!important;max-width:100%!important;max-height:none!important;height:auto!important;object-fit:contain!important}
-header .site-logo-brand .brand-slogan{display:block!important;margin-top:2px!important;color:#fff!important;font-family:Tahoma,Arial,sans-serif!important;font-size:clamp(.82rem,1.2vw,1rem)!important;font-weight:900!important;letter-spacing:.3px!important;line-height:1.45!important;text-align:center!important;-webkit-text-stroke:.45px #e53945!important;text-shadow:1px 1px 0 #e53945,-1px 1px 0 #e53945,1px -1px 0 #e53945,-1px -1px 0 #e53945,0 2px 5px #0008!important}
-header .nav{display:flex!important;align-items:center!important;justify-content:space-between!important;flex-wrap:wrap!important;gap:7px!important;width:100%!important;margin:0!important;padding:0 0 4px!important;overflow:visible!important}
-header .nav a{display:inline-flex!important;flex:0 0 auto!important;align-items:center!important;justify-content:center!important;gap:7px!important;padding:9px 11px!important;border-radius:13px!important;color:#fff!important;-webkit-text-fill-color:#fff!important;font-family:Tahoma,Arial,sans-serif!important;font-size:.82rem!important;font-weight:700!important;line-height:1.45!important;white-space:nowrap!important;border:1px solid #1e5680!important;box-shadow:0 4px 0 #0005,0 8px 15px #0003!important;text-decoration:none!important;transition:transform .18s,filter .18s,box-shadow .18s!important}
-header .nav .nav-home{background:linear-gradient(135deg,#087fe5,#0063c7)!important}
-header .nav .nav-library{background:linear-gradient(135deg,#0eb8cf,#087d9e)!important}
+/* Match the homepage header layout, shared navigation spacing and color palette. */
+header{position:relative!important;z-index:20!important;width:100%!important;background:linear-gradient(135deg,#07111f 0%,#0b1a2d 55%,#10243a 100%)!important;border-bottom:1px solid #244664!important;box-shadow:0 10px 32px #0004!important;backdrop-filter:blur(14px)!important}
+header .wrap.top{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:12px!important;width:min(100%,1280px)!important;margin-inline:auto!important;padding:14px 22px!important;box-sizing:border-box!important}
+header .site-logo-brand{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:3px!important;min-width:0!important;max-width:100%!important;margin:0 auto!important;text-decoration:none!important}
+header .site-logo-brand img{display:block!important;width:clamp(220px,28vw,340px)!important;max-width:100%!important;max-height:88px!important;height:auto!important;object-fit:contain!important;object-position:center!important}
+header .site-logo-brand .brand-slogan{display:block!important;width:100%!important;margin-top:2px!important;color:#d9e9fa!important;font-family:Tahoma,Arial,sans-serif!important;font-size:clamp(12px,1.1vw,15px)!important;font-weight:800!important;letter-spacing:.1px!important;line-height:1.45!important;text-align:center!important;text-shadow:0 1px 0 #000,0 0 12px #168bd055!important;-webkit-text-stroke:0!important}
+header .nav{display:flex!important;align-items:center!important;justify-content:center!important;flex-wrap:wrap!important;gap:8px!important;width:100%!important;margin:0!important;padding:0!important;overflow:visible!important}
+header .nav a{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-height:39px!important;flex:0 0 auto!important;padding:9px 14px!important;border:1px solid #ffffff80!important;border-radius:13px!important;color:#fff!important;-webkit-text-fill-color:#fff!important;background:linear-gradient(145deg,#12283f,#0c1b2d)!important;font-family:Tahoma,Arial,sans-serif!important;font-size:13px!important;font-weight:800!important;line-height:1.35!important;white-space:nowrap!important;box-shadow:0 4px 0 #00000017,0 8px 15px #2a426b18!important;text-decoration:none!important;transition:transform .18s,filter .18s,box-shadow .18s!important}
+header .nav .nav-home{background:linear-gradient(135deg,#087fe5,#0063c7)!important;box-shadow:0 4px 0 #204cb1,0 8px 15px #3478f626!important}
+header .nav .nav-library{background:linear-gradient(135deg,#0eb8cf,#087d9e)!important;box-shadow:0 4px 0 #107078,0 8px 15px #26b9b426!important}
 header .nav .nav-store{background:linear-gradient(135deg,#ffbd24,#ff4c19)!important;box-shadow:0 4px 0 #a52d0b,0 8px 18px #ff4c1933!important}
-header .nav .nav-tutorials{background:linear-gradient(135deg,#7186ff,#8b4be8)!important;box-shadow:0 4px 0 #5937b4,0 8px 15px #7186ff26!important}
-header .nav .nav-services{background:linear-gradient(135deg,#0eb8cf,#087d9e)!important}
-header .nav .nav-manager{background:linear-gradient(135deg,#0eb8cf,#087d9e)!important}
-header .nav .nav-contact{background:linear-gradient(135deg,#a23dff,#5c38d8)!important}
+header .nav .nav-tutorials{background:linear-gradient(135deg,#ffb45f,#e87925)!important;box-shadow:0 4px 0 #bd5d18,0 8px 15px #e8792526!important}
+header .nav .nav-services{background:linear-gradient(135deg,#0eb8cf,#087d9e)!important;box-shadow:0 4px 0 #075a91,0 8px 15px #079cff26!important}
+header .nav .nav-manager{background:linear-gradient(135deg,#0eb8cf,#087d9e)!important;box-shadow:0 4px 0 #075a91,0 8px 15px #079cff26!important}
+header .nav .nav-contact{background:linear-gradient(135deg,#a23dff,#5c38d8)!important;box-shadow:0 4px 0 #5937b4,0 8px 15px #7186ff26!important}
 header .nav a:hover{transform:translateY(-3px)!important;filter:brightness(1.06)!important}
 @media(max-width:760px){
  header .wrap.top{flex-direction:column!important;align-items:center!important;gap:10px!important;padding:12px 14px!important}
- header .site-logo-brand img{width:clamp(190px,68vw,260px)!important}
- header .nav{width:100%!important;justify-content:flex-start!important;flex-wrap:nowrap!important;overflow-x:auto!important;overflow-y:hidden!important;padding:3px 2px 9px!important;-webkit-overflow-scrolling:touch!important;scrollbar-width:thin!important}
- header .nav a{flex:0 0 auto!important;white-space:nowrap!important;padding:9px 11px!important;font-size:.82rem!important}
+ header .site-logo-brand img{width:clamp(205px,60vw,300px)!important;max-height:78px!important}
+ header .nav{width:100%!important;justify-content:center!important;flex-wrap:wrap!important;overflow:visible!important;gap:7px!important}
+ header .nav a{padding:8px 10px!important;font-size:12px!important;white-space:nowrap!important}
 }
-@media(max-width:420px){header .site-logo-brand img{width:190px!important}}
+@media(max-width:480px){
+ header .nav{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:7px!important}
+ header .nav a{width:100%!important;min-width:0!important;white-space:normal!important;text-align:center!important;padding:9px 6px!important}
+ header .nav a:last-child{grid-column:1/-1!important}
+}
 </style>
 </head>
 <body>
