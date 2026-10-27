@@ -1,17 +1,18 @@
 {
   "generatedAt": "2026-10-27",
+  "schemaVersion": 2,
   "categories": [
+    "Developer Tools",
+    "EPG",
+    "File Managers",
     "IPTV",
     "Media",
-    "EPG",
-    "System Tools",
-    "Skins",
-    "Weather",
-    "File Managers",
-    "Streaming",
     "Network",
+    "Skins",
+    "Streaming",
+    "System Tools",
     "Utilities",
-    "Developer Tools"
+    "Weather"
   ],
   "plugins": [
     {
@@ -36,7 +37,10 @@
         "OpenViX"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "https://github.com/AMAJamry/AJPanel",
+        "githubRelease": ""
+      },
       "featured": true,
       "thumbnail": "",
       "screenshots": [],
@@ -50,6 +54,17 @@
         "بلجن",
         "إضافة",
         "ajpanel"
+      ],
+      "arabicDescription": "إدارة الملفات والقنوات والشبكة والنسخ الاحتياطي من واجهة واحدة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/AMAJamry/AJPanel",
+      "relatedPlugins": [
+        "arabicsavior",
+        "raedquicksignal"
       ]
     },
     {
@@ -74,7 +89,10 @@
         "OpenViX"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "https://github.com/popking159/MyStreamer",
+        "githubRelease": ""
+      },
       "featured": true,
       "thumbnail": "",
       "screenshots": [],
@@ -88,6 +106,18 @@
         "بلجن",
         "إضافة",
         "mystreamer"
+      ],
+      "arabicDescription": "يوفّر واجهة للوصول إلى مواقع عربية للأفلام والمسلسلات وبعض المحتوى الرياضي.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/popking159/MyStreamer",
+      "relatedPlugins": [
+        "enigmaplay",
+        "mediaportal",
+        "youtube"
       ]
     },
     {
@@ -112,7 +142,10 @@
         "OpenViX"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "https://github.com/popking159/SubsSupportPro/blob/main/subssupportpro-install.sh",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -126,6 +159,19 @@
         "بلجن",
         "إضافة",
         "subssupportpro"
+      ],
+      "arabicDescription": "أدوات دعم الترجمة وإدارة ملفات الترجمة أثناء تشغيل الوسائط.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/popking159/SubsSupportPro/blob/main/subssupportpro-install.sh",
+      "relatedPlugins": [
+        "ipaudio-pro",
+        "alkuds-audio",
+        "footonsat",
+        "ultraaudio"
       ]
     },
     {
@@ -150,7 +196,10 @@
         "OpenViX"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "https://drive.google.com/uc?export=download&id=1Cmfa7r5P01db2YP3qvD3V8LVjv9j16Hi",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -164,6 +213,16 @@
         "بلجن",
         "إضافة",
         "picons"
+      ],
+      "arabicDescription": "عرض شعارات القنوات داخل الواجهة أو قائمة القنوات حسب إعدادات الصورة والسكين.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "skin-selector"
       ]
     },
     {
@@ -186,7 +245,10 @@
         "Enigma2"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "https://github.com/popking159/ipaudio/releases",
+        "githubRelease": "https://github.com/popking159/ipaudio/releases"
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -200,6 +262,19 @@
         "بلجن",
         "إضافة",
         "ipaudio-pro"
+      ],
+      "arabicDescription": "أدوات صوت إضافية لأجهزة Enigma2؛ راجع صفحة الشرح للتفاصيل والتوافق.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/popking159/ipaudio/releases",
+      "relatedPlugins": [
+        "subssupportpro",
+        "alkuds-audio",
+        "footonsat",
+        "ultraaudio"
       ]
     },
     {
@@ -222,7 +297,10 @@
         "Enigma2"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "https://raw.githubusercontent.com/xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player/main/installer.sh",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "../images/plugins/alkuds-audio/image.png",
       "screenshots": [],
@@ -236,6 +314,19 @@
         "بلجن",
         "إضافة",
         "alkuds-audio"
+      ],
+      "arabicDescription": "إضافة صوتية لأجهزة Enigma2 مع معلومات التثبيت المتاحة في صفحة التفاصيل.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "subssupportpro",
+        "ipaudio-pro",
+        "footonsat",
+        "ultraaudio"
       ]
     },
     {
@@ -258,7 +349,10 @@
         "Enigma2"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "../images/plugins/arabicsavior/1_0_19_4440_1000_1_CFDACE7_0_0_0_20210423111603.jpg",
       "screenshots": [],
@@ -272,6 +366,17 @@
         "بلجن",
         "إضافة",
         "arabicsavior"
+      ],
+      "arabicDescription": "أداة مساعدة عربية لأجهزة Enigma2. راجع صفحة التفاصيل قبل التثبيت.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "ajpanel",
+        "raedquicksignal"
       ]
     },
     {
@@ -294,7 +399,10 @@
         "Enigma2"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -308,6 +416,18 @@
         "بلجن",
         "إضافة",
         "enigmaplay"
+      ],
+      "arabicDescription": "إضافة تشغيل وسائط على Enigma2؛ التفاصيل وخطوات الاستخدام في صفحة الإضافة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
+      "relatedPlugins": [
+        "mystreamer",
+        "mediaportal",
+        "youtube"
       ]
     },
     {
@@ -330,7 +450,10 @@
         "Enigma2"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -344,6 +467,19 @@
         "بلجن",
         "إضافة",
         "footonsat"
+      ],
+      "arabicDescription": "إضافة مرتبطة بمحتوى رياضي على أجهزة Enigma2؛ راجع صفحة التفاصيل والتوافق.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "subssupportpro",
+        "ipaudio-pro",
+        "alkuds-audio",
+        "ultraaudio"
       ]
     },
     {
@@ -367,7 +503,10 @@
         "OpenATV"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -381,6 +520,16 @@
         "بلجن",
         "إضافة",
         "mobile-telnet"
+      ],
+      "arabicDescription": "شرح وأدوات الاتصال وإدارة الرسيفر عن بُعد باستخدام Telnet من الهاتف.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "openwebif"
       ]
     },
     {
@@ -403,7 +552,10 @@
         "Enigma2"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "https://github.com/fairbird/RaedQuickSignal",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -417,6 +569,17 @@
         "بلجن",
         "إضافة",
         "raedquicksignal"
+      ],
+      "arabicDescription": "أداة مساعدة لمتابعة الإشارة وضبط الاستقبال على أجهزة Enigma2.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/fairbird/RaedQuickSignal",
+      "relatedPlugins": [
+        "ajpanel",
+        "arabicsavior"
       ]
     },
     {
@@ -439,7 +602,10 @@
         "Enigma2"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -453,7 +619,15 @@
         "بلجن",
         "إضافة",
         "timeshift-delay"
-      ]
+      ],
+      "arabicDescription": "معلومات وأدوات مرتبطة بإعدادات الـ Timeshift وتقليل التأخير حسب الجهاز والصورة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": []
     },
     {
       "id": "ultraaudio",
@@ -475,7 +649,10 @@
         "Enigma2"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -489,6 +666,19 @@
         "بلجن",
         "إضافة",
         "ultraaudio"
+      ],
+      "arabicDescription": "إضافة صوتية لأجهزة Enigma2. راجع صفحة التفاصيل لمعرفة المتطلبات.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "subssupportpro",
+        "ipaudio-pro",
+        "alkuds-audio",
+        "footonsat"
       ]
     },
     {
@@ -513,7 +703,10 @@
         "OpenViX"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -527,7 +720,15 @@
         "بلجن",
         "إضافة",
         "scripts-tools"
-      ]
+      ],
+      "arabicDescription": "مجموعة أدوات وسكربتات لإدارة وتشخيص بعض مهام Enigma2.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": []
     },
     {
       "id": "jedi-maker-xtream",
@@ -551,7 +752,10 @@
         "OpenViX"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": true,
       "thumbnail": "",
       "screenshots": [],
@@ -565,6 +769,17 @@
         "بلجن",
         "إضافة",
         "jedi-maker-xtream"
+      ],
+      "arabicDescription": "إدارة قوائم Xtream وتحويلها إلى قوائم IPTV مناسبة لبيئات Enigma2 المتوافقة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "xtreamity",
+        "xtreamnew"
       ]
     },
     {
@@ -589,7 +804,10 @@
         "OpenViX"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": true,
       "thumbnail": "",
       "screenshots": [],
@@ -603,6 +821,17 @@
         "بلجن",
         "إضافة",
         "xtreamity"
+      ],
+      "arabicDescription": "واجهة للوصول إلى محتوى Xtream Codes على أجهزة Enigma2 المتوافقة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "jedi-maker-xtream",
+        "xtreamnew"
       ]
     },
     {
@@ -627,7 +856,10 @@
         "OpenViX"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": true,
       "thumbnail": "",
       "screenshots": [],
@@ -641,6 +873,17 @@
         "بلجن",
         "إضافة",
         "epg-import"
+      ],
+      "arabicDescription": "استيراد بيانات دليل البرامج الإلكتروني EPG من مصادر قابلة للتهيئة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "autotimer",
+        "seriesplugin"
       ]
     },
     {
@@ -664,7 +907,10 @@
         "OpenATV"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -678,6 +924,19 @@
         "بلجن",
         "إضافة",
         "tmdb"
+      ],
+      "arabicDescription": "عرض بيانات وصفية للأفلام والمسلسلات من The Movie Database في البلجنز المتوافقة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "subssupportpro",
+        "ipaudio-pro",
+        "alkuds-audio",
+        "footonsat"
       ]
     },
     {
@@ -702,7 +961,10 @@
         "OpenViX"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -716,6 +978,17 @@
         "بلجن",
         "إضافة",
         "autotimer"
+      ],
+      "arabicDescription": "إنشاء تسجيلات تلقائية اعتمادًا على قواعد البحث في دليل البرامج الإلكتروني.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "epg-import",
+        "seriesplugin"
       ]
     },
     {
@@ -739,7 +1012,10 @@
         "OpenATV"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -753,6 +1029,17 @@
         "بلجن",
         "إضافة",
         "seriesplugin"
+      ],
+      "arabicDescription": "مساعدة في التعرف على المسلسلات وربطها بمعلومات الحلقات حسب المصدر والإعدادات.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "epg-import",
+        "autotimer"
       ]
     },
     {
@@ -777,7 +1064,10 @@
         "OpenViX"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -791,6 +1081,16 @@
         "بلجن",
         "إضافة",
         "dreamexplorer"
+      ],
+      "arabicDescription": "استعراض الملفات والمجلدات على جهاز Enigma2 وإدارة الملفات المدعومة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "filecommander"
       ]
     },
     {
@@ -814,7 +1114,10 @@
         "OpenATV"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -828,6 +1131,16 @@
         "بلجن",
         "إضافة",
         "filecommander"
+      ],
+      "arabicDescription": "مدير ملفات لأجهزة Enigma2 لتصفح الملفات وتنفيذ عمليات الإدارة المتاحة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "dreamexplorer"
       ]
     },
     {
@@ -851,7 +1164,10 @@
         "OpenATV"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -865,6 +1181,18 @@
         "بلجن",
         "إضافة",
         "mediaportal"
+      ],
+      "arabicDescription": "بوابة محتوى وسائط لأجهزة Enigma2؛ يعتمد التوافق على الإصدار ومصادر المحتوى.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "mystreamer",
+        "enigmaplay",
+        "youtube"
       ]
     },
     {
@@ -887,7 +1215,10 @@
         "Enigma2"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -901,6 +1232,19 @@
         "بلجن",
         "إضافة",
         "kodi-lite"
+      ],
+      "arabicDescription": "حل خفيف للوصول إلى بعض وظائف الوسائط حيث يتوفر إصدار متوافق مع صورة الجهاز.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "subssupportpro",
+        "ipaudio-pro",
+        "alkuds-audio",
+        "footonsat"
       ]
     },
     {
@@ -924,7 +1268,10 @@
         "OpenATV"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -938,6 +1285,18 @@
         "بلجن",
         "إضافة",
         "youtube"
+      ],
+      "arabicDescription": "الوصول إلى محتوى YouTube عبر إضافة متوافقة مع إصدار Enigma2 المثبت.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "mystreamer",
+        "enigmaplay",
+        "mediaportal"
       ]
     },
     {
@@ -961,7 +1320,10 @@
         "OpenATV"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -975,7 +1337,15 @@
         "بلجن",
         "إضافة",
         "weather-plugin"
-      ]
+      ],
+      "arabicDescription": "عرض حالة الطقس والتوقعات عبر خدمات ومصادر تدعمها الإضافة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": []
     },
     {
       "id": "openwebif",
@@ -999,7 +1369,10 @@
         "OpenViX"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": true,
       "thumbnail": "",
       "screenshots": [],
@@ -1013,6 +1386,16 @@
         "بلجن",
         "إضافة",
         "openwebif"
+      ],
+      "arabicDescription": "واجهة ويب لإدارة الرسيفر ومشاهدة معلوماته والتحكم في بعض وظائفه عبر الشبكة.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "mobile-telnet"
       ]
     },
     {
@@ -1036,7 +1419,10 @@
         "OpenATV"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -1050,6 +1436,16 @@
         "بلجن",
         "إضافة",
         "skin-selector"
+      ],
+      "arabicDescription": "اختيار السكين وتبديله من بين الواجهات المثبتة والمتوافقة مع صورة الجهاز.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع تعليمات المطوّر وتوافق الصورة قبل التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "picons"
       ]
     },
     {
@@ -1072,7 +1468,10 @@
         "Enigma2"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -1085,6 +1484,19 @@
         "قرآن",
         "Media",
         "Enigma2"
+      ],
+      "arabicDescription": "إضافة القرآن الكريم لأجهزة Enigma2؛ راجع صفحة الإضافة لمعرفة الخصائص وطريقة الاستخدام.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "subssupportpro",
+        "ipaudio-pro",
+        "alkuds-audio",
+        "footonsat"
       ]
     },
     {
@@ -1107,7 +1519,10 @@
         "Enigma2"
       ],
       "rating": 0,
-      "downloads": 0,
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
@@ -1119,6 +1534,17 @@
         "Xtream",
         "IPTV",
         "Enigma2"
+      ],
+      "arabicDescription": "إضافة IPTV لأجهزة Enigma2؛ راجع صفحة التفاصيل للتعرّف على الوظائف ومصدر المشروع.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع صفحة الشرح المرتبطة لمعرفة خطوات التثبيت.",
+      "requirements": "تحقق من إصدار Enigma2 وصورة النظام والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "",
+      "relatedPlugins": [
+        "jedi-maker-xtream",
+        "xtreamity"
       ]
     }
   ]
