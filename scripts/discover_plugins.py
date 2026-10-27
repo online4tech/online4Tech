@@ -107,7 +107,7 @@ def make_record(r,old=None):
       "youtubeVideo":old.get("youtubeVideo") or "","githubUrl":url,"relatedPlugins":old.get("relatedPlugins") or [],
       "features":old.get("features") or [],"githubStars":int(r.get("stargazers_count") or 0),
       "githubForks":int(r.get("forks_count") or 0),"lastUpdated":r.get("pushed_at") or "",
-      "lastChecked":TODAY,"popularityScore":round(score(r),3)
+"popularityScore":round(score(r),3)
     }
     if old.get("telnetCommands"):rec["telnetCommands"]=old["telnetCommands"]
     return rec
