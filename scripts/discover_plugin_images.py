@@ -123,7 +123,7 @@ def discover(plugin):
         if u and u != icon_url and u not in unique and len(unique) < 12:
             unique.append(u)
     thumbnail_url = (unique or urls(logos) or urls(banners) or [icon_url])[0]
-    return {"icon": icon_url, "thumbnail": thumbnail_url, "screenshots": unique}
+    return {"icon": icon_url, "thumbnail": thumbnail_url, "screenshots": unique, "githubStars": int(meta.get("stargazers_count") or 0)}
 
 
 def main():
@@ -136,7 +136,7 @@ def main():
     for plugin in plugins:
         found = discover(plugin)
         if found is None:
-            found = {"icon": None, "thumbnail": None, "screenshots": []}
+            found = {"icon": None, "thumbnail": None, "screenshots": [], "githubStars": int(plugin.get("githubStars") or 0)}
         scanned += bool(repo_key(plugin))
         old_icon = str(plugin.get("icon") or "")
         old_thumb = str(plugin.get("thumbnail") or "")
@@ -163,6 +163,10 @@ def main():
             changed = True
         elif not isinstance(plugin.get("screenshots"), list):
             plugin["screenshots"] = []
+            changed = True
+        stars = int(found.get("githubStars") or plugin.get("githubStars") or 0)
+        if stars != int(plugin.get("githubStars") or 0):
+            plugin["githubStars"] = stars
             changed = True
         if not plugin.get("icon"):
             plugin["icon"] = PLACEHOLDER
