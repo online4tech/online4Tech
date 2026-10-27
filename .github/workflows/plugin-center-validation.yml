@@ -17,6 +17,7 @@ on:
       - 'scripts/discover_plugins.py'
       - 'scripts/build_search_index.py'
       - '.github/workflows/plugin-discovery.yml'
+      - '.github/workflows/plugin-image-assets.yml'
       - '.github/workflows/plugin-center-validation.yml'
   pull_request:
     paths:
@@ -29,6 +30,7 @@ on:
       - 'scripts/discover_plugins.py'
       - 'scripts/build_search_index.py'
       - '.github/workflows/plugin-discovery.yml'
+      - '.github/workflows/plugin-image-assets.yml'
 jobs:
   validate:
     runs-on: ubuntu-latest
