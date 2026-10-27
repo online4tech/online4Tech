@@ -153,7 +153,7 @@ def main():
             changed = True
         # The local asset workflow owns screenshot downloads and stores them under images/plugins/{slug}/.
         existing = plugin.get("screenshots") if isinstance(plugin.get("screenshots"), list) else []
-        local_shots = [x for x in existing if isinstance(x, str) and x.startswith("images/plugins/") and re.search(r"/screenshot-\\d+\\.webp$", x)]
+        local_shots = [x for x in existing if isinstance(x, str) and x.startswith("images/plugins/") and re.search(r"/screenshot-\d+\.webp$", x)]
         if local_shots != existing:
             plugin["screenshots"] = local_shots
             changed = True
