@@ -74,8 +74,11 @@
   }
   function inferBrand(text, path) {
     const v = normalize((text || '') + ' ' + (path || ''));
-    if (v.includes('dreambox') || v.includes('دريم بوكس')) return 'Dreambox';
-    if (v.includes('vu+') || v.includes('vuplus') || v.includes('فيو')) return 'Vu+';
+    const hasDreambox = v.includes('dreambox') || v.includes('دريم بوكس');
+    const hasVu = v.includes('vu+') || v.includes('vuplus') || v.includes('فيو');
+    if (hasDreambox && hasVu) return 'Vu+ Dreambox';
+    if (hasDreambox) return 'Dreambox';
+    if (hasVu) return 'Vu+';
     return 'Enigma2';
   }
   function inferType(text, path) {
@@ -131,7 +134,7 @@
       cards.forEach(card => {
         const text = normalize(card.innerText || card.textContent);
         const matchesQuery = !query || query.split(' ').every(word => text.includes(word));
-        const matchesBrand = brand.value === 'all' || card.dataset.brand === brand.value;
+        const matchesBrand = brand.value === 'all' || (card.dataset.brand || '').split(' ').includes(brand.value);
         let cardType = card.dataset.type || 'Device';
         if (isStore) {
           const section = card.closest('section')?.id || '';
