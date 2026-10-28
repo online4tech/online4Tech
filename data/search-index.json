@@ -3120,6 +3120,22 @@
     "type": "Page"
   },
   {
+    "title": "MultiCamAdder",
+    "description": "تحميل وتثبيت MultiCamAdder لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/multicamadder/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "MultiCamAdder | Online4Tech",
+    "description": "تحميل وتثبيت MultiCamAdder لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/multicamadder/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "MyStreamer",
     "description": "تحميل وتثبيت MyStreamer لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mystreamer/index.html",
@@ -3227,6 +3243,54 @@
     "title": "OrangeAudio | Online4Tech",
     "description": "تحميل وتثبيت OrangeAudio لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/orangeaudio/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "RaedQuickSignal",
+    "description": "تحميل وتثبيت RaedQuickSignal لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/raedquicksignal/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "RaedQuickSignal | Online4Tech",
+    "description": "تحميل وتثبيت RaedQuickSignal لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/raedquicksignal/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "Server EagleSat",
+    "description": "تحميل وتثبيت Server EagleSat لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/server-eaglesat/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "Server EagleSat | Online4Tech",
+    "description": "تحميل وتثبيت Server EagleSat لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/server-eaglesat/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "SetPicon",
+    "description": "تحميل وتثبيت SetPicon لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/setpicon/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "SetPicon | Online4Tech",
+    "description": "تحميل وتثبيت SetPicon لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/setpicon/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -3545,6 +3609,14 @@
   },
   {
     "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت MultiCamAdder لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/multicamadder/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
     "description": "تحميل وتثبيت MyStreamer لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mystreamer/index.html",
     "category": "معلومات",
@@ -3571,6 +3643,30 @@
     "title": "أمر التثبيت",
     "description": "تحميل وتثبيت OrangeAudio لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/orangeaudio/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت RaedQuickSignal لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/raedquicksignal/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت Server EagleSat لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/server-eaglesat/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت SetPicon لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/setpicon/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -3825,6 +3921,14 @@
   },
   {
     "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت MultiCamAdder لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/multicamadder/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
     "description": "تحميل وتثبيت MyStreamer لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mystreamer/index.html#relatedSection",
     "category": "معلومات",
@@ -3851,6 +3955,30 @@
     "title": "إضافات مشابهة من نفس التصنيف",
     "description": "تحميل وتثبيت OrangeAudio لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/orangeaudio/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت RaedQuickSignal لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/raedquicksignal/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت Server EagleSat لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/server-eaglesat/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت SetPicon لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/setpicon/index.html#relatedSection",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
