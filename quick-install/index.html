@@ -54,7 +54,7 @@ async function copy(text,button){
 }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-command]');if(b)copy(b.dataset.command,b)});
 $('search').addEventListener('input',render);$('category').addEventListener('change',render);
-fetch('../data/plugins.json').then(r=>{if(!r.ok)throw new Error('data unavailable');return r.json()}).then(data=>{
+fetch('../data/plugins.json?v=3',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('data unavailable');return r.json()}).then(data=>{
  plugins=data.plugins||[];
  [...new Set(plugins.filter(p=>commands(p).length).map(p=>p.category).filter(Boolean))].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;$('category').append(o)});
  render();
