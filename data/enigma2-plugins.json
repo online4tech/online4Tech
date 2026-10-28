@@ -1044,5 +1044,13 @@
         "تكامل يعتمد على المصدر والتوافق"
       ]
     }
+  ],
+  "topPlugins": [
+    "xtreamity",
+    "mystreamer",
+    "e2player",
+    "xportal",
+    "ajpanel",
+    "arabic-savior"
   ]
 }
