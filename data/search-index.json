@@ -4192,6 +4192,78 @@
     "type": "Page"
   },
   {
+    "title": "المميزات الرئيسية",
+    "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ajpanel/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "المميزات الرئيسية",
+    "description": "تحميل وتثبيت Arabic Savior لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/arabic-savior/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "المميزات الرئيسية",
+    "description": "تحميل وتثبيت BackupFlash لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/backupflash/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "المميزات الرئيسية",
+    "description": "تحميل وتثبيت DreamXtream لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/dreamxtream/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "المميزات الرئيسية",
+    "description": "تحميل وتثبيت MyStreamer لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mystreamer/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "المميزات الرئيسية",
+    "description": "تحميل وتثبيت TiViMate لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/tivimate/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "المميزات الرئيسية",
+    "description": "تحميل وتثبيت UltraStalker لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ultrastalker/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "المميزات الرئيسية",
+    "description": "تحميل وتثبيت XPortal لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xportal/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "المميزات الرئيسية",
+    "description": "تحميل وتثبيت Xtreamity لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xtreamity/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "النسخ الاحتياطي",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#catalogSection",
@@ -4387,6 +4459,78 @@
     "title": "مكتبة تقنية، مرتبة وواضحة.",
     "description": "تعرّف على Online4Tech ومكتبة ملفات القنوات والباك أب والشروحات لأجهزة Enigma2 وVu+.",
     "url": "https://online4tech.github.io/online4Tech/about.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "نبذة عن الإضافة",
+    "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ajpanel/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "نبذة عن الإضافة",
+    "description": "تحميل وتثبيت Arabic Savior لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/arabic-savior/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "نبذة عن الإضافة",
+    "description": "تحميل وتثبيت BackupFlash لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/backupflash/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "نبذة عن الإضافة",
+    "description": "تحميل وتثبيت DreamXtream لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/dreamxtream/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "نبذة عن الإضافة",
+    "description": "تحميل وتثبيت MyStreamer لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mystreamer/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "نبذة عن الإضافة",
+    "description": "تحميل وتثبيت TiViMate لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/tivimate/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "نبذة عن الإضافة",
+    "description": "تحميل وتثبيت UltraStalker لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ultrastalker/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "نبذة عن الإضافة",
+    "description": "تحميل وتثبيت XPortal لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xportal/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "نبذة عن الإضافة",
+    "description": "تحميل وتثبيت Xtreamity لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xtreamity/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
