@@ -12,7 +12,7 @@
 <body><header></header>
 <main class="ic-wrap">
 <section class="ic-hero"><span class="ic-eyebrow">ONLINE4TECH · ENIGMA2</span><h1>Online4Tech <span>Installer</span></h1><p>ثبت أشهر إضافات Enigma2 بأمر واحد فقط.</p>
-<div class="ic-command"><code id="installerCommand">wget -O - https://online4tech.github.io/online4Tech/install.sh | sh</code><button type="button" id="copyInstallerCommand" class="ic-primary">نسخ أمر التثبيت</button></div>
+<div class="ic-command"><code id="installerCommand">wget -O /tmp/install.sh https://online4tech.com/install.sh && chmod +x /tmp/install.sh && /tmp/install.sh</code><button type="button" id="copyInstallerCommand" class="ic-primary">نسخ أمر التثبيت</button></div>
 <p class="ic-note">افتح Telnet أو SSH على جهازك وسجّل الدخول بصلاحية root قبل تشغيل الأمر.</p></section>
 <section class="ic-how"><div class="ic-section-title"><span>سهل وبسيط</span><h2>كيف يعمل؟</h2></div><div class="ic-steps"><article><b>1</b><strong>افتح التلنت</strong></article><article><b>2</b><strong>الصق الأمر</strong></article><article><b>3</b><strong>اختر القسم</strong></article><article><b>4</b><strong>اختر البلجن</strong></article><article><b>5</b><strong>يبدأ التثبيت</strong></article></div></section>
 <section class="ic-library"><div class="ic-section-title"><span>من مصدر المكتبة الحالي</span><h2>أقسام Installer</h2><p>الأقسام وعدد الإضافات بتتحدّث تلقائيًا من ملف بيانات مكتبة البلجنات.</p></div><div id="installerStatus" class="ic-status">جاري تحميل بيانات المكتبة…</div><div id="installerCategories" class="ic-category-grid" aria-live="polite"></div></section>
