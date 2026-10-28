@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-28T06:35:57.150Z",
+  "generatedAt": "2026-10-28T09:04:34.686Z",
   "pluginsScanned": 50,
   "imagesDownloaded": 12,
   "imagesUpdated": 0,
   "placeholdersGenerated": 0,
-  "totalStoredImages": 63,
-  "repositoryImagesStored": 63,
+  "totalStoredImages": 62,
+  "repositoryImagesStored": 62,
   "placeholderAssetsStored": 0,
   "missingImages": [
     {
@@ -19,7 +19,8 @@
     },
     {
       "plugin": "picons",
-      "reason": "No GitHub repository URL"
+      "repository": "picons/picons",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "alkuds-audio",

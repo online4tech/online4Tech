@@ -268,7 +268,8 @@
       "icon": "",
       "logoFound": false,
       "officialWebsite": "",
-      "telnetCommands": []
+      "telnetCommands": [],
+      "githubStars": 304
     },
     {
       "id": "ipaudio-pro",

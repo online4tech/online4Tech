@@ -23,7 +23,7 @@
     "screenshots": [],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:35:57.150Z"
+    "checkedAt": "2026-10-28T09:04:34.686Z"
   },
   "popking159/SubsSupportPro": {
     "schema": 3,
@@ -95,7 +95,7 @@
     "screenshots": [],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:35:57.150Z"
+    "checkedAt": "2026-10-28T09:04:34.686Z"
   },
   "fairbird/ArabicSavior": {
     "schema": 3,
@@ -127,11 +127,11 @@
     ],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:35:57.150Z"
+    "checkedAt": "2026-10-28T09:04:34.686Z"
   },
   "K3bOra/UltraAudio": {
     "schema": 3,
-    "sha": "1fa95774511b343339eca6f78c00be37ad4ba48a",
+    "sha": "12ced0b73ae884d3ff16d670d20497d13d864dd6",
     "slug": "ultraaudio",
     "icon": "",
     "thumbnail": "",
@@ -148,7 +148,7 @@
     ],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:35:57.150Z"
+    "checkedAt": "2026-10-28T09:04:34.686Z"
   },
   "biko-73/AjPanel": {
     "schema": 3,
@@ -308,5 +308,17 @@
     "githubStars": 0,
     "iconSource": "logo.png",
     "checkedAt": "2026-10-28T06:29:42.515Z"
+  },
+  "picons/picons": {
+    "schema": 3,
+    "sha": "7756215d8b34b319f12d0332a315f28e4caef9ef",
+    "slug": "picons",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [],
+    "githubStars": 304,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T09:04:34.686Z"
   }
 }
