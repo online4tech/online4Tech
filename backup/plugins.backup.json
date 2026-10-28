@@ -648,61 +648,6 @@
       ]
     },
     {
-      "id": "mobile-telnet",
-      "name": "Mobile Telnet",
-      "slug": "mobile-telnet",
-      "description": "شرح وأدوات الاتصال وإدارة الرسيفر عن بُعد باستخدام Telnet من الهاتف.",
-      "version": "غير محدد",
-      "releaseDate": "",
-      "author": "Online4Tech catalog",
-      "category": "Network",
-      "platform": "Enigma2",
-      "supportedDevices": [
-        "VU+",
-        "Dreambox",
-        "Octagon",
-        "Other Enigma2"
-      ],
-      "supportedImages": [
-        "Enigma2",
-        "OpenATV"
-      ],
-      "rating": 0,
-      "downloads": {
-        "repository": "",
-        "githubRelease": ""
-      },
-      "featured": false,
-      "thumbnail": "",
-      "screenshots": [],
-      "downloadUrl": "",
-      "tutorialUrl": "",
-      "changelog": [],
-      "tags": [
-        "Mobile Telnet",
-        "Network",
-        "Enigma2",
-        "بلجن",
-        "إضافة",
-        "mobile-telnet"
-      ],
-      "arabicDescription": "شرح وأدوات الاتصال وإدارة الرسيفر عن بُعد باستخدام Telnet من الهاتف.",
-      "latest": false,
-      "downloadsCount": 0,
-      "installationMethod": "لم أعثر على مصدر عام موثّق أو حزمة متوافقة يمكن ربطها بأمان.",
-      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
-      "youtubeVideo": "",
-      "githubUrl": "",
-      "relatedPlugins": [
-        "openwebif"
-      ],
-      "features": [],
-      "icon": "",
-      "logoFound": false,
-      "officialWebsite": "",
-      "telnetCommands": []
-    },
-    {
       "id": "raedquicksignal",
       "name": "RaedQuickSignal",
       "slug": "raedquicksignal",
@@ -1509,120 +1454,6 @@
       "githubStars": 32
     },
     {
-      "id": "mediaportal",
-      "name": "MediaPortal",
-      "slug": "mediaportal",
-      "description": "بوابة محتوى وسائط لأجهزة Enigma2؛ يعتمد التوافق على الإصدار ومصادر المحتوى.",
-      "version": "غير محدد",
-      "releaseDate": "",
-      "author": "مجتمع Enigma2",
-      "category": "Streaming",
-      "platform": "Enigma2",
-      "supportedDevices": [
-        "VU+",
-        "Dreambox",
-        "Octagon",
-        "Other Enigma2"
-      ],
-      "supportedImages": [
-        "Enigma2",
-        "OpenATV"
-      ],
-      "rating": 0,
-      "downloads": {
-        "repository": "",
-        "githubRelease": ""
-      },
-      "featured": false,
-      "thumbnail": "",
-      "screenshots": [],
-      "downloadUrl": "",
-      "tutorialUrl": "",
-      "changelog": [],
-      "tags": [
-        "MediaPortal",
-        "Streaming",
-        "Enigma2",
-        "بلجن",
-        "إضافة",
-        "mediaportal"
-      ],
-      "arabicDescription": "بوابة محتوى وسائط لأجهزة Enigma2؛ يعتمد التوافق على الإصدار ومصادر المحتوى.",
-      "latest": false,
-      "downloadsCount": 0,
-      "installationMethod": "لم أتحقق من حزمة حديثة متوافقة أو مثبت رسمي موثوق لهذا الإدخال.",
-      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
-      "youtubeVideo": "",
-      "githubUrl": "",
-      "relatedPlugins": [
-        "mystreamer",
-        "enigmaplay",
-        "youtube"
-      ],
-      "features": [],
-      "icon": "",
-      "logoFound": false,
-      "officialWebsite": "",
-      "telnetCommands": []
-    },
-    {
-      "id": "kodi-lite",
-      "name": "Kodi Lite",
-      "slug": "kodi-lite",
-      "description": "حل خفيف للوصول إلى بعض وظائف الوسائط حيث يتوفر إصدار متوافق مع صورة الجهاز.",
-      "version": "غير محدد",
-      "releaseDate": "",
-      "author": "مجتمع Enigma2",
-      "category": "Media",
-      "platform": "Enigma2",
-      "supportedDevices": [
-        "VU+",
-        "Dreambox",
-        "Octagon",
-        "Other Enigma2"
-      ],
-      "supportedImages": [
-        "Enigma2"
-      ],
-      "rating": 0,
-      "downloads": {
-        "repository": "",
-        "githubRelease": ""
-      },
-      "featured": false,
-      "thumbnail": "",
-      "screenshots": [],
-      "downloadUrl": "",
-      "tutorialUrl": "",
-      "changelog": [],
-      "tags": [
-        "Kodi Lite",
-        "Media",
-        "Enigma2",
-        "بلجن",
-        "إضافة",
-        "kodi-lite"
-      ],
-      "arabicDescription": "حل خفيف للوصول إلى بعض وظائف الوسائط حيث يتوفر إصدار متوافق مع صورة الجهاز.",
-      "latest": false,
-      "downloadsCount": 0,
-      "installationMethod": "لم أتحقق من IPK حديث أو أمر تثبيت متوافق مع صورة النظام.",
-      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
-      "youtubeVideo": "",
-      "githubUrl": "",
-      "relatedPlugins": [
-        "subssupportpro",
-        "ipaudio-pro",
-        "alkuds-audio",
-        "footonsat"
-      ],
-      "features": [],
-      "icon": "",
-      "logoFound": false,
-      "officialWebsite": "",
-      "telnetCommands": []
-    },
-    {
       "id": "youtube",
       "name": "YouTube",
       "slug": "youtube",
@@ -1844,61 +1675,6 @@
           "command": "opkg update && opkg install enigma2-plugin-extensions-openwebif"
         }
       ]
-    },
-    {
-      "id": "skin-selector",
-      "name": "SKIN Selector",
-      "slug": "skin-selector",
-      "description": "اختيار السكين وتبديله من بين الواجهات المثبتة والمتوافقة مع صورة الجهاز.",
-      "version": "متعدد",
-      "releaseDate": "",
-      "author": "مجتمع Enigma2",
-      "category": "Skins",
-      "platform": "Enigma2",
-      "supportedDevices": [
-        "VU+",
-        "Dreambox",
-        "Octagon",
-        "Other Enigma2"
-      ],
-      "supportedImages": [
-        "Enigma2",
-        "OpenATV"
-      ],
-      "rating": 0,
-      "downloads": {
-        "repository": "",
-        "githubRelease": ""
-      },
-      "featured": false,
-      "thumbnail": "",
-      "screenshots": [],
-      "downloadUrl": "",
-      "tutorialUrl": "",
-      "changelog": [],
-      "tags": [
-        "SKIN Selector",
-        "Skins",
-        "Enigma2",
-        "بلجن",
-        "إضافة",
-        "skin-selector"
-      ],
-      "arabicDescription": "اختيار السكين وتبديله من بين الواجهات المثبتة والمتوافقة مع صورة الجهاز.",
-      "latest": false,
-      "downloadsCount": 0,
-      "installationMethod": "غالبًا ما تكون إدارة/اختيار الاسكين جزءًا من صورة النظام نفسها؛ لا يوجد ملف تثبيت مستقل موثّق لهذا الإدخال.",
-      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
-      "youtubeVideo": "",
-      "githubUrl": "",
-      "relatedPlugins": [
-        "picons"
-      ],
-      "features": [],
-      "icon": "",
-      "logoFound": false,
-      "officialWebsite": "",
-      "telnetCommands": []
     },
     {
       "id": "quran-kareem",
@@ -2529,7 +2305,12 @@
       "screenshots": [
         "images/plugins/tmbd/screenshot-1.webp",
         "images/plugins/tmbd/screenshot-2.webp",
-        "images/plugins/tmbd/screenshot-3.webp"
+        "images/plugins/tmbd/screenshot-3.webp",
+        "images/plugins/tmbd/screenshot-4.webp",
+        "images/plugins/tmbd/screenshot-5.webp",
+        "images/plugins/tmbd/screenshot-6.webp",
+        "images/plugins/tmbd/screenshot-7.webp",
+        "images/plugins/tmbd/screenshot-8.webp"
       ],
       "changelog": [],
       "tags": [

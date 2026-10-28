@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T10:20:27.461Z",
-  "pluginsScanned": 52,
+  "generatedAt": "2026-10-28T10:24:22.484Z",
+  "pluginsScanned": 48,
   "imagesDownloaded": 62,
   "imagesUpdated": 0,
   "placeholdersGenerated": 0,
@@ -37,10 +37,6 @@
       "plugin": "footonsat",
       "repository": "fairbird/FootOnsat",
       "reason": "No approved logo/icon file found"
-    },
-    {
-      "plugin": "mobile-telnet",
-      "reason": "No GitHub repository URL"
     },
     {
       "plugin": "raedquicksignal",
@@ -96,14 +92,6 @@
       "reason": "No approved logo/icon file found"
     },
     {
-      "plugin": "mediaportal",
-      "reason": "No GitHub repository URL"
-    },
-    {
-      "plugin": "kodi-lite",
-      "reason": "No GitHub repository URL"
-    },
-    {
       "plugin": "youtube",
       "repository": "OpenPLi/enigma2-plugins",
       "reason": "No approved logo/icon file found"
@@ -117,10 +105,6 @@
       "plugin": "openwebif",
       "repository": "E2OpenPlugins/e2openplugin-OpenWebif",
       "reason": "No approved logo/icon file found"
-    },
-    {
-      "plugin": "skin-selector",
-      "reason": "No GitHub repository URL"
     },
     {
       "plugin": "quran-kareem",
@@ -230,5 +214,5 @@
     }
   ],
   "cachedRepositories": 7,
-  "catalogChanged": true
+  "catalogChanged": false
 }
