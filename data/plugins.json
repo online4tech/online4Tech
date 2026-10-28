@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27",
+  "generatedAt": "2026-10-28",
   "schemaVersion": 4,
   "categories": [
     "Developer Tools",
@@ -12,14 +12,22 @@
     "Streaming",
     "System Tools",
     "Utilities",
-    "Weather"
+    "Weather",
+    "System Plugins",
+    "IPTV Plugins",
+    "EPG Plugins",
+    "Media Players",
+    "Softcam",
+    "Backup Tools",
+    "Settings",
+    "Picons"
   ],
   "plugins": [
     {
       "id": "ajpanel",
-      "name": "AJPanel",
+      "name": "AjPanel",
       "slug": "ajpanel",
-      "description": "إدارة الملفات والقنوات والشبكة والنسخ الاحتياطي من واجهة واحدة.",
+      "description": "لوحة أدوات لإدارة وظائف متعددة على جهاز Enigma2.",
       "version": "10.8.6",
       "releaseDate": "",
       "author": "AMA Jamry",
@@ -38,7 +46,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "https://github.com/AMAJamry/AJPanel",
+        "repository": "https://github.com/biko-73/AjPanel",
         "githubRelease": ""
       },
       "featured": true,
@@ -50,20 +58,21 @@
       "tutorialUrl": "",
       "changelog": [],
       "tags": [
-        "AJPanel",
+        "AjPanel",
         "Utilities",
         "Enigma2",
         "بلجن",
         "إضافة",
+        "AJPanel",
         "ajpanel"
       ],
-      "arabicDescription": "إدارة الملفات والقنوات والشبكة والنسخ الاحتياطي من واجهة واحدة.",
+      "arabicDescription": "لوحة أدوات لإدارة وظائف متعددة على جهاز Enigma2.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
-      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "https://github.com/AMAJamry/AJPanel",
+      "githubUrl": "https://github.com/biko-73/AjPanel",
       "relatedPlugins": [
         "arabicsavior",
         "raedquicksignal"
@@ -71,8 +80,12 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "تثبيت من مستودع المطوّر",
-          "command": "wget -qO- https://raw.githubusercontent.com/AMAJamry/AJPanel/main/installer.sh | /bin/sh"
+          "label": "AjPanel — biko-73",
+          "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh"
+        },
+        {
+          "label": "ajpanel_menu1 — tarekzoka",
+          "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh"
         }
       ],
       "icon": "",
@@ -391,9 +404,9 @@
     },
     {
       "id": "arabicsavior",
-      "name": "Arabic Savior",
+      "name": "ArabicSavior",
       "slug": "arabicsavior",
-      "description": "أداة مساعدة عربية لأجهزة Enigma2. راجع صفحة التفاصيل قبل التثبيت.",
+      "description": "أداة مساعدة عربية لـ Enigma2 من مستودع المطوّر.",
       "version": "غير محدد",
       "releaseDate": "",
       "author": "Online4Tech catalog",
@@ -423,18 +436,19 @@
       "tutorialUrl": "",
       "changelog": [],
       "tags": [
-        "Arabic Savior",
+        "ArabicSavior",
         "Utilities",
         "Enigma2",
         "بلجن",
         "إضافة",
+        "Arabic Savior",
         "arabicsavior"
       ],
-      "arabicDescription": "أداة مساعدة عربية لأجهزة Enigma2. راجع صفحة التفاصيل قبل التثبيت.",
+      "arabicDescription": "أداة مساعدة عربية لـ Enigma2 من مستودع المطوّر.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
-      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/fairbird/ArabicSavior",
       "relatedPlugins": [
@@ -444,8 +458,8 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "تثبيت من مستودع المطوّر",
-          "command": "wget -qO- https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh | /bin/sh"
+          "label": "Quick Install",
+          "command": "wget https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh"
         }
       ],
       "icon": "images/plugins/arabicsavior/icon.webp",
@@ -457,11 +471,11 @@
       "id": "enigmaplay",
       "name": "EnigmaPlay",
       "slug": "enigmaplay",
-      "description": "إضافة تشغيل وسائط على Enigma2؛ التفاصيل وخطوات الاستخدام في صفحة الإضافة.",
+      "description": "مشغل ومركز محتوى لإضافات Enigma2 حسب مستودع المطوّر.",
       "version": "غير محدد",
       "releaseDate": "",
       "author": "Online4Tech catalog",
-      "category": "Streaming",
+      "category": "IPTV Plugins",
       "platform": "Enigma2",
       "supportedDevices": [
         "VU+",
@@ -485,17 +499,18 @@
       "changelog": [],
       "tags": [
         "EnigmaPlay",
-        "Streaming",
+        "IPTV Plugins",
         "Enigma2",
         "بلجن",
         "إضافة",
+        "Streaming",
         "enigmaplay"
       ],
-      "arabicDescription": "إضافة تشغيل وسائط على Enigma2؛ التفاصيل وخطوات الاستخدام في صفحة الإضافة.",
+      "arabicDescription": "مشغل ومركز محتوى لإضافات Enigma2 حسب مستودع المطوّر.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
-      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
       "relatedPlugins": [
@@ -506,7 +521,7 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "تثبيت متجر EnigmaPlay",
+          "label": "Quick Install",
           "command": "wget -qO- https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/install.sh | sh"
         }
       ],
@@ -639,9 +654,9 @@
     },
     {
       "id": "raedquicksignal",
-      "name": "Raed Quick Signal",
+      "name": "RaedQuickSignal",
       "slug": "raedquicksignal",
-      "description": "أداة مساعدة لمتابعة الإشارة وضبط الاستقبال على أجهزة Enigma2.",
+      "description": "أداة للوصول السريع إلى معلومات إشارة الاستقبال.",
       "version": "غير محدد",
       "releaseDate": "",
       "author": "Online4Tech catalog",
@@ -671,18 +686,19 @@
       "tutorialUrl": "",
       "changelog": [],
       "tags": [
-        "Raed Quick Signal",
+        "RaedQuickSignal",
         "Utilities",
         "Enigma2",
         "بلجن",
         "إضافة",
+        "Raed Quick Signal",
         "raedquicksignal"
       ],
-      "arabicDescription": "أداة مساعدة لمتابعة الإشارة وضبط الاستقبال على أجهزة Enigma2.",
+      "arabicDescription": "أداة للوصول السريع إلى معلومات إشارة الاستقبال.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
-      "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/fairbird/RaedQuickSignal",
       "relatedPlugins": [
@@ -692,8 +708,8 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "تثبيت من مستودع المطوّر",
-          "command": "wget -qO- https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh | /bin/sh"
+          "label": "Quick Install",
+          "command": "opkg update\nopkg install wget\nwget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh"
         }
       ],
       "icon": "",
@@ -1819,6 +1835,1022 @@
       "icon": "",
       "logoFound": false,
       "officialWebsite": ""
+    },
+    {
+      "id": "ajpanel-menu1",
+      "name": "ajpanel_menu1",
+      "slug": "ajpanel-menu1",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "ajpanel_menu1",
+        "Utilities",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Utilities",
+      "description": "سكريبت تثبيت قائمة AjPanel من مستودع المطوّر.",
+      "arabicDescription": "سكريبت تثبيت قائمة AjPanel من مستودع المطوّر.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/tarekzoka/ajpanel",
+      "downloadUrl": "https://github.com/tarekzoka/ajpanel",
+      "downloads": {
+        "repository": "https://github.com/tarekzoka/ajpanel"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "emilpanelpro",
+      "name": "EmilPanelPro",
+      "slug": "emilpanelpro",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "EmilPanelPro",
+        "Utilities",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Utilities",
+      "description": "لوحة أدوات إضافية لأجهزة Enigma2 من مستودع EmilNabil.",
+      "arabicDescription": "لوحة أدوات إضافية لأجهزة Enigma2 من مستودع EmilNabil.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
+      "downloadUrl": "https://github.com/emilnabil/download-plugins",
+      "downloads": {
+        "repository": "https://github.com/emilnabil/download-plugins"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "chromium",
+      "name": "Chromium",
+      "slug": "chromium",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "Chromium",
+        "Media Players",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Media Players",
+      "description": "تثبيت حزمة Chromium من مستودعات صورة النظام؛ التوافق يعتمد على الصورة والمعمارية.",
+      "arabicDescription": "تثبيت حزمة Chromium من مستودعات صورة النظام؛ التوافق يعتمد على الصورة والمعمارية.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "",
+      "downloadUrl": "",
+      "downloads": {},
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "opkg install enigma2-plugin-extensions-chromium"
+        }
+      ]
+    },
+    {
+      "id": "multiiptvadder",
+      "name": "MultiIptvAdder",
+      "slug": "multiiptvadder",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "MultiIptvAdder",
+        "IPTV Plugins",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "IPTV Plugins",
+      "description": "إضافة للمساعدة في إضافة قوائم IPTV إلى Enigma2.",
+      "arabicDescription": "إضافة للمساعدة في إضافة قوائم IPTV إلى Enigma2.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
+      "downloadUrl": "https://github.com/emilnabil/download-plugins",
+      "downloads": {
+        "repository": "https://github.com/emilnabil/download-plugins"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "xtream2audio",
+      "name": "Xtream2Audio",
+      "slug": "xtream2audio",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "Xtream2Audio",
+        "Media Players",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Media Players",
+      "description": "إضافة مرتبطة بتجربة الصوت والمحتوى على Enigma2.",
+      "arabicDescription": "إضافة مرتبطة بتجربة الصوت والمحتوى على Enigma2.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
+      "downloadUrl": "https://github.com/emilnabil/download-plugins",
+      "downloads": {
+        "repository": "https://github.com/emilnabil/download-plugins"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Xtream2Audio/Xtream2Audio.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "e2iplayer",
+      "name": "e2iplayer",
+      "slug": "e2iplayer",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "e2iplayer",
+        "Media Players",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Media Players",
+      "description": "مشغل وسائط وإضافات مضيفين؛ توجد طريقتان للتثبيت من المصادر المقدمة.",
+      "arabicDescription": "مشغل وسائط وإضافات مضيفين؛ توجد طريقتان للتثبيت من المصادر المقدمة.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/angelheart150/My_e2iplayer_hosts",
+      "downloadUrl": "https://github.com/angelheart150/My_e2iplayer_hosts",
+      "downloads": {
+        "repository": "https://github.com/angelheart150/My_e2iplayer_hosts"
+      },
+      "telnetCommands": [
+        {
+          "label": "e2iplayer Hosts",
+          "command": "wget -q \"--no-check-certificate\" https://github.com/angelheart150/My_e2iplayer_hosts/raw/main/install-e2iplayer-update-hosts.sh -O - | /bin/sh"
+        },
+        {
+          "label": "e2iplayer Online Setup",
+          "command": "curl -LJso- https://mohamed_os.gitlab.io/e2iplayer/online-setup | bash"
+        }
+      ]
+    },
+    {
+      "id": "transmission",
+      "name": "Transmission",
+      "slug": "transmission",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "Transmission",
+        "Utilities",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Utilities",
+      "description": "أدوات عميل Transmission وإدارة التنزيلات؛ يحتاج حزمًا إضافية قبل تشغيل السكريبت.",
+      "arabicDescription": "أدوات عميل Transmission وإدارة التنزيلات؛ يحتاج حزمًا إضافية قبل تشغيل السكريبت.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "",
+      "downloadUrl": "",
+      "downloads": {},
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "opkg install transmission transmission-client python3-transmission-rpc xz python3-beautifulsoup4\nwget -q --no-check-certificate http://dreambox4u.com/dreamarabia/Transmission_e2/Transmission_e2.sh -O - | bash"
+        }
+      ]
+    },
+    {
+      "id": "satelliweb-e2",
+      "name": "Satelliweb_e2",
+      "slug": "satelliweb-e2",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "Satelliweb_e2",
+        "EPG Plugins",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "EPG Plugins",
+      "description": "أداة مرتبطة ببيانات الأقمار/القنوات على Enigma2.",
+      "arabicDescription": "أداة مرتبطة ببيانات الأقمار/القنوات على Enigma2.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "",
+      "downloadUrl": "",
+      "downloads": {},
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget -q --no-check-certificate http://dreambox4u.com/dreamarabia/Satelliweb_e2/install_satelliweb.sh -O - | bash"
+        }
+      ]
+    },
+    {
+      "id": "tmbd",
+      "name": "TMBD",
+      "slug": "tmbd",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "TMBD",
+        "Media Players",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Media Players",
+      "description": "إضافة مرتبطة ببيانات الأفلام والمعلومات الوصفية.",
+      "arabicDescription": "إضافة مرتبطة ببيانات الأفلام والمعلومات الوصفية.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/biko-73/TMBD",
+      "downloadUrl": "https://github.com/biko-73/TMBD",
+      "downloads": {
+        "repository": "https://github.com/biko-73/TMBD"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget https://raw.githubusercontent.com/biko-73/TMBD/main/installer.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "emil-panel-lite",
+      "name": "Emil Panel Lite",
+      "slug": "emil-panel-lite",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "Emil Panel Lite",
+        "Utilities",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Utilities",
+      "description": "نسخة خفيفة من لوحة أدوات Emil لأجهزة Enigma2.",
+      "arabicDescription": "نسخة خفيفة من لوحة أدوات Emil لأجهزة Enigma2.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "",
+      "downloadUrl": "",
+      "downloads": {},
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget -q \"--no-check-certificate\" https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "smartaddonspanel-han",
+      "name": "SmartAddonspanel (HAN)",
+      "slug": "smartaddonspanel-han",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "SmartAddonspanel (HAN)",
+        "Utilities",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Utilities",
+      "description": "نسخة SmartAddonspanel من مستودع HAN.",
+      "arabicDescription": "نسخة SmartAddonspanel من مستودع HAN.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/Ham-ahmed/Secript-Panel",
+      "downloadUrl": "https://github.com/Ham-ahmed/Secript-Panel",
+      "downloads": {
+        "repository": "https://github.com/Ham-ahmed/Secript-Panel"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/1New-Ajpanel-Panel-v5.0_HAN.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "smartaddonspanel-emil",
+      "name": "SmartAddonspanel (Emil)",
+      "slug": "smartaddonspanel-emil",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "SmartAddonspanel (Emil)",
+        "Utilities",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Utilities",
+      "description": "نسخة SmartAddonspanel من مستودع EmilNabil.",
+      "arabicDescription": "نسخة SmartAddonspanel من مستودع EmilNabil.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
+      "downloadUrl": "https://github.com/emilnabil/download-plugins",
+      "downloads": {
+        "repository": "https://github.com/emilnabil/download-plugins"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "my-tsiplayer",
+      "name": "My-tsiplayer",
+      "slug": "my-tsiplayer",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "My-tsiplayer",
+        "Media Players",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Media Players",
+      "description": "إضافة وسائط ومضيفين لـ Enigma2 من المستودع المقدم.",
+      "arabicDescription": "إضافة وسائط ومضيفين لـ Enigma2 من المستودع المقدم.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/angelheart150/My-tsiplayer",
+      "downloadUrl": "https://github.com/angelheart150/My-tsiplayer",
+      "downloads": {
+        "repository": "https://github.com/angelheart150/My-tsiplayer"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget -q \"--no-check-certificate\" https://github.com/angelheart150/My-tsiplayer/raw/main/install-tsiplayer-update-hosts.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "e2iplayer-online-setup",
+      "name": "e2iplayer (Online Setup)",
+      "slug": "e2iplayer-online-setup",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "e2iplayer (Online Setup)",
+        "Media Players",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Media Players",
+      "description": "طريقة تثبيت بديلة لـ e2iplayer عبر سكريبت الإعداد المقدم.",
+      "arabicDescription": "طريقة تثبيت بديلة لـ e2iplayer عبر سكريبت الإعداد المقدم.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://mohamed_os.gitlab.io/e2iplayer/online-setup",
+      "downloadUrl": "https://mohamed_os.gitlab.io/e2iplayer/online-setup",
+      "downloads": {
+        "repository": "https://mohamed_os.gitlab.io/e2iplayer/online-setup"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "curl -LJso- https://mohamed_os.gitlab.io/e2iplayer/online-setup | bash"
+        }
+      ]
+    },
+    {
+      "id": "ssupport",
+      "name": "SubsSupport",
+      "slug": "ssupport",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "SubsSupport",
+        "Media Players",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Media Players",
+      "description": "أداة لدعم الترجمة وملفاتها في Enigma2.",
+      "arabicDescription": "أداة لدعم الترجمة وملفاتها في Enigma2.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/popking159/ssupport",
+      "downloadUrl": "https://github.com/popking159/ssupport",
+      "downloads": {
+        "repository": "https://github.com/popking159/ssupport"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget -q \"--no-check-certificate\" https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "xstreamity",
+      "name": "Xstreamity",
+      "slug": "xstreamity",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "Xstreamity",
+        "IPTV Plugins",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "IPTV Plugins",
+      "description": "إضافة IPTV لقوائم Xtream Codes؛ تحقق من توافق الصورة قبل التثبيت.",
+      "arabicDescription": "إضافة IPTV لقوائم Xtream Codes؛ تحقق من توافق الصورة قبل التثبيت.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/biko-73/xstreamity",
+      "downloadUrl": "https://github.com/biko-73/xstreamity",
+      "downloads": {
+        "repository": "https://github.com/biko-73/xstreamity"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget https://raw.githubusercontent.com/biko-73/xstreamity/main/installer.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "jedimakerxtream",
+      "name": "JediMakerXtream",
+      "slug": "jedimakerxtream",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "JediMakerXtream",
+        "IPTV Plugins",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "IPTV Plugins",
+      "description": "إنشاء باقات IPTV من بيانات Xtream على أجهزة Enigma2.",
+      "arabicDescription": "إنشاء باقات IPTV من بيانات Xtream على أجهزة Enigma2.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/biko-73/JediMakerXtream",
+      "downloadUrl": "https://github.com/biko-73/JediMakerXtream",
+      "downloads": {
+        "repository": "https://github.com/biko-73/JediMakerXtream"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget https://raw.githubusercontent.com/biko-73/JediMakerXtream/main/installer.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "multi-stalker",
+      "name": "Multi-Stalker",
+      "slug": "multi-stalker",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "Multi-Stalker",
+        "IPTV Plugins",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "IPTV Plugins",
+      "description": "إضافة مرتبطة بخدمات Stalker على Enigma2.",
+      "arabicDescription": "إضافة مرتبطة بخدمات Stalker على Enigma2.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/biko-73/Multi-Stalker",
+      "downloadUrl": "https://github.com/biko-73/Multi-Stalker",
+      "downloads": {
+        "repository": "https://github.com/biko-73/Multi-Stalker"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget https://raw.githubusercontent.com/biko-73/Multi-Stalker/main/pro/installer.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "ipaudio",
+      "name": "IPAudio Pro",
+      "slug": "ipaudio",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "IPAudio Pro",
+        "Media Players",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "Media Players",
+      "description": "إضافة أدوات صوتية لأجهزة Enigma2.",
+      "arabicDescription": "إضافة أدوات صوتية لأجهزة Enigma2.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/emilnabil/ipaudiopro",
+      "downloadUrl": "https://github.com/emilnabil/ipaudiopro",
+      "downloads": {
+        "repository": "https://github.com/emilnabil/ipaudiopro"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget https://raw.githubusercontent.com/emilnabil/ipaudiopro/refs/heads/main/ipaudiopro.sh -O - | /bin/sh"
+        }
+      ]
+    },
+    {
+      "id": "xtraevent",
+      "name": "xtraEvent",
+      "slug": "xtraevent",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Octagon",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenViX"
+      ],
+      "rating": 0,
+      "featured": false,
+      "latest": false,
+      "downloadsCount": 0,
+      "screenshots": [],
+      "changelog": [],
+      "tags": [
+        "xtraEvent",
+        "EPG Plugins",
+        "Enigma2",
+        "بلجن",
+        "إضافة"
+      ],
+      "features": [],
+      "category": "EPG Plugins",
+      "description": "إضافة لعرض أو معالجة بيانات الأحداث والبرامج بحسب مصدر المطوّر.",
+      "arabicDescription": "إضافة لعرض أو معالجة بيانات الأحداث والبرامج بحسب مصدر المطوّر.",
+      "version": "غير محدد",
+      "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
+      "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
+      "githubUrl": "https://github.com/digiteng/xtra",
+      "downloadUrl": "https://github.com/digiteng/xtra",
+      "downloads": {
+        "repository": "https://github.com/digiteng/xtra"
+      },
+      "telnetCommands": [
+        {
+          "label": "Quick Install",
+          "command": "wget -q \"--no-check-certificate\" https://github.com/digiteng/xtra/raw/main/xtraEvent.sh -O - | /bin/sh"
+        }
+      ]
     }
   ]
 }
