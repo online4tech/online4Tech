@@ -23,7 +23,7 @@
     "screenshots": [],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-10-27T18:43:49.122Z"
+    "checkedAt": "2026-10-28T06:29:42.515Z"
   },
   "popking159/SubsSupportPro": {
     "schema": 3,
@@ -60,7 +60,7 @@
   },
   "Ahmadarjan1/EnigmaPlay-Repo": {
     "schema": 3,
-    "sha": "123863e3b9ed1c47a5a5d5f8274979f2ba3f0579",
+    "sha": "65d0ce7827cfe52929c2eba7f596be277c61b9ef",
     "slug": "enigmaplay",
     "icon": "",
     "thumbnail": "",
@@ -68,7 +68,7 @@
     "screenshots": [],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-10-27T18:43:49.122Z"
+    "checkedAt": "2026-10-28T06:29:42.515Z"
   },
   "fairbird/RaedQuickSignal": {
     "schema": 3,
@@ -83,7 +83,7 @@
     ],
     "githubStars": 4,
     "iconSource": "",
-    "checkedAt": "2026-10-27T18:43:49.122Z"
+    "checkedAt": "2026-10-28T06:29:42.515Z"
   },
   "xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player": {
     "schema": 3,
@@ -95,7 +95,7 @@
     "screenshots": [],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-10-27T18:43:49.122Z"
+    "checkedAt": "2026-10-28T06:29:42.515Z"
   },
   "fairbird/ArabicSavior": {
     "schema": 3,
@@ -127,7 +127,7 @@
     ],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-10-27T18:43:49.122Z"
+    "checkedAt": "2026-10-28T06:29:42.515Z"
   },
   "K3bOra/UltraAudio": {
     "schema": 3,
@@ -148,6 +148,163 @@
     ],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-10-27T18:43:49.122Z"
+    "checkedAt": "2026-10-28T06:29:42.515Z"
+  },
+  "biko-73/AjPanel": {
+    "schema": 3,
+    "sha": "858f6ed111625fe4ed44e5b90eb1afabae975edc",
+    "slug": "ajpanel",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [
+      "images/plugins/ajpanel/screenshot-1.webp",
+      "images/plugins/ajpanel/screenshot-2.webp",
+      "images/plugins/ajpanel/screenshot-3.webp",
+      "images/plugins/ajpanel/screenshot-4.webp",
+      "images/plugins/ajpanel/screenshot-5.webp",
+      "images/plugins/ajpanel/screenshot-6.webp",
+      "images/plugins/ajpanel/screenshot-7.webp",
+      "images/plugins/ajpanel/screenshot-8.webp"
+    ],
+    "githubStars": 15,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T06:29:42.515Z"
+  },
+  "tarekzoka/ajpanel": {
+    "schema": 3,
+    "sha": "1200cd65454870524a998580301e111d184c033a",
+    "slug": "ajpanel-menu1",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [
+      "images/plugins/ajpanel-menu1/screenshot-1.webp"
+    ],
+    "githubStars": 1,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T06:29:42.515Z"
+  },
+  "emilnabil/download-plugins": {
+    "schema": 3,
+    "sha": "6c2c1139e0e8b412b044918b359b6a36b172501e",
+    "slug": "smartaddonspanel-emil",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [],
+    "githubStars": 1,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T06:29:42.515Z"
+  },
+  "angelheart150/My_e2iplayer_hosts": {
+    "schema": 3,
+    "sha": "ba84caefea83e4d0801603e0f492d5c9f5116801",
+    "slug": "e2iplayer",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [],
+    "githubStars": 0,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T06:29:42.515Z"
+  },
+  "biko-73/TMBD": {
+    "schema": 3,
+    "sha": "ff4ad10dcd14a2d3d272575450a4678ce44b058a",
+    "slug": "tmbd",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [
+      "images/plugins/tmbd/screenshot-1.webp"
+    ],
+    "githubStars": 1,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T06:29:42.515Z"
+  },
+  "Ham-ahmed/Secript-Panel": {
+    "schema": 3,
+    "sha": "28d4b5d07a0d2caa569838e92463fd913ce5d955",
+    "slug": "smartaddonspanel-han",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [],
+    "githubStars": 0,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T06:29:42.515Z"
+  },
+  "angelheart150/My-tsiplayer": {
+    "schema": 3,
+    "sha": "53d7600a7de7f270afdfac7de1e687382cdeabbb",
+    "slug": "my-tsiplayer",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [],
+    "githubStars": 0,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T06:29:42.515Z"
+  },
+  "popking159/ssupport": {
+    "schema": 3,
+    "sha": "4f94690b92377b36542df33038f15df892dbdc7b",
+    "slug": "ssupport",
+    "icon": "images/plugins/ssupport/icon.webp",
+    "thumbnail": "images/plugins/ssupport/thumbnail.webp",
+    "logoFound": true,
+    "screenshots": [],
+    "githubStars": 1,
+    "iconSource": "src/seekers/Elsubtitle/logo.png",
+    "checkedAt": "2026-10-28T06:29:42.515Z"
+  },
+  "biko-73/xstreamity": {
+    "schema": 3,
+    "sha": "c3d574bef87c8bc15cd7c342467c21d5e7fdd07d",
+    "slug": "xstreamity",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [],
+    "githubStars": 13,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T06:29:42.515Z"
+  },
+  "biko-73/JediMakerXtream": {
+    "schema": 3,
+    "sha": "dbae1300cd23eb43bfa484cec0d073d25f551363",
+    "slug": "jedimakerxtream",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [],
+    "githubStars": 7,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T06:29:42.515Z"
+  },
+  "biko-73/Multi-Stalker": {
+    "schema": 3,
+    "sha": "ff97e79ca534202d066deb85ff584058fc77eeee",
+    "slug": "multi-stalker",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [],
+    "githubStars": 3,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T06:29:42.515Z"
+  },
+  "emilnabil/ipaudiopro": {
+    "schema": 3,
+    "sha": "e193175b2c2d2032bcefc370a72ed8d703b9a183",
+    "slug": "ipaudio",
+    "icon": "images/plugins/ipaudio/icon.webp",
+    "thumbnail": "images/plugins/ipaudio/thumbnail.webp",
+    "logoFound": true,
+    "screenshots": [],
+    "githubStars": 0,
+    "iconSource": "logo.png",
+    "checkedAt": "2026-10-28T06:29:42.515Z"
   }
 }

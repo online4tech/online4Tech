@@ -52,7 +52,14 @@
       "featured": true,
       "thumbnail": "",
       "screenshots": [
-        "images/plugins/ajpanel/screenshot-1.webp"
+        "images/plugins/ajpanel/screenshot-1.webp",
+        "images/plugins/ajpanel/screenshot-2.webp",
+        "images/plugins/ajpanel/screenshot-3.webp",
+        "images/plugins/ajpanel/screenshot-4.webp",
+        "images/plugins/ajpanel/screenshot-5.webp",
+        "images/plugins/ajpanel/screenshot-6.webp",
+        "images/plugins/ajpanel/screenshot-7.webp",
+        "images/plugins/ajpanel/screenshot-8.webp"
       ],
       "downloadUrl": "https://github.com/AMAJamry/AJPanel",
       "tutorialUrl": "",
@@ -89,7 +96,7 @@
         }
       ],
       "icon": "",
-      "githubStars": 12,
+      "githubStars": 15,
       "logoFound": false,
       "officialWebsite": ""
     },
@@ -1856,7 +1863,9 @@
       "featured": false,
       "latest": false,
       "downloadsCount": 0,
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/ajpanel-menu1/screenshot-1.webp"
+      ],
       "changelog": [],
       "tags": [
         "ajpanel_menu1",
@@ -1885,7 +1894,8 @@
           "label": "Quick Install",
           "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "emilpanelpro",
@@ -1936,7 +1946,8 @@
           "label": "Quick Install",
           "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "chromium",
@@ -2036,7 +2047,8 @@
           "label": "Quick Install",
           "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "xtream2audio",
@@ -2087,7 +2099,8 @@
           "label": "Quick Install",
           "command": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Xtream2Audio/Xtream2Audio.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "e2iplayer",
@@ -2262,7 +2275,9 @@
       "featured": false,
       "latest": false,
       "downloadsCount": 0,
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/tmbd/screenshot-1.webp"
+      ],
       "changelog": [],
       "tags": [
         "TMBD",
@@ -2291,7 +2306,8 @@
           "label": "Quick Install",
           "command": "wget https://raw.githubusercontent.com/biko-73/TMBD/main/installer.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "emil-panel-lite",
@@ -2442,7 +2458,8 @@
           "label": "Quick Install",
           "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "my-tsiplayer",
@@ -2582,9 +2599,9 @@
       "version": "غير محدد",
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
-      "icon": "",
-      "thumbnail": "",
-      "logoFound": false,
+      "icon": "images/plugins/ssupport/icon.webp",
+      "thumbnail": "images/plugins/ssupport/thumbnail.webp",
+      "logoFound": true,
       "githubUrl": "https://github.com/popking159/ssupport",
       "downloadUrl": "https://github.com/popking159/ssupport",
       "downloads": {
@@ -2595,7 +2612,8 @@
           "label": "Quick Install",
           "command": "wget -q \"--no-check-certificate\" https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "xstreamity",
@@ -2646,7 +2664,8 @@
           "label": "Quick Install",
           "command": "wget https://raw.githubusercontent.com/biko-73/xstreamity/main/installer.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "githubStars": 13
     },
     {
       "id": "jedimakerxtream",
@@ -2697,7 +2716,8 @@
           "label": "Quick Install",
           "command": "wget https://raw.githubusercontent.com/biko-73/JediMakerXtream/main/installer.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "githubStars": 7
     },
     {
       "id": "multi-stalker",
@@ -2748,7 +2768,8 @@
           "label": "Quick Install",
           "command": "wget https://raw.githubusercontent.com/biko-73/Multi-Stalker/main/pro/installer.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "githubStars": 3
     },
     {
       "id": "ipaudio",
@@ -2786,9 +2807,9 @@
       "version": "غير محدد",
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
-      "icon": "",
-      "thumbnail": "",
-      "logoFound": false,
+      "icon": "images/plugins/ipaudio/icon.webp",
+      "thumbnail": "images/plugins/ipaudio/thumbnail.webp",
+      "logoFound": true,
       "githubUrl": "https://github.com/emilnabil/ipaudiopro",
       "downloadUrl": "https://github.com/emilnabil/ipaudiopro",
       "downloads": {
