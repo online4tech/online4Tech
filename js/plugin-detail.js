@@ -225,7 +225,7 @@
         panel('طريقة التثبيت', installation, !!installation),
         telnetSection(plugin.telnetCommands),
         plugin.id === 'scripts-tools' ? scriptsToolsSection() : '',
-        panel('الصور ولقطات الشاشة', gallery, plugin.id !== 'scripts-tools' && screenshotItems.length > 0),
+        screenshotItems.length > 0 && gallery ? panel('الصور ولقطات الشاشة', gallery, true) : '',
         panel('فيديو الشرح', video, !!videoUrl),
         panel('سجل التغييرات', changelog.length ? '<ul class="change-list">' + changelog.map(item => '<li>' + esc(item) + '</li>').join('') + '</ul>' : '', changelog.length > 0)
       ].filter(Boolean).join('');
