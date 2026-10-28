@@ -26,8 +26,10 @@
       "developer": "AMAJamry",
       "compatibility": {
         "platform": "Enigma2",
-        "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "images": [
+          "OpenATV"
+        ],
+        "note": "OpenATV مذكورة ضمن صور التوافق في سجل الإضافة الحالي."
       },
       "installCommand": "wget --no-check-certificate https://raw.githubusercontent.com/AMAJamry/AJPanel/main/installer.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/AMAJamry/AJPanel",
@@ -47,7 +49,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -qO - https://raw.githubusercontent.com/popking159/ArabicSavior/refs/heads/main/myinstaller.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/popking159/ArabicSavior",
@@ -67,7 +69,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget https://raw.githubusercontent.com/fairbird/backupflash/main/installer.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/fairbird/backupflash",
@@ -86,8 +88,10 @@
       "developer": "biko-73",
       "compatibility": {
         "platform": "Enigma2",
-        "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "images": [
+          "OpenATV"
+        ],
+        "note": "OpenATV مذكورة ضمن صور التوافق في سجل الإضافة الحالي."
       },
       "installCommand": "wget https://raw.githubusercontent.com/biko-73/xstreamity/main/installer.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/biko-73/xstreamity",
@@ -107,7 +111,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget http://dreambox4u.com/ch/E2/enigma2-plugin-extensions-dreamxtream_0.3-r9.0_arm64.deb -O /tmp/enigma2-plugin-extensions-dreamxtream_0.3-r9.0_arm64.deb && dpkg -i /tmp/enigma2-plugin-extensions-dreamxtream_0.3-r9.0_arm64.deb",
       "sourceUrl": "http://dreambox4u.com/ch/E2/enigma2-plugin-extensions-dreamxtream_0.3-r9.0_arm64.deb",
@@ -126,8 +130,10 @@
       "developer": "popking159",
       "compatibility": {
         "platform": "Enigma2",
-        "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "images": [
+          "OpenATV"
+        ],
+        "note": "OpenATV مذكورة ضمن صور التوافق في سجل الإضافة الحالي."
       },
       "installCommand": "wget -qO - https://raw.githubusercontent.com/popking159/MyStreamer/refs/heads/main/myinstaller.sh | /bin/sh",
       "sourceUrl": "https://github.com/popking159/MyStreamer",
@@ -147,7 +153,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/azroukarim/XPortal/refs/heads/main/installer.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/azroukarim/XPortal",
@@ -167,7 +173,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -qO- https://raw.githubusercontent.com/opesboy/TiviMateE2/main/install.sh | sh",
       "sourceUrl": "https://github.com/opesboy/TiviMateE2",
@@ -187,7 +193,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -qO- https://raw.githubusercontent.com/K3bOra/-UltraStalker/main/install.sh | /bin/sh",
       "sourceUrl": "https://github.com/K3bOra/-UltraStalker",
@@ -207,7 +213,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/ahmedhussein4342-lgtm/XtreamNew/main/install_xtreamnew.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/ahmedhussein4342-lgtm/XtreamNew",
@@ -227,7 +233,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget https://raw.githubusercontent.com/biko-73/BouquetMakerXtream/main/installer.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/biko-73/BouquetMakerXtream",
@@ -247,7 +253,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -q https://raw.githubusercontent.com/oe-mirrors/e2iplayer/refs/heads/python3/e2iplayer_install.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/oe-mirrors/e2iplayer",
@@ -267,7 +273,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/zKhadiri/IPAudioPro-Releases-/refs/heads/main/installer.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/zKhadiri/IPAudioPro-Releases-",
@@ -287,7 +293,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -O - https://xfayez95.github.io/audioshift/installer.sh | sh",
       "sourceUrl": "https://xfayez95.github.io/audioshift/installer.sh",
@@ -307,7 +313,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -qO- https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh | /bin/sh",
       "sourceUrl": "https://github.com/K3bOra/UltraAudio",
@@ -327,7 +333,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -qO- https://raw.githubusercontent.com/popking159/OrangeAudio/main/installer.sh | sh",
       "sourceUrl": "https://github.com/popking159/OrangeAudio",
@@ -347,7 +353,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -q -O - https://raw.githubusercontent.com/Ahmadarjan1/IPAudioPlus-Releases/main/installer.sh | /bin/sh",
       "sourceUrl": "https://github.com/Ahmadarjan1/IPAudioPlus-Releases",
@@ -366,8 +372,10 @@
       "developer": "emilnabil",
       "compatibility": {
         "platform": "Enigma2",
-        "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "images": [
+          "OpenATV"
+        ],
+        "note": "OpenATV مذكورة ضمن صور التوافق في سجل الإضافة الحالي."
       },
       "installCommand": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Xtream2Audio/Xtream2Audio.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/Xtream2Audio",
@@ -387,7 +395,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -q --no-check-certificate https://gitlab.com/hmeng80/addons/-/raw/main/metrix-fhd-parts-ec.sh -O - | /bin/sh",
       "sourceUrl": "https://gitlab.com/hmeng80/addons",
@@ -407,7 +415,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/mido00020/MohammedSkin/main/installer.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/mido00020/MohammedSkin",
@@ -427,7 +435,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -qO- https://raw.githubusercontent.com/dali44g/Obsidian-FHD/main/install.sh | sh",
       "sourceUrl": "https://github.com/dali44g/Obsidian-FHD",
@@ -447,7 +455,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -qO /tmp/cineview-install.sh https://raw.githubusercontent.com/habeb-s/CineView-MLA-Install/main/cineview-install.sh && sh /tmp/cineview-install.sh",
       "sourceUrl": "https://github.com/habeb-s/CineView-MLA-Install",
@@ -466,8 +474,10 @@
       "developer": "popking159",
       "compatibility": {
         "platform": "Enigma2",
-        "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "images": [
+          "OpenATV"
+        ],
+        "note": "OpenATV مذكورة ضمن صور التوافق في سجل الإضافة الحالي."
       },
       "installCommand": "wget -qO - https://raw.githubusercontent.com/popking159/SubsSupportPro/refs/heads/main/myinstaller.sh | /bin/sh",
       "sourceUrl": "https://github.com/popking159/SubsSupportPro",
@@ -487,7 +497,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget https://raw.githubusercontent.com/Arian7s/SubExtractorLite/main/installer.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/Arian7s/SubExtractorLite",
@@ -507,7 +517,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -O /tmp/mytranslator.ipk https://github.com/ismailelkhooly/Ismail-/raw/refs/heads/main/enigma2-plugin-extensions-mytranslator_1.75.ipk && opkg install --force-reinstall /tmp/mytranslator.ipk",
       "sourceUrl": "https://github.com/ismailelkhooly/Ismail-",
@@ -527,7 +537,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -q --no-check-certificate https://gitlab.com/hmeng80/extensions/-/raw/main/AISubtitles/aisubtitles.sh -O - | /bin/sh",
       "sourceUrl": "https://gitlab.com/hmeng80/extensions",
@@ -547,7 +557,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -q -O /tmp/AutoSub.tar.gz https://raw.githubusercontent.com/HBK2010/AutoSub/main/AutoSub.tar.gz && tar xzf /tmp/AutoSub.tar.gz -C /usr/lib/enigma2/python/Plugins/Extensions",
       "sourceUrl": "https://github.com/HBK2010/AutoSub",
@@ -567,7 +577,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -q --no-check-certificate http://dreambox4u.com/dreamarabia/scripts/installer.sh -O - | /bin/sh",
       "sourceUrl": "http://dreambox4u.com/dreamarabia/scripts/installer.sh",
@@ -587,7 +597,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "apt update && wget -O /tmp/geminilocale_all.deb http://download.blue-panel.com/geminilocale_gp4.php && apt install -y /tmp/geminilocale_all.deb",
       "sourceUrl": "http://download.blue-panel.com/geminilocale_gp4.php",
@@ -607,7 +617,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -O - https://raw.githubusercontent.com/wwwgoper77-wq/MohamedStore/main/install.sh | sh",
       "sourceUrl": "https://github.com/wwwgoper77-wq/MohamedStore",
@@ -627,7 +637,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -qO- https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/install.sh | sh",
       "sourceUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
@@ -647,7 +657,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/Ham-ahmed/G12/refs/heads/main/MagicPanelMax-install.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/Ham-ahmed/G12",
@@ -667,7 +677,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/Belfagor2005/LinuxsatPanel/main/installer.sh -O - | /bin/bash",
       "sourceUrl": "https://github.com/Belfagor2005/LinuxsatPanel",
@@ -687,7 +697,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -q -O - https://raw.githubusercontent.com/OliOli2013/PanelAIO-Plugin/main/installer.sh | /bin/sh",
       "sourceUrl": "https://github.com/OliOli2013/PanelAIO-Plugin",
@@ -707,7 +717,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -qO- https://raw.githubusercontent.com/Saiedf/EPGImport/main/installer_epgimportiet5_auto.sh | /bin/sh",
       "sourceUrl": "https://github.com/Saiedf/EPGImport",
@@ -727,7 +737,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder/installer.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/MultiCamAdder",
@@ -747,7 +757,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/setpicon",
@@ -767,7 +777,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/fairbird/RaedQuickSignal",
@@ -787,7 +797,7 @@
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
-        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
       "installCommand": "wget -qO- --no-check-certificate https://raw.githubusercontent.com/eliesat/ServerEagleSat/main/installer.sh | bash",
       "sourceUrl": "https://github.com/eliesat/ServerEagleSat",
