@@ -34,9 +34,25 @@ except NameError:
     input_fn = input
     string_types = (str,)
 
+# The installer itself is commonly piped into sh, so stdin is already
+# consumed by the shell. Read menu input from the controlling terminal.
+try:
+    TTY = open("/dev/tty", "r+")
+except Exception:
+    TTY = None
+
 def ask(prompt):
-    try: return input_fn(prompt).strip()
-    except (EOFError, KeyboardInterrupt): return "0"
+    try:
+        if TTY is not None:
+            TTY.write(prompt)
+            TTY.flush()
+            answer = TTY.readline()
+            if answer == "":
+                return "0"
+            return answer.strip()
+        return input_fn(prompt).strip()
+    except (EOFError, KeyboardInterrupt):
+        return "0"
 
 def clear():
     os.system("clear")
