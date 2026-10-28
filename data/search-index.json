@@ -1625,7 +1625,7 @@
   },
   {
     "title": "مكتبة البلجن",
-    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
+    "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin-library/",
     "category": "إضافات",
     "brand": "Enigma2",
@@ -1657,7 +1657,7 @@
   },
   {
     "title": "← الرجوع لمكتبة البلجن",
-    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
+    "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin-library/",
     "category": "إضافات",
     "brand": "Enigma2",
@@ -2792,6 +2792,22 @@
     "type": "Tutorial"
   },
   {
+    "title": "AIO Panel",
+    "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aio-panel/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "AIO Panel | Online4Tech",
+    "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aio-panel/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "AiSubtitles",
     "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aisubtitles/index.html",
@@ -2944,6 +2960,22 @@
     "type": "Page"
   },
   {
+    "title": "Enigma Play Store",
+    "description": "تحميل وتثبيت Enigma Play Store لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/enigma-play-store/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "Enigma Play Store | Online4Tech",
+    "description": "تحميل وتثبيت Enigma Play Store لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/enigma-play-store/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "Enigma2 Manager | Online4Tech",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html",
@@ -2953,10 +2985,42 @@
   },
   {
     "title": "EPGImport",
+    "description": "تحميل وتثبيت EPGImport لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/epgimport/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "EPGImport",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#catalogSection",
     "category": "معلومات",
     "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "EPGImport | Online4Tech",
+    "description": "تحميل وتثبيت EPGImport لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/epgimport/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "GP4.2",
+    "description": "تحميل وتثبيت GP4.2 لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/gp42/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "GP4.2 | Online4Tech",
+    "description": "تحميل وتثبيت GP4.2 لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/gp42/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
@@ -2992,6 +3056,38 @@
     "type": "Page"
   },
   {
+    "title": "LinuxSat Panel",
+    "description": "تحميل وتثبيت LinuxSat Panel لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/linuxsat-panel/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "LinuxSat Panel | Online4Tech",
+    "description": "تحميل وتثبيت LinuxSat Panel لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/linuxsat-panel/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "MagicPanelMax",
+    "description": "تحميل وتثبيت MagicPanelMax لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/magicpanelmax/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "MagicPanelMax | Online4Tech",
+    "description": "تحميل وتثبيت MagicPanelMax لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/magicpanelmax/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "Metrix Poster",
     "description": "تحميل وتثبيت Metrix Poster لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/metrix-poster/index.html",
@@ -3003,6 +3099,22 @@
     "title": "Metrix Poster | Online4Tech",
     "description": "تحميل وتثبيت Metrix Poster لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/metrix-poster/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "Mohamed Store",
+    "description": "تحميل وتثبيت Mohamed Store لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mohamed-store/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "Mohamed Store | Online4Tech",
+    "description": "تحميل وتثبيت Mohamed Store لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mohamed-store/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -3265,6 +3377,14 @@
   },
   {
     "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aio-panel/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
     "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aisubtitles/index.html",
     "category": "معلومات",
@@ -3345,6 +3465,30 @@
   },
   {
     "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت Enigma Play Store لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/enigma-play-store/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت EPGImport لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/epgimport/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت GP4.2 لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/gp42/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
     "description": "تحميل وتثبيت IPAudioPlus لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ipaudioplus/index.html",
     "category": "معلومات",
@@ -3361,8 +3505,32 @@
   },
   {
     "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت LinuxSat Panel لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/linuxsat-panel/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت MagicPanelMax لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/magicpanelmax/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
     "description": "تحميل وتثبيت Metrix Poster لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/metrix-poster/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت Mohamed Store لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mohamed-store/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -3489,6 +3657,14 @@
   },
   {
     "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aio-panel/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
     "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aisubtitles/index.html#relatedSection",
     "category": "معلومات",
@@ -3569,6 +3745,30 @@
   },
   {
     "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت Enigma Play Store لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/enigma-play-store/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت EPGImport لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/epgimport/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت GP4.2 لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/gp42/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
     "description": "تحميل وتثبيت IPAudioPlus لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ipaudioplus/index.html#relatedSection",
     "category": "معلومات",
@@ -3585,8 +3785,32 @@
   },
   {
     "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت LinuxSat Panel لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/linuxsat-panel/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت MagicPanelMax لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/magicpanelmax/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
     "description": "تحميل وتثبيت Metrix Poster لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/metrix-poster/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت Mohamed Store لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mohamed-store/index.html#relatedSection",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -4473,7 +4697,7 @@
   },
   {
     "title": "كل الإضافات",
-    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
+    "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin-library/",
     "category": "ملفات",
     "brand": "Enigma2",
@@ -4489,7 +4713,7 @@
   },
   {
     "title": "مركز التحميل",
-    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
+    "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads.html",
     "category": "ملفات",
     "brand": "Enigma2",
