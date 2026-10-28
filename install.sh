@@ -221,11 +221,11 @@ while True:
             entries=sections.get(cat,[])
             if not entries:
                 if cat=="Updates":
-                print("1) Update OpenSource — غير مفعّل: لا يوجد أمر موثّق في مصدر البيانات")
-                print("2) Update DreamOS — غير مفعّل: لا يوجد أمر موثّق في مصدر البيانات")
-            else:
-                print("لا توجد بيانات Picons في مصدر البيانات الحالي.")
-            pause(); continue
+                    print("1) Update OpenSource — غير مفعّل: لا يوجد أمر موثّق في مصدر البيانات")
+                    print("2) Update DreamOS — غير مفعّل: لا يوجد أمر موثّق في مصدر البيانات")
+                else:
+                    print("لا توجد بيانات Picons في مصدر البيانات الحالي.")
+                pause(); continue
             for i,item in enumerate(entries,1): print("%d) %s"%(i,item.get("name",cat)))
             pick=ask("اختيار (0 للرجوع): ")
             if pick.isdigit() and pick!="0" and int(pick)<=len(entries):
