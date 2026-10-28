@@ -2287,7 +2287,9 @@
       "latest": false,
       "downloadsCount": 0,
       "screenshots": [
-        "images/plugins/tmbd/screenshot-1.webp"
+        "images/plugins/tmbd/screenshot-1.webp",
+        "images/plugins/tmbd/screenshot-2.webp",
+        "images/plugins/tmbd/screenshot-3.webp"
       ],
       "changelog": [],
       "tags": [
