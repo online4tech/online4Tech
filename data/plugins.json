@@ -78,6 +78,10 @@
       "features": [],
       "telnetCommands": [
         {
+          "label": "AJPanel — المصدر الرسمي",
+          "command": "wget https://raw.githubusercontent.com/AMAJamry/AJPanel/main/installer.sh -O - | /bin/sh"
+        },
+        {
           "label": "AjPanel — biko-73",
           "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh"
         },
@@ -996,7 +1000,7 @@
       "arabicDescription": "واجهة للوصول إلى محتوى Xtream Codes على أجهزة Enigma2 المتوافقة.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "لم أتحقق من ملف IPK أو أمر تثبيت رسمي يطابق هذا الاسم تحديدًا؛ لم أستخدم مصدرًا لبلجن مشابه بالاسم.",
+      "installationMethod": "الأمر يعتمد على توفر الحزمة في مستودع صورة النظام؛ بعض الصور تحتاج تثبيت الحزم المطلوبة من مدير الإضافات أولًا.",
       "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/kiddac/XStreamity",
@@ -1008,7 +1012,12 @@
       "icon": "",
       "logoFound": false,
       "officialWebsite": "",
-      "telnetCommands": []
+      "telnetCommands": [
+        {
+          "label": "التثبيت من مستودع صورة النظام",
+          "command": "opkg update && opkg install enigma2-plugin-extensions-xstreamity"
+        }
+      ]
     },
     {
       "id": "epg-import",
@@ -1074,12 +1083,12 @@
     },
     {
       "id": "tmdb",
-      "name": "TMDB",
+      "name": "Ciefp TMDB Search",
       "slug": "tmdb",
       "description": "عرض بيانات وصفية للأفلام والمسلسلات من The Movie Database في البلجنز المتوافقة.",
-      "version": "متعدد",
+      "version": "1.1",
       "releaseDate": "",
-      "author": "مجتمع Enigma2",
+      "author": "Ciefp",
       "category": "Media",
       "platform": "Enigma2",
       "supportedDevices": [
@@ -1094,7 +1103,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/ciefp/CiefpTMDBSearch",
         "githubRelease": ""
       },
       "featured": false,
@@ -1114,10 +1123,10 @@
       "arabicDescription": "عرض بيانات وصفية للأفلام والمسلسلات من The Movie Database في البلجنز المتوافقة.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "المستودع العام المتاح لا يثبت وجود IPK متوافق مع OpenATV/OpenPLI؛ لم أضف أمر تثبيت غير مؤكّد.",
+      "installationMethod": "التثبيت عبر Telnet/SSH من سكريبت المطوّر على GitHub. راجع التوافق والمتطلبات قبل التنفيذ.",
       "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/ciefp/CiefpTMDBSearch",
       "relatedPlugins": [
         "subssupportpro",
         "ipaudio-pro",
@@ -1128,7 +1137,12 @@
       "icon": "",
       "logoFound": false,
       "officialWebsite": "",
-      "telnetCommands": []
+      "telnetCommands": [
+        {
+          "label": "تثبيت من مستودع GitHub",
+          "command": "wget -q https://raw.githubusercontent.com/ciefp/CiefpTMDBSearch/main/installer.sh -O - | /bin/sh"
+        }
+      ]
     },
     {
       "id": "autotimer",
@@ -1801,7 +1815,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/ahmedhussein4342-lgtm/XtreamNew",
         "githubRelease": ""
       },
       "featured": false,
@@ -1819,16 +1833,21 @@
       "arabicDescription": "إضافة IPTV لأجهزة Enigma2؛ راجع صفحة التفاصيل للتعرّف على الوظائف ومصدر المشروع.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "لم أعثر على مستودع عام أو ملف IPK موثّق يطابق هذا الاسم.",
+      "installationMethod": "التثبيت عبر Telnet/SSH من سكريبت GitHub؛ يتطلب Python 3 وwget وunzip حسب سكريبت المطوّر.",
       "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/ahmedhussein4342-lgtm/XtreamNew",
       "relatedPlugins": [
         "jedi-maker-xtream",
         "xtreamity"
       ],
       "features": [],
-      "telnetCommands": [],
+      "telnetCommands": [
+        {
+          "label": "تثبيت XtreamNew من GitHub",
+          "command": "wget -qO- https://raw.githubusercontent.com/ahmedhussein4342-lgtm/XtreamNew/main/install_xtreamnew.sh | /bin/sh"
+        }
+      ],
       "icon": "",
       "logoFound": false,
       "officialWebsite": ""
