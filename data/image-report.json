@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-28T09:12:22.494Z",
-  "pluginsScanned": 50,
-  "imagesDownloaded": 68,
+  "generatedAt": "2026-10-28T09:56:39.073Z",
+  "pluginsScanned": 52,
+  "imagesDownloaded": 59,
   "imagesUpdated": 0,
   "placeholdersGenerated": 0,
-  "totalStoredImages": 94,
-  "repositoryImagesStored": 94,
+  "totalStoredImages": 92,
+  "repositoryImagesStored": 92,
   "placeholderAssetsStored": 0,
   "missingImages": [
     {
@@ -215,6 +215,11 @@
       "plugin": "xtraevent",
       "repository": "digiteng/xtra",
       "reason": "Repository scan failed; existing verified logo preserved when available"
+    },
+    {
+      "plugin": "extra-plugins-python3",
+      "repository": "BliNeR-KeY/extra-plugins-python3",
+      "reason": "No approved logo/icon file found"
     }
   ],
   "failedRepositories": [
@@ -224,6 +229,6 @@
       "error": "GitHub API 404 https://api.github.com/repos/digiteng/xtra"
     }
   ],
-  "cachedRepositories": 2,
+  "cachedRepositories": 6,
   "catalogChanged": true
 }
