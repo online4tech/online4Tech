@@ -419,13 +419,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 <script>
 function handleDreamboxImageError(img){
   const base=img.dataset.base;
-  const step=img.dataset.fallbackStep||'png';
-  if(step==='png' && base && !base.endsWith('dreambox-logo')){
-    img.dataset.fallbackStep='jpg';
-    img.src=base+'.jpg';
-    return;
-  }
-  if(step!=='logo' && !base?.endsWith('dreambox-logo')){
+  if(!img.dataset.fallbackStep && base && !base.endsWith('dreambox-logo')){
     img.dataset.fallbackStep='logo';
     img.src='../assets/images/dreambox/dreambox-logo.png';
     return;
