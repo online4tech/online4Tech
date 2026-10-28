@@ -1,0 +1,802 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-28",
+  "categories": [
+    "IPTV",
+    "Audio",
+    "Skins",
+    "Panels",
+    "Tools",
+    "Translation",
+    "Other"
+  ],
+  "supportedImages": [
+    "OpenATV",
+    "OpenPLI",
+    "OpenBH",
+    "DreamOS"
+  ],
+  "count": 39,
+  "plugins": [
+    {
+      "slug": "ajpanel",
+      "name": "AJPanel",
+      "description": "أدوات وإدارة Enigma2.",
+      "category": "Tools",
+      "developer": "AMAJamry",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget --no-check-certificate https://raw.githubusercontent.com/AMAJamry/AJPanel/main/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/AMAJamry/AJPanel",
+      "tags": [
+        "Tools",
+        "AJPanel",
+        "AMAJamry"
+      ],
+      "icon": "🛠️"
+    },
+    {
+      "slug": "arabic-savior",
+      "name": "Arabic Savior",
+      "description": "أداة عربية لأجهزة Enigma2.",
+      "category": "Tools",
+      "developer": "popking159",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -qO - https://raw.githubusercontent.com/popking159/ArabicSavior/refs/heads/main/myinstaller.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/popking159/ArabicSavior",
+      "tags": [
+        "Tools",
+        "Arabic Savior",
+        "popking159"
+      ],
+      "icon": "🛠️"
+    },
+    {
+      "slug": "backupflash",
+      "name": "BackupFlash",
+      "description": "أداة النسخ الاحتياطي للفلاش.",
+      "category": "Tools",
+      "developer": "fairbird",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/fairbird/backupflash/main/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/fairbird/backupflash",
+      "tags": [
+        "Tools",
+        "BackupFlash",
+        "fairbird"
+      ],
+      "icon": "🛠️"
+    },
+    {
+      "slug": "xtreamity",
+      "name": "Xtreamity",
+      "description": "إضافة لمشاهدة قوائم IPTV على Enigma2.",
+      "category": "IPTV",
+      "developer": "biko-73",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/biko-73/xstreamity/main/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/biko-73/xstreamity",
+      "tags": [
+        "IPTV",
+        "Xtreamity",
+        "biko-73"
+      ],
+      "icon": "📺"
+    },
+    {
+      "slug": "dreamxtream",
+      "name": "DreamXtream",
+      "description": "إضافة IPTV؛ ملف DEB المذكور لمعمارية arm64.",
+      "category": "IPTV",
+      "developer": "dreambox4u",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget http://dreambox4u.com/ch/E2/enigma2-plugin-extensions-dreamxtream_0.3-r9.0_arm64.deb -O /tmp/enigma2-plugin-extensions-dreamxtream_0.3-r9.0_arm64.deb && dpkg -i /tmp/enigma2-plugin-extensions-dreamxtream_0.3-r9.0_arm64.deb",
+      "sourceUrl": "http://dreambox4u.com/ch/E2/enigma2-plugin-extensions-dreamxtream_0.3-r9.0_arm64.deb",
+      "tags": [
+        "IPTV",
+        "DreamXtream",
+        "dreambox4u"
+      ],
+      "icon": "📺"
+    },
+    {
+      "slug": "mystreamer",
+      "name": "MyStreamer",
+      "description": "إضافة بث وتشغيل وسائط.",
+      "category": "IPTV",
+      "developer": "popking159",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -qO - https://raw.githubusercontent.com/popking159/MyStreamer/refs/heads/main/myinstaller.sh | /bin/sh",
+      "sourceUrl": "https://github.com/popking159/MyStreamer",
+      "tags": [
+        "IPTV",
+        "MyStreamer",
+        "popking159"
+      ],
+      "icon": "📺"
+    },
+    {
+      "slug": "xportal",
+      "name": "XPortal",
+      "description": "إضافة IPTV.",
+      "category": "IPTV",
+      "developer": "azroukarim",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/azroukarim/XPortal/refs/heads/main/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/azroukarim/XPortal",
+      "tags": [
+        "IPTV",
+        "XPortal",
+        "azroukarim"
+      ],
+      "icon": "📺"
+    },
+    {
+      "slug": "tivimate",
+      "name": "TiViMate",
+      "description": "واجهة IPTV لأجهزة Enigma2.",
+      "category": "IPTV",
+      "developer": "opesboy",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -qO- https://raw.githubusercontent.com/opesboy/TiviMateE2/main/install.sh | sh",
+      "sourceUrl": "https://github.com/opesboy/TiviMateE2",
+      "tags": [
+        "IPTV",
+        "TiViMate",
+        "opesboy"
+      ],
+      "icon": "📺"
+    },
+    {
+      "slug": "ultrastalker",
+      "name": "UltraStalker",
+      "description": "إضافة تشغيل Stalker.",
+      "category": "IPTV",
+      "developer": "K3bOra",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -qO- https://raw.githubusercontent.com/K3bOra/-UltraStalker/main/install.sh | /bin/sh",
+      "sourceUrl": "https://github.com/K3bOra/-UltraStalker",
+      "tags": [
+        "IPTV",
+        "UltraStalker",
+        "K3bOra"
+      ],
+      "icon": "📺"
+    },
+    {
+      "slug": "xtreamnew",
+      "name": "XtreamNew",
+      "description": "إضافة IPTV.",
+      "category": "IPTV",
+      "developer": "ahmedhussein4342-lgtm",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/ahmedhussein4342-lgtm/XtreamNew/main/install_xtreamnew.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/ahmedhussein4342-lgtm/XtreamNew",
+      "tags": [
+        "IPTV",
+        "XtreamNew",
+        "ahmedhussein4342-lgtm"
+      ],
+      "icon": "📺"
+    },
+    {
+      "slug": "bouquetmakerxtream",
+      "name": "BouquetMakerXtream",
+      "description": "أداة لإنشاء باقات IPTV.",
+      "category": "IPTV",
+      "developer": "biko-73",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/biko-73/BouquetMakerXtream/main/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/biko-73/BouquetMakerXtream",
+      "tags": [
+        "IPTV",
+        "BouquetMakerXtream",
+        "biko-73"
+      ],
+      "icon": "📺"
+    },
+    {
+      "slug": "e2player",
+      "name": "E2Player",
+      "description": "مشغل وسائط لأجهزة Enigma2.",
+      "category": "IPTV",
+      "developer": "oe-mirrors",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -q https://raw.githubusercontent.com/oe-mirrors/e2iplayer/refs/heads/python3/e2iplayer_install.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/oe-mirrors/e2iplayer",
+      "tags": [
+        "IPTV",
+        "E2Player",
+        "oe-mirrors"
+      ],
+      "icon": "📺"
+    },
+    {
+      "slug": "ipaudiopro",
+      "name": "IPAudioPro",
+      "description": "إضافة وخدمات صوتية.",
+      "category": "Audio",
+      "developer": "zKhadiri",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/zKhadiri/IPAudioPro-Releases-/refs/heads/main/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/zKhadiri/IPAudioPro-Releases-",
+      "tags": [
+        "Audio",
+        "IPAudioPro",
+        "zKhadiri"
+      ],
+      "icon": "🔊"
+    },
+    {
+      "slug": "audioshift",
+      "name": "AudioShift",
+      "description": "أداة مرتبطة بالصوت.",
+      "category": "Audio",
+      "developer": "xfayez95",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -O - https://xfayez95.github.io/audioshift/installer.sh | sh",
+      "sourceUrl": "https://xfayez95.github.io/audioshift/installer.sh",
+      "tags": [
+        "Audio",
+        "AudioShift",
+        "xfayez95"
+      ],
+      "icon": "🔊"
+    },
+    {
+      "slug": "ultraaudio",
+      "name": "UltraAudio",
+      "description": "إضافة صوتية.",
+      "category": "Audio",
+      "developer": "K3bOra",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -qO- https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh | /bin/sh",
+      "sourceUrl": "https://github.com/K3bOra/UltraAudio",
+      "tags": [
+        "Audio",
+        "UltraAudio",
+        "K3bOra"
+      ],
+      "icon": "🔊"
+    },
+    {
+      "slug": "orangeaudio",
+      "name": "OrangeAudio",
+      "description": "إضافة صوتية.",
+      "category": "Audio",
+      "developer": "popking159",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -qO- https://raw.githubusercontent.com/popking159/OrangeAudio/main/installer.sh | sh",
+      "sourceUrl": "https://github.com/popking159/OrangeAudio",
+      "tags": [
+        "Audio",
+        "OrangeAudio",
+        "popking159"
+      ],
+      "icon": "🔊"
+    },
+    {
+      "slug": "ipaudioplus",
+      "name": "IPAudioPlus",
+      "description": "إضافة صوتية.",
+      "category": "Audio",
+      "developer": "Ahmadarjan1",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -q -O - https://raw.githubusercontent.com/Ahmadarjan1/IPAudioPlus-Releases/main/installer.sh | /bin/sh",
+      "sourceUrl": "https://github.com/Ahmadarjan1/IPAudioPlus-Releases",
+      "tags": [
+        "Audio",
+        "IPAudioPlus",
+        "Ahmadarjan1"
+      ],
+      "icon": "🔊"
+    },
+    {
+      "slug": "xtream2audio",
+      "name": "Xtream2Audio",
+      "description": "أداة صوت مرتبطة بمصادر IPTV.",
+      "category": "Audio",
+      "developer": "emilnabil",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Xtream2Audio/Xtream2Audio.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/Xtream2Audio",
+      "tags": [
+        "Audio",
+        "Xtream2Audio",
+        "emilnabil"
+      ],
+      "icon": "🔊"
+    },
+    {
+      "slug": "metrix-poster",
+      "name": "Metrix Poster",
+      "description": "مكونات واجهة ومظهر Metrix.",
+      "category": "Skins",
+      "developer": "hmeng80",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://gitlab.com/hmeng80/addons/-/raw/main/metrix-fhd-parts-ec.sh -O - | /bin/sh",
+      "sourceUrl": "https://gitlab.com/hmeng80/addons",
+      "tags": [
+        "Skins",
+        "Metrix Poster",
+        "hmeng80"
+      ],
+      "icon": "🎨"
+    },
+    {
+      "slug": "mohammed-skin",
+      "name": "Mohammed Skin",
+      "description": "سمة واجهة لأجهزة Enigma2.",
+      "category": "Skins",
+      "developer": "mido00020",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/mido00020/MohammedSkin/main/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/mido00020/MohammedSkin",
+      "tags": [
+        "Skins",
+        "Mohammed Skin",
+        "mido00020"
+      ],
+      "icon": "🎨"
+    },
+    {
+      "slug": "obsidian-fhd",
+      "name": "Obsidian FHD",
+      "description": "واجهة Obsidian بدقة FHD.",
+      "category": "Skins",
+      "developer": "dali44g",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -qO- https://raw.githubusercontent.com/dali44g/Obsidian-FHD/main/install.sh | sh",
+      "sourceUrl": "https://github.com/dali44g/Obsidian-FHD",
+      "tags": [
+        "Skins",
+        "Obsidian FHD",
+        "dali44g"
+      ],
+      "icon": "🎨"
+    },
+    {
+      "slug": "cineview-fhd",
+      "name": "CineView FHD",
+      "description": "واجهة CineView FHD.",
+      "category": "Skins",
+      "developer": "habeb-s",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -qO /tmp/cineview-install.sh https://raw.githubusercontent.com/habeb-s/CineView-MLA-Install/main/cineview-install.sh && sh /tmp/cineview-install.sh",
+      "sourceUrl": "https://github.com/habeb-s/CineView-MLA-Install",
+      "tags": [
+        "Skins",
+        "CineView FHD",
+        "habeb-s"
+      ],
+      "icon": "🎨"
+    },
+    {
+      "slug": "subssupportpro",
+      "name": "SubsSupportPro",
+      "description": "إضافة مرتبطة بترجمة ودعم الترجمة.",
+      "category": "Translation",
+      "developer": "popking159",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -qO - https://raw.githubusercontent.com/popking159/SubsSupportPro/refs/heads/main/myinstaller.sh | /bin/sh",
+      "sourceUrl": "https://github.com/popking159/SubsSupportPro",
+      "tags": [
+        "Translation",
+        "SubsSupportPro",
+        "popking159"
+      ],
+      "icon": "💬"
+    },
+    {
+      "slug": "subextractor-lite",
+      "name": "SubExtractor Lite",
+      "description": "أداة لاستخراج ملفات الترجمة.",
+      "category": "Translation",
+      "developer": "Arian7s",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/Arian7s/SubExtractorLite/main/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/Arian7s/SubExtractorLite",
+      "tags": [
+        "Translation",
+        "SubExtractor Lite",
+        "Arian7s"
+      ],
+      "icon": "💬"
+    },
+    {
+      "slug": "mytranslator",
+      "name": "MyTranslator",
+      "description": "إضافة ترجمة؛ التثبيت بصيغة IPK.",
+      "category": "Translation",
+      "developer": "ismailelkhooly",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -O /tmp/mytranslator.ipk https://github.com/ismailelkhooly/Ismail-/raw/refs/heads/main/enigma2-plugin-extensions-mytranslator_1.75.ipk && opkg install --force-reinstall /tmp/mytranslator.ipk",
+      "sourceUrl": "https://github.com/ismailelkhooly/Ismail-",
+      "tags": [
+        "Translation",
+        "MyTranslator",
+        "ismailelkhooly"
+      ],
+      "icon": "💬"
+    },
+    {
+      "slug": "aisubtitles",
+      "name": "AiSubtitles",
+      "description": "إضافة ترجمة بالذكاء الاصطناعي.",
+      "category": "Translation",
+      "developer": "hmeng80",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://gitlab.com/hmeng80/extensions/-/raw/main/AISubtitles/aisubtitles.sh -O - | /bin/sh",
+      "sourceUrl": "https://gitlab.com/hmeng80/extensions",
+      "tags": [
+        "Translation",
+        "AiSubtitles",
+        "hmeng80"
+      ],
+      "icon": "💬"
+    },
+    {
+      "slug": "autosub-ai",
+      "name": "AutoSub AI",
+      "description": "أداة ترجمة تلقائية؛ الأمر يفك الأرشيف داخل مجلد الإضافات.",
+      "category": "Translation",
+      "developer": "HBK2010",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -q -O /tmp/AutoSub.tar.gz https://raw.githubusercontent.com/HBK2010/AutoSub/main/AutoSub.tar.gz && tar xzf /tmp/AutoSub.tar.gz -C /usr/lib/enigma2/python/Plugins/Extensions",
+      "sourceUrl": "https://github.com/HBK2010/AutoSub",
+      "tags": [
+        "Translation",
+        "AutoSub AI",
+        "HBK2010"
+      ],
+      "icon": "💬"
+    },
+    {
+      "slug": "dreamarabia",
+      "name": "DreamArabia",
+      "description": "لوحة أدوات لأجهزة Enigma2.",
+      "category": "Panels",
+      "developer": "dreambox4u",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -q --no-check-certificate http://dreambox4u.com/dreamarabia/scripts/installer.sh -O - | /bin/sh",
+      "sourceUrl": "http://dreambox4u.com/dreamarabia/scripts/installer.sh",
+      "tags": [
+        "Panels",
+        "DreamArabia",
+        "dreambox4u"
+      ],
+      "icon": "🧰"
+    },
+    {
+      "slug": "gp42",
+      "name": "GP4.2",
+      "description": "مكونات GP 4.2؛ يعتمد الأمر على apt وDreamOS.",
+      "category": "Panels",
+      "developer": "Blue Panel",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "apt update && wget -O /tmp/geminilocale_all.deb http://download.blue-panel.com/geminilocale_gp4.php && apt install -y /tmp/geminilocale_all.deb",
+      "sourceUrl": "http://download.blue-panel.com/geminilocale_gp4.php",
+      "tags": [
+        "Panels",
+        "GP4.2",
+        "Blue Panel"
+      ],
+      "icon": "🧰"
+    },
+    {
+      "slug": "mohamed-store",
+      "name": "Mohamed Store",
+      "description": "لوحة إضافات.",
+      "category": "Panels",
+      "developer": "wwwgoper77-wq",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -O - https://raw.githubusercontent.com/wwwgoper77-wq/MohamedStore/main/install.sh | sh",
+      "sourceUrl": "https://github.com/wwwgoper77-wq/MohamedStore",
+      "tags": [
+        "Panels",
+        "Mohamed Store",
+        "wwwgoper77-wq"
+      ],
+      "icon": "🧰"
+    },
+    {
+      "slug": "enigma-play-store",
+      "name": "Enigma Play Store",
+      "description": "متجر إضافات لأجهزة Enigma2.",
+      "category": "Panels",
+      "developer": "Ahmadarjan1",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -qO- https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/install.sh | sh",
+      "sourceUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
+      "tags": [
+        "Panels",
+        "Enigma Play Store",
+        "Ahmadarjan1"
+      ],
+      "icon": "🧰"
+    },
+    {
+      "slug": "magicpanelmax",
+      "name": "MagicPanelMax",
+      "description": "لوحة أدوات وإضافات.",
+      "category": "Panels",
+      "developer": "Ham-ahmed",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/Ham-ahmed/G12/refs/heads/main/MagicPanelMax-install.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/Ham-ahmed/G12",
+      "tags": [
+        "Panels",
+        "MagicPanelMax",
+        "Ham-ahmed"
+      ],
+      "icon": "🧰"
+    },
+    {
+      "slug": "linuxsat-panel",
+      "name": "LinuxSat Panel",
+      "description": "لوحة أدوات لأجهزة Enigma2.",
+      "category": "Panels",
+      "developer": "Belfagor2005",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/Belfagor2005/LinuxsatPanel/main/installer.sh -O - | /bin/bash",
+      "sourceUrl": "https://github.com/Belfagor2005/LinuxsatPanel",
+      "tags": [
+        "Panels",
+        "LinuxSat Panel",
+        "Belfagor2005"
+      ],
+      "icon": "🧰"
+    },
+    {
+      "slug": "aio-panel",
+      "name": "AIO Panel",
+      "description": "لوحة متعددة الأدوات.",
+      "category": "Panels",
+      "developer": "OliOli2013",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -q -O - https://raw.githubusercontent.com/OliOli2013/PanelAIO-Plugin/main/installer.sh | /bin/sh",
+      "sourceUrl": "https://github.com/OliOli2013/PanelAIO-Plugin",
+      "tags": [
+        "Panels",
+        "AIO Panel",
+        "OliOli2013"
+      ],
+      "icon": "🧰"
+    },
+    {
+      "slug": "epgimport",
+      "name": "EPGImport",
+      "description": "إضافة لاستيراد بيانات دليل البرامج EPG.",
+      "category": "Other",
+      "developer": "Saiedf",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -qO- https://raw.githubusercontent.com/Saiedf/EPGImport/main/installer_epgimportiet5_auto.sh | /bin/sh",
+      "sourceUrl": "https://github.com/Saiedf/EPGImport",
+      "tags": [
+        "Other",
+        "EPGImport",
+        "Saiedf"
+      ],
+      "icon": "⚙️"
+    },
+    {
+      "slug": "multicamadder",
+      "name": "MultiCamAdder",
+      "description": "أداة إعداد وإضافة ملفات إعداد الكام.",
+      "category": "Other",
+      "developer": "emilnabil",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/MultiCamAdder",
+      "tags": [
+        "Other",
+        "MultiCamAdder",
+        "emilnabil"
+      ],
+      "icon": "⚙️"
+    },
+    {
+      "slug": "setpicon",
+      "name": "SetPicon",
+      "description": "أداة إعداد البيكونات.",
+      "category": "Other",
+      "developer": "emilnabil",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/setpicon",
+      "tags": [
+        "Other",
+        "SetPicon",
+        "emilnabil"
+      ],
+      "icon": "⚙️"
+    },
+    {
+      "slug": "raedquicksignal",
+      "name": "RaedQuickSignal",
+      "description": "أداة عرض معلومات وجودة الإشارة.",
+      "category": "Other",
+      "developer": "fairbird",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/fairbird/RaedQuickSignal",
+      "tags": [
+        "Other",
+        "RaedQuickSignal",
+        "fairbird"
+      ],
+      "icon": "⚙️"
+    },
+    {
+      "slug": "server-eaglesat",
+      "name": "Server EagleSat",
+      "description": "أداة خدمات سيرفر.",
+      "category": "Other",
+      "developer": "eliesat",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "التوافق مع صورة النظام لم يتم التحقق منه ضمن البيانات المقدمة."
+      },
+      "installCommand": "wget -qO- --no-check-certificate https://raw.githubusercontent.com/eliesat/ServerEagleSat/main/installer.sh | bash",
+      "sourceUrl": "https://github.com/eliesat/ServerEagleSat",
+      "tags": [
+        "Other",
+        "Server EagleSat",
+        "eliesat"
+      ],
+      "icon": "⚙️"
+    }
+  ]
+}
