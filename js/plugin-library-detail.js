@@ -2,7 +2,9 @@
 'use strict';
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let all=[],toastTimer;\nconst universalRoute=/\\/downloads\\/plugin\\/(?:index\\.html)?$/.test(location.pathname);\nfunction detailHref(slug){return (universalRoute?'index.html?slug=':'../index.html?slug=')+encodeURIComponent(slug);}
+let all=[],toastTimer;
+const universalRoute=/\/downloads\/plugin\/(?:index\.html)?$/.test(location.pathname);
+function detailHref(slug){return (universalRoute?'index.html?slug=':'../index.html?slug=')+encodeURIComponent(slug);}
 function toast(t){const el=$('plToast');el.textContent=t;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),2300)}
 async function copy(v){try{await navigator.clipboard.writeText(v);toast('✓ تم نسخ أمر التثبيت')}catch(e){const a=document.createElement('textarea');a.value=v;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();let ok=false;try{ok=document.execCommand('copy')}catch(_){}a.remove();toast(ok?'✓ تم نسخ أمر التثبيت':'تعذر النسخ التلقائي؛ حدّد الأمر وانسخه يدويًا')}}
 function render(p){
