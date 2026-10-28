@@ -1076,6 +1076,14 @@
     "status": "متعدد"
   },
   {
+    "title": "Quick Install | Enigma2 Plugins Library — Online4Tech",
+    "description": "انسخ أوامر تثبيت إضافات Enigma2 بسرعة من مكتبة Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/quick-install/index.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
     "title": "Quran Kareem",
     "description": "إضافة القرآن الكريم لأجهزة Enigma2؛ راجع صفحة الإضافة لمعرفة الخصائص وطريقة الاستخدام.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=quran-kareem",
@@ -1450,6 +1458,14 @@
     "type": "Plugin"
   },
   {
+    "title": "الرجوع إلى المكتبة الكاملة",
+    "description": "انسخ أوامر تثبيت إضافات Enigma2 بسرعة من مكتبة Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
     "title": "الرجوع لقسم البلجن",
     "description": "بلجن القدس لتشغيل الصوتيات | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
@@ -1632,6 +1648,14 @@
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Tutorial"
+  },
+  {
+    "title": "نسخ أوامر تثبيت البلجنات بسرعة",
+    "description": "انسخ أوامر تثبيت إضافات Enigma2 بسرعة من مكتبة Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/quick-install/index.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
   },
   {
     "title": "← الرجوع لمركز البلجنز",
