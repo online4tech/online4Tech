@@ -826,7 +826,12 @@
       "icon": "",
       "logoFound": false,
       "officialWebsite": "",
-      "telnetCommands": []
+      "telnetCommands": [
+        {
+          "label": "تثبيت Timeshift Delay عبر Telnet",
+          "command": "wget -qO - http://dreambox4u.com/mosadpro/scripts/timeshift-delay.sh | sh"
+        }
+      ]
     },
     {
       "id": "ultraaudio",
@@ -1946,7 +1951,12 @@
         "footonsat"
       ],
       "features": [],
-      "telnetCommands": [],
+      "telnetCommands": [
+        {
+          "label": "تثبيت Quran Kareem عبر Telnet",
+          "command": "wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Quran/installer.sh -qO - | /bin/sh"
+        }
+      ],
       "icon": "",
       "logoFound": false,
       "officialWebsite": ""
