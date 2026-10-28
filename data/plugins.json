@@ -46,7 +46,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/AMAJamry/AJPanel",
         "githubRelease": ""
       },
       "featured": true,
@@ -70,7 +70,7 @@
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/AMAJamry/AJPanel",
       "relatedPlugins": [
         "arabicsavior",
         "raedquicksignal"
@@ -423,7 +423,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/fairbird/ArabicSavior",
         "githubRelease": ""
       },
       "featured": false,
@@ -447,7 +447,7 @@
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/fairbird/ArabicSavior",
       "relatedPlugins": [
         "ajpanel",
         "raedquicksignal"
@@ -486,7 +486,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
         "githubRelease": ""
       },
       "featured": false,
@@ -510,7 +510,7 @@
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
       "relatedPlugins": [
         "mystreamer",
         "mediaportal",
@@ -672,7 +672,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/fairbird/RaedQuickSignal",
         "githubRelease": ""
       },
       "featured": false,
@@ -696,7 +696,7 @@
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/fairbird/RaedQuickSignal",
       "relatedPlugins": [
         "ajpanel",
         "arabicsavior"
@@ -914,7 +914,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/biko-73/JediMakerXtream",
         "githubRelease": ""
       },
       "featured": true,
@@ -937,7 +937,7 @@
       "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
       "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/biko-73/JediMakerXtream",
       "relatedPlugins": [
         "xtreamity",
         "xtreamnew"
@@ -976,7 +976,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/kiddac/XStreamity",
         "githubRelease": ""
       },
       "featured": true,
@@ -999,7 +999,7 @@
       "installationMethod": "لم أتحقق من ملف IPK أو أمر تثبيت رسمي يطابق هذا الاسم تحديدًا؛ لم أستخدم مصدرًا لبلجن مشابه بالاسم.",
       "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/kiddac/XStreamity",
       "relatedPlugins": [
         "jedi-maker-xtream",
         "xtreamnew"
@@ -1033,7 +1033,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/OpenPLi/enigma2-plugins",
         "githubRelease": ""
       },
       "featured": true,
@@ -1056,7 +1056,7 @@
       "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
       "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/OpenPLi/enigma2-plugins",
       "relatedPlugins": [
         "autotimer",
         "seriesplugin"
@@ -1153,7 +1153,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/OpenPLi/enigma2-plugins",
         "githubRelease": ""
       },
       "featured": false,
@@ -1176,7 +1176,7 @@
       "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
       "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/OpenPLi/enigma2-plugins",
       "relatedPlugins": [
         "epg-import",
         "seriesplugin"
@@ -1214,7 +1214,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/OpenPLi/enigma2-plugins",
         "githubRelease": ""
       },
       "featured": false,
@@ -1237,7 +1237,7 @@
       "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
       "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/OpenPLi/enigma2-plugins",
       "relatedPlugins": [
         "epg-import",
         "autotimer"
@@ -1276,7 +1276,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/OpenPLi/enigma2-plugins",
         "githubRelease": ""
       },
       "featured": false,
@@ -1299,7 +1299,7 @@
       "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
       "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/OpenPLi/enigma2-plugins",
       "relatedPlugins": [
         "filecommander"
       ],
@@ -1336,7 +1336,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/OpenPLi/enigma2-plugins",
         "githubRelease": ""
       },
       "featured": false,
@@ -1359,7 +1359,7 @@
       "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
       "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/OpenPLi/enigma2-plugins",
       "relatedPlugins": [
         "dreamexplorer"
       ],
@@ -1510,7 +1510,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/OpenPLi/enigma2-plugins",
         "githubRelease": ""
       },
       "featured": false,
@@ -1533,7 +1533,7 @@
       "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
       "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/OpenPLi/enigma2-plugins",
       "relatedPlugins": [
         "mystreamer",
         "enigmaplay",
@@ -1572,7 +1572,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/OpenPLi/enigma2-plugins",
         "githubRelease": ""
       },
       "featured": false,
@@ -1595,7 +1595,7 @@
       "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
       "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/OpenPLi/enigma2-plugins",
       "relatedPlugins": [],
       "features": [],
       "icon": "",
@@ -1631,7 +1631,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/E2OpenPlugins/e2openplugin-OpenWebif",
         "githubRelease": ""
       },
       "featured": true,
@@ -1654,7 +1654,7 @@
       "installationMethod": "يوجد أمر تثبيت عبر Telnet/SSH موثّق من مستودع المطوّر أو مستودع صورة النظام. راجع توافق الصورة قبل التنفيذ.",
       "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/E2OpenPlugins/e2openplugin-OpenWebif",
       "relatedPlugins": [
         "mobile-telnet"
       ],
@@ -1872,10 +1872,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/tarekzoka/ajpanel",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/tarekzoka/ajpanel",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -1930,10 +1930,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/emilnabil/download-plugins",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -2045,10 +2045,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/emilnabil/download-plugins",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -2103,10 +2103,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/emilnabil/download-plugins",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -2161,10 +2161,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/angelheart150/My_e2iplayer_hosts",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/angelheart150/My_e2iplayer_hosts",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -2336,10 +2336,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/biko-73/TMBD",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/biko-73/TMBD",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -2451,10 +2451,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/Ham-ahmed/Secript-Panel",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/Ham-ahmed/Secript-Panel",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -2508,10 +2508,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/emilnabil/download-plugins",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -2566,10 +2566,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/angelheart150/My-tsiplayer",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/angelheart150/My-tsiplayer",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -2680,10 +2680,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/popking159/ssupport",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/popking159/ssupport",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -2738,10 +2738,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/biko-73/xstreamity",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/biko-73/xstreamity",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -2796,10 +2796,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/biko-73/JediMakerXtream",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/biko-73/JediMakerXtream",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -2854,10 +2854,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/biko-73/Multi-Stalker",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/biko-73/Multi-Stalker",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -2912,10 +2912,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/emilnabil/ipaudiopro",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/emilnabil/ipaudiopro",
         "githubRelease": ""
       },
       "telnetCommands": [
@@ -2969,10 +2969,10 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "",
+      "githubUrl": "https://github.com/digiteng/xtra",
       "downloadUrl": "",
       "downloads": {
-        "repository": "",
+        "repository": "https://github.com/digiteng/xtra",
         "githubRelease": ""
       },
       "telnetCommands": [
