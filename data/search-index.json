@@ -3104,6 +3104,22 @@
     "type": "Page"
   },
   {
+    "title": "مكتبة إضافات Enigma2",
+    "description": "أكبر مكتبة عربية لإضافات وأوامر تثبيت Enigma2. ابحث وصنّف الإضافات وانسخ أوامر التثبيت من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin-library/index.html",
+    "category": "معلومات",
+    "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "مكتبة إضافات Enigma2 | Online4Tech",
+    "description": "أكبر مكتبة عربية لإضافات وأوامر تثبيت Enigma2. ابحث وصنّف الإضافات وانسخ أوامر التثبيت من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin-library/index.html",
+    "category": "معلومات",
+    "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
     "title": "مكتبة التوافق",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#catalogSection",
@@ -3584,6 +3600,14 @@
     "type": "Page"
   },
   {
+    "title": "مركز التحميل",
+    "description": "أكبر مكتبة عربية لإضافات وأوامر تثبيت Enigma2. ابحث وصنّف الإضافات وانسخ أوامر التثبيت من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/downloads.html",
+    "category": "ملفات",
+    "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
     "title": "معلومات أكتر عن الباك أب",
     "description": "تفاصيل ومعلومات نسخة الباك أب على Online4Tech",
     "url": "https://online4tech.github.io/online4Tech/backup-info.html",
@@ -3609,11 +3633,11 @@
   },
   {
     "title": "مكتبة التحميل",
-    "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
+    "description": "أكبر مكتبة عربية لإضافات وأوامر تثبيت Enigma2. ابحث وصنّف الإضافات وانسخ أوامر التثبيت من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/library.html",
     "category": "ملفات",
     "brand": "Enigma2",
-    "type": "Channels"
+    "type": "Page"
   },
   {
     "title": "مكتبة التحميل | Online4Tech",
