@@ -715,8 +715,8 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "Quick Install",
-          "command": "opkg update\nopkg install wget\nwget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh"
+          "label": "تحديث المستودعات",
+          "command": "opkg update && opkg install wget && wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh"
         }
       ],
       "icon": "",
@@ -2201,8 +2201,8 @@
       "downloads": {},
       "telnetCommands": [
         {
-          "label": "Quick Install",
-          "command": "opkg install transmission transmission-client python3-transmission-rpc xz python3-beautifulsoup4\nwget -q --no-check-certificate http://dreambox4u.com/dreamarabia/Transmission_e2/Transmission_e2.sh -O - | bash"
+          "label": "تثبيت الحزم والبلجن",
+          "command": "opkg install transmission transmission-client python3-transmission-rpc xz python3-beautifulsoup4 && wget -q --no-check-certificate http://dreambox4u.com/dreamarabia/Transmission_e2/Transmission_e2.sh -O - | bash"
         }
       ]
     },
