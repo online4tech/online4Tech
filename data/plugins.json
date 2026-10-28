@@ -237,13 +237,13 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "",
-        "githubRelease": ""
+        "repository": "https://github.com/picons/picons",
+        "githubRelease": "https://github.com/picons/picons/releases/latest"
       },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/picons/picons/releases/latest",
       "tutorialUrl": "",
       "changelog": [],
       "tags": [
@@ -260,7 +260,7 @@
       "installationMethod": "ملفات Picons تختلف حسب القمر والقنوات وصورة النظام؛ لا يوجد ملف تثبيت واحد مناسب لكل الأجهزة.",
       "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/picons/picons",
       "relatedPlugins": [
         "skin-selector"
       ],
