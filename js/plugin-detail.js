@@ -226,6 +226,12 @@
       const sideActions = link(downloadUrl, 'تنزيل / المصدر ↗', 'btn-primary') + link(githubUrl, 'مستودع GitHub ↗');
       const aside = metadata || sideActions ? '<aside>' + panel('بيانات الإضافة', metadata + (sideActions ? '<div class="card-actions">' + sideActions + '</div>' : ''), true) + '</aside>' : '';
 
+      // Hide legacy empty-image placeholders; only render the gallery when real screenshots exist.
+      document.querySelectorAll('#pluginDetail .detail-panel, #pluginDetail section').forEach(section => {
+        const text = (section.textContent || '').replace(/\\s+/g, ' ').trim();
+        if (/صور البلجن/.test(text) && /لسه مفيش صور مرفوعة للبلجن ده/.test(text)) section.remove();
+      });
+
       const heroLogo = visual(plugin, 'icon');
       $('pluginDetail').innerHTML = '<section class="detail-hero' + (heroLogo ? ' has-logo' : ' no-logo') + '">' + (heroLogo ? '<div class="detail-icon">' + heroLogo + '</div>' : '') + '<div><div class="eyebrow">ENIGMA2 PLUGIN' + (hasValue(plugin.category) ? ' · ' + esc(plugin.category) : '') + '</div><h1>' + esc(plugin.name) + '</h1>' + (heroBadges ? '<div class="badge-row">' + heroBadges + '</div>' : '') + (hasValue(plugin.arabicDescription || plugin.description) ? '<p>' + esc(plugin.arabicDescription || plugin.description) + '</p>' : '') + (actionLinks ? '<div class="card-actions">' + actionLinks + '</div>' : '') + '</div></section><div class="detail-columns"><div>' + panels + '</div>' + aside + '</div>';
 
