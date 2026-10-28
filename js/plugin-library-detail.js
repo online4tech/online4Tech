@@ -29,7 +29,7 @@ function render(p){
  const src=$('detailSource');if(src){if(p.sourceUrl){src.href=p.sourceUrl;src.hidden=false}else src.hidden=true;}
  const meta=document.querySelector('.pl-detail-meta');if(meta){meta.hidden=!(p.developer||p.category);}
  const related=all.filter(x=>x.category===p.category&&x.slug!==p.slug).slice(0,4);
- $('relatedGrid').innerHTML=related.map(x=>'<a class="pl-related" href="../'+encodeURIComponent(x.slug)+'/"><span>'+esc(x.icon||'🧩')+'</span><strong>'+esc(x.name)+'</strong><p>'+esc(x.description||'')+'</p><small>'+esc(x.category||'')+'</small></a>').join('');
+ $('relatedGrid').innerHTML=related.map(x=>' <a class="pl-related" href="'+detailHref(x.slug)+'"><span>'+esc(x.icon||'🧩')+'</span><strong>'+esc(x.name)+'</strong><p>'+esc(x.description||'')+'</p><small>'+esc(x.category||'')+'</small></a>').join('');
  $('relatedSection').hidden=!related.length;
  const ldData={'@context':'https://schema.org','@type':'SoftwareApplication','name':p.name,'description':p.description||('تحميل وتثبيت '+p.name+' لأجهزة Enigma2.'),'applicationCategory':p.category||'Enigma2','operatingSystem':images.join(', ')||'Enigma2','url':location.href};
  if(p.developer)ldData.author={'@type':'Person','name':p.developer};
