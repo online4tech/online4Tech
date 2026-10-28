@@ -61,3 +61,6 @@
 @media(max-width:640px){.plugin-thumb{flex-basis:48px;width:48px;height:48px}.plugin-thumb>img{width:48px;height:48px}.detail-icon,.detail-icon img{width:48px;height:48px;min-width:48px}}
 
 .detail-hero.no-logo{grid-template-columns:minmax(0,1fr)}
+
+/* Quick install actions and icon fallback for catalog cards */
+.plugin-thumb.plugin-fallback{display:grid;place-items:center;font-size:2rem;color:#67d2ff;background:linear-gradient(145deg,#173653,#0b192b);border:1px solid #31516f;border-radius:14px}.copy-install-status{display:inline-flex;align-items:center;color:#8ce6c2;font-size:.75rem;min-height:24px}.copy-install-command{cursor:pointer}
