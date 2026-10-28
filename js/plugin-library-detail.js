@@ -5,7 +5,38 @@ const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 let all=[],toastTimer;
 function toast(t){const el=$('plToast');el.textContent=t;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),2300)}
 async function copy(v){try{await navigator.clipboard.writeText(v);toast('✓ تم نسخ أمر التثبيت')}catch(e){const a=document.createElement('textarea');a.value=v;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();let ok=false;try{ok=document.execCommand('copy')}catch(_){}a.remove();toast(ok?'✓ تم نسخ أمر التثبيت':'تعذر النسخ التلقائي؛ حدّد الأمر وانسخه يدويًا')}}
-function features(p){const byCategory={IPTV:['دعم خدمات وقوائم IPTV حسب الإضافة','تنظيم المحتوى والتنقل بين الأقسام','تشغيل القنوات أو مكتبات الفيديو عند دعم المصدر','واجهة مخصصة لتسهيل الوصول للمحتوى'],Audio:['إدارة وتشغيل المحتوى الصوتي','خيارات للتحكم في المسارات أو مصادر الصوت حسب الإضافة','سهولة الوصول إلى وظائف الصوت','تكامل مع بيئة Enigma2 عند توفر التوافق'],Skins:['واجهة مرئية محدثة لأجهزة Enigma2','عرض أوضح لمعلومات القنوات والمحتوى','تنسيق عناصر الشاشة بما يتناسب مع السكين','دعم التفاصيل المرئية حسب مكونات الإضافة'],Translation:['أدوات مساعدة للتعامل مع النصوص والترجمات','تسهيل إدارة ملفات الترجمة عند دعمها','دعم لغات أو مصادر ترجمة حسب الإضافة','تكامل مع Enigma2 وفق التوافق المتاح'],Panels:['جمع أدوات وإضافات في واجهة واحدة','تسهيل الوصول إلى وظائف الإدارة','توفير أدوات حسب محتويات اللوحة','توافق يعتمد على صورة النظام والمصدر'],Tools:['تسهيل مهمة إدارية محددة داخل Enigma2','اختصار خطوات العمل المتكررة','واجهة أو أوامر مخصصة لوظيفة الأداة','الوظائف الفعلية حسب إصدار الإضافة'],Other:['إضافة وظيفة مساعدة إلى Enigma2','تسهيل الوصول إلى الأداة أو الخدمة','الميزات تتحدد حسب مصدر الإضافة','التوافق حسب ما هو موثق في بيانات المكتبة']};return byCategory[p.category]||byCategory.Other}function render(p){const images=(p.compatibility&&p.compatibility.images)||[];const comp=images.length?images.join('، '):'لم يتم توثيق التوافق مع صور النظام بعد';$('detailIcon').textContent=p.icon||'🧩';$('detailName').textContent=p.name;$('detailCategory').textContent=p.category;const categoryMeta=$('detailCategoryMeta');if(categoryMeta)categoryMeta.textContent=p.category;$('detailDeveloper').textContent=p.developer||'غير محدد';$('detailDescription').textContent=p.description||'إضافة لأجهزة Enigma2.';$('detailCompatibility').textContent=comp;$('detailCommand').textContent=p.installCommand||'لا يوجد أمر تثبيت متاح.';$('detailCopy').addEventListener('click',()=>copy(p.installCommand));const src=$('detailSource');if(p.sourceUrl){src.href=p.sourceUrl;src.hidden=false}else src.hidden=true;const about=$('detailAbout');if(about)about.textContent=p.description||'إضافة لأجهزة Enigma2.';const featureList=$('detailFeatures');if(featureList)featureList.innerHTML=features(p).map(x=>'<li>✓ '+esc(x)+'</li>').join('');const related=all.filter(x=>x.category===p.category&&x.slug!==p.slug).slice(0,4);$('relatedGrid').innerHTML=related.map(x=>'<a class="pl-related" href="../'+encodeURIComponent(x.slug)+'/"><span>'+esc(x.icon||'🧩')+'</span><strong>'+esc(x.name)+'</strong><p>'+esc(x.description||'إضافة لأجهزة Enigma2.')+'</p><small>'+esc(x.category)+'</small></a>').join('');$('relatedSection').hidden=!related.length;const jsonld={'@context':'https://schema.org','@type':'SoftwareApplication','name':p.name,'description':'تحميل وتثبيت '+p.name+' لأجهزة Enigma2.','applicationCategory':p.category,'operatingSystem':'Enigma2','url':location.href,'author':{'@type':'Person','name':p.developer||'غير محدد'},'installUrl':p.sourceUrl||location.href};const ld=document.createElement('script');ld.type='application/ld+json';ld.textContent=JSON.stringify(jsonld);document.head.appendChild(ld);$('detailLoading').hidden=true;$('detailContent').hidden=false}
+function render(p){
+ const images=(p.compatibility&&p.compatibility.images)||[];
+ const badges=$('detailImageBadges');
+ if(badges){badges.innerHTML=images.map(x=>'<span class="pl-pill">'+esc(x)+'</span>').join('');badges.hidden=!images.length;}
+ $('detailIcon').textContent=p.icon||'🧩';
+ $('detailName').textContent=p.name;
+ $('detailCategory').textContent=p.category||'';
+ const catMeta=$('detailCategoryMeta');if(catMeta){catMeta.textContent=p.category||'';catMeta.closest('div').hidden=!p.category;}
+ const dev=$('detailDeveloper');if(dev){dev.textContent=p.developer||'';dev.closest('div').hidden=!p.developer;}
+ $('detailDescription').textContent=p.description||'';
+ $('detailDescription').hidden=!p.description;
+ const about=$('detailAbout');if(about){about.textContent=p.description||'';about.closest('section').hidden=!p.description;}
+ const list=$('detailFeatures');const featureSection=list&&list.closest('section');
+ const featureItems=Array.isArray(p.features)?p.features.filter(Boolean).slice(0,6):[];
+ if(list)list.innerHTML=featureItems.map(x=>'<li>✓ '+esc(x)+'</li>').join('');
+ if(featureSection)featureSection.hidden=!featureItems.length;
+ const commandSection=document.querySelector('.pl-command-section');
+ const hasCommand=Boolean(p.installCommand&&p.installCommand.trim());
+ if(commandSection)commandSection.hidden=!hasCommand;
+ if(hasCommand)$('detailCommand').textContent=p.installCommand;
+ const copyBtn=$('detailCopy');if(copyBtn){copyBtn.hidden=!hasCommand;copyBtn.onclick=()=>copy(p.installCommand);}
+ const src=$('detailSource');if(src){if(p.sourceUrl){src.href=p.sourceUrl;src.hidden=false}else src.hidden=true;}
+ const meta=document.querySelector('.pl-detail-meta');if(meta){meta.hidden=!(p.developer||p.category);}
+ const related=all.filter(x=>x.category===p.category&&x.slug!==p.slug).slice(0,4);
+ $('relatedGrid').innerHTML=related.map(x=>'<a class="pl-related" href="../'+encodeURIComponent(x.slug)+'/"><span>'+esc(x.icon||'🧩')+'</span><strong>'+esc(x.name)+'</strong><p>'+esc(x.description||'')+'</p><small>'+esc(x.category||'')+'</small></a>').join('');
+ $('relatedSection').hidden=!related.length;
+ const ldData={'@context':'https://schema.org','@type':'SoftwareApplication','name':p.name,'description':p.description||('تحميل وتثبيت '+p.name+' لأجهزة Enigma2.'),'applicationCategory':p.category||'Enigma2','operatingSystem':images.join(', ')||'Enigma2','url':location.href};
+ if(p.developer)ldData.author={'@type':'Person','name':p.developer};
+ if(p.sourceUrl)ldData.installUrl=p.sourceUrl;
+ const ld=document.createElement('script');ld.type='application/ld+json';ld.textContent=JSON.stringify(ldData);document.head.appendChild(ld);
+ $('detailLoading').hidden=true;$('detailContent').hidden=false;
+}
 async function init(){const slug=location.pathname.split('/').filter(Boolean).pop();try{const r=await fetch('../../../data/enigma2-plugins.json',{cache:'no-cache'});if(!r.ok)throw new Error();const data=await r.json();all=data.plugins||[];const p=all.find(x=>x.slug===slug);if(!p){$('detailLoading').textContent='الإضافة المطلوبة مش موجودة في المكتبة.';return}render(p)}catch(e){$('detailLoading').textContent='تعذر تحميل بيانات الإضافة. حاول تحديث الصفحة.'}}
 document.addEventListener('DOMContentLoaded',init);
 })();
