@@ -3710,6 +3710,14 @@
     "type": "Tutorial"
   },
   {
+    "title": "طرق الدفع وتأكيد الحجز",
+    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html#payment",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
     "title": "قائمة البلجنز",
     "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
@@ -3823,14 +3831,6 @@
   },
   {
     "title": "💰 عروض الأسبوع",
-    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
-    "title": "💳 طرق الدفع والثقة",
     "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
     "url": "https://online4tech.github.io/online4Tech/store/index.html",
     "category": "منتجات",
