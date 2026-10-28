@@ -2702,6 +2702,14 @@
     "type": "Page"
   },
   {
+    "title": "اختار القسم اللي يناسبك",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "اعمل نسخة احتياطية",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html",
@@ -3774,11 +3782,27 @@
     "type": "Backups"
   },
   {
+    "title": "📡الأجهزة الجديدةأحدث الموديلات والأجهزة الجديدة‹",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html?quick=new",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Product"
+  },
+  {
     "title": "📦 الإكسسوارات",
     "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
     "url": "https://online4tech.github.io/online4Tech/store/index.html",
     "category": "منتجات",
     "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
+    "title": "📺الأجهزة المستعملةأجهزة بحالة مميزة وأسعار مناسبة‹",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html?quick=used",
+    "category": "منتجات",
+    "brand": "Dreambox",
     "type": "Product"
   },
   {
@@ -3788,6 +3812,14 @@
     "category": "منتجات",
     "brand": "Dreambox",
     "type": "Backups"
+  },
+  {
+    "title": "🔌الإكسسواراتريموتات وكابلات وملحقات متنوعة‹",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html?quick=accessories",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Product"
   },
   {
     "title": "🔎 ابحث وصفّي النتائج",
