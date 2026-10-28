@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07111f">
+<meta name="description" content="انسخ أوامر تثبيت إضافات Enigma2 بسرعة من مكتبة Online4Tech.">
+<link rel="canonical" href="https://online4tech.github.io/online4Tech/quick-install/">
+<title>Quick Install | Enigma2 Plugins Library — Online4Tech</title>
+<link rel="stylesheet" href="../assets/site-header.css?v=5">
+<script defer src="../assets/site-header.js?v=5"></script>
+<style>
+:root{color-scheme:dark;--bg:#07111f;--panel:#0d1a2c;--line:#263d58;--text:#f4f8ff;--muted:#a8bad0;--blue:#67d2ff;--mint:#8ce6c2}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 80% -10%,#153a5b 0,transparent 42%),#07111f;color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.8}.wrap{width:min(1120px,92%);margin:0 auto}.hero{text-align:center;padding:38px 0 24px}.eyebrow{display:inline-block;color:var(--blue);border:1px solid #31516f;background:#10253c;border-radius:999px;padding:4px 12px;font-size:.78rem;font-weight:bold}.hero h1{font-size:clamp(1.8rem,4vw,2.7rem);margin:12px 0 5px;line-height:1.35}.hero p{color:var(--muted);margin:0}.tools{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:10px;margin:20px 0}.tools input,.tools select{width:100%;min-width:0;background:#081625;color:var(--text);border:1px solid #2c4662;border-radius:12px;padding:12px 14px;font:inherit;outline:none}.tools input:focus,.tools select:focus{border-color:var(--blue);box-shadow:0 0 0 3px #67d2ff20}.count{color:var(--muted);font-size:.85rem;margin:0 0 12px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.plugin{min-width:0;padding:18px;border:1px solid #29435f;border-radius:18px;background:linear-gradient(155deg,#11243a,#0b1727);box-shadow:0 14px 32px #0002;transition:transform .18s,border-color .18s}.plugin:hover{transform:translateY(-3px);border-color:var(--blue)}.plugin h2{font-size:1.05rem;margin:0 0 7px;line-height:1.5}.plugin p{color:var(--muted);font-size:.86rem;margin:0 0 15px;min-height:48px}.copy{width:100%;border:1px solid #61d5ff;border-radius:11px;padding:10px 12px;background:linear-gradient(135deg,#67d2ff,#478bff);color:#061321;font:inherit;font-size:.87rem;font-weight:900;cursor:pointer;transition:filter .18s,transform .18s}.copy:hover{filter:brightness(1.08);transform:translateY(-1px)}.status{display:block;min-height:22px;margin-top:5px;color:var(--mint);font-size:.78rem}.empty{padding:28px;text-align:center;border:1px dashed #36516e;border-radius:16px;color:var(--muted)}footer{margin-top:34px;padding:20px 0;border-top:1px solid var(--line);color:var(--muted);font-size:.8rem}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.foot a{color:var(--blue);text-decoration:none}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.tools{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.plugin p{min-height:0}.hero{padding-top:27px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important}}
+</style>
+</head>
+<body>
+<header></header>
+<main class="wrap">
+<section class="hero"><span class="eyebrow">ONLINE4TECH · QUICK INSTALL</span><h1>نسخ أوامر تثبيت البلجنات بسرعة</h1><p>ابحث عن الإضافة، ثم انسخ أمر التثبيت لاستخدامه عبر Telnet أو SSH.</p></section>
+<div class="tools"><input id="search" type="search" placeholder="ابحث باسم البلجن أو الوصف…" aria-label="بحث عن بلجن"><select id="category" aria-label="فلترة حسب التصنيف"><option value="">كل التصنيفات</option></select></div>
+<p id="count" class="count" aria-live="polite">جاري تحميل البلجنات…</p>
+<section id="grid" class="grid" aria-label="قائمة أوامر التثبيت"></section>
+<div id="empty" class="empty" hidden>مفيش بلجنات مطابقة للبحث أو التصنيف.</div>
+<section style="margin-top:20px;padding:14px 16px;border:1px solid #67512b;border-radius:14px;background:#2b2518;color:#e5d5b1;font-size:.83rem"><strong style="color:#ffe1a0">تنبيه قبل التثبيت:</strong> بعض الأوامر تشغّل سكريبتًا من الإنترنت مباشرة. راجع المصدر وتوافق صورة النظام والجهاز قبل تنفيذ أي أمر.</section>
+</main>
+<footer><div class="wrap foot"><span>© 2026 Online4Tech — Enigma2 Plugins Library</span><a href="../plugins/">الرجوع إلى المكتبة الكاملة</a></div></footer>
+<script>
+(function(){
+'use strict';
+const $=id=>document.getElementById(id);
+const esc=value=>String(value??'').replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+let plugins=[];
+function commands(p){return Array.isArray(p.telnetCommands)?p.telnetCommands.filter(x=>x&&String(x.command||'').trim()):[]}
+function render(){
+ const q=$('search').value.trim().toLocaleLowerCase();
+ const category=$('category').value;
+ const items=plugins.filter(p=>commands(p).length&&(!category||p.category===category)&&(!q||[p.name,p.description,p.arabicDescription,p.category].join(' ').toLocaleLowerCase().includes(q))).sort((a,b)=>String(a.name).localeCompare(String(b.name),'en',{sensitivity:'base'}));
+ $('grid').innerHTML=items.map(p=>'<article class="plugin"><h2>'+esc(p.name)+'</h2><p>'+esc(p.arabicDescription||p.description||'أمر تثبيت لإضافة Enigma2.')+'</p>'+commands(p).map((cmd,i)=>'<button class="copy" type="button" data-command="'+esc(cmd.command)+'">📋 نسخ أمر التثبيت'+(commands(p).length>1?' · '+esc(cmd.label||('طريقة '+(i+1))):'')+'</button><span class="status" aria-live="polite"></span>').join('')+'</article>').join('');
+ $('count').textContent='عرض '+items.length+' بلجن قابل لنسخ أمره';
+ $('empty').hidden=items.length>0;
+}
+async function copy(text,button){
+ const status=button.nextElementSibling;
+ try{
+  if(navigator.clipboard&&window.isSecureContext) await navigator.clipboard.writeText(text);
+  else{const area=document.createElement('textarea');area.value=text;area.style.position='fixed';area.style.opacity='0';document.body.appendChild(area);area.select();const ok=document.execCommand('copy');area.remove();if(!ok)throw new Error('copy failed')}
+  button.textContent='✓ تم نسخ الأمر';status.textContent='تم نسخ الأمر بنجاح';
+  setTimeout(()=>{button.textContent='📋 نسخ أمر التثبيت'+(button.dataset.label||'');status.textContent=''},2200);
+ }catch(_){status.textContent='تعذّر النسخ تلقائيًا؛ حاول مرة أخرى.'}
+}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-command]');if(b)copy(b.dataset.command,b)});
+$('search').addEventListener('input',render);$('category').addEventListener('change',render);
+fetch('../data/plugins.json').then(r=>{if(!r.ok)throw new Error('data unavailable');return r.json()}).then(data=>{
+ plugins=data.plugins||[];
+ [...new Set(plugins.filter(p=>commands(p).length).map(p=>p.category).filter(Boolean))].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;$('category').append(o)});
+ render();
+}).catch(()=>{$('count').textContent='تعذر تحميل فهرس البلجنات. حدّث الصفحة بعد قليل.'});
+})();
+</script>
+</body>
+</html>
