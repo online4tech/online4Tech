@@ -2,7 +2,7 @@
 'use strict';
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let all=[],toastTimer;
+let all=[],toastTimer;\nconst universalRoute=/\\/downloads\\/plugin\\/(?:index\\.html)?$/.test(location.pathname);\nfunction detailHref(slug){return (universalRoute?'index.html?slug=':'../index.html?slug=')+encodeURIComponent(slug);}
 function toast(t){const el=$('plToast');el.textContent=t;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),2300)}
 async function copy(v){try{await navigator.clipboard.writeText(v);toast('✓ تم نسخ أمر التثبيت')}catch(e){const a=document.createElement('textarea');a.value=v;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();let ok=false;try{ok=document.execCommand('copy')}catch(_){}a.remove();toast(ok?'✓ تم نسخ أمر التثبيت':'تعذر النسخ التلقائي؛ حدّد الأمر وانسخه يدويًا')}}
 function render(p){
@@ -37,6 +37,6 @@ function render(p){
  const ld=document.createElement('script');ld.type='application/ld+json';ld.textContent=JSON.stringify(ldData);document.head.appendChild(ld);
  $('detailLoading').hidden=true;$('detailContent').hidden=false;
 }
-async function init(){const slug=location.pathname.split('/').filter(Boolean).pop();try{const r=await fetch('../../../data/enigma2-plugins.json',{cache:'no-cache'});if(!r.ok)throw new Error();const data=await r.json();all=data.plugins||[];const p=all.find(x=>x.slug===slug);if(!p){$('detailLoading').textContent='الإضافة المطلوبة مش موجودة في المكتبة.';return}render(p)}catch(e){$('detailLoading').textContent='تعذر تحميل بيانات الإضافة. حاول تحديث الصفحة.'}}
+async function init(){const slug=universalRoute?new URLSearchParams(location.search).get('slug'):location.pathname.split('/').filter(Boolean).pop();try{const r=await fetch(universalRoute?'../../data/enigma2-plugins.json':'../../../data/enigma2-plugins.json',{cache:'no-cache'});if(!r.ok)throw new Error();const data=await r.json();all=data.plugins||[];const p=all.find(x=>x.slug===slug);if(!p){$('detailLoading').textContent='الإضافة المطلوبة مش موجودة في المكتبة.';return}render(p)}catch(e){$('detailLoading').textContent='تعذر تحميل بيانات الإضافة. حاول تحديث الصفحة.'}}
 document.addEventListener('DOMContentLoaded',init);
 })();
