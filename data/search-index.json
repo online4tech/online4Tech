@@ -790,6 +790,15 @@
     "status": "غير محدد"
   },
   {
+    "title": "Ciefp TMDB Search",
+    "description": "عرض بيانات وصفية للأفلام والمسلسلات من The Movie Database في البلجنز المتوافقة.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=tmdb",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin",
+    "status": "1.1"
+  },
+  {
     "title": "Connection refused",
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
@@ -1262,15 +1271,6 @@
     "brand": "Online4Tech",
     "type": "Plugin",
     "status": "غير محدد"
-  },
-  {
-    "title": "TMDB",
-    "description": "عرض بيانات وصفية للأفلام والمسلسلات من The Movie Database في البلجنز المتوافقة.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=tmdb",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin",
-    "status": "متعدد"
   },
   {
     "title": "Transmission",
