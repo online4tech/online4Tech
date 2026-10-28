@@ -16,7 +16,7 @@ function render(p){
  const dev=$('detailDeveloper');if(dev){dev.textContent=p.developer||'';dev.closest('div').hidden=!p.developer;}
  $('detailDescription').textContent=p.description||'';
  $('detailDescription').hidden=!p.description;
- const about=$('detailAbout');if(about){about.textContent=p.description||'';about.closest('section').hidden=!p.description;}
+ const about=$('detailAbout');if(about){const aboutSection=about.closest('section');if(aboutSection)aboutSection.remove();}
  const list=$('detailFeatures');const featureSection=list&&list.closest('section');
  const featureItems=Array.isArray(p.features)?p.features.filter(Boolean).slice(0,6):[];
  if(list)list.innerHTML=featureItems.map(x=>'<li>✓ '+esc(x)+'</li>').join('');
