@@ -4034,30 +4034,6 @@
     "type": "Backups"
   },
   {
-    "title": "⭐ أجهزة مختارة",
-    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
-    "title": "🆕 وصل حديثًا",
-    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
-    "title": "💰 عروض الأسبوع",
-    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
     "title": "💾نسخ الباك أبانتقل لمكتبة التحميل، واختار الشركة والموديل المناسب لجهازك.اختار جهازك ←",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/library.html",
@@ -4072,14 +4048,6 @@
     "category": "منتجات",
     "brand": "Dreambox",
     "type": "Backups"
-  },
-  {
-    "title": "📦 الإكسسوارات",
-    "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
-    "category": "منتجات",
-    "brand": "Online4Tech",
-    "type": "Product"
   },
   {
     "title": "📺ملفات القنواتافتح مكتبة التحميل للوصول لملفات القنوات والملفات المتاحة.افتح مكتبة التحميل ←",
@@ -4122,9 +4090,9 @@
     "type": "Product"
   },
   {
-    "title": "🛍️ كل المنتجات",
+    "title": "🛍️ جميع الأجهزة والملحقات",
     "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html#all-products",
     "category": "منتجات",
     "brand": "Online4Tech",
     "type": "Product"
