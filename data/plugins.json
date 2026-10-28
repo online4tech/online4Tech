@@ -44,7 +44,7 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/AMAJamry/AJPanel",
         "githubRelease": ""
@@ -283,7 +283,12 @@
       "icon": "",
       "logoFound": false,
       "officialWebsite": "",
-      "telnetCommands": [],
+      "telnetCommands": [
+        {
+          "label": "تثبيت Picons SRP Full 220x132 — نسخة 2026-10-25",
+          "command": "URL=\"https://github.com/picons/picons/releases/download/2026-10-25--00-12-17/srp-full.220x132-190x102.light.on.transparent_2026-10-25--00-12-17.hardlink.tar.xz\"; [ -d /media/hdd ] && BASE=/media/hdd || { [ -d /media/usb ] && BASE=/media/usb || { [ -d /media/mmc ] && BASE=/media/mmc || BASE=/usr/share/enigma2; }; }; mkdir -p $BASE/picon && cd /tmp && wget -O picons.tar.xz \"$URL\" && tar -xJf picons.tar.xz -C $BASE/picon --strip-components=1 && rm -rf /usr/share/enigma2/picon && ln -sfn $BASE/picon /usr/share/enigma2/picon && rm -f picons.tar.xz && sync && killall -9 enigma2"
+        }
+      ],
       "githubStars": 304,
       "directDownloadUrl": "https://drive.google.com/uc?export=download&id=1Cmfa7r5P01db2YP3qvD3V8LVjv9j16Hi"
     },
@@ -436,7 +441,7 @@
       "supportedImages": [
         "Enigma2"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/fairbird/ArabicSavior",
         "githubRelease": ""
@@ -510,7 +515,7 @@
       "supportedImages": [
         "Enigma2"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
         "githubRelease": ""
@@ -556,7 +561,7 @@
       "githubStars": 0,
       "githubForks": 0,
       "lastUpdated": "2026-10-28T08:29:20Z",
-      "popularityScore": 2.0,
+      "popularityScore": 2,
       "telnetCommands": [
         {
           "label": "Quick Install",
@@ -583,7 +588,7 @@
       "supportedImages": [
         "Enigma2"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/fairbird/FootOnsat",
         "githubRelease": ""
@@ -716,7 +721,7 @@
       "supportedImages": [
         "Enigma2"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/fairbird/RaedQuickSignal",
         "githubRelease": ""
@@ -1032,7 +1037,7 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/kiddac/XStreamity",
         "githubRelease": "https://github.com/kiddac/XStreamity/releases/tag/5.59-20260914"
@@ -1171,7 +1176,7 @@
         "Enigma2",
         "OpenATV"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/ciefp/CiefpTMDBSearch",
         "githubRelease": ""
@@ -1699,7 +1704,7 @@
         "Enigma2",
         "OpenATV"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/OpenPLi/enigma2-plugins",
         "githubRelease": ""
@@ -1773,7 +1778,7 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/E2OpenPlugins/e2openplugin-OpenWebif",
         "githubRelease": ""
@@ -2035,7 +2040,7 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/tarekzoka/ajpanel",
         "githubRelease": ""
@@ -2693,7 +2698,7 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/emilnabil/download-plugins",
         "githubRelease": ""
@@ -2876,7 +2881,7 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/popking159/ssupport",
         "githubRelease": ""
@@ -2945,7 +2950,7 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/biko-73/xstreamity",
         "githubRelease": ""
@@ -3130,7 +3135,7 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/emilnabil/ipaudiopro",
         "githubRelease": ""
@@ -3255,7 +3260,7 @@
         "OpenATV",
         "OpenPLi"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/BliNeR-KeY/extra-plugins-python3",
         "githubRelease": ""
@@ -3313,7 +3318,7 @@
         "OpenATV",
         "OpenPLi"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/Taapat/enigma2-plugin-blurayplayer",
         "githubRelease": ""
