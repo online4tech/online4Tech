@@ -851,6 +851,14 @@
     "status": "غير محدد"
   },
   {
+    "title": "Enigma2 Plugins Library",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
     "title": "EnigmaPlay",
     "description": "مشغل ومركز محتوى لإضافات Enigma2 حسب مستودع المطوّر.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=enigmaplay",
@@ -1442,14 +1450,6 @@
     "type": "Tutorial"
   },
   {
-    "title": "البلجنات والإضافات",
-    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
-    "url": "https://online4tech.github.io/online4Tech/library.html",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
     "title": "البلجنز",
     "description": "مكتبة سكينات Enigma2 من Online4Tech — روابط السكينات ومصادرها الأصلية.",
     "url": "https://online4tech.github.io/online4Tech/plugins/",
@@ -1962,6 +1962,14 @@
     "type": "Backups"
   },
   {
+    "title": "📋 Quick Install — نسخ أوامر التثبيت مباشرة",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/quick-install/",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Backups"
+  },
+  {
     "title": "📌 عن البلجن",
     "description": "بلجن القدس لتشغيل الصوتيات | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugins/alkuds-audio.html",
@@ -2338,7 +2346,7 @@
     "type": "Plugin"
   },
   {
-    "title": "🧩إضافات Enigma2 البلجنات والإضافات إضافات أجهزة Enigma2 مع معلومات الإصدار وروابط التحميل المتاحة. استكشف البلجنات←",
+    "title": "🧩إضافات Enigma2 Enigma2 Plugins Library مكتبة منظمة لبلجنات Enigma2 تشمل التصنيفات والأوصاف وأوامر التثبيت وروابط المصادر المتاحة. استكشف البلجنات←",
     "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
     "category": "إضافات",
@@ -3167,6 +3175,14 @@
     "url": "https://online4tech.github.io/online4Tech/",
     "category": "معلومات",
     "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "📋 فتح Quick Install — نسخ أوامر التثبيت بسرعة",
+    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
+    "url": "https://online4tech.github.io/online4Tech/quick-install/",
+    "category": "معلومات",
+    "brand": "Enigma2",
     "type": "Page"
   },
   {
