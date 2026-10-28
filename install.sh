@@ -29,8 +29,10 @@ except ImportError:
 
 try:
     input_fn = raw_input
+    string_types = (basestring,)
 except NameError:
     input_fn = input
+    string_types = (str,)
 
 def ask(prompt):
     try: return input_fn(prompt).strip()
@@ -47,7 +49,7 @@ def read_source():
         with open(os.environ["O4T_JSON_FILE"], "r") as f: data=json.load(f)
         plugins=data.get("plugins", [])
         if not isinstance(plugins, list): raise ValueError("plugins ليست قائمة")
-        return data, [p for p in plugins if isinstance(p,dict) and all(isinstance(p.get(k),str) for k in ("slug","name","category","description"))]
+        return data, [p for p in plugins if isinstance(p,dict) and all(isinstance(p.get(k),string_types) for k in ("slug","name","category","description"))]
     except Exception as e:
         print("خطأ: تعذر قراءة بيانات المكتبة: "+str(e)); sys.exit(1)
 
@@ -64,7 +66,7 @@ def make_categories(data, plugins):
 
 def parse_safe(p):
     cmd=p.get("installCommand","")
-    if not isinstance(cmd,str) or not cmd.strip(): return None,"لا يوجد أمر تثبيت مسجل."
+    if not isinstance(cmd,string_types) or not cmd.strip(): return None,"لا يوجد أمر تثبيت مسجل."
     if any(ch in cmd for ch in (";","\n","\r","`","$","<",">")): return None,"الأمر يحتوي على رموز غير مسموح بها."
     parts=[x.strip() for x in cmd.split("&&")]
     if len(parts)>2: return None,"صيغة الأمر غير مدعومة."
