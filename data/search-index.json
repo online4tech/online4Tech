@@ -868,6 +868,15 @@
     "type": "Plugin"
   },
   {
+    "title": "enigma2-plugin-blurayplayer",
+    "description": "Enigma2 plugin to play Blu-ray videos",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=enigma2-plugin-blurayplayer",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin",
+    "status": "Source"
+  },
+  {
     "title": "EnigmaPlay",
     "description": "مشغل ومركز محتوى لإضافات Enigma2 حسب مستودع المطوّر.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=enigmaplay",
@@ -900,6 +909,15 @@
     "brand": "Online4Tech",
     "type": "Plugin",
     "status": "متعدد"
+  },
+  {
+    "title": "extra-plugins-python3",
+    "description": "a collection of closed sourced e2 plugins",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=extra-plugins-python3",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin",
+    "status": "Source"
   },
   {
     "title": "FileCommander",
@@ -1358,7 +1376,7 @@
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Plugin",
-    "status": "غير محدد"
+    "status": "5.59-20260914"
   },
   {
     "title": "XtreamNew",

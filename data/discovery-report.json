@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-28",
+  "sources": [
+    "\"Enigma2 plugin\" in:name,description,readme",
+    "\"OpenATV plugin\" in:name,description,readme",
+    "\"OpenPLI plugin\" in:name,description,readme",
+    "\"Dreambox plugin\" in:name,description,readme",
+    "\"Vu+ plugin\" in:name,description,readme",
+    "\"E2 plugin\" in:name,description,readme"
+  ],
+  "plugins_found": 117,
+  "valid_repositories": 16,
+  "plugins_added": 2,
+  "plugins_updated": 14,
+  "duplicates_skipped": 3,
+  "failed_sources": [
+    {
+      "source": "digiteng/xtra",
+      "error": "GitHub API HTTP 404: /repos/digiteng/xtra"
+    }
+  ],
+  "added": [
+    "extra-plugins-python3",
+    "enigma2-plugin-blurayplayer"
+  ],
+  "updated": [
+    "ajpanel",
+    "arabicsavior",
+    "enigmaplay",
+    "raedquicksignal",
+    "xtreamity",
+    "weather-plugin",
+    "tmdb",
+    "openwebif",
+    "ajpanel-menu1",
+    "smartaddonspanel-emil",
+    "ssupport",
+    "xstreamity",
+    "ipaudio",
+    "footonsat"
+  ],
+  "catalog_total": 52,
+  "limits": {
+    "max_candidates_checked": 90,
+    "max_new_per_run": 25,
+    "recent_activity_days": 540
+  }
+}

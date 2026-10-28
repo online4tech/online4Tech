@@ -87,4 +87,6 @@
   <url><loc>https://online4tech.github.io/online4Tech/plugins/plugin.html?id=multi-stalker</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://online4tech.github.io/online4Tech/plugins/plugin.html?id=ipaudio</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://online4tech.github.io/online4Tech/plugins/plugin.html?id=xtraevent</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://online4tech.github.io/online4Tech/plugins/plugin.html?id=extra-plugins-python3</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://online4tech.github.io/online4Tech/plugins/plugin.html?id=enigma2-plugin-blurayplayer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

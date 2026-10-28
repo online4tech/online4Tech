@@ -27,10 +27,10 @@
       "id": "ajpanel",
       "name": "AjPanel",
       "slug": "ajpanel",
-      "description": "لوحة أدوات لإدارة وظائف متعددة على جهاز Enigma2.",
+      "description": "Enigma2 Tools - By : AMAJamry",
       "version": "10.8.6",
       "releaseDate": "",
-      "author": "AMA Jamry",
+      "author": "AMAJamry",
       "category": "Utilities",
       "platform": "Enigma2",
       "supportedDevices": [
@@ -44,19 +44,26 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0,
+      "rating": 0.0,
       "downloads": {
         "repository": "https://github.com/AMAJamry/AJPanel",
         "githubRelease": ""
       },
       "featured": true,
+      "icon": "",
+      "logoFound": false,
       "thumbnail": "",
       "screenshots": [
         "images/plugins/ajpanel/screenshot-1.webp"
       ],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/AMAJamry/AJPanel",
       "tutorialUrl": "",
-      "changelog": [],
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "AjPanel",
         "Utilities",
@@ -64,7 +71,8 @@
         "بلجن",
         "إضافة",
         "AJPanel",
-        "ajpanel"
+        "ajpanel",
+        "Plugin"
       ],
       "arabicDescription": "لوحة أدوات لإدارة وظائف متعددة على جهاز Enigma2.",
       "latest": false,
@@ -73,11 +81,16 @@
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/AMAJamry/AJPanel",
+      "officialWebsite": "",
       "relatedPlugins": [
         "arabicsavior",
         "raedquicksignal"
       ],
       "features": [],
+      "githubStars": 12,
+      "githubForks": 0,
+      "lastUpdated": "2026-04-23T15:08:07Z",
+      "popularityScore": 6.437,
       "telnetCommands": [
         {
           "label": "AJPanel — المصدر الرسمي",
@@ -91,11 +104,7 @@
           "label": "ajpanel_menu1 — tarekzoka",
           "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh"
         }
-      ],
-      "icon": "",
-      "githubStars": 12,
-      "logoFound": false,
-      "officialWebsite": ""
+      ]
     },
     {
       "id": "mystreamer",
@@ -183,7 +192,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "images/plugins/subssupportpro/thumbnail.webp",
+      "thumbnail": "https://raw.githubusercontent.com/popking159/SubsSupportPro/main/SubsSupportPro/seekers/LocalDrive/logo.png",
       "screenshots": [],
       "downloadUrl": "https://github.com/popking159/SubsSupportPro",
       "tutorialUrl": "",
@@ -216,7 +225,7 @@
           "command": "wget -qO- https://raw.githubusercontent.com/popking159/ssupport/main/subssupport-install.sh | /bin/sh"
         }
       ],
-      "icon": "images/plugins/subssupportpro/icon.webp",
+      "icon": "https://raw.githubusercontent.com/popking159/SubsSupportPro/main/SubsSupportPro/seekers/LocalDrive/logo.png",
       "logoFound": true,
       "officialWebsite": ""
     },
@@ -303,7 +312,7 @@
         "githubRelease": "https://github.com/popking159/ipaudio/releases/tag/IPAudio"
       },
       "featured": false,
-      "thumbnail": "images/plugins/ipaudio-pro/thumbnail.webp",
+      "thumbnail": "https://raw.githubusercontent.com/popking159/ipaudio/main/source/logo.png",
       "screenshots": [
         "images/plugins/ipaudio-pro/screenshot-1.webp",
         "images/plugins/ipaudio-pro/screenshot-2.webp",
@@ -345,7 +354,7 @@
           "command": "opkg install https://github.com/popking159/ipaudio/releases/download/IPAudio/enigma2-plugin-extensions-ipaudio_8.11_all.ipk"
         }
       ],
-      "icon": "images/plugins/ipaudio-pro/icon.webp",
+      "icon": "https://raw.githubusercontent.com/popking159/ipaudio/main/source/logo.png",
       "githubStars": 1,
       "logoFound": true,
       "officialWebsite": ""
@@ -415,7 +424,7 @@
       "description": "أداة مساعدة عربية لـ Enigma2 من مستودع المطوّر.",
       "version": "غير محدد",
       "releaseDate": "",
-      "author": "Online4Tech catalog",
+      "author": "fairbird",
       "category": "Utilities",
       "platform": "Enigma2",
       "supportedDevices": [
@@ -427,20 +436,27 @@
       "supportedImages": [
         "Enigma2"
       ],
-      "rating": 0,
+      "rating": 0.0,
       "downloads": {
         "repository": "https://github.com/fairbird/ArabicSavior",
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "images/plugins/arabicsavior/thumbnail.webp",
+      "icon": "https://raw.githubusercontent.com/fairbird/ArabicSavior/main/usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior/icon.png",
+      "logoFound": true,
+      "thumbnail": "https://raw.githubusercontent.com/fairbird/ArabicSavior/main/usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior/icon.png",
       "screenshots": [
         "images/plugins/arabicsavior/screenshot-1.webp",
         "images/plugins/arabicsavior/screenshot-2.webp"
       ],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/fairbird/ArabicSavior",
       "tutorialUrl": "",
-      "changelog": [],
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "ArabicSavior",
         "Utilities",
@@ -448,7 +464,8 @@
         "بلجن",
         "إضافة",
         "Arabic Savior",
-        "arabicsavior"
+        "arabicsavior",
+        "Plugin"
       ],
       "arabicDescription": "أداة مساعدة عربية لـ Enigma2 من مستودع المطوّر.",
       "latest": false,
@@ -457,22 +474,22 @@
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/fairbird/ArabicSavior",
+      "officialWebsite": "",
       "relatedPlugins": [
         "ajpanel",
         "raedquicksignal"
       ],
       "features": [],
+      "githubStars": 3,
+      "githubForks": 2,
+      "lastUpdated": "2026-05-05T00:53:20Z",
+      "popularityScore": 5.769,
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "wget https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh"
         }
-      ],
-      "icon": "images/plugins/arabicsavior/icon.webp",
-      "logoFound": true,
-      "officialWebsite": "",
-      "githubStars": 3,
-      "catalogUpdatedAt": "2026-10-28"
+      ]
     },
     {
       "id": "enigmaplay",
@@ -481,7 +498,7 @@
       "description": "مشغل ومركز محتوى لإضافات Enigma2 حسب مستودع المطوّر.",
       "version": "غير محدد",
       "releaseDate": "",
-      "author": "Online4Tech catalog",
+      "author": "Ahmadarjan1",
       "category": "IPTV Plugins",
       "platform": "Enigma2",
       "supportedDevices": [
@@ -493,17 +510,24 @@
       "supportedImages": [
         "Enigma2"
       ],
-      "rating": 0,
+      "rating": 0.0,
       "downloads": {
         "repository": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
         "githubRelease": ""
       },
       "featured": false,
+      "icon": "",
+      "logoFound": false,
       "thumbnail": "",
       "screenshots": [],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
       "tutorialUrl": "",
-      "changelog": [],
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "EnigmaPlay",
         "IPTV Plugins",
@@ -511,7 +535,9 @@
         "بلجن",
         "إضافة",
         "Streaming",
-        "enigmaplay"
+        "enigmaplay",
+        "Plugin",
+        "EnigmaPlay-Repo"
       ],
       "arabicDescription": "مشغل ومركز محتوى لإضافات Enigma2 حسب مستودع المطوّر.",
       "latest": false,
@@ -520,22 +546,23 @@
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
+      "officialWebsite": "",
       "relatedPlugins": [
         "mystreamer",
         "mediaportal",
         "youtube"
       ],
       "features": [],
+      "githubStars": 0,
+      "githubForks": 0,
+      "lastUpdated": "2026-10-28T08:29:20Z",
+      "popularityScore": 2.0,
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "wget -qO- https://raw.githubusercontent.com/Ahmadarjan1/EnigmaPlay-Repo/main/install.sh | sh"
         }
-      ],
-      "icon": "",
-      "logoFound": false,
-      "officialWebsite": "",
-      "catalogUpdatedAt": "2026-10-28"
+      ]
     },
     {
       "id": "footonsat",
@@ -544,7 +571,7 @@
       "description": "إضافة مرتبطة بمحتوى رياضي على أجهزة Enigma2؛ راجع صفحة التفاصيل والتوافق.",
       "version": "غير محدد",
       "releaseDate": "",
-      "author": "Online4Tech catalog",
+      "author": "fairbird",
       "category": "Media",
       "platform": "Enigma2",
       "supportedDevices": [
@@ -556,12 +583,14 @@
       "supportedImages": [
         "Enigma2"
       ],
-      "rating": 0,
+      "rating": 0.0,
       "downloads": {
         "repository": "https://github.com/fairbird/FootOnsat",
         "githubRelease": ""
       },
       "featured": false,
+      "icon": "",
+      "logoFound": false,
       "thumbnail": "",
       "screenshots": [
         "images/plugins/footonsat/screenshot-1.webp",
@@ -571,14 +600,21 @@
       ],
       "downloadUrl": "https://github.com/fairbird/FootOnsat",
       "tutorialUrl": "",
-      "changelog": [],
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "FootOnSat",
         "Media",
         "Enigma2",
         "بلجن",
         "إضافة",
-        "footonsat"
+        "footonsat",
+        "Plugin",
+        "FootOnsat"
       ],
       "arabicDescription": "إضافة مرتبطة بمحتوى رياضي على أجهزة Enigma2؛ راجع صفحة التفاصيل والتوافق.",
       "latest": false,
@@ -587,6 +623,7 @@
       "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/fairbird/FootOnsat",
+      "officialWebsite": "",
       "relatedPlugins": [
         "subssupportpro",
         "ipaudio-pro",
@@ -594,16 +631,16 @@
         "ultraaudio"
       ],
       "features": [],
+      "githubStars": 1,
+      "githubForks": 3,
+      "lastUpdated": "2026-10-25T23:30:48Z",
+      "popularityScore": 5.458,
       "telnetCommands": [
         {
           "label": "تثبيت من مستودع المطوّر",
           "command": "wget -q https://raw.githubusercontent.com/fairbird/FootOnsat/main/Download/install.sh -O - | /bin/sh"
         }
-      ],
-      "icon": "",
-      "logoFound": false,
-      "officialWebsite": "",
-      "githubStars": 1
+      ]
     },
     {
       "id": "mobile-telnet",
@@ -667,7 +704,7 @@
       "description": "أداة للوصول السريع إلى معلومات إشارة الاستقبال.",
       "version": "غير محدد",
       "releaseDate": "",
-      "author": "Online4Tech catalog",
+      "author": "fairbird",
       "category": "Utilities",
       "platform": "Enigma2",
       "supportedDevices": [
@@ -679,20 +716,27 @@
       "supportedImages": [
         "Enigma2"
       ],
-      "rating": 0,
+      "rating": 0.0,
       "downloads": {
         "repository": "https://github.com/fairbird/RaedQuickSignal",
         "githubRelease": ""
       },
-      "featured": false,
+      "featured": true,
+      "icon": "",
+      "logoFound": false,
       "thumbnail": "",
       "screenshots": [
         "images/plugins/raedquicksignal/screenshot-1.webp",
         "images/plugins/raedquicksignal/screenshot-2.webp"
       ],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/fairbird/RaedQuickSignal",
       "tutorialUrl": "",
-      "changelog": [],
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "RaedQuickSignal",
         "Utilities",
@@ -700,7 +744,8 @@
         "بلجن",
         "إضافة",
         "Raed Quick Signal",
-        "raedquicksignal"
+        "raedquicksignal",
+        "Plugin"
       ],
       "arabicDescription": "أداة للوصول السريع إلى معلومات إشارة الاستقبال.",
       "latest": false,
@@ -709,22 +754,22 @@
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/fairbird/RaedQuickSignal",
+      "officialWebsite": "",
       "relatedPlugins": [
         "ajpanel",
         "arabicsavior"
       ],
       "features": [],
+      "githubStars": 4,
+      "githubForks": 4,
+      "lastUpdated": "2026-10-09T19:19:40Z",
+      "popularityScore": 7.566,
       "telnetCommands": [
         {
           "label": "تحديث المستودعات",
           "command": "opkg update && opkg install wget && wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh"
         }
-      ],
-      "icon": "",
-      "githubStars": 4,
-      "logoFound": false,
-      "officialWebsite": "",
-      "catalogUpdatedAt": "2026-10-28"
+      ]
     },
     {
       "id": "timeshift-delay",
@@ -970,10 +1015,10 @@
       "id": "xtreamity",
       "name": "Xtreamity",
       "slug": "xtreamity",
-      "description": "واجهة للوصول إلى محتوى Xtream Codes على أجهزة Enigma2 المتوافقة.",
-      "version": "غير محدد",
-      "releaseDate": "",
-      "author": "مجتمع Enigma2",
+      "description": "Enigma2 plugin is for playing official Xtream Codes IPTV playlists.",
+      "version": "5.59-20260914",
+      "releaseDate": "2026-09-15T17:53:57Z",
+      "author": "kiddac",
       "category": "IPTV",
       "platform": "Enigma2",
       "supportedDevices": [
@@ -987,47 +1032,57 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0,
+      "rating": 0.0,
       "downloads": {
         "repository": "https://github.com/kiddac/XStreamity",
-        "githubRelease": ""
+        "githubRelease": "https://github.com/kiddac/XStreamity/releases/tag/5.59-20260914"
       },
       "featured": true,
-      "thumbnail": "images/plugins/xtreamity/thumbnail.webp",
+      "icon": "https://raw.githubusercontent.com/kiddac/XStreamity/master/XStreamity/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skins/fhd/common/logo.png",
+      "logoFound": true,
+      "thumbnail": "https://raw.githubusercontent.com/kiddac/XStreamity/master/XStreamity/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skins/fhd/common/logo.png",
       "screenshots": [],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/kiddac/XStreamity/releases/tag/5.59-20260914",
       "tutorialUrl": "",
-      "changelog": [],
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "Xtreamity",
         "IPTV",
         "Enigma2",
         "بلجن",
         "إضافة",
-        "xtreamity"
+        "xtreamity",
+        "Plugin",
+        "XStreamity"
       ],
       "arabicDescription": "واجهة للوصول إلى محتوى Xtream Codes على أجهزة Enigma2 المتوافقة.",
-      "latest": false,
+      "latest": true,
       "downloadsCount": 0,
       "installationMethod": "الأمر يعتمد على توفر الحزمة في مستودع صورة النظام؛ بعض الصور تحتاج تثبيت الحزم المطلوبة من مدير الإضافات أولًا.",
       "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/kiddac/XStreamity",
+      "officialWebsite": "",
       "relatedPlugins": [
         "jedi-maker-xtream",
         "xtreamnew"
       ],
       "features": [],
-      "icon": "images/plugins/xtreamity/icon.webp",
-      "logoFound": true,
-      "officialWebsite": "",
+      "githubStars": 58,
+      "githubForks": 32,
+      "lastUpdated": "2026-10-24T17:11:45Z",
+      "popularityScore": 15.389,
       "telnetCommands": [
         {
           "label": "التثبيت من مستودع صورة النظام",
           "command": "opkg update && opkg install enigma2-plugin-extensions-xstreamity"
         }
-      ],
-      "githubStars": 58
+      ]
     },
     {
       "id": "epg-import",
@@ -1056,7 +1111,7 @@
         "githubRelease": ""
       },
       "featured": true,
-      "thumbnail": "",
+      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
       "screenshots": [
         "images/plugins/epg-import/screenshot-1.webp",
         "images/plugins/epg-import/screenshot-2.webp",
@@ -1085,8 +1140,8 @@
         "seriesplugin"
       ],
       "features": [],
-      "icon": "",
-      "logoFound": false,
+      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "logoFound": true,
       "officialWebsite": "",
       "telnetCommands": [
         {
@@ -1100,10 +1155,10 @@
       "id": "tmdb",
       "name": "Ciefp TMDB Search",
       "slug": "tmdb",
-      "description": "عرض بيانات وصفية للأفلام والمسلسلات من The Movie Database في البلجنز المتوافقة.",
+      "description": "Search for movies and series via TMDB with posters ( TMDB API key )",
       "version": "1.1",
       "releaseDate": "",
-      "author": "Ciefp",
+      "author": "ciefp",
       "category": "Media",
       "platform": "Enigma2",
       "supportedDevices": [
@@ -1116,12 +1171,14 @@
         "Enigma2",
         "OpenATV"
       ],
-      "rating": 0,
+      "rating": 0.0,
       "downloads": {
         "repository": "https://github.com/ciefp/CiefpTMDBSearch",
         "githubRelease": ""
       },
       "featured": false,
+      "icon": "",
+      "logoFound": false,
       "thumbnail": "",
       "screenshots": [
         "images/plugins/tmdb/screenshot-1.webp",
@@ -1133,16 +1190,23 @@
         "images/plugins/tmdb/screenshot-7.webp",
         "images/plugins/tmdb/screenshot-8.webp"
       ],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/ciefp/CiefpTMDBSearch",
       "tutorialUrl": "",
-      "changelog": [],
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "TMDB",
         "Media",
         "Enigma2",
         "بلجن",
         "إضافة",
-        "tmdb"
+        "tmdb",
+        "Plugin",
+        "CiefpTMDBSearch"
       ],
       "arabicDescription": "عرض بيانات وصفية للأفلام والمسلسلات من The Movie Database في البلجنز المتوافقة.",
       "latest": false,
@@ -1151,6 +1215,7 @@
       "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/ciefp/CiefpTMDBSearch",
+      "officialWebsite": "",
       "relatedPlugins": [
         "subssupportpro",
         "ipaudio-pro",
@@ -1158,16 +1223,16 @@
         "footonsat"
       ],
       "features": [],
-      "icon": "",
-      "logoFound": false,
-      "officialWebsite": "",
+      "githubStars": 2,
+      "githubForks": 0,
+      "lastUpdated": "2026-09-27T17:11:30Z",
+      "popularityScore": 4.086,
       "telnetCommands": [
         {
           "label": "تثبيت من مستودع GitHub",
           "command": "wget -q https://raw.githubusercontent.com/ciefp/CiefpTMDBSearch/main/installer.sh -O - | /bin/sh"
         }
-      ],
-      "githubStars": 2
+      ]
     },
     {
       "id": "autotimer",
@@ -1196,7 +1261,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
       "screenshots": [
         "images/plugins/autotimer/screenshot-1.webp",
         "images/plugins/autotimer/screenshot-2.webp",
@@ -1225,8 +1290,8 @@
         "seriesplugin"
       ],
       "features": [],
-      "icon": "",
-      "logoFound": false,
+      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "logoFound": true,
       "officialWebsite": "",
       "telnetCommands": [
         {
@@ -1262,7 +1327,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
       "screenshots": [
         "images/plugins/seriesplugin/screenshot-1.webp",
         "images/plugins/seriesplugin/screenshot-2.webp",
@@ -1291,8 +1356,8 @@
         "autotimer"
       ],
       "features": [],
-      "icon": "",
-      "logoFound": false,
+      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "logoFound": true,
       "officialWebsite": "",
       "telnetCommands": [
         {
@@ -1329,7 +1394,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
       "screenshots": [
         "images/plugins/dreamexplorer/screenshot-1.webp",
         "images/plugins/dreamexplorer/screenshot-2.webp",
@@ -1357,8 +1422,8 @@
         "filecommander"
       ],
       "features": [],
-      "icon": "",
-      "logoFound": false,
+      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "logoFound": true,
       "officialWebsite": "",
       "telnetCommands": [
         {
@@ -1394,7 +1459,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
       "screenshots": [
         "images/plugins/filecommander/screenshot-1.webp",
         "images/plugins/filecommander/screenshot-2.webp",
@@ -1422,8 +1487,8 @@
         "dreamexplorer"
       ],
       "features": [],
-      "icon": "",
-      "logoFound": false,
+      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "logoFound": true,
       "officialWebsite": "",
       "telnetCommands": [
         {
@@ -1573,7 +1638,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
+      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
       "screenshots": [
         "images/plugins/youtube/screenshot-1.webp",
         "images/plugins/youtube/screenshot-2.webp",
@@ -1603,8 +1668,8 @@
         "mediaportal"
       ],
       "features": [],
-      "icon": "",
-      "logoFound": false,
+      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "logoFound": true,
       "officialWebsite": "",
       "telnetCommands": [
         {
@@ -1621,7 +1686,7 @@
       "description": "عرض حالة الطقس والتوقعات عبر خدمات ومصادر تدعمها الإضافة.",
       "version": "متعدد",
       "releaseDate": "",
-      "author": "مجتمع Enigma2",
+      "author": "OpenPLi",
       "category": "Weather",
       "platform": "Enigma2",
       "supportedDevices": [
@@ -1634,28 +1699,37 @@
         "Enigma2",
         "OpenATV"
       ],
-      "rating": 0,
+      "rating": 0.0,
       "downloads": {
         "repository": "https://github.com/OpenPLi/enigma2-plugins",
         "githubRelease": ""
       },
-      "featured": false,
-      "thumbnail": "",
+      "featured": true,
+      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "logoFound": true,
+      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
       "screenshots": [
         "images/plugins/weather-plugin/screenshot-1.webp",
         "images/plugins/weather-plugin/screenshot-2.webp",
         "images/plugins/weather-plugin/screenshot-3.webp"
       ],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/OpenPLi/enigma2-plugins",
       "tutorialUrl": "",
-      "changelog": [],
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "Weather Plugin",
         "Weather",
         "Enigma2",
         "بلجن",
         "إضافة",
-        "weather-plugin"
+        "weather-plugin",
+        "Plugin",
+        "enigma2-plugins"
       ],
       "arabicDescription": "عرض حالة الطقس والتوقعات عبر خدمات ومصادر تدعمها الإضافة.",
       "latest": false,
@@ -1664,27 +1738,28 @@
       "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/OpenPLi/enigma2-plugins",
+      "officialWebsite": "",
       "relatedPlugins": [],
       "features": [],
-      "icon": "",
-      "logoFound": false,
-      "officialWebsite": "",
+      "githubStars": 32,
+      "githubForks": 99,
+      "lastUpdated": "2026-10-22T17:09:25Z",
+      "popularityScore": 15.882,
       "telnetCommands": [
         {
           "label": "التثبيت من مستودع صورة النظام",
           "command": "opkg update && opkg install enigma2-plugin-extensions-weatherplugin"
         }
-      ],
-      "githubStars": 32
+      ]
     },
     {
       "id": "openwebif",
       "name": "OpenWebif",
       "slug": "openwebif",
-      "description": "واجهة ويب لإدارة الرسيفر ومشاهدة معلوماته والتحكم في بعض وظائفه عبر الشبكة.",
+      "description": "GPL Web Interface for e2stabs",
       "version": "متعدد",
       "releaseDate": "",
-      "author": "OpenWebif project",
+      "author": "E2OpenPlugins",
       "category": "Network",
       "platform": "Enigma2",
       "supportedDevices": [
@@ -1698,26 +1773,44 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0,
+      "rating": 0.0,
       "downloads": {
         "repository": "https://github.com/E2OpenPlugins/e2openplugin-OpenWebif",
         "githubRelease": ""
       },
       "featured": true,
+      "icon": "",
+      "logoFound": false,
       "thumbnail": "",
       "screenshots": [
         "images/plugins/openwebif/screenshot-1.webp"
       ],
-      "downloadUrl": "",
+      "downloadUrl": "https://github.com/E2OpenPlugins/e2openplugin-OpenWebif",
       "tutorialUrl": "",
-      "changelog": [],
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "OpenWebif",
         "Network",
         "Enigma2",
         "بلجن",
         "إضافة",
-        "openwebif"
+        "openwebif",
+        "Plugin",
+        "e2openplugin-OpenWebif",
+        "cheetah",
+        "css",
+        "enigma2",
+        "enigma2-plugin",
+        "gui",
+        "html",
+        "js",
+        "python3",
+        "twisted"
       ],
       "arabicDescription": "واجهة ويب لإدارة الرسيفر ومشاهدة معلوماته والتحكم في بعض وظائفه عبر الشبكة.",
       "latest": false,
@@ -1726,20 +1819,21 @@
       "requirements": "يتطلب اتصال إنترنت ومستودع حزم مفعّلًا أو مصدر المطوّر المذكور. راجع توافق إصدار Enigma2 وPython قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/E2OpenPlugins/e2openplugin-OpenWebif",
+      "officialWebsite": "",
       "relatedPlugins": [
         "mobile-telnet"
       ],
       "features": [],
-      "icon": "",
-      "logoFound": false,
-      "officialWebsite": "",
+      "githubStars": 217,
+      "githubForks": 223,
+      "lastUpdated": "2026-05-15T15:54:29Z",
+      "popularityScore": 20.275,
       "telnetCommands": [
         {
           "label": "التثبيت من مستودع صورة النظام",
           "command": "opkg update && opkg install enigma2-plugin-extensions-openwebif"
         }
-      ],
-      "githubStars": 217
+      ]
     },
     {
       "id": "skin-selector",
@@ -1924,6 +2018,11 @@
       "id": "ajpanel-menu1",
       "name": "ajpanel_menu1",
       "slug": "ajpanel-menu1",
+      "description": "سكريبت تثبيت قائمة AjPanel من مستودع المطوّر.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "tarekzoka",
+      "category": "Utilities",
       "platform": "Enigma2",
       "supportedDevices": [
         "VU+",
@@ -1936,49 +2035,55 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0,
+      "rating": 0.0,
+      "downloads": {
+        "repository": "https://github.com/tarekzoka/ajpanel",
+        "githubRelease": ""
+      },
       "featured": false,
-      "latest": false,
-      "downloadsCount": 0,
+      "icon": "",
+      "logoFound": false,
+      "thumbnail": "",
       "screenshots": [
         "images/plugins/ajpanel-menu1/screenshot-1.webp"
       ],
-      "changelog": [],
+      "downloadUrl": "https://github.com/tarekzoka/ajpanel",
+      "tutorialUrl": "",
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "ajpanel_menu1",
         "Utilities",
         "Enigma2",
         "بلجن",
-        "إضافة"
+        "إضافة",
+        "Plugin",
+        "ajpanel"
       ],
-      "features": [],
-      "category": "Utilities",
-      "description": "سكريبت تثبيت قائمة AjPanel من مستودع المطوّر.",
       "arabicDescription": "سكريبت تثبيت قائمة AjPanel من مستودع المطوّر.",
-      "version": "غير محدد",
+      "latest": false,
+      "downloadsCount": 0,
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
-      "icon": "",
-      "thumbnail": "",
-      "logoFound": false,
+      "youtubeVideo": "",
       "githubUrl": "https://github.com/tarekzoka/ajpanel",
-      "downloadUrl": "",
-      "downloads": {
-        "repository": "https://github.com/tarekzoka/ajpanel",
-        "githubRelease": ""
-      },
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [],
+      "githubStars": 1,
+      "githubForks": 0,
+      "lastUpdated": "2026-10-28T05:15:53Z",
+      "popularityScore": 3.386,
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh"
         }
-      ],
-      "githubStars": 1,
-      "catalogUpdatedAt": "2026-10-28",
-      "author": "مصدر المطوّر",
-      "officialWebsite": "",
-      "relatedPlugins": [],
-      "youtubeVideo": ""
+      ]
     },
     {
       "id": "emilpanelpro",
@@ -2571,6 +2676,11 @@
       "id": "smartaddonspanel-emil",
       "name": "SmartAddonspanel (Emil)",
       "slug": "smartaddonspanel-emil",
+      "description": "نسخة SmartAddonspanel من مستودع EmilNabil.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "emilnabil",
+      "category": "Utilities",
       "platform": "Enigma2",
       "supportedDevices": [
         "VU+",
@@ -2583,47 +2693,53 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0,
+      "rating": 0.0,
+      "downloads": {
+        "repository": "https://github.com/emilnabil/download-plugins",
+        "githubRelease": ""
+      },
       "featured": false,
-      "latest": false,
-      "downloadsCount": 0,
+      "icon": "",
+      "logoFound": false,
+      "thumbnail": "",
       "screenshots": [],
-      "changelog": [],
+      "downloadUrl": "https://github.com/emilnabil/download-plugins",
+      "tutorialUrl": "",
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "SmartAddonspanel (Emil)",
         "Utilities",
         "Enigma2",
         "بلجن",
-        "إضافة"
+        "إضافة",
+        "Plugin",
+        "download-plugins"
       ],
-      "features": [],
-      "category": "Utilities",
-      "description": "نسخة SmartAddonspanel من مستودع EmilNabil.",
       "arabicDescription": "نسخة SmartAddonspanel من مستودع EmilNabil.",
-      "version": "غير محدد",
+      "latest": false,
+      "downloadsCount": 0,
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
-      "icon": "",
-      "thumbnail": "",
-      "logoFound": false,
+      "youtubeVideo": "",
       "githubUrl": "https://github.com/emilnabil/download-plugins",
-      "downloadUrl": "",
-      "downloads": {
-        "repository": "https://github.com/emilnabil/download-plugins",
-        "githubRelease": ""
-      },
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [],
+      "githubStars": 1,
+      "githubForks": 0,
+      "lastUpdated": "2026-10-27T16:59:18Z",
+      "popularityScore": 3.386,
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh"
         }
-      ],
-      "githubStars": 1,
-      "catalogUpdatedAt": "2026-10-28",
-      "author": "مصدر المطوّر",
-      "officialWebsite": "",
-      "relatedPlugins": [],
-      "youtubeVideo": ""
+      ]
     },
     {
       "id": "my-tsiplayer",
@@ -2743,6 +2859,11 @@
       "id": "ssupport",
       "name": "SubsSupport",
       "slug": "ssupport",
+      "description": "أداة لدعم الترجمة وملفاتها في Enigma2.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "popking159",
+      "category": "Media Players",
       "platform": "Enigma2",
       "supportedDevices": [
         "VU+",
@@ -2755,52 +2876,63 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0,
+      "rating": 0.0,
+      "downloads": {
+        "repository": "https://github.com/popking159/ssupport",
+        "githubRelease": ""
+      },
       "featured": false,
-      "latest": false,
-      "downloadsCount": 0,
+      "icon": "https://raw.githubusercontent.com/popking159/ssupport/main/src/seekers/Elsubtitle/logo.png",
+      "logoFound": true,
+      "thumbnail": "https://raw.githubusercontent.com/popking159/ssupport/main/src/seekers/Elsubtitle/logo.png",
       "screenshots": [],
-      "changelog": [],
+      "downloadUrl": "https://github.com/popking159/ssupport",
+      "tutorialUrl": "",
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "SubsSupport",
         "Media Players",
         "Enigma2",
         "بلجن",
-        "إضافة"
+        "إضافة",
+        "Plugin",
+        "ssupport"
       ],
-      "features": [],
-      "category": "Media Players",
-      "description": "أداة لدعم الترجمة وملفاتها في Enigma2.",
       "arabicDescription": "أداة لدعم الترجمة وملفاتها في Enigma2.",
-      "version": "غير محدد",
+      "latest": false,
+      "downloadsCount": 0,
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
-      "icon": "images/plugins/ssupport/icon.webp",
-      "thumbnail": "images/plugins/ssupport/thumbnail.webp",
-      "logoFound": true,
+      "youtubeVideo": "",
       "githubUrl": "https://github.com/popking159/ssupport",
-      "downloadUrl": "",
-      "downloads": {
-        "repository": "https://github.com/popking159/ssupport",
-        "githubRelease": ""
-      },
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [],
+      "githubStars": 1,
+      "githubForks": 2,
+      "lastUpdated": "2026-06-05T20:10:27Z",
+      "popularityScore": 4.501,
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "wget -q \"--no-check-certificate\" https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh"
         }
-      ],
-      "githubStars": 1,
-      "catalogUpdatedAt": "2026-10-28",
-      "author": "مصدر المطوّر",
-      "officialWebsite": "",
-      "relatedPlugins": [],
-      "youtubeVideo": ""
+      ]
     },
     {
       "id": "xstreamity",
       "name": "Xstreamity",
       "slug": "xstreamity",
+      "description": "Xtream Codes IPTV Player",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "biko-73",
+      "category": "IPTV Plugins",
       "platform": "Enigma2",
       "supportedDevices": [
         "VU+",
@@ -2813,47 +2945,53 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0,
-      "featured": false,
-      "latest": false,
-      "downloadsCount": 0,
+      "rating": 0.0,
+      "downloads": {
+        "repository": "https://github.com/biko-73/xstreamity",
+        "githubRelease": ""
+      },
+      "featured": true,
+      "icon": "",
+      "logoFound": false,
+      "thumbnail": "",
       "screenshots": [],
-      "changelog": [],
+      "downloadUrl": "https://github.com/biko-73/xstreamity",
+      "tutorialUrl": "",
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "Xstreamity",
         "IPTV Plugins",
         "Enigma2",
         "بلجن",
-        "إضافة"
+        "إضافة",
+        "Plugin",
+        "xstreamity"
       ],
-      "features": [],
-      "category": "IPTV Plugins",
-      "description": "إضافة IPTV لقوائم Xtream Codes؛ تحقق من توافق الصورة قبل التثبيت.",
       "arabicDescription": "إضافة IPTV لقوائم Xtream Codes؛ تحقق من توافق الصورة قبل التثبيت.",
-      "version": "غير محدد",
+      "latest": false,
+      "downloadsCount": 0,
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
-      "icon": "",
-      "thumbnail": "",
-      "logoFound": false,
+      "youtubeVideo": "",
       "githubUrl": "https://github.com/biko-73/xstreamity",
-      "downloadUrl": "",
-      "downloads": {
-        "repository": "https://github.com/biko-73/xstreamity",
-        "githubRelease": ""
-      },
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [],
+      "githubStars": 13,
+      "githubForks": 4,
+      "lastUpdated": "2026-09-16T15:28:50Z",
+      "popularityScore": 9.54,
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "wget https://raw.githubusercontent.com/biko-73/xstreamity/main/installer.sh -O - | /bin/sh"
         }
-      ],
-      "githubStars": 13,
-      "catalogUpdatedAt": "2026-10-28",
-      "author": "مصدر المطوّر",
-      "officialWebsite": "",
-      "relatedPlugins": [],
-      "youtubeVideo": ""
+      ]
     },
     {
       "id": "jedimakerxtream",
@@ -2975,6 +3113,11 @@
       "id": "ipaudio",
       "name": "IPAudio Pro",
       "slug": "ipaudio",
+      "description": "إضافة أدوات صوتية لأجهزة Enigma2.",
+      "version": "غير محدد",
+      "releaseDate": "",
+      "author": "emilnabil",
+      "category": "Media Players",
       "platform": "Enigma2",
       "supportedDevices": [
         "VU+",
@@ -2987,46 +3130,53 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0,
+      "rating": 0.0,
+      "downloads": {
+        "repository": "https://github.com/emilnabil/ipaudiopro",
+        "githubRelease": ""
+      },
       "featured": false,
-      "latest": false,
-      "downloadsCount": 0,
+      "icon": "https://raw.githubusercontent.com/emilnabil/ipaudiopro/main/logo.png",
+      "logoFound": true,
+      "thumbnail": "https://raw.githubusercontent.com/emilnabil/ipaudiopro/main/logo.png",
       "screenshots": [],
-      "changelog": [],
+      "downloadUrl": "https://github.com/emilnabil/ipaudiopro",
+      "tutorialUrl": "",
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-updated"
+        }
+      ],
       "tags": [
         "IPAudio Pro",
         "Media Players",
         "Enigma2",
         "بلجن",
-        "إضافة"
+        "إضافة",
+        "Plugin",
+        "ipaudiopro"
       ],
-      "features": [],
-      "category": "Media Players",
-      "description": "إضافة أدوات صوتية لأجهزة Enigma2.",
       "arabicDescription": "إضافة أدوات صوتية لأجهزة Enigma2.",
-      "version": "غير محدد",
+      "latest": false,
+      "downloadsCount": 0,
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
-      "icon": "images/plugins/ipaudio/icon.webp",
-      "thumbnail": "images/plugins/ipaudio/thumbnail.webp",
-      "logoFound": true,
+      "youtubeVideo": "",
       "githubUrl": "https://github.com/emilnabil/ipaudiopro",
-      "downloadUrl": "",
-      "downloads": {
-        "repository": "https://github.com/emilnabil/ipaudiopro",
-        "githubRelease": ""
-      },
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [],
+      "githubStars": 0,
+      "githubForks": 0,
+      "lastUpdated": "2026-09-24T12:30:48Z",
+      "popularityScore": 1.878,
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "wget https://raw.githubusercontent.com/emilnabil/ipaudiopro/refs/heads/main/ipaudiopro.sh -O - | /bin/sh"
         }
-      ],
-      "catalogUpdatedAt": "2026-10-28",
-      "author": "مصدر المطوّر",
-      "officialWebsite": "",
-      "relatedPlugins": [],
-      "youtubeVideo": ""
+      ]
     },
     {
       "id": "xtraevent",
@@ -3084,6 +3234,122 @@
       "officialWebsite": "",
       "relatedPlugins": [],
       "youtubeVideo": ""
+    },
+    {
+      "id": "extra-plugins-python3",
+      "name": "extra-plugins-python3",
+      "slug": "extra-plugins-python3",
+      "description": "a collection of closed sourced e2 plugins",
+      "version": "Source",
+      "releaseDate": "",
+      "author": "BliNeR-KeY",
+      "category": "Utilities",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenPLi"
+      ],
+      "rating": 0.0,
+      "downloads": {
+        "repository": "https://github.com/BliNeR-KeY/extra-plugins-python3",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "icon": "",
+      "logoFound": false,
+      "thumbnail": "",
+      "screenshots": [],
+      "downloadUrl": "https://github.com/BliNeR-KeY/extra-plugins-python3",
+      "tutorialUrl": "",
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-added"
+        }
+      ],
+      "tags": [
+        "Enigma2",
+        "Plugin",
+        "extra-plugins-python3"
+      ],
+      "arabicDescription": "a collection of closed sourced e2 plugins",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع README وإصدارات المستودع وتأكد من توافق المعمارية وصورة Enigma2 قبل التثبيت.",
+      "requirements": "جهاز يعمل بنظام Enigma2؛ راجع README للمتطلبات الخاصة.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/BliNeR-KeY/extra-plugins-python3",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [],
+      "githubStars": 0,
+      "githubForks": 2,
+      "lastUpdated": "2025-07-05T08:11:31Z",
+      "popularityScore": 1.87
+    },
+    {
+      "id": "enigma2-plugin-blurayplayer",
+      "name": "enigma2-plugin-blurayplayer",
+      "slug": "enigma2-plugin-blurayplayer",
+      "description": "Enigma2 plugin to play Blu-ray videos",
+      "version": "Source",
+      "releaseDate": "",
+      "author": "Taapat",
+      "category": "Utilities",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "VU+",
+        "Dreambox",
+        "Other Enigma2"
+      ],
+      "supportedImages": [
+        "Enigma2",
+        "OpenATV",
+        "OpenPLi"
+      ],
+      "rating": 0.0,
+      "downloads": {
+        "repository": "https://github.com/Taapat/enigma2-plugin-blurayplayer",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "icon": "https://raw.githubusercontent.com/Taapat/enigma2-plugin-blurayplayer/master/src/icon.png",
+      "logoFound": true,
+      "thumbnail": "https://raw.githubusercontent.com/Taapat/enigma2-plugin-blurayplayer/master/src/icon.png",
+      "screenshots": [],
+      "downloadUrl": "https://github.com/Taapat/enigma2-plugin-blurayplayer",
+      "tutorialUrl": "",
+      "changelog": [
+        {
+          "date": "2026-10-28",
+          "action": "plugin-added"
+        }
+      ],
+      "tags": [
+        "Enigma2",
+        "Plugin",
+        "enigma2-plugin-blurayplayer"
+      ],
+      "arabicDescription": "Enigma2 plugin to play Blu-ray videos",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "راجع README وإصدارات المستودع وتأكد من توافق المعمارية وصورة Enigma2 قبل التثبيت.",
+      "requirements": "جهاز يعمل بنظام Enigma2؛ راجع README للمتطلبات الخاصة.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/Taapat/enigma2-plugin-blurayplayer",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [],
+      "githubStars": 3,
+      "githubForks": 5,
+      "lastUpdated": "2025-07-10T13:07:00Z",
+      "popularityScore": 5.705
     }
   ]
 }
