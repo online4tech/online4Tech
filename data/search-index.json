@@ -1824,6 +1824,14 @@
     "type": "Plugin"
   },
   {
+    "title": "⚡تثبيت بأمر واحد Installer Center ثبّت إضافات Enigma2 من خلال واجهة Telnet موحدة مرتبطة ببيانات مكتبة البلجنات. افتح مركز التثبيت←",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/installer-center/",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Backups"
+  },
+  {
     "title": "✅ التوافق والمتطلبات",
     "description": "شرح بلجن XtreamNew لأجهزة Enigma2 لتشغيل IPTV وLive TV والأفلام والمسلسلات، مع أمر التثبيت ومتطلبات التوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/xtreamnew.html",
@@ -4837,6 +4845,14 @@
     "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
     "category": "ملفات",
     "brand": "Dreambox",
+    "type": "Page"
+  },
+  {
+    "title": "Installer Center",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
