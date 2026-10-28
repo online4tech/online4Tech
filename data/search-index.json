@@ -3606,6 +3606,38 @@
     "type": "Backups"
   },
   {
+    "title": "اضغط هنا للمتابعة",
+    "description": "الإكسسوارات | Online4Tech — محتوى تقني من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html?quick=accessories",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
+    "title": "اضغط هنا للمتابعة",
+    "description": "الأجهزة الجديدة | Online4Tech — محتوى تقني من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html?quick=new",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
+    "title": "اضغط هنا للمتابعة",
+    "description": "الأجهزة المستعملة | Online4Tech — محتوى تقني من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/store/index.html?quick=used",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
+    "title": "الأجهزة الجديدة | Online4Tech",
+    "description": "الأجهزة الجديدة | Online4Tech — محتوى تقني من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/store/new-devices/index.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
     "title": "الأجهزة الجديدة‹☆ أحدث الموديلات➜ توصيل سريع♢ ضمان رسمي",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/store/new-devices/",
@@ -3614,11 +3646,27 @@
     "type": "Product"
   },
   {
+    "title": "الأجهزة المستعملة | Online4Tech",
+    "description": "الأجهزة المستعملة | Online4Tech — محتوى تقني من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/store/used-devices/index.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Product"
+  },
+  {
     "title": "الأجهزة المستعملة‹✓ مفحوصة ومجربة♢ ضمان ساري✓ حالة ممتازة",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/store/used-devices/",
     "category": "منتجات",
     "brand": "Dreambox",
+    "type": "Product"
+  },
+  {
+    "title": "الإكسسوارات | Online4Tech",
+    "description": "الإكسسوارات | Online4Tech — محتوى تقني من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/store/accessories/index.html",
+    "category": "منتجات",
+    "brand": "Online4Tech",
     "type": "Product"
   },
   {
