@@ -1656,14 +1656,6 @@
     "type": "Plugin"
   },
   {
-    "title": "مكتبة البلجنابحث عن إضافات Enigma2 وانسخ أوامر التثبيتاستكشف الإضافات ←",
-    "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin-library/",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Channels"
-  },
-  {
     "title": "مكتبة التحميل في Online4Tech",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/library.html",
@@ -2398,6 +2390,14 @@
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Plugin"
+  },
+  {
+    "title": "🧩مكتبة البلجنابحث عن إضافات Enigma2 وانسخ أوامر التثبيتاستكشف الإضافات ←",
+    "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin-library/",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Channels"
   },
   {
     "title": "اشتراكات IPTV",
