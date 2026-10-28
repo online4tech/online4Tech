@@ -148,10 +148,22 @@ section{padding:22px 0}
 /* توحيد خلفيات صور كل كروت الأجهزة مع الثيم الدارك */
 .family-image{background:radial-gradient(ellipse at 50% 45%,#172a40 0,#0b1524 55%,#07111f 100%)!important}
 .family-image img{background:transparent!important;mix-blend-mode:normal;}
-/* صورة Dreambox من معرض الشركة الرسمي؛ دمج بصري مع الخلفية الداكنة دون تغيير أبعاد الكارت */
-.family-image img.dreambox-product-image{width:100%;height:100%;object-fit:contain;transform:scale(.98);mix-blend-mode:multiply;filter:brightness(1.45) contrast(1.04) drop-shadow(0 0 18px rgba(0,180,255,.25));transition:filter .3s ease,transform .3s ease}
-.family-card:hover .family-image img.dreambox-product-image{filter:brightness(1.45) contrast(1.04) drop-shadow(0 0 25px rgba(0,180,255,.4));transform:scale(1.01)}
-.family-image:has(img.dreambox-product-image){background:radial-gradient(ellipse at 50% 45%,#172a40 0,#0b1524 55%,#07111f 100%)!important}
+/* تحسين صورة Dreambox فقط مع الحفاظ على أبعاد الكارت والثيم العام */
+.dreambox-card .family-image img.dreambox-product-image{
+  width:85%;
+  max-width:85%;
+  height:100%;
+  max-height:220px;
+  object-fit:contain;
+  mix-blend-mode:normal;
+  filter:brightness(1.35) contrast(1.2) saturate(1.1) drop-shadow(0 0 12px rgba(0,170,255,.35));
+  transition:all .3s ease;
+}
+.dreambox-card:hover .family-image img.dreambox-product-image{
+  filter:brightness(1.45) contrast(1.25) saturate(1.15) drop-shadow(0 0 22px rgba(0,170,255,.5));
+  transform:scale(1.03);
+}
+.dreambox-card .family-image{background:radial-gradient(ellipse at 50% 45%,#172a40 0,#0b1524 55%,#07111f 100%)!important}
 .family-content{padding:22px;display:flex;flex-direction:column;align-items:flex-start;flex:1}
 .family-content .tag{margin-bottom:7px}
 .family-content h3{font-size:1.45rem;margin:0 0 7px}
@@ -314,7 +326,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
         </div>
       </a>
 
-      <a class="family-card" href="../devices/dreambox.html">
+      <a class="family-card dreambox-card" href="../devices/dreambox.html">
         <div class="family-image">
           <img class="dreambox-product-image" src="https://dreambox.de/de/wp-content/uploads/2021/01/dreambox_TWO_01.jpg" alt="جهاز Dreambox Two UltraHD — صورة رسمية من Dreambox" loading="lazy" decoding="async">
         </div>
