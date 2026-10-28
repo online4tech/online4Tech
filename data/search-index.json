@@ -3497,14 +3497,6 @@
   },
   {
     "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ajpanel/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
     "description": "تحميل وتثبيت Arabic Savior لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/arabic-savior/index.html",
     "category": "معلومات",
@@ -3529,14 +3521,6 @@
   },
   {
     "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت BackupFlash لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/backupflash/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
     "description": "تحميل وتثبيت BouquetMakerXtream لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/bouquetmakerxtream/index.html",
     "category": "معلومات",
@@ -3555,14 +3539,6 @@
     "title": "أمر التثبيت",
     "description": "تحميل وتثبيت DreamArabia لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/dreamarabia/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت DreamXtream لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/dreamxtream/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -3603,14 +3579,6 @@
     "title": "أمر التثبيت",
     "description": "تحميل وتثبيت IPAudioPlus لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ipaudioplus/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت IPAudioPro لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ipaudiopro/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -4147,6 +4115,38 @@
     "title": "البيانات التي يقدمها الزائر",
     "description": "سياسة الخصوصية لموقع Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/privacy.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ajpanel/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت BackupFlash لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/backupflash/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت DreamXtream لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/dreamxtream/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت IPAudioPro لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ipaudiopro/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
