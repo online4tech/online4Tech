@@ -17,13 +17,13 @@
     "OpenBH",
     "DreamOS"
   ],
-  "count": 39,
+  "count": 56,
   "plugins": [
     {
       "slug": "ajpanel",
       "name": "AJPanel",
-      "description": "لوحة أدوات متكاملة لإدارة جهاز Enigma2 وتوفير مجموعة من الوظائف والإعدادات الإضافية في مكان واحد.",
-      "category": "Tools",
+      "description": "لوحة أدوات متكاملة لإدارة إضافات وأدوات Enigma2 فى مكان واحد.",
+      "category": "Panels",
       "developer": "AMAJamry",
       "compatibility": {
         "platform": "Enigma2",
@@ -32,12 +32,13 @@
         ],
         "note": "OpenATV مذكورة ضمن صور التوافق في سجل الإضافة الحالي."
       },
-      "installCommand": "wget --no-check-certificate https://raw.githubusercontent.com/AMAJamry/AJPanel/main/installer.sh -O - | /bin/sh",
-      "sourceUrl": "https://github.com/AMAJamry/AJPanel",
+      "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/biko-73/AjPanel",
       "tags": [
         "Tools",
         "AJPanel",
-        "AMAJamry"
+        "AMAJamry",
+        "Panels"
       ],
       "icon": "🛠️",
       "features": [
@@ -49,8 +50,8 @@
     },
     {
       "slug": "arabic-savior",
-      "name": "Arabic Savior",
-      "description": "إضافة مخصصة لحل مشاكل اللغة العربية وتحسين عرض النصوص والقوائم والترجمات داخل إنجما2.",
+      "name": "ArabicSavior",
+      "description": "تحسين دعم اللغة العربية وإصلاح مشاكل الخطوط والترجمة.",
       "category": "Tools",
       "developer": "popking159",
       "compatibility": {
@@ -58,12 +59,13 @@
         "images": [],
         "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
-      "installCommand": "wget -qO - https://raw.githubusercontent.com/popking159/ArabicSavior/refs/heads/main/myinstaller.sh -O - | /bin/sh",
-      "sourceUrl": "https://github.com/popking159/ArabicSavior",
+      "installCommand": "wget https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/fairbird/ArabicSavior",
       "tags": [
         "Tools",
         "Arabic Savior",
-        "popking159"
+        "popking159",
+        "ArabicSavior"
       ],
       "icon": "🛠️",
       "features": [
@@ -342,7 +344,7 @@
     {
       "slug": "ipaudiopro",
       "name": "IPAudioPro",
-      "description": "إضافة لتحويل قنوات IPTV الصوتية إلى تجربة أكثر احترافية مع أدوات إدارة وتشغيل متقدمة.",
+      "description": "تشغيل وإدارة خدمات الصوت والراديو عبر الإنترنت.",
       "category": "Audio",
       "developer": "zKhadiri",
       "compatibility": {
@@ -350,8 +352,8 @@
         "images": [],
         "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
-      "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/zKhadiri/IPAudioPro-Releases-/refs/heads/main/installer.sh -O - | /bin/sh",
-      "sourceUrl": "https://github.com/zKhadiri/IPAudioPro-Releases-",
+      "installCommand": "wget https://raw.githubusercontent.com/emilnabil/ipaudiopro/refs/heads/main/ipaudiopro.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/emilnabil/ipaudiopro",
       "tags": [
         "Audio",
         "IPAudioPro",
@@ -472,7 +474,7 @@
     {
       "slug": "xtream2audio",
       "name": "Xtream2Audio",
-      "description": "تحويل وتحميل القنوات الصوتية من سيرفرات Xtream وتشغيلها بشكل مباشر.",
+      "description": "تشغيل وتحويل القنوات الصوتية من خدمات Xtream.",
       "category": "Audio",
       "developer": "emilnabil",
       "compatibility": {
@@ -813,8 +815,8 @@
     },
     {
       "slug": "enigma-play-store",
-      "name": "Enigma Play Store",
-      "description": "متجر تطبيقات حديث لتثبيت إضافات Enigma2 وإدارتها بسهولة.",
+      "name": "EnigmaPlay",
+      "description": "متجر إضافات حديث يوفر الوصول السريع إلى أدوات وبلجنات Enigma2 من واجهة موحدة.",
       "category": "Panels",
       "developer": "Ahmadarjan1",
       "compatibility": {
@@ -827,7 +829,8 @@
       "tags": [
         "Panels",
         "Enigma Play Store",
-        "Ahmadarjan1"
+        "Ahmadarjan1",
+        "EnigmaPlay"
       ],
       "icon": "🧰",
       "features": [
@@ -996,20 +999,21 @@
     {
       "slug": "raedquicksignal",
       "name": "RaedQuickSignal",
-      "description": "أداة سريعة لعرض مستوى الإشارة ومعلومات التردد أثناء المشاهدة.",
-      "category": "Other",
+      "description": "عرض نسبة الإشارة بسرعة أثناء المشاهدة.",
+      "category": "Tools",
       "developer": "fairbird",
       "compatibility": {
         "platform": "Enigma2",
         "images": [],
         "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
       },
-      "installCommand": "wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh",
+      "installCommand": "opkg update && opkg install wget && wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/fairbird/RaedQuickSignal",
       "tags": [
         "Other",
         "RaedQuickSignal",
-        "fairbird"
+        "fairbird",
+        "Tools"
       ],
       "icon": "⚙️",
       "features": [
@@ -1043,6 +1047,380 @@
         "توسيع وظائف الجهاز حسب الخدمة",
         "جمع وظائف المنصة الإضافية",
         "تكامل يعتمد على المصدر والتوافق"
+      ]
+    },
+    {
+      "slug": "ajpanel-menu1",
+      "name": "AJPanel Menu1",
+      "description": "نسخة مخصصة من لوحة AJPanel مزودة بقوائم وأدوات إضافية.",
+      "category": "Panels",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/tarekzoka/ajpanel",
+      "tags": [
+        "Panels",
+        "AJPanel Menu1"
+      ],
+      "icon": "🧩",
+      "features": [
+        "نسخة مخصصة من لوحة AJPanel مزودة بقوائم وأدوات إضافية."
+      ]
+    },
+    {
+      "slug": "emilpanelpro",
+      "name": "EmilPanelPro",
+      "description": "لوحة احترافية تحتوى على مجموعة كبيرة من أدوات وإضافات Enigma2.",
+      "category": "Panels",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "tags": [
+        "Panels",
+        "EmilPanelPro"
+      ],
+      "icon": "🧩",
+      "features": [
+        "لوحة احترافية تحتوى على مجموعة كبيرة من أدوات وإضافات Enigma2."
+      ]
+    },
+    {
+      "slug": "chromium",
+      "name": "Chromium",
+      "description": "متصفح Chromium لأجهزة Enigma2.",
+      "category": "Tools",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "opkg install enigma2-plugin-extensions-chromium",
+      "sourceUrl": "https://www.openpli.org/",
+      "tags": [
+        "Tools",
+        "Chromium"
+      ],
+      "icon": "🛠️",
+      "features": [
+        "متصفح Chromium لأجهزة Enigma2."
+      ]
+    },
+    {
+      "slug": "multiiptvadder",
+      "name": "MultiIptvAdder",
+      "description": "أداة لإضافة وإدارة العديد من اشتراكات IPTV بسهولة.",
+      "category": "IPTV",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "tags": [
+        "IPTV",
+        "MultiIptvAdder"
+      ],
+      "icon": "📺",
+      "features": [
+        "أداة لإضافة وإدارة العديد من اشتراكات IPTV بسهولة."
+      ]
+    },
+    {
+      "slug": "e2player-hosts-update",
+      "name": "E2Player Hosts Update",
+      "description": "تحديث واستكمال هوستات E2Player.",
+      "category": "IPTV",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://github.com/angelheart150/My_e2iplayer_hosts/raw/main/install-e2iplayer-update-hosts.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/angelheart150/My_e2iplayer_hosts",
+      "tags": [
+        "IPTV",
+        "E2Player Hosts Update"
+      ],
+      "icon": "📺",
+      "features": [
+        "تحديث واستكمال هوستات E2Player."
+      ]
+    },
+    {
+      "slug": "transmission",
+      "name": "Transmission",
+      "description": "أداة تحميل تورنت متكاملة لأجهزة Enigma2.",
+      "category": "Tools",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "opkg install transmission transmission-client python3-transmission-rpc xz python3-beautifulsoup4 && wget -q --no-check-certificate http://dreambox4u.com/dreamarabia/Transmission_e2/Transmission_e2.sh -O - | bash",
+      "sourceUrl": "http://dreambox4u.com/dreamarabia/Transmission_e2",
+      "tags": [
+        "Tools",
+        "Transmission"
+      ],
+      "icon": "🛠️",
+      "features": [
+        "أداة تحميل تورنت متكاملة لأجهزة Enigma2."
+      ]
+    },
+    {
+      "slug": "satelliweb-e2",
+      "name": "Satelliweb E2",
+      "description": "إضافة متخصصة لمتابعة بيانات وأخبار الأقمار والقنوات.",
+      "category": "Tools",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget -q --no-check-certificate http://dreambox4u.com/dreamarabia/Satelliweb_e2/install_satelliweb.sh -O - | bash",
+      "sourceUrl": "http://dreambox4u.com/dreamarabia/Satelliweb_e2",
+      "tags": [
+        "Tools",
+        "Satelliweb E2"
+      ],
+      "icon": "🛠️",
+      "features": [
+        "إضافة متخصصة لمتابعة بيانات وأخبار الأقمار والقنوات."
+      ]
+    },
+    {
+      "slug": "tmbd",
+      "name": "TMBD",
+      "description": "إضافة لجلب وعرض معلومات الأفلام والمسلسلات.",
+      "category": "Other",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/biko-73/TMBD/main/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/biko-73/TMBD",
+      "tags": [
+        "Other",
+        "TMBD"
+      ],
+      "icon": "✨",
+      "features": [
+        "إضافة لجلب وعرض معلومات الأفلام والمسلسلات."
+      ]
+    },
+    {
+      "slug": "emil-panel-lite",
+      "name": "Emil Panel Lite",
+      "description": "نسخة خفيفة من لوحة EmilPanel للأجهزة محدودة الموارد.",
+      "category": "Panels",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh",
+      "sourceUrl": "http://dreambox4u.com/emilnabil237/plugins/ajpanel/new",
+      "tags": [
+        "Panels",
+        "Emil Panel Lite"
+      ],
+      "icon": "🧩",
+      "features": [
+        "نسخة خفيفة من لوحة EmilPanel للأجهزة محدودة الموارد."
+      ]
+    },
+    {
+      "slug": "smartaddons-panel",
+      "name": "SmartAddons Panel",
+      "description": "لوحة إضافات متقدمة لإدارة أدوات وملحقات Enigma2.",
+      "category": "Panels",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/1New-Ajpanel-Panel-v5.0_HAN.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/Ham-ahmed/Secript-Panel",
+      "tags": [
+        "Panels",
+        "SmartAddons Panel"
+      ],
+      "icon": "🧩",
+      "features": [
+        "لوحة إضافات متقدمة لإدارة أدوات وملحقات Enigma2."
+      ]
+    },
+    {
+      "slug": "smartaddons-panel-pro",
+      "name": "SmartAddons Panel Pro",
+      "description": "إصدار متطور من لوحة SmartAddons مزود بأدوات إضافية.",
+      "category": "Panels",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "tags": [
+        "Panels",
+        "SmartAddons Panel Pro"
+      ],
+      "icon": "🧩",
+      "features": [
+        "إصدار متطور من لوحة SmartAddons مزود بأدوات إضافية."
+      ]
+    },
+    {
+      "slug": "my-tsiplayer",
+      "name": "My Tsiplayer",
+      "description": "تحديث وإضافة هوستات Tsiplayer لمصادر مشاهدة إضافية.",
+      "category": "IPTV",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://github.com/angelheart150/My-tsiplayer/raw/main/install-tsiplayer-update-hosts.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/angelheart150/My-tsiplayer",
+      "tags": [
+        "IPTV",
+        "My Tsiplayer"
+      ],
+      "icon": "📺",
+      "features": [
+        "تحديث وإضافة هوستات Tsiplayer لمصادر مشاهدة إضافية."
+      ]
+    },
+    {
+      "slug": "ssupport",
+      "name": "SSupport",
+      "description": "إضافة لتحميل وإدارة الترجمات للمحتوى المرئى.",
+      "category": "Translation",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/popking159/ssupport",
+      "tags": [
+        "Translation",
+        "SSupport"
+      ],
+      "icon": "🌐",
+      "features": [
+        "إضافة لتحميل وإدارة الترجمات للمحتوى المرئى."
+      ]
+    },
+    {
+      "slug": "jedimakerxtream",
+      "name": "JediMakerXtream",
+      "description": "إنشاء الباقات والقنوات تلقائياً من مزودى Xtream.",
+      "category": "IPTV",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/biko-73/JediMakerXtream/main/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/biko-73/JediMakerXtream",
+      "tags": [
+        "IPTV",
+        "JediMakerXtream"
+      ],
+      "icon": "📺",
+      "features": [
+        "إنشاء الباقات والقنوات تلقائياً من مزودى Xtream."
+      ]
+    },
+    {
+      "slug": "multi-stalker",
+      "name": "Multi Stalker",
+      "description": "إدارة وتشغيل عدة بوابات Stalker من مكان واحد.",
+      "category": "IPTV",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/biko-73/Multi-Stalker/main/pro/installer.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/biko-73/Multi-Stalker",
+      "tags": [
+        "IPTV",
+        "Multi Stalker"
+      ],
+      "icon": "📺",
+      "features": [
+        "إدارة وتشغيل عدة بوابات Stalker من مكان واحد."
+      ]
+    },
+    {
+      "slug": "xtraevent",
+      "name": "XtraEvent",
+      "description": "جلب صور وبيانات الأحداث والأفلام والقنوات تلقائياً.",
+      "category": "Other",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget -q --no-check-certificate https://github.com/digiteng/xtra/raw/main/xtraEvent.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/digiteng/xtra",
+      "tags": [
+        "Other",
+        "XtraEvent"
+      ],
+      "icon": "✨",
+      "features": [
+        "جلب صور وبيانات الأحداث والأفلام والقنوات تلقائياً."
+      ]
+    },
+    {
+      "slug": "teamnitro",
+      "name": "TeamNitro",
+      "description": "مجموعة أدوات وخدمات إضافية لأجهزة Enigma2.",
+      "category": "Other",
+      "developer": "غير محدد",
+      "compatibility": {
+        "platform": "Enigma2",
+        "images": [],
+        "note": "لم يتم التحقق من التوافق مع صور النظام المحددة ضمن البيانات المتاحة."
+      },
+      "installCommand": "wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerB.sh -O - | /bin/sh",
+      "sourceUrl": "https://github.com/biko-73/TeamNitro",
+      "tags": [
+        "Other",
+        "TeamNitro"
+      ],
+      "icon": "✨",
+      "features": [
+        "مجموعة أدوات وخدمات إضافية لأجهزة Enigma2."
       ]
     }
   ],
