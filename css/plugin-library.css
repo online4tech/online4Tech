@@ -26,3 +26,39 @@ body{background:var(--pl-bg);color:var(--pl-text)}
 .pl-installer-copy{color:#fff;background:#087da6;border-color:#087da6!important}
 .pl-installer-open{background:#fff;color:var(--pl-text)}
 }
+
+/* Force the Plugin Library to match the site's dark theme on every device. */
+:root{
+  color-scheme:dark;
+  --pl-bg:#07111f;
+  --pl-panel:#0d1a2c;
+  --pl-panel2:#11233a;
+  --pl-line:#29445f;
+  --pl-text:#f4f8ff;
+  --pl-muted:#a8bad0;
+  --pl-blue:#67d2ff;
+  --pl-mint:#8ce6c2;
+  --pl-gold:#f2c879;
+}
+body{
+  background:radial-gradient(ellipse at 80% -10%,#153a5b 0,transparent 42%),radial-gradient(ellipse at 0% 40%,#102443 0,transparent 36%),#07111f!important;
+  color:#f4f8ff!important;
+}
+.pl-card h2,
+.pl-card h2 a,
+.pl-detail h1,
+.pl-related strong{
+  color:#f4f8ff!important;
+  font-weight:800!important;
+  text-shadow:0 1px 0 #0005;
+}
+.pl-card h2{
+  font-size:1.16rem;
+  line-height:1.55;
+  letter-spacing:.1px;
+}
+.pl-card h2 a:hover,
+.pl-card h2 a:focus-visible{
+  color:#67d2ff!important;
+}
+
