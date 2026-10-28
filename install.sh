@@ -104,6 +104,10 @@ def parse_safe(p):
                 oi=argv.index("-O")
                 if oi+1>=len(argv) or not argv[oi+1].startswith("/tmp/"): return None,"مسار التنزيل غير مسموح."
                 downloaded_path=argv[oi+1]
+            elif "-qO" in argv:
+                oi=argv.index("-qO")
+                if oi+1>=len(argv) or not argv[oi+1].startswith("/tmp/"): return None,"مسار التنزيل غير مسموح."
+                downloaded_path=argv[oi+1]
             else:
                 for token in argv:
                     if token.startswith("/tmp/"): downloaded_path=token
