@@ -44,11 +44,12 @@ function render(){
 }
 async function copy(text,button){
  const status=button.nextElementSibling;
+ if(!button.dataset.originalText)button.dataset.originalText=button.textContent;
  try{
   if(navigator.clipboard&&window.isSecureContext) await navigator.clipboard.writeText(text);
   else{const area=document.createElement('textarea');area.value=text;area.style.position='fixed';area.style.opacity='0';document.body.appendChild(area);area.select();const ok=document.execCommand('copy');area.remove();if(!ok)throw new Error('copy failed')}
   button.textContent='✓ تم نسخ الأمر';status.textContent='تم نسخ الأمر بنجاح';
-  setTimeout(()=>{button.textContent='📋 نسخ أمر التثبيت'+(button.dataset.label||'');status.textContent=''},2200);
+  setTimeout(()=>{button.textContent=button.dataset.originalText;status.textContent=''},2200);
  }catch(_){status.textContent='تعذّر النسخ تلقائيًا؛ حاول مرة أخرى.'}
 }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-command]');if(b)copy(b.dataset.command,b)});
