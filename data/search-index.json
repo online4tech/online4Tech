@@ -3888,14 +3888,6 @@
     "type": "Page"
   },
   {
-    "title": "ابدأ باختيار نوع جهازك",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/#devices",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
     "title": "اختار القسم اللي يناسبك",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/",
@@ -4445,6 +4437,14 @@
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#catalogSection",
     "category": "معلومات",
     "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "باك اب ( نسخه الاحتياطية )",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/#devices",
+    "category": "معلومات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
