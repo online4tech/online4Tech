@@ -51,16 +51,7 @@
       },
       "featured": true,
       "thumbnail": "",
-      "screenshots": [
-        "images/plugins/ajpanel/screenshot-1.webp",
-        "images/plugins/ajpanel/screenshot-2.webp",
-        "images/plugins/ajpanel/screenshot-3.webp",
-        "images/plugins/ajpanel/screenshot-4.webp",
-        "images/plugins/ajpanel/screenshot-5.webp",
-        "images/plugins/ajpanel/screenshot-6.webp",
-        "images/plugins/ajpanel/screenshot-7.webp",
-        "images/plugins/ajpanel/screenshot-8.webp"
-      ],
+      "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -434,11 +425,8 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "images/plugins/arabicsavior/thumbnail.webp",
-      "screenshots": [
-        "images/plugins/arabicsavior/screenshot-1.webp",
-        "images/plugins/arabicsavior/screenshot-2.webp"
-      ],
+      "thumbnail": "",
+      "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -469,8 +457,8 @@
           "command": "wget https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh"
         }
       ],
-      "icon": "images/plugins/arabicsavior/icon.webp",
-      "logoFound": true,
+      "icon": "",
+      "logoFound": false,
       "officialWebsite": "",
       "githubStars": 3,
       "catalogUpdatedAt": "2026-10-28"
@@ -687,10 +675,7 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [
-        "images/plugins/raedquicksignal/screenshot-1.webp",
-        "images/plugins/raedquicksignal/screenshot-2.webp"
-      ],
+      "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -1866,9 +1851,7 @@
       "featured": false,
       "latest": false,
       "downloadsCount": 0,
-      "screenshots": [
-        "images/plugins/ajpanel-menu1/screenshot-1.webp"
-      ],
+      "screenshots": [],
       "changelog": [],
       "tags": [
         "ajpanel_menu1",
@@ -2332,11 +2315,7 @@
       "featured": false,
       "latest": false,
       "downloadsCount": 0,
-      "screenshots": [
-        "images/plugins/tmbd/screenshot-1.webp",
-        "images/plugins/tmbd/screenshot-2.webp",
-        "images/plugins/tmbd/screenshot-3.webp"
-      ],
+      "screenshots": [],
       "changelog": [],
       "tags": [
         "TMBD",
@@ -2696,9 +2675,9 @@
       "version": "غير محدد",
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
-      "icon": "images/plugins/ssupport/icon.webp",
-      "thumbnail": "images/plugins/ssupport/thumbnail.webp",
-      "logoFound": true,
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
       "githubUrl": "",
       "downloadUrl": "",
       "downloads": {
@@ -2928,9 +2907,9 @@
       "version": "غير محدد",
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
-      "icon": "images/plugins/ipaudio/icon.webp",
-      "thumbnail": "images/plugins/ipaudio/thumbnail.webp",
-      "logoFound": true,
+      "icon": "",
+      "thumbnail": "",
+      "logoFound": false,
       "githubUrl": "",
       "downloadUrl": "",
       "downloads": {

@@ -46,7 +46,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "https://github.com/biko-73/AjPanel",
+        "repository": "",
         "githubRelease": ""
       },
       "featured": true,
@@ -61,7 +61,7 @@
         "images/plugins/ajpanel/screenshot-7.webp",
         "images/plugins/ajpanel/screenshot-8.webp"
       ],
-      "downloadUrl": "https://github.com/AMAJamry/AJPanel",
+      "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
       "tags": [
@@ -79,7 +79,7 @@
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "https://github.com/biko-73/AjPanel",
+      "githubUrl": "",
       "relatedPlugins": [
         "arabicsavior",
         "raedquicksignal"
@@ -430,7 +430,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "https://github.com/fairbird/ArabicSavior",
+        "repository": "",
         "githubRelease": ""
       },
       "featured": false,
@@ -439,7 +439,7 @@
         "images/plugins/arabicsavior/screenshot-1.webp",
         "images/plugins/arabicsavior/screenshot-2.webp"
       ],
-      "downloadUrl": "https://github.com/fairbird/ArabicSavior",
+      "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
       "tags": [
@@ -457,7 +457,7 @@
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "https://github.com/fairbird/ArabicSavior",
+      "githubUrl": "",
       "relatedPlugins": [
         "ajpanel",
         "raedquicksignal"
@@ -472,7 +472,8 @@
       "icon": "images/plugins/arabicsavior/icon.webp",
       "logoFound": true,
       "officialWebsite": "",
-      "githubStars": 3
+      "githubStars": 3,
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "enigmaplay",
@@ -495,13 +496,13 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
+        "repository": "",
         "githubRelease": ""
       },
       "featured": false,
       "thumbnail": "",
       "screenshots": [],
-      "downloadUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
+      "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
       "tags": [
@@ -519,7 +520,7 @@
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
+      "githubUrl": "",
       "relatedPlugins": [
         "mystreamer",
         "mediaportal",
@@ -534,7 +535,8 @@
       ],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "footonsat",
@@ -680,7 +682,7 @@
       ],
       "rating": 0,
       "downloads": {
-        "repository": "https://github.com/fairbird/RaedQuickSignal",
+        "repository": "",
         "githubRelease": ""
       },
       "featured": false,
@@ -689,7 +691,7 @@
         "images/plugins/raedquicksignal/screenshot-1.webp",
         "images/plugins/raedquicksignal/screenshot-2.webp"
       ],
-      "downloadUrl": "https://github.com/fairbird/RaedQuickSignal",
+      "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
       "tags": [
@@ -707,7 +709,7 @@
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
       "youtubeVideo": "",
-      "githubUrl": "https://github.com/fairbird/RaedQuickSignal",
+      "githubUrl": "",
       "relatedPlugins": [
         "ajpanel",
         "arabicsavior"
@@ -722,7 +724,8 @@
       "icon": "",
       "githubStars": 4,
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "timeshift-delay",
@@ -1884,10 +1887,11 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://github.com/tarekzoka/ajpanel",
-      "downloadUrl": "https://github.com/tarekzoka/ajpanel",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/tarekzoka/ajpanel"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
@@ -1895,7 +1899,12 @@
           "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "emilpanelpro",
@@ -1936,10 +1945,11 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://github.com/emilnabil/download-plugins",
-      "downloadUrl": "https://github.com/emilnabil/download-plugins",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/emilnabil/download-plugins"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
@@ -1947,7 +1957,12 @@
           "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "chromium",
@@ -1990,13 +2005,21 @@
       "logoFound": false,
       "githubUrl": "",
       "downloadUrl": "",
-      "downloads": {},
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "opkg install enigma2-plugin-extensions-chromium"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "multiiptvadder",
@@ -2037,10 +2060,11 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://github.com/emilnabil/download-plugins",
-      "downloadUrl": "https://github.com/emilnabil/download-plugins",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/emilnabil/download-plugins"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
@@ -2048,7 +2072,12 @@
           "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "xtream2audio",
@@ -2089,10 +2118,11 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://github.com/emilnabil/download-plugins",
-      "downloadUrl": "https://github.com/emilnabil/download-plugins",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/emilnabil/download-plugins"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
@@ -2100,7 +2130,12 @@
           "command": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Xtream2Audio/Xtream2Audio.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "e2iplayer",
@@ -2141,10 +2176,11 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://github.com/angelheart150/My_e2iplayer_hosts",
-      "downloadUrl": "https://github.com/angelheart150/My_e2iplayer_hosts",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/angelheart150/My_e2iplayer_hosts"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
@@ -2155,7 +2191,12 @@
           "label": "e2iplayer Online Setup",
           "command": "curl -LJso- https://mohamed_os.gitlab.io/e2iplayer/online-setup | bash"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "transmission",
@@ -2198,13 +2239,21 @@
       "logoFound": false,
       "githubUrl": "",
       "downloadUrl": "",
-      "downloads": {},
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "telnetCommands": [
         {
           "label": "تثبيت الحزم والبلجن",
           "command": "opkg install transmission transmission-client python3-transmission-rpc xz python3-beautifulsoup4 && wget -q --no-check-certificate http://dreambox4u.com/dreamarabia/Transmission_e2/Transmission_e2.sh -O - | bash"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "satelliweb-e2",
@@ -2247,13 +2296,21 @@
       "logoFound": false,
       "githubUrl": "",
       "downloadUrl": "",
-      "downloads": {},
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "wget -q --no-check-certificate http://dreambox4u.com/dreamarabia/Satelliweb_e2/install_satelliweb.sh -O - | bash"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "tmbd",
@@ -2276,7 +2333,9 @@
       "latest": false,
       "downloadsCount": 0,
       "screenshots": [
-        "images/plugins/tmbd/screenshot-1.webp"
+        "images/plugins/tmbd/screenshot-1.webp",
+        "images/plugins/tmbd/screenshot-2.webp",
+        "images/plugins/tmbd/screenshot-3.webp"
       ],
       "changelog": [],
       "tags": [
@@ -2296,10 +2355,11 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://github.com/biko-73/TMBD",
-      "downloadUrl": "https://github.com/biko-73/TMBD",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/biko-73/TMBD"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
@@ -2307,7 +2367,12 @@
           "command": "wget https://raw.githubusercontent.com/biko-73/TMBD/main/installer.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "emil-panel-lite",
@@ -2350,13 +2415,21 @@
       "logoFound": false,
       "githubUrl": "",
       "downloadUrl": "",
-      "downloads": {},
+      "downloads": {
+        "repository": "",
+        "githubRelease": ""
+      },
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "wget -q \"--no-check-certificate\" https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "smartaddonspanel-han",
@@ -2397,17 +2470,23 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://github.com/Ham-ahmed/Secript-Panel",
-      "downloadUrl": "https://github.com/Ham-ahmed/Secript-Panel",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/Ham-ahmed/Secript-Panel"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/1New-Ajpanel-Panel-v5.0_HAN.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "smartaddonspanel-emil",
@@ -2448,10 +2527,11 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://github.com/emilnabil/download-plugins",
-      "downloadUrl": "https://github.com/emilnabil/download-plugins",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/emilnabil/download-plugins"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
@@ -2459,7 +2539,12 @@
           "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "my-tsiplayer",
@@ -2500,17 +2585,23 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://github.com/angelheart150/My-tsiplayer",
-      "downloadUrl": "https://github.com/angelheart150/My-tsiplayer",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/angelheart150/My-tsiplayer"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "wget -q \"--no-check-certificate\" https://github.com/angelheart150/My-tsiplayer/raw/main/install-tsiplayer-update-hosts.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "e2iplayer-online-setup",
@@ -2551,17 +2642,23 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://mohamed_os.gitlab.io/e2iplayer/online-setup",
-      "downloadUrl": "https://mohamed_os.gitlab.io/e2iplayer/online-setup",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://mohamed_os.gitlab.io/e2iplayer/online-setup"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "curl -LJso- https://mohamed_os.gitlab.io/e2iplayer/online-setup | bash"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "ssupport",
@@ -2602,10 +2699,11 @@
       "icon": "images/plugins/ssupport/icon.webp",
       "thumbnail": "images/plugins/ssupport/thumbnail.webp",
       "logoFound": true,
-      "githubUrl": "https://github.com/popking159/ssupport",
-      "downloadUrl": "https://github.com/popking159/ssupport",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/popking159/ssupport"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
@@ -2613,7 +2711,12 @@
           "command": "wget -q \"--no-check-certificate\" https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "xstreamity",
@@ -2654,10 +2757,11 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://github.com/biko-73/xstreamity",
-      "downloadUrl": "https://github.com/biko-73/xstreamity",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/biko-73/xstreamity"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
@@ -2665,7 +2769,12 @@
           "command": "wget https://raw.githubusercontent.com/biko-73/xstreamity/main/installer.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 13
+      "githubStars": 13,
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "jedimakerxtream",
@@ -2706,10 +2815,11 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://github.com/biko-73/JediMakerXtream",
-      "downloadUrl": "https://github.com/biko-73/JediMakerXtream",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/biko-73/JediMakerXtream"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
@@ -2717,7 +2827,12 @@
           "command": "wget https://raw.githubusercontent.com/biko-73/JediMakerXtream/main/installer.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 7
+      "githubStars": 7,
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "multi-stalker",
@@ -2758,10 +2873,11 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://github.com/biko-73/Multi-Stalker",
-      "downloadUrl": "https://github.com/biko-73/Multi-Stalker",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/biko-73/Multi-Stalker"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
@@ -2769,7 +2885,12 @@
           "command": "wget https://raw.githubusercontent.com/biko-73/Multi-Stalker/main/pro/installer.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 3
+      "githubStars": 3,
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "ipaudio",
@@ -2810,17 +2931,23 @@
       "icon": "images/plugins/ipaudio/icon.webp",
       "thumbnail": "images/plugins/ipaudio/thumbnail.webp",
       "logoFound": true,
-      "githubUrl": "https://github.com/emilnabil/ipaudiopro",
-      "downloadUrl": "https://github.com/emilnabil/ipaudiopro",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/emilnabil/ipaudiopro"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "wget https://raw.githubusercontent.com/emilnabil/ipaudiopro/refs/heads/main/ipaudiopro.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     },
     {
       "id": "xtraevent",
@@ -2861,17 +2988,23 @@
       "icon": "",
       "thumbnail": "",
       "logoFound": false,
-      "githubUrl": "https://github.com/digiteng/xtra",
-      "downloadUrl": "https://github.com/digiteng/xtra",
+      "githubUrl": "",
+      "downloadUrl": "",
       "downloads": {
-        "repository": "https://github.com/digiteng/xtra"
+        "repository": "",
+        "githubRelease": ""
       },
       "telnetCommands": [
         {
           "label": "Quick Install",
           "command": "wget -q \"--no-check-certificate\" https://github.com/digiteng/xtra/raw/main/xtraEvent.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28",
+      "author": "مصدر المطوّر",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "youtubeVideo": ""
     }
   ]
 }
