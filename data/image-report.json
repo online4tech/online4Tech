@@ -1,16 +1,17 @@
 {
-  "generatedAt": "2026-10-28T09:09:55.727Z",
+  "generatedAt": "2026-10-28T09:12:22.494Z",
   "pluginsScanned": 50,
-  "imagesDownloaded": 12,
+  "imagesDownloaded": 68,
   "imagesUpdated": 0,
   "placeholdersGenerated": 0,
-  "totalStoredImages": 62,
-  "repositoryImagesStored": 62,
+  "totalStoredImages": 94,
+  "repositoryImagesStored": 94,
   "placeholderAssetsStored": 0,
   "missingImages": [
     {
       "plugin": "ajpanel",
-      "reason": "No GitHub repository URL"
+      "repository": "AMAJamry/AJPanel",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "mystreamer",
@@ -28,12 +29,9 @@
       "reason": "No approved logo/icon file found"
     },
     {
-      "plugin": "arabicsavior",
-      "reason": "No GitHub repository URL"
-    },
-    {
       "plugin": "enigmaplay",
-      "reason": "No GitHub repository URL"
+      "repository": "Ahmadarjan1/EnigmaPlay-Repo",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "footonsat",
@@ -46,7 +44,8 @@
     },
     {
       "plugin": "raedquicksignal",
-      "reason": "No GitHub repository URL"
+      "repository": "fairbird/RaedQuickSignal",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "timeshift-delay",
@@ -63,35 +62,38 @@
     },
     {
       "plugin": "jedi-maker-xtream",
-      "reason": "No GitHub repository URL"
-    },
-    {
-      "plugin": "xtreamity",
-      "reason": "No GitHub repository URL"
+      "repository": "biko-73/JediMakerXtream",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "epg-import",
-      "reason": "No GitHub repository URL"
+      "repository": "OpenPLi/enigma2-plugins",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "tmdb",
-      "reason": "No GitHub repository URL"
+      "repository": "ciefp/CiefpTMDBSearch",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "autotimer",
-      "reason": "No GitHub repository URL"
+      "repository": "OpenPLi/enigma2-plugins",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "seriesplugin",
-      "reason": "No GitHub repository URL"
+      "repository": "OpenPLi/enigma2-plugins",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "dreamexplorer",
-      "reason": "No GitHub repository URL"
+      "repository": "OpenPLi/enigma2-plugins",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "filecommander",
-      "reason": "No GitHub repository URL"
+      "repository": "OpenPLi/enigma2-plugins",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "mediaportal",
@@ -103,15 +105,18 @@
     },
     {
       "plugin": "youtube",
-      "reason": "No GitHub repository URL"
+      "repository": "OpenPLi/enigma2-plugins",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "weather-plugin",
-      "reason": "No GitHub repository URL"
+      "repository": "OpenPLi/enigma2-plugins",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "openwebif",
-      "reason": "No GitHub repository URL"
+      "repository": "E2OpenPlugins/e2openplugin-OpenWebif",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "skin-selector",
@@ -123,15 +128,18 @@
     },
     {
       "plugin": "xtreamnew",
-      "reason": "No GitHub repository URL"
+      "repository": "ahmedhussein4342-lgtm/XtreamNew",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "ajpanel-menu1",
-      "reason": "No GitHub repository URL"
+      "repository": "tarekzoka/ajpanel",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "emilpanelpro",
-      "reason": "No GitHub repository URL"
+      "repository": "emilnabil/download-plugins",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "chromium",
@@ -139,15 +147,18 @@
     },
     {
       "plugin": "multiiptvadder",
-      "reason": "No GitHub repository URL"
+      "repository": "emilnabil/download-plugins",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "xtream2audio",
-      "reason": "No GitHub repository URL"
+      "repository": "emilnabil/download-plugins",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "e2iplayer",
-      "reason": "No GitHub repository URL"
+      "repository": "angelheart150/My_e2iplayer_hosts",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "transmission",
@@ -159,7 +170,8 @@
     },
     {
       "plugin": "tmbd",
-      "reason": "No GitHub repository URL"
+      "repository": "biko-73/TMBD",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "emil-panel-lite",
@@ -167,46 +179,51 @@
     },
     {
       "plugin": "smartaddonspanel-han",
-      "reason": "No GitHub repository URL"
+      "repository": "Ham-ahmed/Secript-Panel",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "smartaddonspanel-emil",
-      "reason": "No GitHub repository URL"
+      "repository": "emilnabil/download-plugins",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "my-tsiplayer",
-      "reason": "No GitHub repository URL"
+      "repository": "angelheart150/My-tsiplayer",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "e2iplayer-online-setup",
       "reason": "No GitHub repository URL"
     },
     {
-      "plugin": "ssupport",
-      "reason": "No GitHub repository URL"
-    },
-    {
       "plugin": "xstreamity",
-      "reason": "No GitHub repository URL"
+      "repository": "biko-73/xstreamity",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "jedimakerxtream",
-      "reason": "No GitHub repository URL"
+      "repository": "biko-73/JediMakerXtream",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "multi-stalker",
-      "reason": "No GitHub repository URL"
-    },
-    {
-      "plugin": "ipaudio",
-      "reason": "No GitHub repository URL"
+      "repository": "biko-73/Multi-Stalker",
+      "reason": "No approved logo/icon file found"
     },
     {
       "plugin": "xtraevent",
-      "reason": "No GitHub repository URL"
+      "repository": "digiteng/xtra",
+      "reason": "Repository scan failed; existing verified logo preserved when available"
     }
   ],
-  "failedRepositories": [],
+  "failedRepositories": [
+    {
+      "plugin": "xtraevent",
+      "repository": "digiteng/xtra",
+      "error": "GitHub API 404 https://api.github.com/repos/digiteng/xtra"
+    }
+  ],
   "cachedRepositories": 2,
-  "catalogChanged": false
+  "catalogChanged": true
 }

@@ -11,7 +11,7 @@
     ],
     "githubStars": 12,
     "iconSource": "",
-    "checkedAt": "2026-10-27T18:43:49.122Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "popking159/MyStreamer": {
     "schema": 3,
@@ -23,7 +23,7 @@
     "screenshots": [],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-10-28T09:09:55.727Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "popking159/SubsSupportPro": {
     "schema": 3,
@@ -60,7 +60,7 @@
   },
   "Ahmadarjan1/EnigmaPlay-Repo": {
     "schema": 3,
-    "sha": "65d0ce7827cfe52929c2eba7f596be277c61b9ef",
+    "sha": "4e97fd3877cea3d1fc82c24e29d759b30c028e5b",
     "slug": "enigmaplay",
     "icon": "",
     "thumbnail": "",
@@ -68,7 +68,7 @@
     "screenshots": [],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:32:26.904Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "fairbird/RaedQuickSignal": {
     "schema": 3,
@@ -83,7 +83,7 @@
     ],
     "githubStars": 4,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:32:26.904Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player": {
     "schema": 3,
@@ -95,7 +95,7 @@
     "screenshots": [],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-10-28T09:09:55.727Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "fairbird/ArabicSavior": {
     "schema": 3,
@@ -110,7 +110,7 @@
     ],
     "githubStars": 3,
     "iconSource": "usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior/icon.png",
-    "checkedAt": "2026-10-27T18:33:36.489Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "fairbird/FootOnsat": {
     "schema": 3,
@@ -127,7 +127,7 @@
     ],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-10-28T09:09:55.727Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "K3bOra/UltraAudio": {
     "schema": 3,
@@ -148,7 +148,7 @@
     ],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-10-28T09:09:55.727Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "biko-73/AjPanel": {
     "schema": 3,
@@ -183,7 +183,7 @@
     ],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:32:26.904Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "emilnabil/download-plugins": {
     "schema": 3,
@@ -195,7 +195,7 @@
     "screenshots": [],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:32:26.904Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "angelheart150/My_e2iplayer_hosts": {
     "schema": 3,
@@ -207,7 +207,7 @@
     "screenshots": [],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:32:26.904Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "biko-73/TMBD": {
     "schema": 3,
@@ -219,11 +219,16 @@
     "screenshots": [
       "images/plugins/tmbd/screenshot-1.webp",
       "images/plugins/tmbd/screenshot-2.webp",
-      "images/plugins/tmbd/screenshot-3.webp"
+      "images/plugins/tmbd/screenshot-3.webp",
+      "images/plugins/tmbd/screenshot-4.webp",
+      "images/plugins/tmbd/screenshot-5.webp",
+      "images/plugins/tmbd/screenshot-6.webp",
+      "images/plugins/tmbd/screenshot-7.webp",
+      "images/plugins/tmbd/screenshot-8.webp"
     ],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:32:26.904Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "Ham-ahmed/Secript-Panel": {
     "schema": 3,
@@ -235,7 +240,7 @@
     "screenshots": [],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:32:26.904Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "angelheart150/My-tsiplayer": {
     "schema": 3,
@@ -247,7 +252,7 @@
     "screenshots": [],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:32:26.904Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "popking159/ssupport": {
     "schema": 3,
@@ -259,7 +264,7 @@
     "screenshots": [],
     "githubStars": 1,
     "iconSource": "src/seekers/Elsubtitle/logo.png",
-    "checkedAt": "2026-10-28T06:29:42.515Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "biko-73/xstreamity": {
     "schema": 3,
@@ -271,7 +276,7 @@
     "screenshots": [],
     "githubStars": 13,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:32:26.904Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "biko-73/JediMakerXtream": {
     "schema": 3,
@@ -283,7 +288,7 @@
     "screenshots": [],
     "githubStars": 7,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:32:26.904Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "biko-73/Multi-Stalker": {
     "schema": 3,
@@ -295,7 +300,7 @@
     "screenshots": [],
     "githubStars": 3,
     "iconSource": "",
-    "checkedAt": "2026-10-28T06:32:26.904Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "emilnabil/ipaudiopro": {
     "schema": 3,
@@ -307,7 +312,7 @@
     "screenshots": [],
     "githubStars": 0,
     "iconSource": "logo.png",
-    "checkedAt": "2026-10-28T06:29:42.515Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   },
   "picons/picons": {
     "schema": 3,
@@ -319,6 +324,90 @@
     "screenshots": [],
     "githubStars": 304,
     "iconSource": "",
-    "checkedAt": "2026-10-28T09:09:55.727Z"
+    "checkedAt": "2026-10-28T09:12:22.494Z"
+  },
+  "kiddac/XStreamity": {
+    "schema": 3,
+    "sha": "49292c34292824d925a4a4e5fa7903b389839af7",
+    "slug": "xtreamity",
+    "icon": "images/plugins/xtreamity/icon.webp",
+    "thumbnail": "images/plugins/xtreamity/thumbnail.webp",
+    "logoFound": true,
+    "screenshots": [],
+    "githubStars": 58,
+    "iconSource": "XStreamity/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skins/fhd/common/logo.png",
+    "checkedAt": "2026-10-28T09:12:22.494Z"
+  },
+  "OpenPLi/enigma2-plugins": {
+    "schema": 3,
+    "sha": "0826da8c64d08a7a53b47c1db9a8b0fafcd3fa34",
+    "slug": "weather-plugin",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [
+      "images/plugins/weather-plugin/screenshot-1.webp",
+      "images/plugins/weather-plugin/screenshot-2.webp",
+      "images/plugins/weather-plugin/screenshot-3.webp"
+    ],
+    "githubStars": 32,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T09:12:22.494Z"
+  },
+  "ciefp/CiefpTMDBSearch": {
+    "schema": 3,
+    "sha": "0f18978d3a0ddc620fe87d6da7dd1a2bfd53eb19",
+    "slug": "tmdb",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [
+      "images/plugins/tmdb/screenshot-1.webp",
+      "images/plugins/tmdb/screenshot-2.webp",
+      "images/plugins/tmdb/screenshot-3.webp",
+      "images/plugins/tmdb/screenshot-4.webp",
+      "images/plugins/tmdb/screenshot-5.webp",
+      "images/plugins/tmdb/screenshot-6.webp",
+      "images/plugins/tmdb/screenshot-7.webp",
+      "images/plugins/tmdb/screenshot-8.webp"
+    ],
+    "githubStars": 2,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T09:12:22.494Z"
+  },
+  "E2OpenPlugins/e2openplugin-OpenWebif": {
+    "schema": 3,
+    "sha": "e46534fb6696cb33eb36ed9982d9e5db1bd8a31e",
+    "slug": "openwebif",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [
+      "images/plugins/openwebif/screenshot-1.webp"
+    ],
+    "githubStars": 217,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T09:12:22.494Z"
+  },
+  "ahmedhussein4342-lgtm/XtreamNew": {
+    "schema": 3,
+    "sha": "00c83001a11e0925d71754b31071c1d88315d16e",
+    "slug": "xtreamnew",
+    "icon": "",
+    "thumbnail": "",
+    "logoFound": false,
+    "screenshots": [
+      "images/plugins/xtreamnew/screenshot-1.webp",
+      "images/plugins/xtreamnew/screenshot-2.webp",
+      "images/plugins/xtreamnew/screenshot-3.webp",
+      "images/plugins/xtreamnew/screenshot-4.webp",
+      "images/plugins/xtreamnew/screenshot-5.webp",
+      "images/plugins/xtreamnew/screenshot-6.webp",
+      "images/plugins/xtreamnew/screenshot-7.webp",
+      "images/plugins/xtreamnew/screenshot-8.webp"
+    ],
+    "githubStars": 1,
+    "iconSource": "",
+    "checkedAt": "2026-10-28T09:12:22.494Z"
   }
 }

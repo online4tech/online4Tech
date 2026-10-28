@@ -51,7 +51,9 @@
       },
       "featured": true,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/ajpanel/screenshot-1.webp"
+      ],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -91,7 +93,7 @@
         }
       ],
       "icon": "",
-      "githubStars": 15,
+      "githubStars": 12,
       "logoFound": false,
       "officialWebsite": ""
     },
@@ -431,8 +433,11 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "",
-      "screenshots": [],
+      "thumbnail": "images/plugins/arabicsavior/thumbnail.webp",
+      "screenshots": [
+        "images/plugins/arabicsavior/screenshot-1.webp",
+        "images/plugins/arabicsavior/screenshot-2.webp"
+      ],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -463,8 +468,8 @@
           "command": "wget https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh"
         }
       ],
-      "icon": "",
-      "logoFound": false,
+      "icon": "images/plugins/arabicsavior/icon.webp",
+      "logoFound": true,
       "officialWebsite": "",
       "githubStars": 3,
       "catalogUpdatedAt": "2026-10-28"
@@ -681,7 +686,10 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/raedquicksignal/screenshot-1.webp",
+        "images/plugins/raedquicksignal/screenshot-2.webp"
+      ],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -955,7 +963,8 @@
           "label": "تثبيت من مستودع المطوّر",
           "command": "wget -qO- https://raw.githubusercontent.com/biko-73/JediMakerXtream/main/installer.sh | /bin/sh"
         }
-      ]
+      ],
+      "githubStars": 7
     },
     {
       "id": "xtreamity",
@@ -984,7 +993,7 @@
         "githubRelease": ""
       },
       "featured": true,
-      "thumbnail": "",
+      "thumbnail": "images/plugins/xtreamity/thumbnail.webp",
       "screenshots": [],
       "downloadUrl": "",
       "tutorialUrl": "",
@@ -1009,15 +1018,16 @@
         "xtreamnew"
       ],
       "features": [],
-      "icon": "",
-      "logoFound": false,
+      "icon": "images/plugins/xtreamity/icon.webp",
+      "logoFound": true,
       "officialWebsite": "",
       "telnetCommands": [
         {
           "label": "التثبيت من مستودع صورة النظام",
           "command": "opkg update && opkg install enigma2-plugin-extensions-xstreamity"
         }
-      ]
+      ],
+      "githubStars": 58
     },
     {
       "id": "epg-import",
@@ -1047,7 +1057,11 @@
       },
       "featured": true,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/epg-import/screenshot-1.webp",
+        "images/plugins/epg-import/screenshot-2.webp",
+        "images/plugins/epg-import/screenshot-3.webp"
+      ],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -1079,7 +1093,8 @@
           "label": "التثبيت من مستودع صورة النظام",
           "command": "opkg update && opkg install enigma2-plugin-extensions-epgimport"
         }
-      ]
+      ],
+      "githubStars": 32
     },
     {
       "id": "tmdb",
@@ -1108,7 +1123,16 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/tmdb/screenshot-1.webp",
+        "images/plugins/tmdb/screenshot-2.webp",
+        "images/plugins/tmdb/screenshot-3.webp",
+        "images/plugins/tmdb/screenshot-4.webp",
+        "images/plugins/tmdb/screenshot-5.webp",
+        "images/plugins/tmdb/screenshot-6.webp",
+        "images/plugins/tmdb/screenshot-7.webp",
+        "images/plugins/tmdb/screenshot-8.webp"
+      ],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -1142,7 +1166,8 @@
           "label": "تثبيت من مستودع GitHub",
           "command": "wget -q https://raw.githubusercontent.com/ciefp/CiefpTMDBSearch/main/installer.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "githubStars": 2
     },
     {
       "id": "autotimer",
@@ -1172,7 +1197,11 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/autotimer/screenshot-1.webp",
+        "images/plugins/autotimer/screenshot-2.webp",
+        "images/plugins/autotimer/screenshot-3.webp"
+      ],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -1204,7 +1233,8 @@
           "label": "التثبيت من مستودع صورة النظام",
           "command": "opkg update && opkg install enigma2-plugin-extensions-autotimer"
         }
-      ]
+      ],
+      "githubStars": 32
     },
     {
       "id": "seriesplugin",
@@ -1233,7 +1263,11 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/seriesplugin/screenshot-1.webp",
+        "images/plugins/seriesplugin/screenshot-2.webp",
+        "images/plugins/seriesplugin/screenshot-3.webp"
+      ],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -1265,7 +1299,8 @@
           "label": "التثبيت من مستودع صورة النظام",
           "command": "opkg update && opkg install enigma2-plugin-extensions-seriesplugin"
         }
-      ]
+      ],
+      "githubStars": 32
     },
     {
       "id": "dreamexplorer",
@@ -1295,7 +1330,11 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/dreamexplorer/screenshot-1.webp",
+        "images/plugins/dreamexplorer/screenshot-2.webp",
+        "images/plugins/dreamexplorer/screenshot-3.webp"
+      ],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -1326,7 +1365,8 @@
           "label": "التثبيت من مستودع صورة النظام",
           "command": "opkg update && opkg install enigma2-plugin-extensions-dreamexplorer"
         }
-      ]
+      ],
+      "githubStars": 32
     },
     {
       "id": "filecommander",
@@ -1355,7 +1395,11 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/filecommander/screenshot-1.webp",
+        "images/plugins/filecommander/screenshot-2.webp",
+        "images/plugins/filecommander/screenshot-3.webp"
+      ],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -1386,7 +1430,8 @@
           "label": "التثبيت من مستودع صورة النظام",
           "command": "opkg update && opkg install enigma2-plugin-extensions-filecommander"
         }
-      ]
+      ],
+      "githubStars": 32
     },
     {
       "id": "mediaportal",
@@ -1529,7 +1574,11 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/youtube/screenshot-1.webp",
+        "images/plugins/youtube/screenshot-2.webp",
+        "images/plugins/youtube/screenshot-3.webp"
+      ],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -1562,7 +1611,8 @@
           "label": "التثبيت من مستودع صورة النظام",
           "command": "opkg update && opkg install enigma2-plugin-extensions-youtube"
         }
-      ]
+      ],
+      "githubStars": 32
     },
     {
       "id": "weather-plugin",
@@ -1591,7 +1641,11 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/weather-plugin/screenshot-1.webp",
+        "images/plugins/weather-plugin/screenshot-2.webp",
+        "images/plugins/weather-plugin/screenshot-3.webp"
+      ],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -1620,7 +1674,8 @@
           "label": "التثبيت من مستودع صورة النظام",
           "command": "opkg update && opkg install enigma2-plugin-extensions-weatherplugin"
         }
-      ]
+      ],
+      "githubStars": 32
     },
     {
       "id": "openwebif",
@@ -1650,7 +1705,9 @@
       },
       "featured": true,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/openwebif/screenshot-1.webp"
+      ],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -1681,7 +1738,8 @@
           "label": "التثبيت من مستودع صورة النظام",
           "command": "opkg update && opkg install enigma2-plugin-extensions-openwebif"
         }
-      ]
+      ],
+      "githubStars": 217
     },
     {
       "id": "skin-selector",
@@ -1820,7 +1878,16 @@
       },
       "featured": false,
       "thumbnail": "",
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/xtreamnew/screenshot-1.webp",
+        "images/plugins/xtreamnew/screenshot-2.webp",
+        "images/plugins/xtreamnew/screenshot-3.webp",
+        "images/plugins/xtreamnew/screenshot-4.webp",
+        "images/plugins/xtreamnew/screenshot-5.webp",
+        "images/plugins/xtreamnew/screenshot-6.webp",
+        "images/plugins/xtreamnew/screenshot-7.webp",
+        "images/plugins/xtreamnew/screenshot-8.webp"
+      ],
       "downloadUrl": "",
       "tutorialUrl": "",
       "changelog": [],
@@ -1850,7 +1917,8 @@
       ],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "githubStars": 1
     },
     {
       "id": "ajpanel-menu1",
@@ -1872,7 +1940,9 @@
       "featured": false,
       "latest": false,
       "downloadsCount": 0,
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/ajpanel-menu1/screenshot-1.webp"
+      ],
       "changelog": [],
       "tags": [
         "ajpanel_menu1",
@@ -2336,7 +2406,16 @@
       "featured": false,
       "latest": false,
       "downloadsCount": 0,
-      "screenshots": [],
+      "screenshots": [
+        "images/plugins/tmbd/screenshot-1.webp",
+        "images/plugins/tmbd/screenshot-2.webp",
+        "images/plugins/tmbd/screenshot-3.webp",
+        "images/plugins/tmbd/screenshot-4.webp",
+        "images/plugins/tmbd/screenshot-5.webp",
+        "images/plugins/tmbd/screenshot-6.webp",
+        "images/plugins/tmbd/screenshot-7.webp",
+        "images/plugins/tmbd/screenshot-8.webp"
+      ],
       "changelog": [],
       "tags": [
         "TMBD",
@@ -2696,9 +2775,9 @@
       "version": "غير محدد",
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
-      "icon": "",
-      "thumbnail": "",
-      "logoFound": false,
+      "icon": "images/plugins/ssupport/icon.webp",
+      "thumbnail": "images/plugins/ssupport/thumbnail.webp",
+      "logoFound": true,
       "githubUrl": "https://github.com/popking159/ssupport",
       "downloadUrl": "",
       "downloads": {
@@ -2928,9 +3007,9 @@
       "version": "غير محدد",
       "installationMethod": "من جهاز Enigma2 عبر Telnet/SSH. راجع المصدر وتوافق الصورة قبل التنفيذ؛ الأوامر تنفذ سكريبتات خارجية.",
       "requirements": "اتصال إنترنت، صلاحية root عبر Telnet/SSH، وصورة Enigma2 متوافقة. راجع تعليمات المصدر قبل التثبيت.",
-      "icon": "",
-      "thumbnail": "",
-      "logoFound": false,
+      "icon": "images/plugins/ipaudio/icon.webp",
+      "thumbnail": "images/plugins/ipaudio/thumbnail.webp",
+      "logoFound": true,
       "githubUrl": "https://github.com/emilnabil/ipaudiopro",
       "downloadUrl": "",
       "downloads": {
