@@ -1,6 +1,13 @@
 #!/bin/sh
 # Online4Tech Installer. Plugin records are read from the live library JSON.
 set -eu
+
+# Require a real controlling terminal before downloading or showing menus.
+if ! ( : </dev/tty ) 2>/dev/null; then
+  printf '%s\n' "Interactive terminal required"
+  exit 1
+fi
+
 JSON_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/data/enigma2-plugins.json"
 TMP_JSON="/tmp/online4tech-plugins-$$.json"
 trap 'rm -f "$TMP_JSON"' EXIT HUP INT TERM
@@ -34,30 +41,31 @@ except NameError:
     input_fn = input
     string_types = (str,)
 
-# The installer itself is commonly piped into sh, so stdin is already
-# consumed by the shell. Read menu input from the controlling terminal.
-try:
-    TTY = open("/dev/tty", "r+")
-except Exception:
-    TTY = None
-
+# Menu input must come from /dev/tty, never stdin (which may be the wget/curl pipe).
+# Use POSIX shell read -r so spaces and backslashes are preserved.
 def ask(prompt):
+    env = os.environ.copy()
+    env["O4T_PROMPT"] = prompt
+    command = 'printf "%s" "$O4T_PROMPT" >&2; IFS= read -r O4T_REPLY < /dev/tty || exit 1; printf "%s" "$O4T_REPLY"'
     try:
-        if TTY is not None:
-            TTY.write(prompt)
-            TTY.flush()
-            answer = TTY.readline()
-            if answer == "":
-                return "0"
-            return answer.strip()
-        return input_fn(prompt).strip()
-    except (EOFError, KeyboardInterrupt):
-        return "0"
+        proc = subprocess.Popen(["/bin/sh", "-c", command],
+                                stdin=open(os.devnull, "r"),
+                                stdout=subprocess.PIPE, env=env)
+        answer = proc.communicate()[0]
+        if proc.returncode != 0:
+            print("\\nInteractive terminal required")
+            sys.exit(1)
+        if not isinstance(answer, str):
+            answer = answer.decode("utf-8", "replace")
+        return answer.rstrip("\\r\\n")
+    except (OSError, KeyboardInterrupt):
+        print("\\nInteractive terminal required")
+        sys.exit(1)
 
 def clear():
     os.system("clear")
 
-def pause(msg="اضغط Enter للمتابعة..."):
+def pause(msg="Press ENTER to continue..."):
     ask(msg)
 
 def read_source():
