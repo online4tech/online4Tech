@@ -258,7 +258,7 @@
       "latest": false,
       "downloadsCount": 0,
       "installationMethod": "ملفات Picons تختلف حسب القمر والقنوات وصورة النظام؛ لا يوجد ملف تثبيت واحد مناسب لكل الأجهزة.",
-      "requirements": "لا يوجد حاليًا رابط تثبيت موثوق تم التحقق منه لهذا الإدخال.",
+      "requirements": "اختار حزمة Picons المناسبة من صفحة الإصدارات الرسمية؛ الحزم بتختلف حسب طريقة تسمية الشعارات وحجمها وخلفيتها، فراجع اسم الحزمة وتوافقها قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/picons/picons",
       "relatedPlugins": [
@@ -268,7 +268,9 @@
       "icon": "",
       "logoFound": false,
       "officialWebsite": "",
-      "telnetCommands": []
+      "telnetCommands": [],
+      "githubStars": 304,
+      "directDownloadUrl": "https://drive.google.com/uc?export=download&id=1Cmfa7r5P01db2YP3qvD3V8LVjv9j16Hi"
     },
     {
       "id": "ipaudio-pro",
