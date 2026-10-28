@@ -1,5 +1,18 @@
 /* Online4Tech shared header — one consistent header across all pages */
 (function () {
+  // Google Analytics 4 — Online4Tech
+  // Load once on pages that include the shared site header.
+  if (!window.__online4techAnalyticsLoaded) {
+    window.__online4techAnalyticsLoaded = true;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-9V2YEWWDZ2');
+    const analyticsScript = document.createElement('script');
+    analyticsScript.async = true;
+    analyticsScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-9V2YEWWDZ2';
+    document.head.appendChild(analyticsScript);
+  }
   const path = window.location.pathname;
   const parts = path.split('/').filter(Boolean);
   if (parts[0] && parts[0].toLowerCase() === 'online4tech') parts.shift();
