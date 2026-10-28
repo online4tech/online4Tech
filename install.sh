@@ -27,8 +27,13 @@ try:
 except ImportError:
     from urlparse import urlparse
 
+try:
+    input_fn = raw_input
+except NameError:
+    input_fn = input
+
 def ask(prompt):
-    try: return input(prompt).strip()
+    try: return input_fn(prompt).strip()
     except (EOFError, KeyboardInterrupt): return "0"
 
 def clear():
