@@ -3777,14 +3777,6 @@
   },
   {
     "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت Xtreamity لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xtreamity/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
     "description": "تحميل وتثبيت XtreamNew لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xtreamnew/index.html",
     "category": "معلومات",
@@ -4155,6 +4147,14 @@
     "title": "البيانات التي يقدمها الزائر",
     "description": "سياسة الخصوصية لموقع Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/privacy.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت Xtreamity لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xtreamity/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
