@@ -22,3 +22,20 @@ body{background:var(--ic-bg);color:var(--ic-text)}
 .ic-dialog{background:#fff;color:#15283a;border-color:var(--ic-line)}.ic-toast{background:#fff;color:#15283a;border-color:var(--ic-line)}
 .ic-footer{color:var(--ic-muted)}.ic-footer a{color:#087da6}
 }
+
+
+/* Force Installer Center to use the same dark theme across all system color preferences. */
+:root{color-scheme:dark;--ic-bg:#07111f;--ic-panel:#0d1a2c;--ic-line:#29445f;--ic-text:#f4f8ff;--ic-muted:#a8bad0;--ic-blue:#67d2ff;--ic-gold:#f2c879}
+body{background:radial-gradient(ellipse at 80% -10%,#153a5b 0,transparent 42%),radial-gradient(ellipse at 0 35%,#102443 0,transparent 36%),#07111f!important;color:#f4f8ff!important}
+.ic-hero,.ic-steps article,.ic-category,.ic-plugin,.ic-why-grid article{background:linear-gradient(145deg,#12243a,#0b1727)!important;color:#f4f8ff!important;border-color:#29445f}
+.ic-eyebrow{background:#10253c!important;border-color:#31516f!important;color:#67d2ff!important}
+.ic-hero h1 span,.ic-section-title>span{color:#67d2ff!important}
+.ic-command code,.ic-terminal{background:#050d17!important;color:#a8e6cf!important;border-color:#294761!important}
+.ic-primary{background:linear-gradient(135deg,#67d2ff,#478bff)!important;color:#061321!important;border-color:#49c9e2!important}
+.ic-steps b{background:#143b57!important;color:#67d2ff!important}
+.ic-count{border-color:#31516f!important;color:#67d2ff!important}
+.ic-actions a,.ic-actions button,.ic-close{background:#10253c!important;color:#f4f8ff!important;border-color:#31516f!important}
+.ic-actions .ic-copy{color:#67d2ff!important}
+.ic-safety{background:#201c14!important;border-color:#6c5730!important}.ic-safety strong{color:#f2c879!important}.ic-safety p{color:#d6c6a5!important}
+.ic-dialog{background:#0b1a2d!important;color:#f4f8ff!important;border-color:#31516f!important}.ic-toast{background:#10253c!important;color:#f4f8ff!important;border-color:#31516f!important}
+.ic-footer{color:#a8bad0!important}.ic-footer a{color:#67d2ff!important}
