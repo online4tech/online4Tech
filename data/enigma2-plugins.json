@@ -4,11 +4,12 @@
   "categories": [
     "IPTV",
     "Audio",
-    "Skins",
-    "Panels",
     "Tools",
+    "Skins",
     "Translation",
-    "Other"
+    "Panels",
+    "Other",
+    "Picons"
   ],
   "supportedImages": [
     "OpenATV",
@@ -970,7 +971,7 @@
       "slug": "setpicon",
       "name": "SetPicon",
       "description": "أداة متخصصة لإدارة البيكونات وتحديد مسارها وتثبيتها تلقائياً.",
-      "category": "Other",
+      "category": "Picons",
       "developer": "emilnabil",
       "compatibility": {
         "platform": "Enigma2",
@@ -980,11 +981,11 @@
       "installCommand": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/setpicon",
       "tags": [
-        "Other",
+        "Picons",
         "SetPicon",
         "emilnabil"
       ],
-      "icon": "⚙️",
+      "icon": "🖼️",
       "features": [
         "إدارة ملفات Picon",
         "تحديد مسار البيكونات",
