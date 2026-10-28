@@ -329,7 +329,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 
       <a class="family-card dreambox-card" href="../devices/dreambox.html">
         <div class="family-image">
-          <img class="dreambox-product-image" src="../assets/images/dreambox/dreambox-two.png" alt="Dreambox TWO Ultra HD" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/images/dreambox/dreambox-logo.png'">
+          <img class="dreambox-product-image" data-base="../assets/images/dreambox/dreambox-two" src="../assets/images/dreambox/dreambox-two.png" alt="Dreambox TWO Ultra HD" loading="lazy" decoding="async" onerror="handleDreamboxImageError(this)">
         </div>
         <div class="family-content">
           <span class="tag">Dreambox · Enigma2</span>
@@ -415,5 +415,24 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 </footer>
 
 <script src="../assets/site-header.js?v=5" defer></script>
+
+<script>
+function handleDreamboxImageError(img){
+  const base=img.dataset.base;
+  const step=img.dataset.fallbackStep||'png';
+  if(step==='png' && base && !base.endsWith('dreambox-logo')){
+    img.dataset.fallbackStep='jpg';
+    img.src=base+'.jpg';
+    return;
+  }
+  if(step!=='logo' && !base?.endsWith('dreambox-logo')){
+    img.dataset.fallbackStep='logo';
+    img.src='../assets/images/dreambox/dreambox-logo.png';
+    return;
+  }
+  img.onerror=null;
+  img.style.display='none';
+}
+</script>
 </body>
 </html>
