@@ -712,11 +712,11 @@
     "type": "Plugin"
   },
   {
-    "title": "AJPanel",
-    "description": "إدارة الملفات والقنوات والشبكة والنسخ الاحتياطي من واجهة واحدة.",
+    "title": "AjPanel",
+    "description": "لوحة أدوات لإدارة وظائف متعددة على جهاز Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=ajpanel",
     "category": "إضافات",
-    "brand": "Online4Tech",
+    "brand": "Enigma2",
     "type": "Plugin",
     "status": "10.8.6"
   },
@@ -729,6 +729,15 @@
     "type": "Plugin"
   },
   {
+    "title": "ajpanel_menu1",
+    "description": "سكريبت تثبيت قائمة AjPanel من مستودع المطوّر.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=ajpanel-menu1",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
     "title": "Alkuds Audio",
     "description": "إضافة صوتية لأجهزة Enigma2 مع معلومات التثبيت المتاحة في صفحة التفاصيل.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=alkuds-audio",
@@ -738,8 +747,8 @@
     "status": "غير محدد"
   },
   {
-    "title": "Arabic Savior",
-    "description": "أداة مساعدة عربية لأجهزة Enigma2. راجع صفحة التفاصيل قبل التثبيت.",
+    "title": "ArabicSavior",
+    "description": "أداة مساعدة عربية لـ Enigma2 من مستودع المطوّر.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=arabicsavior",
     "category": "إضافات",
     "brand": "Enigma2",
@@ -772,6 +781,15 @@
     "status": "متعدد"
   },
   {
+    "title": "Chromium",
+    "description": "تثبيت حزمة Chromium من مستودعات صورة النظام؛ التوافق يعتمد على الصورة والمعمارية.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=chromium",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
     "title": "Connection refused",
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
@@ -797,8 +815,44 @@
     "status": "متعدد"
   },
   {
+    "title": "e2iplayer",
+    "description": "مشغل وسائط وإضافات مضيفين؛ توجد طريقتان للتثبيت من المصادر المقدمة.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=e2iplayer",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
+    "title": "e2iplayer (Online Setup)",
+    "description": "طريقة تثبيت بديلة لـ e2iplayer عبر سكريبت الإعداد المقدم.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=e2iplayer-online-setup",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
+    "title": "Emil Panel Lite",
+    "description": "نسخة خفيفة من لوحة أدوات Emil لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=emil-panel-lite",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
+    "title": "EmilPanelPro",
+    "description": "لوحة أدوات إضافية لأجهزة Enigma2 من مستودع EmilNabil.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=emilpanelpro",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
     "title": "EnigmaPlay",
-    "description": "إضافة تشغيل وسائط على Enigma2؛ التفاصيل وخطوات الاستخدام في صفحة الإضافة.",
+    "description": "مشغل ومركز محتوى لإضافات Enigma2 حسب مستودع المطوّر.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=enigmaplay",
     "category": "إضافات",
     "brand": "Enigma2",
@@ -874,6 +928,15 @@
   },
   {
     "title": "IPAudio Pro",
+    "description": "إضافة أدوات صوتية لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=ipaudio",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
+    "title": "IPAudio Pro",
     "description": "أدوات صوت إضافية لأجهزة Enigma2؛ راجع صفحة الشرح للتفاصيل والتوافق.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=ipaudio-pro",
     "category": "إضافات",
@@ -893,6 +956,15 @@
     "title": "Jedi Maker Xtream",
     "description": "إدارة قوائم Xtream وتحويلها إلى قوائم IPTV مناسبة لبيئات Enigma2 المتوافقة.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=jedi-maker-xtream",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
+    "title": "JediMakerXtream",
+    "description": "إنشاء باقات IPTV من بيانات Xtream على أجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=jedimakerxtream",
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Plugin",
@@ -930,6 +1002,33 @@
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=mobile-telnet",
     "category": "إضافات",
     "brand": "Online4Tech",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
+    "title": "Multi-Stalker",
+    "description": "إضافة مرتبطة بخدمات Stalker على Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=multi-stalker",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
+    "title": "MultiIptvAdder",
+    "description": "إضافة للمساعدة في إضافة قوائم IPTV إلى Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=multiiptvadder",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
+    "title": "My-tsiplayer",
+    "description": "إضافة وسائط ومضيفين لـ Enigma2 من المستودع المقدم.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=my-tsiplayer",
+    "category": "إضافات",
+    "brand": "Enigma2",
     "type": "Plugin",
     "status": "غير محدد"
   },
@@ -1002,11 +1101,11 @@
     "type": "Plugin"
   },
   {
-    "title": "Raed Quick Signal",
-    "description": "أداة مساعدة لمتابعة الإشارة وضبط الاستقبال على أجهزة Enigma2.",
+    "title": "RaedQuickSignal",
+    "description": "أداة للوصول السريع إلى معلومات إشارة الاستقبال.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=raedquicksignal",
     "category": "إضافات",
-    "brand": "Enigma2",
+    "brand": "Online4Tech",
     "type": "Plugin",
     "status": "غير محدد"
   },
@@ -1025,6 +1124,15 @@
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
+  },
+  {
+    "title": "Satelliweb_e2",
+    "description": "أداة مرتبطة ببيانات الأقمار/القنوات على Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=satelliweb-e2",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin",
+    "status": "غير محدد"
   },
   {
     "title": "Scripts & Tools",
@@ -1052,6 +1160,33 @@
     "brand": "Online4Tech",
     "type": "Plugin",
     "status": "متعدد"
+  },
+  {
+    "title": "SmartAddonspanel (Emil)",
+    "description": "نسخة SmartAddonspanel من مستودع EmilNabil.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=smartaddonspanel-emil",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
+    "title": "SmartAddonspanel (HAN)",
+    "description": "نسخة SmartAddonspanel من مستودع HAN.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=smartaddonspanel-han",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
+    "title": "SubsSupport",
+    "description": "أداة لدعم الترجمة وملفاتها في Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=ssupport",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin",
+    "status": "غير محدد"
   },
   {
     "title": "SubsSupport Pro",
@@ -1104,6 +1239,15 @@
     "type": "Plugin"
   },
   {
+    "title": "TMBD",
+    "description": "إضافة مرتبطة ببيانات الأفلام والمعلومات الوصفية.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=tmbd",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
     "title": "TMDB",
     "description": "عرض بيانات وصفية للأفلام والمسلسلات من The Movie Database في البلجنز المتوافقة.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=tmdb",
@@ -1111,6 +1255,15 @@
     "brand": "Online4Tech",
     "type": "Plugin",
     "status": "متعدد"
+  },
+  {
+    "title": "Transmission",
+    "description": "أدوات عميل Transmission وإدارة التنزيلات؛ يحتاج حزمًا إضافية قبل تشغيل السكريبت.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=transmission",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin",
+    "status": "غير محدد"
   },
   {
     "title": "UltraAudio",
@@ -1147,9 +1300,36 @@
     "status": "متعدد"
   },
   {
+    "title": "Xstreamity",
+    "description": "إضافة IPTV لقوائم Xtream Codes؛ تحقق من توافق الصورة قبل التثبيت.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=xstreamity",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
+    "title": "xtraEvent",
+    "description": "إضافة لعرض أو معالجة بيانات الأحداث والبرامج بحسب مصدر المطوّر.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=xtraevent",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
     "title": "Xtream New",
     "description": "إضافة IPTV لأجهزة Enigma2؛ راجع صفحة التفاصيل للتعرّف على الوظائف ومصدر المشروع.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=xtreamnew",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin",
+    "status": "غير محدد"
+  },
+  {
+    "title": "Xtream2Audio",
+    "description": "إضافة مرتبطة بتجربة الصوت والمحتوى على Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=xtream2audio",
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Plugin",
