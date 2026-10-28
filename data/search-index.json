@@ -1006,39 +1006,12 @@
     "status": "غير محدد"
   },
   {
-    "title": "Kodi Lite",
-    "description": "حل خفيف للوصول إلى بعض وظائف الوسائط حيث يتوفر إصدار متوافق مع صورة الجهاز.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=kodi-lite",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin",
-    "status": "غير محدد"
-  },
-  {
     "title": "Login incorrect أو Permission denied",
     "description": "شرح استخدام تطبيق Mobile Telnet للاتصال بأجهزة Enigma2 من الموبايل وتنفيذ أوامر الصيانة الأساسية بأمان.",
     "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
-  },
-  {
-    "title": "MediaPortal",
-    "description": "بوابة محتوى وسائط لأجهزة Enigma2؛ يعتمد التوافق على الإصدار ومصادر المحتوى.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=mediaportal",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin",
-    "status": "غير محدد"
-  },
-  {
-    "title": "Mobile Telnet",
-    "description": "شرح وأدوات الاتصال وإدارة الرسيفر عن بُعد باستخدام Telnet من الهاتف.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=mobile-telnet",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin",
-    "status": "غير محدد"
   },
   {
     "title": "Multi-Stalker",
@@ -1190,15 +1163,6 @@
     "title": "SeriesPlugin",
     "description": "مساعدة في التعرف على المسلسلات وربطها بمعلومات الحلقات حسب المصدر والإعدادات.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=seriesplugin",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin",
-    "status": "متعدد"
-  },
-  {
-    "title": "SKIN Selector",
-    "description": "اختيار السكين وتبديله من بين الواجهات المثبتة والمتوافقة مع صورة الجهاز.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=skin-selector",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin",
