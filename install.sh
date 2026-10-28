@@ -56,7 +56,7 @@ def make_categories(data, plugins):
     extra=data.get("installerSections", {})
     if isinstance(extra,dict):
         for name, entries in extra.items():
-            if name in ("Picons","Updates") and isinstance(entries,list) and entries: present.add(name)
+            if name in ("Picons","Updates") and isinstance(entries,list): present.add(name)
     order=["IPTV","Audio","Tools","Skins","Translation","Panels","Other","Picons","Updates"]
     result=[x for x in order if x in present]
     result += sorted(x for x in present if x not in result)
