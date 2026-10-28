@@ -1625,7 +1625,7 @@
   },
   {
     "title": "مكتبة البلجن",
-    "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
+    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin-library/",
     "category": "إضافات",
     "brand": "Enigma2",
@@ -1657,7 +1657,7 @@
   },
   {
     "title": "← الرجوع لمكتبة البلجن",
-    "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
+    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin-library/",
     "category": "إضافات",
     "brand": "Enigma2",
@@ -2792,6 +2792,22 @@
     "type": "Tutorial"
   },
   {
+    "title": "AiSubtitles",
+    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aisubtitles/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "AiSubtitles | Online4Tech",
+    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aisubtitles/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "AJPanel",
     "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ajpanel/index.html",
@@ -2848,6 +2864,22 @@
     "type": "Page"
   },
   {
+    "title": "AutoSub AI",
+    "description": "تحميل وتثبيت AutoSub AI لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/autosub-ai/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "AutoSub AI | Online4Tech",
+    "description": "تحميل وتثبيت AutoSub AI لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/autosub-ai/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "BouquetMakerXtream",
     "description": "تحميل وتثبيت BouquetMakerXtream لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/bouquetmakerxtream/index.html",
@@ -2859,6 +2891,22 @@
     "title": "BouquetMakerXtream | Online4Tech",
     "description": "تحميل وتثبيت BouquetMakerXtream لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/bouquetmakerxtream/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "CineView FHD",
+    "description": "تحميل وتثبيت CineView FHD لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/cineview-fhd/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "CineView FHD | Online4Tech",
+    "description": "تحميل وتثبيت CineView FHD لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/cineview-fhd/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -2984,6 +3032,38 @@
     "type": "Page"
   },
   {
+    "title": "MyTranslator",
+    "description": "تحميل وتثبيت MyTranslator لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mytranslator/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "MyTranslator | Online4Tech",
+    "description": "تحميل وتثبيت MyTranslator لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mytranslator/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "Obsidian FHD",
+    "description": "تحميل وتثبيت Obsidian FHD لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/obsidian-fhd/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "Obsidian FHD | Online4Tech",
+    "description": "تحميل وتثبيت Obsidian FHD لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/obsidian-fhd/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "OE Alliance / OpenViX",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#catalogSection",
@@ -3035,6 +3115,38 @@
     "title": "OrangeAudio | Online4Tech",
     "description": "تحميل وتثبيت OrangeAudio لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/orangeaudio/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "SubExtractor Lite",
+    "description": "تحميل وتثبيت SubExtractor Lite لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/subextractor-lite/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "SubExtractor Lite | Online4Tech",
+    "description": "تحميل وتثبيت SubExtractor Lite لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/subextractor-lite/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "SubsSupportPro",
+    "description": "تحميل وتثبيت SubsSupportPro لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/subssupportpro/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "SubsSupportPro | Online4Tech",
+    "description": "تحميل وتثبيت SubsSupportPro لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/subssupportpro/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -3153,6 +3265,14 @@
   },
   {
     "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aisubtitles/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
     "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ajpanel/index.html",
     "category": "معلومات",
@@ -3177,6 +3297,14 @@
   },
   {
     "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت AutoSub AI لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/autosub-ai/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
     "description": "تحميل وتثبيت BackupFlash لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/backupflash/index.html",
     "category": "معلومات",
@@ -3187,6 +3315,14 @@
     "title": "أمر التثبيت",
     "description": "تحميل وتثبيت BouquetMakerXtream لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/bouquetmakerxtream/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت CineView FHD لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/cineview-fhd/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -3233,6 +3369,14 @@
   },
   {
     "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت Mohammed Skin لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mohammed-skin/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
     "description": "تحميل وتثبيت MyStreamer لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mystreamer/index.html",
     "category": "معلومات",
@@ -3241,8 +3385,40 @@
   },
   {
     "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت MyTranslator لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mytranslator/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت Obsidian FHD لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/obsidian-fhd/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
     "description": "تحميل وتثبيت OrangeAudio لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/orangeaudio/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت SubExtractor Lite لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/subextractor-lite/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أمر التثبيت",
+    "description": "تحميل وتثبيت SubsSupportPro لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/subssupportpro/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -3313,6 +3489,14 @@
   },
   {
     "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aisubtitles/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
     "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ajpanel/index.html#relatedSection",
     "category": "معلومات",
@@ -3337,6 +3521,14 @@
   },
   {
     "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت AutoSub AI لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/autosub-ai/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
     "description": "تحميل وتثبيت BackupFlash لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/backupflash/index.html#relatedSection",
     "category": "معلومات",
@@ -3347,6 +3539,14 @@
     "title": "إضافات مشابهة من نفس التصنيف",
     "description": "تحميل وتثبيت BouquetMakerXtream لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/bouquetmakerxtream/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت CineView FHD لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/cineview-fhd/index.html#relatedSection",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -3393,6 +3593,14 @@
   },
   {
     "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت Mohammed Skin لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mohammed-skin/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
     "description": "تحميل وتثبيت MyStreamer لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mystreamer/index.html#relatedSection",
     "category": "معلومات",
@@ -3401,8 +3609,40 @@
   },
   {
     "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت MyTranslator لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mytranslator/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت Obsidian FHD لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/obsidian-fhd/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
     "description": "تحميل وتثبيت OrangeAudio لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/orangeaudio/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت SubExtractor Lite لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/subextractor-lite/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تحميل وتثبيت SubsSupportPro لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/subssupportpro/index.html#relatedSection",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -3880,6 +4120,22 @@
     "type": "Tools"
   },
   {
+    "title": "Mohammed Skin",
+    "description": "تحميل وتثبيت Mohammed Skin لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mohammed-skin/index.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Tools"
+  },
+  {
+    "title": "Mohammed Skin | Online4Tech",
+    "description": "تحميل وتثبيت Mohammed Skin لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mohammed-skin/index.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Tools"
+  },
+  {
     "title": "Online4Tech | أجهزة الباك أب",
     "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
     "url": "https://online4tech.github.io/online4Tech/backups/index.html",
@@ -4217,7 +4473,7 @@
   },
   {
     "title": "كل الإضافات",
-    "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
+    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin-library/",
     "category": "ملفات",
     "brand": "Enigma2",
@@ -4233,7 +4489,7 @@
   },
   {
     "title": "مركز التحميل",
-    "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
+    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads.html",
     "category": "ملفات",
     "brand": "Enigma2",
