@@ -1416,6 +1416,14 @@
     "type": "Tutorial"
   },
   {
+    "title": "الأكثر استخداماً · Top Plugins",
+    "description": "Online4Tech Installer — ثبت إضافات Enigma2 بأمر واحد مع مكتبة منظمة وبحث سريع.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/installer-center/index.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
     "title": "البلجن",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
@@ -3064,6 +3072,14 @@
     "type": "Page"
   },
   {
+    "title": "Installer Center | Online4Tech",
+    "description": "Online4Tech Installer — ثبت إضافات Enigma2 بأمر واحد مع مكتبة منظمة وبحث سريع.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/installer-center/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "IPAudioPlus",
     "description": "تحميل وتثبيت IPAudioPlus لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ipaudioplus/index.html",
@@ -3243,6 +3259,14 @@
     "title": "Online4Tech",
     "description": "معرض الصور | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "Online4Tech Installer",
+    "description": "Online4Tech Installer — ثبت إضافات Enigma2 بأمر واحد مع مكتبة منظمة وبحث سريع.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/installer-center/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -3475,6 +3499,14 @@
     "title": "XtreamNew | Online4Tech",
     "description": "تحميل وتثبيت XtreamNew لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xtreamnew/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أقسام Installer",
+    "description": "Online4Tech Installer — ثبت إضافات Enigma2 بأمر واحد مع مكتبة منظمة وبحث سريع.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/installer-center/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -4192,6 +4224,14 @@
     "type": "Page"
   },
   {
+    "title": "القسم",
+    "description": "Online4Tech Installer — ثبت إضافات Enigma2 بأمر واحد مع مكتبة منظمة وبحث سريع.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/installer-center/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "المميزات الرئيسية",
     "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ajpanel/index.html",
@@ -4467,6 +4507,14 @@
     "title": "كل طرق التواصل",
     "description": "خدمات Online4Tech لأجهزة الاستقبال: اشتراكات الشيرنج وIPTV والصوتيات والترجمة والبرمجة وبيع وشراء واستبدال الأجهزة.",
     "url": "https://online4tech.github.io/online4Tech/",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "كيف يعمل؟",
+    "description": "Online4Tech Installer — ثبت إضافات Enigma2 بأمر واحد مع مكتبة منظمة وبحث سريع.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/installer-center/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -5201,7 +5249,7 @@
   },
   {
     "title": "مركز التحميل",
-    "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
+    "description": "Online4Tech Installer — ثبت إضافات Enigma2 بأمر واحد مع مكتبة منظمة وبحث سريع.",
     "url": "https://online4tech.github.io/online4Tech/downloads.html",
     "category": "ملفات",
     "brand": "Enigma2",
@@ -5233,7 +5281,7 @@
   },
   {
     "title": "مكتبة التحميل",
-    "description": "أكبر مكتبة عربية لإضافات وأوامر تثبيت Enigma2. ابحث وصنّف الإضافات وانسخ أوامر التثبيت من Online4Tech.",
+    "description": "Online4Tech Installer — ثبت إضافات Enigma2 بأمر واحد مع مكتبة منظمة وبحث سريع.",
     "url": "https://online4tech.github.io/online4Tech/library.html",
     "category": "ملفات",
     "brand": "Enigma2",
