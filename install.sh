@@ -69,49 +69,78 @@ def parse_safe(p):
     if not isinstance(cmd,string_types) or not cmd.strip(): return None,"لا يوجد أمر تثبيت مسجل."
     if any(ch in cmd for ch in (";","\n","\r","`","$","<",">")): return None,"الأمر يحتوي على رموز غير مسموح بها."
     parts=[x.strip() for x in cmd.split("&&")]
-    if len(parts)>2: return None,"صيغة الأمر غير مدعومة."
-    first=parts[0]
-    if "|" in first:
-        pair=[x.strip() for x in first.split("|")]
-        if len(pair)!=2 or pair[1] not in ("sh","/bin/sh"): return None,"صيغة pipeline غير مسموح بها."
-        try: argv=shlex.split(pair[0])
-        except Exception: return None,"تعذر تحليل أمر التنزيل."
-        if not argv or os.path.basename(argv[0]) not in ("wget","curl"): return None,"أداة التنزيل غير مسموح بها."
-        kind="pipe"
-    else:
-        try: argv=shlex.split(first)
-        except Exception: return None,"تعذر تحليل أمر التنزيل."
-        if not argv or os.path.basename(argv[0]) not in ("wget","curl"): return None,"أداة التنزيل غير مسموح بها."
-        kind="download"
-    urls=[x for x in argv if x.startswith(("https://","http://"))]
-    if len(urls)!=1: return None,"لا يوجد رابط تنزيل وحيد واضح."
-    host=(urlparse(urls[0]).hostname or "").lower()
+    if len(parts)>3 or any(not x for x in parts): return None,"صيغة الأمر غير مدعومة."
+    parsed=[]
     source_host=(urlparse(p.get("sourceUrl","")).hostname or "").lower()
-    allowed={"raw.githubusercontent.com","github.com","github.io","codeload.github.com"}
+    allowed={"raw.githubusercontent.com","github.com","github.io","codeload.github.com","gitlab.com"}
     if source_host: allowed.add(source_host)
-    if host not in allowed: return None,"رابط التنزيل ليس ضمن نطاقات المصدر المسموح بها."
-    if urlparse(urls[0]).scheme!="https" and host!="dreambox4u.com": return None,"تم رفض رابط غير مشفر."
-    second=None
-    if len(parts)==2:
-        try: second=shlex.split(parts[1])
-        except Exception: return None,"تعذر تحليل الخطوة الثانية."
-        if len(second)!=3 or second[0]!="dpkg" or second[1]!="-i" or not second[2].startswith("/tmp/"):
-            return None,"الخطوة الثانية غير مسموح بها."
-        if kind!="download" or "-O" not in argv or argv[argv.index("-O")+1]!=second[2]:
-            return None,"مسار الملف غير متطابق."
-    return (kind,argv,second),None
+    downloaded_path=None
+    download_count=0
+    for part in parts:
+        if "|" in part:
+            pair=[x.strip() for x in part.split("|")]
+            if len(pair)!=2 or pair[1] not in ("sh","/bin/sh") or len(parts)!=1: return None,"صيغة pipeline غير مسموح بها."
+            try: argv=shlex.split(pair[0])
+            except Exception: return None,"تعذر تحليل أمر التنزيل."
+            if not argv or os.path.basename(argv[0]) not in ("wget","curl"): return None,"أداة التنزيل غير مسموح بها."
+            urls=[x for x in argv if x.startswith(("https://","http://"))]
+            if len(urls)!=1: return None,"لا يوجد رابط تنزيل وحيد واضح."
+            host=(urlparse(urls[0]).hostname or "").lower()
+            if host not in allowed: return None,"رابط التنزيل ليس ضمن نطاقات المصدر المسموح بها."
+            if urlparse(urls[0]).scheme!="https" and host!=source_host: return None,"تم رفض رابط HTTP غير موثّق المصدر."
+            parsed.append(("pipe",argv,urls[0])); download_count+=1
+            continue
+        try: argv=shlex.split(part)
+        except Exception: return None,"تعذر تحليل الأمر."
+        if not argv: return None,"أمر فارغ."
+        exe=os.path.basename(argv[0])
+        if exe in ("wget","curl"):
+            urls=[x for x in argv if x.startswith(("https://","http://"))]
+            if len(urls)!=1: return None,"لا يوجد رابط تنزيل وحيد واضح."
+            host=(urlparse(urls[0]).hostname or "").lower()
+            if host not in allowed: return None,"رابط التنزيل ليس ضمن نطاقات المصدر المسموح بها."
+            if urlparse(urls[0]).scheme!="https" and host!=source_host: return None,"تم رفض رابط HTTP غير موثّق المصدر."
+            if "-O" in argv:
+                oi=argv.index("-O")
+                if oi+1>=len(argv) or not argv[oi+1].startswith("/tmp/"): return None,"مسار التنزيل غير مسموح."
+                downloaded_path=argv[oi+1]
+            else:
+                for token in argv:
+                    if token.startswith("/tmp/"): downloaded_path=token
+            parsed.append(("argv",argv,urls[0])); download_count+=1
+        elif exe=="apt" and argv==["apt","update"]:
+            parsed.append(("argv",argv,None))
+        elif exe=="dpkg" and len(argv)==3 and argv[1]=="-i" and argv[2].startswith("/tmp/"):
+            if downloaded_path!=argv[2]: return None,"مسار الملف غير متطابق."
+            parsed.append(("argv",argv,None))
+        elif exe=="apt" and len(argv)==4 and argv[:3]==["apt","install","-y"] and argv[3].startswith("/tmp/"):
+            if downloaded_path!=argv[3]: return None,"مسار الملف غير متطابق."
+            parsed.append(("argv",argv,None))
+        elif exe=="opkg" and len(argv) in (3,4) and argv[1]=="install" and argv[-1].startswith("/tmp/") and all(x in ("opkg","install","--force-reinstall",argv[-1]) for x in argv):
+            if downloaded_path!=argv[-1]: return None,"مسار الملف غير متطابق."
+            parsed.append(("argv",argv,None))
+        elif exe in ("sh","bash") and len(argv)==2 and argv[1].startswith("/tmp/"):
+            if downloaded_path!=argv[1]: return None,"مسار السكريبت غير متطابق."
+            parsed.append(("argv",argv,None))
+        elif exe=="tar" and len(argv)==5 and argv[1]=="xzf" and argv[2].startswith("/tmp/") and argv[3]=="-C" and argv[4]=="/usr/lib/enigma2/python/Plugins/Extensions":
+            if downloaded_path!=argv[2]: return None,"مسار الأرشيف غير متطابق."
+            parsed.append(("argv",argv,None))
+        else:
+            return None,"الأمر يحتوي على صيغة غير مسموح بها؛ تم إيقافه بأمان."
+    if download_count!=1: return None,"يجب أن يحتوي الأمر على عملية تنزيل واحدة فقط."
+    return parsed,None
 
 def execute(parsed):
-    kind,argv,second=parsed
     try:
-        if kind=="pipe":
-            down=subprocess.Popen(argv,stdout=subprocess.PIPE)
-            runner=subprocess.Popen(["/bin/sh"],stdin=down.stdout)
-            down.stdout.close()
-            rc_run=runner.wait(); rc_down=down.wait()
-            return rc_run==0 and rc_down==0
-        if subprocess.call(argv)!=0: return False
-        if second and subprocess.call(second)!=0: return False
+        for kind,argv,url in parsed:
+            if kind=="pipe":
+                down=subprocess.Popen(argv,stdout=subprocess.PIPE)
+                runner=subprocess.Popen(["/bin/sh"],stdin=down.stdout)
+                down.stdout.close()
+                rc_run=runner.wait(); rc_down=down.wait()
+                if rc_run!=0 or rc_down!=0: return False
+            else:
+                if subprocess.call(argv)!=0: return False
         return True
     except OSError as e:
         print("تعذر تشغيل أمر التثبيت: "+str(e)); return False
@@ -149,6 +178,8 @@ def show_confirmation(p):
     parsed,error=parse_safe(p)
     if error:
         print("\n[تم الإيقاف بأمان] "+error); pause(); return
+    if any(url and url.startswith("http://") for kind,argv,url in parsed):
+        print("\nتحذير: مصدر هذا الأمر يستخدم HTTP غير مشفر؛ تأكد من أنك تثق بالمصدر.")
     answer=ask("\nInstall ? [Y/N] ").lower()
     if answer not in ("y","yes"): return
     print("\nبدء التثبيت... انتظر حتى ينتهي الأمر.")
