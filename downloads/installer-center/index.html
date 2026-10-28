@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07111f">
+<meta name="description" content="Online4Tech Installer — ثبت إضافات Enigma2 بأمر واحد مع مكتبة منظمة وبحث سريع.">
+<link rel="canonical" href="https://online4tech.github.io/online4Tech/downloads/installer-center/">
+<title>Installer Center | Online4Tech</title>
+<link rel="stylesheet" href="../../assets/site-header.css?v=5"><link rel="stylesheet" href="../../css/installer-center.css?v=1">
+<script defer src="../../assets/site-header.js?v=5"></script><script defer src="../../js/installer-center.js?v=1"></script>
+</head>
+<body><header></header>
+<main class="ic-wrap">
+<section class="ic-hero"><span class="ic-eyebrow">ONLINE4TECH · ENIGMA2</span><h1>Online4Tech <span>Installer</span></h1><p>ثبت أشهر إضافات Enigma2 بأمر واحد فقط.</p>
+<div class="ic-command"><code id="installerCommand">wget -O - https://online4tech.github.io/online4Tech/install.sh | sh</code><button type="button" id="copyInstallerCommand" class="ic-primary">نسخ أمر التثبيت</button></div>
+<p class="ic-note">افتح Telnet أو SSH على جهازك وسجّل الدخول بصلاحية root قبل تشغيل الأمر.</p></section>
+<section class="ic-how"><div class="ic-section-title"><span>سهل وبسيط</span><h2>كيف يعمل؟</h2></div><div class="ic-steps"><article><b>1</b><strong>افتح التلنت</strong></article><article><b>2</b><strong>الصق الأمر</strong></article><article><b>3</b><strong>اختر القسم</strong></article><article><b>4</b><strong>اختر البلجن</strong></article><article><b>5</b><strong>يبدأ التثبيت</strong></article></div></section>
+<section class="ic-library"><div class="ic-section-title"><span>من مصدر المكتبة الحالي</span><h2>أقسام Installer</h2><p>الأقسام وعدد الإضافات بتتحدّث تلقائيًا من ملف بيانات مكتبة البلجنات.</p></div><div id="installerStatus" class="ic-status">جاري تحميل بيانات المكتبة…</div><div id="installerCategories" class="ic-category-grid" aria-live="polite"></div></section>
+<section class="ic-top"><div class="ic-section-title"><span>اختيارات سريعة</span><h2>الأكثر استخداماً · Top Plugins</h2><p>قائمة مختارة من الإضافات المتاحة في المكتبة، ومتصلة بنفس مصدر البيانات.</p></div><div id="installerTopPlugins" class="ic-top-grid"></div></section>
+<div class="ic-safety"><strong>تنبيه أمان</strong><p>راجع مصدر الإضافة وتوافقها مع صورة جهازك قبل التثبيت. أوامر التثبيت قد تشغّل ملفات خارجية بصلاحيات root. الـ Installer يتحقق من صيغة الأمر ومصدر التحميل قبل تنفيذه.</p></div>
+</main>
+<div id="icModal" class="ic-modal" aria-hidden="true"><div class="ic-backdrop" data-close-modal></div><section class="ic-dialog" role="dialog" aria-modal="true" aria-labelledby="icModalTitle"><button class="ic-close" type="button" aria-label="إغلاق" data-close-modal>×</button><h2 id="icModalTitle">القسم</h2><p id="icModalDescription"></p><div id="icModalPlugins" class="ic-modal-plugins"></div></section></div>
+<div id="icToast" class="ic-toast" role="status" aria-live="polite"></div>
+<footer><div class="ic-footer"><span>© Online4Tech — التقنية أسهل</span><a href="../../downloads.html">مركز التحميل</a><a href="../../library.html">مكتبة التحميل</a></div></footer>
+</body></html>
