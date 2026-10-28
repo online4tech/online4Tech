@@ -472,7 +472,8 @@
       "icon": "images/plugins/arabicsavior/icon.webp",
       "logoFound": true,
       "officialWebsite": "",
-      "githubStars": 3
+      "githubStars": 3,
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "enigmaplay",
@@ -534,7 +535,8 @@
       ],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "footonsat",
@@ -722,7 +724,8 @@
       "icon": "",
       "githubStars": 4,
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "timeshift-delay",
@@ -1895,7 +1898,8 @@
           "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "emilpanelpro",
@@ -1947,7 +1951,8 @@
           "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/EmilPanelPro/emilpanelpro.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "chromium",
@@ -1996,7 +2001,8 @@
           "label": "Quick Install",
           "command": "opkg install enigma2-plugin-extensions-chromium"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "multiiptvadder",
@@ -2048,7 +2054,8 @@
           "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiIptvAdder/installer.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "xtream2audio",
@@ -2100,7 +2107,8 @@
           "command": "wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Xtream2Audio/Xtream2Audio.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "e2iplayer",
@@ -2155,7 +2163,8 @@
           "label": "e2iplayer Online Setup",
           "command": "curl -LJso- https://mohamed_os.gitlab.io/e2iplayer/online-setup | bash"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "transmission",
@@ -2204,7 +2213,8 @@
           "label": "تثبيت الحزم والبلجن",
           "command": "opkg install transmission transmission-client python3-transmission-rpc xz python3-beautifulsoup4 && wget -q --no-check-certificate http://dreambox4u.com/dreamarabia/Transmission_e2/Transmission_e2.sh -O - | bash"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "satelliweb-e2",
@@ -2253,7 +2263,8 @@
           "label": "Quick Install",
           "command": "wget -q --no-check-certificate http://dreambox4u.com/dreamarabia/Satelliweb_e2/install_satelliweb.sh -O - | bash"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "tmbd",
@@ -2307,7 +2318,8 @@
           "command": "wget https://raw.githubusercontent.com/biko-73/TMBD/main/installer.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "emil-panel-lite",
@@ -2356,7 +2368,8 @@
           "label": "Quick Install",
           "command": "wget -q \"--no-check-certificate\" https://dreambox4u.com/emilnabil237/plugins/ajpanel/new/emil-panel-lite.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "smartaddonspanel-han",
@@ -2407,7 +2420,8 @@
           "label": "Quick Install",
           "command": "wget -q \"--no-check-certificate\" https://raw.githubusercontent.com/Ham-ahmed/Secript-Panel/main/1New-Ajpanel-Panel-v5.0_HAN.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "smartaddonspanel-emil",
@@ -2459,7 +2473,8 @@
           "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/SmartAddonspanel/smart-Panel.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "my-tsiplayer",
@@ -2510,7 +2525,8 @@
           "label": "Quick Install",
           "command": "wget -q \"--no-check-certificate\" https://github.com/angelheart150/My-tsiplayer/raw/main/install-tsiplayer-update-hosts.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "e2iplayer-online-setup",
@@ -2561,7 +2577,8 @@
           "label": "Quick Install",
           "command": "curl -LJso- https://mohamed_os.gitlab.io/e2iplayer/online-setup | bash"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "ssupport",
@@ -2613,7 +2630,8 @@
           "command": "wget -q \"--no-check-certificate\" https://github.com/popking159/ssupport/raw/main/subssupport-install.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 1
+      "githubStars": 1,
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "xstreamity",
@@ -2665,7 +2683,8 @@
           "command": "wget https://raw.githubusercontent.com/biko-73/xstreamity/main/installer.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 13
+      "githubStars": 13,
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "jedimakerxtream",
@@ -2717,7 +2736,8 @@
           "command": "wget https://raw.githubusercontent.com/biko-73/JediMakerXtream/main/installer.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 7
+      "githubStars": 7,
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "multi-stalker",
@@ -2769,7 +2789,8 @@
           "command": "wget https://raw.githubusercontent.com/biko-73/Multi-Stalker/main/pro/installer.sh -O - | /bin/sh"
         }
       ],
-      "githubStars": 3
+      "githubStars": 3,
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "ipaudio",
@@ -2820,7 +2841,8 @@
           "label": "Quick Install",
           "command": "wget https://raw.githubusercontent.com/emilnabil/ipaudiopro/refs/heads/main/ipaudiopro.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28"
     },
     {
       "id": "xtraevent",
@@ -2871,7 +2893,8 @@
           "label": "Quick Install",
           "command": "wget -q \"--no-check-certificate\" https://github.com/digiteng/xtra/raw/main/xtraEvent.sh -O - | /bin/sh"
         }
-      ]
+      ],
+      "catalogUpdatedAt": "2026-10-28"
     }
   ]
 }
