@@ -148,20 +148,21 @@ section{padding:22px 0}
 /* توحيد خلفيات صور كل كروت الأجهزة مع الثيم الدارك */
 .family-image{background:radial-gradient(ellipse at 50% 45%,#172a40 0,#0b1524 55%,#07111f 100%)!important}
 .family-image img{background:transparent!important;mix-blend-mode:normal;}
-/* تحسين صورة Dreambox فقط مع الحفاظ على أبعاد الكارت والثيم العام */
-.dreambox-card .family-image img.dreambox-product-image{
-  width:85%;
-  max-width:85%;
-  height:100%;
-  max-height:220px;
+/* Dreambox-only local image styling; leaves VU+ cards unchanged */
+.dreambox-card img,
+.dreambox-device-image{
+  width:100%;
+  max-width:100%;
+  height:220px;
   object-fit:contain;
-  mix-blend-mode:normal;
-  filter:brightness(1.35) contrast(1.2) saturate(1.1) drop-shadow(0 0 12px rgba(0,170,255,.35));
+  padding:12px;
   transition:all .3s ease;
+  filter:drop-shadow(0 0 12px rgba(0,170,255,.25));
 }
-.dreambox-card:hover .family-image img.dreambox-product-image{
-  filter:brightness(1.45) contrast(1.25) saturate(1.15) drop-shadow(0 0 22px rgba(0,170,255,.5));
+.dreambox-card:hover img,
+.dreambox-device-image:hover{
   transform:scale(1.03);
+  filter:drop-shadow(0 0 20px rgba(0,170,255,.45));
 }
 .dreambox-card .family-image{background:radial-gradient(ellipse at 50% 45%,#172a40 0,#0b1524 55%,#07111f 100%)!important}
 .family-content{padding:22px;display:flex;flex-direction:column;align-items:flex-start;flex:1}
@@ -328,7 +329,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 
       <a class="family-card dreambox-card" href="../devices/dreambox.html">
         <div class="family-image">
-          <img class="dreambox-product-image" src="https://gcdn.picsart.com/cloud-storage/485a6d49-c2a2-4e82-b962-e119866b95ad.png" alt="جهاز Dreambox Two UltraHD بخلفية شفافة" loading="lazy" decoding="async">
+          <img class="dreambox-product-image" src="../assets/images/dreambox/dreambox-two.png" alt="Dreambox TWO Ultra HD" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='../assets/images/dreambox/dreambox-logo.png'">
         </div>
         <div class="family-content">
           <span class="tag">Dreambox · Enigma2</span>
