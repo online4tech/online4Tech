@@ -64,3 +64,12 @@
 
 /* Quick install actions and icon fallback for catalog cards */
 .plugin-thumb.plugin-fallback{display:grid;place-items:center;font-size:2rem;color:#67d2ff;background:linear-gradient(145deg,#173653,#0b192b);border:1px solid #31516f;border-radius:14px}.copy-install-status{display:inline-flex;align-items:center;color:#8ce6c2;font-size:.75rem;min-height:24px}.copy-install-command{cursor:pointer}
+
+
+/* Scripts & Tools catalog cards */
+.script-tools-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:14px;margin:16px 0}
+.script-tool-card{min-width:0;padding:15px;border:1px solid var(--line,#dce3ed);border-radius:15px;background:var(--card,#fff)}
+.script-tool-card h3{font-size:1rem;margin:0 0 8px;overflow-wrap:anywhere}
+.script-tool-card p{font-size:.88rem;color:var(--muted,#667085);margin:0 0 10px}
+.script-tool-card .badge-row{margin:8px 0 12px}
+.scripts-tools-panel>p{margin:8px 0 14px}
