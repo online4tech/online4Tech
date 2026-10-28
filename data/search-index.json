@@ -3606,6 +3606,30 @@
     "type": "Backups"
   },
   {
+    "title": "الأجهزة الجديدة‹☆ أحدث الموديلات➜ توصيل سريع♢ ضمان رسمي",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/store/new-devices/",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Product"
+  },
+  {
+    "title": "الأجهزة المستعملة‹✓ مفحوصة ومجربة♢ ضمان ساري✓ حالة ممتازة",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/store/used-devices/",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Product"
+  },
+  {
+    "title": "الإكسسوارات‹⬡ أدوات التسجيل⌁ كابلات وملحقات⌘ ريموتات",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/store/accessories/",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Product"
+  },
+  {
     "title": "المتجر",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/store/index.html",
@@ -3782,27 +3806,11 @@
     "type": "Backups"
   },
   {
-    "title": "📡الأجهزة الجديدةأحدث الموديلات والأجهزة الجديدة‹",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html?quick=new",
-    "category": "منتجات",
-    "brand": "Dreambox",
-    "type": "Product"
-  },
-  {
     "title": "📦 الإكسسوارات",
     "description": "متجر Online4Tech لأجهزة Vu+ وDreambox وملحقات Enigma2. ابحث وقارن وتواصل للشراء.",
     "url": "https://online4tech.github.io/online4Tech/store/index.html",
     "category": "منتجات",
     "brand": "Online4Tech",
-    "type": "Product"
-  },
-  {
-    "title": "📺الأجهزة المستعملةأجهزة بحالة مميزة وأسعار مناسبة‹",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html?quick=used",
-    "category": "منتجات",
-    "brand": "Dreambox",
     "type": "Product"
   },
   {
@@ -3812,14 +3820,6 @@
     "category": "منتجات",
     "brand": "Dreambox",
     "type": "Backups"
-  },
-  {
-    "title": "🔌الإكسسواراتريموتات وكابلات وملحقات متنوعة‹",
-    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/store/index.html?quick=accessories",
-    "category": "منتجات",
-    "brand": "Dreambox",
-    "type": "Product"
   },
   {
     "title": "🔎 ابحث وصفّي النتائج",
