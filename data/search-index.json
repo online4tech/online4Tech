@@ -1904,14 +1904,6 @@
     "type": "Plugin"
   },
   {
-    "title": "🆕 أحدث الإضافات",
-    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#latestSection",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
     "title": "🌐 روابط الخدمة",
     "description": "تعريف بمتجر EnigmaPlay لأجهزة Enigma2، مميزاته وطريقة تثبيته وروابط استخدامه.",
     "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
@@ -2147,14 +2139,6 @@
     "title": "🔗 مصادر البحث",
     "description": "ArabicSavior | المنقذ لاستعادة اللغة العربية - Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugins/arabicsavior.html",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
-    "title": "🔥 الأكثر شعبية",
-    "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
-    "url": "https://online4tech.github.io/online4Tech/plugins/index.html#popularSection",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
