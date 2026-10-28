@@ -21,7 +21,7 @@
     {
       "slug": "ajpanel",
       "name": "AJPanel",
-      "description": "أدوات وإدارة Enigma2.",
+      "description": "لوحة أدوات متكاملة لإدارة جهاز Enigma2 وتوفير مجموعة من الوظائف والإعدادات الإضافية في مكان واحد.",
       "category": "Tools",
       "developer": "AMAJamry",
       "compatibility": {
@@ -43,7 +43,7 @@
     {
       "slug": "arabic-savior",
       "name": "Arabic Savior",
-      "description": "أداة عربية لأجهزة Enigma2.",
+      "description": "إضافة مخصصة لحل مشاكل اللغة العربية وتحسين عرض النصوص والقوائم والترجمات داخل إنجما2.",
       "category": "Tools",
       "developer": "popking159",
       "compatibility": {
@@ -63,7 +63,7 @@
     {
       "slug": "backupflash",
       "name": "BackupFlash",
-      "description": "أداة النسخ الاحتياطي للفلاش.",
+      "description": "أداة لإنشاء نسخة احتياطية كاملة من النظام الحالي واستعادتها بسهولة عند الحاجة.",
       "category": "Tools",
       "developer": "fairbird",
       "compatibility": {
@@ -83,7 +83,7 @@
     {
       "slug": "xtreamity",
       "name": "Xtreamity",
-      "description": "إضافة لمشاهدة قوائم IPTV على Enigma2.",
+      "description": "مشغل IPTV احترافي يدعم Xtream Codes مع تنظيم القنوات والأفلام والمسلسلات بواجهة سهلة وسريعة.",
       "category": "IPTV",
       "developer": "biko-73",
       "compatibility": {
@@ -105,7 +105,7 @@
     {
       "slug": "dreamxtream",
       "name": "DreamXtream",
-      "description": "إضافة IPTV؛ ملف DEB المذكور لمعمارية arm64.",
+      "description": "إضافة IPTV خفيفة مخصصة لصور DreamOS توفر تجربة مشاهدة مستقرة مع دعم قوائم Xtream.",
       "category": "IPTV",
       "developer": "dreambox4u",
       "compatibility": {
@@ -125,7 +125,7 @@
     {
       "slug": "mystreamer",
       "name": "MyStreamer",
-      "description": "إضافة بث وتشغيل وسائط.",
+      "description": "مشغل IPTV متطور يدعم القنوات المباشرة ومكتبات الفيديو مع واجهة عربية سهلة الاستخدام.",
       "category": "IPTV",
       "developer": "popking159",
       "compatibility": {
@@ -147,7 +147,7 @@
     {
       "slug": "xportal",
       "name": "XPortal",
-      "description": "إضافة IPTV.",
+      "description": "عميل IPTV متكامل يدعم Stalker وXtream وMac Portal للوصول إلى محتوى IPTV بسهولة.",
       "category": "IPTV",
       "developer": "azroukarim",
       "compatibility": {
@@ -167,7 +167,7 @@
     {
       "slug": "tivimate",
       "name": "TiViMate",
-      "description": "واجهة IPTV لأجهزة Enigma2.",
+      "description": "نسخة محسنة من تجربة TiviMate لأجهزة Enigma2 مع دعم القوائم الحديثة والتنقل السريع.",
       "category": "IPTV",
       "developer": "opesboy",
       "compatibility": {
@@ -187,7 +187,7 @@
     {
       "slug": "ultrastalker",
       "name": "UltraStalker",
-      "description": "إضافة تشغيل Stalker.",
+      "description": "إضافة متخصصة لدعم بوابات Stalker Portal مع أداء عالٍ واستقرار أثناء المشاهدة.",
       "category": "IPTV",
       "developer": "K3bOra",
       "compatibility": {
@@ -207,7 +207,7 @@
     {
       "slug": "xtreamnew",
       "name": "XtreamNew",
-      "description": "إضافة IPTV.",
+      "description": "إضافة IPTV حديثة تدعم أحدث أساليب تشغيل مكتبات Xtream Codes.",
       "category": "IPTV",
       "developer": "ahmedhussein4342-lgtm",
       "compatibility": {
@@ -227,7 +227,7 @@
     {
       "slug": "bouquetmakerxtream",
       "name": "BouquetMakerXtream",
-      "description": "أداة لإنشاء باقات IPTV.",
+      "description": "أداة لإنشاء وترتيب الباقات والقنوات تلقائياً من مزودي Xtream بطريقة احترافية.",
       "category": "IPTV",
       "developer": "biko-73",
       "compatibility": {
@@ -247,7 +247,7 @@
     {
       "slug": "e2player",
       "name": "E2Player",
-      "description": "مشغل وسائط لأجهزة Enigma2.",
+      "description": "واحدة من أشهر إضافات تشغيل المحتوى المرئي عبر الإنترنت لمشاهدة الأفلام والمسلسلات من مصادر متعددة.",
       "category": "IPTV",
       "developer": "oe-mirrors",
       "compatibility": {
@@ -267,7 +267,7 @@
     {
       "slug": "ipaudiopro",
       "name": "IPAudioPro",
-      "description": "إضافة وخدمات صوتية.",
+      "description": "إضافة لتحويل قنوات IPTV الصوتية إلى تجربة أكثر احترافية مع أدوات إدارة وتشغيل متقدمة.",
       "category": "Audio",
       "developer": "zKhadiri",
       "compatibility": {
@@ -287,7 +287,7 @@
     {
       "slug": "audioshift",
       "name": "AudioShift",
-      "description": "أداة مرتبطة بالصوت.",
+      "description": "أداة سريعة لتبديل المسارات الصوتية داخل القنوات والأفلام بسهولة.",
       "category": "Audio",
       "developer": "xfayez95",
       "compatibility": {
@@ -307,7 +307,7 @@
     {
       "slug": "ultraaudio",
       "name": "UltraAudio",
-      "description": "إضافة صوتية.",
+      "description": "حزمة متكاملة لتحسين وظائف الصوت وتوفير خيارات استماع إضافية داخل الجهاز.",
       "category": "Audio",
       "developer": "K3bOra",
       "compatibility": {
@@ -327,7 +327,7 @@
     {
       "slug": "orangeaudio",
       "name": "OrangeAudio",
-      "description": "إضافة صوتية.",
+      "description": "مشغل صوتي متطور يدعم البث الصوتي عبر الإنترنت ومحطات الراديو المختلفة.",
       "category": "Audio",
       "developer": "popking159",
       "compatibility": {
@@ -347,7 +347,7 @@
     {
       "slug": "ipaudioplus",
       "name": "IPAudioPlus",
-      "description": "إضافة صوتية.",
+      "description": "نسخة مطورة من خدمات الصوت عبر الإنترنت مع واجهة أكثر سهولة ودعماً لعدد أكبر من المصادر.",
       "category": "Audio",
       "developer": "Ahmadarjan1",
       "compatibility": {
@@ -367,7 +367,7 @@
     {
       "slug": "xtream2audio",
       "name": "Xtream2Audio",
-      "description": "أداة صوت مرتبطة بمصادر IPTV.",
+      "description": "تحويل وتحميل القنوات الصوتية من سيرفرات Xtream وتشغيلها بشكل مباشر.",
       "category": "Audio",
       "developer": "emilnabil",
       "compatibility": {
@@ -389,7 +389,7 @@
     {
       "slug": "metrix-poster",
       "name": "Metrix Poster",
-      "description": "مكونات واجهة ومظهر Metrix.",
+      "description": "إضافات ومكونات لواجهة MetrixHD تضيف بوسترات وأشكال عرض حديثة للقنوات والأفلام.",
       "category": "Skins",
       "developer": "hmeng80",
       "compatibility": {
@@ -409,7 +409,7 @@
     {
       "slug": "mohammed-skin",
       "name": "Mohammed Skin",
-      "description": "سمة واجهة لأجهزة Enigma2.",
+      "description": "سكين عربي حديث يتميز بتصميم أنيق وخفيف مع دعم أغلب إضافات Enigma2.",
       "category": "Skins",
       "developer": "mido00020",
       "compatibility": {
@@ -429,7 +429,7 @@
     {
       "slug": "obsidian-fhd",
       "name": "Obsidian FHD",
-      "description": "واجهة Obsidian بدقة FHD.",
+      "description": "سكين Full HD احترافي بواجهة عصرية ومعلومات موسعة عن القنوات والمحتوى.",
       "category": "Skins",
       "developer": "dali44g",
       "compatibility": {
@@ -449,7 +449,7 @@
     {
       "slug": "cineview-fhd",
       "name": "CineView FHD",
-      "description": "واجهة CineView FHD.",
+      "description": "واجهة سينمائية متقدمة تركز على عرض البوسترات ومعلومات الأفلام بصورة جذابة.",
       "category": "Skins",
       "developer": "habeb-s",
       "compatibility": {
@@ -469,7 +469,7 @@
     {
       "slug": "subssupportpro",
       "name": "SubsSupportPro",
-      "description": "إضافة مرتبطة بترجمة ودعم الترجمة.",
+      "description": "إضافة ترجمة شهيرة لتحميل وإدارة ملفات الترجمة للأفلام والمسلسلات مباشرة من الجهاز.",
       "category": "Translation",
       "developer": "popking159",
       "compatibility": {
@@ -491,7 +491,7 @@
     {
       "slug": "subextractor-lite",
       "name": "SubExtractor Lite",
-      "description": "أداة لاستخراج ملفات الترجمة.",
+      "description": "أداة لاستخراج الترجمات المدمجة من ملفات الفيديو وإنشاء ملفات ترجمة مستقلة.",
       "category": "Translation",
       "developer": "Arian7s",
       "compatibility": {
@@ -511,7 +511,7 @@
     {
       "slug": "mytranslator",
       "name": "MyTranslator",
-      "description": "إضافة ترجمة؛ التثبيت بصيغة IPK.",
+      "description": "مترجم متعدد اللغات لترجمة النصوص والقوائم داخل إضافات Enigma2.",
       "category": "Translation",
       "developer": "ismailelkhooly",
       "compatibility": {
@@ -531,7 +531,7 @@
     {
       "slug": "aisubtitles",
       "name": "AiSubtitles",
-      "description": "إضافة ترجمة بالذكاء الاصطناعي.",
+      "description": "إضافة تعتمد على تقنيات الذكاء الاصطناعي لإنشاء وترجمة الترجمات بشكل أسرع وأكثر دقة.",
       "category": "Translation",
       "developer": "hmeng80",
       "compatibility": {
@@ -551,7 +551,7 @@
     {
       "slug": "autosub-ai",
       "name": "AutoSub AI",
-      "description": "أداة ترجمة تلقائية؛ الأمر يفك الأرشيف داخل مجلد الإضافات.",
+      "description": "أداة ذكية لإنشاء ترجمات تلقائية للمحتوى المرئي باستخدام تقنيات التعرف على الصوت.",
       "category": "Translation",
       "developer": "HBK2010",
       "compatibility": {
@@ -571,7 +571,7 @@
     {
       "slug": "dreamarabia",
       "name": "DreamArabia",
-      "description": "لوحة أدوات لأجهزة Enigma2.",
+      "description": "لوحة عربية متكاملة تحتوي على مجموعة كبيرة من الإضافات والأدوات الخاصة بإنجما2.",
       "category": "Panels",
       "developer": "dreambox4u",
       "compatibility": {
@@ -591,7 +591,7 @@
     {
       "slug": "gp42",
       "name": "GP4.2",
-      "description": "مكونات GP 4.2؛ يعتمد الأمر على apt وDreamOS.",
+      "description": "حزمة Gemini الشهيرة التي تضيف العديد من الوظائف المتقدمة وأدوات الإدارة.",
       "category": "Panels",
       "developer": "Blue Panel",
       "compatibility": {
@@ -611,7 +611,7 @@
     {
       "slug": "mohamed-store",
       "name": "Mohamed Store",
-      "description": "لوحة إضافات.",
+      "description": "متجر إضافات عربي يتيح تثبيت وتحديث العديد من البلجنات من مكان واحد.",
       "category": "Panels",
       "developer": "wwwgoper77-wq",
       "compatibility": {
@@ -631,7 +631,7 @@
     {
       "slug": "enigma-play-store",
       "name": "Enigma Play Store",
-      "description": "متجر إضافات لأجهزة Enigma2.",
+      "description": "متجر تطبيقات حديث لتثبيت إضافات Enigma2 وإدارتها بسهولة.",
       "category": "Panels",
       "developer": "Ahmadarjan1",
       "compatibility": {
@@ -651,7 +651,7 @@
     {
       "slug": "magicpanelmax",
       "name": "MagicPanelMax",
-      "description": "لوحة أدوات وإضافات.",
+      "description": "لوحة متقدمة تجمع الأدوات والإضافات والخدمات الشائعة في واجهة موحدة.",
       "category": "Panels",
       "developer": "Ham-ahmed",
       "compatibility": {
@@ -671,7 +671,7 @@
     {
       "slug": "linuxsat-panel",
       "name": "LinuxSat Panel",
-      "description": "لوحة أدوات لأجهزة Enigma2.",
+      "description": "إحدى أشهر لوحات إدارة الإضافات والأدوات والتحديثات لأجهزة إنجما2.",
       "category": "Panels",
       "developer": "Belfagor2005",
       "compatibility": {
@@ -691,7 +691,7 @@
     {
       "slug": "aio-panel",
       "name": "AIO Panel",
-      "description": "لوحة متعددة الأدوات.",
+      "description": "لوحة شاملة تجمع عشرات الأدوات والإضافات والخدمات في مكان واحد.",
       "category": "Panels",
       "developer": "OliOli2013",
       "compatibility": {
@@ -711,7 +711,7 @@
     {
       "slug": "epgimport",
       "name": "EPGImport",
-      "description": "إضافة لاستيراد بيانات دليل البرامج EPG.",
+      "description": "أداة استيراد وتحديث بيانات دليل البرامج الإلكتروني EPG من مصادر متعددة.",
       "category": "Other",
       "developer": "Saiedf",
       "compatibility": {
@@ -731,7 +731,7 @@
     {
       "slug": "multicamadder",
       "name": "MultiCamAdder",
-      "description": "أداة إعداد وإضافة ملفات إعداد الكام.",
+      "description": "إضافة لإدارة وإضافة أنظمة SoftCam المختلفة وتسهيل التبديل بينها.",
       "category": "Other",
       "developer": "emilnabil",
       "compatibility": {
@@ -751,7 +751,7 @@
     {
       "slug": "setpicon",
       "name": "SetPicon",
-      "description": "أداة إعداد البيكونات.",
+      "description": "أداة متخصصة لإدارة البيكونات وتحديد مسارها وتثبيتها تلقائياً.",
       "category": "Other",
       "developer": "emilnabil",
       "compatibility": {
@@ -771,7 +771,7 @@
     {
       "slug": "raedquicksignal",
       "name": "RaedQuickSignal",
-      "description": "أداة عرض معلومات وجودة الإشارة.",
+      "description": "أداة سريعة لعرض مستوى الإشارة ومعلومات التردد أثناء المشاهدة.",
       "category": "Other",
       "developer": "fairbird",
       "compatibility": {
@@ -791,7 +791,7 @@
     {
       "slug": "server-eaglesat",
       "name": "Server EagleSat",
-      "description": "أداة خدمات سيرفر.",
+      "description": "خدمة وأدوات إضافية خاصة بمنصة EagleSat لتوسيع وظائف الجهاز.",
       "category": "Other",
       "developer": "eliesat",
       "compatibility": {
