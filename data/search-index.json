@@ -3481,272 +3481,8 @@
   },
   {
     "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aio-panel/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aisubtitles/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
     "description": "تحميل وتثبيت Arabic Savior لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/arabic-savior/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت AudioShift لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/audioshift/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت AutoSub AI لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/autosub-ai/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت BouquetMakerXtream لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/bouquetmakerxtream/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت CineView FHD لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/cineview-fhd/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت DreamArabia لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/dreamarabia/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت E2Player لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/e2player/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت Enigma Play Store لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/enigma-play-store/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت EPGImport لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/epgimport/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت GP4.2 لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/gp42/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت IPAudioPlus لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ipaudioplus/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت LinuxSat Panel لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/linuxsat-panel/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت MagicPanelMax لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/magicpanelmax/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت Metrix Poster لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/metrix-poster/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت Mohamed Store لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mohamed-store/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت Mohammed Skin لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mohammed-skin/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت MultiCamAdder لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/multicamadder/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت MyStreamer لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mystreamer/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت MyTranslator لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mytranslator/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت Obsidian FHD لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/obsidian-fhd/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت OrangeAudio لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/orangeaudio/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت RaedQuickSignal لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/raedquicksignal/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت Server EagleSat لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/server-eaglesat/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت SetPicon لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/setpicon/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت SubExtractor Lite لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/subextractor-lite/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت SubsSupportPro لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/subssupportpro/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت TiViMate لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/tivimate/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت UltraAudio لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ultraaudio/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت UltraStalker لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ultrastalker/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت XPortal لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xportal/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت Xtream2Audio لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xtream2audio/index.html",
-    "category": "معلومات",
-    "brand": "Online4Tech",
-    "type": "Page"
-  },
-  {
-    "title": "أمر التثبيت",
-    "description": "تحميل وتثبيت XtreamNew لأجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xtreamnew/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -4121,8 +3857,40 @@
   },
   {
     "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aio-panel/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت AiSubtitles لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aisubtitles/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
     "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ajpanel/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت AudioShift لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/audioshift/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت AutoSub AI لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/autosub-ai/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -4137,8 +3905,72 @@
   },
   {
     "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت BouquetMakerXtream لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/bouquetmakerxtream/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت CineView FHD لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/cineview-fhd/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت DreamArabia لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/dreamarabia/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
     "description": "تحميل وتثبيت DreamXtream لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/dreamxtream/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت E2Player لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/e2player/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت Enigma Play Store لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/enigma-play-store/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت EPGImport لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/epgimport/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت GP4.2 لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/gp42/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت IPAudioPlus لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ipaudioplus/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -4153,8 +3985,176 @@
   },
   {
     "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت LinuxSat Panel لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/linuxsat-panel/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت MagicPanelMax لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/magicpanelmax/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت Metrix Poster لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/metrix-poster/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت Mohamed Store لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mohamed-store/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت Mohammed Skin لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mohammed-skin/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت MultiCamAdder لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/multicamadder/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت MyStreamer لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mystreamer/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت MyTranslator لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/mytranslator/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت Obsidian FHD لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/obsidian-fhd/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت OrangeAudio لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/orangeaudio/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت RaedQuickSignal لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/raedquicksignal/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت Server EagleSat لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/server-eaglesat/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت SetPicon لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/setpicon/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت SubExtractor Lite لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/subextractor-lite/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت SubsSupportPro لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/subssupportpro/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت TiViMate لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/tivimate/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت UltraAudio لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ultraaudio/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت UltraStalker لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ultrastalker/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت XPortal لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xportal/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت Xtream2Audio لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xtream2audio/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
     "description": "تحميل وتثبيت Xtreamity لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xtreamity/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تحميل وتثبيت XtreamNew لأجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/xtreamnew/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
