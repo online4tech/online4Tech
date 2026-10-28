@@ -64,7 +64,7 @@
       '<div class="badge-row"><span class="pill">' + esc(item.cat || 'أدوات') + '</span><span class="pill">' + esc(item.name) + '</span></div>' +
       '<div class="card-actions">' + link(item.download, 'فتح الملف الخام ↗', 'btn-primary') + '</div></article>'
     ).join('');
-    return '<section class="detail-panel scripts-tools-panel"><h2>مكتبة السكريبتات والأدوات من GitHub</h2><p>تم استرجاع قائمة الملفات من مستودع GitHub المرتبط بالمكتبة. راجع محتوى كل ملف ومصدره وتوافقه قبل استخدامه.</p><div class="script-tools-grid">' + cards + '</div><p><a class="btn btn-secondary" href="https://github.com/KhaledAli65/Backup/tree/main/Backup_image" target="_blank" rel="noopener noreferrer">فتح مجلد المصدر كاملًا على GitHub ↗</a></p></section>';
+    return '<section class="detail-panel scripts-tools-panel"><h2>مكتبة السكريبتات والأدوات من GitHub</h2><p>تم استرجاع قائمة الملفات من مستودع GitHub المرتبط بالمكتبة. راجع محتوى كل ملف ومصدره وتوافقه قبل استخدامه.</p><div class="script-tools-grid">' + cards + '</div></section>';
   }
 
   function changelogItems(changelog) {
