@@ -8,3 +8,21 @@
 
 .pl-about-card{padding:18px 20px;margin:20px 0;border:1px solid var(--pl-line);border-radius:16px;background:linear-gradient(155deg,#11243a,#0b1727 82%)}.pl-about-card h2,.pl-features h2{font-size:1.2rem;margin:0 0 8px}.pl-about-card p{color:var(--pl-muted);margin:0}.pl-features{padding:18px 20px;margin:20px 0;border:1px solid var(--pl-line);border-radius:16px;background:#0d1b2c}.pl-features ul{list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;padding:0;margin:12px 0 0}.pl-features li{padding:10px 12px;border:1px solid var(--pl-line);border-radius:10px;color:#c7d8e9;background:#0a1929}.pl-features li::first-letter{color:var(--pl-mint)}@media(max-width:600px){.pl-features ul{grid-template-columns:1fr}}
 .pl-image-badges{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 10px}.pl-image-badges[hidden]{display:none}.pl-image-badges .pl-pill{font-size:.72rem;padding:3px 9px}.pl-detail-head>div{min-width:0}.pl-detail-head #detailDescription[hidden]{display:none}.pl-features{margin-top:16px;margin-bottom:20px}.pl-features[hidden],.pl-command-section[hidden],.pl-detail-meta[hidden]{display:none!important}
+
+/* Featured Installer card — reuses the Plugin Library's existing palette tokens. */
+.pl-installer-feature{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(280px,1fr);gap:22px;align-items:center;margin:4px 0 28px;padding:clamp(20px,3vw,30px);border:1px solid var(--pl-line);border-radius:20px;background:linear-gradient(135deg,var(--pl-panel2),var(--pl-panel));box-shadow:0 12px 32px #0002}
+.pl-installer-feature-copy{min-width:0}.pl-installer-kicker{display:inline-flex;align-items:center;padding:4px 11px;border:1px solid var(--pl-line);border-radius:999px;color:var(--pl-blue);font-size:.8rem;font-weight:800}
+.pl-installer-feature h2{margin:10px 0 5px;font-size:clamp(1.4rem,3vw,2rem);line-height:1.35}.pl-installer-feature p{margin:0;color:var(--pl-muted)}
+.pl-installer-command{display:block;min-width:0;direction:ltr;text-align:left;overflow-wrap:anywhere;padding:16px;border:1px solid var(--pl-line);border-radius:13px;background:var(--pl-bg);color:var(--pl-mint);font: .88rem/1.8 ui-monospace,SFMono-Regular,Consolas,monospace}
+.pl-installer-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.pl-installer-actions button,.pl-installer-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:9px 14px;border:1px solid var(--pl-line);border-radius:11px;font-weight:800;cursor:pointer;text-decoration:none;transition:transform .18s,border-color .18s,filter .18s}
+.pl-installer-copy{background:var(--pl-blue);color:var(--pl-bg);border-color:var(--pl-blue)!important}.pl-installer-open{background:var(--pl-panel);color:var(--pl-text)}
+.pl-installer-actions button:hover,.pl-installer-actions a:hover{transform:translateY(-2px);filter:brightness(1.06);border-color:var(--pl-blue)}
+.pl-installer-actions button:focus-visible,.pl-installer-actions a:focus-visible{outline:3px solid var(--pl-blue);outline-offset:3px}
+@media(max-width:760px){.pl-installer-feature{grid-template-columns:1fr}.pl-installer-command{font-size:.8rem}}
+@media(prefers-color-scheme:light){:root{color-scheme:light;--pl-bg:#f5f8fc;--pl-panel:#fff;--pl-panel2:#edf4fa;--pl-line:#cbd8e5;--pl-text:#15283a;--pl-muted:#53677b;--pl-blue:#087da6;--pl-mint:#087e62;--pl-gold:#946200}
+body{background:var(--pl-bg);color:var(--pl-text)}
+.pl-installer-feature{box-shadow:0 10px 28px #1d3a5512}
+.pl-installer-command{background:#eef3f7;color:#145b48}
+.pl-installer-copy{color:#fff;background:#087da6;border-color:#087da6!important}
+.pl-installer-open{background:#fff;color:var(--pl-text)}
+}
