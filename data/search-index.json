@@ -1648,6 +1648,14 @@
     "type": "Plugin"
   },
   {
+    "title": "مكتبة البلجن",
+    "description": "تفاصيل ومميزات وأمر تثبيت إضافات Enigma2 من مكتبة Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/plugin-library/",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
     "title": "مكتبة التحميل في Online4Tech",
     "description": "دليل Online4Tech: البلجنز والسكينات والشروحات لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/library.html",
@@ -3657,6 +3665,14 @@
   },
   {
     "title": "إضافات مشابهة من نفس التصنيف",
+    "description": "تفاصيل ومميزات وأمر تثبيت إضافات Enigma2 من مكتبة Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/index.html#relatedSection",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "إضافات مشابهة من نفس التصنيف",
     "description": "تحميل وتثبيت IPAudioPlus لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ipaudioplus/index.html#relatedSection",
     "category": "معلومات",
@@ -4009,6 +4025,14 @@
   },
   {
     "title": "التثبيت السريع وأمر التثبيت",
+    "description": "تفاصيل ومميزات وأمر تثبيت إضافات Enigma2 من مكتبة Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "التثبيت السريع وأمر التثبيت",
     "description": "تحميل وتثبيت IPAudioPlus لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ipaudioplus/index.html",
     "category": "معلومات",
@@ -4240,6 +4264,14 @@
     "type": "Page"
   },
   {
+    "title": "المصدر / GitHub ↗",
+    "description": "تفاصيل ومميزات وأمر تثبيت إضافات Enigma2 من مكتبة Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/index.html",
+    "category": "معلومات",
+    "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
     "title": "المميزات الرئيسية",
     "description": "تحميل وتثبيت AJPanel لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/ajpanel/index.html",
@@ -4291,6 +4323,14 @@
     "title": "المميزات الرئيسية",
     "description": "تحميل وتثبيت E2Player لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/e2player/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "المميزات الرئيسية",
+    "description": "تفاصيل ومميزات وأمر تثبيت إضافات Enigma2 من مكتبة Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -4413,6 +4453,22 @@
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html",
     "category": "معلومات",
     "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "تفاصيل إضافة Enigma2 | Online4Tech",
+    "description": "تفاصيل ومميزات وأمر تثبيت إضافات Enigma2 من مكتبة Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/index.html",
+    "category": "معلومات",
+    "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "تفاصيل الإضافة",
+    "description": "تفاصيل ومميزات وأمر تثبيت إضافات Enigma2 من مكتبة Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
@@ -4651,6 +4707,14 @@
     "title": "نبذة عن الإضافة",
     "description": "تحميل وتثبيت E2Player لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/e2player/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "نبذة عن الإضافة",
+    "description": "تفاصيل ومميزات وأمر تثبيت إضافات Enigma2 من مكتبة Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/downloads/plugin/index.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
