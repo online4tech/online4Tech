@@ -187,6 +187,7 @@
       const directPackage = /\.(?:ipk|deb)(?:$|\?)/i.test(String(plugin.downloadUrl || '')) ? githubOnly(plugin.downloadUrl) : '';
       const downloadUrl = directPackage || githubOnly(downloads.githubRelease);
       const githubUrl = githubOnly(plugin.githubUrl) || githubOnly(downloads.repository);
+      const directDownload = (() => { try { const u = new URL(String(plugin.directDownloadUrl || '')); return u.protocol === 'https:' ? u.href : ''; } catch (_) { return ''; } })();
       const screenshotItems = (Array.isArray(plugin.screenshots) ? plugin.screenshots : []).map(item => typeof item === 'string' ? item : item?.url).filter(hasValue).map(value => asset(value));
       const screenshotHtml = screenshotItems.map((src, index) => '<a class="screenshot screenshot-slide' + (index === 0 ? ' is-active' : '') + '" data-gallery-slide="' + index + '" href="' + esc(src) + '" data-lightbox="' + index + '" aria-label="فتح الصورة"><img loading="lazy" decoding="async" src="' + esc(src) + '"' + imageError() + ' alt="' + esc(plugin.name) + ' — صورة ' + (index + 1) + '"></a>').join('');
       const gallery = screenshotItems.length ? '<div class="screenshots screenshot-carousel" data-gallery>' + screenshotHtml + '<div class="gallery-controls"><button type="button" data-gallery-prev aria-label="الصورة السابقة">‹</button><span data-gallery-count>1 / ' + screenshotItems.length + '</span><button type="button" data-gallery-next aria-label="الصورة التالية">›</button></div></div>' : '';
@@ -200,7 +201,7 @@
       const compatibility = (devices ? '<h3>الأجهزة المدعومة</h3>' + devices : '') + (images ? '<h3>صور النظام المدعومة</h3>' + images : '');
       const requirements = hasValue(plugin.requirements) ? '<h3>المتطلبات</h3><p>' + esc(plugin.requirements) + '</p>' : '';
       const installation = hasValue(plugin.installationMethod) ? '<p>' + esc(plugin.installationMethod) + '</p>' : '';
-      const actionLinks = link(downloadUrl, 'تنزيل / المصدر ↗', 'btn-primary') + link(githubUrl, 'GitHub ↗') + (hasValue(plugin.tutorialUrl) ? link(plugin.tutorialUrl, '📺 شرح الإضافة') : '');
+      const actionLinks = link(directDownload, 'تحميل مباشر ⬇', 'btn-primary') + link(downloadUrl, 'تنزيل / المصدر ↗', directDownload ? 'btn-secondary' : 'btn-primary') + link(githubUrl, 'GitHub ↗') + (hasValue(plugin.tutorialUrl) ? link(plugin.tutorialUrl, '📺 شرح الإضافة') : '');
       const heroBadges = (hasValue(plugin.version) ? '<span class="pill">الإصدار ' + esc(plugin.version) + '</span>' : '') + (Number(plugin.rating) > 0 ? '<span class="pill">★ ' + Number(plugin.rating).toFixed(1) + '</span>' : '') + (plugin.featured ? '<span class="pill featured">⭐ مميزة</span>' : '') + (plugin.latest ? '<span class="pill fresh">🆕 جديد</span>' : '');
 
       const panels = [
