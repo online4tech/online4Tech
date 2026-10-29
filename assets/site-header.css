@@ -14,9 +14,6 @@ header.o4t-header.o4t-header-hidden {
 header.o4t-header.o4t-header-hidden * {
   pointer-events: none;
 }
-header.o4t-header.o4t-header-scroll-ready {
-  transition: none;
-}
 @media (max-width: 600px) {
   header.o4t-header {
     transition-duration: 170ms;
