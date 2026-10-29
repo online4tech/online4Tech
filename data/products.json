@@ -1,7 +1,7 @@
 {
   "store": "Online4Tech",
   "currency": "EGP",
-  "updatedAt": "2026-10-27",
+  "updatedAt": "2026-10-29",
   "products": [
     {
       "id": "vu-zero-4k",
@@ -286,7 +286,7 @@
     },
     {
       "id": "vu-remote-1",
-      "name": "ريموت VU+ — موديل 1",
+      "name": "VU+ Universal Remote",
       "slug": "vu-remote-1",
       "brand": "Vu+",
       "category": "Remote",
@@ -317,7 +317,7 @@
     },
     {
       "id": "vu-remote-2",
-      "name": "ريموت VU+ — موديل 2",
+      "name": "VU+ Modern Remote",
       "slug": "vu-remote-2",
       "brand": "Vu+",
       "category": "Remote",
@@ -348,7 +348,7 @@
     },
     {
       "id": "vu-remote-3",
-      "name": "ريموت VU+ — موديل 3",
+      "name": "VU+ Bluetooth Remote",
       "slug": "vu-remote-3",
       "brand": "Vu+",
       "category": "Remote",
@@ -446,6 +446,99 @@
       "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
       "createdAt": "auto-discovered",
       "autoDiscovered": true
+    },
+    {
+      "id": "dreambox-rc10-remote",
+      "name": "Dreambox RC10 Remote",
+      "slug": "dreambox-rc10-remote",
+      "brand": "Dreambox",
+      "category": "Remote",
+      "condition": "New",
+      "status": "Available",
+      "price": 0,
+      "oldPrice": 0,
+      "currency": "EGP",
+      "featured": false,
+      "bestSeller": false,
+      "description": "ريموت Dreambox RC10. تواصل معنا لتأكيد التوافق والسعر.",
+      "images": [
+        "../assets/images/products/dreambox-rc10-remote.png"
+      ],
+      "specifications": {
+        "Compatibility": "يرجى التواصل لتأكيد التوافق والتفاصيل"
+      },
+      "supportedImages": [],
+      "compatiblePlugins": [],
+      "compatibleBackups": [],
+      "stock": 0,
+      "rating": 0,
+      "salesCount": 0,
+      "whatsappLink": "https://wa.me/201092978131?text=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20Dreambox%20RC10%20Remote",
+      "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
+      "features": [],
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "dreambox-rc20-remote",
+      "name": "Dreambox RC 20 Remote",
+      "slug": "dreambox-rc20-remote",
+      "brand": "Dreambox",
+      "category": "Remote",
+      "condition": "New",
+      "status": "Available",
+      "price": 0,
+      "oldPrice": 0,
+      "currency": "EGP",
+      "featured": false,
+      "bestSeller": false,
+      "description": "ريموت Dreambox RC 20. تواصل معنا لتأكيد التوافق والسعر.",
+      "images": [
+        "../assets/images/products/dreambox-rc20-remote.png"
+      ],
+      "specifications": {
+        "Compatibility": "يرجى التواصل لتأكيد التوافق والتفاصيل"
+      },
+      "supportedImages": [],
+      "compatiblePlugins": [],
+      "compatibleBackups": [],
+      "stock": 0,
+      "rating": 0,
+      "salesCount": 0,
+      "whatsappLink": "https://wa.me/201092978131?text=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20Dreambox%20RC%2020%20Remote",
+      "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
+      "features": [],
+      "createdAt": "2026-10-29"
+    },
+    {
+      "id": "panther-thunder",
+      "name": "Panther Thunder بانثر ثاندر",
+      "slug": "panther-thunder",
+      "brand": "Panther",
+      "category": "Android Device",
+      "condition": "New",
+      "status": "Available",
+      "price": 0,
+      "oldPrice": 0,
+      "currency": "EGP",
+      "featured": false,
+      "bestSeller": false,
+      "description": "جهاز Panther Thunder بنثر ثاندر ضمن فئة أجهزة الأندرويد. تواصل معنا لمعرفة السعر والتفاصيل.",
+      "images": [
+        "../assets/images/products/panther-thunder.png"
+      ],
+      "specifications": {
+        "Compatibility": "يرجى التواصل لتأكيد التوافق والتفاصيل"
+      },
+      "supportedImages": [],
+      "compatiblePlugins": [],
+      "compatibleBackups": [],
+      "stock": 0,
+      "rating": 0,
+      "salesCount": 0,
+      "whatsappLink": "https://wa.me/201092978131?text=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20Panther%20Thunder%20%D8%A8%D8%A7%D9%86%D8%AB%D8%B1%20%D8%AB%D8%A7%D9%86%D8%AF%D8%B1",
+      "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
+      "features": [],
+      "createdAt": "2026-10-29"
     }
   ]
 }
