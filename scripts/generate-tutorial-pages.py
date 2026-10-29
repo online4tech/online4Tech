@@ -69,7 +69,7 @@ def page_for(item, index, items):
 <meta property="og:title" content="{esc(title)} | Online4Tech"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="{LOGO_URL}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)} | Online4Tech"><meta name="twitter:description" content="{esc(description)}">
 <title>{esc(title)} | Online4Tech</title>
-<link rel="stylesheet" href="../assets/site-header.css?v=5"><link rel="stylesheet" href="../assets/tutorials.css?v=1">
+<link rel="stylesheet" href="../assets/site-header.css?v=5"><link rel="stylesheet" href="../assets/tutorials.css?v=2">
 <script defer src="../assets/site-header.js?v=5"></script><script type="application/ld+json">{schema_json}</script>
 </head><body><header></header><main class="wrap tutorial-article-wrap">
 <nav class="tutorial-breadcrumb" aria-label="مسار التنقل"><a href="../index.html">الرئيسية</a><span class="crumb-separator">/</span><a href="../tutorials.html">مركز الشروحات</a><span class="crumb-separator">/</span><span aria-current="page">{esc(title)}</span></nav>
