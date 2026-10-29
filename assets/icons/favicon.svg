@@ -1,26 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10243A"/><stop offset="1" stop-color="#0B1728"/></linearGradient>
- <linearGradient id="ice" x1="0" y1="0" x2=".2" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#56B8FF"/></linearGradient>
- <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10E5F0"/><stop offset="1" stop-color="#075BFF"/></linearGradient>
- <radialGradient id="red" cx="30%" cy="25%" r="75%"><stop stop-color="#FF6262"/><stop offset=".4" stop-color="#FF1717"/><stop offset="1" stop-color="#A80008"/></radialGradient>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061B39"/><stop offset="1" stop-color="#020B1D"/></linearGradient>
+ <linearGradient id="ice" x1="0" y1="0" x2=".15" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".48" stop-color="#E8F5FF"/><stop offset="1" stop-color="#46A9F5"/></linearGradient>
+ <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#12F1F2"/><stop offset=".55" stop-color="#0795FF"/><stop offset="1" stop-color="#0754FF"/></linearGradient>
+ <radialGradient id="red" cx="30%" cy="22%" r="78%"><stop stop-color="#FF8B8B"/><stop offset=".23" stop-color="#FF2828"/><stop offset=".72" stop-color="#F0000B"/><stop offset="1" stop-color="#97000B"/></radialGradient>
 </defs>
-<rect width="512" height="512" rx="86" fill="url(#bg)"/>
-<!-- O with signature red core -->
-<circle cx="132" cy="337" r="91" fill="url(#ice)"/>
-<circle cx="132" cy="337" r="61" fill="#0B1728"/>
-<circle cx="132" cy="337" r="48" fill="url(#red)"/>
-<!-- Strong, legible 4 -->
-<path d="M235 397H183L280 242H322V333H352V370H322V397H282V370H235V397ZM282 333V300L261 333H282Z" fill="url(#cyan)"/>
+<rect width="512" height="512" rx="72" fill="url(#bg)"/>
+<!-- O with vivid red core -->
+<circle cx="150" cy="280" r="83" fill="url(#ice)"/>
+<circle cx="150" cy="280" r="57" fill="#04152D"/>
+<circle cx="150" cy="280" r="43" fill="url(#red)"/>
+<ellipse cx="135" cy="258" rx="13" ry="8" transform="rotate(-35 135 258)" fill="#FFF" opacity=".8"/>
+<!-- bold geometric 4 -->
+<path d="M242 359H190L283 211H324V299H351V333H324V359H286V333H242V359ZM286 299V269L267 299H286Z" fill="url(#cyan)"/>
 <!-- T -->
-<path d="M350 251H477V289H433V397H394V289H350Z" fill="url(#ice)"/>
-<!-- satellite dish above 4, signal integrated -->
-<g fill="none" stroke="url(#cyan)" stroke-linecap="round" stroke-width="10">
- <path d="M301 100A104 104 0 0 1 405 204"/>
- <path d="M301 128A76 76 0 0 1 377 204"/>
- <path d="M301 156A48 48 0 0 1 349 204"/>
+<path d="M351 216H469V252H429V359H392V252H351Z" fill="url(#ice)"/>
+<!-- satellite signal arcs -->
+<g fill="none" stroke="url(#cyan)" stroke-linecap="butt" stroke-width="12">
+ <path d="M304 63A112 112 0 0 1 416 175"/>
+ <path d="M304 91A84 84 0 0 1 388 175"/>
+ <path d="M304 119A56 56 0 0 1 360 175"/>
 </g>
-<path d="M246 155Q254 202 298 222L321 200Q282 181 276 140Z" fill="url(#ice)"/>
-<path d="M262 176L300 214" stroke="#0B1728" stroke-width="7" stroke-linecap="round"/>
-<circle cx="302" cy="219" r="10" fill="#F7FCFF"/>
+<!-- satellite dish tilted toward the signal -->
+<path d="M247 118Q251 169 296 193L322 168Q284 150 278 105Z" fill="url(#ice)"/>
+<path d="M264 135L302 183" stroke="#0B1728" stroke-width="7" stroke-linecap="round"/>
+<circle cx="302" cy="188" r="10" fill="#F8FCFF"/>
 </svg>
