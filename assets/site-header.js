@@ -354,20 +354,6 @@
     }
     document.querySelectorAll('img:not([loading])').forEach(img => { if (!img.closest('header') && !img.hasAttribute('fetchpriority')) img.loading = 'lazy'; });
 
-    if (!document.querySelector('link[data-o4t-search-css]')) {
-      const css = document.createElement('link');
-      css.rel = 'stylesheet';
-      css.href = siteRoot + 'css/search.css?v=1';
-      css.dataset.o4tSearchCss = '1';
-      document.head.appendChild(css);
-    }
-    if (!document.querySelector('script[data-o4t-search-js]')) {
-      const js = document.createElement('script');
-      js.src = siteRoot + 'js/search.js?v=2';
-      js.dataset.o4tSearchJs = '1';
-      js.async = true;
-      document.body.appendChild(js);
-    }
     if (!document.querySelector('link[data-o4t-preload-logo]')) {
       const p = document.createElement('link');
       p.rel = 'preload';
