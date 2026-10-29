@@ -62,7 +62,7 @@ def main() -> None:
                 known_files.add(Path(value.split("?", 1)[0]).name.lower())
 
     # Preserve established legacy mappings; do not replace or rewrite Vu+ image fields.
-    known_files.update({"dreambox-one.png", "vu-zero-pvrkit.png"})
+    known_files.update({"dreambox-one.png", "vu-zero-pvrkit.png", "dreambox-two-1.png", "dreambox-two-main.png"})
     added = 0
     for image in sorted(IMAGE_DIR.iterdir()):
         if not image.is_file() or image.suffix.lower() not in EXTENSIONS:
