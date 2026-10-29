@@ -41,9 +41,6 @@
       "compatibleBackups": [
         "OpenATV backup"
       ],
-      "compatibleTutorials": [
-        "تحديث ملف القنوات عبر SSH"
-      ],
       "stock": 3,
       "rating": 0,
       "salesCount": 0,
@@ -93,9 +90,6 @@
       "compatibleBackups": [
         "Vu+ Uno 4K SE backups"
       ],
-      "compatibleTutorials": [
-        "تحديث Enigma2"
-      ],
       "stock": 2,
       "rating": 0,
       "salesCount": 0,
@@ -144,9 +138,6 @@
       "compatibleBackups": [
         "Vu+ Duo 4K SE backups"
       ],
-      "compatibleTutorials": [
-        "إعداد التسجيل وTimeshift"
-      ],
       "stock": 0,
       "rating": 0,
       "salesCount": 0,
@@ -194,9 +185,6 @@
       ],
       "compatibleBackups": [
         "Dreambox ONE UHD backups"
-      ],
-      "compatibleTutorials": [
-        "شرح Enigma2"
       ],
       "stock": 1,
       "rating": 0,
@@ -250,9 +238,6 @@
       "compatibleBackups": [
         "OpenATV backup"
       ],
-      "compatibleTutorials": [
-        "تحديث ملف القنوات عبر SSH"
-      ],
       "stock": 1,
       "rating": 0,
       "salesCount": 0,
@@ -290,9 +275,6 @@
       "supportedImages": [],
       "compatiblePlugins": [],
       "compatibleBackups": [],
-      "compatibleTutorials": [
-        "تركيب PVR KIT"
-      ],
       "stock": 4,
       "rating": 0,
       "salesCount": 0,
@@ -325,7 +307,6 @@
       "supportedImages": [],
       "compatiblePlugins": [],
       "compatibleBackups": [],
-      "compatibleTutorials": [],
       "stock": 5,
       "rating": 0,
       "salesCount": 0,
@@ -357,7 +338,6 @@
       "supportedImages": [],
       "compatiblePlugins": [],
       "compatibleBackups": [],
-      "compatibleTutorials": [],
       "stock": 5,
       "rating": 0,
       "salesCount": 0,
@@ -389,7 +369,6 @@
       "supportedImages": [],
       "compatiblePlugins": [],
       "compatibleBackups": [],
-      "compatibleTutorials": [],
       "stock": 5,
       "rating": 0,
       "salesCount": 0,
