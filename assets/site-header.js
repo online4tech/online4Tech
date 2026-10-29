@@ -5,6 +5,37 @@
   if (window.__online4techHeaderRuntime) return;
   window.__online4techHeaderRuntime = true;
 
+  function optimizeImageLoading() {
+    if (window.__online4techImageOptimized) return;
+    window.__online4techImageOptimized = true;
+
+    const isAboveFold = img => {
+      if (!img || !img.tagName || img.tagName.toLowerCase() !== 'img') return false;
+      return !!(
+        img.closest('header') ||
+        img.closest('.hero') ||
+        img.closest('.brand') ||
+        img.closest('.site-logo-brand') ||
+        img.closest('.device-photo') ||
+        img.closest('.device-photo-link') ||
+        img.closest('.gallery-rotating-photo') ||
+        img.closest('.contact-rail')
+      );
+    };
+
+    document.querySelectorAll('img').forEach(img => {
+      if (!img.hasAttribute('loading')) {
+        img.loading = isAboveFold(img) ? 'eager' : 'lazy';
+      }
+      if (!img.hasAttribute('decoding')) {
+        img.decoding = 'async';
+      }
+      if (isAboveFold(img) && !img.hasAttribute('fetchpriority')) {
+        img.fetchPriority = 'high';
+      }
+    });
+  }
+
   // Google Analytics 4 — Online4Tech
   // Load once on pages that include the shared site header.
   if (!window.__online4techAnalyticsLoaded) {
@@ -75,8 +106,12 @@
   }
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', buildHeader, { once: true });
+    document.addEventListener('DOMContentLoaded', function () {
+      optimizeImageLoading();
+      buildHeader();
+    }, { once: true });
   } else {
+    optimizeImageLoading();
     buildHeader();
   }
 
@@ -238,6 +273,45 @@
     if (!grid || grid.dataset.loaded === '1') return;
     grid.dataset.loaded = '1';
 
+    const cacheKey = '__online4techPluginGalleryCache__' + slug;
+    const cachedFiles = window[cacheKey];
+    const renderFiles = files => {
+      if (!files || !files.length) {
+        if (status) status.textContent = 'لسه مفيش صور مرفوعة للبلجن ده.';
+        return;
+      }
+      if (status) status.remove();
+      files.forEach(file => {
+        const url = 'https://raw.githubusercontent.com/online4tech/online4Tech/main/' + file.path;
+        const name = file.name;
+        const figure = document.createElement('figure');
+        figure.className = 'plugin-gallery-item';
+        const link = document.createElement('a');
+        link.href = url;
+        link.setAttribute('aria-label', 'تكبير صورة البلجن ' + name);
+        link.addEventListener('click', event => {
+          event.preventDefault();
+          openPluginImage(url, name);
+        });
+        const img = document.createElement('img');
+        img.src = url;
+        img.alt = name;
+        img.loading = 'lazy';
+        img.decoding = 'async';
+        link.appendChild(img);
+        const caption = document.createElement('figcaption');
+        caption.textContent = name;
+        figure.appendChild(link);
+        figure.appendChild(caption);
+        grid.appendChild(figure);
+      });
+    };
+
+    if (cachedFiles) {
+      renderFiles(cachedFiles);
+      return;
+    }
+
     const controller = new AbortController();
     const timeout = window.setTimeout(() => controller.abort(), 8000);
     const apiUrl = 'https://api.github.com/repos/online4tech/online4Tech/contents/' + folder + '?ref=main';
@@ -254,34 +328,8 @@
       .then(data => {
         const entries = Array.isArray(data) ? data : [];
         const files = entries.filter(item => item.type === 'file' && /\.(png|jpe?g|gif|webp|avif|svg)$/i.test(item.name)).sort((a, b) => a.name.localeCompare(b.name));
-        if (!files.length) {
-          if (status) status.textContent = 'لسه مفيش صور مرفوعة للبلجن ده.';
-          return;
-        }
-        if (status) status.remove();
-        files.forEach(file => {
-          const url = 'https://raw.githubusercontent.com/online4tech/online4Tech/main/' + file.path;
-          const name = file.name;
-          const figure = document.createElement('figure');
-          figure.className = 'plugin-gallery-item';
-          const link = document.createElement('a');
-          link.href = url;
-          link.setAttribute('aria-label', 'تكبير صورة البلجن ' + name);
-          link.addEventListener('click', event => {
-            event.preventDefault();
-            openPluginImage(url, name);
-          });
-          const img = document.createElement('img');
-          img.src = url;
-          img.alt = name;
-          img.loading = 'lazy';
-          link.appendChild(img);
-          const caption = document.createElement('figcaption');
-          caption.textContent = name;
-          figure.appendChild(link);
-          figure.appendChild(caption);
-          grid.appendChild(figure);
-        });
+        window[cacheKey] = files;
+        renderFiles(files);
       })
       .catch(error => {
         if (status) status.textContent = (error && error.name === 'AbortError') ? 'محدودية الاتصال: تم إلغاء محاولة جلب الصور.' : 'تعذر تحميل صور البلجن الآن. جرّب تحديث الصفحة بعد قليل.';
@@ -384,3 +432,4 @@
     addOnline4TechSearchAndSEO();
   }
 })();
+
