@@ -24,6 +24,13 @@ OUT_DIR = ROOT / "tutorials"
 # Keep this exact URL as the canonical origin for project GitHub Pages.
 BASE_URL = "https://online4tech.github.io/online4Tech/"
 LOGO_URL = BASE_URL + "assets/site-logo.svg"
+FAVICON_HEAD = """<link rel="icon" type="image/svg+xml" href="/online4Tech/assets/icons/favicon.svg">
+<link rel="icon" type="image/png" sizes="16x16" href="/online4Tech/assets/icons/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/online4Tech/assets/icons/favicon-32x32.png">
+<link rel="shortcut icon" href="/online4Tech/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/online4Tech/assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="/online4Tech/assets/icons/site.webmanifest">
+<meta name="theme-color" content="#0B1728">"""
 SITE_NAME = "Online4Tech"
 SLUG_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 YOUTUBE_HOSTS = {"youtube.com", "www.youtube.com", "m.youtube.com", "youtu.be", "www.youtube-nocookie.com"}
@@ -319,6 +326,7 @@ def page_for(item: dict[str, Any], index: int, items: list[dict[str, Any]]) -> s
     return f"""<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
+{FAVICON_HEAD}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#07111f">
