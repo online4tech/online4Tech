@@ -361,7 +361,7 @@
       "bestSeller": false,
       "description": "ريموت تحكم لأجهزة الاستقبال. ابعت موديل الرسيفر على واتساب لتأكيد التوافق.",
       "images": [
-        "https://raw.githubusercontent.com/online4tech/online4Tech/main/images/Screenshot%202026-10-25%20170157.jpg"
+        "../assets/images/products/VU+ Bluetooth Remote.png"
       ],
       "specifications": {
         "Compatibility": "يرجى تأكيد الموديل"
@@ -375,7 +375,8 @@
       "whatsappLink": "https://wa.me/201092978131?text=ريموت%20VU%2B",
       "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
       "features": [],
-      "createdAt": "2026-10-27"
+      "createdAt": "2026-10-27",
+      "imageFile": "VU+ Bluetooth Remote.png"
     },
     {
       "id": "dreambox-rc10-remote",
