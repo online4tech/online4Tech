@@ -6,7 +6,7 @@
 <meta name="description" content="دليل روابط صور وسوفتوير أجهزة Vu+ من مواقع المشاريع الرسمية وصفحات التحميل المعروفة، مع إرشادات اختيار الموديل الصحيح.">
 <title>صور السوفتوير لأجهزة Vu+ | Online4Tech</title>
 <link rel="stylesheet" href="assets/site.css?v=1">
-<link rel="stylesheet" href="assets/site-header.css?v=2">
+<link rel="stylesheet" href="assets/site-header.css?v=6">
 <style>
 :root{--bg:#041020;--panel:#0a1d32;--panel2:#0d2944;--line:#17466e;--text:#f3f7ff;--muted:#a8bad2;--cyan:#2ed5ff;--blue:#079cff;--gold:#ffbd39}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.85;background:radial-gradient(ellipse at 78% 0,#0b3156 0,transparent 40%),linear-gradient(180deg,#020b18,#06172a 55%,#031020)}a{color:inherit}.wrap{width:min(1100px,92%);margin:auto}
@@ -45,5 +45,5 @@ footer{border-top:1px solid var(--line);padding:22px 0;color:#9fb4cc;font-size:.
 <script>
 (function(){const search=document.getElementById('search'),kind=document.getElementById('kind'),cards=[...document.querySelectorAll('.card')],empty=document.getElementById('empty');function filter(){const q=search.value.trim().toLowerCase(),k=kind.value;let count=0;cards.forEach(card=>{const match=card.dataset.search.toLowerCase().includes(q)||card.innerText.toLowerCase().includes(q);const show=match&&(k==='all'||card.dataset.kind===k);card.hidden=!show;if(show)count++});empty.style.display=count?'none':'block'}search.addEventListener('input',filter);kind.addEventListener('change',filter)})();
 </script>
-<script src="assets/site-header.js" defer></script>
+<script src="assets/site-header.js?v=6" defer></script>
 </body></html>
