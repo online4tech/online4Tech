@@ -1,0 +1,40 @@
+name: Install ONLINE4TECH favicons across the site
+on:
+  push:
+    paths:
+      - 'assets/icons/favicon.svg'
+      - 'assets/icons/site.webmanifest'
+      - 'scripts/install-favicon-site.py'
+      - '.github/workflows/install-favicon-site.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install pillow cairosvg
+      - name: Generate icon sizes and install links
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from io import BytesIO
+          import cairosvg
+          from PIL import Image
+          root=Path('.')
+          icons=root/'assets/icons'
+          svg=(icons/'favicon.svg').read_bytes()
+          for name,size in {'favicon-16x16.png':16,'favicon-32x32.png':32,'apple-touch-icon.png':180,'android-chrome-192x192.png':192,'android-chrome-512x512.png':512}.items():
+              (icons/name).write_bytes(cairosvg.svg2png(bytestring=svg,output_width=size,output_height=size))
+          images=[Image.open(BytesIO(cairosvg.svg2png(bytestring=svg,output_width=s,output_height=s))).convert('RGBA') for s in (16,32,48)]
+          images[0].save(icons/'favicon.ico',format='ICO',sizes=[(16,16),(32,32),(48,48)],append_images=images[1:])
+          PY
+          python scripts/install-favicon-site.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: install ONLINE4TECH favicon across pages'
+          file_pattern: 'assets/icons/* *.html **/*.html scripts/generate-tutorial-pages.py'
