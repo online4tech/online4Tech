@@ -67,23 +67,9 @@
       });
       // Explicitly excluded from the storefront, even while their image files remain in the library.
       ['dreambox-two-1.png','dreambox-two-main.png'].forEach(name=>knownFiles.add(name));
-      files.filter(f=>f&&f.type==='file'&&IMAGE_EXT.test(f.name)&&!f.name.startsWith('.')).forEach(file=>{
-        const id=slugify(file.name);
-        if(!id||knownIds.has(id.toLowerCase())||knownFiles.has(file.name.toLowerCase()))return;
-        const image=BASE+file.name;
-        const category=categoryFor(file.name);
-        products.push({
-          id,slug:id,name:titleFromFile(file.name),brand:'',category,
-          condition:'New',status:'Available',price:0,oldPrice:0,currency:'EGP',
-          description:'منتج جديد تم اكتشاف صورته تلقائياً من مكتبة صور ONLINE4TECH. تواصل معنا لتأكيد الموديل والتوافق والسعر.',
-          images:[image],gallery:[image],specifications:{},supportedImages:[],
-          compatiblePlugins:[],compatibleBackups:[],features:['Auto Discovery'],
-          stock:0,rating:0,salesCount:0,
-          whatsappLink:'https://wa.me/201092978131?text='+encodeURIComponent('مرحباً، أريد الاستفسار عن المنتج: '+titleFromFile(file.name)),
-          createdAt:new Date().toISOString().slice(0,10),autoDiscovered:true
-        });
-        knownIds.add(id.toLowerCase());knownFiles.add(file.name.toLowerCase());
-      });
+      // Image files are assets only. Never create store products from filenames.
+      // Only gallery images matching an already-listed product ID are attached above.
+
     }catch(error){console.warn('[ONLINE4TECH] Auto Discovery skipped:',error);}
     return products;
   }
