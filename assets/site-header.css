@@ -1,4 +1,34 @@
 /* Online4Tech — shared legacy-header theme, aligned with the shared JS header */
+
+/* Smart Auto Hide — preserves header layout; only its painted position changes. */
+header.o4t-header {
+  transform: translate3d(0, 0, 0);
+  transition: transform 220ms ease, box-shadow 220ms ease;
+  will-change: transform;
+}
+header.o4t-header.o4t-header-hidden {
+  transform: translate3d(0, calc(-100% - 2px), 0);
+  pointer-events: none;
+  box-shadow: none;
+}
+header.o4t-header.o4t-header-hidden * {
+  pointer-events: none;
+}
+header.o4t-header.o4t-header-scroll-ready {
+  transition: none;
+}
+@media (max-width: 600px) {
+  header.o4t-header {
+    transition-duration: 170ms;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  header.o4t-header {
+    transition: none !important;
+    will-change: auto;
+  }
+}
+
 :root{--o4t-navy:#07111f;--o4t-navy-2:#0b1a2d;--o4t-panel:#10243a;--o4t-line:#294761;--o4t-text:#eaf3ff;--o4t-muted:#c5d7e9;--o4t-cyan:#22b7d5}
 header:not(.o4t-header){position:relative;z-index:20;width:100%;box-sizing:border-box;background:linear-gradient(135deg,#07111f 0%,#0b1a2d 55%,#10243a 100%);border-bottom:1px solid #244664;box-shadow:0 10px 32px #0004;color:var(--o4t-text);font-family:Tahoma,Arial,sans-serif}
 header:not(.o4t-header) *{box-sizing:border-box}
