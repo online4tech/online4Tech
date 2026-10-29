@@ -24,7 +24,7 @@
     ['الرئيسية', 'index.html', ['index.html']],
     ['المتجر', 'store/index.html', ['store/']],
     ['مكتبة التحميل', 'library.html', ['library.html', 'downloads.html', 'backups/']],
-    ['الشروحات', 'tutorials.html', ['guides.html', 'guides/index.html', 'tutorials.html', 'skins.html', 'plugins/']],
+    ['الشروحات', 'tutorials.html', ['guides.html', 'guides/index.html', 'tutorials.html', 'tutorials/', 'skins.html', 'plugins/']],
     ['خدماتنا', 'services.html', ['services.html']]
   ];
   const current = (parts.join('/') || 'index.html').toLowerCase();
