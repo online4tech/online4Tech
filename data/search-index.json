@@ -2944,6 +2944,14 @@
     "type": "Tutorial"
   },
   {
+    "title": "🚀 تثبيت قائمة القنوات تلقائياً",
+    "description": "تنزيل ملف القنوات واستعادته على أجهزة Enigma2 مع إرشادات الأمان.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
     "title": "AIO Panel",
     "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aio-panel/index.html",
