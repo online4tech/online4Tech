@@ -363,7 +363,7 @@
     }
     if (!document.querySelector('script[data-o4t-search-js]')) {
       const js = document.createElement('script');
-      js.src = siteRoot + 'js/search.js?v=1';
+      js.src = siteRoot + 'js/search.js?v=2';
       js.dataset.o4tSearchJs = '1';
       js.async = true;
       document.body.appendChild(js);
