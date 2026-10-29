@@ -62,3 +62,24 @@ body{
   color:#67d2ff!important;
 }
 
+
+
+/* High-contrast Installer Center button */
+.pl-installer-actions .pl-installer-open{
+  background:linear-gradient(135deg,#8be9ff 0%,#38c9e8 100%) !important;
+  color:#061321 !important;
+  border:2px solid #a6f0ff !important;
+  font-weight:900 !important;
+  text-shadow:none !important;
+  box-shadow:0 6px 18px #00bfe833;
+}
+.pl-installer-actions .pl-installer-open:hover{
+  background:linear-gradient(135deg,#b4f2ff 0%,#5bd8f2 100%) !important;
+  color:#04101b !important;
+  border-color:#d1f8ff !important;
+  filter:none;
+}
+.pl-installer-actions .pl-installer-open:focus-visible{
+  outline:3px solid #ffffff;
+  outline-offset:4px;
+}
