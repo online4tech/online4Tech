@@ -1,6 +1,110 @@
 (function () {
   'use strict';
+
   if (window.__o4tSearchRuntimeStarted) return;
   window.__o4tSearchRuntimeStarted = true;
+
+  const isSearchPage = /search\.html$/i.test(location.pathname);
+  if (!isSearchPage) return;
+
+  const readSiteBase = () => {
+    try {
+      const scriptSrc = (document.currentScript && document.currentScript.src) || window.location.href;
+      const url = new URL(scriptSrc, window.location.href);
+      const segments = url.pathname.split('/').filter(Boolean);
+      const repoIndex = segments.findIndex(segment => segment.toLowerCase() === 'online4tech');
+      if (repoIndex >= 0) {
+        return '/' + segments.slice(0, repoIndex + 1).join('/') + '/';
+      }
+      const withoutFile = segments.slice(0, -1);
+      return withoutFile.length ? '/' + withoutFile.join('/') + '/' : '/';
+    } catch (_) {
+      return '/';
+    }
+  };
+
+  const BASE = readSiteBase();
+  const INDEX_URL = BASE + 'data/search-index.json';
+  const normalize = value => String(value || '')
+    .normalize('NFKC')
+    .toLocaleLowerCase('ar')
+    .replace(/[\u064B-\u065F\u0670\u0640]/g, '')
+    .replace(/[أإآٱ]/g, 'ا')
+    .replace(/ى/g, 'ي')
+    .replace(/ؤ/g, 'و')
+    .replace(/ئ/g, 'ي')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const esc = value => String(value || '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[ch]));
+  const absolute = url => /^https?:\/\//i.test(url) ? url : BASE + String(url || '').replace(/^\/+/, '');
+  let indexPromise;
+
+  function getIndex() {
+    if (!indexPromise) indexPromise = fetch(INDEX_URL, {cache:'no-cache'})
+      .then(r => { if (!r.ok) throw new Error('search index unavailable'); return r.json(); })
+      .then(data => Array.isArray(data) ? data : []);
+    return indexPromise;
+  }
+
+  function searchable(item) {
+    return normalize([item.title,item.description,item.category,item.brand,item.type,item.status].filter(Boolean).join(' '));
+  }
+
+  function findMatches(items, query, limit) {
+    const q = normalize(query);
+    if (!q) return [];
+    const words = q.split(' ').filter(Boolean);
+    return items.map(item => ({item, text:searchable(item)}))
+      .filter(row => words.every(word => row.text.includes(word)))
+      .sort((a,b) => {
+        const aTitle = normalize(a.item.title).startsWith(q) ? 0 : 1;
+        const bTitle = normalize(b.item.title).startsWith(q) ? 0 : 1;
+        return aTitle - bTitle;
+      }).slice(0, limit || 8).map(row => row.item);
+  }
+
+  function buildSearchUI() {
+    if (document.getElementById('o4t-global-search')) return;
+    const shell = document.createElement('section');
+    shell.className = 'o4t-search-shell';
+    shell.id = 'o4t-global-search';
+    shell.innerHTML = '<form class="o4t-search-form" role="search"><span class="o4t-search-mark" aria-hidden="true">⌕</span><input class="o4t-search-input" type="search" name="q" autocomplete="off" aria-label="بحث سريع" placeholder="ابحث عن منتج أو شرح أو جهاز"><button type="submit" class="o4t-search-submit">بحث</button></form><div class="o4t-search-results" role="listbox" aria-live="polite"></div>';
+    const header = document.querySelector('header');
+    const main = document.querySelector('main');
+    if (header && header.parentNode) header.insertAdjacentElement('afterend', shell);
+    else if (main) main.insertAdjacentElement('beforebegin', shell);
+    else document.body.insertBefore(shell, document.body.firstChild);
+
+    const form = shell.querySelector('form');
+    const input = shell.querySelector('input');
+    const results = shell.querySelector('.o4t-search-results');
+    const run = async () => {
+      const q = input.value;
+      if (!normalize(q)) { results.classList.remove('is-open'); results.innerHTML=''; return; }
+      try {
+        const matches = findMatches(await getIndex(), q, 7);
+        results.innerHTML = matches.length ? matches.map(item => '<a class="o4t-search-result" role="option" href="'+esc(absolute(item.url))+'"><strong>'+esc(item.title)+'</strong><small>'+esc(item.category || item.type || 'نتيجة')+' · '+esc(item.description || '')+'</small></a>').join('') : '<div class="o4t-search-empty">لم يتم العثور على نتائج مطابقة</div>';
+        results.classList.add('is-open');
+      } catch (_) {
+        results.innerHTML = '<div class="o4t-search-empty">تعذر تحميل البحث الآن. جرّب فتح صفحة نتائج البحث.</div>';
+        results.classList.add('is-open');
+      }
+    };
+    input.addEventListener('input', run);
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      const q = input.value.trim();
+      window.location.href = BASE + 'search.html?q=' + encodeURIComponent(q);
+    });
+    document.addEventListener('click', event => { if (!shell.contains(event.target)) results.classList.remove('is-open'); });
+    const initial = new URLSearchParams(location.search).get('q');
+    if (initial && /search\.html$/i.test(location.pathname)) input.value = initial;
+  }
+
+  function init() {
+    buildSearchUI();
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, {once:true}); else init();
 })();
 
