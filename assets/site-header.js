@@ -65,6 +65,94 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', buildHeader);
   else buildHeader();
 
+  // Smart auto-hide: keep the header in the document flow and animate only its transform.
+  // Passive scroll + requestAnimationFrame keeps this lightweight and avoids layout shifts.
+  function enableSmartHeader() {
+    const header = document.querySelector('header.o4t-header');
+    if (!header || header.dataset.smartHideReady === '1') return;
+    header.dataset.smartHideReady = '1';
+
+    let lastY = Math.max(0, window.scrollY || window.pageYOffset || 0);
+    let latestY = lastY;
+    let rafPending = false;
+    let directionDistance = 0;
+    let direction = 0;
+    let hidden = false;
+
+    const reducedMotion = window.matchMedia &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    function setHidden(nextHidden) {
+      if (hidden === nextHidden) return;
+      hidden = nextHidden;
+      header.classList.toggle('o4t-header-hidden', hidden);
+      header.setAttribute('data-smart-hidden', hidden ? 'true' : 'false');
+    }
+
+    function onFrame() {
+      rafPending = false;
+      const y = Math.max(0, latestY);
+      const delta = y - lastY;
+      const mobile = window.matchMedia('(max-width: 600px)').matches;
+      const topLimit = mobile ? 34 : 76;
+      const minDirection = mobile ? 5 : 9;
+
+      if (y <= 8) {
+        direction = 0;
+        directionDistance = 0;
+        setHidden(false);
+        lastY = y;
+        return;
+      }
+
+      if (Math.abs(delta) >= 1) {
+        const nextDirection = delta > 0 ? 1 : -1;
+        if (nextDirection !== direction) {
+          direction = nextDirection;
+          directionDistance = 0;
+        }
+        directionDistance += Math.abs(delta);
+
+        if (directionDistance >= minDirection) {
+          if (direction > 0 && y > topLimit) {
+            setHidden(true);
+          } else if (direction < 0) {
+            setHidden(false);
+          }
+        }
+      }
+      lastY = y;
+    }
+
+    function onScroll() {
+      latestY = Math.max(0, window.scrollY || window.pageYOffset || 0);
+      if (rafPending) return;
+      rafPending = true;
+      window.requestAnimationFrame(onFrame);
+    }
+
+    // Avoid a delayed transition when the user opens a page already scrolled down.
+    if (lastY > 8) header.classList.add('o4t-header-scroll-ready');
+    if (reducedMotion) header.classList.add('o4t-header-reduced-motion');
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('pageshow', function () {
+      latestY = Math.max(0, window.scrollY || window.pageYOffset || 0);
+      lastY = latestY;
+      direction = 0;
+      directionDistance = 0;
+      if (latestY <= 8) setHidden(false);
+    }, { passive: true });
+    window.addEventListener('resize', function () {
+      if ((window.scrollY || window.pageYOffset || 0) <= 8) setHidden(false);
+    }, { passive: true });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', enableSmartHeader, { once: true });
+  } else {
+    enableSmartHeader();
+  }
+
   function addPluginGallery() {
     if (!/\/plugins\//i.test(window.location.pathname) || page === 'index.html') return;
     const slug = page.replace(/\.html?$/i, '');
