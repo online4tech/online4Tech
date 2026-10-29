@@ -44,7 +44,29 @@
       const files=await response.json();
       if(!Array.isArray(files))return products;
       const knownIds=new Set(products.flatMap(p=>[p.id,p.slug].filter(Boolean).map(x=>String(x).toLowerCase())));
-      const knownFiles=knownFileNames(products);\n      // Explicitly excluded from the storefront, even while their image files remain in the library.\n      ['dreambox-two-1.png','dreambox-two-main.png'].forEach(name=>knownFiles.add(name));
+      const knownFiles=knownFileNames(products);
+      // Extra image convention: <product-id>-2.png, <product-id>-3.png, or <product-id>-photo-2.png.
+      const gallerySuffix=/^(?:(?:photo|image|img|side|detail|back|front|top|bottom|gallery)-?)?\d+$/i;
+      const productsById=products.slice().sort((a,b)=>String(b.id||b.slug||'').length-String(a.id||a.slug||'').length);
+      const galleryImages=[];
+      files.filter(f=>f&&f.type==='file'&&IMAGE_EXT.test(f.name)&&!f.name.startsWith('.')).forEach(file=>{
+        const stem=String(file.name).replace(/\.[^.]+$/,'').toLowerCase();
+        const match=productsById.find(p=>{
+          const base=String(p.id||p.slug||'').toLowerCase();
+          return base&&stem.startsWith(base+'-')&&gallerySuffix.test(stem.slice(base.length+1));
+        });
+        if(match){
+          const image=BASE+file.name;
+          galleryImages.push({product:match,image});
+          knownFiles.add(file.name.toLowerCase());
+        }
+      });
+      galleryImages.forEach(({product,image})=>{
+        const existing=[...(Array.isArray(product.gallery)?product.gallery:[]),...(Array.isArray(product.images)?product.images:[])].filter(x=>typeof x==='string'&&x.trim());
+        product.gallery=[...new Set([...existing,image])];
+      });
+      // Explicitly excluded from the storefront, even while their image files remain in the library.
+      ['dreambox-two-1.png','dreambox-two-main.png'].forEach(name=>knownFiles.add(name));
       files.filter(f=>f&&f.type==='file'&&IMAGE_EXT.test(f.name)&&!f.name.startsWith('.')).forEach(file=>{
         const id=slugify(file.name);
         if(!id||knownIds.has(id.toLowerCase())||knownFiles.has(file.name.toLowerCase()))return;
