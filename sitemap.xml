@@ -37,6 +37,8 @@
   <url><loc>https://online4tech.github.io/online4Tech/vuplus-images.html</loc><lastmod>2026-10-27</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
   <url><loc>https://online4tech.github.io/online4Tech/quick-install/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://online4tech.github.io/online4Tech/plugins/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://online4tech.github.io/online4Tech/downloads/installer-center/</loc><lastmod>2026-10-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://online4tech.github.io/online4Tech/downloads/plugin-library/</loc><lastmod>2026-10-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://online4tech.github.io/online4Tech/plugins/plugin.html?id=ajpanel</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://online4tech.github.io/online4Tech/plugins/plugin.html?id=mystreamer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://online4tech.github.io/online4Tech/plugins/plugin.html?id=subssupportpro</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -85,6 +87,4 @@
   <url><loc>https://online4tech.github.io/online4Tech/plugins/plugin.html?id=xtraevent</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://online4tech.github.io/online4Tech/plugins/plugin.html?id=extra-plugins-python3</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://online4tech.github.io/online4Tech/plugins/plugin.html?id=enigma2-plugin-blurayplayer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://online4tech.github.io/online4Tech/downloads/installer-center/</loc><lastmod>2026-10-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://online4tech.github.io/online4Tech/downloads/plugin-library/</loc><lastmod>2026-10-28</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>
