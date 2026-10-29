@@ -400,7 +400,7 @@
       "bestSeller": false,
       "description": "ريموت Dreambox RC10. تواصل معنا لتأكيد التوافق والسعر.",
       "images": [
-        "../assets/images/products/dreambox-rc10-remote.png"
+        "../assets/images/products/Dreambox RC10 Remote.png"
       ],
       "specifications": {
         "Compatibility": "يرجى التواصل لتأكيد التوافق والتفاصيل"
@@ -414,7 +414,11 @@
       "whatsappLink": "https://wa.me/201092978131?text=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20Dreambox%20RC10%20Remote",
       "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
       "features": [],
-      "createdAt": "2026-10-29"
+      "createdAt": "2026-10-29",
+      "gallery": [
+        "../assets/images/products/Dreambox RC10 Remote.png"
+      ],
+      "imageFile": "Dreambox RC10 Remote.png"
     },
     {
       "id": "dreambox-rc20-remote",
@@ -431,7 +435,7 @@
       "bestSeller": false,
       "description": "ريموت Dreambox RC 20. تواصل معنا لتأكيد التوافق والسعر.",
       "images": [
-        "../assets/images/products/dreambox-rc20-remote.png"
+        "../assets/images/products/Dreambox RC 20 Remote.png"
       ],
       "specifications": {
         "Compatibility": "يرجى التواصل لتأكيد التوافق والتفاصيل"
@@ -445,7 +449,11 @@
       "whatsappLink": "https://wa.me/201092978131?text=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20Dreambox%20RC%2020%20Remote",
       "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
       "features": [],
-      "createdAt": "2026-10-29"
+      "createdAt": "2026-10-29",
+      "gallery": [
+        "../assets/images/products/Dreambox RC 20 Remote.png"
+      ],
+      "imageFile": "Dreambox RC 20 Remote.png"
     },
     {
       "id": "vu-modern-remote",
