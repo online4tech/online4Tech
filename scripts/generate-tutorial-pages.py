@@ -72,8 +72,10 @@ def absolute_url(value: Any, fallback: str = LOGO_URL) -> str:
 
 
 def normalize_content(value: Any) -> str:
-    """Preserve authored HTML, while recovering a whole block accidentally entity-encoded."""
-    content = text_value(value)
+    """Preserve authored HTML entities, while recovering a whole encoded HTML fragment."""
+    # Do not html.unescape normal HTML: entities such as &amp;&amp; may be required inside
+    # existing inline JavaScript attributes in the authored tutorial content.
+    content = value.strip() if isinstance(value, str) else ""
     if not content:
         return ""
     # Only decode when the entire HTML fragment appears encoded; don't alter valid entities
@@ -249,6 +251,9 @@ def page_for(item: dict[str, Any], index: int, items: list[dict[str, Any]]) -> s
     image_url = absolute_url(item.get("coverImage"), LOGO_URL)
     image_alt = text_value(item.get("coverImageAlt"), f"صورة توضيحية لشرح {title}")
     cover_src = safe_url(item.get("coverImage"))
+    # Article files live in /tutorials/, so ordinary relative image paths need one ../ prefix.
+    if cover_src and not cover_src.startswith(("https://", "http://", "/", "../")):
+        cover_src = "../" + cover_src
     cover_html = ""
     if cover_src:
         cover_html = (
