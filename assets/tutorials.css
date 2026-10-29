@@ -1094,42 +1094,36 @@
 }
 
 /* --------------------------------------------------------------------------
-   10. Restore the site's dark page canvas on tutorial article pages
+   10. Article page canvas and isolated documentation layout
    -------------------------------------------------------------------------- */
 html {
   min-height: 100%;
   background: #080e19;
   color-scheme: dark;
 }
-
 body {
   min-height: 100vh;
   margin: 0;
   background: linear-gradient(180deg, #080e19 0%, #0b1424 55%, #0d192b 100%);
   color: var(--tutorial-ink);
   font-family: Tahoma, Arial, sans-serif;
-  line-height: 1.85;
 }
-
-/* Keep shared site chrome visually consistent with the existing dark theme. */
-.tutorial-article-wrap + footer,
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+body > header,
+body > footer {
+  width: 100%;
+  max-width: 100%;
+}
 body > footer {
   background: #0a1220;
   color: var(--tutorial-muted);
   border-top: 1px solid var(--tutorial-line);
-}
-
-/* 11. Definitive documentation layout: isolate article from legacy .wrap rules. */
-html, body {
-  width: 100%;
-  max-width: 100%;
-  min-height: 100%;
-  overflow-x: clip;
-}
-body {
-  margin: 0;
-  background: linear-gradient(180deg, #080e19 0%, #0b1424 55%, #0d192b 100%);
-  color: var(--tutorial-ink);
+  overflow-wrap: anywhere;
 }
 main.tutorial-article-wrap,
 body > main.tutorial-article-wrap {
@@ -1138,8 +1132,8 @@ body > main.tutorial-article-wrap {
   float: none;
   inset: auto;
   transform: none;
-  width: min(1100px, calc(100% - 40px)) !important;
-  max-width: 1100px !important;
+  width: min(var(--tutorial-content-width), calc(100% - 40px)) !important;
+  max-width: var(--tutorial-content-width) !important;
   min-width: 0 !important;
   margin: 0 auto !important;
   padding: 28px 0 56px;
@@ -1156,12 +1150,12 @@ main.tutorial-article-wrap > article {
   padding: 0;
   float: none;
 }
+main.tutorial-article-wrap .tutorial-breadcrumb,
 main.tutorial-article-wrap .tutorial-article-hero,
 main.tutorial-article-wrap .tutorial-article-content,
 main.tutorial-article-wrap .tutorial-extra,
 main.tutorial-article-wrap .tutorial-share,
-main.tutorial-article-wrap .tutorial-pager,
-main.tutorial-article-wrap .tutorial-breadcrumb {
+main.tutorial-article-wrap .tutorial-pager {
   width: 100%;
   max-width: 100%;
   min-width: 0;
@@ -1174,52 +1168,68 @@ main.tutorial-article-wrap .tutorial-article-hero {
   gap: 0;
   text-align: start;
 }
-main.tutorial-article-wrap .tutorial-article-hero .tutorial-cover {
-  order: 4;
-  align-self: stretch;
-  width: 100%;
-  max-width: 100%;
-  max-height: 440px;
-  margin: 24px 0 0;
-  object-fit: cover;
-}
 main.tutorial-article-wrap .tutorial-article-hero h1 {
   width: 100%;
   max-width: 100%;
-  margin-top: 10px;
-  font-size: clamp(2rem, 3.1vw, 2.8rem);
-  line-height: 1.4;
+  margin: 12px 0 14px;
+  font-size: clamp(1.8rem, 3.1vw, 2.65rem);
+  line-height: 1.42;
   letter-spacing: 0;
   text-wrap: balance;
+  overflow-wrap: anywhere;
 }
 main.tutorial-article-wrap .tutorial-article-hero > p {
   width: 100%;
   max-width: 76ch;
   margin: 0;
-  font-size: clamp(1.05rem, 1.35vw, 1.2rem);
+  font-size: clamp(1rem, 1.25vw, 1.15rem);
   line-height: 1.9;
+}
+main.tutorial-article-wrap .tutorial-article-hero .tutorial-cover {
+  order: 4;
+  align-self: stretch;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: 440px;
+  margin: 24px 0 0;
+  object-fit: cover;
+  object-position: center;
 }
 main.tutorial-article-wrap .tutorial-article-content {
   display: block;
   text-align: start;
-  font-size: clamp(18px, 1.12vw, 19px);
-  line-height: 2;
+  font-family: "Cairo", "Tajawal", Tahoma, Arial, sans-serif;
+  font-size: clamp(17px, 1.12vw, 18px);
+  line-height: 1.95;
+  overflow-wrap: anywhere;
+  word-break: normal;
 }
-main.tutorial-article-wrap .tutorial-article-content .empty {
-  background: #292417 !important;
-  color: #ffe0a3 !important;
-  border-color: #5a4b2d !important;
-  border-inline-start: 4px solid #f2b84b !important;
+main.tutorial-article-wrap .tutorial-article-content p {
+  margin-block: 0 1.25em;
+  line-height: inherit;
 }
-main.tutorial-article-wrap .tutorial-article-content .topic {
-  background: #0b1728 !important;
-  color: #d8e2f1 !important;
-  border-color: #2b496b !important;
+main.tutorial-article-wrap .tutorial-article-content h2 {
+  margin-block: 1.7em .65em;
+  scroll-margin-top: 90px;
+  font-size: clamp(1.35rem, 2vw, 1.7rem);
+  line-height: 1.5;
 }
-main.tutorial-article-wrap .tutorial-article-content .topic p,
-main.tutorial-article-wrap .tutorial-article-content .topic h2,
-main.tutorial-article-wrap .tutorial-article-content .topic strong {
-  color: #e8eefb !important;
+main.tutorial-article-wrap .tutorial-article-content h3 {
+  margin-block: 1.4em .55em;
+  font-size: clamp(1.15rem, 1.55vw, 1.35rem);
+  line-height: 1.55;
+}
+main.tutorial-article-wrap .tutorial-article-content ul,
+main.tutorial-article-wrap .tutorial-article-content ol {
+  padding-inline-start: 1.55em;
+  margin-block: .75em 1.4em;
+}
+main.tutorial-article-wrap .tutorial-article-content li {
+  margin-block: .5em;
+  padding-inline-start: .18em;
+  line-height: 1.85;
 }
 main.tutorial-article-wrap .tutorial-article-content img,
 main.tutorial-article-wrap .tutorial-article-content video,
@@ -1227,88 +1237,84 @@ main.tutorial-article-wrap .tutorial-article-content iframe,
 main.tutorial-article-wrap .tutorial-article-content svg {
   max-width: 100% !important;
 }
+main.tutorial-article-wrap .tutorial-article-content img {
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0 8px 22px #0003;
+}
 main.tutorial-article-wrap .tutorial-article-content figure {
   width: 100%;
   max-width: 100%;
+  margin: 1.5em auto;
+}
+main.tutorial-article-wrap .tutorial-article-content figure img {
+  display: block;
   margin-inline: auto;
+}
+main.tutorial-article-wrap .tutorial-article-content iframe {
+  border: 0;
+}
+main.tutorial-article-wrap .tutorial-article-content pre {
+  max-width: 100%;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  overflow-x: auto;
+}
+main.tutorial-article-wrap .tutorial-article-content table {
+  max-width: 100%;
+  overscroll-behavior-inline: contain;
+}
+main.tutorial-article-wrap .tutorial-article-content .empty {
+  background: #292417 !important;
+  color: #ffe0a3 !important;
+  border-color: #5a4b2d !important;
+  border-inline-start: 4px solid #f2b84b !important;
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+main.tutorial-article-wrap .tutorial-article-content .topic {
+  background: #0b1728 !important;
+  color: #d8e2f1 !important;
+  border-color: #2b496b !important;
+  border-radius: 12px;
+  padding: 16px 18px;
+}
+main.tutorial-article-wrap .tutorial-article-content .topic p,
+main.tutorial-article-wrap .tutorial-article-content .topic h2,
+main.tutorial-article-wrap .tutorial-article-content .topic strong {
+  color: #e8eefb !important;
+}
+main.tutorial-article-wrap .tutorial-extra {
+  margin-top: 24px;
 }
 main.tutorial-article-wrap .tutorial-related-list {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
-main.tutorial-article-wrap .tutorial-pager { align-items: stretch; }
+main.tutorial-article-wrap .tutorial-related-card {
+  height: 100%;
+}
+main.tutorial-article-wrap .tutorial-video-frame {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+main.tutorial-article-wrap .tutorial-pager {
+  align-items: stretch;
+}
+main.tutorial-article-wrap .tutorial-pager a {
+  min-height: 92px;
+  overflow-wrap: anywhere;
+}
 main.tutorial-article-wrap .tutorial-pager .pager-disabled {
   display: block;
   visibility: hidden;
 }
-@media (max-width: 1024px) {
-  main.tutorial-article-wrap,
-  body > main.tutorial-article-wrap {
-    width: min(1100px, calc(100% - 36px)) !important;
-    padding-top: 22px;
-  }
-  main.tutorial-article-wrap .tutorial-related-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-@media (max-width: 600px) {
-  main.tutorial-article-wrap,
-  body > main.tutorial-article-wrap {
-    width: calc(100% - 28px) !important;
-    padding-top: 16px;
-    padding-bottom: 32px;
-  }
-  main.tutorial-article-wrap .tutorial-article-hero { padding: 20px; }
-  main.tutorial-article-wrap .tutorial-article-hero .tutorial-cover {
-    max-height: 260px;
-    margin-top: 18px;
-  }
-  main.tutorial-article-wrap .tutorial-article-hero h1 {
-    font-size: clamp(1.75rem, 7vw, 2.2rem);
-    line-height: 1.45;
-  }
-  main.tutorial-article-wrap .tutorial-related-list,
-  main.tutorial-article-wrap .tutorial-pager {
-    grid-template-columns: minmax(0, 1fr);
-  }
-}
-@media (max-width: 380px) {
-  main.tutorial-article-wrap,
-  body > main.tutorial-article-wrap {
-    width: calc(100% - 22px) !important;
-  }
-}
-body > footer {
-  width: 100%;
-  max-width: 100%;
-  overflow-wrap: anywhere;
-}
 
-
-/* Normalize legacy inline light cards/alerts inside authored tutorial HTML. */
-main.tutorial-article-wrap .tutorial-article-content [style*="background:#fff"],
-main.tutorial-article-wrap .tutorial-article-content [style*="background: #fff"],
-main.tutorial-article-wrap .tutorial-article-content [style*="background:#f8fbff"],
-main.tutorial-article-wrap .tutorial-article-content [style*="background: #f8fbff"],
-main.tutorial-article-wrap .tutorial-article-content [style*="background:#eef7ff"],
-main.tutorial-article-wrap .tutorial-article-content [style*="background: #eef7ff"] {
-  background: #10243a !important;
-  color: #d8e2f1 !important;
-  border-color: #294761 !important;
-}
-main.tutorial-article-wrap .tutorial-article-content [style*="color:#77511d"],
-main.tutorial-article-wrap .tutorial-article-content [style*="color: #77511d"],
-main.tutorial-article-wrap .tutorial-article-content [style*="color:#244b75"],
-main.tutorial-article-wrap .tutorial-article-content [style*="color: #244b75"] {
-  color: #ffe0a3 !important;
-}
-
-
-/* CSS-generated cover art is used when a tutorial has no authored coverImage. */
+/* Branded cover for tutorials without an authored cover image. */
 main.tutorial-article-wrap .tutorial-cover-placeholder {
   position: relative;
   display: flex;
   align-items: center;
-  gap: clamp(16px, 3vw, 30px);
+  gap: clamp(14px, 3vw, 30px);
   min-height: 190px;
   aspect-ratio: 16 / 5;
   padding: clamp(20px, 4vw, 42px);
@@ -1358,7 +1364,7 @@ main.tutorial-article-wrap .tutorial-cover-placeholder::after {
 }
 .tutorial-cover-placeholder .cover-placeholder-copy strong {
   color: #f0f6ff;
-  font-size: clamp(1.25rem, 2.6vw, 2rem);
+  font-size: clamp(1.2rem, 2.5vw, 1.9rem);
   font-weight: 900;
   line-height: 1.5;
   overflow-wrap: anywhere;
@@ -1378,20 +1384,222 @@ main.tutorial-article-wrap .tutorial-cover-placeholder::after {
   font-weight: 900;
   letter-spacing: 2px;
 }
-@media (max-width: 600px) {
+
+/* Keep legacy inline callouts compatible with the dark theme. */
+main.tutorial-article-wrap .tutorial-article-content [style*="background:#fff"],
+main.tutorial-article-wrap .tutorial-article-content [style*="background: #fff"],
+main.tutorial-article-wrap .tutorial-article-content [style*="background:#f8fbff"],
+main.tutorial-article-wrap .tutorial-article-content [style*="background: #f8fbff"],
+main.tutorial-article-wrap .tutorial-article-content [style*="background:#eef7ff"],
+main.tutorial-article-wrap .tutorial-article-content [style*="background: #eef7ff"] {
+  background: #10243a !important;
+  color: #d8e2f1 !important;
+  border-color: #294761 !important;
+}
+main.tutorial-article-wrap .tutorial-article-content [style*="color:#77511d"],
+main.tutorial-article-wrap .tutorial-article-content [style*="color: #77511d"],
+main.tutorial-article-wrap .tutorial-article-content [style*="color:#244b75"],
+main.tutorial-article-wrap .tutorial-article-content [style*="color: #244b75"] {
+  color: #ffe0a3 !important;
+}
+
+/* Touch-first controls and clear spacing on mobile. */
+.tutorial-article-wrap a,
+.tutorial-article-wrap button {
+  touch-action: manipulation;
+}
+.tutorial-share button,
+.tutorial-share a {
+  min-height: 48px;
+}
+@media (min-width: 1440px) {
+  main.tutorial-article-wrap,
+  body > main.tutorial-article-wrap {
+    width: min(var(--tutorial-content-width), calc(100% - 64px)) !important;
+  }
+}
+@media (max-width: 1024px) {
+  main.tutorial-article-wrap,
+  body > main.tutorial-article-wrap {
+    width: calc(100% - 36px) !important;
+    padding-top: 22px;
+    padding-bottom: 42px;
+  }
+  main.tutorial-article-wrap .tutorial-related-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  main.tutorial-article-wrap .tutorial-article-content {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  main.tutorial-article-wrap,
+  body > main.tutorial-article-wrap {
+    width: calc(100% - 28px) !important;
+    padding-top: 16px;
+    padding-bottom: 30px;
+  }
+  main.tutorial-article-wrap .tutorial-breadcrumb {
+    gap: 5px 7px;
+    margin-bottom: 14px;
+    font-size: .84rem;
+  }
+  main.tutorial-article-wrap .tutorial-article-hero {
+    margin-bottom: 16px;
+    padding: 20px;
+    border-radius: 17px;
+  }
+  main.tutorial-article-wrap .tutorial-article-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 12px;
+    font-size: 1.55rem;
+  }
+  main.tutorial-article-wrap .tutorial-article-kicker {
+    min-height: 28px;
+    margin-inline-start: 0;
+    font-size: .82rem;
+  }
+  main.tutorial-article-wrap .tutorial-article-hero h1 {
+    margin: 10px 0 12px;
+    font-size: clamp(1.65rem, 6.4vw, 2rem);
+    line-height: 1.48;
+  }
+  main.tutorial-article-wrap .tutorial-article-hero > p {
+    font-size: 1rem;
+    line-height: 1.85;
+  }
+  main.tutorial-article-wrap .tutorial-article-hero .tutorial-cover {
+    max-height: 300px;
+    margin-top: 18px;
+    border-radius: 13px;
+  }
   main.tutorial-article-wrap .tutorial-cover-placeholder {
     aspect-ratio: auto;
-    min-height: 160px;
-    padding: 18px;
-    gap: 14px;
+    min-height: 148px;
+    padding: 16px;
+    gap: 12px;
   }
   .tutorial-cover-placeholder .cover-placeholder-icon {
-    flex-basis: 58px;
-    width: 58px;
-    height: 58px;
-    border-radius: 16px;
-    font-size: 2rem;
+    flex-basis: 54px;
+    width: 54px;
+    height: 54px;
+    border-radius: 15px;
+    font-size: 1.9rem;
   }
-  .tutorial-cover-placeholder .cover-placeholder-copy { max-width: 100%; }
-  .tutorial-cover-placeholder .cover-placeholder-mark { left: 12px; bottom: 8px; }
+  .tutorial-cover-placeholder .cover-placeholder-copy {
+    max-width: calc(100% - 66px);
+  }
+  .tutorial-cover-placeholder .cover-placeholder-copy strong {
+    font-size: clamp(1rem, 4.2vw, 1.3rem);
+    line-height: 1.45;
+  }
+  .tutorial-cover-placeholder .cover-placeholder-mark {
+    left: 10px;
+    bottom: 6px;
+    font-size: 1.25rem;
+  }
+  main.tutorial-article-wrap .tutorial-article-content {
+    padding: 18px;
+    border-radius: 17px;
+    font-size: 17px;
+    line-height: 1.9;
+  }
+  main.tutorial-article-wrap .tutorial-article-content h2 {
+    margin-top: 1.45em;
+  }
+  main.tutorial-article-wrap .tutorial-article-content pre {
+    padding: 12px;
+    font-size: .82em;
+  }
+  main.tutorial-article-wrap .tutorial-article-content th,
+  main.tutorial-article-wrap .tutorial-article-content td {
+    padding: 9px;
+  }
+  main.tutorial-article-wrap .tutorial-extra {
+    margin-top: 16px;
+    padding: 17px;
+    border-radius: 17px;
+  }
+  main.tutorial-article-wrap .tutorial-related-list {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+  main.tutorial-article-wrap .tutorial-related-card {
+    padding: 15px;
+  }
+  main.tutorial-article-wrap .tutorial-share {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+    margin-top: 18px;
+  }
+  main.tutorial-article-wrap .tutorial-share button,
+  main.tutorial-article-wrap .tutorial-share a {
+    width: 100%;
+    min-height: 48px;
+    padding: 12px 14px;
+    font-size: 1rem;
+  }
+  main.tutorial-article-wrap .tutorial-pager {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+    margin-top: 18px;
+  }
+  main.tutorial-article-wrap .tutorial-pager a {
+    min-height: 76px;
+    padding: 15px;
+  }
+  main.tutorial-article-wrap .tutorial-pager .pager-next {
+    text-align: right;
+  }
+}
+@media (max-width: 390px) {
+  main.tutorial-article-wrap,
+  body > main.tutorial-article-wrap {
+    width: calc(100% - 22px) !important;
+  }
+  main.tutorial-article-wrap .tutorial-article-hero,
+  main.tutorial-article-wrap .tutorial-article-content {
+    padding: 15px;
+  }
+  main.tutorial-article-wrap .tutorial-article-content {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+  main.tutorial-article-wrap .tutorial-article-hero h1 {
+    font-size: clamp(1.55rem, 6.2vw, 1.8rem);
+  }
+  main.tutorial-article-wrap .tutorial-cover-placeholder {
+    gap: 10px;
+  }
+  .tutorial-cover-placeholder .cover-placeholder-icon {
+    flex-basis: 46px;
+    width: 46px;
+    height: 46px;
+    font-size: 1.6rem;
+  }
+  .tutorial-cover-placeholder .cover-placeholder-copy {
+    max-width: calc(100% - 56px);
+  }
+}
+@media (max-width: 360px) {
+  main.tutorial-article-wrap,
+  body > main.tutorial-article-wrap {
+    width: calc(100% - 20px) !important;
+  }
+  main.tutorial-article-wrap .tutorial-share button,
+  main.tutorial-article-wrap .tutorial-share a {
+    padding-inline: 10px;
+    font-size: .95rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tutorial-article-wrap *,
+  .tutorial-index * {
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }
