@@ -376,6 +376,146 @@
       "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
       "features": [],
       "createdAt": "2026-10-27"
+    },
+    {
+      "id": "dreambox-two-1",
+      "slug": "dreambox-two-1",
+      "name": "Dreambox Two 1",
+      "brand": "",
+      "category": "Receiver",
+      "condition": "New",
+      "status": "Available",
+      "price": 0,
+      "oldPrice": 0,
+      "currency": "EGP",
+      "featured": false,
+      "bestSeller": false,
+      "description": "منتج تم اكتشاف صورته تلقائياً من مكتبة صور ONLINE4TECH. تواصل معنا لتأكيد الموديل والتوافق والسعر.",
+      "images": [
+        "../assets/images/products/dreambox-two-1.png"
+      ],
+      "gallery": [
+        "../assets/images/products/dreambox-two-1.png"
+      ],
+      "specifications": {},
+      "supportedImages": [],
+      "compatiblePlugins": [],
+      "compatibleBackups": [],
+      "stock": 0,
+      "rating": 0,
+      "salesCount": 0,
+      "features": [
+        "Auto Discovery"
+      ],
+      "whatsappLink": "https://wa.me/201092978131?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20Dreambox%20Two%201",
+      "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
+      "createdAt": "auto-discovered",
+      "autoDiscovered": true
+    },
+    {
+      "id": "dreambox-two-main",
+      "slug": "dreambox-two-main",
+      "name": "Dreambox Two Main",
+      "brand": "",
+      "category": "Receiver",
+      "condition": "New",
+      "status": "Available",
+      "price": 0,
+      "oldPrice": 0,
+      "currency": "EGP",
+      "featured": false,
+      "bestSeller": false,
+      "description": "منتج تم اكتشاف صورته تلقائياً من مكتبة صور ONLINE4TECH. تواصل معنا لتأكيد الموديل والتوافق والسعر.",
+      "images": [
+        "../assets/images/products/dreambox-two-main.png"
+      ],
+      "gallery": [
+        "../assets/images/products/dreambox-two-main.png"
+      ],
+      "specifications": {},
+      "supportedImages": [],
+      "compatiblePlugins": [],
+      "compatibleBackups": [],
+      "stock": 0,
+      "rating": 0,
+      "salesCount": 0,
+      "features": [
+        "Auto Discovery"
+      ],
+      "whatsappLink": "https://wa.me/201092978131?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20Dreambox%20Two%20Main",
+      "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
+      "createdAt": "auto-discovered",
+      "autoDiscovered": true
+    },
+    {
+      "id": "remote-vuplus-2",
+      "slug": "remote-vuplus-2",
+      "name": "Remote Vuplus 2",
+      "brand": "",
+      "category": "Remote",
+      "condition": "New",
+      "status": "Available",
+      "price": 0,
+      "oldPrice": 0,
+      "currency": "EGP",
+      "featured": false,
+      "bestSeller": false,
+      "description": "منتج تم اكتشاف صورته تلقائياً من مكتبة صور ONLINE4TECH. تواصل معنا لتأكيد الموديل والتوافق والسعر.",
+      "images": [
+        "../assets/images/products/remote-vuplus-2.png"
+      ],
+      "gallery": [
+        "../assets/images/products/remote-vuplus-2.png"
+      ],
+      "specifications": {},
+      "supportedImages": [],
+      "compatiblePlugins": [],
+      "compatibleBackups": [],
+      "stock": 0,
+      "rating": 0,
+      "salesCount": 0,
+      "features": [
+        "Auto Discovery"
+      ],
+      "whatsappLink": "https://wa.me/201092978131?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20Remote%20Vuplus%202",
+      "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
+      "createdAt": "auto-discovered",
+      "autoDiscovered": true
+    },
+    {
+      "id": "remote-vuplus-original",
+      "slug": "remote-vuplus-original",
+      "name": "Remote Vuplus Original",
+      "brand": "",
+      "category": "Remote",
+      "condition": "New",
+      "status": "Available",
+      "price": 0,
+      "oldPrice": 0,
+      "currency": "EGP",
+      "featured": false,
+      "bestSeller": false,
+      "description": "منتج تم اكتشاف صورته تلقائياً من مكتبة صور ONLINE4TECH. تواصل معنا لتأكيد الموديل والتوافق والسعر.",
+      "images": [
+        "../assets/images/products/remote-vuplus-original.png"
+      ],
+      "gallery": [
+        "../assets/images/products/remote-vuplus-original.png"
+      ],
+      "specifications": {},
+      "supportedImages": [],
+      "compatiblePlugins": [],
+      "compatibleBackups": [],
+      "stock": 0,
+      "rating": 0,
+      "salesCount": 0,
+      "features": [
+        "Auto Discovery"
+      ],
+      "whatsappLink": "https://wa.me/201092978131?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20Remote%20Vuplus%20Original",
+      "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
+      "createdAt": "auto-discovered",
+      "autoDiscovered": true
     }
   ]
 }
