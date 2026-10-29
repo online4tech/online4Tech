@@ -5960,12 +5960,12 @@
     "type": "Backups"
   },
   {
-    "title": "📺ملفات القنواتافتح مكتبة التحميل للوصول لملفات القنوات والملفات المتاحة.افتح مكتبة التحميل ←",
+    "title": "📺ملفات القنواتافتح صفحة قائمة القنوات للتنزيل والتثبيت مع شرح خطوات الاستخدام.عرض قائمة القنوات ←",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
-    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "url": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html",
     "category": "منتجات",
     "brand": "Dreambox",
-    "type": "Backups"
+    "type": "Tutorial"
   },
   {
     "title": "🔎 ابحث وصفّي النتائج",
