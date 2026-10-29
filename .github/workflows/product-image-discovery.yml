@@ -1,0 +1,38 @@
+name: Auto-discover store products from image library
+
+on:
+  push:
+    paths:
+      - 'assets/images/products/**'
+      - 'scripts/sync_product_images.py'
+      - '.github/workflows/product-image-discovery.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: product-image-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Sync new image files into products.json
+        run: python3 scripts/sync_product_images.py
+      - name: Commit discovered products
+        run: |
+          if git diff --quiet -- data/products.json; then
+            echo "No new image products found."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/products.json
+          git commit -m "Auto-discover products from image library"
+          git push
