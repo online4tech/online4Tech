@@ -325,13 +325,13 @@ def page_for(item: dict[str, Any], index: int, items: list[dict[str, Any]]) -> s
   <meta name="twitter:image" content="{escape(image_url)}">
   <meta name="twitter:image:alt" content="{escape(image_alt)}">
   <link rel="stylesheet" href="../assets/site-header.css?v=5">
-  <link rel="stylesheet" href="../assets/tutorials.css?v=2">
+  <link rel="stylesheet" href="../assets/tutorials.css?v=3">
   <script defer src="../assets/site-header.js?v=5"></script>
   <script type="application/ld+json">{schema_json}</script>
 </head>
 <body>
   <header></header>
-  <main class="wrap tutorial-article-wrap" id="main-content">
+  <main class="tutorial-article-wrap" id="main-content">
     <nav class="tutorial-breadcrumb" aria-label="مسار التنقل">
       <a href="../index.html">الرئيسية</a>
       <span class="crumb-separator" aria-hidden="true">/</span>
@@ -341,11 +341,11 @@ def page_for(item: dict[str, Any], index: int, items: list[dict[str, Any]]) -> s
     </nav>
     <article>
       <header class="tutorial-article-hero">
-        {cover_html}
         <span class="tutorial-article-icon" aria-hidden="true">{icon_html}</span>
         <span class="tutorial-article-kicker">{category_html}</span>
         <h1>{title_html}</h1>
         <p>{description_html}</p>
+        {cover_html}
       </header>
       <div class="tutorial-article-content">
         {content_html}
