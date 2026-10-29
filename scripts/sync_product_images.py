@@ -61,14 +61,35 @@ def main() -> None:
             if isinstance(value, str):
                 known_files.add(Path(value.split("?", 1)[0]).name.lower())
 
-    # Preserve established legacy mappings; do not replace or rewrite Vu+ image fields.
+    # Preserve established mappings and keep explicitly removed products excluded.
     known_files.update({"dreambox-one.png", "vu-zero-pvrkit.png", "dreambox-two-1.png", "dreambox-two-main.png"})
     added = 0
+    gallery_suffix = re.compile(r"^(?:(?:photo|image|img|side|detail|back|front|top|bottom|gallery)-?)?\d+$", re.I)
+    products_by_id = sorted(products, key=lambda p: len(str(p.get("id") or p.get("slug") or "")), reverse=True)
     for image in sorted(IMAGE_DIR.iterdir()):
         if not image.is_file() or image.suffix.lower() not in EXTENSIONS:
             continue
         product_id = slugify(image.name)
-        if not product_id or product_id in known_ids or image.name.lower() in known_files:
+        if not product_id or image.name.lower() in known_files:
+            continue
+        stem = image.stem.lower()
+        gallery_match = None
+        for existing in products_by_id:
+            base = str(existing.get("id") or existing.get("slug") or "").lower()
+            suffix = stem[len(base) + 1:] if base and stem.startswith(base + "-") else ""
+            if suffix and gallery_suffix.fullmatch(suffix):
+                gallery_match = existing
+                break
+        if gallery_match:
+            relative = "../assets/images/products/" + image.name
+            current_gallery = gallery_match.get("gallery", []) or []
+            current_images = gallery_match.get("images", []) or []
+            gallery_match["gallery"] = list(dict.fromkeys(
+                [src for src in current_gallery + current_images if isinstance(src, str) and src.strip()] + [relative]
+            ))
+            known_files.add(image.name.lower())
+            continue
+        if product_id in known_ids:
             continue
         title = title_from_filename(image.name)
         relative = "../assets/images/products/" + image.name
