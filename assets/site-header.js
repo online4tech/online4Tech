@@ -33,6 +33,11 @@
   style.textContent = `
     .o4t-header{position:sticky;top:0;z-index:1000;width:100%;box-sizing:border-box;background:linear-gradient(135deg,#07111f 0%,#0b1a2d 52%,#10243a 100%);border-bottom:1px solid #244664;box-shadow:0 10px 32px #0004;color:#f4f8ff;font-family:Tahoma,Arial,sans-serif;backdrop-filter:blur(18px)}
     .o4t-header *{box-sizing:border-box}
+    .o4t-header{transform:translate3d(0,0,0);transition:transform 220ms ease,box-shadow 220ms ease;will-change:transform}
+    .o4t-header.o4t-header-hidden{transform:translate3d(0,calc(-100% - 2px),0);pointer-events:none;box-shadow:none}
+    .o4t-header.o4t-header-hidden *{pointer-events:none}
+    @media(max-width:600px){.o4t-header{transition-duration:170ms}}
+    @media(prefers-reduced-motion:reduce){.o4t-header{transition:none!important;will-change:auto}}
     .o4t-head-inner{max-width:1240px;margin:0 auto;padding:14px 22px 13px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px}
     .o4t-brand{display:flex;flex-direction:column;align-items:center;justify-content:center;text-decoration:none!important;min-width:0;max-width:100%;color:#fff!important}
     .o4t-brand img{display:block;width:clamp(250px,30vw,360px);max-width:100%;height:auto;max-height:96px;object-fit:contain;object-position:center}
@@ -132,7 +137,6 @@
     }
 
     // Avoid a delayed transition when the user opens a page already scrolled down.
-    if (lastY > 8) header.classList.add('o4t-header-scroll-ready');
     if (reducedMotion) header.classList.add('o4t-header-reduced-motion');
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('pageshow', function () {
