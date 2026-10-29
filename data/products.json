@@ -297,7 +297,7 @@
       "currency": "EGP",
       "featured": false,
       "bestSeller": false,
-      "description": "جهاز Panther Thunder من فئة أجهزة Android TV. تواصل معنا لمعرفة السعر والمواصفات والتوفر.",
+      "description": "Panther Thunder 4K رسيفر هجين يجمع بين استقبال القنوات الفضائية ونظام Android 9، بمعالج GK6323V110B رباعي النواة وذاكرة 4GB RAM و32GB تخزين ودعم 4K. راجع تفاصيل المواصفات والخدمات داخل الصفحة، وتواصل معنا لتأكيد العرض الحالي.",
       "images": [
         "../assets/images/products/panther-thunder.png"
       ],
@@ -309,8 +309,15 @@
       "salesCount": 0,
       "whatsappLink": "https://wa.me/201092978131?text=%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20Panther%20Thunder%20%D8%A8%D8%A7%D9%86%D8%AB%D8%B1%20%D8%AB%D8%A7%D9%86%D8%AF%D8%B1",
       "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
-      "features": [],
-      "createdAt": "2026-10-29"
+      "features": [
+        "Android 9",
+        "4K Ultra HD",
+        "4GB RAM",
+        "32GB Storage",
+        "Satellite + Android"
+      ],
+      "createdAt": "2026-10-29",
+      "productType": "android-satellite-hybrid"
     },
     {
       "id": "vu-remote-1",
@@ -325,7 +332,7 @@
       "currency": "EGP",
       "featured": false,
       "bestSeller": false,
-      "description": "ريموت Vu+ Universal للتحكم في أجهزة الاستقبال المتوافقة. ابعت موديل الرسيفر على واتساب عشان نأكد التوافق قبل الشراء.",
+      "description": "ريموت تحكم متوافق مع جميع أجهزة Vu+. لو محتاج تتأكد من نوع الوظائف أو شكل الريموت المناسب، تواصل معنا قبل الشراء.",
       "images": [
         "../assets/images/products/VU+ Universal Remote.png"
       ],
@@ -343,7 +350,10 @@
       "gallery": [
         "../assets/images/products/VU+ Universal Remote.png"
       ],
-      "productType": "remote"
+      "productType": "remote",
+      "specifications": {
+        "التوافق": "متوافق مع جميع أجهزة Vu+"
+      }
     },
     {
       "id": "vu-remote-3",
@@ -358,7 +368,7 @@
       "currency": "EGP",
       "featured": false,
       "bestSeller": false,
-      "description": "ريموت Vu+ Bluetooth. التوافق والوظائف المدعومة بتختلف حسب موديل الجهاز؛ ابعت موديل الرسيفر لتأكيد التفاصيل قبل الشراء.",
+      "description": "ريموت تحكم متوافق مع جميع أجهزة Vu+. لو محتاج تتأكد من نوع الوظائف أو شكل الريموت المناسب، تواصل معنا قبل الشراء.",
       "images": [
         "../assets/images/products/VU+ Bluetooth Remote.png"
       ],
@@ -378,7 +388,10 @@
       "gallery": [
         "../assets/images/products/VU+ Bluetooth Remote.png"
       ],
-      "productType": "remote"
+      "productType": "remote",
+      "specifications": {
+        "التوافق": "متوافق مع جميع أجهزة Vu+"
+      }
     },
     {
       "id": "dreambox-rc10-remote",
@@ -393,7 +406,7 @@
       "currency": "EGP",
       "featured": false,
       "bestSeller": false,
-      "description": "ريموت Dreambox RC10 للتحكم في أجهزة الاستقبال المتوافقة. تواصل معنا لتأكيد التوافق والسعر والتوفر.",
+      "description": "ريموت تحكم متوافق مع كافة أجهزة Dreambox. تواصل معنا لو محتاج مساعدة في اختيار موديل الريموت المناسب.",
       "images": [
         "../assets/images/products/Dreambox RC10 Remote.png"
       ],
@@ -411,7 +424,10 @@
         "../assets/images/products/Dreambox RC10 Remote.png"
       ],
       "imageFile": "Dreambox RC10 Remote.png",
-      "productType": "remote"
+      "productType": "remote",
+      "specifications": {
+        "التوافق": "متوافق مع كافة أجهزة Dreambox"
+      }
     },
     {
       "id": "dreambox-rc20-remote",
@@ -426,7 +442,7 @@
       "currency": "EGP",
       "featured": false,
       "bestSeller": false,
-      "description": "ريموت Dreambox RC 20. تواصل معنا لتأكيد توافقه مع موديل جهازك ومعرفة السعر والتوفر.",
+      "description": "ريموت تحكم متوافق مع كافة أجهزة Dreambox. تواصل معنا لو محتاج مساعدة في اختيار موديل الريموت المناسب.",
       "images": [
         "../assets/images/products/Dreambox RC 20 Remote.png"
       ],
@@ -444,7 +460,10 @@
         "../assets/images/products/Dreambox RC 20 Remote.png"
       ],
       "imageFile": "Dreambox RC 20 Remote.png",
-      "productType": "remote"
+      "productType": "remote",
+      "specifications": {
+        "التوافق": "متوافق مع كافة أجهزة Dreambox"
+      }
     },
     {
       "id": "vu-modern-remote",
@@ -459,14 +478,16 @@
       "currency": "EGP",
       "featured": false,
       "bestSeller": false,
-      "description": "ريموت Vu+ Modern للتحكم في أجهزة الاستقبال المتوافقة. ابعت موديل الرسيفر على واتساب لتأكيد التوافق والوظائف المتاحة.",
+      "description": "ريموت تحكم متوافق مع جميع أجهزة Vu+. لو محتاج تتأكد من نوع الوظائف أو شكل الريموت المناسب، تواصل معنا قبل الشراء.",
       "images": [
         "../assets/images/products/Vu+ modern remote.png"
       ],
       "gallery": [
         "../assets/images/products/Vu+ modern remote.png"
       ],
-      "specifications": {},
+      "specifications": {
+        "التوافق": "متوافق مع جميع أجهزة Vu+"
+      },
       "supportedImages": [],
       "compatiblePlugins": [],
       "compatibleBackups": [],
