@@ -174,7 +174,7 @@
       "bestSeller": false,
       "description": "جهاز Dreambox ONE UHD مستعمل. تواصل للتأكد من السعر والتجهيزات.",
       "images": [
-        "https://applianceeg.com/wp-content/uploads/2026/09/61DMpHCz0ML._AC_SL1500_.jpg"
+        "../assets/images/products/dreambox-one.png"
       ],
       "specifications": {
         "CPU": "ARM",
@@ -207,7 +207,8 @@
         "4K",
         "Linux"
       ],
-      "createdAt": "2026-10-27"
+      "createdAt": "2026-10-27",
+      "imageFallback": "https://applianceeg.com/wp-content/uploads/2026/09/61DMpHCz0ML._AC_SL1500_.jpg"
     },
     {
       "id": "vu-zero-4k-used",
@@ -279,7 +280,7 @@
       "bestSeller": true,
       "description": "حوّل جهاز VU+ Zero 4K إلى جهاز يدعم التسجيل والـ Time Shift باستخدام هارد متوافق.",
       "images": [
-        "https://img.datacomp.sk/pvr-kit-pre-vu-zero-4k_i363481.jpg"
+        "../assets/images/products/vu-zero-pvrkit.png"
       ],
       "specifications": {
         "Compatibility": "Vu+ Zero 4K",
@@ -298,7 +299,8 @@
       "whatsappLink": "https://wa.me/201092978131?text=VU%2B%20Zero%204K%20PVR%20KIT",
       "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
       "features": [],
-      "createdAt": "2026-10-27"
+      "createdAt": "2026-10-27",
+      "imageFallback": "https://img.datacomp.sk/pvr-kit-pre-vu-zero-4k_i363481.jpg"
     },
     {
       "id": "vu-remote-1",
