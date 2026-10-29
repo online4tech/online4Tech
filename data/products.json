@@ -330,7 +330,7 @@
       "bestSeller": false,
       "description": "ريموت تحكم لأجهزة الاستقبال. ابعت موديل الرسيفر على واتساب لتأكيد التوافق.",
       "images": [
-        "https://raw.githubusercontent.com/online4tech/online4Tech/main/images/Screenshot%202026-10-25%20170219.jpg"
+        "../assets/images/products/VU+ Universal Remote.png"
       ],
       "specifications": {
         "Compatibility": "يرجى تأكيد الموديل"
@@ -344,7 +344,11 @@
       "whatsappLink": "https://wa.me/201092978131?text=ريموت%20VU%2B",
       "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
       "features": [],
-      "createdAt": "2026-10-27"
+      "createdAt": "2026-10-27",
+      "imageFile": "VU+ Universal Remote.png",
+      "gallery": [
+        "../assets/images/products/VU+ Universal Remote.png"
+      ]
     },
     {
       "id": "vu-remote-3",
@@ -376,7 +380,10 @@
       "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
       "features": [],
       "createdAt": "2026-10-27",
-      "imageFile": "VU+ Bluetooth Remote.png"
+      "imageFile": "VU+ Bluetooth Remote.png",
+      "gallery": [
+        "../assets/images/products/VU+ Bluetooth Remote.png"
+      ]
     },
     {
       "id": "dreambox-rc10-remote",
@@ -455,10 +462,10 @@
       "bestSeller": false,
       "description": "منتج تم اكتشاف صورته تلقائياً من مكتبة صور ONLINE4TECH. تواصل معنا لتأكيد الموديل والتوافق والسعر.",
       "images": [
-        "../assets/images/products/VU+ Modern Remote.png"
+        "../assets/images/products/Vu+ modern remote.png"
       ],
       "gallery": [
-        "../assets/images/products/VU+ Modern Remote.png"
+        "../assets/images/products/Vu+ modern remote.png"
       ],
       "specifications": {},
       "supportedImages": [],
@@ -473,7 +480,8 @@
       "whatsappLink": "https://wa.me/201092978131?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20Vu%2B%20modern%20remote",
       "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
       "createdAt": "auto-discovered",
-      "autoDiscovered": true
+      "autoDiscovered": true,
+      "imageFile": "Vu+ modern remote.png"
     }
   ]
 }
