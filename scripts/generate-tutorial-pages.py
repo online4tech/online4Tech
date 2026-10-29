@@ -60,6 +60,7 @@ def page_for(item, index, items):
         links = ''.join(f'<li><a href="{esc(f.get("url", ""))}">{esc(f.get("title", "ملف مرتبط"))}</a></li>' for f in files if f.get("url"))
         if links:
             files_html = f'<section class="tutorial-extra"><h2>📎 الملفات المرتبطة</h2><ul>{links}</ul></section>'
+    schema_json = json.dumps(schema, ensure_ascii=False).replace("</", "<\\/")
     return f'''<!doctype html>
 <html lang="ar" dir="rtl"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07111f">
@@ -69,7 +70,7 @@ def page_for(item, index, items):
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)} | Online4Tech"><meta name="twitter:description" content="{esc(description)}">
 <title>{esc(title)} | Online4Tech</title>
 <link rel="stylesheet" href="../assets/site-header.css?v=5"><link rel="stylesheet" href="../assets/tutorials.css?v=1">
-<script defer src="../assets/site-header.js?v=5"></script><script type="application/ld+json">{json.dumps(schema, ensure_ascii=False).replace("</", "<\\/")}</script>
+<script defer src="../assets/site-header.js?v=5"></script><script type="application/ld+json">{schema_json}</script>
 </head><body><header></header><main class="wrap tutorial-article-wrap">
 <nav class="tutorial-breadcrumb" aria-label="مسار التنقل"><a href="../index.html">الرئيسية</a><span class="crumb-separator">/</span><a href="../tutorials.html">مركز الشروحات</a><span class="crumb-separator">/</span><span aria-current="page">{esc(title)}</span></nav>
 <article><div class="tutorial-article-hero">{cover_html}<span class="tutorial-article-icon" aria-hidden="true">{esc(icon)}</span><span class="tutorial-article-kicker">{esc(category)}</span><h1>{esc(title)}</h1><p>{esc(description)}</p></div>
