@@ -25,5 +25,5 @@ const cats=['الكل',...new Set(items.map(x=>x.cat))];
 cats.forEach(c=>{const b=document.createElement('button');b.textContent=c;b.className=c==='الكل'?'active':'';b.onclick=()=>{category=c;[...filters.children].forEach(x=>x.classList.toggle('active',x===b));render()};filters.appendChild(b)});
 function render(){const q=search.value.trim().toLocaleLowerCase('ar');const shown=items.filter(x=>(category==='الكل'||x.cat===category)&&(x.name+' '+x.title+' '+x.cat+' '+x.desc).toLocaleLowerCase('ar').includes(q));grid.innerHTML=shown.map(x=>'<article class="topic"><div class="icon">'+x.icon+'</div><span class="category">'+x.cat+'</span><h2 dir="ltr">'+x.name+'</h2><p>'+x.desc+'</p><div class="buttons"><a class="link" href="'+x.url+'" target="_blank" rel="noopener">عرض الملف ↗</a><a class="link download" href="'+x.download+'" target="_blank" rel="noopener">تنزيل الملف ↓</a></div></article>').join('');count.textContent=shown.length+' من '+items.length+' ملف';empty.style.display=shown.length?'none':'block'}
 search.addEventListener('input',render);render();
-</script><script src="../assets/site-header.js" defer></script>
+</script><script src="../assets/site-header.js?v=6" defer></script>
 </body></html>
