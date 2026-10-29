@@ -44,7 +44,7 @@
       const files=await response.json();
       if(!Array.isArray(files))return products;
       const knownIds=new Set(products.flatMap(p=>[p.id,p.slug].filter(Boolean).map(x=>String(x).toLowerCase())));
-      const knownFiles=knownFileNames(products);
+      const knownFiles=knownFileNames(products);\n      // Explicitly excluded from the storefront, even while their image files remain in the library.\n      ['dreambox-two-1.png','dreambox-two-main.png'].forEach(name=>knownFiles.add(name));
       files.filter(f=>f&&f.type==='file'&&IMAGE_EXT.test(f.name)&&!f.name.startsWith('.')).forEach(file=>{
         const id=slugify(file.name);
         if(!id||knownIds.has(id.toLowerCase())||knownFiles.has(file.name.toLowerCase()))return;
