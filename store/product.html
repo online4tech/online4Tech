@@ -38,14 +38,10 @@ function fallbackProductImage(img){
  items=values(items);
  if(!items.length)return '';
  const labelOf=x=>typeof x==='string'?x:(x.name||x.title||x.label||x.text||'');
- const urlOf=x=>typeof x==='object'&&(x.url||x.href||x.downloadUrl||x.download_url);
  let body='';
- if(type==='backup'&&items.length===1){
-  const x=items[0],label=labelOf(x)||'تحميل الباك أب',url=urlOf(x);
-  body=url?'<a class="smart-download" href="'+esc(url)+'" target="_blank" rel="noopener">⬇️ '+esc(label)+'</a>':'<div class="smart-compact"><span>📦</span><b>'+esc(label)+'</b></div>';
- }else if(items.length===1){
+ if(items.length===1){
   const x=items[0],label=labelOf(x);
-  body='<div class="smart-compact"><span>'+(type==='plugins'?'🧩':type==='images'?'🖥️':'✓')+'</span><b>'+esc(label)+'</b></div>';
+  body='<div class="smart-compact"><span>'+(type==='plugins'?'🧩':'✓')+'</span><b>'+esc(label)+'</b></div>';
  }else if(items.length<=3){
   body='<div class="smart-chips">'+items.map(x=>'<span class="smart-chip">'+esc(labelOf(x))+'</span>').join('')+'</div>';
  }else{
