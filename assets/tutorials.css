@@ -1301,3 +1301,97 @@ main.tutorial-article-wrap .tutorial-article-content [style*="color:#244b75"],
 main.tutorial-article-wrap .tutorial-article-content [style*="color: #244b75"] {
   color: #ffe0a3 !important;
 }
+
+
+/* CSS-generated cover art is used when a tutorial has no authored coverImage. */
+main.tutorial-article-wrap .tutorial-cover-placeholder {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: clamp(16px, 3vw, 30px);
+  min-height: 190px;
+  aspect-ratio: 16 / 5;
+  padding: clamp(20px, 4vw, 42px);
+  overflow: hidden;
+  border: 1px solid #315475;
+  border-radius: 16px;
+  background:
+    radial-gradient(circle at 85% 20%, #1e719166 0, transparent 34%),
+    radial-gradient(circle at 10% 100%, #2864df55 0, transparent 38%),
+    linear-gradient(120deg, #0a1728 0%, #10243a 58%, #123b49 100%);
+  box-shadow: 0 12px 28px #0004;
+}
+main.tutorial-article-wrap .tutorial-cover-placeholder::after {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  inset-inline-end: -64px;
+  bottom: -120px;
+  border: 1px solid #9fc4ff35;
+  border-radius: 50%;
+  box-shadow: 0 0 0 24px #9fc4ff0b, 0 0 0 48px #9fc4ff08;
+  pointer-events: none;
+}
+.tutorial-cover-placeholder .cover-placeholder-icon {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  flex: 0 0 clamp(64px, 8vw, 100px);
+  place-items: center;
+  width: clamp(64px, 8vw, 100px);
+  height: clamp(64px, 8vw, 100px);
+  border: 1px solid #80b8e455;
+  border-radius: 24px;
+  background: #07111f88;
+  box-shadow: 0 8px 22px #0003;
+  font-size: clamp(2.2rem, 4.5vw, 3.5rem);
+}
+.tutorial-cover-placeholder .cover-placeholder-copy {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+  max-width: 72%;
+}
+.tutorial-cover-placeholder .cover-placeholder-copy strong {
+  color: #f0f6ff;
+  font-size: clamp(1.25rem, 2.6vw, 2rem);
+  font-weight: 900;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.tutorial-cover-placeholder .cover-placeholder-copy small {
+  color: #a9c8e9;
+  font-size: clamp(.85rem, 1.2vw, 1rem);
+  font-weight: 800;
+}
+.tutorial-cover-placeholder .cover-placeholder-mark {
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  bottom: 14px;
+  color: #d3e6fa55;
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+@media (max-width: 600px) {
+  main.tutorial-article-wrap .tutorial-cover-placeholder {
+    aspect-ratio: auto;
+    min-height: 160px;
+    padding: 18px;
+    gap: 14px;
+  }
+  .tutorial-cover-placeholder .cover-placeholder-icon {
+    flex-basis: 58px;
+    width: 58px;
+    height: 58px;
+    border-radius: 16px;
+    font-size: 2rem;
+  }
+  .tutorial-cover-placeholder .cover-placeholder-copy { max-width: 100%; }
+  .tutorial-cover-placeholder .cover-placeholder-mark { left: 12px; bottom: 8px; }
+}
