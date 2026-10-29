@@ -1,6 +1,26 @@
 (function () {
   'use strict';
-  const BASE = '/online4Tech/';
+
+  if (window.__o4tSearchRuntimeStarted) return;
+  window.__o4tSearchRuntimeStarted = true;
+
+  const readSiteBase = () => {
+    try {
+      const scriptSrc = (document.currentScript && document.currentScript.src) || window.location.href;
+      const url = new URL(scriptSrc, window.location.href);
+      const segments = url.pathname.split('/').filter(Boolean);
+      const repoIndex = segments.findIndex(segment => segment.toLowerCase() === 'online4tech');
+      if (repoIndex >= 0) {
+        return '/' + segments.slice(0, repoIndex + 1).join('/') + '/';
+      }
+      const withoutFile = segments.slice(0, -1);
+      return withoutFile.length ? '/' + withoutFile.join('/') + '/' : '/';
+    } catch (_) {
+      return '/';
+    }
+  };
+
+  const BASE = readSiteBase();
   const INDEX_URL = BASE + 'data/search-index.json';
   const normalize = value => String(value || '')
     .normalize('NFKC')
@@ -12,7 +32,7 @@
     .replace(/ئ/g, 'ي')
     .replace(/\s+/g, ' ')
     .trim();
-  const esc = value => String(value || '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  const esc = value => String(value || '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[ch]));
   const absolute = url => /^https?:\/\//i.test(url) ? url : BASE + String(url || '').replace(/^\/+/, '');
   let indexPromise;
   function getIndex() {
@@ -41,7 +61,7 @@
     const shell = document.createElement('section');
     shell.className = 'o4t-search-shell';
     shell.id = 'o4t-global-search';
-    shell.innerHTML = '<form class="o4t-search-form" role="search"><span class="o4t-search-mark" aria-hidden="true">⌕</span><input class="o4t-search-input" type="search" name="q" autocomplete="off" aria-label="ابحث في الموقع" placeholder="ابحث عن جهاز أو ملف أو شرح أو منتج…" /><button class="o4t-search-submit" type="submit">بحث شامل</button></form><div class="o4t-search-results" role="listbox" aria-label="نتائج البحث المباشرة"></div>';
+    shell.innerHTML = '<form class="o4t-search-form" role="search"><span class="o4t-search-mark" aria-hidden="true">⌕</span><input class="o4t-search-input" type="search" name="q" autocomplete="off" aria-label="بحث سريع" placeholder="ابحث عن منتج أو شرح أو جهاز"><button type="submit" class="o4t-search-submit">بحث</button></form><div class="o4t-search-results" role="listbox" aria-live="polite"></div>';
     const header = document.querySelector('header');
     const main = document.querySelector('main');
     if (header && header.parentNode) header.insertAdjacentElement('afterend', shell);
@@ -83,7 +103,7 @@
   }
   function inferType(text, path) {
     const v = normalize((text || '') + ' ' + (path || ''));
-    if (/store\/|store\.html/.test(path || '')) return 'Product';
+    if (/store\/+|store\.html/.test(path || '')) return 'Product';
     if (v.includes('backup') || v.includes('باك اب') || v.includes('باك أب')) return 'Backups';
     if (v.includes('channel') || v.includes('قنوات')) return 'Channels';
     if (v.includes('tutorial') || v.includes('شرح') || v.includes('دليل')) return 'Tutorial';
@@ -118,9 +138,9 @@
     const brands = '<option value="all">كل الشركات</option><option value="Vu+">Vu+</option><option value="Dreambox">Dreambox</option>';
     const types = isStore
       ? '<option value="all">كل الأنواع</option><option value="new">جديد</option><option value="used">مستعمل</option><option value="accessory">إكسسوارات</option>'
-      : '<option value="all">كل الأنواع</option><option value="Backups">Backups</option><option value="Channels">Channels</option><option value="Plugin">Plugins</option><option value="Tools">Tools</option><option value="Tutorial">Tutorials</option>';
-    panel.innerHTML = '<div class="o4t-filter-field"><label for="o4t-filter-search">بحث داخل الصفحة</label><input id="o4t-filter-search" type="search" placeholder="اكتب اسم جهاز أو ملف…" /></div><div class="o4t-filter-field"><label for="o4t-filter-brand">الشركة</label><select id="o4t-filter-brand">'+brands+'</select></div><div class="o4t-filter-field"><label for="o4t-filter-type">النوع</label><select id="o4t-filter-type">'+types+'</select></div>'+(isStore?'<div class="o4t-filter-field"><label for="o4t-filter-status">الحالة</label><select id="o4t-filter-status"><option value="all">كل الحالات</option><option value="available">متوفر</option><option value="unavailable">غير متوفر</option><option value="unknown">تأكيد الحالة</option></select></div>':'')+'<output class="o4t-result-count" id="o4t-filter-count" aria-live="polite"></output>';
-    const anchor = isStore ? (document.querySelector('#new') || document.querySelector('.products') || main.firstElementChild) : (document.querySelector('.card-grid') || document.querySelector('.quick-center') || main.firstElementChild);
+      : '<option value="all">كل الأنواع</option><option value="Backups">Backups</option><option value="Channels">Channels</option><option value="Plugin">Plugins</option><option value="Tutorial">Tutorial</option><option value="Tools">Tools</option>';
+    panel.innerHTML = '<div class="o4t-filter-field"><label for="o4t-filter-search">بحث داخل الصفحة</label><input id="o4t-filter-search" type="search" placeholder="اكتب اسم الجهاز أو النوع"><select id="o4t-filter-brand">'+brands+'</select><select id="o4t-filter-type">'+types+'</select><select id="o4t-filter-status"><option value="all">كل الحالات</option><option value="available">متاح</option><option value="unavailable">غير متاح</option><option value="unknown">غير معلوم</option></select><span id="o4t-filter-count">عدد النتائج: 0</span></div>';
+    const anchor = isStore ? (document.querySelector('#new') || document.querySelector('.products') || main.firstElementChild) : (document.querySelector('.card-grid') || document.querySelector('.products-grid') || main.firstElementChild);
     if (anchor) anchor.insertAdjacentElement('beforebegin', panel); else main.prepend(panel);
     tagCards();
     const cards = Array.from(document.querySelectorAll('article, .main-card, .product, .item, .backup-card, .quick-card')).filter(el => !panel.contains(el));
@@ -186,7 +206,7 @@
         };
         const groups = new Map();
         matches.forEach(item => { const key=groupFor(item); if(!groups.has(key))groups.set(key,[]); groups.get(key).push(item); });
-        list.innerHTML = Array.from(groups.entries()).map(([name,items]) => '<section class="o4t-search-result-group"><h2>'+esc(name)+'</h2><div class="o4t-search-grid">'+items.map(item => '<a class="o4t-search-card" href="'+esc(absolute(item.url))+'"><span class="o4t-search-category">'+esc(item.category || item.type || 'نتيجة')+' · '+esc(item.brand || '')+'</span><h2>'+esc(item.title)+'</h2><p>'+esc(item.description || '')+'</p></a>').join('')+'</div></section>').join('');
+        list.innerHTML = Array.from(groups.entries()).map(([name,items]) => '<section class="o4t-search-result-group"><h2>'+esc(name)+'</h2><div class="o4t-search-grid">'+items.map(item => '<a class="o4t-search-card" href="'+esc(absolute(item.url))+'"><strong>'+esc(item.title)+'</strong><small>'+esc(item.description || '')+'</small></a>').join('')+'</div></section>').join('');
       }
     } catch (_) {
       count.textContent = 'تعذر تحميل فهرس البحث';
@@ -196,3 +216,41 @@
   function init() { buildSearchUI(); tagCards(); addFilters(); renderResults(); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, {once:true}); else init();
 })();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+																																																																																																																																																																																																
