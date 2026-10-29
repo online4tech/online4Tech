@@ -539,6 +539,41 @@
       "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
       "features": [],
       "createdAt": "2026-10-29"
+    },
+    {
+      "id": "vu-modern-remote",
+      "slug": "vu-modern-remote",
+      "name": "Vu+ modern remote",
+      "brand": "",
+      "category": "Accessories",
+      "condition": "New",
+      "status": "Available",
+      "price": 0,
+      "oldPrice": 0,
+      "currency": "EGP",
+      "featured": false,
+      "bestSeller": false,
+      "description": "منتج تم اكتشاف صورته تلقائياً من مكتبة صور ONLINE4TECH. تواصل معنا لتأكيد الموديل والتوافق والسعر.",
+      "images": [
+        "../assets/images/products/VU+ Modern Remote.png"
+      ],
+      "gallery": [
+        "../assets/images/products/VU+ Modern Remote.png"
+      ],
+      "specifications": {},
+      "supportedImages": [],
+      "compatiblePlugins": [],
+      "compatibleBackups": [],
+      "stock": 0,
+      "rating": 0,
+      "salesCount": 0,
+      "features": [
+        "Auto Discovery"
+      ],
+      "whatsappLink": "https://wa.me/201092978131?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D9%8B%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%3A%20Vu%2B%20modern%20remote",
+      "instapayLink": "https://ipn.eg/S/aromieh66/instapay/34hjf0",
+      "createdAt": "auto-discovered",
+      "autoDiscovered": true
     }
   ]
 }
