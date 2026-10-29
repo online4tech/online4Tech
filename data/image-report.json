@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T10:24:22.484Z",
+  "generatedAt": "2026-10-29T10:42:03.589Z",
   "pluginsScanned": 48,
   "imagesDownloaded": 62,
   "imagesUpdated": 0,
@@ -214,5 +214,5 @@
     }
   ],
   "cachedRepositories": 7,
-  "catalogChanged": false
+  "catalogChanged": true
 }

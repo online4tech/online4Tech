@@ -44,7 +44,7 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/AMAJamry/AJPanel",
         "githubRelease": ""
@@ -196,7 +196,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "https://raw.githubusercontent.com/popking159/SubsSupportPro/main/SubsSupportPro/seekers/LocalDrive/logo.png",
+      "thumbnail": "images/plugins/subssupportpro/thumbnail.webp",
       "screenshots": [],
       "downloadUrl": "https://github.com/popking159/SubsSupportPro",
       "tutorialUrl": "",
@@ -229,7 +229,7 @@
           "command": "wget -qO- https://raw.githubusercontent.com/popking159/ssupport/main/subssupport-install.sh | /bin/sh"
         }
       ],
-      "icon": "https://raw.githubusercontent.com/popking159/SubsSupportPro/main/SubsSupportPro/seekers/LocalDrive/logo.png",
+      "icon": "images/plugins/subssupportpro/icon.webp",
       "logoFound": true,
       "officialWebsite": ""
     },
@@ -321,7 +321,7 @@
         "githubRelease": "https://github.com/popking159/ipaudio/releases/tag/IPAudio"
       },
       "featured": false,
-      "thumbnail": "https://raw.githubusercontent.com/popking159/ipaudio/main/source/logo.png",
+      "thumbnail": "images/plugins/ipaudio-pro/thumbnail.webp",
       "screenshots": [
         "images/plugins/ipaudio-pro/screenshot-1.webp",
         "images/plugins/ipaudio-pro/screenshot-2.webp",
@@ -363,7 +363,7 @@
           "command": "opkg install https://github.com/popking159/ipaudio/releases/download/IPAudio/enigma2-plugin-extensions-ipaudio_8.11_all.ipk"
         }
       ],
-      "icon": "https://raw.githubusercontent.com/popking159/ipaudio/main/source/logo.png",
+      "icon": "images/plugins/ipaudio-pro/icon.webp",
       "githubStars": 1,
       "logoFound": true,
       "officialWebsite": ""
@@ -445,15 +445,15 @@
       "supportedImages": [
         "Enigma2"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/fairbird/ArabicSavior",
         "githubRelease": ""
       },
       "featured": false,
-      "icon": "https://raw.githubusercontent.com/fairbird/ArabicSavior/main/usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior/icon.png",
+      "icon": "images/plugins/arabicsavior/icon.webp",
       "logoFound": true,
-      "thumbnail": "https://raw.githubusercontent.com/fairbird/ArabicSavior/main/usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior/icon.png",
+      "thumbnail": "images/plugins/arabicsavior/thumbnail.webp",
       "screenshots": [
         "images/plugins/arabicsavior/screenshot-1.webp",
         "images/plugins/arabicsavior/screenshot-2.webp"
@@ -523,7 +523,7 @@
       "supportedImages": [
         "Enigma2"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/Ahmadarjan1/EnigmaPlay-Repo",
         "githubRelease": ""
@@ -573,7 +573,7 @@
       "githubStars": 0,
       "githubForks": 0,
       "lastUpdated": "2026-10-29T09:24:39Z",
-      "popularityScore": 2.0,
+      "popularityScore": 2,
       "telnetCommands": [
         {
           "label": "Quick Install",
@@ -600,7 +600,7 @@
       "supportedImages": [
         "Enigma2"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/fairbird/FootOnsat",
         "githubRelease": ""
@@ -682,7 +682,7 @@
       "supportedImages": [
         "Enigma2"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/fairbird/RaedQuickSignal",
         "githubRelease": ""
@@ -1007,15 +1007,15 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/kiddac/XStreamity",
         "githubRelease": "https://github.com/kiddac/XStreamity/releases/tag/5.59-20260914"
       },
       "featured": true,
-      "icon": "https://raw.githubusercontent.com/kiddac/XStreamity/master/XStreamity/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skins/fhd/common/logo.png",
+      "icon": "images/plugins/xtreamity/icon.webp",
       "logoFound": true,
-      "thumbnail": "https://raw.githubusercontent.com/kiddac/XStreamity/master/XStreamity/usr/lib/enigma2/python/Plugins/Extensions/XStreamity/skins/fhd/common/logo.png",
+      "thumbnail": "images/plugins/xtreamity/thumbnail.webp",
       "screenshots": [],
       "downloadUrl": "https://github.com/kiddac/XStreamity/releases/tag/5.59-20260914",
       "tutorialUrl": "",
@@ -1090,7 +1090,7 @@
         "githubRelease": ""
       },
       "featured": true,
-      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "thumbnail": "",
       "screenshots": [
         "images/plugins/epg-import/screenshot-1.webp",
         "images/plugins/epg-import/screenshot-2.webp",
@@ -1119,8 +1119,8 @@
         "seriesplugin"
       ],
       "features": [],
-      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
-      "logoFound": true,
+      "icon": "",
+      "logoFound": false,
       "officialWebsite": "",
       "telnetCommands": [
         {
@@ -1150,7 +1150,7 @@
         "Enigma2",
         "OpenATV"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/ciefp/CiefpTMDBSearch",
         "githubRelease": ""
@@ -1244,7 +1244,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "thumbnail": "",
       "screenshots": [
         "images/plugins/autotimer/screenshot-1.webp",
         "images/plugins/autotimer/screenshot-2.webp",
@@ -1273,8 +1273,8 @@
         "seriesplugin"
       ],
       "features": [],
-      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
-      "logoFound": true,
+      "icon": "",
+      "logoFound": false,
       "officialWebsite": "",
       "telnetCommands": [
         {
@@ -1310,7 +1310,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "thumbnail": "",
       "screenshots": [
         "images/plugins/seriesplugin/screenshot-1.webp",
         "images/plugins/seriesplugin/screenshot-2.webp",
@@ -1339,8 +1339,8 @@
         "autotimer"
       ],
       "features": [],
-      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
-      "logoFound": true,
+      "icon": "",
+      "logoFound": false,
       "officialWebsite": "",
       "telnetCommands": [
         {
@@ -1377,7 +1377,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "thumbnail": "",
       "screenshots": [
         "images/plugins/dreamexplorer/screenshot-1.webp",
         "images/plugins/dreamexplorer/screenshot-2.webp",
@@ -1405,8 +1405,8 @@
         "filecommander"
       ],
       "features": [],
-      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
-      "logoFound": true,
+      "icon": "",
+      "logoFound": false,
       "officialWebsite": "",
       "telnetCommands": [
         {
@@ -1442,7 +1442,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "thumbnail": "",
       "screenshots": [
         "images/plugins/filecommander/screenshot-1.webp",
         "images/plugins/filecommander/screenshot-2.webp",
@@ -1470,8 +1470,8 @@
         "dreamexplorer"
       ],
       "features": [],
-      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
-      "logoFound": true,
+      "icon": "",
+      "logoFound": false,
       "officialWebsite": "",
       "telnetCommands": [
         {
@@ -1507,7 +1507,7 @@
         "githubRelease": ""
       },
       "featured": false,
-      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "thumbnail": "",
       "screenshots": [
         "images/plugins/youtube/screenshot-1.webp",
         "images/plugins/youtube/screenshot-2.webp",
@@ -1537,8 +1537,8 @@
         "mediaportal"
       ],
       "features": [],
-      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
-      "logoFound": true,
+      "icon": "",
+      "logoFound": false,
       "officialWebsite": "",
       "telnetCommands": [
         {
@@ -1568,15 +1568,15 @@
         "Enigma2",
         "OpenATV"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/OpenPLi/enigma2-plugins",
         "githubRelease": ""
       },
       "featured": true,
-      "icon": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
-      "logoFound": true,
-      "thumbnail": "https://raw.githubusercontent.com/OpenPLi/enigma2-plugins/python3/dyndns/src/icon.png",
+      "icon": "",
+      "logoFound": false,
+      "thumbnail": "",
       "screenshots": [
         "images/plugins/weather-plugin/screenshot-1.webp",
         "images/plugins/weather-plugin/screenshot-2.webp",
@@ -1646,7 +1646,7 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/E2OpenPlugins/e2openplugin-OpenWebif",
         "githubRelease": ""
@@ -1862,7 +1862,7 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/tarekzoka/ajpanel",
         "githubRelease": ""
@@ -2524,7 +2524,7 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/emilnabil/download-plugins",
         "githubRelease": ""
@@ -2711,15 +2711,15 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/popking159/ssupport",
         "githubRelease": ""
       },
       "featured": false,
-      "icon": "https://raw.githubusercontent.com/popking159/ssupport/main/src/seekers/Elsubtitle/logo.png",
+      "icon": "images/plugins/ssupport/icon.webp",
       "logoFound": true,
-      "thumbnail": "https://raw.githubusercontent.com/popking159/ssupport/main/src/seekers/Elsubtitle/logo.png",
+      "thumbnail": "images/plugins/ssupport/thumbnail.webp",
       "screenshots": [],
       "downloadUrl": "https://github.com/popking159/ssupport",
       "tutorialUrl": "",
@@ -2784,7 +2784,7 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/biko-73/xstreamity",
         "githubRelease": ""
@@ -2973,15 +2973,15 @@
         "OpenATV",
         "OpenViX"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/emilnabil/ipaudiopro",
         "githubRelease": ""
       },
       "featured": false,
-      "icon": "https://raw.githubusercontent.com/emilnabil/ipaudiopro/main/logo.png",
+      "icon": "images/plugins/ipaudio/icon.webp",
       "logoFound": true,
-      "thumbnail": "https://raw.githubusercontent.com/emilnabil/ipaudiopro/main/logo.png",
+      "thumbnail": "images/plugins/ipaudio/thumbnail.webp",
       "screenshots": [],
       "downloadUrl": "https://github.com/emilnabil/ipaudiopro",
       "tutorialUrl": "",
@@ -3102,7 +3102,7 @@
         "OpenATV",
         "OpenPLi"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/BliNeR-KeY/extra-plugins-python3",
         "githubRelease": ""
@@ -3164,15 +3164,15 @@
         "OpenATV",
         "OpenPLi"
       ],
-      "rating": 0.0,
+      "rating": 0,
       "downloads": {
         "repository": "https://github.com/Taapat/enigma2-plugin-blurayplayer",
         "githubRelease": ""
       },
       "featured": false,
-      "icon": "https://raw.githubusercontent.com/Taapat/enigma2-plugin-blurayplayer/master/src/icon.png",
+      "icon": "images/plugins/enigma2-plugin-blurayplayer/icon.webp",
       "logoFound": true,
-      "thumbnail": "https://raw.githubusercontent.com/Taapat/enigma2-plugin-blurayplayer/master/src/icon.png",
+      "thumbnail": "images/plugins/enigma2-plugin-blurayplayer/thumbnail.webp",
       "screenshots": [
         "images/plugins/enigma2-plugin-blurayplayer/screenshot-1.webp"
       ],
