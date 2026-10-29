@@ -1092,3 +1092,29 @@
     transition: none !important;
   }
 }
+
+/* --------------------------------------------------------------------------
+   10. Restore the site's dark page canvas on tutorial article pages
+   -------------------------------------------------------------------------- */
+html {
+  min-height: 100%;
+  background: #080e19;
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(180deg, #080e19 0%, #0b1424 55%, #0d192b 100%);
+  color: var(--tutorial-ink);
+  font-family: Tahoma, Arial, sans-serif;
+  line-height: 1.85;
+}
+
+/* Keep shared site chrome visually consistent with the existing dark theme. */
+.tutorial-article-wrap + footer,
+body > footer {
+  background: #0a1220;
+  color: var(--tutorial-muted);
+  border-top: 1px solid var(--tutorial-line);
+}
