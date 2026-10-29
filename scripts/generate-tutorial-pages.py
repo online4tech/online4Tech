@@ -212,6 +212,11 @@ def related_section(item: dict[str, Any], items: list[dict[str, Any]]) -> str:
         if other["slug"] != item["slug"] and other.get("category", "") == category
     ][:3]
     if not related:
+        related = [
+            other for other in items
+            if other["slug"] != item["slug"]
+        ][:3]
+    if not related:
         return ""
 
     cards = []
@@ -259,6 +264,16 @@ def page_for(item: dict[str, Any], index: int, items: list[dict[str, Any]]) -> s
         cover_html = (
             f'<img class="tutorial-cover" src="{escape(cover_src)}" '
             f'alt="{escape(image_alt)}" loading="eager" decoding="async">'
+        )
+    else:
+        # A consistent branded cover keeps the hero complete when no real cover image
+        # has been supplied in data/tutorials.json.
+        cover_html = (
+            f'<div class="tutorial-cover tutorial-cover-placeholder" role="img" aria-label="{escape(image_alt)}">'
+            f'<span class="cover-placeholder-icon" aria-hidden="true">{escape(item.get("icon", "📘"))}</span>'
+            f'<span class="cover-placeholder-copy"><strong>{escape(title)}</strong>'
+            f'<small>دليل عملي من {SITE_NAME}</small></span>'
+            f'<span class="cover-placeholder-mark" aria-hidden="true">O4T</span></div>'
         )
 
     previous_item = items[index - 1] if index > 0 else None
@@ -325,7 +340,7 @@ def page_for(item: dict[str, Any], index: int, items: list[dict[str, Any]]) -> s
   <meta name="twitter:image" content="{escape(image_url)}">
   <meta name="twitter:image:alt" content="{escape(image_alt)}">
   <link rel="stylesheet" href="../assets/site-header.css?v=5">
-  <link rel="stylesheet" href="../assets/tutorials.css?v=3">
+  <link rel="stylesheet" href="../assets/tutorials.css?v=4">
   <script defer src="../assets/site-header.js?v=5"></script>
   <script type="application/ld+json">{schema_json}</script>
 </head>
