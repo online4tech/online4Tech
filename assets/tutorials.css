@@ -1118,3 +1118,167 @@ body > footer {
   color: var(--tutorial-muted);
   border-top: 1px solid var(--tutorial-line);
 }
+
+/* 11. Definitive documentation layout: isolate article from legacy .wrap rules. */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  overflow-x: clip;
+}
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #080e19 0%, #0b1424 55%, #0d192b 100%);
+  color: var(--tutorial-ink);
+}
+main.tutorial-article-wrap,
+body > main.tutorial-article-wrap {
+  display: block;
+  position: static;
+  float: none;
+  inset: auto;
+  transform: none;
+  width: min(1100px, calc(100% - 40px)) !important;
+  max-width: 1100px !important;
+  min-width: 0 !important;
+  margin: 0 auto !important;
+  padding: 28px 0 56px;
+  direction: rtl;
+}
+main.tutorial-article-wrap > article {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  float: none;
+}
+main.tutorial-article-wrap .tutorial-article-hero,
+main.tutorial-article-wrap .tutorial-article-content,
+main.tutorial-article-wrap .tutorial-extra,
+main.tutorial-article-wrap .tutorial-share,
+main.tutorial-article-wrap .tutorial-pager,
+main.tutorial-article-wrap .tutorial-breadcrumb {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  margin-inline: 0;
+}
+main.tutorial-article-wrap .tutorial-article-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  text-align: start;
+}
+main.tutorial-article-wrap .tutorial-article-hero .tutorial-cover {
+  order: 4;
+  align-self: stretch;
+  width: 100%;
+  max-width: 100%;
+  max-height: 440px;
+  margin: 24px 0 0;
+  object-fit: cover;
+}
+main.tutorial-article-wrap .tutorial-article-hero h1 {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 10px;
+  font-size: clamp(2rem, 3.1vw, 2.8rem);
+  line-height: 1.4;
+  letter-spacing: 0;
+  text-wrap: balance;
+}
+main.tutorial-article-wrap .tutorial-article-hero > p {
+  width: 100%;
+  max-width: 76ch;
+  margin: 0;
+  font-size: clamp(1.05rem, 1.35vw, 1.2rem);
+  line-height: 1.9;
+}
+main.tutorial-article-wrap .tutorial-article-content {
+  display: block;
+  text-align: start;
+  font-size: clamp(18px, 1.12vw, 19px);
+  line-height: 2;
+}
+main.tutorial-article-wrap .tutorial-article-content .empty {
+  background: #292417 !important;
+  color: #ffe0a3 !important;
+  border-color: #5a4b2d !important;
+  border-inline-start: 4px solid #f2b84b !important;
+}
+main.tutorial-article-wrap .tutorial-article-content .topic {
+  background: #0b1728 !important;
+  color: #d8e2f1 !important;
+  border-color: #2b496b !important;
+}
+main.tutorial-article-wrap .tutorial-article-content .topic p,
+main.tutorial-article-wrap .tutorial-article-content .topic h2,
+main.tutorial-article-wrap .tutorial-article-content .topic strong {
+  color: #e8eefb !important;
+}
+main.tutorial-article-wrap .tutorial-article-content img,
+main.tutorial-article-wrap .tutorial-article-content video,
+main.tutorial-article-wrap .tutorial-article-content iframe,
+main.tutorial-article-wrap .tutorial-article-content svg {
+  max-width: 100% !important;
+}
+main.tutorial-article-wrap .tutorial-article-content figure {
+  width: 100%;
+  max-width: 100%;
+  margin-inline: auto;
+}
+main.tutorial-article-wrap .tutorial-related-list {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+main.tutorial-article-wrap .tutorial-pager { align-items: stretch; }
+main.tutorial-article-wrap .tutorial-pager .pager-disabled {
+  display: block;
+  visibility: hidden;
+}
+@media (max-width: 1024px) {
+  main.tutorial-article-wrap,
+  body > main.tutorial-article-wrap {
+    width: min(1100px, calc(100% - 36px)) !important;
+    padding-top: 22px;
+  }
+  main.tutorial-article-wrap .tutorial-related-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  main.tutorial-article-wrap,
+  body > main.tutorial-article-wrap {
+    width: calc(100% - 28px) !important;
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+  main.tutorial-article-wrap .tutorial-article-hero { padding: 20px; }
+  main.tutorial-article-wrap .tutorial-article-hero .tutorial-cover {
+    max-height: 260px;
+    margin-top: 18px;
+  }
+  main.tutorial-article-wrap .tutorial-article-hero h1 {
+    font-size: clamp(1.75rem, 7vw, 2.2rem);
+    line-height: 1.45;
+  }
+  main.tutorial-article-wrap .tutorial-related-list,
+  main.tutorial-article-wrap .tutorial-pager {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+@media (max-width: 380px) {
+  main.tutorial-article-wrap,
+  body > main.tutorial-article-wrap {
+    width: calc(100% - 22px) !important;
+  }
+}
+body > footer {
+  width: 100%;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
