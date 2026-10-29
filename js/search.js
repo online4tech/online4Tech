@@ -1,256 +1,201 @@
+/* Online4Tech shared header — one consistent header across all pages */
 (function () {
   'use strict';
 
-  if (window.__o4tSearchRuntimeStarted) return;
-  window.__o4tSearchRuntimeStarted = true;
+  if (window.__online4techHeaderRuntime) return;
+  window.__online4techHeaderRuntime = true;
 
-  const readSiteBase = () => {
-    try {
-      const scriptSrc = (document.currentScript && document.currentScript.src) || window.location.href;
-      const url = new URL(scriptSrc, window.location.href);
-      const segments = url.pathname.split('/').filter(Boolean);
-      const repoIndex = segments.findIndex(segment => segment.toLowerCase() === 'online4tech');
-      if (repoIndex >= 0) {
-        return '/' + segments.slice(0, repoIndex + 1).join('/') + '/';
+  function optimizeImageLoading() {
+    if (window.__online4techImageOptimized) return;
+    window.__online4techImageOptimized = true;
+
+    const isAboveFold = img => {
+      if (!img || !img.tagName || img.tagName.toLowerCase() !== 'img') return false;
+      return !!(
+        img.closest('header') ||
+        img.closest('.hero') ||
+        img.closest('.brand') ||
+        img.closest('.site-logo-brand') ||
+        img.closest('.device-photo') ||
+        img.closest('.device-photo-link') ||
+        img.closest('.gallery-rotating-photo') ||
+        img.closest('.contact-rail')
+      );
+    };
+
+    document.querySelectorAll('img').forEach(img => {
+      if (!img.hasAttribute('loading')) {
+        img.loading = isAboveFold(img) ? 'eager' : 'lazy';
       }
-      const withoutFile = segments.slice(0, -1);
-      return withoutFile.length ? '/' + withoutFile.join('/') + '/' : '/';
-    } catch (_) {
-      return '/';
-    }
-  };
+      if (!img.hasAttribute('decoding')) {
+        img.decoding = 'async';
+      }
+      if (isAboveFold(img) && !img.hasAttribute('fetchpriority')) {
+        img.fetchPriority = 'high';
+      }
+    });
+  }
 
-  const BASE = readSiteBase();
-  const INDEX_URL = BASE + 'data/search-index.json';
-  const normalize = value => String(value || '')
-    .normalize('NFKC')
-    .toLocaleLowerCase('ar')
-    .replace(/[\u064B-\u065F\u0670\u0640]/g, '')
-    .replace(/[أإآٱ]/g, 'ا')
-    .replace(/ى/g, 'ي')
-    .replace(/ؤ/g, 'و')
-    .replace(/ئ/g, 'ي')
-    .replace(/\s+/g, ' ')
-    .trim();
-  const esc = value => String(value || '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[ch]));
-  const absolute = url => /^https?:\/\//i.test(url) ? url : BASE + String(url || '').replace(/^\/+/, '');
-  let indexPromise;
-  function getIndex() {
-    if (!indexPromise) indexPromise = fetch(INDEX_URL, {cache:'no-cache'})
-      .then(r => { if (!r.ok) throw new Error('search index unavailable'); return r.json(); })
-      .then(data => Array.isArray(data) ? data : []);
-    return indexPromise;
+  // Google Analytics 4 — Online4Tech
+  // Load once on pages that include the shared site header.
+  if (!window.__online4techAnalyticsLoaded) {
+    window.__online4techAnalyticsLoaded = true;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function(){ window.dataLayer.push(arguments); };
+    window.gtag('js', new Date());
+    window.gtag('config', 'G-9V2YEWWDZ2');
+    const analyticsScript = document.createElement('script');
+    analyticsScript.async = true;
+    analyticsScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-9V2YEWWDZ2';
+    document.head.appendChild(analyticsScript);
   }
-  function searchable(item) {
-    return normalize([item.title,item.description,item.category,item.brand,item.type,item.status].filter(Boolean).join(' '));
-  }
-  function findMatches(items, query, limit) {
-    const q = normalize(query);
-    if (!q) return [];
-    const words = q.split(' ').filter(Boolean);
-    return items.map(item => ({item, text:searchable(item)}))
-      .filter(row => words.every(word => row.text.includes(word)))
-      .sort((a,b) => {
-        const aTitle = normalize(a.item.title).startsWith(q) ? 0 : 1;
-        const bTitle = normalize(b.item.title).startsWith(q) ? 0 : 1;
-        return aTitle - bTitle;
-      }).slice(0, limit || 8).map(row => row.item);
-  }
-  function buildSearchUI() {
-    if (document.getElementById('o4t-global-search')) return;
-    const shell = document.createElement('section');
-    shell.className = 'o4t-search-shell';
-    shell.id = 'o4t-global-search';
-    shell.innerHTML = '<form class="o4t-search-form" role="search"><span class="o4t-search-mark" aria-hidden="true">⌕</span><input class="o4t-search-input" type="search" name="q" autocomplete="off" aria-label="بحث سريع" placeholder="ابحث عن منتج أو شرح أو جهاز"><button type="submit" class="o4t-search-submit">بحث</button></form><div class="o4t-search-results" role="listbox" aria-live="polite"></div>';
+
+  const path = window.location.pathname;
+  const parts = path.split('/').filter(Boolean);
+  if (parts[0] && parts[0].toLowerCase() === 'online4tech') parts.shift();
+  const isFile = /\.html?$/i.test(parts[parts.length - 1] || '');
+  const depth = Math.max(0, parts.length - (isFile ? 1 : 0));
+  const base = '../'.repeat(depth);
+  const page = (parts[parts.length - 1] || 'index.html').toLowerCase();
+  const routes = [
+    ['الرئيسية', 'index.html', ['index.html']],
+    ['المتجر', 'store/index.html', ['store/']],
+    ['مكتبة التحميل', 'library.html', ['library.html', 'downloads.html', 'backups/']],
+    ['الشروحات', 'tutorials.html', ['guides.html', 'guides/index.html', 'tutorials.html', 'tutorials/', 'skins.html', 'plugins/']],
+    ['خدماتنا', 'services.html', ['services.html']]
+  ];
+  const current = (parts.join('/') || 'index.html').toLowerCase();
+  const style = document.createElement('style');
+  style.id = 'online4tech-shared-header-style';
+  style.textContent = `
+    .o4t-header{position:sticky;top:0;z-index:1000;width:100%;box-sizing:border-box;background:linear-gradient(135deg,#07111f 0%,#0b1a2d 52%,#10243a 100%);border-bottom:1px solid #244664;box-shadow:0 10px 25px rgba(0,0,0,.18)}
+    .o4t-header *{box-sizing:border-box}
+    .o4t-header{transform:translate3d(0,0,0);transition:transform 220ms ease,box-shadow 220ms ease;will-change:transform}
+    .o4t-header.o4t-header-hidden{transform:translate3d(0,calc(-100% - 2px),0);pointer-events:none;box-shadow:none}
+    .o4t-header.o4t-header-hidden *{pointer-events:none}
+    @media(max-width:600px){.o4t-header{transition-duration:170ms}}
+    @media(prefers-reduced-motion:reduce){.o4t-nav a{transition:none!important}.o4t-header{transition:none!important;will-change:auto}}
+    .o4t-head-inner{max-width:1240px;margin:0 auto;padding:14px 22px 13px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px}
+    .o4t-brand{display:flex;flex-direction:column;align-items:center;justify-content:center;text-decoration:none!important;min-width:0;max-width:100%;color:#fff!important}
+    .o4t-brand img{display:block;width:clamp(250px,30vw,360px);max-width:100%;height:auto;max-height:96px;object-fit:contain;object-position:center}
+    .o4t-brand-copy{display:none}
+    .o4t-brand-slogan{display:block;margin-top:2px;width:100%;text-align:center;font-family:Tahoma,Arial,sans-serif;font-size:clamp(12px,1.1vw,15px);font-weight:800;line-height:1.4;letter-spacing:.03em;color:#dfeaf7}
+    .o4t-brand-name{display:none}
+    .o4t-nav{display:flex;align-items:center;justify-content:center;gap:8px;flex:1;flex-wrap:wrap;width:100%}
+    .o4t-nav a{display:inline-flex;align-items:center;justify-content:center;min-height:39px;padding:9px 15px;border:1px solid #294761;border-radius:12px;background:linear-gradient(145deg,#12283f,#0d1d31);color:#e7eef9;text-decoration:none;font-weight:700;transition:transform .2s ease,border-color .2s ease,background .2s ease,box-shadow .2s ease}
+    .o4t-nav a:hover{transform:translateY(-2px);border-color:#4d8bb5;background:linear-gradient(145deg,#183653,#10263c);color:#fff!important;box-shadow:0 8px 18px rgba(0,0,0,.15)}
+    .o4t-nav a[aria-current=page]{background:linear-gradient(135deg,#168bd2,#16a6b5);border-color:#49c9e2;color:#041522!important;box-shadow:0 5px 16px rgba(14,165,201,.4)}
+    .o4t-brand:focus-visible,.o4t-nav a:focus-visible{outline:3px solid #67d2ff;outline-offset:3px}
+    @media(max-width:850px){.o4t-head-inner{padding:12px 16px;gap:10px}.o4t-brand img{width:clamp(230px,42vw,320px);max-height:82px}.o4t-nav{gap:6px}.o4t-nav a{padding:8px 11px;font-size:12px}}
+    @media(max-width:600px){.o4t-head-inner{padding:10px 12px 12px;gap:9px}.o4t-brand img{width:min(72vw,280px);max-height:76px}.o4t-brand-slogan{font-size:12px}.o4t-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%}}
+  `;
+
+  if (!document.getElementById(style.id)) document.head.appendChild(style);
+
+  function buildHeader() {
     const header = document.querySelector('header');
-    const main = document.querySelector('main');
-    if (header && header.parentNode) header.insertAdjacentElement('afterend', shell);
-    else if (main) main.insertAdjacentElement('beforebegin', shell);
-    else document.body.insertBefore(shell, document.body.firstChild);
-    const form = shell.querySelector('form');
-    const input = shell.querySelector('input');
-    const results = shell.querySelector('.o4t-search-results');
-    const run = async () => {
-      const q = input.value;
-      if (!normalize(q)) { results.classList.remove('is-open'); results.innerHTML=''; return; }
-      try {
-        const matches = findMatches(await getIndex(), q, 7);
-        results.innerHTML = matches.length ? matches.map(item => '<a class="o4t-search-result" role="option" href="'+esc(absolute(item.url))+'"><strong>'+esc(item.title)+'</strong><small>'+esc(item.category || item.type || 'نتيجة')+' · '+esc(item.description || '')+'</small></a>').join('') : '<div class="o4t-search-empty">لم يتم العثور على نتائج مطابقة</div>';
-        results.classList.add('is-open');
-      } catch (_) {
-        results.innerHTML = '<div class="o4t-search-empty">تعذر تحميل البحث الآن. جرّب فتح صفحة نتائج البحث.</div>';
-        results.classList.add('is-open');
-      }
-    };
-    input.addEventListener('input', run);
-    form.addEventListener('submit', event => {
-      event.preventDefault();
-      const q = input.value.trim();
-      window.location.href = BASE + 'search.html?q=' + encodeURIComponent(q);
-    });
-    document.addEventListener('click', event => { if (!shell.contains(event.target)) results.classList.remove('is-open'); });
-    const initial = new URLSearchParams(location.search).get('q');
-    if (initial && /search\.html$/i.test(location.pathname)) input.value = initial;
+    if (!header) return;
+    const root = base || './';
+    const nav = routes.map(([label, href, match]) => {
+      const target = root + href;
+      const active = match.some(m => m.endsWith('/') ? current.startsWith(m) : current === m);
+      return '<a href="' + target + '"' + (active ? ' aria-current="page"' : '') + '>' + label + '</a>';
+    }).join('');
+    header.className = 'o4t-header';
+    header.innerHTML = '<div class="o4t-head-inner"><a class="o4t-brand" href="' + root + 'index.html" aria-label="Online4Tech - الرئيسية"><img src="' + root + 'assets/site-logo.svg" alt="Online4Tech"><span class="o4t-brand-slogan">خليك دايمًا أونلاين</span></a><nav class="o4t-nav" aria-label="القائمة الرئيسية">' + nav + '</nav></div>';
   }
-  function inferBrand(text, path) {
-    const v = normalize((text || '') + ' ' + (path || ''));
-    const hasDreambox = v.includes('dreambox') || v.includes('دريم بوكس');
-    const hasVu = v.includes('vu+') || v.includes('vuplus') || v.includes('فيو');
-    if (hasDreambox && hasVu) return 'Vu+ Dreambox';
-    if (hasDreambox) return 'Dreambox';
-    if (hasVu) return 'Vu+';
-    return 'Enigma2';
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function () {
+      optimizeImageLoading();
+      buildHeader();
+    }, { once: true });
+  } else {
+    optimizeImageLoading();
+    buildHeader();
   }
-  function inferType(text, path) {
-    const v = normalize((text || '') + ' ' + (path || ''));
-    if (/store\/+|store\.html/.test(path || '')) return 'Product';
-    if (v.includes('backup') || v.includes('باك اب') || v.includes('باك أب')) return 'Backups';
-    if (v.includes('channel') || v.includes('قنوات')) return 'Channels';
-    if (v.includes('tutorial') || v.includes('شرح') || v.includes('دليل')) return 'Tutorial';
-    if (v.includes('plugin') || v.includes('بلجن') || v.includes('إضافة')) return 'Plugin';
-    if (v.includes('tool') || v.includes('أداة') || v.includes('سكين') || v.includes('صور الانجيما')) return 'Tools';
-    return 'Device';
-  }
-  function tagCards() {
-    const path = location.pathname.toLowerCase();
-    document.querySelectorAll('article, [class*="card"], .product, .item').forEach(card => {
-      const text = card.innerText || card.textContent || '';
-      const brand = inferBrand(text, path);
-      const type = inferType(text, path);
-      if (!card.hasAttribute('data-brand')) card.dataset.brand = brand;
-      if (!card.hasAttribute('data-type')) card.dataset.type = type;
-      if (!card.hasAttribute('data-category')) card.dataset.category = type;
-      if (!card.hasAttribute('data-status')) {
-        const v = normalize(text);
-        card.dataset.status = /غير متوفر|نفد|غير متاح/.test(v) ? 'unavailable' : (/متوفر|متاح/.test(v) ? 'available' : 'unknown');
-      }
-    });
-  }
-  function addFilters() {
-    const path = location.pathname.toLowerCase();
-    const isLibrary = path.endsWith('/library.html') || path.endsWith('/downloads.html') || path.endsWith('/backups/index.html');
-    const isStore = path.endsWith('/store/index.html');
-    if (!isLibrary && !isStore) return;
-    const main = document.querySelector('main') || document.body;
-    const panel = document.createElement('section');
-    panel.className = 'o4t-filter-panel';
-    panel.setAttribute('aria-label', isStore ? 'فلاتر المتجر' : 'فلاتر المكتبة');
-    const brands = '<option value="all">كل الشركات</option><option value="Vu+">Vu+</option><option value="Dreambox">Dreambox</option>';
-    const types = isStore
-      ? '<option value="all">كل الأنواع</option><option value="new">جديد</option><option value="used">مستعمل</option><option value="accessory">إكسسوارات</option>'
-      : '<option value="all">كل الأنواع</option><option value="Backups">Backups</option><option value="Channels">Channels</option><option value="Plugin">Plugins</option><option value="Tutorial">Tutorial</option><option value="Tools">Tools</option>';
-    panel.innerHTML = '<div class="o4t-filter-field"><label for="o4t-filter-search">بحث داخل الصفحة</label><input id="o4t-filter-search" type="search" placeholder="اكتب اسم الجهاز أو النوع"><select id="o4t-filter-brand">'+brands+'</select><select id="o4t-filter-type">'+types+'</select><select id="o4t-filter-status"><option value="all">كل الحالات</option><option value="available">متاح</option><option value="unavailable">غير متاح</option><option value="unknown">غير معلوم</option></select><span id="o4t-filter-count">عدد النتائج: 0</span></div>';
-    const anchor = isStore ? (document.querySelector('#new') || document.querySelector('.products') || main.firstElementChild) : (document.querySelector('.card-grid') || document.querySelector('.products-grid') || main.firstElementChild);
-    if (anchor) anchor.insertAdjacentElement('beforebegin', panel); else main.prepend(panel);
-    tagCards();
-    const cards = Array.from(document.querySelectorAll('article, .main-card, .product, .item, .backup-card, .quick-card')).filter(el => !panel.contains(el));
-    const q = panel.querySelector('#o4t-filter-search');
-    const brand = panel.querySelector('#o4t-filter-brand');
-    const type = panel.querySelector('#o4t-filter-type');
-    const status = panel.querySelector('#o4t-filter-status');
-    const apply = () => {
-      const query = normalize(q.value);
-      let count = 0;
-      cards.forEach(card => {
-        const text = normalize(card.innerText || card.textContent);
-        const matchesQuery = !query || query.split(' ').every(word => text.includes(word));
-        const matchesBrand = brand.value === 'all' || (card.dataset.brand || '').split(' ').includes(brand.value);
-        let cardType = card.dataset.type || 'Device';
-        if (isStore) {
-          const section = card.closest('section')?.id || '';
-          if (section === 'new') cardType = 'new';
-          else if (section === 'used') cardType = 'used';
-          else if (section === 'accessories') cardType = 'accessory';
-          const matchesType = type.value === 'all' || cardType === type.value;
-          const matchesStatus = !status || status.value === 'all' || card.dataset.status === status.value;
-          const visible = matchesQuery && matchesBrand && matchesType && matchesStatus;
-          card.hidden = !visible;
-          if (visible) count++;
-        } else {
-          const matchesType = type.value === 'all' || card.dataset.type === type.value || card.dataset.category === type.value;
-          const visible = matchesQuery && matchesBrand && matchesType;
-          card.hidden = !visible;
-          if (visible) count++;
-        }
-      });
-      panel.querySelector('#o4t-filter-count').textContent = isStore ? 'تم العثور على '+count+' منتج' : 'عدد النتائج: '+count;
-    };
-    [q,brand,type,status].filter(Boolean).forEach(el => el.addEventListener(el === q ? 'input' : 'change', apply));
-    apply();
-  }
-  async function renderResults() {
-    const root = document.getElementById('o4t-search-results-page');
-    if (!root) return;
-    const q = new URLSearchParams(location.search).get('q') || '';
-    const input = document.querySelector('#o4t-global-search input');
-    if (input) input.value = q;
-    const heading = document.getElementById('o4t-results-heading');
-    if (heading) heading.textContent = q ? 'نتائج البحث عن: ' + q : 'ابحث في Online4Tech';
-    const list = document.getElementById('o4t-results-list');
-    const count = document.getElementById('o4t-results-count');
-    if (!normalize(q)) { list.innerHTML = '<p class="o4t-search-empty">اكتب كلمة في مربع البحث لعرض النتائج.</p>'; count.textContent=''; return; }
-    try {
-      const matches = findMatches(await getIndex(), q, 100);
-      count.textContent = matches.length ? 'تم العثور على '+matches.length+' نتيجة' : 'لم يتم العثور على نتائج مطابقة';
-      if (!matches.length) {
-        list.innerHTML = '<p class="o4t-search-empty">لم يتم العثور على نتائج مطابقة</p>';
-      } else {
-        const groupFor = item => {
-          const type = normalize(item.type || '');
-          const cat = item.category || 'نتائج أخرى';
-          if (type.includes('device') || cat === 'أجهزة') return 'الأجهزة';
-          if (type.includes('product') || type.includes('accessory') || cat === 'منتجات') return 'المنتجات';
-          if (type.includes('tutorial') || type.includes('plugin') || cat === 'شروحات' || cat === 'إضافات') return 'الشروحات والإضافات';
-          if (['Backups','Channels','Tools'].includes(item.type) || cat === 'ملفات' || cat === 'تحميلات') return 'الملفات';
-          return cat;
-        };
-        const groups = new Map();
-        matches.forEach(item => { const key=groupFor(item); if(!groups.has(key))groups.set(key,[]); groups.get(key).push(item); });
-        list.innerHTML = Array.from(groups.entries()).map(([name,items]) => '<section class="o4t-search-result-group"><h2>'+esc(name)+'</h2><div class="o4t-search-grid">'+items.map(item => '<a class="o4t-search-card" href="'+esc(absolute(item.url))+'"><strong>'+esc(item.title)+'</strong><small>'+esc(item.description || '')+'</small></a>').join('')+'</div></section>').join('');
-      }
-    } catch (_) {
-      count.textContent = 'تعذر تحميل فهرس البحث';
-      list.innerHTML = '<p class="o4t-search-empty">تعذر تحميل البحث الآن. حدّث الصفحة بعد قليل.</p>';
+
+  function enableSmartHeader() {
+    const header = document.querySelector('header.o4t-header');
+    if (!header || header.dataset.smartHideReady === '1') return;
+    header.dataset.smartHideReady = '1';
+
+    let lastY = Math.max(0, window.scrollY || window.pageYOffset || 0);
+    let latestY = lastY;
+    let rafPending = false;
+    let directionDistance = 0;
+    let direction = 0;
+    let hidden = false;
+
+    function setHidden(nextHidden) {
+      if (hidden === nextHidden) return;
+      hidden = nextHidden;
+      header.classList.toggle('o4t-header-hidden', hidden);
+      header.setAttribute('data-smart-hidden', hidden ? 'true' : 'false');
     }
+
+    function onFrame() {
+      rafPending = false;
+      const y = Math.max(0, latestY);
+      const delta = y - lastY;
+      const mobile = window.matchMedia('(max-width: 600px)').matches;
+      const topLimit = mobile ? 34 : 76;
+      const minDirection = mobile ? 5 : 9;
+
+      if (y <= 8) {
+        direction = 0;
+        directionDistance = 0;
+        setHidden(false);
+        lastY = y;
+        return;
+      }
+
+      if (Math.abs(delta) >= 1) {
+        const nextDirection = delta > 0 ? 1 : -1;
+        if (nextDirection !== direction) {
+          direction = nextDirection;
+          directionDistance = 0;
+        }
+        directionDistance += Math.abs(delta);
+
+        if (directionDistance >= minDirection) {
+          if (direction > 0 && y > topLimit) {
+            setHidden(true);
+          } else if (direction < 0) {
+            setHidden(false);
+          }
+        }
+      }
+      lastY = y;
+    }
+
+    function onScroll() {
+      latestY = Math.max(0, window.scrollY || window.pageYOffset || 0);
+      if (rafPending) return;
+      rafPending = true;
+      window.requestAnimationFrame(onFrame);
+    }
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('pageshow', function () {
+      latestY = Math.max(0, window.scrollY || window.pageYOffset || 0);
+      lastY = latestY;
+      direction = 0;
+      directionDistance = 0;
+      if (latestY <= 8) setHidden(false);
+    }, { passive: true });
+    window.addEventListener('resize', function () {
+      if ((window.scrollY || window.pageYOffset || 0) <= 8) setHidden(false);
+    }, { passive: true });
   }
-  function init() { buildSearchUI(); tagCards(); addFilters(); renderResults(); }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, {once:true}); else init();
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', enableSmartHeader, { once: true });
+  } else {
+    enableSmartHeader();
+  }
+
+  // Search UI is intentionally disabled site-wide.
+  // Keep this file focused on header behavior only.
 })();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-																																																																																																																																																																																																
