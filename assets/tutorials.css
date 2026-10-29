@@ -1282,3 +1282,22 @@ body > footer {
   max-width: 100%;
   overflow-wrap: anywhere;
 }
+
+
+/* Normalize legacy inline light cards/alerts inside authored tutorial HTML. */
+main.tutorial-article-wrap .tutorial-article-content [style*="background:#fff"],
+main.tutorial-article-wrap .tutorial-article-content [style*="background: #fff"],
+main.tutorial-article-wrap .tutorial-article-content [style*="background:#f8fbff"],
+main.tutorial-article-wrap .tutorial-article-content [style*="background: #f8fbff"],
+main.tutorial-article-wrap .tutorial-article-content [style*="background:#eef7ff"],
+main.tutorial-article-wrap .tutorial-article-content [style*="background: #eef7ff"] {
+  background: #10243a !important;
+  color: #d8e2f1 !important;
+  border-color: #294761 !important;
+}
+main.tutorial-article-wrap .tutorial-article-content [style*="color:#77511d"],
+main.tutorial-article-wrap .tutorial-article-content [style*="color: #77511d"],
+main.tutorial-article-wrap .tutorial-article-content [style*="color:#244b75"],
+main.tutorial-article-wrap .tutorial-article-content [style*="color: #244b75"] {
+  color: #ffe0a3 !important;
+}
