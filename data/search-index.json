@@ -2512,7 +2512,15 @@
     "type": "Tutorial"
   },
   {
-    "title": "الشرح التالي →📡 شرح إعدادات الدايسك DiSEqC ‏4 مخرج",
+    "title": "الشرح التالي →شرح إضافة ملف القنوات من الموقع واستعادته باستخدام AJPanel",
+    "description": "الاتصال بالرسيفر من الموبايل باستخدام SSH أو Telnet بأمان.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials/ajpanel-channels.html",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "الشرح التالي →شرح إعدادات الدايسك DiSEqC ‏4 مخرج",
     "description": "خطوات تركيب الباك أب الصحيح والفرق بين صورة النظام ونسخة الإعدادات.",
     "url": "https://online4tech.github.io/online4Tech/tutorials/diseqc.html",
     "category": "شروحات",
@@ -2520,15 +2528,7 @@
     "type": "Tutorial"
   },
   {
-    "title": "الشرح التالي →📦 شرح تركيب الباك أب على أجهزة Enigma2",
-    "description": "تنزيل ملف القنوات واستعادته على أجهزة Enigma2 مع إرشادات الأمان.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-    "category": "شروحات",
-    "brand": "Enigma2",
-    "type": "Tutorial"
-  },
-  {
-    "title": "الشرح التالي →📱 شرح استخدام أوامر Telnet من الموبايل لأجهزة Enigma2",
+    "title": "الشرح التالي →شرح استخدام أوامر Telnet من الموبايل لأجهزة Enigma2",
     "description": "توصيل وضبط دايسك DiSEqC بأربعة مخارج على أجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/tutorials/telnet-mobile.html",
     "category": "شروحات",
@@ -2536,11 +2536,11 @@
     "type": "Tutorial"
   },
   {
-    "title": "الشرح التالي →🛰️ شرح إضافة ملف القنوات من الموقع واستعادته باستخدام AJPanel",
-    "description": "الاتصال بالرسيفر من الموبايل باستخدام SSH أو Telnet بأمان.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials/ajpanel-channels.html",
+    "title": "الشرح التالي →شرح تركيب الباك أب على أجهزة Enigma2",
+    "description": "تنزيل ملف القنوات واستعادته على أجهزة Enigma2 مع إرشادات الأمان.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
     "category": "شروحات",
-    "brand": "Online4Tech",
+    "brand": "Enigma2",
     "type": "Tutorial"
   },
   {
@@ -2595,6 +2595,14 @@
     "title": "شرح إضافة ملف القنوات من الموقع واستعادته باستخدام AJPanel",
     "description": "نقل ملف القنوات واستعادته باستخدام AJPanel خطوة بخطوة.",
     "url": "https://online4tech.github.io/online4Tech/tutorials/ajpanel-channels.html",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "شرح إضافة ملف القنوات من الموقع واستعادته باستخدام AJPanel",
+    "description": "تنزيل ملف القنوات واستعادته على أجهزة Enigma2 مع إرشادات الأمان.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html",
     "category": "شروحات",
     "brand": "Online4Tech",
     "type": "Tutorial"
@@ -2720,15 +2728,23 @@
     "type": "Tutorial"
   },
   {
-    "title": "ملف القنوات — Online4Tech",
-    "description": "تنزيل ملف القنوات واستعادته على أجهزة Enigma2 مع إرشادات الأمان.",
+    "title": "ملف القنوات",
+    "description": "نقل ملف القنوات واستعادته باستخدام AJPanel خطوة بخطوة.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials/ajpanel-channels.html",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "ملف القنوات",
+    "description": "نقل ملف القنوات واستعادته باستخدام AJPanel خطوة بخطوة.",
     "url": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html",
     "category": "شروحات",
     "brand": "Online4Tech",
     "type": "Tutorial"
   },
   {
-    "title": "ملف القنوات — Online4Tech | Online4Tech",
+    "title": "ملف القنوات | Online4Tech",
     "description": "تنزيل ملف القنوات واستعادته على أجهزة Enigma2 مع إرشادات الأمان.",
     "url": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html",
     "category": "شروحات",
@@ -2744,7 +2760,7 @@
     "type": "Tutorial"
   },
   {
-    "title": "← الشرح السابق📡 شرح إعدادات الدايسك DiSEqC ‏4 مخرج",
+    "title": "← الشرح السابقشرح إعدادات الدايسك DiSEqC ‏4 مخرج",
     "description": "الاتصال بالرسيفر من الموبايل باستخدام SSH أو Telnet بأمان.",
     "url": "https://online4tech.github.io/online4Tech/tutorials/diseqc.html",
     "category": "شروحات",
@@ -2752,15 +2768,7 @@
     "type": "Tutorial"
   },
   {
-    "title": "← الشرح السابق📦 شرح تركيب الباك أب على أجهزة Enigma2",
-    "description": "توصيل وضبط دايسك DiSEqC بأربعة مخارج على أجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-    "category": "شروحات",
-    "brand": "Enigma2",
-    "type": "Tutorial"
-  },
-  {
-    "title": "← الشرح السابق📱 شرح استخدام أوامر Telnet من الموبايل لأجهزة Enigma2",
+    "title": "← الشرح السابقشرح استخدام أوامر Telnet من الموبايل لأجهزة Enigma2",
     "description": "نقل ملف القنوات واستعادته باستخدام AJPanel خطوة بخطوة.",
     "url": "https://online4tech.github.io/online4Tech/tutorials/telnet-mobile.html",
     "category": "شروحات",
@@ -2768,7 +2776,15 @@
     "type": "Tutorial"
   },
   {
-    "title": "← الشرح السابق📺 ملف القنوات — Online4Tech",
+    "title": "← الشرح السابقشرح تركيب الباك أب على أجهزة Enigma2",
+    "description": "توصيل وضبط دايسك DiSEqC بأربعة مخارج على أجهزة Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
+    "category": "شروحات",
+    "brand": "Enigma2",
+    "type": "Tutorial"
+  },
+  {
+    "title": "← الشرح السابقملف القنوات",
     "description": "خطوات تركيب الباك أب الصحيح والفرق بين صورة النظام ونسخة الإعدادات.",
     "url": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html",
     "category": "شروحات",
@@ -2816,41 +2832,17 @@
     "type": "Tutorial"
   },
   {
-    "title": "📡 شرح إعدادات الدايسك DiSEqC ‏4 مخرج",
-    "description": "توصيل وضبط دايسك DiSEqC بأربعة مخارج على أجهزة Enigma2.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials/diseqc.html",
-    "category": "شروحات",
-    "brand": "Online4Tech",
-    "type": "Tutorial"
-  },
-  {
-    "title": "📦 شرح تركيب الباك أب على أجهزة Enigma2",
-    "description": "خطوات تركيب الباك أب الصحيح والفرق بين صورة النظام ونسخة الإعدادات.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-    "category": "شروحات",
-    "brand": "Enigma2",
-    "type": "Tutorial"
-  },
-  {
-    "title": "📱 شرح استخدام أوامر Telnet من الموبايل لأجهزة Enigma2",
-    "description": "الاتصال بالرسيفر من الموبايل باستخدام SSH أو Telnet بأمان.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials/telnet-mobile.html",
-    "category": "شروحات",
-    "brand": "Enigma2",
-    "type": "Tutorial"
-  },
-  {
-    "title": "📺 ملف القنوات — Online4Tech",
-    "description": "تنزيل ملف القنوات واستعادته على أجهزة Enigma2 مع إرشادات الأمان.",
-    "url": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html",
-    "category": "شروحات",
-    "brand": "Online4Tech",
-    "type": "Tutorial"
-  },
-  {
-    "title": "🛰️ شرح إضافة ملف القنوات من الموقع واستعادته باستخدام AJPanel",
+    "title": "📚 شروحات ذات صلة",
     "description": "نقل ملف القنوات واستعادته باستخدام AJPanel خطوة بخطوة.",
     "url": "https://online4tech.github.io/online4Tech/tutorials/ajpanel-channels.html",
+    "category": "شروحات",
+    "brand": "Online4Tech",
+    "type": "Tutorial"
+  },
+  {
+    "title": "📚 شروحات ذات صلة",
+    "description": "تنزيل ملف القنوات واستعادته على أجهزة Enigma2 مع إرشادات الأمان.",
+    "url": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html",
     "category": "شروحات",
     "brand": "Online4Tech",
     "type": "Tutorial"
