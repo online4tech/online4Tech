@@ -84,9 +84,6 @@
     let direction = 0;
     let hidden = false;
 
-    const reducedMotion = window.matchMedia &&
-      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-
     function setHidden(nextHidden) {
       if (hidden === nextHidden) return;
       hidden = nextHidden;
@@ -136,8 +133,7 @@
       window.requestAnimationFrame(onFrame);
     }
 
-    // Avoid a delayed transition when the user opens a page already scrolled down.
-    if (reducedMotion) header.classList.add('o4t-header-reduced-motion');
+    // Listen passively and process at most once per animation frame.
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('pageshow', function () {
       latestY = Math.max(0, window.scrollY || window.pageYOffset || 0);
