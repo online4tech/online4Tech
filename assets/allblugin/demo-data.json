@@ -1,113 +1,29 @@
 {
-  "version": "3.0.0",
-  "notice": "فهرس ONLINE4TECH. روابط العناصر تُعرض فقط عند توفر رابط موثق؛ لا تُستخدم روابط تجريبية كروابط تحميل.",
+  "version": "2.0.0-demo",
+  "notice": "بيانات تجريبية للعرض فقط. استبدل روابط التحميل والشرح والبيانات بروابط موثوقة قبل النشر النهائي. جميع الروابط ذات القيمة # مجرد عناصر تجريبية وليست روابط تنزيل حقيقية.",
   "categories": [
     {
       "id": "plugins",
-      "label": "Plugins",
-      "icon": "plugin",
+      "label": "البلجنات",
+      "icon": "📦",
       "count": 75,
       "subcategories": [
         {
-          "id": "dreambox-plugins",
-          "label": "Dreambox Plugins",
-          "count": 0,
-          "items": []
-        },
-        {
-          "id": "dreambox-one",
-          "label": "Dreambox One",
-          "count": 0,
-          "items": []
-        },
-        {
-          "id": "dreambox-two",
-          "label": "Dreambox Two",
-          "count": 0,
-          "items": []
-        },
-        {
-          "id": "dm920",
-          "label": "DM920",
-          "count": 0,
-          "items": []
-        },
-        {
-          "id": "dm900",
-          "label": "DM900",
-          "count": 0,
-          "items": []
-        },
-        {
-          "id": "dm7080",
-          "label": "DM7080",
-          "count": 0,
-          "items": []
-        },
-        {
-          "id": "dreamos-tools",
-          "label": "DreamOS Tools",
+          "id": "enigma",
+          "label": "📦 إضافات Enigma2",
           "count": 6,
           "items": [
             "DreamOS Utility",
-            "MetrixHD",
-            "KravenHD",
-            "BlueLine",
-            "DreamOS",
-            "DreamOS Utility"
+            "Service Manager",
+            "SoftwareManager",
+            "EPGImport",
+            "AutoBackup",
+            "CacheCleaner"
           ]
         },
         {
-          "id": "vu-plugins",
-          "label": "Vu+ Plugins",
-          "count": 0,
-          "items": []
-        },
-        {
-          "id": "vu-uno",
-          "label": "Vu+ Uno",
-          "count": 1,
-          "items": [
-            "Vu+ Uno"
-          ]
-        },
-        {
-          "id": "vu-duo",
-          "label": "Vu+ Duo",
-          "count": 1,
-          "items": [
-            "Vu+ Duo"
-          ]
-        },
-        {
-          "id": "vu-zero",
-          "label": "Vu+ Zero",
-          "count": 1,
-          "items": [
-            "Vu+ Zero"
-          ]
-        },
-        {
-          "id": "vu-ultimo",
-          "label": "Vu+ Ultimo",
-          "count": 1,
-          "items": [
-            "Vu+ Ultimo"
-          ]
-        },
-        {
-          "id": "vu-tools",
-          "label": "Vu+ Tools",
-          "count": 3,
-          "items": [
-            "Vu+",
-            "Vu+ Solo",
-            "Vu+ Tools"
-          ]
-        },
-        {
-          "id": "iptv-plugins",
-          "label": "IPTV Plugins",
+          "id": "iptv",
+          "label": "📡 إضافات IPTV",
           "count": 5,
           "items": [
             "Xtreamity",
@@ -118,27 +34,8 @@
           ]
         },
         {
-          "id": "enigma2-plugins",
-          "label": "Enigma2 Plugins",
-          "count": 12,
-          "items": [
-            "Service Manager",
-            "SoftwareManager",
-            "EPGImport",
-            "AutoBackup",
-            "CacheCleaner",
-            "ATV Blue",
-            "Dark Vision",
-            "Elegant Skin",
-            "OpenATV",
-            "OpenPLI",
-            "OpenVision",
-            "OpenBH"
-          ]
-        },
-        {
-          "id": "softcams",
-          "label": "Softcams",
+          "id": "softcam",
+          "label": "🔐 السوفيتكامات",
           "count": 6,
           "items": [
             "CCcam",
@@ -150,8 +47,27 @@
           ]
         },
         {
+          "id": "skins",
+          "label": "🎨 السكينات",
+          "count": 12,
+          "items": [
+            "MetrixHD",
+            "KravenHD",
+            "BlueLine",
+            "ATV Blue",
+            "Dark Vision",
+            "Elegant Skin",
+            "DreamOS",
+            "OpenATV",
+            "OpenPLI",
+            "OpenVision",
+            "OpenBH",
+            "Vu+"
+          ]
+        },
+        {
           "id": "picons",
-          "label": "Picons",
+          "label": "🖼 البيكونات",
           "count": 7,
           "items": [
             "Nilesat",
@@ -165,23 +81,18 @@
         },
         {
           "id": "system-tools",
-          "label": "System Tools",
-          "count": 9,
+          "label": "🛠 أدوات النظام",
+          "count": 4,
           "items": [
+            "DreamOS Utility",
             "System Cleaner",
             "Package Manager",
-            "Process Manager",
-            "AutoBackup",
-            "Backup Manager",
-            "Settings Restore",
-            "Plugin Updates",
-            "Online Update",
-            "Version Checker"
+            "Process Manager"
           ]
         },
         {
           "id": "settings",
-          "label": "Settings",
+          "label": "⚙ الإعدادات",
           "count": 4,
           "items": [
             "Settings Backup",
@@ -191,8 +102,8 @@
           ]
         },
         {
-          "id": "download-manager",
-          "label": "Download Manager",
+          "id": "downloads",
+          "label": "📥 مدير التنزيلات",
           "count": 3,
           "items": [
             "Download Manager",
@@ -201,29 +112,21 @@
           ]
         },
         {
-          "id": "epg-tools",
-          "label": "EPG Tools",
-          "count": 4,
+          "id": "vuplus",
+          "label": "📺 إضافات Vu+",
+          "count": 6,
           "items": [
-            "EPGImport",
-            "EPG Share",
-            "EPG Refresh",
-            "EPG Search"
+            "Vu+ Uno",
+            "Vu+ Solo",
+            "Vu+ Duo",
+            "Vu+ Zero",
+            "Vu+ Ultimo",
+            "Vu+ Tools"
           ]
         },
         {
-          "id": "file-manager",
-          "label": "File Manager",
-          "count": 3,
-          "items": [
-            "File Commander",
-            "File Browser",
-            "FTP File Manager"
-          ]
-        },
-        {
-          "id": "network-plugins",
-          "label": "Network Plugins",
+          "id": "netplugins",
+          "label": "🌐 إضافات الشبكات",
           "count": 4,
           "items": [
             "Network Browser",
@@ -233,8 +136,8 @@
           ]
         },
         {
-          "id": "media-plugins",
-          "label": "Media Plugins",
+          "id": "media",
+          "label": "🎬 إضافات الميديا",
           "count": 5,
           "items": [
             "MediaPortal",
@@ -243,18 +146,59 @@
             "SubtitleEditor",
             "Media Center"
           ]
+        },
+        {
+          "id": "epg",
+          "label": "📖 إضافات EPG",
+          "count": 4,
+          "items": [
+            "EPGImport",
+            "EPG Share",
+            "EPG Refresh",
+            "EPG Search"
+          ]
+        },
+        {
+          "id": "files",
+          "label": "📁 مدير الملفات",
+          "count": 3,
+          "items": [
+            "File Commander",
+            "File Browser",
+            "FTP File Manager"
+          ]
+        },
+        {
+          "id": "backup-tools",
+          "label": "💾 النسخ الاحتياطية",
+          "count": 3,
+          "items": [
+            "AutoBackup",
+            "Backup Manager",
+            "Settings Restore"
+          ]
+        },
+        {
+          "id": "plugin-updates",
+          "label": "🔄 التحديثات",
+          "count": 3,
+          "items": [
+            "Plugin Updates",
+            "Online Update",
+            "Version Checker"
+          ]
         }
       ]
     },
     {
       "id": "commands",
-      "label": "Commands",
-      "icon": "terminal",
+      "label": "الأوامر",
+      "icon": "⌨️",
       "count": 24,
       "subcategories": [
         {
-          "id": "system",
-          "label": "System",
+          "id": "sys-cmd",
+          "label": "🖥 أوامر النظام",
           "count": 4,
           "items": [
             "إعادة تشغيل Enigma2",
@@ -264,8 +208,8 @@
           ]
         },
         {
-          "id": "network",
-          "label": "Network",
+          "id": "net-cmd",
+          "label": "🌐 أوامر الشبكات",
           "count": 4,
           "items": [
             "إعادة تشغيل الشبكة",
@@ -275,8 +219,8 @@
           ]
         },
         {
-          "id": "channels",
-          "label": "Channels",
+          "id": "chan-cmd",
+          "label": "📡 أوامر القنوات",
           "count": 4,
           "items": [
             "إعادة تحميل البوكية",
@@ -286,8 +230,8 @@
           ]
         },
         {
-          "id": "updates",
-          "label": "Updates",
+          "id": "update-cmd",
+          "label": "🔄 أوامر التحديث",
           "count": 3,
           "items": [
             "تحديث النظام",
@@ -296,8 +240,8 @@
           ]
         },
         {
-          "id": "maintenance",
-          "label": "Maintenance",
+          "id": "clean-cmd",
+          "label": "🧹 أوامر الصيانة",
           "count": 3,
           "items": [
             "تنظيف الكاش",
@@ -306,8 +250,8 @@
           ]
         },
         {
-          "id": "backups",
-          "label": "Backups",
+          "id": "backup-cmd",
+          "label": "💾 أوامر النسخ الاحتياطية",
           "count": 3,
           "items": [
             "إنشاء نسخة احتياطية",
@@ -316,8 +260,8 @@
           ]
         },
         {
-          "id": "repair",
-          "label": "Repair",
+          "id": "repair-cmd",
+          "label": "🛠 أوامر الإصلاح",
           "count": 3,
           "items": [
             "إصلاح الصلاحيات",
@@ -329,13 +273,13 @@
     },
     {
       "id": "tools",
-      "label": "Tools",
-      "icon": "toolbox",
+      "label": "الأدوات",
+      "icon": "🛠️",
       "count": 20,
       "subcategories": [
         {
           "id": "network-tools",
-          "label": "Network Tools",
+          "label": "أدوات الشبكات",
           "count": 4,
           "items": [
             "Ping Test",
@@ -346,7 +290,7 @@
         },
         {
           "id": "system-tools",
-          "label": "System Tools",
+          "label": "أدوات النظام",
           "count": 4,
           "items": [
             "Log Viewer",
@@ -356,8 +300,8 @@
           ]
         },
         {
-          "id": "maintenance",
-          "label": "Maintenance",
+          "id": "maintenance-tools",
+          "label": "أدوات الصيانة",
           "count": 3,
           "items": [
             "Cache Inspector",
@@ -366,8 +310,8 @@
           ]
         },
         {
-          "id": "backup",
-          "label": "Backup",
+          "id": "backup-tools",
+          "label": "أدوات النسخ الاحتياطي",
           "count": 3,
           "items": [
             "Backup Verifier",
@@ -376,8 +320,8 @@
           ]
         },
         {
-          "id": "streaming",
-          "label": "Streaming",
+          "id": "stream-tools",
+          "label": "أدوات البث",
           "count": 3,
           "items": [
             "Stream Tester",
@@ -386,8 +330,8 @@
           ]
         },
         {
-          "id": "signal",
-          "label": "Signal",
+          "id": "signal-tools",
+          "label": "أدوات الإشارة",
           "count": 3,
           "items": [
             "Signal Meter",
@@ -398,9 +342,180 @@
       ]
     },
     {
+      "id": "backup",
+      "label": "النسخ الاحتياطية",
+      "icon": "💾",
+      "count": 21,
+      "subcategories": [
+        {
+          "id": "dreambox",
+          "label": "Dreambox",
+          "count": 5,
+          "items": [
+            "DM920 Backup",
+            "DM900 Backup",
+            "DM7080 Backup",
+            "Dreambox One",
+            "Dreambox Two"
+          ]
+        },
+        {
+          "id": "vuplus",
+          "label": "Vu+",
+          "count": 5,
+          "items": [
+            "Vu+ Zero 4K",
+            "Vu+ Uno",
+            "Vu+ Solo",
+            "Vu+ Duo",
+            "Vu+ Ultimo"
+          ]
+        },
+        {
+          "id": "zgemma",
+          "label": "Zgemma",
+          "count": 3,
+          "items": [
+            "Zgemma H9",
+            "Zgemma H7",
+            "Zgemma H2H"
+          ]
+        },
+        {
+          "id": "octagon",
+          "label": "Octagon",
+          "count": 2,
+          "items": [
+            "Octagon SF8008",
+            "Octagon SX88"
+          ]
+        },
+        {
+          "id": "gigablue",
+          "label": "Gigablue",
+          "count": 2,
+          "items": [
+            "Gigablue UHD Trio",
+            "Gigablue UHD Quad"
+          ]
+        },
+        {
+          "id": "ab-pulse",
+          "label": "AB Pulse",
+          "count": 2,
+          "items": [
+            "AB Pulse 4K Backup",
+            "AB Pulse Mini"
+          ]
+        },
+        {
+          "id": "qviart",
+          "label": "Qviart",
+          "count": 2,
+          "items": [
+            "Qviart Lunix",
+            "Qviart OG2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "channels",
+      "label": "ملفات القنوات",
+      "icon": "📺",
+      "count": 22,
+      "subcategories": [
+        {
+          "id": "nilesat",
+          "label": "Nilesat",
+          "count": 4,
+          "items": [
+            "قائمة محدثة يومية",
+            "قائمة رياضية",
+            "قائمة أفلام",
+            "قائمة أطفال"
+          ]
+        },
+        {
+          "id": "arabsat",
+          "label": "Arabsat",
+          "count": 3,
+          "items": [
+            "قائمة كاملة",
+            "قائمة HD",
+            "قائمة الأطفال"
+          ]
+        },
+        {
+          "id": "hotbird",
+          "label": "Hotbird",
+          "count": 2,
+          "items": [
+            "Hotbird Full List",
+            "Hotbird HD"
+          ]
+        },
+        {
+          "id": "multisat",
+          "label": "Multi Satellite",
+          "count": 3,
+          "items": [
+            "Motor List",
+            "Fixed Dish",
+            "Multi Satellite"
+          ]
+        },
+        {
+          "id": "motor",
+          "label": "Motor Systems",
+          "count": 2,
+          "items": [
+            "USALS Motor List",
+            "DiSEqC Motor List"
+          ]
+        },
+        {
+          "id": "favorites",
+          "label": "Favorites",
+          "count": 2,
+          "items": [
+            "Favorites Bouquet",
+            "Family Favorites"
+          ]
+        },
+        {
+          "id": "sports",
+          "label": "Sports",
+          "count": 2,
+          "items": [
+            "قائمة رياضية محدثة",
+            "Sports HD"
+          ]
+        },
+        {
+          "id": "movies",
+          "label": "Movies",
+          "count": 2,
+          "items": [
+            "قائمة أفلام",
+            "Cinema Bouquet"
+          ]
+        },
+        {
+          "id": "kids",
+          "label": "Kids",
+          "count": 2,
+          "items": [
+            "قائمة الأطفال",
+            "Kids HD"
+          ]
+        }
+      ]
+    },
+    {
       "id": "skins",
-      "label": "Skins",
-      "icon": "palette",
+      "label": "السكينات",
+      "icon": "🎨",
       "count": 14,
       "subcategories": [
         {
@@ -451,7 +566,7 @@
           ]
         },
         {
-          "id": "vu",
+          "id": "vuplus",
           "label": "Vu+",
           "count": 2,
           "items": [
@@ -462,82 +577,13 @@
       ]
     },
     {
-      "id": "backup",
-      "label": "Backups",
-      "icon": "backup",
-      "count": 10,
-      "subcategories": [
-        {
-          "id": "dreambox",
-          "label": "Dreambox",
-          "count": 5,
-          "items": [
-            "DM920 Backup",
-            "DM900 Backup",
-            "DM7080 Backup",
-            "Dreambox One",
-            "Dreambox Two"
-          ]
-        },
-        {
-          "id": "vu",
-          "label": "Vu+",
-          "count": 5,
-          "items": [
-            "Vu+ Zero 4K",
-            "Vu+ Uno",
-            "Vu+ Solo",
-            "Vu+ Duo",
-            "Vu+ Ultimo"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "channels",
-      "label": "Moving Channel List",
-      "icon": "tv",
-      "count": 22,
-      "subcategories": [
-        {
-          "id": "moving-channel-list",
-          "label": "Moving Channel List",
-          "count": 22,
-          "items": [
-            "قائمة محدثة يومية",
-            "قائمة رياضية",
-            "قائمة أفلام",
-            "قائمة أطفال",
-            "قائمة كاملة",
-            "قائمة HD",
-            "قائمة الأطفال",
-            "Hotbird Full List",
-            "Hotbird HD",
-            "Motor List",
-            "Fixed Dish",
-            "Multi Satellite",
-            "USALS Motor List",
-            "DiSEqC Motor List",
-            "Favorites Bouquet",
-            "Family Favorites",
-            "قائمة رياضية محدثة",
-            "Sports HD",
-            "قائمة أفلام",
-            "Cinema Bouquet",
-            "قائمة الأطفال",
-            "Kids HD"
-          ]
-        }
-      ]
-    },
-    {
       "id": "updates",
-      "label": "Updates",
-      "icon": "refresh",
+      "label": "التحديثات",
+      "icon": "🔄",
       "count": 3,
       "subcategories": [
         {
-          "id": "2026",
+          "id": "year-2026",
           "label": "2026",
           "count": 3,
           "items": [
@@ -554,7 +600,7 @@
       "id": 13,
       "name": "DreamOS Utility",
       "category": "plugins",
-      "group": "DreamOS Tools",
+      "group": "📦 إضافات Enigma2",
       "description": "مجموعة أدوات مساعدة لإدارة أجهزة DreamOS.",
       "version": "Demo",
       "date": "2026-10-16",
@@ -564,13 +610,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "dreamos-tools"
+      "subcategory": "enigma"
     },
     {
       "id": 16,
       "name": "Service Manager",
       "category": "plugins",
-      "group": "Enigma2 Plugins",
+      "group": "📦 إضافات Enigma2",
       "description": "إدارة الخدمات والقنوات المحفوظة على الجهاز.",
       "version": "Demo",
       "date": "2026-10-13",
@@ -580,13 +626,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "enigma2-plugins"
+      "subcategory": "enigma"
     },
     {
       "id": 8,
       "name": "SoftwareManager",
       "category": "plugins",
-      "group": "Enigma2 Plugins",
+      "group": "📦 إضافات Enigma2",
       "description": "إدارة الحزم والبرامج المثبتة على نظام Enigma2.",
       "version": "Demo",
       "date": "2026-10-21",
@@ -596,13 +642,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "enigma2-plugins"
+      "subcategory": "enigma"
     },
     {
       "id": 5,
       "name": "EPGImport",
       "category": "plugins",
-      "group": "Enigma2 Plugins",
+      "group": "📦 إضافات Enigma2",
       "description": "استيراد بيانات دليل البرامج الإلكتروني وتنظيم مصادر EPG.",
       "version": "Demo",
       "date": "2026-10-24",
@@ -612,13 +658,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "enigma2-plugins"
+      "subcategory": "enigma"
     },
     {
       "id": 7,
       "name": "AutoBackup",
       "category": "plugins",
-      "group": "Enigma2 Plugins",
+      "group": "📦 إضافات Enigma2",
       "description": "إعداد نسخ احتياطية دورية لإعدادات وملفات الجهاز.",
       "version": "Demo",
       "date": "2026-10-22",
@@ -628,13 +674,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "enigma2-plugins"
+      "subcategory": "enigma"
     },
     {
       "id": 6,
       "name": "CacheCleaner",
       "category": "plugins",
-      "group": "Enigma2 Plugins",
+      "group": "📦 إضافات Enigma2",
       "description": "أداة لصيانة الملفات المؤقتة وتوفير مساحة التخزين.",
       "version": "Demo",
       "date": "2026-10-23",
@@ -644,13 +690,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "enigma2-plugins"
+      "subcategory": "enigma"
     },
     {
       "id": 1,
       "name": "Xtreamity",
       "category": "plugins",
-      "group": "IPTV Plugins",
+      "group": "📡 إضافات IPTV",
       "description": "مشغل IPTV لعرض قوائم Xtream Codes على أجهزة Enigma2.",
       "version": "Demo",
       "date": "2026-10-28",
@@ -660,13 +706,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "iptv-plugins"
+      "subcategory": "iptv"
     },
     {
       "id": 2,
       "name": "JediMakerXtream",
       "category": "plugins",
-      "group": "IPTV Plugins",
+      "group": "📡 إضافات IPTV",
       "description": "إنشاء وتنظيم قوائم IPTV وتحويل بيانات الخدمة إلى بوكيهات.",
       "version": "Demo",
       "date": "2026-10-27",
@@ -676,13 +722,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "iptv-plugins"
+      "subcategory": "iptv"
     },
     {
       "id": 3,
       "name": "XStreamity",
       "category": "plugins",
-      "group": "IPTV Plugins",
+      "group": "📡 إضافات IPTV",
       "description": "واجهة لمشاهدة وإدارة محتوى IPTV على أجهزة Enigma2.",
       "version": "Demo",
       "date": "2026-10-26",
@@ -692,13 +738,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "iptv-plugins"
+      "subcategory": "iptv"
     },
     {
       "id": 4,
       "name": "IPTVPlayer",
       "category": "plugins",
-      "group": "IPTV Plugins",
+      "group": "📡 إضافات IPTV",
       "description": "إضافة للوصول إلى مصادر الفيديو عبر واجهة الجهاز.",
       "version": "Demo",
       "date": "2026-10-25",
@@ -708,14 +754,14 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "iptv-plugins"
+      "subcategory": "iptv"
     },
     {
       "id": 64,
       "name": "E2 IPTV",
       "category": "plugins",
-      "subcategory": "iptv-plugins",
-      "group": "IPTV Plugins",
+      "subcategory": "iptv",
+      "group": "📡 إضافات IPTV",
       "description": "عنصر تجريبي ضمن 📡 إضافات IPTV في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-15",
@@ -730,8 +776,8 @@
       "id": 65,
       "name": "CCcam",
       "category": "plugins",
-      "subcategory": "softcams",
-      "group": "Softcams",
+      "subcategory": "softcam",
+      "group": "🔐 السوفيتكامات",
       "description": "بيانات تعريفية تجريبية لإدارة إعدادات Softcam على أجهزة Enigma2.",
       "version": "Demo",
       "date": "2026-10-14",
@@ -746,8 +792,8 @@
       "id": 66,
       "name": "OScam",
       "category": "plugins",
-      "subcategory": "softcams",
-      "group": "Softcams",
+      "subcategory": "softcam",
+      "group": "🔐 السوفيتكامات",
       "description": "إضافة لإدارة ومتابعة إعدادات OScam. راجع مصدر الإصدار وتوافقه قبل التثبيت.",
       "version": "Demo",
       "date": "2026-10-13",
@@ -762,8 +808,8 @@
       "id": 67,
       "name": "NCam",
       "category": "plugins",
-      "subcategory": "softcams",
-      "group": "Softcams",
+      "subcategory": "softcam",
+      "group": "🔐 السوفيتكامات",
       "description": "عنصر تجريبي ضمن مجموعة Softcam.",
       "version": "Demo",
       "date": "2026-10-12",
@@ -778,8 +824,8 @@
       "id": 68,
       "name": "GCam",
       "category": "plugins",
-      "subcategory": "softcams",
-      "group": "Softcams",
+      "subcategory": "softcam",
+      "group": "🔐 السوفيتكامات",
       "description": "عنصر تجريبي ضمن مجموعة Softcam.",
       "version": "Demo",
       "date": "2026-10-11",
@@ -794,8 +840,8 @@
       "id": 69,
       "name": "Camd3",
       "category": "plugins",
-      "subcategory": "softcams",
-      "group": "Softcams",
+      "subcategory": "softcam",
+      "group": "🔐 السوفيتكامات",
       "description": "عنصر تجريبي ضمن مجموعة Softcam.",
       "version": "Demo",
       "date": "2026-10-10",
@@ -810,8 +856,8 @@
       "id": 70,
       "name": "MgCamd",
       "category": "plugins",
-      "subcategory": "softcams",
-      "group": "Softcams",
+      "subcategory": "softcam",
+      "group": "🔐 السوفيتكامات",
       "description": "عنصر تجريبي ضمن مجموعة Softcam.",
       "version": "Demo",
       "date": "2026-10-09",
@@ -826,7 +872,7 @@
       "id": 37,
       "name": "MetrixHD",
       "category": "plugins",
-      "group": "DreamOS Tools",
+      "group": "🎨 السكينات",
       "description": "بيانات تجريبية لعنصر MetrixHD ضمن قسم DreamOS. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-19",
@@ -836,13 +882,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🎨",
-      "subcategory": "dreamos-tools"
+      "subcategory": "skins"
     },
     {
       "id": 38,
       "name": "KravenHD",
       "category": "plugins",
-      "group": "DreamOS Tools",
+      "group": "🎨 السكينات",
       "description": "بيانات تجريبية لعنصر KravenHD ضمن قسم DreamOS. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-18",
@@ -852,13 +898,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🎨",
-      "subcategory": "dreamos-tools"
+      "subcategory": "skins"
     },
     {
       "id": 39,
       "name": "BlueLine",
       "category": "plugins",
-      "group": "DreamOS Tools",
+      "group": "🎨 السكينات",
       "description": "بيانات تجريبية لعنصر BlueLine ضمن قسم DreamOS. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-17",
@@ -868,13 +914,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🎨",
-      "subcategory": "dreamos-tools"
+      "subcategory": "skins"
     },
     {
       "id": 40,
       "name": "ATV Blue",
       "category": "plugins",
-      "group": "Enigma2 Plugins",
+      "group": "🎨 السكينات",
       "description": "بيانات تجريبية لعنصر ATV Blue ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-16",
@@ -884,13 +930,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🎨",
-      "subcategory": "enigma2-plugins"
+      "subcategory": "skins"
     },
     {
       "id": 41,
       "name": "Dark Vision",
       "category": "plugins",
-      "group": "Enigma2 Plugins",
+      "group": "🎨 السكينات",
       "description": "بيانات تجريبية لعنصر Dark Vision ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-15",
@@ -900,13 +946,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🎨",
-      "subcategory": "enigma2-plugins"
+      "subcategory": "skins"
     },
     {
       "id": 42,
       "name": "Elegant Skin",
       "category": "plugins",
-      "group": "Enigma2 Plugins",
+      "group": "🎨 السكينات",
       "description": "بيانات تجريبية لعنصر Elegant Skin ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-14",
@@ -916,14 +962,14 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🎨",
-      "subcategory": "enigma2-plugins"
+      "subcategory": "skins"
     },
     {
       "id": 71,
       "name": "DreamOS",
       "category": "plugins",
-      "subcategory": "dreamos-tools",
-      "group": "DreamOS Tools",
+      "subcategory": "skins",
+      "group": "🎨 السكينات",
       "description": "عنصر تجريبي ضمن 🎨 السكينات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-08",
@@ -938,8 +984,8 @@
       "id": 72,
       "name": "OpenATV",
       "category": "plugins",
-      "subcategory": "enigma2-plugins",
-      "group": "Enigma2 Plugins",
+      "subcategory": "skins",
+      "group": "🎨 السكينات",
       "description": "عنصر تجريبي ضمن 🎨 السكينات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-07",
@@ -954,8 +1000,8 @@
       "id": 73,
       "name": "OpenPLI",
       "category": "plugins",
-      "subcategory": "enigma2-plugins",
-      "group": "Enigma2 Plugins",
+      "subcategory": "skins",
+      "group": "🎨 السكينات",
       "description": "عنصر تجريبي ضمن 🎨 السكينات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-06",
@@ -970,8 +1016,8 @@
       "id": 74,
       "name": "OpenVision",
       "category": "plugins",
-      "subcategory": "enigma2-plugins",
-      "group": "Enigma2 Plugins",
+      "subcategory": "skins",
+      "group": "🎨 السكينات",
       "description": "عنصر تجريبي ضمن 🎨 السكينات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-30",
@@ -986,8 +1032,8 @@
       "id": 75,
       "name": "OpenBH",
       "category": "plugins",
-      "subcategory": "enigma2-plugins",
-      "group": "Enigma2 Plugins",
+      "subcategory": "skins",
+      "group": "🎨 السكينات",
       "description": "عنصر تجريبي ضمن 🎨 السكينات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-29",
@@ -1002,8 +1048,8 @@
       "id": 76,
       "name": "Vu+",
       "category": "plugins",
-      "subcategory": "vu-tools",
-      "group": "Vu+ Tools",
+      "subcategory": "skins",
+      "group": "🎨 السكينات",
       "description": "عنصر تجريبي ضمن 🎨 السكينات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-28",
@@ -1019,7 +1065,7 @@
       "name": "Nilesat",
       "category": "plugins",
       "subcategory": "picons",
-      "group": "Picons",
+      "group": "🖼 البيكونات",
       "description": "مجموعة بيكونات/قنوات تجريبية لقمر نايل سات.",
       "version": "Demo",
       "date": "2026-10-27",
@@ -1035,7 +1081,7 @@
       "name": "Arabsat",
       "category": "plugins",
       "subcategory": "picons",
-      "group": "Picons",
+      "group": "🖼 البيكونات",
       "description": "مجموعة تجريبية لقمر عرب سات.",
       "version": "Demo",
       "date": "2026-10-26",
@@ -1051,7 +1097,7 @@
       "name": "Hotbird",
       "category": "plugins",
       "subcategory": "picons",
-      "group": "Picons",
+      "group": "🖼 البيكونات",
       "description": "مجموعة تجريبية لقمر Hotbird.",
       "version": "Demo",
       "date": "2026-10-25",
@@ -1067,7 +1113,7 @@
       "name": "MultiSat",
       "category": "plugins",
       "subcategory": "picons",
-      "group": "Picons",
+      "group": "🖼 البيكونات",
       "description": "مجموعة تجريبية متعددة الأقمار.",
       "version": "Demo",
       "date": "2026-10-24",
@@ -1083,7 +1129,7 @@
       "name": "IPTV",
       "category": "plugins",
       "subcategory": "picons",
-      "group": "Picons",
+      "group": "🖼 البيكونات",
       "description": "بيكونات تجريبية لقوائم IPTV.",
       "version": "Demo",
       "date": "2026-10-23",
@@ -1099,7 +1145,7 @@
       "name": "Motor",
       "category": "plugins",
       "subcategory": "picons",
-      "group": "Picons",
+      "group": "🖼 البيكونات",
       "description": "بيكونات/قوائم لأنظمة الأطباق المتحركة.",
       "version": "Demo",
       "date": "2026-10-22",
@@ -1115,7 +1161,7 @@
       "name": "Streaming",
       "category": "plugins",
       "subcategory": "picons",
-      "group": "Picons",
+      "group": "🖼 البيكونات",
       "description": "بيكونات لخدمات البث.",
       "version": "Demo",
       "date": "2026-10-21",
@@ -1130,8 +1176,8 @@
       "id": 84,
       "name": "DreamOS Utility",
       "category": "plugins",
-      "subcategory": "dreamos-tools",
-      "group": "DreamOS Tools",
+      "subcategory": "system-tools",
+      "group": "🛠 أدوات النظام",
       "description": "عنصر تجريبي ضمن 🛠 أدوات النظام في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-20",
@@ -1147,7 +1193,7 @@
       "name": "System Cleaner",
       "category": "plugins",
       "subcategory": "system-tools",
-      "group": "System Tools",
+      "group": "🛠 أدوات النظام",
       "description": "عنصر تجريبي ضمن 🛠 أدوات النظام في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-19",
@@ -1163,7 +1209,7 @@
       "name": "Package Manager",
       "category": "plugins",
       "subcategory": "system-tools",
-      "group": "System Tools",
+      "group": "🛠 أدوات النظام",
       "description": "عنصر تجريبي ضمن 🛠 أدوات النظام في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-18",
@@ -1179,7 +1225,7 @@
       "name": "Process Manager",
       "category": "plugins",
       "subcategory": "system-tools",
-      "group": "System Tools",
+      "group": "🛠 أدوات النظام",
       "description": "عنصر تجريبي ضمن 🛠 أدوات النظام في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-17",
@@ -1195,7 +1241,7 @@
       "name": "Settings Backup",
       "category": "plugins",
       "subcategory": "settings",
-      "group": "Settings",
+      "group": "⚙ الإعدادات",
       "description": "عنصر تجريبي ضمن ⚙ الإعدادات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-16",
@@ -1211,7 +1257,7 @@
       "name": "Network Settings",
       "category": "plugins",
       "subcategory": "settings",
-      "group": "Settings",
+      "group": "⚙ الإعدادات",
       "description": "عنصر تجريبي ضمن ⚙ الإعدادات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-15",
@@ -1227,7 +1273,7 @@
       "name": "User Interface Settings",
       "category": "plugins",
       "subcategory": "settings",
-      "group": "Settings",
+      "group": "⚙ الإعدادات",
       "description": "عنصر تجريبي ضمن ⚙ الإعدادات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-14",
@@ -1243,7 +1289,7 @@
       "name": "Tuner Settings",
       "category": "plugins",
       "subcategory": "settings",
-      "group": "Settings",
+      "group": "⚙ الإعدادات",
       "description": "عنصر تجريبي ضمن ⚙ الإعدادات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-13",
@@ -1258,8 +1304,8 @@
       "id": 92,
       "name": "Download Manager",
       "category": "plugins",
-      "subcategory": "download-manager",
-      "group": "Download Manager",
+      "subcategory": "downloads",
+      "group": "📥 مدير التنزيلات",
       "description": "عنصر تجريبي ضمن 📥 مدير التنزيلات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-12",
@@ -1274,8 +1320,8 @@
       "id": 93,
       "name": "Queue Manager",
       "category": "plugins",
-      "subcategory": "download-manager",
-      "group": "Download Manager",
+      "subcategory": "downloads",
+      "group": "📥 مدير التنزيلات",
       "description": "عنصر تجريبي ضمن 📥 مدير التنزيلات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-11",
@@ -1290,8 +1336,8 @@
       "id": 94,
       "name": "Update Downloader",
       "category": "plugins",
-      "subcategory": "download-manager",
-      "group": "Download Manager",
+      "subcategory": "downloads",
+      "group": "📥 مدير التنزيلات",
       "description": "عنصر تجريبي ضمن 📥 مدير التنزيلات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-10",
@@ -1306,7 +1352,7 @@
       "id": 58,
       "name": "Vu+ Uno",
       "category": "plugins",
-      "group": "Vu+ Uno",
+      "group": "📺 إضافات Vu+",
       "description": "بيانات تجريبية لعنصر Vu+ Uno ضمن قسم OpenPLI. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-25",
@@ -1316,14 +1362,14 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "💾",
-      "subcategory": "vu-uno"
+      "subcategory": "vuplus"
     },
     {
       "id": 95,
       "name": "Vu+ Solo",
       "category": "plugins",
-      "subcategory": "vu-tools",
-      "group": "Vu+ Tools",
+      "subcategory": "vuplus",
+      "group": "📺 إضافات Vu+",
       "description": "عنصر تجريبي ضمن 📺 إضافات Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-09",
@@ -1338,8 +1384,8 @@
       "id": 96,
       "name": "Vu+ Duo",
       "category": "plugins",
-      "subcategory": "vu-duo",
-      "group": "Vu+ Duo",
+      "subcategory": "vuplus",
+      "group": "📺 إضافات Vu+",
       "description": "عنصر تجريبي ضمن 📺 إضافات Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-08",
@@ -1354,8 +1400,8 @@
       "id": 97,
       "name": "Vu+ Zero",
       "category": "plugins",
-      "subcategory": "vu-zero",
-      "group": "Vu+ Zero",
+      "subcategory": "vuplus",
+      "group": "📺 إضافات Vu+",
       "description": "عنصر تجريبي ضمن 📺 إضافات Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-07",
@@ -1370,8 +1416,8 @@
       "id": 98,
       "name": "Vu+ Ultimo",
       "category": "plugins",
-      "subcategory": "vu-ultimo",
-      "group": "Vu+ Ultimo",
+      "subcategory": "vuplus",
+      "group": "📺 إضافات Vu+",
       "description": "عنصر تجريبي ضمن 📺 إضافات Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-06",
@@ -1386,8 +1432,8 @@
       "id": 99,
       "name": "Vu+ Tools",
       "category": "plugins",
-      "subcategory": "vu-tools",
-      "group": "Vu+ Tools",
+      "subcategory": "vuplus",
+      "group": "📺 إضافات Vu+",
       "description": "عنصر تجريبي ضمن 📺 إضافات Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-30",
@@ -1402,8 +1448,8 @@
       "id": 100,
       "name": "Network Browser",
       "category": "plugins",
-      "subcategory": "network-plugins",
-      "group": "Network Plugins",
+      "subcategory": "netplugins",
+      "group": "🌐 إضافات الشبكات",
       "description": "عنصر تجريبي ضمن 🌐 إضافات الشبكات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-29",
@@ -1418,8 +1464,8 @@
       "id": 101,
       "name": "Web Interface",
       "category": "plugins",
-      "subcategory": "network-plugins",
-      "group": "Network Plugins",
+      "subcategory": "netplugins",
+      "group": "🌐 إضافات الشبكات",
       "description": "عنصر تجريبي ضمن 🌐 إضافات الشبكات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-28",
@@ -1434,8 +1480,8 @@
       "id": 102,
       "name": "FTP Manager",
       "category": "plugins",
-      "subcategory": "network-plugins",
-      "group": "Network Plugins",
+      "subcategory": "netplugins",
+      "group": "🌐 إضافات الشبكات",
       "description": "عنصر تجريبي ضمن 🌐 إضافات الشبكات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-27",
@@ -1450,8 +1496,8 @@
       "id": 103,
       "name": "Wake on LAN",
       "category": "plugins",
-      "subcategory": "network-plugins",
-      "group": "Network Plugins",
+      "subcategory": "netplugins",
+      "group": "🌐 إضافات الشبكات",
       "description": "عنصر تجريبي ضمن 🌐 إضافات الشبكات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-26",
@@ -1466,7 +1512,7 @@
       "id": 9,
       "name": "MediaPortal",
       "category": "plugins",
-      "group": "Media Plugins",
+      "group": "🎬 إضافات الميديا",
       "description": "واجهة للوصول إلى مصادر ومكتبات الوسائط.",
       "version": "Demo",
       "date": "2026-10-20",
@@ -1476,13 +1522,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "media-plugins"
+      "subcategory": "media"
     },
     {
       "id": 10,
       "name": "KodiDirect",
       "category": "plugins",
-      "group": "Media Plugins",
+      "group": "🎬 إضافات الميديا",
       "description": "تكامل وأدوات مساعدة لتشغيل محتوى الوسائط.",
       "version": "Demo",
       "date": "2026-10-19",
@@ -1492,13 +1538,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "media-plugins"
+      "subcategory": "media"
     },
     {
       "id": 11,
       "name": "AudioSync",
       "category": "plugins",
-      "group": "Media Plugins",
+      "group": "🎬 إضافات الميديا",
       "description": "ضبط تزامن الصوت مع الصورة أثناء المشاهدة.",
       "version": "Demo",
       "date": "2026-10-18",
@@ -1508,13 +1554,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "media-plugins"
+      "subcategory": "media"
     },
     {
       "id": 12,
       "name": "SubtitleEditor",
       "category": "plugins",
-      "group": "Media Plugins",
+      "group": "🎬 إضافات الميديا",
       "description": "إدارة وضبط إعدادات ملفات الترجمة.",
       "version": "Demo",
       "date": "2026-10-17",
@@ -1524,14 +1570,14 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "media-plugins"
+      "subcategory": "media"
     },
     {
       "id": 104,
       "name": "Media Center",
       "category": "plugins",
-      "subcategory": "media-plugins",
-      "group": "Media Plugins",
+      "subcategory": "media",
+      "group": "🎬 إضافات الميديا",
       "description": "عنصر تجريبي ضمن 🎬 إضافات الميديا في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-25",
@@ -1546,8 +1592,8 @@
       "id": 105,
       "name": "EPGImport",
       "category": "plugins",
-      "subcategory": "epg-tools",
-      "group": "EPG Tools",
+      "subcategory": "epg",
+      "group": "📖 إضافات EPG",
       "description": "عنصر تجريبي ضمن 📖 إضافات EPG في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-24",
@@ -1562,8 +1608,8 @@
       "id": 106,
       "name": "EPG Share",
       "category": "plugins",
-      "subcategory": "epg-tools",
-      "group": "EPG Tools",
+      "subcategory": "epg",
+      "group": "📖 إضافات EPG",
       "description": "عنصر تجريبي ضمن 📖 إضافات EPG في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-23",
@@ -1578,8 +1624,8 @@
       "id": 107,
       "name": "EPG Refresh",
       "category": "plugins",
-      "subcategory": "epg-tools",
-      "group": "EPG Tools",
+      "subcategory": "epg",
+      "group": "📖 إضافات EPG",
       "description": "عنصر تجريبي ضمن 📖 إضافات EPG في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-22",
@@ -1594,8 +1640,8 @@
       "id": 108,
       "name": "EPG Search",
       "category": "plugins",
-      "subcategory": "epg-tools",
-      "group": "EPG Tools",
+      "subcategory": "epg",
+      "group": "📖 إضافات EPG",
       "description": "عنصر تجريبي ضمن 📖 إضافات EPG في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-21",
@@ -1610,8 +1656,8 @@
       "id": 109,
       "name": "File Commander",
       "category": "plugins",
-      "subcategory": "file-manager",
-      "group": "File Manager",
+      "subcategory": "files",
+      "group": "📁 مدير الملفات",
       "description": "عنصر تجريبي ضمن 📁 مدير الملفات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-20",
@@ -1626,8 +1672,8 @@
       "id": 110,
       "name": "File Browser",
       "category": "plugins",
-      "subcategory": "file-manager",
-      "group": "File Manager",
+      "subcategory": "files",
+      "group": "📁 مدير الملفات",
       "description": "عنصر تجريبي ضمن 📁 مدير الملفات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-19",
@@ -1642,8 +1688,8 @@
       "id": 111,
       "name": "FTP File Manager",
       "category": "plugins",
-      "subcategory": "file-manager",
-      "group": "File Manager",
+      "subcategory": "files",
+      "group": "📁 مدير الملفات",
       "description": "عنصر تجريبي ضمن 📁 مدير الملفات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-18",
@@ -1658,8 +1704,8 @@
       "id": 112,
       "name": "AutoBackup",
       "category": "plugins",
-      "subcategory": "system-tools",
-      "group": "System Tools",
+      "subcategory": "backup-tools",
+      "group": "💾 النسخ الاحتياطية",
       "description": "عنصر تجريبي ضمن 💾 النسخ الاحتياطية في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-17",
@@ -1674,8 +1720,8 @@
       "id": 113,
       "name": "Backup Manager",
       "category": "plugins",
-      "subcategory": "system-tools",
-      "group": "System Tools",
+      "subcategory": "backup-tools",
+      "group": "💾 النسخ الاحتياطية",
       "description": "عنصر تجريبي ضمن 💾 النسخ الاحتياطية في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-16",
@@ -1690,8 +1736,8 @@
       "id": 114,
       "name": "Settings Restore",
       "category": "plugins",
-      "subcategory": "system-tools",
-      "group": "System Tools",
+      "subcategory": "backup-tools",
+      "group": "💾 النسخ الاحتياطية",
       "description": "عنصر تجريبي ضمن 💾 النسخ الاحتياطية في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-15",
@@ -1706,8 +1752,8 @@
       "id": 115,
       "name": "Plugin Updates",
       "category": "plugins",
-      "subcategory": "system-tools",
-      "group": "System Tools",
+      "subcategory": "plugin-updates",
+      "group": "🔄 التحديثات",
       "description": "عنصر تجريبي ضمن 🔄 التحديثات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-14",
@@ -1722,8 +1768,8 @@
       "id": 116,
       "name": "Online Update",
       "category": "plugins",
-      "subcategory": "system-tools",
-      "group": "System Tools",
+      "subcategory": "plugin-updates",
+      "group": "🔄 التحديثات",
       "description": "عنصر تجريبي ضمن 🔄 التحديثات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-13",
@@ -1738,8 +1784,8 @@
       "id": 117,
       "name": "Version Checker",
       "category": "plugins",
-      "subcategory": "system-tools",
-      "group": "System Tools",
+      "subcategory": "plugin-updates",
+      "group": "🔄 التحديثات",
       "description": "عنصر تجريبي ضمن 🔄 التحديثات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-12",
@@ -1754,7 +1800,7 @@
       "id": 17,
       "name": "إعادة تشغيل Enigma2",
       "category": "commands",
-      "group": "System",
+      "group": "🖥 أوامر النظام",
       "description": "إعادة تشغيل واجهة Enigma2 دون إعادة تشغيل الجهاز بالكامل.",
       "version": "Shell",
       "date": "2026-10-12",
@@ -1762,14 +1808,14 @@
       "keywords": "إعادة تشغيل Enigma2 النظام الأوامر",
       "command": "systemctl restart enigma2",
       "icon": "⌨️",
-      "subcategory": "system"
+      "subcategory": "sys-cmd"
     },
     {
       "id": 118,
       "name": "إيقاف Enigma2",
       "category": "commands",
-      "subcategory": "system",
-      "group": "System",
+      "subcategory": "sys-cmd",
+      "group": "🖥 أوامر النظام",
       "description": "عنصر تجريبي ضمن 🖥 أوامر النظام في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-11",
@@ -1784,8 +1830,8 @@
       "id": 119,
       "name": "عرض إصدار النظام",
       "category": "commands",
-      "subcategory": "system",
-      "group": "System",
+      "subcategory": "sys-cmd",
+      "group": "🖥 أوامر النظام",
       "description": "عنصر تجريبي ضمن 🖥 أوامر النظام في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-10",
@@ -1800,8 +1846,8 @@
       "id": 120,
       "name": "عرض العمليات",
       "category": "commands",
-      "subcategory": "system",
-      "group": "System",
+      "subcategory": "sys-cmd",
+      "group": "🖥 أوامر النظام",
       "description": "عنصر تجريبي ضمن 🖥 أوامر النظام في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-09",
@@ -1816,7 +1862,7 @@
       "id": 21,
       "name": "إعادة تشغيل الشبكة",
       "category": "commands",
-      "group": "Network",
+      "group": "🌐 أوامر الشبكات",
       "description": "إعادة تشغيل خدمة الشبكة؛ قد ينقطع الاتصال مؤقتاً.",
       "version": "Shell",
       "date": "2026-10-08",
@@ -1824,13 +1870,13 @@
       "keywords": "إعادة تشغيل الشبكة الشبكة الأوامر",
       "command": "systemctl restart networking",
       "icon": "⌨️",
-      "subcategory": "network"
+      "subcategory": "net-cmd"
     },
     {
       "id": 22,
       "name": "تحديث DNS",
       "category": "commands",
-      "group": "Network",
+      "group": "🌐 أوامر الشبكات",
       "description": "إعادة تشغيل خدمة DNS على الأنظمة التي تستخدم systemd-resolved.",
       "version": "Shell",
       "date": "2026-10-07",
@@ -1838,13 +1884,13 @@
       "keywords": "تحديث DNS الشبكة الأوامر",
       "command": "systemctl restart systemd-resolved",
       "icon": "⌨️",
-      "subcategory": "network"
+      "subcategory": "net-cmd"
     },
     {
       "id": 23,
       "name": "اختبار الاتصال",
       "category": "commands",
-      "group": "Network",
+      "group": "🌐 أوامر الشبكات",
       "description": "اختبار الاتصال بعنوان خارجي عبر أربع محاولات.",
       "version": "Shell",
       "date": "2026-10-06",
@@ -1852,13 +1898,13 @@
       "keywords": "اختبار الاتصال الشبكة الأوامر",
       "command": "ping -c 4 8.8.8.8",
       "icon": "⌨️",
-      "subcategory": "network"
+      "subcategory": "net-cmd"
     },
     {
       "id": 24,
       "name": "عرض IP",
       "category": "commands",
-      "group": "Network",
+      "group": "🌐 أوامر الشبكات",
       "description": "عرض واجهات الشبكة وعناوين IP.",
       "version": "Shell",
       "date": "2026-10-05",
@@ -1866,13 +1912,13 @@
       "keywords": "عرض IP الشبكة الأوامر",
       "command": "ip addr show",
       "icon": "⌨️",
-      "subcategory": "network"
+      "subcategory": "net-cmd"
     },
     {
       "id": 25,
       "name": "إعادة تحميل البوكية",
       "category": "commands",
-      "group": "Channels",
+      "group": "📡 أوامر القنوات",
       "description": "مثال استعلام محلي؛ يتطلب واجهة OpenWebif مفعّلة.",
       "version": "Shell",
       "date": "2026-10-04",
@@ -1880,13 +1926,13 @@
       "keywords": "إعادة تحميل البوكية القنوات الأوامر",
       "command": "wget -qO- http://127.0.0.1/web/getservices",
       "icon": "⌨️",
-      "subcategory": "channels"
+      "subcategory": "chan-cmd"
     },
     {
       "id": 26,
       "name": "تحديث قائمة القنوات",
       "category": "commands",
-      "group": "Channels",
+      "group": "📡 أوامر القنوات",
       "description": "مثال رابط مستودع قائمة قنوات Online4Tech.",
       "version": "Shell",
       "date": "2026-10-30",
@@ -1894,13 +1940,13 @@
       "keywords": "تحديث قائمة القنوات القنوات الأوامر",
       "command": "wget -O - https://raw.githubusercontent.com/online4tech/Enigma2-Chanal-List-BYRomeh/main/install-channels.sh | sh",
       "icon": "⌨️",
-      "subcategory": "channels"
+      "subcategory": "chan-cmd"
     },
     {
       "id": 27,
       "name": "إعادة تشغيل الخدمة",
       "category": "commands",
-      "group": "Channels",
+      "group": "📡 أوامر القنوات",
       "description": "إعادة تشغيل واجهة Enigma2 لتطبيق التغييرات.",
       "version": "Shell",
       "date": "2026-10-29",
@@ -1908,13 +1954,13 @@
       "keywords": "إعادة تشغيل الخدمة القنوات الأوامر",
       "command": "systemctl restart enigma2",
       "icon": "⌨️",
-      "subcategory": "channels"
+      "subcategory": "chan-cmd"
     },
     {
       "id": 28,
       "name": "مسح قواعد البيانات",
       "category": "commands",
-      "group": "Channels",
+      "group": "📡 أوامر القنوات",
       "description": "مثال صيانة SQLite؛ راجع مسارات النظام قبل الاستخدام.",
       "version": "Shell",
       "date": "2026-10-28",
@@ -1922,13 +1968,13 @@
       "keywords": "مسح قواعد البيانات القنوات الأوامر",
       "command": "sqlite3 /etc/enigma2/settings 'PRAGMA optimize;'",
       "icon": "⌨️",
-      "subcategory": "channels"
+      "subcategory": "chan-cmd"
     },
     {
       "id": 20,
       "name": "تحديث النظام",
       "category": "commands",
-      "group": "Updates",
+      "group": "🔄 أوامر التحديث",
       "description": "تحديث قوائم الحزم ثم ترقية الحزم على الأنظمة المتوافقة.",
       "version": "Shell",
       "date": "2026-10-09",
@@ -1936,14 +1982,14 @@
       "keywords": "تحديث النظام النظام الأوامر",
       "command": "opkg update && opkg upgrade",
       "icon": "⌨️",
-      "subcategory": "updates"
+      "subcategory": "update-cmd"
     },
     {
       "id": 121,
       "name": "تحديث قوائم الحزم",
       "category": "commands",
-      "subcategory": "updates",
-      "group": "Updates",
+      "subcategory": "update-cmd",
+      "group": "🔄 أوامر التحديث",
       "description": "عنصر تجريبي ضمن 🔄 أوامر التحديث في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-08",
@@ -1958,8 +2004,8 @@
       "id": 122,
       "name": "ترقية الحزم",
       "category": "commands",
-      "subcategory": "updates",
-      "group": "Updates",
+      "subcategory": "update-cmd",
+      "group": "🔄 أوامر التحديث",
       "description": "عنصر تجريبي ضمن 🔄 أوامر التحديث في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-07",
@@ -1974,7 +2020,7 @@
       "id": 18,
       "name": "تنظيف الكاش",
       "category": "commands",
-      "group": "Maintenance",
+      "group": "🧹 أوامر الصيانة",
       "description": "أمر تمهيدي للمزامنة؛ تختلف خطوات تنظيف الكاش حسب صورة النظام.",
       "version": "Shell",
       "date": "2026-10-11",
@@ -1982,14 +2028,14 @@
       "keywords": "تنظيف الكاش النظام الأوامر",
       "command": "sync",
       "icon": "⌨️",
-      "subcategory": "maintenance"
+      "subcategory": "clean-cmd"
     },
     {
       "id": 123,
       "name": "تنظيف الملفات المؤقتة",
       "category": "commands",
-      "subcategory": "maintenance",
-      "group": "Maintenance",
+      "subcategory": "clean-cmd",
+      "group": "🧹 أوامر الصيانة",
       "description": "عنصر تجريبي ضمن 🧹 أوامر الصيانة في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-06",
@@ -2004,8 +2050,8 @@
       "id": 124,
       "name": "فحص مساحة التخزين",
       "category": "commands",
-      "subcategory": "maintenance",
-      "group": "Maintenance",
+      "subcategory": "clean-cmd",
+      "group": "🧹 أوامر الصيانة",
       "description": "عنصر تجريبي ضمن 🧹 أوامر الصيانة في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-30",
@@ -2020,8 +2066,8 @@
       "id": 125,
       "name": "إنشاء نسخة احتياطية",
       "category": "commands",
-      "subcategory": "backups",
-      "group": "Backups",
+      "subcategory": "backup-cmd",
+      "group": "💾 أوامر النسخ الاحتياطية",
       "description": "عنصر تجريبي ضمن 💾 أوامر النسخ الاحتياطية في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-29",
@@ -2036,8 +2082,8 @@
       "id": 126,
       "name": "عرض ملفات النسخ",
       "category": "commands",
-      "subcategory": "backups",
-      "group": "Backups",
+      "subcategory": "backup-cmd",
+      "group": "💾 أوامر النسخ الاحتياطية",
       "description": "عنصر تجريبي ضمن 💾 أوامر النسخ الاحتياطية في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-28",
@@ -2052,8 +2098,8 @@
       "id": 127,
       "name": "استعادة الإعدادات",
       "category": "commands",
-      "subcategory": "backups",
-      "group": "Backups",
+      "subcategory": "backup-cmd",
+      "group": "💾 أوامر النسخ الاحتياطية",
       "description": "عنصر تجريبي ضمن 💾 أوامر النسخ الاحتياطية في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-27",
@@ -2068,7 +2114,7 @@
       "id": 19,
       "name": "إصلاح الصلاحيات",
       "category": "commands",
-      "group": "Repair",
+      "group": "🛠 أوامر الإصلاح",
       "description": "مثال توضيحي فقط؛ لا تشغّله على مجلدات عامة قبل تحديد المسار الصحيح.",
       "version": "Shell",
       "date": "2026-10-10",
@@ -2076,14 +2122,14 @@
       "keywords": "إصلاح الصلاحيات النظام الأوامر",
       "command": "chmod -R 755 /usr/script",
       "icon": "⌨️",
-      "subcategory": "repair"
+      "subcategory": "repair-cmd"
     },
     {
       "id": 128,
       "name": "فحص ملفات النظام",
       "category": "commands",
-      "subcategory": "repair",
-      "group": "Repair",
+      "subcategory": "repair-cmd",
+      "group": "🛠 أوامر الإصلاح",
       "description": "عنصر تجريبي ضمن 🛠 أوامر الإصلاح في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-26",
@@ -2098,8 +2144,8 @@
       "id": 129,
       "name": "إعادة تشغيل الخدمات",
       "category": "commands",
-      "subcategory": "repair",
-      "group": "Repair",
+      "subcategory": "repair-cmd",
+      "group": "🛠 أوامر الإصلاح",
       "description": "عنصر تجريبي ضمن 🛠 أوامر الإصلاح في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-25",
@@ -2114,7 +2160,7 @@
       "id": 29,
       "name": "Ping Test",
       "category": "tools",
-      "group": "Network Tools",
+      "group": "أدوات الشبكات",
       "description": "اختبار الوصول إلى عنوان شبكة وقياس زمن الاستجابة.",
       "version": "Demo",
       "date": "2026-10-27",
@@ -2130,7 +2176,7 @@
       "id": 30,
       "name": "Port Scanner",
       "category": "tools",
-      "group": "Network Tools",
+      "group": "أدوات الشبكات",
       "description": "فحص منافذ جهاز داخل الشبكة المحلية لأغراض الإدارة.",
       "version": "Demo",
       "date": "2026-10-26",
@@ -2146,7 +2192,7 @@
       "id": 31,
       "name": "DNS Lookup",
       "category": "tools",
-      "group": "Network Tools",
+      "group": "أدوات الشبكات",
       "description": "الاستعلام عن سجلات DNS لاسم نطاق.",
       "version": "Demo",
       "date": "2026-10-25",
@@ -2162,7 +2208,7 @@
       "id": 32,
       "name": "Network Monitor",
       "category": "tools",
-      "group": "Network Tools",
+      "group": "أدوات الشبكات",
       "description": "عرض مؤشرات اتصال الشبكة وحالتها.",
       "version": "Demo",
       "date": "2026-10-24",
@@ -2178,7 +2224,7 @@
       "id": 33,
       "name": "Log Viewer",
       "category": "tools",
-      "group": "System Tools",
+      "group": "أدوات النظام",
       "description": "استعراض سجلات النظام للمساعدة في تشخيص المشكلات.",
       "version": "Demo",
       "date": "2026-10-23",
@@ -2194,7 +2240,7 @@
       "id": 34,
       "name": "Memory Viewer",
       "category": "tools",
-      "group": "System Tools",
+      "group": "أدوات النظام",
       "description": "عرض معلومات استخدام الذاكرة.",
       "version": "Demo",
       "date": "2026-10-22",
@@ -2210,7 +2256,7 @@
       "id": 35,
       "name": "Process Monitor",
       "category": "tools",
-      "group": "System Tools",
+      "group": "أدوات النظام",
       "description": "متابعة العمليات النشطة على الجهاز.",
       "version": "Demo",
       "date": "2026-10-21",
@@ -2226,7 +2272,7 @@
       "id": 36,
       "name": "Storage Analyzer",
       "category": "tools",
-      "group": "System Tools",
+      "group": "أدوات النظام",
       "description": "عرض استخدام مساحة التخزين والأقسام.",
       "version": "Demo",
       "date": "2026-10-20",
@@ -2242,8 +2288,8 @@
       "id": 130,
       "name": "Cache Inspector",
       "category": "tools",
-      "subcategory": "maintenance",
-      "group": "Maintenance",
+      "subcategory": "maintenance-tools",
+      "group": "أدوات الصيانة",
       "description": "عنصر تجريبي ضمن أدوات الصيانة في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-24",
@@ -2258,8 +2304,8 @@
       "id": 131,
       "name": "Disk Check",
       "category": "tools",
-      "subcategory": "maintenance",
-      "group": "Maintenance",
+      "subcategory": "maintenance-tools",
+      "group": "أدوات الصيانة",
       "description": "عنصر تجريبي ضمن أدوات الصيانة في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-23",
@@ -2274,8 +2320,8 @@
       "id": 132,
       "name": "Crash Log Analyzer",
       "category": "tools",
-      "subcategory": "maintenance",
-      "group": "Maintenance",
+      "subcategory": "maintenance-tools",
+      "group": "أدوات الصيانة",
       "description": "عنصر تجريبي ضمن أدوات الصيانة في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-22",
@@ -2290,8 +2336,8 @@
       "id": 133,
       "name": "Backup Verifier",
       "category": "tools",
-      "subcategory": "backup",
-      "group": "Backup",
+      "subcategory": "backup-tools",
+      "group": "أدوات النسخ الاحتياطي",
       "description": "عنصر تجريبي ضمن أدوات النسخ الاحتياطي في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-21",
@@ -2306,8 +2352,8 @@
       "id": 134,
       "name": "Restore Assistant",
       "category": "tools",
-      "subcategory": "backup",
-      "group": "Backup",
+      "subcategory": "backup-tools",
+      "group": "أدوات النسخ الاحتياطي",
       "description": "عنصر تجريبي ضمن أدوات النسخ الاحتياطي في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-20",
@@ -2322,8 +2368,8 @@
       "id": 135,
       "name": "Backup Scheduler",
       "category": "tools",
-      "subcategory": "backup",
-      "group": "Backup",
+      "subcategory": "backup-tools",
+      "group": "أدوات النسخ الاحتياطي",
       "description": "عنصر تجريبي ضمن أدوات النسخ الاحتياطي في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-19",
@@ -2338,7 +2384,7 @@
       "id": 15,
       "name": "Stream Tester",
       "category": "tools",
-      "group": "Streaming",
+      "group": "أدوات البث",
       "description": "اختبار حالة تدفق القنوات ومعلومات الاتصال.",
       "version": "Demo",
       "date": "2026-10-14",
@@ -2348,14 +2394,14 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "streaming"
+      "subcategory": "stream-tools"
     },
     {
       "id": 136,
       "name": "Bitrate Monitor",
       "category": "tools",
-      "subcategory": "streaming",
-      "group": "Streaming",
+      "subcategory": "stream-tools",
+      "group": "أدوات البث",
       "description": "عنصر تجريبي ضمن أدوات البث في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-18",
@@ -2370,8 +2416,8 @@
       "id": 137,
       "name": "Service Checker",
       "category": "tools",
-      "subcategory": "streaming",
-      "group": "Streaming",
+      "subcategory": "stream-tools",
+      "group": "أدوات البث",
       "description": "عنصر تجريبي ضمن أدوات البث في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-17",
@@ -2386,8 +2432,8 @@
       "id": 138,
       "name": "Signal Meter",
       "category": "tools",
-      "subcategory": "signal",
-      "group": "Signal",
+      "subcategory": "signal-tools",
+      "group": "أدوات الإشارة",
       "description": "عنصر تجريبي ضمن أدوات الإشارة في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-16",
@@ -2402,8 +2448,8 @@
       "id": 139,
       "name": "SNR Monitor",
       "category": "tools",
-      "subcategory": "signal",
-      "group": "Signal",
+      "subcategory": "signal-tools",
+      "group": "أدوات الإشارة",
       "description": "عنصر تجريبي ضمن أدوات الإشارة في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-15",
@@ -2418,7 +2464,7 @@
       "id": 14,
       "name": "Satellite Finder",
       "category": "tools",
-      "group": "Signal",
+      "group": "أدوات الإشارة",
       "description": "مساعد لعرض بيانات الأقمار وضبط اتجاه الطبق.",
       "version": "Demo",
       "date": "2026-10-15",
@@ -2428,7 +2474,7 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "signal"
+      "subcategory": "signal-tools"
     },
     {
       "id": 52,
@@ -2524,13 +2570,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "💾",
-      "subcategory": "vu"
+      "subcategory": "vuplus"
     },
     {
       "id": 140,
       "name": "Vu+ Uno",
       "category": "backup",
-      "subcategory": "vu",
+      "subcategory": "vuplus",
       "group": "Vu+",
       "description": "عنصر تجريبي ضمن Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -2546,7 +2592,7 @@
       "id": 141,
       "name": "Vu+ Solo",
       "category": "backup",
-      "subcategory": "vu",
+      "subcategory": "vuplus",
       "group": "Vu+",
       "description": "عنصر تجريبي ضمن Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -2562,7 +2608,7 @@
       "id": 142,
       "name": "Vu+ Duo",
       "category": "backup",
-      "subcategory": "vu",
+      "subcategory": "vuplus",
       "group": "Vu+",
       "description": "عنصر تجريبي ضمن Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -2578,7 +2624,7 @@
       "id": 143,
       "name": "Vu+ Ultimo",
       "category": "backup",
-      "subcategory": "vu",
+      "subcategory": "vuplus",
       "group": "Vu+",
       "description": "عنصر تجريبي ضمن Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -2591,10 +2637,186 @@
       "detailUrl": "#"
     },
     {
+      "id": 56,
+      "name": "Zgemma H9",
+      "category": "backup",
+      "group": "Zgemma",
+      "description": "بيانات تجريبية لعنصر Zgemma H9 ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-27",
+      "downloads": 2309,
+      "keywords": "Zgemma H9 OpenATV النسخ الاحتياطية",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "💾",
+      "subcategory": "zgemma"
+    },
+    {
+      "id": 144,
+      "name": "Zgemma H7",
+      "category": "backup",
+      "subcategory": "zgemma",
+      "group": "Zgemma",
+      "description": "عنصر تجريبي ضمن Zgemma في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
+      "version": "Demo",
+      "date": "2026-10-10",
+      "downloads": 2465,
+      "keywords": "Zgemma H7 Zgemma النسخ الاحتياطية",
+      "icon": "💾",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#"
+    },
+    {
+      "id": 145,
+      "name": "Zgemma H2H",
+      "category": "backup",
+      "subcategory": "zgemma",
+      "group": "Zgemma",
+      "description": "عنصر تجريبي ضمن Zgemma في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
+      "version": "Demo",
+      "date": "2026-10-09",
+      "downloads": 2578,
+      "keywords": "Zgemma H2H Zgemma النسخ الاحتياطية",
+      "icon": "💾",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#"
+    },
+    {
+      "id": 55,
+      "name": "Octagon SF8008",
+      "category": "backup",
+      "group": "Octagon",
+      "description": "بيانات تجريبية لعنصر Octagon SF8008 ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-28",
+      "downloads": 2172,
+      "keywords": "Octagon SF8008 OpenATV النسخ الاحتياطية",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "💾",
+      "subcategory": "octagon"
+    },
+    {
+      "id": 146,
+      "name": "Octagon SX88",
+      "category": "backup",
+      "subcategory": "octagon",
+      "group": "Octagon",
+      "description": "عنصر تجريبي ضمن Octagon في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
+      "version": "Demo",
+      "date": "2026-10-08",
+      "downloads": 2691,
+      "keywords": "Octagon SX88 Octagon النسخ الاحتياطية",
+      "icon": "💾",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#"
+    },
+    {
+      "id": 147,
+      "name": "Gigablue UHD Trio",
+      "category": "backup",
+      "subcategory": "gigablue",
+      "group": "Gigablue",
+      "description": "عنصر تجريبي ضمن Gigablue في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
+      "version": "Demo",
+      "date": "2026-10-07",
+      "downloads": 2804,
+      "keywords": "Gigablue UHD Trio Gigablue النسخ الاحتياطية",
+      "icon": "💾",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#"
+    },
+    {
+      "id": 148,
+      "name": "Gigablue UHD Quad",
+      "category": "backup",
+      "subcategory": "gigablue",
+      "group": "Gigablue",
+      "description": "عنصر تجريبي ضمن Gigablue في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
+      "version": "Demo",
+      "date": "2026-10-06",
+      "downloads": 2917,
+      "keywords": "Gigablue UHD Quad Gigablue النسخ الاحتياطية",
+      "icon": "💾",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#"
+    },
+    {
+      "id": 149,
+      "name": "AB Pulse 4K Backup",
+      "category": "backup",
+      "subcategory": "ab-pulse",
+      "group": "AB Pulse",
+      "description": "عنصر تجريبي ضمن AB Pulse في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
+      "version": "Demo",
+      "date": "2026-10-30",
+      "downloads": 3030,
+      "keywords": "AB Pulse 4K Backup AB Pulse النسخ الاحتياطية",
+      "icon": "💾",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#"
+    },
+    {
+      "id": 150,
+      "name": "AB Pulse Mini",
+      "category": "backup",
+      "subcategory": "ab-pulse",
+      "group": "AB Pulse",
+      "description": "عنصر تجريبي ضمن AB Pulse في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
+      "version": "Demo",
+      "date": "2026-10-29",
+      "downloads": 3143,
+      "keywords": "AB Pulse Mini AB Pulse النسخ الاحتياطية",
+      "icon": "💾",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#"
+    },
+    {
+      "id": 151,
+      "name": "Qviart Lunix",
+      "category": "backup",
+      "subcategory": "qviart",
+      "group": "Qviart",
+      "description": "عنصر تجريبي ضمن Qviart في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
+      "version": "Demo",
+      "date": "2026-10-28",
+      "downloads": 3256,
+      "keywords": "Qviart Lunix Qviart النسخ الاحتياطية",
+      "icon": "💾",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#"
+    },
+    {
+      "id": 152,
+      "name": "Qviart OG2",
+      "category": "backup",
+      "subcategory": "qviart",
+      "group": "Qviart",
+      "description": "عنصر تجريبي ضمن Qviart في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
+      "version": "Demo",
+      "date": "2026-10-27",
+      "downloads": 3369,
+      "keywords": "Qviart OG2 Qviart النسخ الاحتياطية",
+      "icon": "💾",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#"
+    },
+    {
       "id": 43,
       "name": "قائمة محدثة يومية",
       "category": "channels",
-      "group": "Moving Channel List",
+      "group": "Nilesat",
       "description": "بيانات تجريبية لعنصر قائمة محدثة يومية ضمن قسم نايل سات. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-13",
@@ -2604,13 +2826,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "📺",
-      "subcategory": "moving-channel-list"
+      "subcategory": "nilesat"
     },
     {
       "id": 44,
       "name": "قائمة رياضية",
       "category": "channels",
-      "group": "Moving Channel List",
+      "group": "Nilesat",
       "description": "بيانات تجريبية لعنصر قائمة رياضية ضمن قسم نايل سات. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-12",
@@ -2620,13 +2842,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "📺",
-      "subcategory": "moving-channel-list"
+      "subcategory": "nilesat"
     },
     {
       "id": 45,
       "name": "قائمة أفلام",
       "category": "channels",
-      "group": "Moving Channel List",
+      "group": "Nilesat",
       "description": "بيانات تجريبية لعنصر قائمة أفلام ضمن قسم نايل سات. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-11",
@@ -2636,14 +2858,14 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "📺",
-      "subcategory": "moving-channel-list"
+      "subcategory": "nilesat"
     },
     {
       "id": 153,
       "name": "قائمة أطفال",
       "category": "channels",
-      "subcategory": "moving-channel-list",
-      "group": "Moving Channel List",
+      "subcategory": "nilesat",
+      "group": "Nilesat",
       "description": "عنصر تجريبي ضمن Nilesat في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-26",
@@ -2658,7 +2880,7 @@
       "id": 46,
       "name": "قائمة كاملة",
       "category": "channels",
-      "group": "Moving Channel List",
+      "group": "Arabsat",
       "description": "بيانات تجريبية لعنصر قائمة كاملة ضمن قسم عرب سات. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-10",
@@ -2668,13 +2890,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "📺",
-      "subcategory": "moving-channel-list"
+      "subcategory": "arabsat"
     },
     {
       "id": 47,
       "name": "قائمة HD",
       "category": "channels",
-      "group": "Moving Channel List",
+      "group": "Arabsat",
       "description": "بيانات تجريبية لعنصر قائمة HD ضمن قسم عرب سات. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-09",
@@ -2684,13 +2906,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "📺",
-      "subcategory": "moving-channel-list"
+      "subcategory": "arabsat"
     },
     {
       "id": 48,
       "name": "قائمة الأطفال",
       "category": "channels",
-      "group": "Moving Channel List",
+      "group": "Arabsat",
       "description": "بيانات تجريبية لعنصر قائمة الأطفال ضمن قسم عرب سات. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-08",
@@ -2700,14 +2922,14 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "📺",
-      "subcategory": "moving-channel-list"
+      "subcategory": "arabsat"
     },
     {
       "id": 154,
       "name": "Hotbird Full List",
       "category": "channels",
-      "subcategory": "moving-channel-list",
-      "group": "Moving Channel List",
+      "subcategory": "hotbird",
+      "group": "Hotbird",
       "description": "عنصر تجريبي ضمن Hotbird في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-25",
@@ -2722,8 +2944,8 @@
       "id": 155,
       "name": "Hotbird HD",
       "category": "channels",
-      "subcategory": "moving-channel-list",
-      "group": "Moving Channel List",
+      "subcategory": "hotbird",
+      "group": "Hotbird",
       "description": "عنصر تجريبي ضمن Hotbird في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-24",
@@ -2738,7 +2960,7 @@
       "id": 49,
       "name": "Motor List",
       "category": "channels",
-      "group": "Moving Channel List",
+      "group": "Multi Satellite",
       "description": "بيانات تجريبية لعنصر Motor List ضمن قسم متعددة الأقمار. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-07",
@@ -2748,13 +2970,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "📺",
-      "subcategory": "moving-channel-list"
+      "subcategory": "multisat"
     },
     {
       "id": 50,
       "name": "Fixed Dish",
       "category": "channels",
-      "group": "Moving Channel List",
+      "group": "Multi Satellite",
       "description": "بيانات تجريبية لعنصر Fixed Dish ضمن قسم متعددة الأقمار. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-06",
@@ -2764,13 +2986,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "📺",
-      "subcategory": "moving-channel-list"
+      "subcategory": "multisat"
     },
     {
       "id": 51,
       "name": "Multi Satellite",
       "category": "channels",
-      "group": "Moving Channel List",
+      "group": "Multi Satellite",
       "description": "بيانات تجريبية لعنصر Multi Satellite ضمن قسم متعددة الأقمار. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
       "date": "2026-10-05",
@@ -2780,14 +3002,14 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "📺",
-      "subcategory": "moving-channel-list"
+      "subcategory": "multisat"
     },
     {
       "id": 156,
       "name": "USALS Motor List",
       "category": "channels",
-      "subcategory": "moving-channel-list",
-      "group": "Moving Channel List",
+      "subcategory": "motor",
+      "group": "Motor Systems",
       "description": "عنصر تجريبي ضمن Motor Systems في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-23",
@@ -2802,8 +3024,8 @@
       "id": 157,
       "name": "DiSEqC Motor List",
       "category": "channels",
-      "subcategory": "moving-channel-list",
-      "group": "Moving Channel List",
+      "subcategory": "motor",
+      "group": "Motor Systems",
       "description": "عنصر تجريبي ضمن Motor Systems في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-22",
@@ -2818,8 +3040,8 @@
       "id": 158,
       "name": "Favorites Bouquet",
       "category": "channels",
-      "subcategory": "moving-channel-list",
-      "group": "Moving Channel List",
+      "subcategory": "favorites",
+      "group": "Favorites",
       "description": "عنصر تجريبي ضمن Favorites في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-21",
@@ -2834,8 +3056,8 @@
       "id": 159,
       "name": "Family Favorites",
       "category": "channels",
-      "subcategory": "moving-channel-list",
-      "group": "Moving Channel List",
+      "subcategory": "favorites",
+      "group": "Favorites",
       "description": "عنصر تجريبي ضمن Favorites في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-20",
@@ -2850,8 +3072,8 @@
       "id": 160,
       "name": "قائمة رياضية محدثة",
       "category": "channels",
-      "subcategory": "moving-channel-list",
-      "group": "Moving Channel List",
+      "subcategory": "sports",
+      "group": "Sports",
       "description": "عنصر تجريبي ضمن Sports في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-19",
@@ -2866,8 +3088,8 @@
       "id": 161,
       "name": "Sports HD",
       "category": "channels",
-      "subcategory": "moving-channel-list",
-      "group": "Moving Channel List",
+      "subcategory": "sports",
+      "group": "Sports",
       "description": "عنصر تجريبي ضمن Sports في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-18",
@@ -2882,8 +3104,8 @@
       "id": 162,
       "name": "قائمة أفلام",
       "category": "channels",
-      "subcategory": "moving-channel-list",
-      "group": "Moving Channel List",
+      "subcategory": "movies",
+      "group": "Movies",
       "description": "عنصر تجريبي ضمن Movies في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-17",
@@ -2898,8 +3120,8 @@
       "id": 163,
       "name": "Cinema Bouquet",
       "category": "channels",
-      "subcategory": "moving-channel-list",
-      "group": "Moving Channel List",
+      "subcategory": "movies",
+      "group": "Movies",
       "description": "عنصر تجريبي ضمن Movies في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-16",
@@ -2914,8 +3136,8 @@
       "id": 164,
       "name": "قائمة الأطفال",
       "category": "channels",
-      "subcategory": "moving-channel-list",
-      "group": "Moving Channel List",
+      "subcategory": "kids",
+      "group": "Kids",
       "description": "عنصر تجريبي ضمن Kids في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-15",
@@ -2930,8 +3152,8 @@
       "id": 165,
       "name": "Kids HD",
       "category": "channels",
-      "subcategory": "moving-channel-list",
-      "group": "Moving Channel List",
+      "subcategory": "kids",
+      "group": "Kids",
       "description": "عنصر تجريبي ضمن Kids في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
       "date": "2026-10-14",
@@ -3138,7 +3360,7 @@
       "id": 178,
       "name": "Vu+ Black",
       "category": "skins",
-      "subcategory": "vu",
+      "subcategory": "vuplus",
       "group": "Vu+",
       "description": "عنصر تجريبي ضمن Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -3154,7 +3376,7 @@
       "id": 179,
       "name": "Vu+ Classic",
       "category": "skins",
-      "subcategory": "vu",
+      "subcategory": "vuplus",
       "group": "Vu+",
       "description": "عنصر تجريبي ضمن Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -3180,7 +3402,7 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🔄",
-      "subcategory": "2026"
+      "subcategory": "year-2026"
     },
     {
       "id": 62,
@@ -3196,7 +3418,7 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🔄",
-      "subcategory": "2026"
+      "subcategory": "year-2026"
     },
     {
       "id": 63,
@@ -3212,7 +3434,7 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🔄",
-      "subcategory": "2026"
+      "subcategory": "year-2026"
     }
   ]
 }
