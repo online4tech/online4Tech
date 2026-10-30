@@ -61,6 +61,43 @@ footer{margin-top:4px;background:#0a1220;border-top:1px solid var(--line);paddin
 footer a{color:inherit;text-decoration:none}footer a:hover{color:var(--blue)}
 @media(max-width:1050px){header{margin-inline:calc((92vw - 100vw)/2)}}
 @media(max-width:680px){.shell{width:calc(100% - 24px)}.hero{padding-top:18px}.workspace{gap:11px}.site-foot{display:block}.site-foot span{display:block;margin:4px 0}}
+
+/* Layout-only refinement: preserve all content, categories and interactions */
+.shell{width:95%;max-width:1600px;margin-inline:auto}
+.workspace{grid-template-columns:minmax(0,25%) minmax(0,60%) minmax(0,15%);gap:14px}
+.o4t-header .o4t-head-inner{padding-top:8px!important;padding-bottom:7px!important}
+.sidebar .head{padding:15px 16px}
+.sidebar .nav{padding:10px}
+.sidebar .category{margin:7px 0;border-color:transparent}
+.sidebar .toggle{padding:13px 11px;gap:10px}
+.sidebar .catname{font-size:18px;line-height:1.5}
+.sidebar .count{font-size:12px}
+.sidebar .sub{padding-right:42px}
+.sidebar .sub button{padding:9px 10px;font-size:15px;line-height:1.6}
+.sidebar .sub button small{font-size:12px}
+.itemtext b{font-size:14px}
+.itemtext small{font-size:12px}
+.subcategory-row{min-height:56px;padding:12px 13px}
+.subcategory-row .sub-label{font-size:16px;font-weight:700}
+.subcategory-row small{font-size:12px}
+.detail .head{padding:11px 13px}
+.detailbody{padding:11px}
+.detailbody>.empty{margin:4px 0;padding:18px 9px;border-color:#2b435a;font-size:14px;line-height:1.8}
+.detailbody>.empty:before{content:"✦";display:block;font-size:42px;line-height:1.25;color:var(--blue);margin:0 auto 8px}
+.detail .bigico{width:68px;height:68px;font-size:34px}
+.panel{border-color:#22364b;box-shadow:0 8px 22px #0002}
+.head{border-bottom-color:#ffffff10}
+.group:after{opacity:.45}
+.item{border-color:#1b2d40}
+.meta div{border-color:#1b2d40}
+@media(max-width:1050px){
+ .workspace{grid-template-columns:minmax(210px,32%) minmax(0,1fr)}
+ .detail{grid-column:2}
+}
+@media(max-width:680px){
+ .shell{width:calc(100% - 24px);max-width:none}
+ .workspace{grid-template-columns:1fr}
+}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style></head><body><div class="shell"><header></header><section class="hero"><h1>مركز البلجنات والأدوات</h1><p>مكتبة ONLINE4TECH المنظمة لبلجنات وأدوات Enigma2 — اختار القسم والتصنيف للوصول للمحتوى بسهولة.</p><div class="page-crumb"><a href="index.html">الرئيسية</a><span>›</span><strong>مركز البلجنات والأدوات</strong></div><nav class="breadcrumb" id="breadcrumb" aria-label="مسار التنقل"><button type="button" data-crumb="home">الرئيسية</button></nav></section><main class="workspace">
 <aside class="panel sidebar"><div class="head">الأقسام <small>التصنيفات</small></div><nav class="nav" id="nav"><div class="empty">تحميل الأقسام...</div></nav></aside>
