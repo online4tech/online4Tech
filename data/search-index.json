@@ -1002,6 +1002,14 @@
     "type": "Plugin"
   },
   {
+    "title": "ONLINE4TECH | مركز البلجنات والأدوات",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/AllBlugin-before-premium-glass-20261030.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
     "title": "OpenWebif",
     "description": "واجهة ويب لإدارة الرسيفر ومشاهدة معلوماته والتحكم في بعض وظائفه عبر الشبكة.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=openwebif",
@@ -1539,6 +1547,14 @@
     "title": "مركز البلجنات والأدوات",
     "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
     "url": "https://online4tech.github.io/online4Tech/backups/AllBlugin-before-glass-design-20261030.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "مركز البلجنات والأدوات",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/AllBlugin-before-premium-glass-20261030.html",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
@@ -5339,6 +5355,14 @@
     "title": "اختار قسم",
     "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
     "url": "https://online4tech.github.io/online4Tech/backups/AllBlugin-before-glass-design-20261030.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "اختار قسم",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/AllBlugin-before-premium-glass-20261030.html",
     "category": "ملفات",
     "brand": "Online4Tech",
     "type": "Page"
