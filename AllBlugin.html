@@ -265,7 +265,7 @@ function shortDescription(value){let text=String(value||"").replace(/\\s+/g," ")
 function detailPlaceholder(){return '<div class="detail-placeholder"><span class="placeholder-icon">✦</span><span>اضغط على أي عنصر لعرض بياناته هنا</span></div>'}
 function firstValue(x,keys){for(const k of keys){const v=x[k];if(v!==undefined&&v!==null&&String(v).trim()!==""&&String(v).trim()!=="#")return v}return ""}
 function safeLink(v){if(!v)return "";try{const u=new URL(String(v),location.href);return ["http:","https:"].includes(u.protocol)?u.href:""}catch(e){return ""}}
-function categoryIcon(x,m){const c=String(x.category||"").toLowerCase(),name=(String(x.name||"")+" "+String(x.group||"")).toLowerCase();if(x.icon)return x.icon;if(/epg|electronic program/.test(name))return "📖";return ({plugins:"🧩",skins:"🎨",tools:"🔧",commands:"💻",backup:"💾",channels:"📺",updates:"🔧"})[c]||"🔧"}
+function categoryIcon(x,m){const c=String(x.category||"").toLowerCase(),name=(String(x.name||"")+" "+String(x.group||"")).toLowerCase();if(x.icon)return x.icon;if(c==="epg"||/epg|electronic program/.test(name))return "📖";return ({plugin:"🧩",plugins:"🧩",skin:"🎨",skins:"🎨",tool:"🔧",tools:"🔧",command:"💻",commands:"💻",backup:"💾",channels:"📺",channel:"📺",updates:"🔄"})[c]||"🔧"}
 function details(x){
  const panel=$("detailPanel"),targets=[$("detail"),$("modalDetail")];
  if(!activeMain){panel.hidden=true;targets.forEach(el=>el.innerHTML=detailPlaceholder());return}
@@ -276,7 +276,7 @@ function details(x){
  const download=safeLink(firstValue(x,["downloadUrl","directLink","ipk","zip","rar","tar","tar.gz","7z"]));
  const repo=safeLink(firstValue(x,["github","repository","repoUrl"]));
  const forum=safeLink(firstValue(x,["forumUrl","topicUrl","tunisiaSatUrl"]));
- const metadata=[["الإصدار",x.version],["الكاتب",x.author],["التاريخ",x.date],["مرات التحميل",x.downloads],["التوافق",x.compatibility],["التصنيف",x.categoryLabel||m?.label]];
+ const metadata=[["الإصدار",x.version],["الكاتب",x.author],["التاريخ",x.date],["مرات التحميل",x.downloads],["التوافق",x.compatibility],["المجموعة",x.group],["التصنيف",x.categoryLabel||m?.label],["الكلمات المفتاحية",x.keywords]];
  const meta=metadata.filter(([k,v])=>v!==undefined&&v!==null&&String(v).trim()!=="").map(([k,v])=>'<div><small>'+k+'</small><b>'+esc(typeof v==="number"&&k==="مرات التحميل"?v.toLocaleString("en-US"):v)+'</b></div>').join("");
  const action=(url,label,enabled,primary)=>enabled?'<a class="btn '+(primary?'primary':'')+'" href="'+esc(url)+'" target="_blank" rel="noopener">'+label+'</a>':'<button class="btn '+(primary?'primary':'')+'" type="button" disabled>'+label+'</button>';
  const markup=(image?'<div class="detail-visual"><img src="'+esc(image)+'" alt="'+esc(x.name)+'" loading="lazy"></div>':'<div class="detail-visual"><span class="fallback">'+esc(icon)+'</span></div>')+
