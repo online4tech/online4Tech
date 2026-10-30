@@ -162,6 +162,17 @@ footer{display:none}
 .detail-actions{display:grid;grid-template-columns:1fr;gap:7px}
 .detail-actions .btn{width:100%;min-height:40px;display:flex;align-items:center;justify-content:center;text-align:center;text-decoration:none}
 .detail-actions .btn:disabled{opacity:.38;filter:saturate(.5)}
+.detail-actions .btn{cursor:pointer;transition:filter .18s ease,transform .18s ease,box-shadow .18s ease}
+.detail-actions .btn:hover:not(:disabled){filter:brightness(1.12);transform:translateY(-1px);box-shadow:0 4px 12px #0003}
+.detail-actions .btn:disabled{cursor:not-allowed}
+.detail-actions .install-copy.is-copied{background:#176b4b;border-color:#2cba82;color:#eafff5;animation:copySuccess .28s ease}
+.install-command-box{margin-top:9px;padding:9px;border:1px solid #26364e;border-radius:8px;background:#0a1724}
+.install-command-heading{font-size:11px;color:#9bb2c8;margin-bottom:7px}
+.install-command-row{display:flex;align-items:center;gap:8px;min-width:0}
+.install-command-row code{direction:ltr;text-align:left;overflow-wrap:anywhere;flex:1;color:#9ee6d9;font:11px Consolas,monospace}
+.mini-copy{flex:0 0 auto;border:1px solid #34516b;border-radius:6px;background:#19344d;color:#d7edff;padding:5px 9px;font-size:10px;cursor:pointer;transition:filter .18s ease}
+.mini-copy:hover{filter:brightness(1.2)}
+@keyframes copySuccess{50%{transform:scale(1.025)}}
 .detail-command{direction:ltr;text-align:left;overflow-wrap:anywhere;background:#06111d;border:1px solid #29445d;border-radius:9px;padding:10px;color:#9ee6d9;font:12px Consolas,monospace}
 .detailbody .type{display:block}
 @media(max-width:680px){#detailModal .modal-body .detail-placeholder{min-height:150px}}
@@ -273,7 +284,8 @@ function details(x){
  if(!x){targets.forEach(el=>el.innerHTML=detailPlaceholder());return}
  const m=mainById(x.category),sub=subById(m,x.subcategory),icon=categoryIcon(x,m);
  const iconValue=firstValue(x,["icon"]);const iconAsImage=/^(https?:\/\/|\/|\.{1,2}\/)/i.test(String(iconValue||""));const image=safeLink(firstValue(x,["image","thumbnail","iconUrl","imageUrl"])||(iconAsImage?iconValue:""));
- const download=safeLink(firstValue(x,["downloadUrl","directLink","ipk","zip","rar","tar","tar.gz","7z"]));
+ const installCommand=String(firstValue(x,["installCommand","command","telnetCommand","opkgCommand"])||"").trim();
+ const download=safeLink(firstValue(x,["downloadUrl","ipk","zip","rar","tar","tar.gz","7z","deb","directLink"]));
  const repo=safeLink(firstValue(x,["github","repository","repoUrl"]));
  const forum=safeLink(firstValue(x,["forumUrl","topicUrl","tunisiaSatUrl"]));
  const metadata=[["الإصدار",x.version],["الكاتب",x.author],["التاريخ",x.date],["مرات التحميل",x.downloads],["التوافق",x.compatibility],["المجموعة",x.group],["التصنيف",x.categoryLabel||m?.label],["الكلمات المفتاحية",x.keywords]];
@@ -283,8 +295,8 @@ function details(x){
  '<h3 class="detail-title">'+esc(x.name)+'</h3><span class="type">'+esc(m?.label||"")+" · "+esc(sub?.label||"")+'</span>'+
  (x.description?'<p class="detail-description">'+esc(x.description)+'</p>':'')+
  (meta?'<div class="detail-meta">'+meta+'</div>':'')+
- (x.command?'<pre class="detail-command">'+esc(x.command)+'</pre>':'')+
- '<div class="detail-actions">'+action(download,"⬇ تحميل",!!download,true)+action(repo,"🐙 المستودع",!!repo,false)+action(forum,"💬 موضوع تونسيا سات",!!forum,false)+'</div>';
+ '<div class="detail-actions">'+(installCommand?'<button class="btn install-copy" type="button" data-copy-install="'+esc(installCommand)+'">📋 نسخ أمر التثبيت</button>':'<button class="btn" type="button" disabled>📋 نسخ أمر التثبيت</button>')+action(download,"⬇ تحميل مباشر",!!download,true)+action(repo,"🐙 المستودع",!!repo,false)+action(forum,"💬 موضوع تونسيا سات",!!forum,false)+'</div>'+
+ (installCommand?'<div class="install-command-box"><div class="install-command-heading">أمر التثبيت</div><div class="install-command-row"><code>'+esc(installCommand)+'</code><button class="mini-copy" type="button" data-copy-install="'+esc(installCommand)+'" aria-label="نسخ أمر التثبيت">نسخ</button></div></div>':'');
  targets.forEach(el=>el.innerHTML=markup);
 }
 function renderAll(){renderNav();breadcrumb();renderContent();details(selectedItem)}
@@ -299,5 +311,6 @@ $("breadcrumb").addEventListener("click",e=>{let b=e.target.closest("[data-crumb
 $("search").addEventListener("input",e=>{query=e.target.value;breadcrumb();renderContent();if(query){selectedItem=null;details(null)}});
 $("sort").addEventListener("change",e=>{sort=e.target.value;renderContent()});
 function openDetailModal(){$("detailModal").classList.add("open");$("detailModal").setAttribute("aria-hidden","false")}function closeDetailModal(){$("detailModal").classList.remove("open");$("detailModal").setAttribute("aria-hidden","true")}$("closeDetail").addEventListener("click",closeDetailModal);$("detailModal").addEventListener("click",e=>{if(e.target.id==="detailModal")closeDetailModal()});document.addEventListener("keydown",e=>{if(e.key==="Escape")closeDetailModal()});
+document.addEventListener("click",async e=>{const btn=e.target.closest("[data-copy-install]");if(!btn)return;const command=btn.getAttribute("data-copy-install")||"";if(!command)return;try{if(!navigator.clipboard||!navigator.clipboard.writeText)throw new Error("Clipboard API غير متاح؛ يلزم HTTPS أو localhost وصلاحية النسخ.");await navigator.clipboard.writeText(command);document.querySelectorAll("[data-copy-install]").forEach(el=>{if(el.classList.contains("install-copy")){el.textContent="✅ تم النسخ";el.classList.add("is-copied")}});if(btn.classList.contains("mini-copy"))btn.textContent="تم";window.setTimeout(()=>{document.querySelectorAll("[data-copy-install]").forEach(el=>{if(el.classList.contains("install-copy")){el.textContent="📋 نسخ أمر التثبيت";el.classList.remove("is-copied")}if(el.classList.contains("mini-copy"))el.textContent="نسخ"})},2000);}catch(err){console.error("[ONLINE4TECH] تعذر نسخ أمر التثبيت إلى Clipboard:",err);}});
 async function init(){try{const r=await fetch(DATA_URL,{cache:"no-store"});if(!r.ok)throw new Error("HTTP "+r.status+" أثناء تحميل "+DATA_URL);const payload=await r.json();if(!payload||!Array.isArray(payload.categories)){throw new TypeError("مصدر البيانات "+DATA_URL+" لا يحتوي على مصفوفة categories صالحة (المتوقع db.categories).");}if(!Array.isArray(payload.items)){throw new TypeError("مصدر البيانات "+DATA_URL+" لا يحتوي على مصفوفة items صالحة (المتوقع db.items).");}db=payload;if(!db.categories.length)throw new Error("مصفوفة categories في "+DATA_URL+" فارغة؛ لا توجد أقسام رئيسية لعرضها.");activeMain=null;activeSub=null;selectedItem=null;renderAll();console.info("[ONLINE4TECH] تم تحميل مصدر البيانات الفعلي:",DATA_URL,"— الأقسام الرئيسية:",db.categories.length,"— العناصر:",db.items.length);}catch(e){console.error("[ONLINE4TECH] فشل تحميل/قراءة مصدر الأقسام:",DATA_URL,". تحقق من DATA_URL وdb.categories وdb.items.",e);$("nav").innerHTML='<div class="empty">تعذر تحميل الأقسام. راجع Console لمعرفة مصدر الخطأ.</div>';$("content").innerHTML='<div class="empty">فشل قراءة ملف البيانات: '+esc(DATA_URL)+'</div>';}}init();
 </script></body></html>
