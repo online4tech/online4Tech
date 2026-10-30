@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1728">
+<meta name="description" content="مركز Online4Tech المستقل للبلجنات والأوامر والأدوات والسكينات وملفات Enigma2.">
+<title>All Plugin Center | Online4Tech</title>
+<style>
+/* =========================================================
+   AllBlugin — صفحة مستقلة بالكامل
+   كل التنسيقات والوظائف داخل الملف لتسهيل النقل أو الحذف لاحقاً.
+   لا تعتمد الصفحة على ملفات CSS أو JavaScript الخاصة بالموقع.
+   ========================================================= */
+:root{color-scheme:dark;--bg:#07111f;--panel:#0d1a2c;--panel2:#11243a;--line:#263e59;--text:#f2f7ff;--muted:#9db0c8;--blue:#65cfff;--cyan:#35d0c2;--gold:#f3c878;--pink:#fa85a3;--shadow:0 16px 38px #0005}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 80% -10%,#163b5c 0,transparent 38%),linear-gradient(180deg,#07111f,#0a1728 65%,#07111f);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.75;min-height:100vh}
+a{color:inherit;text-decoration:none}
+button,input,select{font:inherit}
+button{cursor:pointer}
+.shell{width:min(1200px,94%);margin:auto}
+.topline{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0 18px;border-bottom:1px solid #ffffff12}
+.brand{display:flex;align-items:center;gap:12px;font-weight:900;font-size:1.25rem;letter-spacing:.2px}
+.brand-mark{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,#65d5ff,#3478ee);color:#061321;font-size:1.15rem;box-shadow:0 8px 24px #348bff35}
+.brand small{display:block;color:var(--muted);font-size:.68rem;font-weight:600;letter-spacing:1.4px}
+.top-note{color:var(--muted);font-size:.82rem}
+.hero{padding:42px 0 25px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--cyan);font-weight:800;font-size:.78rem;letter-spacing:1px}
+.eyebrow:before{content:"";width:22px;height:2px;background:var(--cyan);border-radius:3px}
+.hero h1{font-size:clamp(2rem,5vw,3.25rem);line-height:1.25;margin:9px 0 10px;font-weight:900}
+.hero h1 span{background:linear-gradient(90deg,#78dcff,#69a7ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:760px;color:var(--muted);margin:0}
+.toolbar{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:12px;margin:12px 0 17px}
+.searchbox{display:flex;align-items:center;gap:10px;padding:0 16px;border:1px solid #34516f;border-radius:15px;background:#0d1c2e;min-height:56px;box-shadow:0 8px 24px #0002}
+.searchbox:focus-within{border-color:var(--blue);box-shadow:0 0 0 3px #65cfff18}
+.searchbox .glass{font-size:1.25rem;color:var(--blue)}
+.searchbox input{width:100%;border:0;outline:0;background:transparent;color:var(--text);font-size:.95rem}
+.searchbox input::placeholder{color:#758ba5}
+.sortbox{min-height:56px;border:1px solid #34516f;border-radius:15px;background:#0d1c2e;color:var(--text);padding:0 14px;outline:none}
+.sortbox:focus{border-color:var(--blue)}
+.filters{display:flex;gap:8px;overflow-x:auto;padding:2px 1px 13px;scrollbar-width:thin;scrollbar-color:#34516f transparent}
+.filter{flex:0 0 auto;border:1px solid #2b425c;border-radius:999px;padding:8px 15px;background:#0d1a2b;color:#b7c8dc;font-size:.84rem;font-weight:700;transition:.18s}
+.filter:hover{border-color:#5c8ab4;color:#fff}
+.filter.active{background:linear-gradient(120deg,#1b5672,#234e86);border-color:#65cfff;color:#fff;box-shadow:0 5px 16px #277ec42b}
+.resultsbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:7px 0 14px;color:var(--muted);font-size:.83rem}
+.resultsbar strong{color:var(--text)}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;min-height:240px}
+.card{position:relative;display:flex;flex-direction:column;min-width:0;padding:16px;border:1px solid var(--line);border-radius:19px;background:linear-gradient(155deg,#12243a,#0b1727 82%);box-shadow:0 10px 28px #0002;overflow:hidden;transition:transform .2s,border-color .2s,box-shadow .2s}
+.card:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,#55c9f6,#5489f2,#43c7b5);opacity:.8}
+.card:hover{transform:translateY(-4px);border-color:#47739c;box-shadow:var(--shadow)}
+.cardtop{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:12px}
+.kind{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:999px;background:#18334d;color:#9fdfff;border:1px solid #315674;font-size:.72rem;font-weight:800}
+.version{color:#a6bad0;font-size:.72rem}
+.visual{height:128px;display:grid;place-items:center;margin:0 0 13px;border-radius:13px;border:1px solid #ffffff0c;background:radial-gradient(circle at 50% 40%,#21405b,#0b1728 72%);overflow:hidden}
+.visual img{width:100%;height:100%;object-fit:contain;padding:13px;filter:drop-shadow(0 8px 12px #0006)}
+.visual .fallback{font-size:2.4rem;color:#7bd5f4}
+.card h2{font-size:1.08rem;line-height:1.4;margin:0 0 5px}
+.card p{color:var(--muted);font-size:.83rem;line-height:1.7;margin:0 0 13px;min-height:56px}
+.cardmeta{display:flex;gap:10px;flex-wrap:wrap;color:#839bb5;font-size:.72rem;margin-top:auto;padding:8px 0 12px}
+.actions{display:flex;gap:7px;flex-wrap:wrap}
+.action{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:37px;padding:7px 11px;border-radius:10px;border:1px solid #34516f;background:#152a42;color:#c8e8ff;font-size:.77rem;font-weight:800;transition:.18s}
+.action:hover{filter:brightness(1.16);transform:translateY(-1px)}
+.action.primary{background:linear-gradient(120deg,#77dcff,#6ca9ff);border-color:transparent;color:#071321}
+.action.copy{background:#143a38;border-color:#236a62;color:#8de8d9}
+.action:disabled{opacity:.45;cursor:not-allowed}
+.skeleton{min-height:330px;overflow:hidden}
+.sk{border-radius:9px;background:linear-gradient(90deg,#172b41 25%,#223b56 45%,#172b41 65%);background-size:220% 100%;animation:shine 1.2s infinite}
+.sk-top{height:20px;width:35%;margin-bottom:14px}.sk-image{height:128px;margin-bottom:14px}.sk-line{height:13px;margin:9px 0}.sk-line.short{width:62%}.sk-btn{height:36px;width:42%;margin-top:16px}
+@keyframes shine{to{background-position:-220% 0}}
+.empty{grid-column:1/-1;display:grid;place-items:center;text-align:center;padding:48px 18px;border:1px dashed #36516e;border-radius:18px;background:#0c1929}
+.empty .empty-icon{font-size:2.3rem;margin-bottom:8px}.empty h3{margin:0 0 4px}.empty p{margin:0;color:var(--muted);font-size:.86rem}
+.pagination{display:flex;align-items:center;justify-content:center;gap:7px;flex-wrap:wrap;padding:25px 0 35px}
+.pagebtn{min-width:38px;height:38px;border-radius:10px;border:1px solid #2b425c;background:#0e1d30;color:#c2d4e8;font-weight:800}
+.pagebtn.active{background:#2866a3;border-color:#65cfff;color:#fff}
+.pagebtn:disabled{opacity:.35;cursor:not-allowed}
+.foot{border-top:1px solid #ffffff12;padding:18px 0 26px;color:#8196af;font-size:.78rem;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.toast{position:fixed;bottom:22px;right:50%;transform:translate(50%,20px);padding:10px 16px;border:1px solid #367c72;border-radius:12px;background:#10332f;color:#b7fff0;box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:.2s;z-index:5;font-size:.84rem}
+.toast.show{opacity:1;transform:translate(50%,0)}
+@media(max-width:900px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.shell{width:min(100% - 24px,520px)}.topline{padding:16px 0}.top-note{display:none}.hero{padding:30px 0 18px}.toolbar{grid-template-columns:1fr}.sortbox{min-height:48px}.searchbox{min-height:52px}.cards{grid-template-columns:1fr;gap:12px}.card{padding:14px}.visual{height:145px}.card p{min-height:0}.resultsbar{align-items:flex-start;flex-direction:column}.foot{flex-direction:column}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="shell">
+<header class="topline">
+  <a class="brand" href="index.html" aria-label="Online4Tech">
+    <span class="brand-mark">O4T</span>
+    <span>ONLINE4TECH<small>ENIGMA2 RESOURCE CENTER</small></span>
+  </a>
+  <span class="top-note">مركز الموارد والأدوات — إصدار مستقل</span>
+</header>
+<main>
+  <section class="hero">
+    <span class="eyebrow">PLUGIN &amp; TOOLS LIBRARY</span>
+    <h1>كل أدواتك في <span>مكان واحد</span></h1>
+    <p>استكشف البلجنات والأوامر والأدوات والسكينات وملفات أجهزة Enigma2. استخدم البحث والتصنيفات للوصول السريع للمحتوى.</p>
+  </section>
+
+  <!-- البحث يشمل الاسم والوصف والأوامر والكلمات المفتاحية -->
+  <section class="toolbar" aria-label="البحث والترتيب">
+    <label class="searchbox">
+      <span class="glass" aria-hidden="true">⌕</span>
+      <input id="searchInput" type="search" placeholder="ابحث عن بلجن أو أمر أو أداة..." autocomplete="off" aria-label="بحث فوري">
+    </label>
+    <select id="sortSelect" class="sortbox" aria-label="ترتيب النتائج">
+      <option value="newest">الأحدث</option>
+      <option value="downloads">الأكثر تحميلاً</option>
+      <option value="az">الأبجدية</option>
+    </select>
+  </section>
+
+  <!-- التصنيفات قابلة للزيادة من مصفوفة categories في JavaScript -->
+  <nav id="categoryFilters" class="filters" aria-label="تصنيفات المحتوى"></nav>
+
+  <div class="resultsbar">
+    <span id="resultCount">جارٍ تجهيز المحتوى...</span>
+    <span>عرض <strong id="pageRange">—</strong></span>
+  </div>
+
+  <section id="cardsGrid" class="cards" aria-live="polite" aria-busy="true">
+    <article class="card skeleton"><div class="sk sk-top"></div><div class="sk sk-image"></div><div class="sk sk-line"></div><div class="sk sk-line short"></div><div class="sk sk-btn"></div></article>
+    <article class="card skeleton"><div class="sk sk-top"></div><div class="sk sk-image"></div><div class="sk sk-line"></div><div class="sk sk-line short"></div><div class="sk sk-btn"></div></article>
+    <article class="card skeleton"><div class="sk sk-top"></div><div class="sk sk-image"></div><div class="sk sk-line"></div><div class="sk sk-line short"></div><div class="sk sk-btn"></div></article>
+  </section>
+  <nav id="pagination" class="pagination" aria-label="صفحات النتائج"></nav>
+</main>
+<footer class="foot"><span>© Online4Tech — خليك دايماً اونلاين</span><span>All Plugin Center · صفحة مستقلة قابلة للتطوير</span></footer>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* =========================================================
+   بيانات المحتوى:
+   أضف عناصر جديدة هنا فقط. category يجب أن تطابق قيمة التصنيف.
+   image اختياري، والأفضل استخدام صور محلية داخل assets/images.
+   download / guide / detail روابط مؤقتة قابلة للاستبدال لاحقاً.
+   ========================================================= */
+const items = [
+ {id:1,name:"DreamOS Utility",category:"tools",type:"أداة",description:"مجموعة أدوات مساعدة لإدارة بعض وظائف أجهزة Enigma2 وتنظيم المهام الشائعة.",version:"1.0.0",date:"2026-10-28",downloads:980,image:"assets/images/dreambox/dreambox-two.png",download:"#",guide:"#",keywords:"dreamos utility ادارة صيانة"},
+ {id:2,name:"تحديث قائمة القنوات",category:"channels",type:"ملفات القنوات",description:"أمر تثبيت قائمة القنوات من مستودع Online4Tech مباشرة على الجهاز.",version:"محدّث",date:"2026-10-26",downloads:2450,image:"assets/images/dreambox/dm920.png",command:"wget -O - https://raw.githubusercontent.com/online4tech/Enigma2-Chanal-List-BYRomeh/main/install-channels.sh | sh",guide:"#",keywords:"قنوات channels telnet wget"},
+ {id:3,name:"OpenATV Backup",category:"backup",type:"باك أب",description:"نموذج عنصر باك أب. أضف رابط النسخة وموديل الجهاز المتوافق قبل النشر.",version:"7.5.1",date:"2026-10-22",downloads:1840,image:"assets/images/dreambox/dm900.png",download:"#",guide:"#",keywords:"backup openatv استعادة"},
+ {id:4,name:"Mobile Telnet",category:"tools",type:"أداة",description:"شرح وأداة للاتصال بالرسيفر وتنفيذ أوامر الإدارة من الهاتف على الشبكة المحلية.",version:"—",date:"2026-10-20",downloads:720,image:"assets/images/dreambox/dreambox-one.png",download:"#",guide:"#",keywords:"mobile telnet موبايل اتصال"},
+ {id:5,name:"MyStreamer",category:"plugins",type:"بلجن",description:"بلجن يتيح الوصول إلى مجموعة من المواقع العربية لمشاهدة المحتوى.",version:"1.0.0",date:"2026-10-18",downloads:1360,image:"assets/images/dreambox/dreambox-two.png",download:"#",guide:"#",keywords:"mystreamer plugin أفلام مسلسلات"},
+ {id:6,name:"AJPanel",category:"plugins",type:"بلجن",description:"أداة لإدارة بعض إضافات وخدمات Enigma2 من واجهة الجهاز.",version:"حسب الإصدار",date:"2026-10-15",downloads:1120,image:"assets/images/dreambox/dm920.png",download:"#",guide:"#",keywords:"ajpanel plugin"},
+ {id:7,name:"Skin HD Glass",category:"skins",type:"سكين",description:"واجهة عرض بديلة لتخصيص شكل القوائم ومعلومات الشاشة على الجهاز.",version:"—",date:"2026-10-12",downloads:860,image:"assets/images/dreambox/dm7080.png",download:"#",guide:"#",keywords:"skin واجهة"},
+ {id:8,name:"إعادة تشغيل Enigma2",category:"commands",type:"أمر تلنت",description:"إعادة تشغيل واجهة Enigma2 فقط دون إعادة تشغيل الجهاز بالكامل.",version:"Shell",date:"2026-10-10",downloads:2100,command:"systemctl restart enigma2",guide:"#",keywords:"restart enigma2 systemctl تلنت"},
+ {id:9,name:"تحديث قوائم الحزم",category:"commands",type:"أمر تلنت",description:"تحديث بيانات الحزم المتاحة على الأنظمة التي تستخدم opkg.",version:"Shell",date:"2026-10-08",downloads:1560,command:"opkg update",guide:"#",keywords:"opkg update packages تلنت"},
+ {id:10,name:"Dreambox Two UHD",category:"backup",type:"باك أب",description:"عنصر تجريبي لعرض نسخ الأجهزة. استبدل الرابط والتفاصيل ببيانات النسخة الفعلية.",version:"Gemini AIO",date:"2026-10-27",downloads:990,image:"assets/images/dreambox/dreambox-two.png",download:"#",guide:"#",keywords:"dreambox two gemini"},
+ {id:11,name:"ملفات تحديث النظام",category:"updates",type:"تحديثات",description:"قسم مخصص لملفات وتحديثات الأنظمة والصور الخاصة بأجهزة Enigma2.",version:"متنوع",date:"2026-10-05",downloads:640,image:"assets/images/dreambox/dm900.png",download:"#",guide:"#",keywords:"update firmware image"},
+ {id:12,name:"تنظيف الكاش",category:"commands",type:"أمر تلنت",description:"أمر صيانة بسيط لتنظيف الملفات المؤقتة وفق بيئة النظام.",version:"Shell",date:"2026-10-02",downloads:580,command:"sync",guide:"#",keywords:"cache clean maintenance"}
+];
+
+/* إعدادات عامة يسهل تعديلها عند زيادة حجم المكتبة */
+const categories = [
+ {id:"all",label:"الكل"},{id:"plugins",label:"البلجنات"},{id:"commands",label:"الأوامر"},
+ {id:"tools",label:"الأدوات"},{id:"skins",label:"السكينات"},{id:"backup",label:"الباك أب"},
+ {id:"channels",label:"ملفات القنوات"},{id:"updates",label:"التحديثات"}
+];
+const PAGE_SIZE = 6;
+let activeCategory = "all";
+let currentPage = 1;
+let searchTerm = "";
+let sortMode = "newest";
+
+const grid = document.getElementById("cardsGrid");
+const filters = document.getElementById("categoryFilters");
+const pagination = document.getElementById("pagination");
+const count = document.getElementById("resultCount");
+const range = document.getElementById("pageRange");
+const searchInput = document.getElementById("searchInput");
+const sortSelect = document.getElementById("sortSelect");
+const toast = document.getElementById("toast");
+
+/* إنشاء أزرار التصنيفات من البيانات */
+function renderFilters(){
+ filters.innerHTML = categories.map(c =>
+  '<button class="filter '+(c.id===activeCategory?'active':'')+'" type="button" data-category="'+c.id+'" aria-pressed="'+(c.id===activeCategory)+'">'+c.label+'</button>'
+ ).join("");
+}
+function getFilteredItems(){
+ const term = searchTerm.trim().toLocaleLowerCase("ar");
+ let list = items.filter(item => {
+  const categoryMatch = activeCategory==="all" || item.category===activeCategory;
+  const searchable = [item.name,item.type,item.description,item.version,item.command,item.keywords].join(" ").toLocaleLowerCase("ar");
+  return categoryMatch && (!term || searchable.includes(term));
+ });
+ list.sort((a,b)=>{
+  if(sortMode==="downloads") return (b.downloads||0)-(a.downloads||0);
+  if(sortMode==="az") return a.name.localeCompare(b.name,"ar");
+  return new Date(b.date)-new Date(a.date);
+ });
+ return list;
+}
+
+/* بناء كارت مستقل لكل عنصر مع تحميل الصور عند اقترابها من الشاشة */
+function cardTemplate(item){
+ const isCommand = Boolean(item.command);
+ const image = item.image
+  ? '<img src="'+item.image+'" alt="'+escapeHtml(item.name)+'" loading="lazy" onerror="this.remove();this.parentElement.innerHTML=\'<span class=&quot;fallback&quot; aria-hidden=&quot;true&quot;>✦</span>\'">'
+  : '<span class="fallback" aria-hidden="true">✦</span>';
+ return '<article class="card" data-id="'+item.id+'">'+
+  '<div class="cardtop"><span class="kind">'+escapeHtml(item.type)+'</span><span class="version">'+(item.version&&item.version!=="—"?"إصدار "+escapeHtml(item.version):"")+'</span></div>'+
+  '<div class="visual">'+image+'</div>'+
+  '<h2>'+escapeHtml(item.name)+'</h2><p>'+escapeHtml(item.description)+'</p>'+
+  '<div class="cardmeta"><span>⬇ '+Number(item.downloads||0).toLocaleString("en-US")+'</span><span>◷ '+escapeHtml(item.date||"—")+'</span></div>'+
+  '<div class="actions">'+
+   (item.download&&item.download!=="#" ? '<a class="action primary" href="'+escapeAttr(item.download)+'" target="_blank" rel="noopener">تحميل ↗</a>' : '<button class="action primary" type="button" disabled title="سيتم إضافة رابط التحميل لاحقاً">تحميل قريباً</button>')+
+   '<a class="action" href="'+escapeAttr(item.guide||"#")+'" '+((!item.guide||item.guide==="#")?'aria-disabled="true" title="سيتم إضافة الشرح لاحقاً" onclick="return false"':'')+'>شرح</a>'+
+   (isCommand?'<button class="action copy" type="button" data-copy="'+encodeURIComponent(item.command)+'">نسخ الأمر</button>':'')+
+   '<a class="action" href="'+escapeAttr(item.detail||"#")+'" '+((!item.detail||item.detail==="#")?'aria-disabled="true" title="صفحة التفاصيل ستضاف مستقبلاً" onclick="return false"':'')+'>التفاصيل</a>'+
+  '</div></article>';
+}
+function escapeHtml(value){
+ return String(value??"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+}
+function escapeAttr(value){return escapeHtml(value).replace(/\s/g,"%20");}
+function renderPagination(totalPages){
+ if(totalPages<=1){pagination.innerHTML="";return;}
+ let html='<button class="pagebtn" data-page="'+(currentPage-1)+'" '+(currentPage===1?'disabled':'')+' aria-label="الصفحة السابقة">‹</button>';
+ for(let p=1;p<=totalPages;p++){
+  if(totalPages>7 && p>2 && p<totalPages-1 && Math.abs(p-currentPage)>1){if(p===3||p===totalPages-2)html+='<span>…</span>';continue;}
+  html+='<button class="pagebtn '+(p===currentPage?'active':'')+'" data-page="'+p+'" aria-current="'+(p===currentPage?'page':'false')+'">'+p+'</button>';
+ }
+ html+='<button class="pagebtn" data-page="'+(currentPage+1)+'" '+(currentPage===totalPages?'disabled':'')+' aria-label="الصفحة التالية">›</button>';
+ pagination.innerHTML=html;
+}
+function render(){
+ const filtered=getFilteredItems();
+ const totalPages=Math.max(1,Math.ceil(filtered.length/PAGE_SIZE));
+ currentPage=Math.min(currentPage,totalPages);
+ const start=(currentPage-1)*PAGE_SIZE;
+ const pageItems=filtered.slice(start,start+PAGE_SIZE);
+ grid.setAttribute("aria-busy","false");
+ grid.innerHTML=pageItems.length?pageItems.map(cardTemplate).join(""):'<div class="empty"><div><div class="empty-icon">⌕</div><h3>مفيش نتائج مطابقة</h3><p>جرّب كلمة بحث مختلفة أو اختار تصنيف تاني.</p></div></div>';
+ count.innerHTML='عدد النتائج: <strong>'+filtered.length+'</strong> عنصر';
+ range.textContent=filtered.length?(start+1)+" – "+Math.min(start+PAGE_SIZE,filtered.length):"0";
+ renderPagination(totalPages);
+}
+function showToast(message){
+ toast.textContent=message;toast.classList.add("show");
+ window.clearTimeout(showToast.timer);showToast.timer=window.setTimeout(()=>toast.classList.remove("show"),1800);
+}
+
+/* الأحداث: بحث وفلترة وترتيب وتقليب صفحات بدون إعادة تحميل */
+filters.addEventListener("click",event=>{
+ const button=event.target.closest("[data-category]");if(!button)return;
+ activeCategory=button.dataset.category;currentPage=1;renderFilters();render();
+});
+searchInput.addEventListener("input",()=>{
+ searchTerm=searchInput.value;currentPage=1;render();
+});
+sortSelect.addEventListener("change",()=>{
+ sortMode=sortSelect.value;currentPage=1;render();
+});
+pagination.addEventListener("click",event=>{
+ const button=event.target.closest("[data-page]");if(!button||button.disabled)return;
+ currentPage=Number(button.dataset.page);render();window.scrollTo({top:document.querySelector(".toolbar").offsetTop-15,behavior:"smooth"});
+});
+grid.addEventListener("click",async event=>{
+ const button=event.target.closest("[data-copy]");if(!button)return;
+ const command=decodeURIComponent(button.dataset.copy);
+ try{await navigator.clipboard.writeText(command);showToast("تم نسخ الأمر");}
+ catch(error){showToast("تعذّر النسخ تلقائياً — انسخ الأمر من بياناته");}
+});
+
+/* محاكاة قصيرة لحالة التحميل لإظهار Skeleton عند فتح الصفحة */
+renderFilters();
+window.setTimeout(render,320);
+</script>
+</body>
+</html>
