@@ -1012,6 +1012,14 @@
     "status": "متعدد"
   },
   {
+    "title": "Plugin & Tools Center",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Tools"
+  },
+  {
     "title": "Quick Install | Enigma2 Plugins Library — Online4Tech",
     "description": "انسخ أوامر تثبيت إضافات Enigma2 بسرعة من مكتبة Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/quick-install/index.html",
@@ -1501,14 +1509,6 @@
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
     "category": "إضافات",
     "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
-    "title": "مركز البلجنات والأدوات",
-    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
-    "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
-    "category": "إضافات",
-    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
