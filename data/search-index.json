@@ -667,14 +667,6 @@
     "status": "غير محدد"
   },
   {
-    "title": "All Plugin Center | Online4Tech",
-    "description": "All Plugin Center | Online4Tech — محتوى تقني من Online4Tech.",
-    "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
-    "category": "إضافات",
-    "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
     "title": "ArabicSavior",
     "description": "أداة مساعدة عربية لـ Enigma2 من مستودع المطوّر.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=arabicsavior",
@@ -994,9 +986,9 @@
     "type": "Plugin"
   },
   {
-    "title": "O4TONLINE4TECHخليك دايماً اونلاين",
-    "description": "All Plugin Center | Online4Tech — محتوى تقني من Online4Tech.",
-    "url": "https://online4tech.github.io/online4Tech/index.html",
+    "title": "ONLINE4TECH | مركز البلجنات والأدوات",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
@@ -1352,6 +1344,14 @@
     "type": "Plugin"
   },
   {
+    "title": "الرئيسية",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/index.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
     "title": "الرجوع إلى المكتبة الكاملة",
     "description": "انسخ أوامر تثبيت إضافات Enigma2 بسرعة من مكتبة Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugins/",
@@ -1472,6 +1472,14 @@
     "type": "Plugin"
   },
   {
+    "title": "عن الموقع",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/about.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
     "title": "كل الإضافات",
     "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
@@ -1497,7 +1505,7 @@
   },
   {
     "title": "مركز البلجنات والأدوات",
-    "description": "All Plugin Center | Online4Tech — محتوى تقني من Online4Tech.",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
     "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
     "category": "إضافات",
     "brand": "Online4Tech",
@@ -1539,6 +1547,14 @@
     "title": "مكتبة البلجن",
     "description": "تفاصيل ومميزات وأمر تثبيت إضافات Enigma2 من مكتبة Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugin-library/",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "مكتبة التحميل",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Plugin"
@@ -4041,7 +4057,7 @@
   },
   {
     "title": "اختار قسم",
-    "description": "All Plugin Center | Online4Tech — محتوى تقني من Online4Tech.",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
     "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
     "category": "معلومات",
     "brand": "Online4Tech",
@@ -4387,14 +4403,6 @@
     "title": "الرئيسية",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/",
-    "category": "معلومات",
-    "brand": "Enigma2",
-    "type": "Page"
-  },
-  {
-    "title": "الرئيسية",
-    "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
-    "url": "https://online4tech.github.io/online4Tech/index.html",
     "category": "معلومات",
     "brand": "Enigma2",
     "type": "Page"
@@ -5488,14 +5496,6 @@
     "type": "Page"
   },
   {
-    "title": "عن الموقع",
-    "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
-    "url": "https://online4tech.github.io/online4Tech/about.html",
-    "category": "ملفات",
-    "brand": "Enigma2",
-    "type": "Channels"
-  },
-  {
     "title": "كل الإضافات",
     "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin-library/",
@@ -5550,14 +5550,6 @@
     "category": "ملفات",
     "brand": "Online4Tech",
     "type": "Backups"
-  },
-  {
-    "title": "مكتبة التحميل",
-    "description": "ثبت جميع إضافات Enigma2 من خلال Online4Tech Installer بأمر واحد فقط.",
-    "url": "https://online4tech.github.io/online4Tech/library.html",
-    "category": "ملفات",
-    "brand": "Enigma2",
-    "type": "Page"
   },
   {
     "title": "مكتبة التحميل | Online4Tech",
