@@ -167,21 +167,100 @@ footer{display:none}
 @media(max-width:680px){#detailModal .modal-body .detail-placeholder{min-height:150px}}
 @media(prefers-reduced-motion:no-preference){.detailbody>*{animation:detailIn .18s ease-out}@keyframes detailIn{from{opacity:.55;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}}
 
+
+/* Repository workspace: three-column navigation, category list and details */
+.workspace{grid-template-columns:minmax(205px,24%) minmax(0,1fr) minmax(245px,25%);gap:14px}
+.sidebar .nav{display:flex;flex-direction:column;gap:7px}
+.sidebar .category{margin:0;border:1px solid #26364e;border-radius:10px;background:#0b1728}
+.sidebar .category.active{border-color:var(--blue);background:#142b45;box-shadow:inset -3px 0 var(--blue)}
+.sidebar .toggle{width:100%;min-height:54px;padding:11px 12px;display:flex;align-items:center;gap:10px}
+.sidebar .toggle .catname{flex:1;text-align:right}
+.sidebar .toggle .count{margin-inline-start:auto}
+.sidebar .toggle .category-arrow,.sidebar .sub{display:none!important}
+.center{min-width:0}
+.middle-path{display:flex;align-items:center;gap:7px;flex-wrap:wrap;padding:11px 14px 3px;color:var(--muted);font-size:12px}
+.middle-path button{border:0;background:none;color:var(--blue);padding:0;font:inherit;cursor:pointer}
+.middle-path .current{color:var(--txt);font-weight:700}
+.middle-path .path-sep{color:#59738e}
+#content{min-width:0}
+#content .repo-empty{margin:16px;padding:25px 12px;text-align:center;border:1px dashed #36516b;border-radius:12px;color:var(--muted)}
+#content .subcategory-row{justify-content:flex-start}
+#content .subcategory-row .ico{flex:0 0 36px}
+#content .items{padding-bottom:18px}
+#detailPanel[hidden]{display:none!important}
+@media(max-width:1050px) and (min-width:681px){
+ .workspace{grid-template-columns:minmax(185px,25%) minmax(0,1fr) minmax(220px,25%)}
+}
+@media(max-width:680px){
+ body{height:auto;min-height:100dvh;overflow:auto}
+ .shell{height:auto;min-height:100dvh;max-height:none;display:flex;flex-direction:column}
+ .workspace{display:flex;flex-direction:column;overflow:visible;min-height:0;height:auto;max-height:none;gap:10px}
+ .workspace>.sidebar,.workspace>.center,.workspace>.detail{display:flex;width:100%;height:auto;max-height:none;min-height:0;overflow:visible}
+ .sidebar{order:1}.center{order:2}.detail{order:3}
+ .sidebar .head,.center .head,.detail .head{flex:0 0 auto}
+ .sidebar .nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));overflow:visible;padding:8px}
+ .sidebar .toggle{min-height:50px;padding:8px}
+ .center>.toolbar{grid-template-columns:minmax(0,1fr) 112px}
+ .center>#content{overflow:visible;max-height:none}
+ .detailbody{overflow:visible;max-height:none}
+ #detailModal{display:none!important}
+}
+@media(max-width:360px){.sidebar .nav{grid-template-columns:1fr}.center>.toolbar{grid-template-columns:1fr}}
 </style></head><body><div class="shell"><header></header><section class="hero"><h1>مركز البلجنات والأدوات</h1><p>مكتبة ONLINE4TECH المنظمة لبلجنات وأدوات Enigma2 — اختار القسم والتصنيف للوصول للمحتوى بسهولة.</p><div class="page-crumb"><a href="index.html">الرئيسية</a><span>›</span><strong>مركز البلجنات والأدوات</strong></div><nav class="breadcrumb" id="breadcrumb" aria-label="مسار التنقل"><button type="button" data-crumb="home">الرئيسية</button></nav></section><main class="workspace">
 <aside class="panel sidebar"><div class="head">الأقسام <small>التصنيفات</small></div><nav class="nav" id="nav"><div class="empty">تحميل الأقسام...</div></nav></aside>
-<section class="panel center"><div class="toolbar"><input class="search" id="search" type="search" placeholder="ابحث داخل القسم الحالي..."><select id="sort"><option value="default">الترتيب الافتراضي</option><option value="az">أبجدي</option><option value="downloads">الأكثر استخداماً</option></select></div><div class="section"><h2 id="title">اختار قسم</h2><span id="total"></span></div><div id="content"><div class="empty">اختار قسم من القائمة الجانبية.</div></div></section>
+<section class="panel center"><div class="middle-path" id="middlePath" aria-label="مسار التنقل داخل المستودع"><span>اختار قسم من العمود الجانبي</span></div><div class="toolbar"><input class="search" id="search" type="search" placeholder="ابحث داخل القسم الحالي..."><select id="sort"><option value="default">الترتيب الافتراضي</option><option value="az">أبجدي</option><option value="downloads">الأكثر استخداماً</option></select></div><div class="section"><h2 id="title">اختار قسم</h2><span id="total"></span></div><div id="content"><div class="empty">اختار قسم من القائمة الجانبية.</div></div></section>
 <aside class="panel detail" id="detailPanel" hidden><div class="head">تفاصيل العنصر <small>DETAILS</small></div><div class="detailbody" id="detail"><div class="detail-placeholder"><span class="placeholder-icon">✦</span><span>اضغط على أي عنصر لعرض بياناته هنا</span></div></div></aside></main></div><div id="detailModal" aria-hidden="true"><section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-head"><span id="modalTitle">تفاصيل العنصر</span><button class="modal-close" type="button" id="closeDetail">إغلاق ✕</button></div><div class="modal-body" id="modalDetail"></div></section></div><footer><div class="site-foot"><span>© Online4Tech — التقنية أسهل</span><span><a href="library.html">مكتبة التحميل</a> · <a href="about.html">عن الموقع</a> · <a href="https://www.facebook.com/ahmad.m.romeh/" target="_blank" rel="noopener">Facebook</a> · <a href="https://m.me/ahmad.m.romeh/" target="_blank" rel="noopener">Messenger</a></span></div></footer>
 <script>
 const DATA_URL="assets/allblugin/demo-data.json",icons={plugins:"📦",commands:"⌨️",tools:"🛠️",backup:"💾",channels:"📺",skins:"🎨",updates:"🔄"};
 let db,activeMain=null,activeSub=null,selectedItem=null,query="",sort="default",opened=new Set();
 const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const mainById=id=>db.categories.find(x=>x.id===id),subById=(m,id)=>m?.subcategories.find(x=>x.id===id),itemsFor=(m,s)=>db.items.filter(x=>x.category===m&&x.subcategory===s);
-function renderNav(){$("nav").innerHTML=db.categories.map(c=>{let o=opened.has(c.id);return '<div class="category '+(o?'open ':'')+(activeMain===c.id?'active':'')+'"><button class="toggle" type="button" data-toggle="'+c.id+'" aria-expanded="'+o+'"><span>'+esc(c.icon||icons[c.id]||"📁")+'</span><b class="catname">'+esc(c.label)+'</b><span class="count">'+c.count+'</span><span>⌄</span></button><div class="sub"><div class="sub-inner">'+c.subcategories.map(s=>'<button type="button" class="'+(activeMain===c.id&&activeSub===s.id?'selected':'')+'" data-sub="'+s.id+'" data-main="'+c.id+'">'+esc(s.label)+' <small>('+s.count+')</small></button>').join("")+'</div></div></div>'}).join("")}
-function breadcrumb(){let p=['<button type="button" data-crumb="home">الرئيسية</button>'];if(activeMain){let m=mainById(activeMain);p.push('<span class="sep">›</span><button data-crumb="main">'+esc(m.label)+'</button>')}if(activeSub){let s=subById(mainById(activeMain),activeSub);p.push('<span class="sep">›</span><span class="current">'+esc(s?.label||"")+'</span>')}if(selectedItem)p.push('<span class="sep">›</span><span class="current">'+esc(selectedItem.name)+'</span>');$("breadcrumb").innerHTML=p.join("")}
-function renderSubs(m){$("title").textContent=m.label;$("total").textContent=m.subcategories.length+" تصنيف فرعي";$("content").innerHTML=m.subcategories.map(s=>'<button class="subcategory-row" data-open-sub="'+s.id+'"><span class="ico">'+esc(m.icon||icons[m.id])+'</span><span class="sub-label">'+esc(s.label)+'</span><small>'+s.count+' عنصر</small><span>‹</span></button>').join("")}
-function renderItems(){let m=mainById(activeMain),s=subById(m,activeSub),arr=itemsFor(activeMain,activeSub).filter(x=>[x.name,x.description,x.group,x.keywords,x.version].join(" ").toLocaleLowerCase("ar").includes(query.toLocaleLowerCase("ar")));if(sort==="az")arr.sort((a,b)=>a.name.localeCompare(b.name,"ar"));if(sort==="downloads")arr.sort((a,b)=>(b.downloads||0)-(a.downloads||0));$("title").textContent=s.label;$("total").textContent=arr.length+" / "+s.count+" عنصر";$("content").innerHTML=arr.length?'<div class="group">'+esc(s.label)+'</div><div class="items">'+arr.map(x=>'<button class="item '+(selectedItem?.id===x.id?'selected':'')+'" data-id="'+x.id+'"><span class="ico">'+esc(x.icon||m.icon)+'</span><span class="itemtext"><b>'+esc(x.name)+'</b><small>'+esc(shortDescription(x.description))+'</small></span><span>‹</span></button>').join("")+'</div>':'<div class="empty">لا توجد نتائج مطابقة.</div>'}
-function globalSearch(){let q=query.toLocaleLowerCase("ar"),ms=db.categories.filter(m=>m.label.toLocaleLowerCase("ar").includes(q)),ss=db.categories.flatMap(m=>m.subcategories.filter(s=>s.label.toLocaleLowerCase("ar").includes(q)).map(s=>({m,s}))),ii=db.items.filter(x=>[x.name,x.description,x.keywords,x.group].join(" ").toLocaleLowerCase("ar").includes(q));$("title").textContent="نتائج البحث";$("total").textContent=(ms.length+ss.length+ii.length)+" نتيجة";let out="";if(ms.length)out+='<div class="search-results"><div class="search-heading">الأقسام الرئيسية</div>'+ms.map(m=>'<button class="subcategory-row" data-search-main="'+m.id+'"><span class="ico">'+esc(m.icon)+'</span><span class="sub-label">'+esc(m.label)+'</span><small>'+m.count+' عنصر</small></button>').join("")+'</div>';if(ss.length)out+='<div class="search-results"><div class="search-heading">التصنيفات الفرعية</div>'+ss.map(o=>'<button class="subcategory-row" data-search-main="'+o.m.id+'" data-search-sub="'+o.s.id+'"><span class="ico">'+esc(o.m.icon)+'</span><span class="sub-label">'+esc(o.s.label)+'</span><small>'+esc(o.m.label)+'</small></button>').join("")+'</div>';if(ii.length)out+='<div class="search-results"><div class="search-heading">العناصر</div>'+ii.slice(0,100).map(x=>'<button class="item" data-search-item="'+x.id+'"><span class="ico">'+esc(x.icon||icons[x.category])+'</span><span class="itemtext"><b>'+esc(x.name)+'</b><small>'+esc(mainById(x.category).label)+' › '+esc(subById(mainById(x.category),x.subcategory)?.label||"")+'</small></span></button>').join("")+'</div>';$("content").innerHTML=out||'<div class="empty">لا توجد نتائج مطابقة.</div>'}
-function renderContent(){if(query.trim())return globalSearch();if(!activeMain){$("title").textContent="اختار قسم";$("total").textContent="";$("content").innerHTML='<div class="empty">اختار قسم من القائمة الجانبية لعرض تصنيفاته.</div>';return}if(!activeSub)return renderSubs(mainById(activeMain));renderItems()}
+function renderNav(){
+ $("nav").innerHTML=db.categories.map(c=>'<div class="category '+(activeMain===c.id?'active':'')+'"><button class="toggle" type="button" data-main="'+esc(c.id)+'" aria-pressed="'+(activeMain===c.id)+'"><span class="category-icon">'+esc(c.icon||icons[c.id]||"📁")+'</span><b class="catname">'+esc(c.label)+'</b><span class="count">'+Number(c.count||0).toLocaleString("en-US")+'</span></button></div>').join("");
+}
+function breadcrumb(){
+ let p=['<button type="button" data-crumb="home">الرئيسية</button>'];
+ if(activeMain){let m=mainById(activeMain);p.push('<span class="sep">›</span><button type="button" data-crumb="main">'+esc(m.label)+'</button>')}
+ if(activeSub){let sub=subById(mainById(activeMain),activeSub);p.push('<span class="sep">›</span><span class="current">'+esc(sub?.label||"")+'</span>')}
+ if(selectedItem)p.push('<span class="sep">›</span><span class="current">'+esc(selectedItem.name)+'</span>');
+ $("breadcrumb").innerHTML=p.join("");
+ renderMiddlePath();
+}
+function renderMiddlePath(){
+ const p=$("middlePath");if(!p)return;
+ if(!activeMain){p.innerHTML='<span>اختار قسم من العمود الجانبي</span>';return}
+ const m=mainById(activeMain);let html='<button type="button" data-path="main">'+esc(m?.label||"")+'</button>';
+ if(activeSub){const sub=subById(m,activeSub);html+='<span class="path-sep">›</span><span class="current">'+esc(sub?.label||"")+'</span>'}
+ if(selectedItem)html+='<span class="path-sep">›</span><span class="current">'+esc(selectedItem.name)+'</span>';
+ p.innerHTML=html;
+}
+function renderSubs(m){
+ $("title").textContent=m.label;$("total").textContent=m.subcategories.length+" تصنيف";
+ $("content").innerHTML=m.subcategories.length?m.subcategories.map(sub=>'<button class="subcategory-row" data-open-sub="'+esc(sub.id)+'"><span class="ico">📁</span><span class="sub-label">'+esc(sub.label)+'</span><small>'+Number(sub.count||0).toLocaleString("en-US")+' عنصر</small><span>‹</span></button>').join(""):'<div class="repo-empty">القسم ده لسه مفيهوش تصنيفات.</div>';
+}
+function renderItems(){
+ const m=mainById(activeMain),sub=subById(m,activeSub);
+ if(!m||!sub){$("content").innerHTML='<div class="repo-empty">اختار تصنيف لعرض العناصر.</div>';return}
+ let arr=itemsFor(activeMain,activeSub).filter(x=>[x.name,x.description,x.group,x.keywords,x.version].join(" ").toLocaleLowerCase("ar").includes(query.toLocaleLowerCase("ar")));
+ if(sort==="az")arr.sort((a,b)=>a.name.localeCompare(b.name,"ar"));
+ if(sort==="downloads")arr.sort((a,b)=>(b.downloads||0)-(a.downloads||0));
+ $("title").textContent=sub.label;$("total").textContent=arr.length+" / "+Number(sub.count||0)+" عنصر";
+ $("content").innerHTML=arr.length?'<div class="group">'+esc(sub.label)+'</div><div class="items">'+arr.map(x=>'<button class="item '+(selectedItem?.id===x.id?'selected':'')+'" data-id="'+x.id+'"><span class="ico">'+esc(x.icon||icons[x.category]||"🔧")+'</span><span class="itemtext"><b>'+esc(x.name)+'</b><small>'+esc(shortDescription(x.description))+'</small></span><span>‹</span></button>').join("")+'</div>':'<div class="repo-empty">لا توجد عناصر مطابقة داخل التصنيف ده.</div>';
+}
+function globalSearch(){
+ let q=query.toLocaleLowerCase("ar"),ms=db.categories.filter(m=>m.label.toLocaleLowerCase("ar").includes(q)),ss=db.categories.flatMap(m=>m.subcategories.filter(sub=>sub.label.toLocaleLowerCase("ar").includes(q)).map(sub=>({m,sub}))),ii=db.items.filter(x=>[x.name,x.description,x.keywords,x.group].join(" ").toLocaleLowerCase("ar").includes(q));
+ $("title").textContent="نتائج البحث";$("total").textContent=(ms.length+ss.length+ii.length)+" نتيجة";let out="";
+ if(ms.length)out+='<div class="search-results"><div class="search-heading">الأقسام الرئيسية</div>'+ms.map(m=>'<button class="subcategory-row" data-search-main="'+m.id+'"><span class="ico">'+esc(m.icon||icons[m.id])+'</span><span class="sub-label">'+esc(m.label)+'</span><small>'+m.count+' عنصر</small></button>').join("")+'</div>';
+ if(ss.length)out+='<div class="search-results"><div class="search-heading">التصنيفات الفرعية</div>'+ss.map(o=>'<button class="subcategory-row" data-search-main="'+o.m.id+'" data-search-sub="'+o.sub.id+'"><span class="ico">📁</span><span class="sub-label">'+esc(o.sub.label)+'</span><small>'+esc(o.m.label)+'</small></button>').join("")+'</div>';
+ if(ii.length)out+='<div class="search-results"><div class="search-heading">العناصر</div>'+ii.slice(0,100).map(x=>'<button class="item" data-search-item="'+x.id+'"><span class="ico">'+esc(x.icon||icons[x.category])+'</span><span class="itemtext"><b>'+esc(x.name)+'</b><small>'+esc(mainById(x.category)?.label||"")+' › '+esc(subById(mainById(x.category),x.subcategory)?.label||"")+'</small></span></button>').join("")+'</div>';
+ $("content").innerHTML=out||'<div class="repo-empty">لا توجد نتائج مطابقة.</div>';
+}
+function renderContent(){
+ if(query.trim())return globalSearch();
+ if(!activeMain){$("title").textContent="مستودع ONLINE4TECH";$("total").textContent="";$("content").innerHTML='<div class="repo-empty">اختار قسم من العمود الجانبي لعرض التصنيفات.</div>';return}
+ if(!activeSub)return renderSubs(mainById(activeMain));
+ renderItems();
+}
 function shortDescription(value){let text=String(value||"").replace(/\\s+/g," ").trim();return text.length>58?text.slice(0,55)+"…":text}
 function detailPlaceholder(){return '<div class="detail-placeholder"><span class="placeholder-icon">✦</span><span>اضغط على أي عنصر لعرض بياناته هنا</span></div>'}
 function firstValue(x,keys){for(const k of keys){const v=x[k];if(v!==undefined&&v!==null&&String(v).trim()!==""&&String(v).trim()!=="#")return v}return ""}
@@ -209,11 +288,13 @@ function details(x){
  targets.forEach(el=>el.innerHTML=markup);
 }
 function renderAll(){renderNav();breadcrumb();renderContent();details(selectedItem)}
-function chooseMain(id){activeMain=id;activeSub=null;selectedItem=null;opened.add(id);query="";$("search").value="";renderAll()}
-function chooseSub(m,s){activeMain=m;activeSub=s;selectedItem=null;opened.add(m);query="";$("search").value="";renderAll()}
-function chooseItem(id){let x=db.items.find(x=>x.id===Number(id));if(!x)return;activeMain=x.category;activeSub=x.subcategory;selectedItem=x;opened.add(activeMain);query="";$("search").value="";renderAll();if(matchMedia("(max-width: 680px)").matches)openDetailModal()}
-$("nav").addEventListener("click",e=>{let t=e.target.closest("[data-toggle]");if(t){let id=t.dataset.toggle;if(opened.has(id)){opened.delete(id);if(activeMain===id){activeMain=null;activeSub=null;selectedItem=null}}else{opened.add(id);activeMain=id;activeSub=null;selectedItem=null}query="";$("search").value="";renderAll();return}let s=e.target.closest("[data-sub]");if(s)chooseSub(s.dataset.main,s.dataset.sub)});
-$("content").addEventListener("click",e=>{let b=e.target.closest("[data-open-sub]");if(b){chooseSub(activeMain,b.dataset.openSub);return}b=e.target.closest("[data-id]");if(b){chooseItem(b.dataset.id);return}b=e.target.closest("[data-search-main]");if(b){if(b.dataset.searchSub)chooseSub(b.dataset.searchMain,b.dataset.searchSub);else chooseMain(b.dataset.searchMain);return}b=e.target.closest("[data-search-item]");if(b)chooseItem(b.dataset.searchItem)});
+function updateView({nav=false,content=true,detail=true}={}){if(nav)renderNav();breadcrumb();if(content)renderContent();if(detail)details(selectedItem)}
+function chooseMain(id){if(!mainById(id))return;activeMain=id;activeSub=null;selectedItem=null;query="";$("search").value="";updateView({nav:true})}
+function chooseSub(m,s){if(!subById(mainById(m),s))return;activeMain=m;activeSub=s;selectedItem=null;query="";$("search").value="";updateView({nav:true})}
+function chooseItem(id){const x=db.items.find(item=>String(item.id)===String(id));if(!x)return;activeMain=x.category;activeSub=x.subcategory;selectedItem=x;query="";$("search").value="";updateView({nav:true});if(matchMedia("(max-width: 680px)").matches)$("detailPanel").scrollIntoView({behavior:"smooth",block:"start"})}
+$("nav").addEventListener("click",e=>{const b=e.target.closest("[data-main]");if(b)chooseMain(b.dataset.main)});
+$("content").addEventListener("click",e=>{const b=e.target.closest("[data-open-sub]");if(b){chooseSub(activeMain,b.dataset.openSub);return}const item=e.target.closest("[data-id]");if(item){chooseItem(item.dataset.id);return}const main=e.target.closest("[data-search-main]");if(main){if(main.dataset.searchSub)chooseSub(main.dataset.searchMain,main.dataset.searchSub);else chooseMain(main.dataset.searchMain);return}const found=e.target.closest("[data-search-item]");if(found)chooseItem(found.dataset.searchItem)});
+$("middlePath").addEventListener("click",e=>{if(e.target.closest("[data-path=main]")){activeSub=null;selectedItem=null;updateView({content:true})}});
 $("breadcrumb").addEventListener("click",e=>{let b=e.target.closest("[data-crumb]");if(!b)return;if(b.dataset.crumb==="home"){activeMain=null;activeSub=null;selectedItem=null;query="";$("search").value=""}else{activeSub=null;selectedItem=null}renderAll()});
 $("search").addEventListener("input",e=>{query=e.target.value;breadcrumb();renderContent();if(query){selectedItem=null;details(null)}});
 $("sort").addEventListener("change",e=>{sort=e.target.value;renderContent()});
