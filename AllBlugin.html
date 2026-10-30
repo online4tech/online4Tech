@@ -193,7 +193,7 @@ function details(x){
  panel.hidden=false;
  if(!x){targets.forEach(el=>el.innerHTML=detailPlaceholder());return}
  const m=mainById(x.category),sub=subById(m,x.subcategory),icon=categoryIcon(x,m);
- const image=safeLink(firstValue(x,["image","thumbnail","iconUrl","imageUrl"]));
+ const iconValue=firstValue(x,["icon"]);const iconAsImage=/^(https?:\\/\\/|\\/|\\.\\.?\\/)/i.test(String(iconValue||""));const image=safeLink(firstValue(x,["image","thumbnail","iconUrl","imageUrl"])||(iconAsImage?iconValue:""));
  const download=safeLink(firstValue(x,["downloadUrl","directLink","ipk","zip","rar","tar","tar.gz","7z"]));
  const repo=safeLink(firstValue(x,["github","repository","repoUrl"]));
  const forum=safeLink(firstValue(x,["forumUrl","topicUrl","tunisiaSatUrl"]));
