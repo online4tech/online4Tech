@@ -28,13 +28,10 @@
   const page = (parts[parts.length - 1] || 'index.html').toLowerCase();
   const routes = [
     ['الرئيسية', 'index.html', ['index.html']],
-    ['مكتبة التحميل', 'library.html', ['library.html', 'downloads.html', 'backups/']],
     ['المتجر', 'store/index.html', ['store/']],
-    ['الشروحات', 'tutorials.html', ['guides.html', 'guides/index.html', 'tutorials.html', 'tutorials/', 'plugins/', 'skins.html', 'AllBlugin.html']],
-    ['خدماتنا', 'services.html', ['services.html']],
-    ['صور Vu+', 'vuplus-images.html', ['vuplus-images.html']],
-    ['Enigma2 Manager', 'enigma2-manager.html', ['enigma2-manager.html']],
-    ['الاتصال بنا', 'index.html#contact', ['contact']]
+    ['مكتبة التحميل', 'library.html', ['library.html', 'downloads.html', 'backups/']],
+    ['الشروحات', 'tutorials.html', ['guides.html', 'guides/index.html', 'tutorials.html', 'tutorials/', 'skins.html', 'plugins/']],
+    ['خدماتنا', 'services.html', ['services.html']]
   ];
   const current = (parts.join('/') || 'index.html').toLowerCase();
   const style = document.createElement('style');
