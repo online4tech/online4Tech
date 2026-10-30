@@ -145,10 +145,32 @@ footer{display:none}
  #detailModal .modal-close{border:1px solid #34516b;border-radius:8px;background:#19344d;color:#e8eefb;padding:5px 10px}
 }
 @media(max-height:560px) and (max-width:680px){.hero{display:none}.workspace>.sidebar{max-height:22%}}
+/* Dynamic details panel */
+.detail[hidden]{display:none!important}
+.detailbody{display:flex;flex-direction:column;gap:12px}
+.detail-placeholder{min-height:180px;display:grid;place-content:center;justify-items:center;gap:9px;text-align:center;color:var(--muted);padding:24px 12px;border:1px dashed #36506b;border-radius:12px}
+.detail-placeholder .placeholder-icon{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:#142b45;color:var(--blue);font-size:23px}
+.detail-visual{width:100%;height:132px;display:grid;place-items:center;overflow:hidden;border:1px solid #263d55;border-radius:12px;background:#0a1726}
+.detail-visual img{width:100%;height:100%;object-fit:contain}
+.detail-visual .fallback{font-size:42px}
+.detail-title{margin:0!important;font-size:18px!important}
+.detail-description{margin:0;color:var(--muted);font-size:13px;line-height:1.8}
+.detail-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+.detail-meta>div{min-width:0;background:#0b1728;border:1px solid #26364e;border-radius:8px;padding:8px}
+.detail-meta small{display:block;color:#8199b1;font-size:10px}
+.detail-meta b{display:block;font-size:12px;overflow-wrap:anywhere}
+.detail-actions{display:grid;grid-template-columns:1fr;gap:7px}
+.detail-actions .btn{width:100%;min-height:40px;display:flex;align-items:center;justify-content:center;text-align:center;text-decoration:none}
+.detail-actions .btn:disabled{opacity:.38;filter:saturate(.5)}
+.detail-command{direction:ltr;text-align:left;overflow-wrap:anywhere;background:#06111d;border:1px solid #29445d;border-radius:9px;padding:10px;color:#9ee6d9;font:12px Consolas,monospace}
+.detailbody .type{display:block}
+@media(max-width:680px){#detailModal .modal-body .detail-placeholder{min-height:150px}}
+@media(prefers-reduced-motion:no-preference){.detailbody>*{animation:detailIn .18s ease-out}@keyframes detailIn{from{opacity:.55;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}}
+
 </style></head><body><div class="shell"><header></header><section class="hero"><h1>مركز البلجنات والأدوات</h1><p>مكتبة ONLINE4TECH المنظمة لبلجنات وأدوات Enigma2 — اختار القسم والتصنيف للوصول للمحتوى بسهولة.</p><div class="page-crumb"><a href="index.html">الرئيسية</a><span>›</span><strong>مركز البلجنات والأدوات</strong></div><nav class="breadcrumb" id="breadcrumb" aria-label="مسار التنقل"><button type="button" data-crumb="home">الرئيسية</button></nav></section><main class="workspace">
 <aside class="panel sidebar"><div class="head">الأقسام <small>التصنيفات</small></div><nav class="nav" id="nav"><div class="empty">تحميل الأقسام...</div></nav></aside>
 <section class="panel center"><div class="toolbar"><input class="search" id="search" type="search" placeholder="ابحث داخل القسم الحالي..."><select id="sort"><option value="default">الترتيب الافتراضي</option><option value="az">أبجدي</option><option value="downloads">الأكثر استخداماً</option></select></div><div class="section"><h2 id="title">اختار قسم</h2><span id="total"></span></div><div id="content"><div class="empty">اختار قسم من القائمة الجانبية.</div></div></section>
-<aside class="panel detail"><div class="head">تفاصيل العنصر <small>DETAILS</small></div><div class="detailbody" id="detail"><div class="empty">اضغط على أي عنصر لعرض بياناته هنا.</div></div></aside></main></div><div id="detailModal" aria-hidden="true"><section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-head"><span id="modalTitle">تفاصيل العنصر</span><button class="modal-close" type="button" id="closeDetail">إغلاق ✕</button></div><div class="modal-body" id="modalDetail"></div></section></div><footer><div class="site-foot"><span>© Online4Tech — التقنية أسهل</span><span><a href="library.html">مكتبة التحميل</a> · <a href="about.html">عن الموقع</a> · <a href="https://www.facebook.com/ahmad.m.romeh/" target="_blank" rel="noopener">Facebook</a> · <a href="https://m.me/ahmad.m.romeh/" target="_blank" rel="noopener">Messenger</a></span></div></footer>
+<aside class="panel detail" id="detailPanel" hidden><div class="head">تفاصيل العنصر <small>DETAILS</small></div><div class="detailbody" id="detail"><div class="detail-placeholder"><span class="placeholder-icon">✦</span><span>اضغط على أي عنصر لعرض بياناته هنا</span></div></div></aside></main></div><div id="detailModal" aria-hidden="true"><section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-head"><span id="modalTitle">تفاصيل العنصر</span><button class="modal-close" type="button" id="closeDetail">إغلاق ✕</button></div><div class="modal-body" id="modalDetail"></div></section></div><footer><div class="site-foot"><span>© Online4Tech — التقنية أسهل</span><span><a href="library.html">مكتبة التحميل</a> · <a href="about.html">عن الموقع</a> · <a href="https://www.facebook.com/ahmad.m.romeh/" target="_blank" rel="noopener">Facebook</a> · <a href="https://m.me/ahmad.m.romeh/" target="_blank" rel="noopener">Messenger</a></span></div></footer>
 <script>
 const DATA_URL="assets/allblugin/demo-data.json",icons={plugins:"📦",commands:"⌨️",tools:"🛠️",backup:"💾",channels:"📺",skins:"🎨",updates:"🔄"};
 let db,activeMain=null,activeSub=null,selectedItem=null,query="",sort="default",opened=new Set();
@@ -161,13 +183,30 @@ function renderItems(){let m=mainById(activeMain),s=subById(m,activeSub),arr=ite
 function globalSearch(){let q=query.toLocaleLowerCase("ar"),ms=db.categories.filter(m=>m.label.toLocaleLowerCase("ar").includes(q)),ss=db.categories.flatMap(m=>m.subcategories.filter(s=>s.label.toLocaleLowerCase("ar").includes(q)).map(s=>({m,s}))),ii=db.items.filter(x=>[x.name,x.description,x.keywords,x.group].join(" ").toLocaleLowerCase("ar").includes(q));$("title").textContent="نتائج البحث";$("total").textContent=(ms.length+ss.length+ii.length)+" نتيجة";let out="";if(ms.length)out+='<div class="search-results"><div class="search-heading">الأقسام الرئيسية</div>'+ms.map(m=>'<button class="subcategory-row" data-search-main="'+m.id+'"><span class="ico">'+esc(m.icon)+'</span><span class="sub-label">'+esc(m.label)+'</span><small>'+m.count+' عنصر</small></button>').join("")+'</div>';if(ss.length)out+='<div class="search-results"><div class="search-heading">التصنيفات الفرعية</div>'+ss.map(o=>'<button class="subcategory-row" data-search-main="'+o.m.id+'" data-search-sub="'+o.s.id+'"><span class="ico">'+esc(o.m.icon)+'</span><span class="sub-label">'+esc(o.s.label)+'</span><small>'+esc(o.m.label)+'</small></button>').join("")+'</div>';if(ii.length)out+='<div class="search-results"><div class="search-heading">العناصر</div>'+ii.slice(0,100).map(x=>'<button class="item" data-search-item="'+x.id+'"><span class="ico">'+esc(x.icon||icons[x.category])+'</span><span class="itemtext"><b>'+esc(x.name)+'</b><small>'+esc(mainById(x.category).label)+' › '+esc(subById(mainById(x.category),x.subcategory)?.label||"")+'</small></span></button>').join("")+'</div>';$("content").innerHTML=out||'<div class="empty">لا توجد نتائج مطابقة.</div>'}
 function renderContent(){if(query.trim())return globalSearch();if(!activeMain){$("title").textContent="اختار قسم";$("total").textContent="";$("content").innerHTML='<div class="empty">اختار قسم من القائمة الجانبية لعرض تصنيفاته.</div>';return}if(!activeSub)return renderSubs(mainById(activeMain));renderItems()}
 function shortDescription(value){let text=String(value||"").replace(/\\s+/g," ").trim();return text.length>58?text.slice(0,55)+"…":text}
+function detailPlaceholder(){return '<div class="detail-placeholder"><span class="placeholder-icon">✦</span><span>اضغط على أي عنصر لعرض بياناته هنا</span></div>'}
+function firstValue(x,keys){for(const k of keys){const v=x[k];if(v!==undefined&&v!==null&&String(v).trim()!==""&&String(v).trim()!=="#")return v}return ""}
+function safeLink(v){if(!v)return "";try{const u=new URL(String(v),location.href);return ["http:","https:"].includes(u.protocol)?u.href:""}catch(e){return ""}}
+function categoryIcon(x,m){const c=String(x.category||"").toLowerCase(),name=(String(x.name||"")+" "+String(x.group||"")).toLowerCase();if(x.icon)return x.icon;if(/epg|electronic program/.test(name))return "📖";return ({plugins:"🧩",skins:"🎨",tools:"🔧",commands:"💻",backup:"💾",channels:"📺",updates:"🔧"})[c]||"🔧"}
 function details(x){
- if(!x){let empty='<div class="empty">اضغط على أي عنصر لعرض بياناته هنا.</div>';$("detail").innerHTML=empty;$("modalDetail").innerHTML=empty;return}
- let m=mainById(x.category),s=subById(m,x.subcategory);
- let links=[["downloadUrl","تحميل العنصر"],["guideUrl","شرح الاستخدام"],["detailUrl","التفاصيل الكاملة"]].filter(([k])=>x[k]&&x[k]!=="#");
- let markup='<div class="bigico">'+esc(x.icon||m.icon)+'</div><h3>'+esc(x.name)+'</h3><span class="type">'+esc(m.label)+' · '+esc(s?.label||"")+'</span><p>'+esc(x.description)+'</p><div class="meta"><div><small>الإصدار</small><b>'+esc(x.version||"—")+'</b></div><div><small>التاريخ</small><b>'+esc(x.date||"—")+'</b></div><div><small>مرات الاستخدام</small><b>'+Number(x.downloads||0).toLocaleString("en-US")+'</b></div><div><small>النوع</small><b>'+(x.command?"أمر تلنت":"عنصر مكتبة")+'</b></div></div>'+(x.command?'<pre class="cmd">'+esc(x.command)+'</pre>':'')+(links.length?'<div class="detail-links">'+links.map(([k,label])=>'<a class="btn" href="'+esc(x[k])+'" target="_blank" rel="noopener">'+label+'</a>').join(" ")+'</div>':'')+'<button class="btn primary" id="action" '+(!x.command?'disabled':'')+'>'+(x.command?"نسخ الأمر":"رابط التحميل لاحقاً")+'</button> <button class="btn" disabled>الشرح قريباً</button><div class="hint">بيانات توضيحية. راجع التوافق والرابط الفعلي قبل التثبيت أو الاستخدام.</div>';
- $("detail").innerHTML=markup;$("modalDetail").innerHTML=markup;
- ["detail","modalDetail"].forEach(id=>{let b=$(id).querySelector("#action");if(x.command&&b)b.onclick=async()=>{try{await navigator.clipboard.writeText(x.command);b.textContent="تم النسخ ✓"}catch(e){b.textContent="تعذر النسخ"}}});
+ const panel=$("detailPanel"),targets=[$("detail"),$("modalDetail")];
+ if(!activeMain){panel.hidden=true;targets.forEach(el=>el.innerHTML=detailPlaceholder());return}
+ panel.hidden=false;
+ if(!x){targets.forEach(el=>el.innerHTML=detailPlaceholder());return}
+ const m=mainById(x.category),sub=subById(m,x.subcategory),icon=categoryIcon(x,m);
+ const image=safeLink(firstValue(x,["image","thumbnail","iconUrl","imageUrl"]));
+ const download=safeLink(firstValue(x,["downloadUrl","directLink","ipk","zip","rar","tar","tar.gz","7z"]));
+ const repo=safeLink(firstValue(x,["github","repository","repoUrl"]));
+ const forum=safeLink(firstValue(x,["forumUrl","topicUrl","tunisiaSatUrl"]));
+ const metadata=[["الإصدار",x.version],["الكاتب",x.author],["التاريخ",x.date],["مرات التحميل",x.downloads],["التوافق",x.compatibility],["التصنيف",x.categoryLabel||m?.label]];
+ const meta=metadata.filter(([k,v])=>v!==undefined&&v!==null&&String(v).trim()!=="").map(([k,v])=>'<div><small>'+k+'</small><b>'+esc(typeof v==="number"&&k==="مرات التحميل"?v.toLocaleString("en-US"):v)+'</b></div>').join("");
+ const action=(url,label,enabled,primary)=>enabled?'<a class="btn '+(primary?'primary':'')+'" href="'+esc(url)+'" target="_blank" rel="noopener">'+label+'</a>':'<button class="btn '+(primary?'primary':'')+'" type="button" disabled>'+label+'</button>';
+ const markup=(image?'<div class="detail-visual"><img src="'+esc(image)+'" alt="'+esc(x.name)+'" loading="lazy"></div>':'<div class="detail-visual"><span class="fallback">'+esc(icon)+'</span></div>')+
+ '<h3 class="detail-title">'+esc(x.name)+'</h3><span class="type">'+esc(m?.label||"")+" · "+esc(sub?.label||"")+'</span>'+
+ (x.description?'<p class="detail-description">'+esc(x.description)+'</p>':'')+
+ (meta?'<div class="detail-meta">'+meta+'</div>':'')+
+ (x.command?'<pre class="detail-command">'+esc(x.command)+'</pre>':'')+
+ '<div class="detail-actions">'+action(download,"⬇ تحميل",!!download,true)+action(repo,"🐙 المستودع",!!repo,false)+action(forum,"💬 موضوع تونسيا سات",!!forum,false)+'</div>';
+ targets.forEach(el=>el.innerHTML=markup);
 }
 function renderAll(){renderNav();breadcrumb();renderContent();details(selectedItem)}
 function chooseMain(id){activeMain=id;activeSub=null;selectedItem=null;opened.add(id);query="";$("search").value="";renderAll()}
@@ -176,7 +215,7 @@ function chooseItem(id){let x=db.items.find(x=>x.id===Number(id));if(!x)return;a
 $("nav").addEventListener("click",e=>{let t=e.target.closest("[data-toggle]");if(t){let id=t.dataset.toggle;if(opened.has(id)){opened.delete(id);if(activeMain===id){activeMain=null;activeSub=null;selectedItem=null}}else{opened.add(id);activeMain=id;activeSub=null;selectedItem=null}query="";$("search").value="";renderAll();return}let s=e.target.closest("[data-sub]");if(s)chooseSub(s.dataset.main,s.dataset.sub)});
 $("content").addEventListener("click",e=>{let b=e.target.closest("[data-open-sub]");if(b){chooseSub(activeMain,b.dataset.openSub);return}b=e.target.closest("[data-id]");if(b){chooseItem(b.dataset.id);return}b=e.target.closest("[data-search-main]");if(b){if(b.dataset.searchSub)chooseSub(b.dataset.searchMain,b.dataset.searchSub);else chooseMain(b.dataset.searchMain);return}b=e.target.closest("[data-search-item]");if(b)chooseItem(b.dataset.searchItem)});
 $("breadcrumb").addEventListener("click",e=>{let b=e.target.closest("[data-crumb]");if(!b)return;if(b.dataset.crumb==="home"){activeMain=null;activeSub=null;selectedItem=null;query="";$("search").value=""}else{activeSub=null;selectedItem=null}renderAll()});
-$("search").addEventListener("input",e=>{query=e.target.value;breadcrumb();renderContent();if(query)$("detail").innerHTML='<div class="empty">اختار نتيجة لعرض تفاصيلها.</div>'});
+$("search").addEventListener("input",e=>{query=e.target.value;breadcrumb();renderContent();if(query){selectedItem=null;details(null)}});
 $("sort").addEventListener("change",e=>{sort=e.target.value;renderContent()});
 function openDetailModal(){$("detailModal").classList.add("open");$("detailModal").setAttribute("aria-hidden","false")}function closeDetailModal(){$("detailModal").classList.remove("open");$("detailModal").setAttribute("aria-hidden","true")}$("closeDetail").addEventListener("click",closeDetailModal);$("detailModal").addEventListener("click",e=>{if(e.target.id==="detailModal")closeDetailModal()});document.addEventListener("keydown",e=>{if(e.key==="Escape")closeDetailModal()});
 async function init(){try{let r=await fetch(DATA_URL,{cache:"no-store"});if(!r.ok)throw Error(r.status);db=await r.json();activeMain=db.categories[0]?.id||null;if(activeMain)opened.add(activeMain);renderAll()}catch(e){$("nav").innerHTML='<div class="empty">تعذر تحميل ملف البيانات.</div>';$("content").innerHTML='<div class="empty">تأكد من وجود '+esc(DATA_URL)+'</div>'}}init();
