@@ -994,6 +994,14 @@
     "type": "Plugin"
   },
   {
+    "title": "ONLINE4TECH | مركز البلجنات والأدوات",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/AllBlugin-before-glass-design-20261030.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
     "title": "OpenWebif",
     "description": "واجهة ويب لإدارة الرسيفر ومشاهدة معلوماته والتحكم في بعض وظائفه عبر الشبكة.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=openwebif",
@@ -1346,6 +1354,14 @@
   {
     "title": "الرئيسية",
     "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/index.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "الرئيسية",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
     "url": "https://online4tech.github.io/online4Tech/index.html",
     "category": "إضافات",
     "brand": "Enigma2",
@@ -1480,6 +1496,14 @@
     "type": "Plugin"
   },
   {
+    "title": "عن الموقع",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/about.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
     "title": "كل الإضافات",
     "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
@@ -1507,6 +1531,14 @@
     "title": "مركز البلجنات والأدوات",
     "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
     "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "مركز البلجنات والأدوات",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/AllBlugin-before-glass-design-20261030.html",
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
@@ -1547,6 +1579,14 @@
     "title": "مكتبة البلجن",
     "description": "تفاصيل ومميزات وأمر تثبيت إضافات Enigma2 من مكتبة Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/plugin-library/",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "مكتبة التحميل",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/library.html",
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Plugin"
@@ -5291,6 +5331,14 @@
     "title": "اختار القسم",
     "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
     "url": "https://online4tech.github.io/online4Tech/downloads.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "اختار قسم",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/backups/AllBlugin-before-glass-design-20261030.html",
     "category": "ملفات",
     "brand": "Online4Tech",
     "type": "Page"
