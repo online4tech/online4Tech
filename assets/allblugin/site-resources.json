@@ -1,0 +1,357 @@
+{
+  "version": "1.0.0",
+  "generatedFrom": "Verified ONLINE4TECH sitemap and published resource pages",
+  "schema": [
+    "title",
+    "description",
+    "category",
+    "subcategory",
+    "url"
+  ],
+  "items": [
+    {
+      "id": "site-1",
+      "title": "AJPanel",
+      "description": "لوحة تحكم وإدارة خدمات Enigma2.",
+      "category": "Plugins",
+      "subcategory": "Enigma2 Plugins",
+      "url": "https://online4tech.github.io/online4Tech/plugins/ajpanel.html"
+    },
+    {
+      "id": "site-2",
+      "title": "AlKuds Audio",
+      "description": "إضافة تشغيل الصوتيات على أجهزة Enigma2.",
+      "category": "Plugins",
+      "subcategory": "Media Plugins",
+      "url": "https://online4tech.github.io/online4Tech/plugins/alkuds-audio.html"
+    },
+    {
+      "id": "site-3",
+      "title": "ArabicSavior",
+      "description": "أداة مساعدة لاستعادة عرض اللغة العربية.",
+      "category": "Plugins",
+      "subcategory": "System Tools",
+      "url": "https://online4tech.github.io/online4Tech/plugins/arabicsavior.html"
+    },
+    {
+      "id": "site-4",
+      "title": "EnigmaPlay",
+      "description": "إضافة ومصدر تشغيل EnigmaPlay.",
+      "category": "Plugins",
+      "subcategory": "IPTV Plugins",
+      "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html"
+    },
+    {
+      "id": "site-5",
+      "title": "FootOnSat",
+      "description": "معلومات ومواعيد الأحداث الرياضية.",
+      "category": "Plugins",
+      "subcategory": "Media Plugins",
+      "url": "https://online4tech.github.io/online4Tech/plugins/footonsat.html"
+    },
+    {
+      "id": "site-6",
+      "title": "IP Audio Pro",
+      "description": "إضافة الصوتيات لأجهزة Enigma2.",
+      "category": "Plugins",
+      "subcategory": "Media Plugins",
+      "url": "https://online4tech.github.io/online4Tech/plugins/ipaudio-pro.html"
+    },
+    {
+      "id": "site-7",
+      "title": "Mobile Telnet",
+      "description": "شرح استخدام تطبيق Mobile Telnet للتحكم في الجهاز.",
+      "category": "Tools",
+      "subcategory": "Related Tutorials",
+      "url": "https://online4tech.github.io/online4Tech/plugins/mobile-telnet.html"
+    },
+    {
+      "id": "site-8",
+      "title": "MyStreamer 1.0.0",
+      "description": "إضافة تضم مواقع عربية للمشاهدة حسب وصف صفحة البلجن.",
+      "category": "Plugins",
+      "subcategory": "IPTV Plugins",
+      "url": "https://online4tech.github.io/online4Tech/plugins/mystreamer.html"
+    },
+    {
+      "id": "site-9",
+      "title": "Picons",
+      "description": "مكتبة بيكونات القنوات ورابط الملف المتاح.",
+      "category": "Plugins",
+      "subcategory": "Picons",
+      "url": "https://online4tech.github.io/online4Tech/plugins/picons.html"
+    },
+    {
+      "id": "site-10",
+      "title": "Quran Kareem",
+      "description": "إضافة القرآن الكريم لأجهزة Enigma2.",
+      "category": "Plugins",
+      "subcategory": "Media Plugins",
+      "url": "https://online4tech.github.io/online4Tech/plugins/quran-kareem.html"
+    },
+    {
+      "id": "site-11",
+      "title": "RaedQuickSignal",
+      "description": "أداة عرض ومتابعة إشارة القمر.",
+      "category": "Tools",
+      "subcategory": "Signal",
+      "url": "https://online4tech.github.io/online4Tech/plugins/raedquicksignal.html"
+    },
+    {
+      "id": "site-12",
+      "title": "Scripts & Tools",
+      "description": "صفحة سكريبتات وأدوات Enigma2.",
+      "category": "Tools",
+      "subcategory": "System Tools",
+      "url": "https://online4tech.github.io/online4Tech/plugins/scripts-tools.html"
+    },
+    {
+      "id": "site-13",
+      "title": "SubsSupportPro",
+      "description": "إضافة دعم الترجمة ومصادرها.",
+      "category": "Plugins",
+      "subcategory": "Media Plugins",
+      "url": "https://online4tech.github.io/online4Tech/plugins/subssupportpro.html"
+    },
+    {
+      "id": "site-14",
+      "title": "TimeShift Delay",
+      "description": "سكريبت ضبط تأخير TimeShift.",
+      "category": "Tools",
+      "subcategory": "Maintenance",
+      "url": "https://online4tech.github.io/online4Tech/plugins/timeshift-delay.html"
+    },
+    {
+      "id": "site-15",
+      "title": "UltraAudio",
+      "description": "إضافة UltraAudio للصوتيات.",
+      "category": "Plugins",
+      "subcategory": "Media Plugins",
+      "url": "https://online4tech.github.io/online4Tech/plugins/ultraaudio.html"
+    },
+    {
+      "id": "site-16",
+      "title": "XtreamNew",
+      "description": "إضافة IPTV لأجهزة Enigma2.",
+      "category": "Plugins",
+      "subcategory": "IPTV Plugins",
+      "url": "https://online4tech.github.io/online4Tech/plugins/xtreamnew.html"
+    },
+    {
+      "id": "site-17",
+      "title": "مكتبة إضافات Enigma2",
+      "description": "الفهرس الرئيسي للبلجنات المنشورة على الموقع.",
+      "category": "Plugins",
+      "subcategory": "Enigma2 Plugins",
+      "url": "https://online4tech.github.io/online4Tech/plugins/index.html"
+    },
+    {
+      "id": "site-18",
+      "title": "قائمة السكينات",
+      "description": "مكتبة سكينات Enigma2 وروابط ملفات IPK المتاحة.",
+      "category": "Skins",
+      "subcategory": "Skins",
+      "url": "https://online4tech.github.io/online4Tech/skins.html"
+    },
+    {
+      "id": "site-19",
+      "title": "Aglare-FHD — OpenATV",
+      "description": "ملف تثبيت سكين بصيغة IPK.",
+      "category": "Skins",
+      "subcategory": "OpenATV",
+      "url": "https://github.com/popking159/skins/raw/refs/heads/main/aglareatv/aglareatv.ipk"
+    },
+    {
+      "id": "site-20",
+      "title": "Aglare-FHD — OpenPLI",
+      "description": "ملف تثبيت سكين بصيغة IPK.",
+      "category": "Skins",
+      "subcategory": "OpenPLI",
+      "url": "https://github.com/popking159/skins/raw/refs/heads/main/aglarepli/aglarepli.ipk"
+    },
+    {
+      "id": "site-21",
+      "title": "Luka — OpenATV",
+      "description": "ملف تثبيت سكين بصيغة IPK.",
+      "category": "Skins",
+      "subcategory": "OpenATV",
+      "url": "https://github.com/popking159/skins/raw/refs/heads/main/lukaatv/lukaatv.ipk"
+    },
+    {
+      "id": "site-22",
+      "title": "Luka — OpenPLI",
+      "description": "ملف تثبيت سكين بصيغة IPK.",
+      "category": "Skins",
+      "subcategory": "OpenPLI",
+      "url": "https://github.com/popking159/skins/raw/refs/heads/main/lukapli/lukapli.ipk"
+    },
+    {
+      "id": "site-23",
+      "title": "Maxy — OpenATV",
+      "description": "ملف تثبيت سكين بصيغة IPK.",
+      "category": "Skins",
+      "subcategory": "OpenATV",
+      "url": "https://github.com/popking159/skins/raw/refs/heads/main/maxyatv/maxyatv.ipk"
+    },
+    {
+      "id": "site-24",
+      "title": "Maxy — OpenPLI",
+      "description": "ملف تثبيت سكين بصيغة IPK.",
+      "category": "Skins",
+      "subcategory": "OpenPLI",
+      "url": "https://github.com/popking159/skins/raw/refs/heads/main/maxypli/maxypli.ipk"
+    },
+    {
+      "id": "site-25",
+      "title": "أجهزة Dreambox",
+      "description": "موديلات Dreambox وملفات الباك أب المرتبطة بها.",
+      "category": "Backups",
+      "subcategory": "Dreambox",
+      "url": "https://online4tech.github.io/online4Tech/devices/dreambox.html"
+    },
+    {
+      "id": "site-26",
+      "title": "Dreambox DM TWO UHD",
+      "description": "صفحة موديل الجهاز والباك أب المتاح.",
+      "category": "Backups",
+      "subcategory": "Dreambox",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=dm-two-uhd"
+    },
+    {
+      "id": "site-27",
+      "title": "Dreambox DM ONE UHD",
+      "description": "صفحة موديل الجهاز والباك أب المتاح.",
+      "category": "Backups",
+      "subcategory": "Dreambox",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=dm-one-uhd"
+    },
+    {
+      "id": "site-28",
+      "title": "Dreambox DM920 UHD",
+      "description": "صفحة موديل الجهاز والباك أب المتاح.",
+      "category": "Backups",
+      "subcategory": "Dreambox",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=dm920-uhd"
+    },
+    {
+      "id": "site-29",
+      "title": "Dreambox DM900 UHD",
+      "description": "صفحة موديل الجهاز والباك أب المتاح.",
+      "category": "Backups",
+      "subcategory": "Dreambox",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=dm900-uhd"
+    },
+    {
+      "id": "site-30",
+      "title": "Dreambox DM7080 HD",
+      "description": "صفحة موديل الجهاز والباك أب المتاح.",
+      "category": "Backups",
+      "subcategory": "Dreambox",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=dm7080-hd"
+    },
+    {
+      "id": "site-31",
+      "title": "أجهزة Vu+",
+      "description": "موديلات Vu+ وملفات الباك أب المرتبطة بها.",
+      "category": "Backups",
+      "subcategory": "Vu+",
+      "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html"
+    },
+    {
+      "id": "site-32",
+      "title": "Vu+ Zero 4K",
+      "description": "صفحة موديل الجهاز والباك أب المتاح.",
+      "category": "Backups",
+      "subcategory": "Vu+",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=vu-zero-4k"
+    },
+    {
+      "id": "site-33",
+      "title": "Vu+ Uno 4K SE",
+      "description": "صفحة موديل الجهاز والباك أب المتاح.",
+      "category": "Backups",
+      "subcategory": "Vu+",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=vu-uno-4k-se"
+    },
+    {
+      "id": "site-34",
+      "title": "Vu+ Duo 4K SE",
+      "description": "صفحة موديل الجهاز والباك أب المتاح.",
+      "category": "Backups",
+      "subcategory": "Vu+",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=vu-duo-4k-se"
+    },
+    {
+      "id": "site-35",
+      "title": "Vu+ Ultimo 4K",
+      "description": "صفحة موديل الجهاز والباك أب المتاح.",
+      "category": "Backups",
+      "subcategory": "Vu+",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=vu-ultimo-4k"
+    },
+    {
+      "id": "site-36",
+      "title": "مكتبة النسخ الاحتياطية",
+      "description": "فهرس موديلات Dreambox وVu+ للنسخ الاحتياطية.",
+      "category": "Backups",
+      "subcategory": "Dreambox",
+      "url": "https://online4tech.github.io/online4Tech/backups/index.html"
+    },
+    {
+      "id": "site-37",
+      "title": "ملف القنوات",
+      "description": "شرح تنزيل وتثبيت قائمة القنوات.",
+      "category": "Moving Channel List",
+      "subcategory": "Moving Channel List",
+      "url": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html"
+    },
+    {
+      "id": "site-38",
+      "title": "تحميل ملفات القنوات",
+      "description": "مكتبة ملفات القنوات المتاحة على الموقع.",
+      "category": "Moving Channel List",
+      "subcategory": "Moving Channel List",
+      "url": "https://online4tech.github.io/online4Tech/downloads.html#channels"
+    },
+    {
+      "id": "site-39",
+      "title": "مركز الشروحات",
+      "description": "شروحات التشغيل والتثبيت والتحديث لأجهزة Enigma2.",
+      "category": "Tools",
+      "subcategory": "Related Tutorials",
+      "url": "https://online4tech.github.io/online4Tech/tutorials.html"
+    },
+    {
+      "id": "site-40",
+      "title": "Quick Install",
+      "description": "واجهة للوصول إلى أوامر تثبيت إضافات Enigma2.",
+      "category": "Commands",
+      "subcategory": "Install & Telnet",
+      "url": "https://online4tech.github.io/online4Tech/quick-install/"
+    },
+    {
+      "id": "site-41",
+      "title": "Installer Center",
+      "description": "مركز تثبيت إضافات Enigma2 من خلال واجهة Telnet.",
+      "category": "Commands",
+      "subcategory": "Install & Telnet",
+      "url": "https://online4tech.github.io/online4Tech/downloads/installer-center/"
+    },
+    {
+      "id": "site-42",
+      "title": "Plugin Library",
+      "description": "مكتبة إضافات Enigma2 مع البحث والتصنيفات.",
+      "category": "Plugins",
+      "subcategory": "Enigma2 Plugins",
+      "url": "https://online4tech.github.io/online4Tech/downloads/plugin-library/"
+    },
+    {
+      "id": "site-43",
+      "title": "صور Vu+ الخام",
+      "description": "مصادر صور أنظمة Enigma2 لأجهزة Vu+.",
+      "category": "Tools",
+      "subcategory": "System Tools",
+      "url": "https://online4tech.github.io/online4Tech/vuplus-images.html"
+    }
+  ]
+}
