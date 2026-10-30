@@ -30,7 +30,7 @@
     ['الرئيسية', 'index.html', ['index.html']],
     ['مكتبة التحميل', 'library.html', ['library.html', 'downloads.html', 'backups/']],
     ['المتجر', 'store/index.html', ['store/']],
-    ['الشروحات', 'tutorials.html', ['guides.html', 'guides/index.html', 'tutorials.html', 'tutorials/', 'plugins/', 'skins.html']],
+    ['الشروحات', 'tutorials.html', ['guides.html', 'guides/index.html', 'tutorials.html', 'tutorials/', 'plugins/', 'skins.html', 'AllBlugin.html']],
     ['خدماتنا', 'services.html', ['services.html']],
     ['صور Vu+', 'vuplus-images.html', ['vuplus-images.html']],
     ['Enigma2 Manager', 'enigma2-manager.html', ['enigma2-manager.html']],
