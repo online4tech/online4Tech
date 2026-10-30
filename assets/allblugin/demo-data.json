@@ -345,76 +345,72 @@
       "id": "backup",
       "label": "النسخ الاحتياطية",
       "icon": "💾",
-      "count": 21,
+      "count": 2,
       "subcategories": [
         {
           "id": "dreambox",
           "label": "Dreambox",
           "count": 5,
-          "items": [
-            "DM920 Backup",
-            "DM900 Backup",
-            "DM7080 Backup",
-            "Dreambox One",
-            "Dreambox Two"
+          "icon": "📦",
+          "subcategories": [
+            {
+              "id": "dm-one",
+              "label": "DM One",
+              "count": 0
+            },
+            {
+              "id": "dm-two",
+              "label": "DM Two",
+              "count": 0
+            },
+            {
+              "id": "dm920",
+              "label": "DM 920",
+              "count": 0
+            },
+            {
+              "id": "dm900",
+              "label": "DM 900",
+              "count": 0
+            },
+            {
+              "id": "dm525-520",
+              "label": "DM 525 / DM 520",
+              "count": 0
+            }
           ]
         },
         {
           "id": "vuplus",
           "label": "Vu+",
           "count": 5,
-          "items": [
-            "Vu+ Zero 4K",
-            "Vu+ Uno",
-            "Vu+ Solo",
-            "Vu+ Duo",
-            "Vu+ Ultimo"
-          ]
-        },
-        {
-          "id": "zgemma",
-          "label": "Zgemma",
-          "count": 3,
-          "items": [
-            "Zgemma H9",
-            "Zgemma H7",
-            "Zgemma H2H"
-          ]
-        },
-        {
-          "id": "octagon",
-          "label": "Octagon",
-          "count": 2,
-          "items": [
-            "Octagon SF8008",
-            "Octagon SX88"
-          ]
-        },
-        {
-          "id": "gigablue",
-          "label": "Gigablue",
-          "count": 2,
-          "items": [
-            "Gigablue UHD Trio",
-            "Gigablue UHD Quad"
-          ]
-        },
-        {
-          "id": "ab-pulse",
-          "label": "AB Pulse",
-          "count": 2,
-          "items": [
-            "AB Pulse 4K Backup",
-            "AB Pulse Mini"
-          ]
-        },
-        {
-          "id": "qviart",
-          "label": "Qviart",
-          "count": 2,
-          "items": [
-            "Qviart Lunix",
-            "Qviart OG2"
+          "icon": "📦",
+          "subcategories": [
+            {
+              "id": "vu-zero4k",
+              "label": "Vu+ Zero 4K",
+              "count": 0
+            },
+            {
+              "id": "vu-uno4kse",
+              "label": "Vu+ Uno 4K SE",
+              "count": 0
+            },
+            {
+              "id": "vu-duo4k",
+              "label": "Vu+ Duo 4K",
+              "count": 0
+            },
+            {
+              "id": "vu-ultimo4k",
+              "label": "Vu+ Ultimo 4K",
+              "count": 0
+            },
+            {
+              "id": "vu-solo4k",
+              "label": "Vu+ Solo 4K",
+              "count": 0
+            }
           ]
         }
       ]
@@ -2490,7 +2486,7 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "💾",
-      "subcategory": "dreambox"
+      "subcategory": "dm920"
     },
     {
       "id": 53,
@@ -2506,7 +2502,7 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "💾",
-      "subcategory": "dreambox"
+      "subcategory": "dm900"
     },
     {
       "id": 54,
@@ -2538,7 +2534,7 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "💾",
-      "subcategory": "dreambox"
+      "subcategory": "dm-one"
     },
     {
       "id": 60,
@@ -2554,7 +2550,7 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "💾",
-      "subcategory": "dreambox"
+      "subcategory": "dm-two"
     },
     {
       "id": 57,
@@ -2570,7 +2566,7 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "💾",
-      "subcategory": "vuplus"
+      "subcategory": "vu-zero4k"
     },
     {
       "id": 140,
