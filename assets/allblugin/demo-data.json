@@ -1,0 +1,1131 @@
+{
+  "version": "1.0.0-demo",
+  "notice": "بيانات تجريبية للعرض فقط. استبدل روابط التحميل والشرح والبيانات بروابط موثوقة قبل النشر النهائي.",
+  "categories": [
+    {
+      "id": "plugins",
+      "label": "البلجنات",
+      "count": 16,
+      "groups": [
+        {
+          "name": "IPTV",
+          "items": [
+            "Xtreamity",
+            "JediMakerXtream",
+            "XStreamity",
+            "IPTVPlayer"
+          ]
+        },
+        {
+          "name": "System",
+          "items": [
+            "EPGImport",
+            "CacheCleaner",
+            "AutoBackup",
+            "SoftwareManager"
+          ]
+        },
+        {
+          "name": "Media",
+          "items": [
+            "MediaPortal",
+            "KodiDirect",
+            "AudioSync",
+            "SubtitleEditor"
+          ]
+        },
+        {
+          "name": "Tools",
+          "items": [
+            "DreamOS Utility",
+            "Satellite Finder",
+            "Stream Tester",
+            "Service Manager"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commands",
+      "label": "الأوامر",
+      "count": 12,
+      "groups": [
+        {
+          "name": "النظام",
+          "items": [
+            "إعادة تشغيل Enigma2",
+            "تنظيف الكاش",
+            "إصلاح الصلاحيات",
+            "تحديث النظام"
+          ]
+        },
+        {
+          "name": "الشبكة",
+          "items": [
+            "إعادة تشغيل الشبكة",
+            "تحديث DNS",
+            "اختبار الاتصال",
+            "عرض IP"
+          ]
+        },
+        {
+          "name": "القنوات",
+          "items": [
+            "إعادة تحميل البوكية",
+            "تحديث قائمة القنوات",
+            "إعادة تشغيل الخدمة",
+            "مسح قواعد البيانات"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "label": "الأدوات",
+      "count": 8,
+      "groups": [
+        {
+          "name": "الشبكات",
+          "items": [
+            "Ping Test",
+            "Port Scanner",
+            "DNS Lookup",
+            "Network Monitor"
+          ]
+        },
+        {
+          "name": "النظام",
+          "items": [
+            "Log Viewer",
+            "Memory Viewer",
+            "Process Monitor",
+            "Storage Analyzer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skins",
+      "label": "السكينات",
+      "count": 6,
+      "groups": [
+        {
+          "name": "DreamOS",
+          "items": [
+            "MetrixHD",
+            "KravenHD",
+            "BlueLine"
+          ]
+        },
+        {
+          "name": "OpenATV",
+          "items": [
+            "ATV Blue",
+            "Dark Vision",
+            "Elegant Skin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "channels",
+      "label": "ملفات القنوات",
+      "count": 9,
+      "groups": [
+        {
+          "name": "نايل سات",
+          "items": [
+            "قائمة محدثة يومية",
+            "قائمة رياضية",
+            "قائمة أفلام"
+          ]
+        },
+        {
+          "name": "عرب سات",
+          "items": [
+            "قائمة كاملة",
+            "قائمة HD",
+            "قائمة الأطفال"
+          ]
+        },
+        {
+          "name": "متعددة الأقمار",
+          "items": [
+            "Motor List",
+            "Fixed Dish",
+            "Multi Satellite"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "backup",
+      "label": "النسخ الاحتياطية",
+      "count": 9,
+      "groups": [
+        {
+          "name": "DreamOS",
+          "items": [
+            "DM920 Backup",
+            "DM900 Backup",
+            "DM7080 Backup"
+          ]
+        },
+        {
+          "name": "OpenATV",
+          "items": [
+            "Octagon SF8008",
+            "Zgemma H9",
+            "Vu+ Zero 4K"
+          ]
+        },
+        {
+          "name": "OpenPLI",
+          "items": [
+            "Vu+ Uno",
+            "Dreambox One",
+            "Dreambox Two"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "updates",
+      "label": "التحديثات",
+      "count": 3,
+      "groups": [
+        {
+          "name": "2026",
+          "items": [
+            "تحديث أكتوبر",
+            "تحديث سبتمبر",
+            "تحديث أغسطس"
+          ]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Xtreamity",
+      "category": "plugins",
+      "group": "IPTV",
+      "description": "مشغل IPTV لعرض قوائم Xtream Codes على أجهزة Enigma2.",
+      "version": "Demo",
+      "date": "2026-10-28",
+      "downloads": 374,
+      "keywords": "Xtreamity IPTV البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 2,
+      "name": "JediMakerXtream",
+      "category": "plugins",
+      "group": "IPTV",
+      "description": "إنشاء وتنظيم قوائم IPTV وتحويل بيانات الخدمة إلى بوكيهات.",
+      "version": "Demo",
+      "date": "2026-10-27",
+      "downloads": 511,
+      "keywords": "JediMakerXtream IPTV البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 3,
+      "name": "XStreamity",
+      "category": "plugins",
+      "group": "IPTV",
+      "description": "واجهة لمشاهدة وإدارة محتوى IPTV على أجهزة Enigma2.",
+      "version": "Demo",
+      "date": "2026-10-26",
+      "downloads": 648,
+      "keywords": "XStreamity IPTV البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 4,
+      "name": "IPTVPlayer",
+      "category": "plugins",
+      "group": "IPTV",
+      "description": "إضافة للوصول إلى مصادر الفيديو عبر واجهة الجهاز.",
+      "version": "Demo",
+      "date": "2026-10-25",
+      "downloads": 785,
+      "keywords": "IPTVPlayer IPTV البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 5,
+      "name": "EPGImport",
+      "category": "plugins",
+      "group": "System",
+      "description": "استيراد بيانات دليل البرامج الإلكتروني وتنظيم مصادر EPG.",
+      "version": "Demo",
+      "date": "2026-10-24",
+      "downloads": 922,
+      "keywords": "EPGImport System البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 6,
+      "name": "CacheCleaner",
+      "category": "plugins",
+      "group": "System",
+      "description": "أداة لصيانة الملفات المؤقتة وتوفير مساحة التخزين.",
+      "version": "Demo",
+      "date": "2026-10-23",
+      "downloads": 1059,
+      "keywords": "CacheCleaner System البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 7,
+      "name": "AutoBackup",
+      "category": "plugins",
+      "group": "System",
+      "description": "إعداد نسخ احتياطية دورية لإعدادات وملفات الجهاز.",
+      "version": "Demo",
+      "date": "2026-10-22",
+      "downloads": 1196,
+      "keywords": "AutoBackup System البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 8,
+      "name": "SoftwareManager",
+      "category": "plugins",
+      "group": "System",
+      "description": "إدارة الحزم والبرامج المثبتة على نظام Enigma2.",
+      "version": "Demo",
+      "date": "2026-10-21",
+      "downloads": 1333,
+      "keywords": "SoftwareManager System البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 9,
+      "name": "MediaPortal",
+      "category": "plugins",
+      "group": "Media",
+      "description": "واجهة للوصول إلى مصادر ومكتبات الوسائط.",
+      "version": "Demo",
+      "date": "2026-10-20",
+      "downloads": 1470,
+      "keywords": "MediaPortal Media البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 10,
+      "name": "KodiDirect",
+      "category": "plugins",
+      "group": "Media",
+      "description": "تكامل وأدوات مساعدة لتشغيل محتوى الوسائط.",
+      "version": "Demo",
+      "date": "2026-10-19",
+      "downloads": 1607,
+      "keywords": "KodiDirect Media البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 11,
+      "name": "AudioSync",
+      "category": "plugins",
+      "group": "Media",
+      "description": "ضبط تزامن الصوت مع الصورة أثناء المشاهدة.",
+      "version": "Demo",
+      "date": "2026-10-18",
+      "downloads": 1744,
+      "keywords": "AudioSync Media البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 12,
+      "name": "SubtitleEditor",
+      "category": "plugins",
+      "group": "Media",
+      "description": "إدارة وضبط إعدادات ملفات الترجمة.",
+      "version": "Demo",
+      "date": "2026-10-17",
+      "downloads": 1881,
+      "keywords": "SubtitleEditor Media البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 13,
+      "name": "DreamOS Utility",
+      "category": "plugins",
+      "group": "Tools",
+      "description": "مجموعة أدوات مساعدة لإدارة أجهزة DreamOS.",
+      "version": "Demo",
+      "date": "2026-10-16",
+      "downloads": 2018,
+      "keywords": "DreamOS Utility Tools البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 14,
+      "name": "Satellite Finder",
+      "category": "plugins",
+      "group": "Tools",
+      "description": "مساعد لعرض بيانات الأقمار وضبط اتجاه الطبق.",
+      "version": "Demo",
+      "date": "2026-10-15",
+      "downloads": 2155,
+      "keywords": "Satellite Finder Tools البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 15,
+      "name": "Stream Tester",
+      "category": "plugins",
+      "group": "Tools",
+      "description": "اختبار حالة تدفق القنوات ومعلومات الاتصال.",
+      "version": "Demo",
+      "date": "2026-10-14",
+      "downloads": 2292,
+      "keywords": "Stream Tester Tools البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 16,
+      "name": "Service Manager",
+      "category": "plugins",
+      "group": "Tools",
+      "description": "إدارة الخدمات والقنوات المحفوظة على الجهاز.",
+      "version": "Demo",
+      "date": "2026-10-13",
+      "downloads": 2429,
+      "keywords": "Service Manager Tools البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🧩"
+    },
+    {
+      "id": 17,
+      "name": "إعادة تشغيل Enigma2",
+      "category": "commands",
+      "group": "النظام",
+      "description": "إعادة تشغيل واجهة Enigma2 دون إعادة تشغيل الجهاز بالكامل.",
+      "version": "Shell",
+      "date": "2026-10-12",
+      "downloads": 2566,
+      "keywords": "إعادة تشغيل Enigma2 النظام الأوامر",
+      "command": "systemctl restart enigma2",
+      "icon": "⌨️"
+    },
+    {
+      "id": 18,
+      "name": "تنظيف الكاش",
+      "category": "commands",
+      "group": "النظام",
+      "description": "أمر تمهيدي للمزامنة؛ تختلف خطوات تنظيف الكاش حسب صورة النظام.",
+      "version": "Shell",
+      "date": "2026-10-11",
+      "downloads": 2703,
+      "keywords": "تنظيف الكاش النظام الأوامر",
+      "command": "sync",
+      "icon": "⌨️"
+    },
+    {
+      "id": 19,
+      "name": "إصلاح الصلاحيات",
+      "category": "commands",
+      "group": "النظام",
+      "description": "مثال توضيحي فقط؛ لا تشغّله على مجلدات عامة قبل تحديد المسار الصحيح.",
+      "version": "Shell",
+      "date": "2026-10-10",
+      "downloads": 2840,
+      "keywords": "إصلاح الصلاحيات النظام الأوامر",
+      "command": "chmod -R 755 /usr/script",
+      "icon": "⌨️"
+    },
+    {
+      "id": 20,
+      "name": "تحديث النظام",
+      "category": "commands",
+      "group": "النظام",
+      "description": "تحديث قوائم الحزم ثم ترقية الحزم على الأنظمة المتوافقة.",
+      "version": "Shell",
+      "date": "2026-10-09",
+      "downloads": 177,
+      "keywords": "تحديث النظام النظام الأوامر",
+      "command": "opkg update && opkg upgrade",
+      "icon": "⌨️"
+    },
+    {
+      "id": 21,
+      "name": "إعادة تشغيل الشبكة",
+      "category": "commands",
+      "group": "الشبكة",
+      "description": "إعادة تشغيل خدمة الشبكة؛ قد ينقطع الاتصال مؤقتاً.",
+      "version": "Shell",
+      "date": "2026-10-08",
+      "downloads": 314,
+      "keywords": "إعادة تشغيل الشبكة الشبكة الأوامر",
+      "command": "systemctl restart networking",
+      "icon": "⌨️"
+    },
+    {
+      "id": 22,
+      "name": "تحديث DNS",
+      "category": "commands",
+      "group": "الشبكة",
+      "description": "إعادة تشغيل خدمة DNS على الأنظمة التي تستخدم systemd-resolved.",
+      "version": "Shell",
+      "date": "2026-10-07",
+      "downloads": 451,
+      "keywords": "تحديث DNS الشبكة الأوامر",
+      "command": "systemctl restart systemd-resolved",
+      "icon": "⌨️"
+    },
+    {
+      "id": 23,
+      "name": "اختبار الاتصال",
+      "category": "commands",
+      "group": "الشبكة",
+      "description": "اختبار الاتصال بعنوان خارجي عبر أربع محاولات.",
+      "version": "Shell",
+      "date": "2026-10-06",
+      "downloads": 588,
+      "keywords": "اختبار الاتصال الشبكة الأوامر",
+      "command": "ping -c 4 8.8.8.8",
+      "icon": "⌨️"
+    },
+    {
+      "id": 24,
+      "name": "عرض IP",
+      "category": "commands",
+      "group": "الشبكة",
+      "description": "عرض واجهات الشبكة وعناوين IP.",
+      "version": "Shell",
+      "date": "2026-10-05",
+      "downloads": 725,
+      "keywords": "عرض IP الشبكة الأوامر",
+      "command": "ip addr show",
+      "icon": "⌨️"
+    },
+    {
+      "id": 25,
+      "name": "إعادة تحميل البوكية",
+      "category": "commands",
+      "group": "القنوات",
+      "description": "مثال استعلام محلي؛ يتطلب واجهة OpenWebif مفعّلة.",
+      "version": "Shell",
+      "date": "2026-10-04",
+      "downloads": 862,
+      "keywords": "إعادة تحميل البوكية القنوات الأوامر",
+      "command": "wget -qO- http://127.0.0.1/web/getservices",
+      "icon": "⌨️"
+    },
+    {
+      "id": 26,
+      "name": "تحديث قائمة القنوات",
+      "category": "commands",
+      "group": "القنوات",
+      "description": "مثال رابط مستودع قائمة قنوات Online4Tech.",
+      "version": "Shell",
+      "date": "2026-10-30",
+      "downloads": 999,
+      "keywords": "تحديث قائمة القنوات القنوات الأوامر",
+      "command": "wget -O - https://raw.githubusercontent.com/online4tech/Enigma2-Chanal-List-BYRomeh/main/install-channels.sh | sh",
+      "icon": "⌨️"
+    },
+    {
+      "id": 27,
+      "name": "إعادة تشغيل الخدمة",
+      "category": "commands",
+      "group": "القنوات",
+      "description": "إعادة تشغيل واجهة Enigma2 لتطبيق التغييرات.",
+      "version": "Shell",
+      "date": "2026-10-29",
+      "downloads": 1136,
+      "keywords": "إعادة تشغيل الخدمة القنوات الأوامر",
+      "command": "systemctl restart enigma2",
+      "icon": "⌨️"
+    },
+    {
+      "id": 28,
+      "name": "مسح قواعد البيانات",
+      "category": "commands",
+      "group": "القنوات",
+      "description": "مثال صيانة SQLite؛ راجع مسارات النظام قبل الاستخدام.",
+      "version": "Shell",
+      "date": "2026-10-28",
+      "downloads": 1273,
+      "keywords": "مسح قواعد البيانات القنوات الأوامر",
+      "command": "sqlite3 /etc/enigma2/settings 'PRAGMA optimize;'",
+      "icon": "⌨️"
+    },
+    {
+      "id": 29,
+      "name": "Ping Test",
+      "category": "tools",
+      "group": "الشبكات",
+      "description": "اختبار الوصول إلى عنوان شبكة وقياس زمن الاستجابة.",
+      "version": "Demo",
+      "date": "2026-10-27",
+      "downloads": 1410,
+      "keywords": "Ping Test الشبكات الأدوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🛠️"
+    },
+    {
+      "id": 30,
+      "name": "Port Scanner",
+      "category": "tools",
+      "group": "الشبكات",
+      "description": "فحص منافذ جهاز داخل الشبكة المحلية لأغراض الإدارة.",
+      "version": "Demo",
+      "date": "2026-10-26",
+      "downloads": 1547,
+      "keywords": "Port Scanner الشبكات الأدوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🛠️"
+    },
+    {
+      "id": 31,
+      "name": "DNS Lookup",
+      "category": "tools",
+      "group": "الشبكات",
+      "description": "الاستعلام عن سجلات DNS لاسم نطاق.",
+      "version": "Demo",
+      "date": "2026-10-25",
+      "downloads": 1684,
+      "keywords": "DNS Lookup الشبكات الأدوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🛠️"
+    },
+    {
+      "id": 32,
+      "name": "Network Monitor",
+      "category": "tools",
+      "group": "الشبكات",
+      "description": "عرض مؤشرات اتصال الشبكة وحالتها.",
+      "version": "Demo",
+      "date": "2026-10-24",
+      "downloads": 1821,
+      "keywords": "Network Monitor الشبكات الأدوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🛠️"
+    },
+    {
+      "id": 33,
+      "name": "Log Viewer",
+      "category": "tools",
+      "group": "النظام",
+      "description": "استعراض سجلات النظام للمساعدة في تشخيص المشكلات.",
+      "version": "Demo",
+      "date": "2026-10-23",
+      "downloads": 1958,
+      "keywords": "Log Viewer النظام الأدوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🛠️"
+    },
+    {
+      "id": 34,
+      "name": "Memory Viewer",
+      "category": "tools",
+      "group": "النظام",
+      "description": "عرض معلومات استخدام الذاكرة.",
+      "version": "Demo",
+      "date": "2026-10-22",
+      "downloads": 2095,
+      "keywords": "Memory Viewer النظام الأدوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🛠️"
+    },
+    {
+      "id": 35,
+      "name": "Process Monitor",
+      "category": "tools",
+      "group": "النظام",
+      "description": "متابعة العمليات النشطة على الجهاز.",
+      "version": "Demo",
+      "date": "2026-10-21",
+      "downloads": 2232,
+      "keywords": "Process Monitor النظام الأدوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🛠️"
+    },
+    {
+      "id": 36,
+      "name": "Storage Analyzer",
+      "category": "tools",
+      "group": "النظام",
+      "description": "عرض استخدام مساحة التخزين والأقسام.",
+      "version": "Demo",
+      "date": "2026-10-20",
+      "downloads": 2369,
+      "keywords": "Storage Analyzer النظام الأدوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🛠️"
+    },
+    {
+      "id": 37,
+      "name": "MetrixHD",
+      "category": "skins",
+      "group": "DreamOS",
+      "description": "بيانات تجريبية لعنصر MetrixHD ضمن قسم DreamOS. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-19",
+      "downloads": 2506,
+      "keywords": "MetrixHD DreamOS السكينات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🎨"
+    },
+    {
+      "id": 38,
+      "name": "KravenHD",
+      "category": "skins",
+      "group": "DreamOS",
+      "description": "بيانات تجريبية لعنصر KravenHD ضمن قسم DreamOS. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-18",
+      "downloads": 2643,
+      "keywords": "KravenHD DreamOS السكينات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🎨"
+    },
+    {
+      "id": 39,
+      "name": "BlueLine",
+      "category": "skins",
+      "group": "DreamOS",
+      "description": "بيانات تجريبية لعنصر BlueLine ضمن قسم DreamOS. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-17",
+      "downloads": 2780,
+      "keywords": "BlueLine DreamOS السكينات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🎨"
+    },
+    {
+      "id": 40,
+      "name": "ATV Blue",
+      "category": "skins",
+      "group": "OpenATV",
+      "description": "بيانات تجريبية لعنصر ATV Blue ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-16",
+      "downloads": 117,
+      "keywords": "ATV Blue OpenATV السكينات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🎨"
+    },
+    {
+      "id": 41,
+      "name": "Dark Vision",
+      "category": "skins",
+      "group": "OpenATV",
+      "description": "بيانات تجريبية لعنصر Dark Vision ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-15",
+      "downloads": 254,
+      "keywords": "Dark Vision OpenATV السكينات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🎨"
+    },
+    {
+      "id": 42,
+      "name": "Elegant Skin",
+      "category": "skins",
+      "group": "OpenATV",
+      "description": "بيانات تجريبية لعنصر Elegant Skin ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-14",
+      "downloads": 391,
+      "keywords": "Elegant Skin OpenATV السكينات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🎨"
+    },
+    {
+      "id": 43,
+      "name": "قائمة محدثة يومية",
+      "category": "channels",
+      "group": "نايل سات",
+      "description": "بيانات تجريبية لعنصر قائمة محدثة يومية ضمن قسم نايل سات. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-13",
+      "downloads": 528,
+      "keywords": "قائمة محدثة يومية نايل سات ملفات القنوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "📺"
+    },
+    {
+      "id": 44,
+      "name": "قائمة رياضية",
+      "category": "channels",
+      "group": "نايل سات",
+      "description": "بيانات تجريبية لعنصر قائمة رياضية ضمن قسم نايل سات. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-12",
+      "downloads": 665,
+      "keywords": "قائمة رياضية نايل سات ملفات القنوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "📺"
+    },
+    {
+      "id": 45,
+      "name": "قائمة أفلام",
+      "category": "channels",
+      "group": "نايل سات",
+      "description": "بيانات تجريبية لعنصر قائمة أفلام ضمن قسم نايل سات. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-11",
+      "downloads": 802,
+      "keywords": "قائمة أفلام نايل سات ملفات القنوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "📺"
+    },
+    {
+      "id": 46,
+      "name": "قائمة كاملة",
+      "category": "channels",
+      "group": "عرب سات",
+      "description": "بيانات تجريبية لعنصر قائمة كاملة ضمن قسم عرب سات. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-10",
+      "downloads": 939,
+      "keywords": "قائمة كاملة عرب سات ملفات القنوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "📺"
+    },
+    {
+      "id": 47,
+      "name": "قائمة HD",
+      "category": "channels",
+      "group": "عرب سات",
+      "description": "بيانات تجريبية لعنصر قائمة HD ضمن قسم عرب سات. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-09",
+      "downloads": 1076,
+      "keywords": "قائمة HD عرب سات ملفات القنوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "📺"
+    },
+    {
+      "id": 48,
+      "name": "قائمة الأطفال",
+      "category": "channels",
+      "group": "عرب سات",
+      "description": "بيانات تجريبية لعنصر قائمة الأطفال ضمن قسم عرب سات. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-08",
+      "downloads": 1213,
+      "keywords": "قائمة الأطفال عرب سات ملفات القنوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "📺"
+    },
+    {
+      "id": 49,
+      "name": "Motor List",
+      "category": "channels",
+      "group": "متعددة الأقمار",
+      "description": "بيانات تجريبية لعنصر Motor List ضمن قسم متعددة الأقمار. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-07",
+      "downloads": 1350,
+      "keywords": "Motor List متعددة الأقمار ملفات القنوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "📺"
+    },
+    {
+      "id": 50,
+      "name": "Fixed Dish",
+      "category": "channels",
+      "group": "متعددة الأقمار",
+      "description": "بيانات تجريبية لعنصر Fixed Dish ضمن قسم متعددة الأقمار. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-06",
+      "downloads": 1487,
+      "keywords": "Fixed Dish متعددة الأقمار ملفات القنوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "📺"
+    },
+    {
+      "id": 51,
+      "name": "Multi Satellite",
+      "category": "channels",
+      "group": "متعددة الأقمار",
+      "description": "بيانات تجريبية لعنصر Multi Satellite ضمن قسم متعددة الأقمار. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-05",
+      "downloads": 1624,
+      "keywords": "Multi Satellite متعددة الأقمار ملفات القنوات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "📺"
+    },
+    {
+      "id": 52,
+      "name": "DM920 Backup",
+      "category": "backup",
+      "group": "DreamOS",
+      "description": "بيانات تجريبية لعنصر DM920 Backup ضمن قسم DreamOS. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-04",
+      "downloads": 1761,
+      "keywords": "DM920 Backup DreamOS النسخ الاحتياطية",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "💾"
+    },
+    {
+      "id": 53,
+      "name": "DM900 Backup",
+      "category": "backup",
+      "group": "DreamOS",
+      "description": "بيانات تجريبية لعنصر DM900 Backup ضمن قسم DreamOS. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-30",
+      "downloads": 1898,
+      "keywords": "DM900 Backup DreamOS النسخ الاحتياطية",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "💾"
+    },
+    {
+      "id": 54,
+      "name": "DM7080 Backup",
+      "category": "backup",
+      "group": "DreamOS",
+      "description": "بيانات تجريبية لعنصر DM7080 Backup ضمن قسم DreamOS. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-29",
+      "downloads": 2035,
+      "keywords": "DM7080 Backup DreamOS النسخ الاحتياطية",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "💾"
+    },
+    {
+      "id": 55,
+      "name": "Octagon SF8008",
+      "category": "backup",
+      "group": "OpenATV",
+      "description": "بيانات تجريبية لعنصر Octagon SF8008 ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-28",
+      "downloads": 2172,
+      "keywords": "Octagon SF8008 OpenATV النسخ الاحتياطية",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "💾"
+    },
+    {
+      "id": 56,
+      "name": "Zgemma H9",
+      "category": "backup",
+      "group": "OpenATV",
+      "description": "بيانات تجريبية لعنصر Zgemma H9 ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-27",
+      "downloads": 2309,
+      "keywords": "Zgemma H9 OpenATV النسخ الاحتياطية",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "💾"
+    },
+    {
+      "id": 57,
+      "name": "Vu+ Zero 4K",
+      "category": "backup",
+      "group": "OpenATV",
+      "description": "بيانات تجريبية لعنصر Vu+ Zero 4K ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-26",
+      "downloads": 2446,
+      "keywords": "Vu+ Zero 4K OpenATV النسخ الاحتياطية",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "💾"
+    },
+    {
+      "id": 58,
+      "name": "Vu+ Uno",
+      "category": "backup",
+      "group": "OpenPLI",
+      "description": "بيانات تجريبية لعنصر Vu+ Uno ضمن قسم OpenPLI. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-25",
+      "downloads": 2583,
+      "keywords": "Vu+ Uno OpenPLI النسخ الاحتياطية",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "💾"
+    },
+    {
+      "id": 59,
+      "name": "Dreambox One",
+      "category": "backup",
+      "group": "OpenPLI",
+      "description": "بيانات تجريبية لعنصر Dreambox One ضمن قسم OpenPLI. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-24",
+      "downloads": 2720,
+      "keywords": "Dreambox One OpenPLI النسخ الاحتياطية",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "💾"
+    },
+    {
+      "id": 60,
+      "name": "Dreambox Two",
+      "category": "backup",
+      "group": "OpenPLI",
+      "description": "بيانات تجريبية لعنصر Dreambox Two ضمن قسم OpenPLI. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "Demo",
+      "date": "2026-10-23",
+      "downloads": 2857,
+      "keywords": "Dreambox Two OpenPLI النسخ الاحتياطية",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "💾"
+    },
+    {
+      "id": 61,
+      "name": "تحديث أكتوبر",
+      "category": "updates",
+      "group": "2026",
+      "description": "بيانات تجريبية لعنصر تحديث أكتوبر ضمن قسم 2026. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "2026",
+      "date": "2026-10-22",
+      "downloads": 194,
+      "keywords": "تحديث أكتوبر 2026 التحديثات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🔄"
+    },
+    {
+      "id": 62,
+      "name": "تحديث سبتمبر",
+      "category": "updates",
+      "group": "2026",
+      "description": "بيانات تجريبية لعنصر تحديث سبتمبر ضمن قسم 2026. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "2026",
+      "date": "2026-10-21",
+      "downloads": 331,
+      "keywords": "تحديث سبتمبر 2026 التحديثات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🔄"
+    },
+    {
+      "id": 63,
+      "name": "تحديث أغسطس",
+      "category": "updates",
+      "group": "2026",
+      "description": "بيانات تجريبية لعنصر تحديث أغسطس ضمن قسم 2026. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
+      "version": "2026",
+      "date": "2026-10-20",
+      "downloads": 468,
+      "keywords": "تحديث أغسطس 2026 التحديثات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "#",
+      "icon": "🔄"
+    }
+  ]
+}
