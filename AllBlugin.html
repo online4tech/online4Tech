@@ -283,6 +283,65 @@ footer{display:block;flex:0 0 auto;flex-shrink:0;width:100%;margin-top:0;padding
  .workspace.has-detail{grid-template-rows:minmax(100px,20%) minmax(0,1fr) minmax(160px,30%)}
 }
 </style>
+
+<style id="online4tech-premium-glass-patch">
+/* ONLINE4TECH Premium Glassmorphism — CSS-only incremental enhancement */
+:where(.sidebar .category,.sidebar .toggle,.sidebar .sub button,
+       .items .item,.subcategory-row,.btn,.mini-copy,
+       .breadcrumb button,.middle-path button,
+       #detailModal .modal-close,.detail-actions a,.detail-actions button){
+  -webkit-backdrop-filter:blur(14px);
+  backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,.08);
+  box-shadow:0 4px 20px rgba(0,140,255,.12);
+  transition:all .25s ease;
+}
+:where(.sidebar .category:not(.active),.sidebar .toggle,
+       .sidebar .sub button:not(.selected),.items .item:not(.selected),
+       .subcategory-row:not(.active),.btn:not(.primary),.mini-copy,
+       .breadcrumb button,.middle-path button,
+       #detailModal .modal-close,.detail-actions a,.detail-actions button){
+  background-color:rgba(255,255,255,.04);
+}
+:where(.sidebar .category:hover,.sidebar .toggle:hover,
+       .sidebar .sub button:hover,.items .item:hover,
+       .subcategory-row:hover,.btn:hover:not(:disabled),
+       .mini-copy:hover,.breadcrumb button:hover,
+       .middle-path button:hover,#detailModal .modal-close:hover,
+       .detail-actions a:hover,.detail-actions button:hover:not(:disabled)){
+  box-shadow:0 8px 24px rgba(75,180,255,.22);
+  filter:brightness(1.07);
+  transform:translateY(-2px);
+}
+:where(.sidebar .category.active,.sidebar .sub button.selected,
+       .items .item.selected,.subcategory-row.active){
+  box-shadow:0 4px 20px rgba(0,140,255,.18),0 0 12px rgba(75,180,255,.12);
+}
+:where(.btn:disabled,.mini-copy:disabled,
+       #detailModal .modal-close:disabled,
+       .detail-actions button:disabled){
+  opacity:.45;
+  cursor:not-allowed;
+  filter:none;
+  transform:none;
+}
+:where(.detail-meta>div,.meta div){
+  -webkit-backdrop-filter:blur(14px);
+  backdrop-filter:blur(14px);
+  background-color:rgba(255,255,255,.04);
+  border-color:rgba(255,255,255,.08);
+  box-shadow:0 4px 20px rgba(0,140,255,.08);
+}
+@media(prefers-reduced-motion:reduce){
+  :where(.sidebar .category,.sidebar .toggle,.sidebar .sub button,
+         .items .item,.subcategory-row,.btn,.mini-copy,
+         .breadcrumb button,.middle-path button,
+         #detailModal .modal-close,.detail-actions a,.detail-actions button){
+    transition:none;
+  }
+}
+</style>
+
 </head><body><div class="shell"><header></header><section class="hero"><h1>مركز البلجنات والأدوات</h1><div class="global-search-bar"><input class="search" id="search" type="search" placeholder="ابحث في المستودع بالكامل..." aria-label="بحث شامل في جميع أقسام المستودع"></div><p>مكتبة ONLINE4TECH المنظمة لبلجنات وأدوات Enigma2 — اختار القسم والتصنيف للوصول للمحتوى بسهولة.</p><div class="page-crumb"><a href="index.html">الرئيسية</a><span>›</span><strong>مركز البلجنات والأدوات</strong></div><nav class="breadcrumb" id="breadcrumb" aria-label="مسار التنقل"><button type="button" data-crumb="home">الرئيسية</button></nav></section><main class="workspace">
 <aside class="panel sidebar"><div class="head">الأقسام <small>التصنيفات</small></div><nav class="nav" id="nav"><div class="empty">تحميل الأقسام...</div></nav></aside>
 <section class="panel center"><div class="middle-path" id="middlePath" aria-label="مسار التنقل داخل المستودع"><span>اختار قسم من العمود الجانبي</span></div><div class="toolbar"><select id="sort"><option value="default">الترتيب الافتراضي</option><option value="az">أبجدي</option><option value="downloads">الأكثر استخداماً</option></select></div><div class="section"><h2 id="title">اختار قسم</h2><span id="total"></span></div><div id="content"><div class="empty">اختار قسم من القائمة الجانبية.</div></div></section>
