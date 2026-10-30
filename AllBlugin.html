@@ -407,4 +407,63 @@ window.details=function(item){
  }
 })();
 </script>
+<script id="online4tech-backup-hierarchy">
+/* Backup-only three-level navigation: brand -> model -> backup item. */
+let online4techBackupBrand=null,online4techBackupModel=null;
+const online4techBackupModels=brand=>mainById("backup")?.subcategories.find(x=>x.id===brand)?.subcategories||[];
+const online4techBackupModelLabel=id=>online4techBackupModels(online4techBackupBrand).find(x=>x.id===id)?.label||"";
+const online4techBaseRenderContent=window.renderContent;
+const online4techBaseBreadcrumb=window.breadcrumb;
+window.renderContent=function(){
+ if(activeMain!=="backup"){online4techBaseRenderContent();return}
+ const category=mainById("backup");
+ if(!online4techBackupBrand){
+  $("title").textContent=category.label;$("total").textContent="2 علامة تجارية";
+  $("content").innerHTML=category.subcategories.map(b=>'<button class="subcategory-row" data-backup-brand="'+esc(b.id)+'"><span class="ico">📦</span><span class="sub-label">'+esc(b.label)+'</span><small>أجهزة ونسخ احتياطية</small><span>‹</span></button>').join("");
+  return;
+ }
+ const brand=category.subcategories.find(b=>b.id===online4techBackupBrand);
+ if(!online4techBackupModel){
+  $("title").textContent=brand.label;$("total").textContent=brand.subcategories.length+" موديل";
+  $("content").innerHTML=brand.subcategories.map(m=>'<button class="subcategory-row" data-backup-model="'+esc(m.id)+'"><span class="ico">📁</span><span class="sub-label">'+esc(m.label)+'</span><small>'+itemsFor("backup",m.id).length+' نسخة</small><span>‹</span></button>').join("");
+  return;
+ }
+ const model=online4techBackupModelLabel(online4techBackupModel);
+ const rows=itemsFor("backup",online4techBackupModel).filter(x=>[x.name,x.description,x.group,x.keywords,x.version].join(" ").toLocaleLowerCase("ar").includes(query.toLocaleLowerCase("ar")));
+ if(sort==="az")rows.sort((a,b)=>a.name.localeCompare(b.name,"ar"));
+ if(sort==="downloads")rows.sort((a,b)=>(b.downloads||0)-(a.downloads||0));
+ $("title").textContent=model;$("total").textContent=rows.length+" نسخة احتياطية";
+ $("content").innerHTML=rows.length?'<div class="group">'+esc(model)+'</div><div class="items">'+rows.map(x=>'<button class="item '+(selectedItem?.id===x.id?'selected':'')+'" data-id="'+x.id+'"><span class="ico">'+esc(x.icon||"💾")+'</span><span class="itemtext"><b>'+esc(x.name)+'</b><small>'+esc(shortDescription(x.description))+'</small></span><span>‹</span></button>').join("")+'</div>':'<div class="repo-empty">لا توجد نسخ احتياطية مسجلة لهذا الموديل حالياً.</div>';
+};
+window.breadcrumb=function(){
+ online4techBaseBreadcrumb();
+ if(activeMain!=="backup")return;
+ const brand=mainById("backup").subcategories.find(b=>b.id===online4techBackupBrand);
+ const parts=['<button type="button" data-crumb="home">الرئيسية</button>','<span class="sep">›</span><button type="button" data-backup-root>النسخ الاحتياطية</button>'];
+ if(brand)parts.push('<span class="sep">›</span><button type="button" data-backup-brand-crumb>'+esc(brand.label)+'</button>');
+ if(online4techBackupModel)parts.push('<span class="sep">›</span><span class="current">'+esc(online4techBackupModelLabel(online4techBackupModel))+'</span>');
+ if(selectedItem)parts.push('<span class="sep">›</span><span class="current">'+esc(selectedItem.name)+'</span>');
+ $("breadcrumb").innerHTML=parts.join("");
+ $("middlePath").innerHTML=parts.slice(2).join("");
+};
+$("content").addEventListener("click",e=>{
+ const brand=e.target.closest("[data-backup-brand]");
+ if(brand){e.stopImmediatePropagation();online4techBackupBrand=brand.dataset.backupBrand;online4techBackupModel=null;selectedItem=null;query="";$("search").value="";breadcrumb();renderContent();details(null);return}
+ const model=e.target.closest("[data-backup-model]");
+ if(model){e.stopImmediatePropagation();online4techBackupModel=model.dataset.backupModel;selectedItem=null;query="";$("search").value="";breadcrumb();renderContent();details(null);return}
+},true);
+$("nav").addEventListener("click",e=>{if(e.target.closest("[data-main]")){online4techBackupBrand=null;online4techBackupModel=null;}},true);
+$("breadcrumb").addEventListener("click",e=>{
+ if(e.target.closest("[data-backup-root]")){e.stopImmediatePropagation();online4techBackupBrand=null;online4techBackupModel=null;activeSub=null;selectedItem=null;query="";$("search").value="";breadcrumb();renderContent();details(null);return}
+ if(e.target.closest("[data-backup-brand-crumb]")){e.stopImmediatePropagation();online4techBackupModel=null;selectedItem=null;breadcrumb();renderContent();details(null);return}
+ if(e.target.closest('[data-crumb="home"]')){online4techBackupBrand=null;online4techBackupModel=null;}
+},true);
+$("middlePath").addEventListener("click",e=>{
+ if(e.target.closest("[data-backup-root]")){online4techBackupBrand=null;online4techBackupModel=null;selectedItem=null;breadcrumb();renderContent();details(null)}
+ else if(e.target.closest("[data-backup-brand-crumb]")){online4techBackupModel=null;selectedItem=null;breadcrumb();renderContent();details(null)}
+},true);
+const online4techOldChooseItem=window.chooseItem;
+window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="backup")breadcrumb()};
+</script>
+
 </body></html>
