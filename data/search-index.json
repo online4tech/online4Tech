@@ -667,6 +667,14 @@
     "status": "غير محدد"
   },
   {
+    "title": "All Plugin Center | Online4Tech",
+    "description": "مركز Online4Tech المستقل للبلجنات والأوامر والأدوات والسكينات وملفات Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
     "title": "ArabicSavior",
     "description": "أداة مساعدة عربية لـ Enigma2 من مستودع المطوّر.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=arabicsavior",
@@ -984,6 +992,14 @@
     "category": "إضافات",
     "brand": "Online4Tech",
     "type": "Plugin"
+  },
+  {
+    "title": "O4T ONLINE4TECHENIGMA2 RESOURCE CENTER",
+    "description": "مركز Online4Tech المستقل للبلجنات والأوامر والأدوات والسكينات وملفات Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/index.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Tools"
   },
   {
     "title": "OpenWebif",
@@ -4685,6 +4701,14 @@
     "url": "https://online4tech.github.io/online4Tech/about.html",
     "category": "معلومات",
     "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "كل أدواتك في مكان واحد",
+    "description": "مركز Online4Tech المستقل للبلجنات والأوامر والأدوات والسكينات وملفات Enigma2.",
+    "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
