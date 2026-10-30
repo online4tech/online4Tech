@@ -352,6 +352,94 @@
       "category": "Tools",
       "subcategory": "System Tools",
       "url": "https://online4tech.github.io/online4Tech/vuplus-images.html"
+    },
+    {
+      "id": "site-44",
+      "title": "Dreambox Plugins",
+      "description": "مكتبة موارد وإضافات أجهزة Dreambox المنشورة على ONLINE4TECH.",
+      "category": "Plugins",
+      "subcategory": "Dreambox Plugins",
+      "url": "https://online4tech.github.io/online4Tech/devices/dreambox.html"
+    },
+    {
+      "id": "site-45",
+      "title": "Dreambox One",
+      "description": "صفحة موارد ودعم موديل Dreambox One.",
+      "category": "Plugins",
+      "subcategory": "Dreambox One",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=dm-one-uhd"
+    },
+    {
+      "id": "site-46",
+      "title": "Dreambox Two",
+      "description": "صفحة موارد ودعم موديل Dreambox Two.",
+      "category": "Plugins",
+      "subcategory": "Dreambox Two",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=dm-two-uhd"
+    },
+    {
+      "id": "site-47",
+      "title": "DM920",
+      "description": "صفحة موارد ودعم موديل DM920.",
+      "category": "Plugins",
+      "subcategory": "DM920",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=dm920-uhd"
+    },
+    {
+      "id": "site-48",
+      "title": "DM900",
+      "description": "صفحة موارد ودعم موديل DM900.",
+      "category": "Plugins",
+      "subcategory": "DM900",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=dm900-uhd"
+    },
+    {
+      "id": "site-49",
+      "title": "DM7080",
+      "description": "صفحة موارد ودعم موديل DM7080.",
+      "category": "Plugins",
+      "subcategory": "DM7080",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=dm7080-hd"
+    },
+    {
+      "id": "site-50",
+      "title": "Vu+ Plugins",
+      "description": "موارد وإضافات أجهزة Vu+ المنشورة على ONLINE4TECH.",
+      "category": "Plugins",
+      "subcategory": "Vu+ Plugins",
+      "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html"
+    },
+    {
+      "id": "site-51",
+      "title": "Vu+ Uno",
+      "description": "صفحة موارد ودعم موديل Vu+ Uno.",
+      "category": "Plugins",
+      "subcategory": "Vu+ Uno",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=vu-uno-4k-se"
+    },
+    {
+      "id": "site-52",
+      "title": "Vu+ Duo",
+      "description": "صفحة موارد ودعم موديل Vu+ Duo.",
+      "category": "Plugins",
+      "subcategory": "Vu+ Duo",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=vu-duo-4k-se"
+    },
+    {
+      "id": "site-53",
+      "title": "Vu+ Zero",
+      "description": "صفحة موارد ودعم موديل Vu+ Zero.",
+      "category": "Plugins",
+      "subcategory": "Vu+ Zero",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=vu-zero-4k"
+    },
+    {
+      "id": "site-54",
+      "title": "Vu+ Ultimo",
+      "description": "صفحة موارد ودعم موديل Vu+ Ultimo.",
+      "category": "Plugins",
+      "subcategory": "Vu+ Ultimo",
+      "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=vu-ultimo-4k"
     }
   ]
 }
