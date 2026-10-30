@@ -986,12 +986,12 @@
     "type": "Plugin"
   },
   {
-    "title": "ONLINE4TECH | مركز البلجنات والأدوات",
-    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "title": "ONLINE4TECH | Plugin & Tools Center",
+    "description": "ONLINE4TECH Resource Center for Dreambox and Vu+ plugins, tools, backups, commands, and updates.",
     "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
     "category": "إضافات",
     "brand": "Online4Tech",
-    "type": "Plugin"
+    "type": "Tools"
   },
   {
     "title": "OpenWebif",
@@ -1013,7 +1013,7 @@
   },
   {
     "title": "Plugin & Tools Center",
-    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "description": "ONLINE4TECH Resource Center for Dreambox and Vu+ plugins, tools, backups, commands, and updates.",
     "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
     "category": "إضافات",
     "brand": "Online4Tech",
@@ -1353,11 +1353,11 @@
   },
   {
     "title": "الرئيسية",
-    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "description": "ONLINE4TECH Resource Center for Dreambox and Vu+ plugins, tools, backups, commands, and updates.",
     "url": "https://online4tech.github.io/online4Tech/index.html",
     "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
+    "brand": "Dreambox",
+    "type": "Backups"
   },
   {
     "title": "الرجوع إلى المكتبة الكاملة",
@@ -1481,11 +1481,11 @@
   },
   {
     "title": "عن الموقع",
-    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "description": "ONLINE4TECH Resource Center for Dreambox and Vu+ plugins, tools, backups, commands, and updates.",
     "url": "https://online4tech.github.io/online4Tech/about.html",
     "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
+    "brand": "Dreambox",
+    "type": "Backups"
   },
   {
     "title": "كل الإضافات",
@@ -1553,11 +1553,11 @@
   },
   {
     "title": "مكتبة التحميل",
-    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "description": "ONLINE4TECH Resource Center for Dreambox and Vu+ plugins, tools, backups, commands, and updates.",
     "url": "https://online4tech.github.io/online4Tech/library.html",
     "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
+    "brand": "Dreambox",
+    "type": "Backups"
   },
   {
     "title": "نسخ أوامر تثبيت البلجنات بسرعة",
@@ -4057,7 +4057,7 @@
   },
   {
     "title": "اختار قسم",
-    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "description": "ONLINE4TECH Resource Center for Dreambox and Vu+ plugins, tools, backups, commands, and updates.",
     "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
     "category": "معلومات",
     "brand": "Online4Tech",
