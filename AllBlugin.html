@@ -447,8 +447,6 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
   e.stopImmediatePropagation();selectedGroup=null;activeMain=null;activeSub=null;selectedItem=null;query="";$("search").value="";
   renderAll();
  },true);
- const search=$("search");
- search.addEventListener("input",()=>{if(query.trim()){selectedGroup=null;renderNav()}},true);
 })();
 </script>
 
