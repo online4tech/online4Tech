@@ -70,8 +70,24 @@
       const active = match.some(m => m.endsWith('/') ? current.startsWith(m) : current === m);
       return '<a href="' + target + '"' + (active ? ' aria-current="page"' : '') + '>' + label + '</a>';
     }).join('');
+    const groups = [
+      ['plugins','🧩 البلجنات'],
+      ['tools','🛠️ الأدوات والأوامر'],
+      ['appearance','🎨 السكينات والبيكونات'],
+      ['softcam','🔐 السوفت كام'],
+      ['files','💾 النسخ والقنوات']
+    ];
+    const menu = '<div class="o4t-sections-menu"><button class="o4t-sections-trigger" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="o4t-sections-dropdown">الأقسام <span aria-hidden="true">▼</span></button><div class="o4t-sections-dropdown" id="o4t-sections-dropdown" hidden>' + groups.map(([id,label]) => '<a href="' + root + 'AllBlugin.html#o4t-section=' + id + '" data-o4t-section="' + id + '">' + label + '</a>').join('') + '</div></div>';
     header.className = 'o4t-header';
-    header.innerHTML = '<div class="o4t-head-inner"><a class="o4t-brand" href="' + root + 'index.html" aria-label="Online4Tech - الرئيسية"><img src="' + root + 'assets/site-logo.svg" alt="Online4Tech"><span class="o4t-brand-slogan">خليك دايمًا أونلاين</span></a><nav class="o4t-nav" aria-label="القائمة الرئيسية">' + nav + '</nav></div>';
+    header.innerHTML = '<div class="o4t-head-inner"><a class="o4t-brand" href="' + root + 'index.html" aria-label="Online4Tech - الرئيسية"><img src="' + root + 'assets/site-logo.svg" alt="Online4Tech"><span class="o4t-brand-slogan">خليك دايمًا أونلاين</span></a><nav class="o4t-nav" aria-label="القائمة الرئيسية">' + nav + menu + '</nav></div>';
+    const wrap = header.querySelector('.o4t-sections-menu');
+    const trigger = wrap.querySelector('.o4t-sections-trigger');
+    const dropdown = wrap.querySelector('.o4t-sections-dropdown');
+    function closeMenu(){dropdown.hidden=true;trigger.setAttribute('aria-expanded','false')}
+    trigger.addEventListener('click',function(){const open=dropdown.hidden;dropdown.hidden=!open;trigger.setAttribute('aria-expanded',String(open))});
+    document.addEventListener('click',function(e){if(!wrap.contains(e.target))closeMenu()});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeMenu();trigger.focus()}});
+    dropdown.addEventListener('click',function(e){if(e.target.closest('a'))closeMenu()});
   }
 
   if (document.readyState === 'loading') {
