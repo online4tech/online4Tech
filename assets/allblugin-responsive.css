@@ -68,3 +68,33 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
  .detail-meta{grid-template-columns:repeat(2,minmax(0,1fr))}
  .site-foot{width:calc(100% - 18px)}
 }
+/* Desktop application-style viewport: only the center content scrolls. */
+@media(min-width:1025px){
+ html,body{height:100%;min-height:0;overflow:hidden}
+ body{height:100vh;height:100dvh;display:grid;grid-template-rows:minmax(0,1fr) auto;overflow:hidden}
+ .shell{height:100%;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+ .shell>header.o4t-header{flex:0 0 auto}
+ .hero{flex:0 0 auto;padding-top:14px;padding-bottom:10px}
+ .workspace,.workspace:not(.has-detail){flex:1 1 auto;min-height:0;max-height:none;overflow:hidden;align-items:stretch;padding-bottom:10px}
+ .workspace>.panel{height:100%;min-height:0;max-height:100%;overflow:hidden}
+ .sidebar{display:flex;flex-direction:column}
+ .sidebar .head{flex:0 0 auto}
+ .sidebar .nav{flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-gutter:stable}
+ .center{display:flex;flex-direction:column;min-height:0;overflow:hidden}
+ .center>.middle-path,.center>.toolbar,.center>.section{flex:0 0 auto}
+ #content{flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-gutter:stable}
+ .detail{display:flex;flex-direction:column}
+ .detail>.head{flex:0 0 auto}
+ .detailbody{flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;gap:8px;padding:9px}
+ .detail-visual{height:94px;flex:0 0 94px}
+ .detail .bigico{width:56px;height:56px}
+ .detail-meta,.meta{gap:5px}
+ .detail-meta>div,.meta div{padding:6px}
+ .detail-actions{gap:5px}
+ .detail-actions .btn{min-height:34px;padding:6px 8px}
+ .install-command-box{margin-top:0;padding:8px}
+ .install-command-row{align-items:flex-start}
+ .install-command-row code{white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word}
+ footer{margin:0;padding:8px 0;flex:0 0 auto}
+ .site-foot{width:95%}
+}
