@@ -492,4 +492,83 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
  window.addEventListener("hashchange",openRequestedSection);
 })();
 </script>
+
+<script id="o4t-internal-browser-history">
+(function(){
+ "use strict";
+ const $id=id=>document.getElementById(id);
+ let restoring=false, queued=false;
+ const watched="#nav, #content, #breadcrumb, #middlePath";
+ function snapshot(){
+  return {
+   activeMain:typeof activeMain!=="undefined"?activeMain:null,
+   activeSub:typeof activeSub!=="undefined"?activeSub:null,
+   selectedItemId:typeof selectedItem!=="undefined"&&selectedItem?String(selectedItem.id):null,
+   query:typeof query!=="undefined"?query:"",
+   sort:typeof sort!=="undefined"?sort:"default",
+   backupBrand:typeof online4techBackupBrand!=="undefined"?online4techBackupBrand:null,
+   backupModel:typeof online4techBackupModel!=="undefined"?online4techBackupModel:null,
+   group:(document.querySelector("[data-visual-group].active")||{}).dataset?.visualGroup||null,
+   nav:$id("nav")?.innerHTML||"",
+   content:$id("content")?.innerHTML||"",
+   breadcrumb:$id("breadcrumb")?.innerHTML||"",
+   middlePath:$id("middlePath")?.innerHTML||"",
+   title:$id("title")?.textContent||"",
+   total:$id("total")?.textContent||"",
+   detail:$id("detailPanel")?.innerHTML||"",
+   detailHidden:$id("detailPanel")?.hidden!==false,
+   hasDetail:document.querySelector(".workspace")?.classList.contains("has-detail")||false
+  };
+ }
+ function saveCurrent(){
+  if(restoring)return;
+  history.pushState(snapshot(),"","#"+(location.hash.replace(/^#/,"")||"o4t-view"));
+ }
+ function restore(s){
+  if(!s)return;
+  restoring=true;
+  try{
+   const currentGroup=document.querySelector("[data-visual-group].active")?.dataset.visualGroup||null;
+   if(s.group&&s.group!==currentGroup){
+    document.querySelector('[data-visual-group="'+s.group+'"]')?.click();
+   }else if(!s.group&&currentGroup){
+    document.querySelector('[data-crumb="home"]')?.click();
+   }
+   if(typeof activeMain!=="undefined")activeMain=s.activeMain;
+   if(typeof activeSub!=="undefined")activeSub=s.activeSub;
+   if(typeof query!=="undefined")query=s.query;
+   if(typeof sort!=="undefined")sort=s.sort;
+   if(typeof online4techBackupBrand!=="undefined")online4techBackupBrand=s.backupBrand;
+   if(typeof online4techBackupModel!=="undefined")online4techBackupModel=s.backupModel;
+   if(typeof selectedItem!=="undefined")selectedItem=s.selectedItemId&&typeof db!=="undefined"?db.items.find(x=>String(x.id)===s.selectedItemId)||null:null;
+   if($id("search"))$id("search").value=s.query||"";
+   if($id("sort"))$id("sort").value=s.sort||"default";
+   $id("nav").innerHTML=s.nav;
+   $id("content").innerHTML=s.content;
+   $id("breadcrumb").innerHTML=s.breadcrumb;
+   $id("middlePath").innerHTML=s.middlePath;
+   $id("title").textContent=s.title;
+   $id("total").textContent=s.total;
+   $id("detailPanel").innerHTML=s.detail;
+   $id("detailPanel").hidden=s.detailHidden;
+   document.querySelector(".workspace")?.classList.toggle("has-detail",!!s.hasDetail);
+  }finally{restoring=false}
+ }
+ document.addEventListener("click",function(e){
+  if(restoring||!e.target.closest(watched))return;
+  if(queued)return;
+  queued=true;
+  setTimeout(function(){queued=false;if(!restoring)saveCurrent()},0);
+ },false);
+ window.addEventListener("popstate",function(e){if(e.state&&e.state.o4tHistory){restore(e.state.view)}});
+ function initialize(){
+  const current=snapshot();
+  current.o4tHistory=true;
+  history.replaceState({o4tHistory:true,view:current},"",location.href);
+ }
+ if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",initialize,{once:true});
+ else initialize();
+})();
+</script>
+
 </body></html>
