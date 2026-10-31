@@ -359,4 +359,97 @@ const online4techOldChooseItem=window.chooseItem;
 window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="backup")breadcrumb()};
 </script>
 
+
+<script id="online4tech-original-navigation-groups">
+/* Visual-only navigation groups. The original JSON, IDs, items and renderers remain the source of truth. */
+(function(){
+ const groups=[
+  {id:"plugins",label:"🧩 البلجنات"},
+  {id:"appearance",label:"🎨 المظهر والتخصيص"},
+  {id:"softcam",label:"🔐 السوفت كام"},
+  {id:"tools",label:"🛠️ التولز"},
+  {id:"files",label:"💾 الملفات والنسخ الاحتياطية"}
+ ];
+ let selectedGroup=null;
+ const originalRenderNav=window.renderNav;
+ const originalRenderContent=window.renderContent;
+ const originalBreadcrumb=window.breadcrumb;
+ const escGroup=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+ function groupForState(){
+  if(activeMain==="skins")return "appearance";
+  if(activeMain==="plugins"&&activeSub==="picons")return "appearance";
+  if(activeMain==="plugins"&&activeSub==="softcam")return "softcam";
+  if(activeMain==="tools"||activeMain==="commands")return "tools";
+  if(activeMain==="channels"||activeMain==="backup")return "files";
+  if(activeMain==="plugins")return "plugins";
+  return selectedGroup;
+ }
+ function renderGroupedNav(){
+  const active=groupForState();
+  $("nav").innerHTML=groups.map(g=>'<div class="category o4t-nav-group '+(active===g.id?'active':'')+'"><button class="toggle" type="button" data-visual-group="'+g.id+'" aria-pressed="'+(active===g.id)+'"><span class="category-icon">'+g.label.split(" ")[0]+'</span><b class="catname">'+escGroup(g.label.replace(/^\S+\s*/,""))+'</b><span class="group-chevron">‹</span></button></div>').join("");
+ }
+ function tile(label,icon,main,sub){
+  return '<button type="button" class="subcategory-row o4t-nav-tile" data-nav-tile="1" data-nav-main="'+main+'" '+(sub?'data-nav-sub="'+sub+'"':'')+'><span class="ico">'+icon+'</span><span class="sub-label">'+label+'</span><span class="tile-arrow">‹</span></button>';
+ }
+ function renderGroupLanding(){
+  let title="",tiles="";
+  if(selectedGroup==="appearance"){
+   title="المظهر والتخصيص";
+   tiles=tile("السكينات","🎨","skins","")+tile("البيكونات","🖼","plugins","picons");
+  }else if(selectedGroup==="tools"){
+   title="التولز";
+   tiles=tile("الأدوات","🛠️","tools","")+tile("الأوامر","⌨️","commands","");
+  }else if(selectedGroup==="files"){
+   title="الملفات والنسخ الاحتياطية";
+   tiles=tile("ملفات القنوات","📺","channels","")+tile("النسخ الاحتياطية","💾","backup","");
+  }else{return false}
+  $("title").textContent=title;
+  $("total").textContent="";
+  $("content").innerHTML='<div class="o4t-nav-landing"><div class="o4t-nav-landing-intro"><span>ONLINE4TECH CONTROL CENTER</span><b>اختار القسم المطلوب</b><small>تنظيم أسرع للوصول للمحتوى مع الحفاظ على كل التصنيفات والبيانات الأصلية.</small></div><div class="o4t-nav-tiles">'+tiles+'</div></div>';
+  return true;
+ }
+ window.renderNav=renderGroupedNav;
+ window.renderContent=function(){
+  if(query&&query.trim()){originalRenderContent();return}
+  if(selectedGroup&&renderGroupLanding())return;
+  originalRenderContent();
+ };
+ window.breadcrumb=function(){
+  if(selectedGroup&&!activeMain){
+   $("breadcrumb").innerHTML='<button type="button" data-crumb="home">الرئيسية</button><span class="sep">›</span><span class="current">'+escGroup(groups.find(g=>g.id===selectedGroup)?.label||"")+'</span>';
+   $("middlePath").innerHTML='<span class="current">'+escGroup(groups.find(g=>g.id===selectedGroup)?.label||"")+'</span>';
+   return;
+  }
+  originalBreadcrumb();
+ };
+ $("nav").addEventListener("click",e=>{
+  const b=e.target.closest("[data-visual-group]");
+  if(!b)return;
+  e.preventDefault();e.stopImmediatePropagation();
+  const id=b.dataset.visualGroup;
+  selectedGroup=null;
+  if(id==="plugins"){chooseMain("plugins");return}
+  if(id==="softcam"){chooseSub("plugins","softcam");return}
+  activeMain=null;activeSub=null;selectedItem=null;query="";$("search").value="";
+  selectedGroup=id;
+  renderNav();breadcrumb();renderContent();details(null);
+ },true);
+ $("content").addEventListener("click",e=>{
+  const b=e.target.closest("[data-nav-tile]");
+  if(!b)return;
+  e.preventDefault();e.stopImmediatePropagation();
+  selectedGroup=null;
+  if(b.dataset.navSub)chooseSub(b.dataset.navMain,b.dataset.navSub);
+  else chooseMain(b.dataset.navMain);
+ },true);
+ $("breadcrumb").addEventListener("click",e=>{
+  if(!selectedGroup||!e.target.closest('[data-crumb="home"]'))return;
+  e.stopImmediatePropagation();selectedGroup=null;activeMain=null;activeSub=null;selectedItem=null;query="";$("search").value="";
+  renderAll();
+ },true);
+ const search=$("search");
+ search.addEventListener("input",()=>{if(query.trim()){selectedGroup=null;renderNav()}},true);
+})();
+</script>
+
 </body></html>
