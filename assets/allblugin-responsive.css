@@ -161,10 +161,6 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
 .sidebar .o4t-nav-group .group-chevron{margin-inline-start:auto;color:#8ebce8;font-size:23px;line-height:1;transition:transform .2s}
 .sidebar .o4t-nav-group.active .group-chevron{transform:rotate(180deg)}
 .o4t-nav-landing{padding:4px 0 16px}
-.o4t-nav-landing-intro{margin:10px 14px 14px;padding:15px 17px;border:1px solid rgba(96,165,250,.16);border-radius:13px;background:linear-gradient(120deg,rgba(40,105,165,.13),rgba(20,45,70,.18))}
-.o4t-nav-landing-intro span{display:block;color:#65c9e9;font:10px/1.5 Consolas,monospace;letter-spacing:1.2px}
-.o4t-nav-landing-intro b{display:block;margin-top:4px;font-size:17px}
-.o4t-nav-landing-intro small{display:block;margin-top:3px;color:#91a9c0;font-size:12px;line-height:1.7}
 .o4t-nav-tiles{display:flex;flex-direction:column;gap:9px;padding:12px 14px}
 .o4t-nav-tiles .o4t-nav-tile{height:72px;min-height:72px;flex:0 0 72px;margin:0;padding:10px 12px;border-radius:13px;background:linear-gradient(145deg,rgba(22,48,76,.92),rgba(10,27,48,.96));border:1px solid rgba(64,111,157,.58);box-shadow:inset 0 1px 0 rgba(255,255,255,.055),0 5px 13px rgba(0,0,0,.16)}
 .o4t-nav-tiles .o4t-nav-tile .ico{width:36px;height:36px;flex:0 0 36px;border-radius:10px}
@@ -182,8 +178,7 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
  .o4t-nav-tiles{display:flex;flex-direction:column;gap:8px;padding:10px 9px}
  .o4t-nav-tiles .o4t-nav-tile{height:58px;min-height:58px;flex-basis:58px;padding:8px 10px;border-radius:12px}
  .o4t-nav-tiles .o4t-nav-tile .ico{width:32px;height:32px;flex-basis:32px}
- .o4t-nav-landing-intro{margin-inline:9px}
-}
+ }
 @media(max-width:480px){
  .sidebar .nav{grid-template-columns:minmax(0,1fr)}
  .sidebar .o4t-nav-group .toggle{min-height:48px}
