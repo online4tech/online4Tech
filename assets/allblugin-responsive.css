@@ -211,6 +211,37 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
 .center>.section[hidden]{display:none!important}
 
 
+
+
+/* FINAL LAYOUT REFINEMENT — alignment and desktop space allocation only */
+@media(min-width:1025px){
+  :root{--o4t-app-width:min(1680px,calc(100% - 48px))}
+  .shell>header.o4t-header .o4t-head-inner{
+    width:var(--o4t-app-width)!important;max-width:1680px!important;
+    margin-inline:auto!important;padding:13px 10px 10px!important;
+    box-sizing:border-box!important
+  }
+  .hero{
+    width:var(--o4t-app-width)!important;max-width:1680px!important;
+    margin-inline:auto!important;padding-inline:10px!important;
+    box-sizing:border-box!important
+  }
+  .global-search-bar{width:min(100%,920px);max-width:920px;margin-inline:auto}
+  .breadcrumb{width:var(--o4t-app-width)!important;max-width:1680px!important;margin-inline:auto!important;padding-inline:10px!important;box-sizing:border-box!important}
+  .workspace,.workspace:not(.has-detail){
+    width:var(--o4t-app-width)!important;max-width:1680px!important;
+    margin-inline:auto!important;box-sizing:border-box!important
+  }
+  .workspace.has-detail{grid-template-columns:minmax(0,19fr) minmax(0,66fr) minmax(0,15fr)!important}
+  .workspace:not(.has-detail){grid-template-columns:minmax(0,22fr) minmax(0,78fr)!important}
+  .workspace.has-detail{gap:10px!important}
+  .workspace.has-detail>.sidebar{min-width:0}
+  .workspace.has-detail>.center{min-width:0}
+  .workspace.has-detail>.detail{min-width:0}
+  .sidebar .nav{padding-inline:10px!important;gap:9px!important}
+  #content{padding-inline:18px!important}
+}
+
 /* FINAL DESKTOP REFINEMENT — AllBlugin Control Center.
    Deliberately scoped to desktop only; tablet and mobile rules above remain untouched. */
 @media(min-width:1025px){
