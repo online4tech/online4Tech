@@ -115,6 +115,7 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
  footer{margin:0;padding:8px 0;flex:0 0 auto}
  .site-foot{width:95%}
 
+ #sort option[value="downloads"]{display:none}
  /* Desktop-only visual balance: preserve existing palette, glass and component layout. */
  body::before{
   content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
