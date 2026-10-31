@@ -196,6 +196,34 @@ footer a:hover{color:var(--blue)}
 @media(max-width:480px){.detail-actions{grid-template-columns:minmax(0,1fr)}}
 </style>
 
+<style id="o4t-glass-detail-actions">
+/* Button-only refinement: preserve the panel and page dimensions. */
+.detail-actions{display:flex!important;flex-direction:column!important;gap:10px!important;width:100%}
+.detail-actions>.btn{
+ width:100%!important;min-height:54px!important;padding:13px 16px!important;
+ display:flex!important;align-items:center!important;justify-content:center!important;gap:11px!important;
+ border:1px solid rgba(130,190,255,.42)!important;border-radius:13px!important;
+ background:linear-gradient(120deg,rgba(38,83,125,.58),rgba(18,39,66,.72))!important;
+ color:#f3f8ff!important;font-size:15px!important;font-weight:800!important;letter-spacing:.1px;
+ line-height:1.45!important;text-align:center!important;text-decoration:none!important;
+ -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+ box-shadow:inset 0 1px 0 rgba(255,255,255,.14),0 5px 16px rgba(0,0,0,.2),0 0 13px rgba(62,157,255,.13)!important;
+ transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease,filter .18s ease!important
+}
+.detail-actions>.btn.primary{
+ background:linear-gradient(115deg,rgba(16,145,218,.88),rgba(22,190,194,.82))!important;
+ border-color:rgba(106,226,255,.75)!important;color:#fff!important;
+ box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 0 20px rgba(20,174,220,.28)!important
+}
+.detail-actions>.btn:hover:not(:disabled){
+ transform:translateY(-2px)!important;border-color:rgba(119,208,255,.85)!important;
+ filter:brightness(1.12);box-shadow:inset 0 1px 0 rgba(255,255,255,.2),0 8px 22px rgba(0,0,0,.25),0 0 20px rgba(62,170,255,.26)!important
+}
+.detail-actions>.btn:disabled{opacity:.48!important}
+.detail-actions .detail-action-logo{width:25px;height:25px;flex:0 0 25px;object-fit:contain;border-radius:6px;padding:2px;background:rgba(255,255,255,.92);box-shadow:0 0 10px rgba(100,180,255,.22)}
+.detail-actions .forum-logo{border-radius:50%}
+.detail-actions .install-copy.is-copied{background:linear-gradient(120deg,rgba(22,135,91,.9),rgba(26,174,128,.8))!important;border-color:rgba(88,235,174,.7)!important}
+</style>
 <style id="o4t-single-column-sections">
 /* All sections and their nested entries are displayed as one vertical list. */
 .sidebar .nav{display:flex!important;flex-direction:column!important;align-items:stretch!important}
@@ -310,7 +338,7 @@ function details(x){
  (x.description?'<p class="detail-description">'+esc(x.description)+'</p>':'')+
  commandBox+
  (meta?'<div class="detail-meta">'+meta+'</div>':'')+
- '<div class="detail-actions">'+action(download,"⬇ تحميل مباشر",!!download,true)+action(repo,"🐙 المستودع",!!repo,false)+action(forum,"💬 موضوع تونسيا سات",!!forum,false)+(installCommand?'<button class="btn install-copy" type="button" data-copy-install="'+esc(installCommand)+'">📋 نسخ الأمر</button>':'<button class="btn" type="button" disabled>📋 نسخ الأمر</button>')+'</div>';
+ '<div class="detail-actions">'+action(download,"⬇ تحميل مباشر",!!download,true)+action(repo,'<img class="detail-action-logo" src="assets/site-logo.svg" alt=""> مستودع GitHub',!!repo,false)+action(forum,'<img class="detail-action-logo forum-logo" src="https://tunisia-sat.com/favicon.ico" alt=""> موضوع في تونسيا سات',!!forum,false)+(installCommand?'<button class="btn install-copy" type="button" data-copy-install="'+esc(installCommand)+'">📋 نسخ الأمر</button>':'<button class="btn" type="button" disabled>📋 نسخ الأمر</button>')+'</div>';
  targets.forEach(el=>el.innerHTML=markup);
 }
 function renderAll(){renderNav();breadcrumb();renderContent();details(selectedItem)}
