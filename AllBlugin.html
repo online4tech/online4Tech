@@ -241,20 +241,21 @@ function details(x){
  panel.hidden=false;
  if(!x){targets.forEach(el=>el.innerHTML=detailPlaceholder());return}
  const m=mainById(x.category),sub=subById(m,x.subcategory),icon=categoryIcon(x,m);
- const iconValue=firstValue(x,["icon"]);const iconAsImage=/^(https?:\/\/|\/|\.{1,2}\/)/i.test(String(iconValue||""));const image=safeLink(firstValue(x,["image","thumbnail","iconUrl","imageUrl"])||(iconAsImage?iconValue:""));
+ const iconValue=firstValue(x,["icon"]);const iconText=String(iconValue||"");const iconAsImage=iconText.startsWith("http://")||iconText.startsWith("https://")||iconText.startsWith("/")||iconText.startsWith("./")||iconText.startsWith("../");const image=safeLink(firstValue(x,["image","thumbnail","iconUrl","imageUrl"])||(iconAsImage?iconValue:""));
  const installCommand=String(firstValue(x,["installCommand","command","telnetCommand","opkgCommand"])||"").trim();
  const download=safeLink(firstValue(x,["downloadUrl","ipk","zip","rar","tar","tar.gz","7z","deb","directLink"]));
  const repo=safeLink(firstValue(x,["github","repository","repoUrl"]));
  const forum=safeLink(firstValue(x,["forumUrl","topicUrl","tunisiaSatUrl"]));
- const metadata=[["الإصدار",x.version],["الكاتب",x.author],["التاريخ",x.date],["مرات التحميل",x.downloads],["التوافق",x.compatibility],["المجموعة",x.group],["التصنيف",x.categoryLabel||m?.label],["الكلمات المفتاحية",x.keywords]];
- const meta=metadata.filter(([k,v])=>v!==undefined&&v!==null&&String(v).trim()!=="").map(([k,v])=>'<div><small>'+k+'</small><b>'+esc(typeof v==="number"&&k==="مرات التحميل"?v.toLocaleString("en-US"):v)+'</b></div>').join("");
+ const metadata=[["الإصدار",x.version],["التاريخ",x.date],["التوافق",x.compatibility],["التصنيف",x.categoryLabel||m?.label],["الكلمات المفتاحية",x.keywords]];
+ const meta=metadata.filter(([k,v])=>v!==undefined&&v!==null&&String(v).trim()!=="").map(([k,v])=>'<div><small>'+k+'</small><b>'+esc(v)+'</b></div>').join("");
  const action=(url,label,enabled,primary)=>enabled?'<a class="btn '+(primary?'primary':'')+'" href="'+esc(url)+'" target="_blank" rel="noopener">'+label+'</a>':'<button class="btn '+(primary?'primary':'')+'" type="button" disabled>'+label+'</button>';
+ const commandBox=installCommand?'<section class="install-command-box"><div class="install-command-heading">أمر التنفيذ</div><div class="install-command-row"><code>'+esc(installCommand)+'</code></div><button class="mini-copy" type="button" data-copy-install="'+esc(installCommand)+'" aria-label="نسخ الأمر">نسخ الأمر</button></section>':'';
  const markup=(image?'<div class="detail-visual"><img src="'+esc(image)+'" alt="'+esc(x.name)+'" loading="lazy"></div>':'<div class="detail-visual"><span class="fallback">'+esc(icon)+'</span></div>')+
  '<h3 class="detail-title">'+esc(x.name)+'</h3><span class="type">'+esc(m?.label||"")+" · "+esc(sub?.label||"")+'</span>'+
  (x.description?'<p class="detail-description">'+esc(x.description)+'</p>':'')+
+ commandBox+
  (meta?'<div class="detail-meta">'+meta+'</div>':'')+
- '<div class="detail-actions">'+(installCommand?'<button class="btn install-copy" type="button" data-copy-install="'+esc(installCommand)+'">📋 نسخ أمر التثبيت</button>':'<button class="btn" type="button" disabled>📋 نسخ أمر التثبيت</button>')+action(download,"⬇ تحميل مباشر",!!download,true)+action(repo,"🐙 المستودع",!!repo,false)+action(forum,"💬 موضوع تونسيا سات",!!forum,false)+'</div>'+
- (installCommand?'<div class="install-command-box"><div class="install-command-heading">أمر التثبيت</div><div class="install-command-row"><code>'+esc(installCommand)+'</code><button class="mini-copy" type="button" data-copy-install="'+esc(installCommand)+'" aria-label="نسخ أمر التثبيت">نسخ</button></div></div>':'');
+ '<div class="detail-actions">'+action(download,"⬇ تحميل مباشر",!!download,true)+action(repo,"🐙 المستودع",!!repo,false)+action(forum,"💬 موضوع تونسيا سات",!!forum,false)+(installCommand?'<button class="btn install-copy" type="button" data-copy-install="'+esc(installCommand)+'">📋 نسخ الأمر</button>':'<button class="btn" type="button" disabled>📋 نسخ الأمر</button>')+'</div>';
  targets.forEach(el=>el.innerHTML=markup);
 }
 function renderAll(){renderNav();breadcrumb();renderContent();details(selectedItem)}
