@@ -383,10 +383,9 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
   const g=groups.find(x=>x.id===selectedGroup);if(!g)return;
   const entries=[];
   g.entries.forEach(e=>{
-   if(e.type==="main"){
+   if(e.type==="main"&&e.exclude){
     const c=getMain(e.id);if(!c)return;
-    (c.subcategories||[]).filter(s=>!(e.exclude||[]).includes(s.id)).forEach(s=>entries.push({type:"sub",main:c.id,id:s.id,label:s.label.replace(/^\p{Extended_Pictographic}\s*/u,""),icon:(s.label.match(/^\p{Extended_Pictographic}/u)||[])[0]||"📁"}));
-    if(!(c.subcategories||[]).length)entries.push({type:"main",id:c.id,label:c.label,icon:c.icon||"📁"});
+    (c.subcategories||[]).filter(s=>!e.exclude.includes(s.id)).forEach(s=>entries.push({type:"sub",main:c.id,id:s.id,label:s.label.replace(/^\\p{Extended_Pictographic}\\s*/u,""),icon:(s.label.match(/^\\p{Extended_Pictographic}/u)||[])[0]||"📁"}));
    }else{
     const v=entryLabel(e);if(v)entries.push({...e,...v});
    }
