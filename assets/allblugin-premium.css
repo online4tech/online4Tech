@@ -204,3 +204,24 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
  .premium-tile-label{flex:1;font-weight:bold}
  .premium-tile-arrow{color:var(--blue);font-size:22px}
 }
+
+
+/* Premium sidebar naming refinement — uniform card geometry and typography. */
+@media(min-width:769px){
+ .sidebar .category:has([data-premium-group]){height:76px;min-height:76px}
+ .sidebar .category:has([data-premium-group]) .toggle{height:100%;min-height:0;padding:12px 14px;gap:12px}
+ .sidebar .category:has([data-premium-group]) .category-icon{width:42px;height:42px;min-width:42px;flex:0 0 42px}
+ .sidebar .category:has([data-premium-group]) .catname{flex:1;min-width:0;font-size:16px!important;font-weight:800;line-height:1.35;white-space:nowrap;letter-spacing:0}
+}
+@media(min-width:769px) and (max-width:1024px){
+ .sidebar .category:has([data-premium-group]){height:68px;min-height:68px}
+ .sidebar .category:has([data-premium-group]) .toggle{height:100%;min-height:0;padding:9px 11px;gap:9px}
+ .sidebar .category:has([data-premium-group]) .category-icon{width:36px;height:36px;min-width:36px;flex-basis:36px}
+ .sidebar .category:has([data-premium-group]) .catname{font-size:14px!important}
+}
+@media(max-width:768px){
+ .sidebar .category:has([data-premium-group]){height:58px;min-height:58px}
+ .sidebar .category:has([data-premium-group]) .toggle{height:100%;min-height:0;padding:8px 10px;gap:8px}
+ .sidebar .category:has([data-premium-group]) .category-icon{width:32px;height:32px;min-width:32px;flex-basis:32px}
+ .sidebar .category:has([data-premium-group]) .catname{font-size:13px!important}
+}
