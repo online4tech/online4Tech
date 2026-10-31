@@ -453,4 +453,24 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
 })();
 </script>
 
+
+<script id="o4t-header-section-deep-link">
+(function(){
+ "use strict";
+ function openRequestedSection(){
+  const match=location.hash.match(/^#o4t-section=(plugins|tools|appearance|softcam|files)$/);
+  if(!match)return;
+  const id=match[1];
+  const selector='[data-visual-group="'+id+'"]';
+  const button=document.querySelector(selector);
+  if(!button)return;
+  button.click();
+  const target=document.querySelector(".center")||document.querySelector(".workspace");
+  if(target)target.scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth",block:"start"});
+ }
+ if(document.readyState==="complete")openRequestedSection();
+ else window.addEventListener("load",openRequestedSection,{once:true});
+ window.addEventListener("hashchange",openRequestedSection);
+})();
+</script>
 </body></html>
