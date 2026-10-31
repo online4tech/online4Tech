@@ -365,10 +365,10 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
  "use strict";
  const groups=[
   {id:"plugins",label:"البلجنات",icon:"🧩",entries:[{type:"main",id:"plugins",exclude:["softcam","skins","picons"]}]},
-  {id:"appearance",label:"المظهر والتخصيص",icon:"🎨",entries:[{type:"main",id:"skins"},{type:"sub",main:"plugins",id:"skins"},{type:"sub",main:"plugins",id:"picons"}]},
+  {id:"tools",label:"الأدوات والأوامر",icon:"🛠️",entries:[{type:"main",id:"tools"},{type:"main",id:"commands"}]},
+  {id:"appearance",label:"السكينات والبيكونات",icon:"🎨",entries:[{type:"main",id:"skins"},{type:"sub",main:"plugins",id:"skins"},{type:"sub",main:"plugins",id:"picons"}]},
   {id:"softcam",label:"السوفت كام",icon:"🔐",entries:[{type:"sub",main:"plugins",id:"softcam"}]},
-  {id:"tools",label:"التولز",icon:"🛠️",entries:[{type:"main",id:"tools"},{type:"main",id:"commands"}]},
-  {id:"files",label:"الملفات والنسخ الاحتياطية",icon:"💾",entries:[{type:"main",id:"channels"},{type:"main",id:"backup"}]}
+  {id:"files",label:"النسخ والقنوات",icon:"💾",entries:[{type:"main",id:"channels"},{type:"main",id:"backup"}]}
  ];
  let selectedGroup=null;
  const baseRenderNav=window.renderNav;
