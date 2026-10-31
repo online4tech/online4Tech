@@ -184,3 +184,23 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
  .sidebar .o4t-nav-group .toggle{min-height:48px}
  .o4t-nav-tiles .o4t-nav-tile{min-height:62px}
 }
+
+
+/* Sidebar naming refinement — exact labels, ordered groups and uniform category cards. */
+.sidebar .o4t-nav-group{height:72px;min-height:72px;flex:0 0 72px}
+.sidebar .o4t-nav-group .toggle{height:100%;min-height:0;padding:10px 12px;gap:10px;align-items:center}
+.sidebar .o4t-nav-group .category-icon{width:36px;height:36px;min-width:36px;flex:0 0 36px}
+.sidebar .o4t-nav-group .catname{flex:1;min-width:0;font-size:15px!important;font-weight:800;line-height:1.35;white-space:nowrap;letter-spacing:0}
+.sidebar .o4t-nav-group .group-chevron{width:14px;flex:0 0 14px;text-align:center}
+@media(min-width:769px) and (max-width:1024px){
+ .sidebar .o4t-nav-group{height:68px;min-height:68px;flex-basis:68px}
+ .sidebar .o4t-nav-group .toggle{height:100%;min-height:0;padding:9px 10px;gap:8px}
+ .sidebar .o4t-nav-group .category-icon{width:34px;height:34px;min-width:34px;flex-basis:34px}
+ .sidebar .o4t-nav-group .catname{font-size:14px!important}
+}
+@media(max-width:768px){
+ .sidebar .o4t-nav-group{height:58px;min-height:58px;flex-basis:58px}
+ .sidebar .o4t-nav-group .toggle{height:100%;min-height:0;padding:8px 10px;gap:8px}
+ .sidebar .o4t-nav-group .category-icon{width:32px;height:32px;min-width:32px;flex-basis:32px}
+ .sidebar .o4t-nav-group .catname{font-size:13px!important}
+}
