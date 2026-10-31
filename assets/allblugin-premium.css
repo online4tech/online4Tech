@@ -182,3 +182,25 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
  .sidebar .category{transition:none!important}
  .sidebar .category:hover{transform:none}
 }
+
+
+/* Premium five-group navigation and center-column category tiles */
+@media(min-width:769px){
+ .sidebar .nav{gap:12px;padding:14px}
+ .sidebar .category{min-height:76px}
+ .sidebar .toggle{min-height:74px}
+ .sidebar .toggle .count{display:none}
+ .premium-nav-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:13px;padding:16px}
+ .premium-nav-tile{position:relative;display:flex;align-items:center;gap:13px;min-height:82px;width:100%;padding:15px 16px;text-align:right;color:var(--txt);border:1px solid rgba(64,111,157,.58);border-radius:16px;background:linear-gradient(145deg,rgba(22,48,76,.92),rgba(10,27,48,.96));box-shadow:inset 0 1px 0 rgba(255,255,255,.055),0 5px 13px rgba(0,0,0,.16);transition:transform .2s,border-color .2s,box-shadow .2s,background .2s}
+ .premium-nav-tile:hover{transform:translateY(-2px);border-color:rgba(73,166,235,.88);background:linear-gradient(145deg,rgba(25,57,91,.98),rgba(12,34,59,.98));box-shadow:0 9px 20px rgba(0,0,0,.25),0 0 15px rgba(41,164,238,.13)}
+ .premium-tile-icon{display:grid;place-items:center;width:44px;height:44px;flex:0 0 44px;border:1px solid rgba(94,174,235,.32);border-radius:13px;background:linear-gradient(145deg,rgba(35,91,139,.42),rgba(10,32,56,.76));font-size:23px}
+ .premium-tile-label{flex:1;font-size:15px;font-weight:800;line-height:1.5}
+ .premium-tile-arrow{color:#79c7ff;font-size:23px;opacity:.8}
+}
+@media(max-width:768px){
+ .premium-nav-grid{display:grid;grid-template-columns:1fr;gap:9px;padding:10px}
+ .premium-nav-tile{display:flex;align-items:center;gap:11px;min-height:62px;width:100%;padding:10px 12px;text-align:right;color:var(--txt);border:1px solid #26364e;border-radius:12px;background:#0b1728}
+ .premium-tile-icon{width:38px;height:38px;flex:0 0 38px;display:grid;place-items:center;border-radius:10px;background:#1b344a;font-size:21px}
+ .premium-tile-label{flex:1;font-weight:bold}
+ .premium-tile-arrow{color:var(--blue);font-size:22px}
+}
