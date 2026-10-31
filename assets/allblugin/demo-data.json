@@ -832,15 +832,18 @@
       "category": "plugins",
       "group": "📡 إضافات IPTV",
       "description": "واجهة لمشاهدة وإدارة محتوى IPTV على أجهزة Enigma2.",
-      "version": "Demo",
-      "date": "2026-10-26",
+      "version": "5.72",
+      "date": "2026-10-24",
       "downloads": 648,
       "keywords": "XStreamity IPTV البلجنات",
       "downloadUrl": "#",
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "iptv"
+      "subcategory": "iptv",
+      "command": "wget https://raw.githubusercontent.com/biko-73/xstreamity/main/installer.sh -O - | /bin/sh",
+      "repoUrl": "https://github.com/kiddac/XStreamity",
+      "compatibility": "متوافق مع معظم صور وأجهزة Enigma2؛ راجع متطلبات Python والتبعيات حسب الصورة"
     },
     {
       "id": 4,
