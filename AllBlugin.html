@@ -522,7 +522,7 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
  }
  function saveCurrent(){
   if(restoring)return;
-  history.pushState(snapshot(),"","#"+(location.hash.replace(/^#/,"")||"o4t-view"));
+  history.pushState({o4tHistory:true,view:snapshot()},"",location.pathname+location.search+"#o4t-view");
  }
  function restore(s){
   if(!s)return;
