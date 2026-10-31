@@ -209,14 +209,14 @@ function renderSubs(m){
  $("content").innerHTML=m.subcategories.length?m.subcategories.map(sub=>'<button class="subcategory-row" data-open-sub="'+esc(sub.id)+'"><span class="ico">📁</span><span class="sub-label">'+esc(sub.label)+'</span><small>'+Number(sub.count||0).toLocaleString("en-US")+' عنصر</small><span>‹</span></button>').join(""):'<div class="repo-empty">القسم ده لسه مفيهوش تصنيفات.</div>';
 }
 function renderItems(){
- document.querySelector(".center .section").hidden=false;
+ document.querySelector(".center .section").hidden=true;
  const m=mainById(activeMain),sub=subById(m,activeSub);
  if(!m||!sub){$("content").innerHTML='<div class="repo-empty">اختار تصنيف لعرض العناصر.</div>';return}
  let arr=itemsFor(activeMain,activeSub).filter(x=>[x.name,x.description,x.group,x.keywords,x.version].join(" ").toLocaleLowerCase("ar").includes(query.toLocaleLowerCase("ar")));
  if(sort==="az")arr.sort((a,b)=>a.name.localeCompare(b.name,"ar"));
  if(sort==="downloads")arr.sort((a,b)=>(b.downloads||0)-(a.downloads||0));
- $("title").textContent=sub.label;$("total").textContent=arr.length+" / "+Number(sub.count||0)+" عنصر";
- $("content").innerHTML=arr.length?'<div class="group">'+esc(sub.label)+'</div><div class="items">'+arr.map(x=>'<button class="item '+(selectedItem?.id===x.id?'selected':'')+'" data-id="'+x.id+'"><span class="ico">'+esc(x.icon||icons[x.category]||"🔧")+'</span><span class="itemtext"><b>'+esc(x.name)+'</b><small>'+esc(shortDescription(x.description))+'</small></span><span>‹</span></button>').join("")+'</div>':'<div class="repo-empty">لا توجد عناصر مطابقة داخل التصنيف ده.</div>';
+ $("title").textContent="";$("total").textContent="";
+ $("content").innerHTML=arr.length?'<div class="items">'+arr.map(x=>'<button class="item '+(selectedItem?.id===x.id?'selected':'')+'" data-id="'+x.id+'"><span class="ico">'+esc(x.icon||icons[x.category]||"🔧")+'</span><span class="itemtext"><b>'+esc(x.name)+'</b><small>'+esc(shortDescription(x.description))+'</small></span><span>‹</span></button>').join("")+'</div>':'<div class="repo-empty">لا توجد عناصر مطابقة داخل التصنيف ده.</div>';
 }
 function globalSearch(){
  document.querySelector(".center .section").hidden=false;
