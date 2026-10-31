@@ -204,10 +204,12 @@ function renderMiddlePath(){
  p.innerHTML=html;
 }
 function renderSubs(m){
- $("title").textContent=m.label;$("total").textContent=m.subcategories.length+" تصنيف";
+ document.querySelector(".center .section").hidden=true;
+ $("title").textContent="";$("total").textContent=m.subcategories.length+" تصنيف";
  $("content").innerHTML=m.subcategories.length?m.subcategories.map(sub=>'<button class="subcategory-row" data-open-sub="'+esc(sub.id)+'"><span class="ico">📁</span><span class="sub-label">'+esc(sub.label)+'</span><small>'+Number(sub.count||0).toLocaleString("en-US")+' عنصر</small><span>‹</span></button>').join(""):'<div class="repo-empty">القسم ده لسه مفيهوش تصنيفات.</div>';
 }
 function renderItems(){
+ document.querySelector(".center .section").hidden=false;
  const m=mainById(activeMain),sub=subById(m,activeSub);
  if(!m||!sub){$("content").innerHTML='<div class="repo-empty">اختار تصنيف لعرض العناصر.</div>';return}
  let arr=itemsFor(activeMain,activeSub).filter(x=>[x.name,x.description,x.group,x.keywords,x.version].join(" ").toLocaleLowerCase("ar").includes(query.toLocaleLowerCase("ar")));
@@ -217,6 +219,7 @@ function renderItems(){
  $("content").innerHTML=arr.length?'<div class="group">'+esc(sub.label)+'</div><div class="items">'+arr.map(x=>'<button class="item '+(selectedItem?.id===x.id?'selected':'')+'" data-id="'+x.id+'"><span class="ico">'+esc(x.icon||icons[x.category]||"🔧")+'</span><span class="itemtext"><b>'+esc(x.name)+'</b><small>'+esc(shortDescription(x.description))+'</small></span><span>‹</span></button>').join("")+'</div>':'<div class="repo-empty">لا توجد عناصر مطابقة داخل التصنيف ده.</div>';
 }
 function globalSearch(){
+ document.querySelector(".center .section").hidden=false;
  let q=query.toLocaleLowerCase("ar"),ms=db.categories.filter(m=>m.label.toLocaleLowerCase("ar").includes(q)),ss=db.categories.flatMap(m=>m.subcategories.filter(sub=>sub.label.toLocaleLowerCase("ar").includes(q)).map(sub=>({m,sub}))),ii=db.items.filter(x=>Object.values(x).join(" ").toLocaleLowerCase("ar").includes(q));
  $("title").textContent="نتائج البحث";$("total").textContent=(ms.length+ss.length+ii.length)+" نتيجة";let out="";
  if(ms.length)out+='<div class="search-results"><div class="search-heading">الأقسام الرئيسية</div>'+ms.map(m=>'<button class="subcategory-row" data-search-main="'+m.id+'"><span class="ico">'+esc(m.icon||icons[m.id])+'</span><span class="sub-label">'+esc(m.label)+'</span><small>'+m.count+' عنصر</small></button>').join("")+'</div>';
@@ -226,7 +229,7 @@ function globalSearch(){
 }
 function renderContent(){
  if(query.trim())return globalSearch();
- if(!activeMain){$("title").textContent="مستودع ONLINE4TECH";$("total").textContent="";$("content").innerHTML='<div class="repo-empty">اختار قسم من العمود الجانبي لعرض التصنيفات.</div>';return}
+ if(!activeMain){document.querySelector(".center .section").hidden=false;$("title").textContent="مستودع ONLINE4TECH";$("total").textContent="";$("content").innerHTML='<div class="repo-empty">اختار قسم من العمود الجانبي لعرض التصنيفات.</div>';return}
  if(!activeSub)return renderSubs(mainById(activeMain));
  renderItems();
 }
