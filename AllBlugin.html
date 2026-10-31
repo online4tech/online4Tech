@@ -177,7 +177,7 @@ footer a:hover{color:var(--blue)}
 
 </head><body><div class="shell"><header></header><section class="hero"><h1>مركز البلجنات والأدوات</h1><div class="global-search-bar"><input class="search" id="search" type="search" placeholder="ابحث في المستودع بالكامل..." aria-label="بحث شامل في جميع أقسام المستودع"></div><p>مكتبة ONLINE4TECH المنظمة لبلجنات وأدوات Enigma2 — اختار القسم والتصنيف للوصول للمحتوى بسهولة.</p><div class="page-crumb"><a href="index.html">الرئيسية</a><span>›</span><strong>مركز البلجنات والأدوات</strong></div><nav class="breadcrumb" id="breadcrumb" aria-label="مسار التنقل"><button type="button" data-crumb="home">الرئيسية</button></nav></section><main class="workspace">
 <aside class="panel sidebar"><div class="head">الأقسام <small>التصنيفات</small></div><nav class="nav" id="nav"><div class="empty">تحميل الأقسام...</div></nav></aside>
-<section class="panel center"><div class="middle-path" id="middlePath" aria-label="مسار التنقل داخل المستودع"><span>اختار قسم من العمود الجانبي</span></div><div class="toolbar"><select id="sort"><option value="default">الترتيب الافتراضي</option><option value="az">أبجدي</option><option value="downloads">الأكثر استخداماً</option></select></div><div class="section"><h2 id="title">اختار قسم</h2><span id="total"></span></div><div id="content"><div class="empty">اختار قسم من القائمة الجانبية.</div></div></section>
+<section class="panel center"><div class="middle-path" id="middlePath" aria-label="مسار التنقل داخل المستودع"><span>اختار قسم من العمود الجانبي</span></div><div class="toolbar"><select id="sort"><option value="default">الترتيب الافتراضي</option><option value="az">أبجدي</option></select></div><div class="section"><h2 id="title">اختار قسم</h2><span id="total"></span></div><div id="content"><div class="empty">اختار قسم من القائمة الجانبية.</div></div></section>
 <aside class="panel detail" id="detailPanel" hidden><div class="head">تفاصيل العنصر <small>DETAILS</small></div><div class="detailbody" id="detail"><div class="detail-placeholder"><span class="placeholder-icon">✦</span><span>اضغط على أي عنصر لعرض بياناته هنا</span></div></div></aside></main></div><div id="detailModal" aria-hidden="true"><section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-head"><span id="modalTitle">تفاصيل العنصر</span><button class="modal-close" type="button" id="closeDetail">إغلاق ✕</button></div><div class="modal-body" id="modalDetail"></div></section></div><footer><div class="site-foot"><span>© Online4Tech — التقنية أسهل</span><span><a href="library.html">مكتبة التحميل</a> · <a href="about.html">عن الموقع</a> · <a href="https://www.facebook.com/ahmad.m.romeh/" target="_blank" rel="noopener">Facebook</a> · <a href="https://m.me/ahmad.m.romeh/" target="_blank" rel="noopener">Messenger</a></span></div></footer>
 <script>
 const DATA_URL="assets/allblugin/demo-data.json",icons={plugins:"🧩",commands:"💻",tools:"🔧",backup:"💾",channels:"📺",skins:"🎨",updates:"🔄"};
@@ -185,7 +185,7 @@ let db,activeMain=null,activeSub=null,selectedItem=null,query="",sort="default",
 const $=id=>document.getElementById(id),esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const mainById=id=>db.categories.find(x=>x.id===id),subById=(m,id)=>m?.subcategories.find(x=>x.id===id),itemsFor=(m,s)=>db.items.filter(x=>x.category===m&&x.subcategory===s);
 function renderNav(){
- $("nav").innerHTML=db.categories.map(c=>'<div class="category '+(activeMain===c.id?'active':'')+'"><button class="toggle" type="button" data-main="'+esc(c.id)+'" aria-pressed="'+(activeMain===c.id)+'"><span class="category-icon">'+esc(c.icon||icons[c.id]||"📁")+'</span><b class="catname">'+esc(c.label)+'</b><span class="count">'+Number(c.count||0).toLocaleString("en-US")+'</span></button></div>').join("");
+ $("nav").innerHTML=db.categories.map(c=>'<div class="category '+(activeMain===c.id?'active':'')+'"><button class="toggle" type="button" data-main="'+esc(c.id)+'" aria-pressed="'+(activeMain===c.id)+'"><span class="category-icon">'+esc(c.icon||icons[c.id]||"📁")+'</span><b class="catname">'+esc(c.label)+'</b></button></div>').join("");
 }
 function breadcrumb(){
  let p=['<button type="button" data-crumb="home">الرئيسية</button>'];
@@ -205,7 +205,7 @@ function renderMiddlePath(){
 }
 function renderSubs(m){
  $("title").textContent=m.label;$("total").textContent=m.subcategories.length+" تصنيف";
- $("content").innerHTML=m.subcategories.length?m.subcategories.map(sub=>'<button class="subcategory-row" data-open-sub="'+esc(sub.id)+'"><span class="ico">📁</span><span class="sub-label">'+esc(sub.label)+'</span><small>'+Number(sub.count||0).toLocaleString("en-US")+' عنصر</small><span>‹</span></button>').join(""):'<div class="repo-empty">القسم ده لسه مفيهوش تصنيفات.</div>';
+ $("content").innerHTML=m.subcategories.length?m.subcategories.map(sub=>'<button class="subcategory-row" data-open-sub="'+esc(sub.id)+'"><span class="ico">📁</span><span class="sub-label">'+esc(sub.label)+'</span><span>‹</span></button>').join(""):'<div class="repo-empty">القسم ده لسه مفيهوش تصنيفات.</div>';
 }
 function renderItems(){
  const m=mainById(activeMain),sub=subById(m,activeSub);
@@ -219,7 +219,7 @@ function renderItems(){
 function globalSearch(){
  let q=query.toLocaleLowerCase("ar"),ms=db.categories.filter(m=>m.label.toLocaleLowerCase("ar").includes(q)),ss=db.categories.flatMap(m=>m.subcategories.filter(sub=>sub.label.toLocaleLowerCase("ar").includes(q)).map(sub=>({m,sub}))),ii=db.items.filter(x=>Object.values(x).join(" ").toLocaleLowerCase("ar").includes(q));
  $("title").textContent="نتائج البحث";$("total").textContent=(ms.length+ss.length+ii.length)+" نتيجة";let out="";
- if(ms.length)out+='<div class="search-results"><div class="search-heading">الأقسام الرئيسية</div>'+ms.map(m=>'<button class="subcategory-row" data-search-main="'+m.id+'"><span class="ico">'+esc(m.icon||icons[m.id])+'</span><span class="sub-label">'+esc(m.label)+'</span><small>'+m.count+' عنصر</small></button>').join("")+'</div>';
+ if(ms.length)out+='<div class="search-results"><div class="search-heading">الأقسام الرئيسية</div>'+ms.map(m=>'<button class="subcategory-row" data-search-main="'+m.id+'"><span class="ico">'+esc(m.icon||icons[m.id])+'</span><span class="sub-label">'+esc(m.label)+'</span></button>').join("")+'</div>';
  if(ss.length)out+='<div class="search-results"><div class="search-heading">التصنيفات الفرعية</div>'+ss.map(o=>'<button class="subcategory-row" data-search-main="'+o.m.id+'" data-search-sub="'+o.sub.id+'"><span class="ico">📁</span><span class="sub-label">'+esc(o.sub.label)+'</span><small>'+esc(o.m.label)+'</small></button>').join("")+'</div>';
  if(ii.length)out+='<div class="search-results"><div class="search-heading">العناصر</div>'+ii.slice(0,100).map(x=>'<button class="item" data-search-item="'+x.id+'"><span class="ico">'+esc(x.icon||icons[x.category])+'</span><span class="itemtext"><b>'+esc(x.name)+'</b><small>'+esc(mainById(x.category)?.label||"")+' › '+esc(subById(mainById(x.category),x.subcategory)?.label||"")+'</small></span></button>').join("")+'</div>';
  $("content").innerHTML=out||'<div class="repo-empty">لا توجد نتائج مطابقة.</div>';
@@ -318,7 +318,7 @@ window.renderContent=function(){
  const brand=category.subcategories.find(b=>b.id===online4techBackupBrand);
  if(!online4techBackupModel){
   $("title").textContent=brand.label;$("total").textContent=brand.subcategories.length+" موديل";
-  $("content").innerHTML=brand.subcategories.map(m=>'<button class="subcategory-row" data-backup-model="'+esc(m.id)+'"><span class="ico">📁</span><span class="sub-label">'+esc(m.label)+'</span><small>'+itemsFor("backup",m.id).length+' نسخة</small><span>‹</span></button>').join("");
+  $("content").innerHTML=brand.subcategories.map(m=>'<button class="subcategory-row" data-backup-model="'+esc(m.id)+'"><span class="ico">📁</span><span class="sub-label">'+esc(m.label)+'</span><span>‹</span></button>').join("");
   return;
  }
  const model=online4techBackupModelLabel(online4techBackupModel);
