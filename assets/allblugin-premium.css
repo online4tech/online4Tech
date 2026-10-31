@@ -343,3 +343,92 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
   .install-command-box{max-width:100%;min-width:0;box-sizing:border-box}
   .detail-actions{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
+
+
+/* FULL VIEWPORT FIX — AllBlugin desktop only.
+   Use the entire browser width, balanced side panels and denser item listing. */
+@media (min-width:1025px){
+  html,body{
+    width:100%!important;max-width:none!important;
+    margin:0!important;padding:0!important;
+  }
+  body{
+    grid-template-rows:minmax(0,1fr) auto!important;
+  }
+  .shell{
+    width:100%!important;max-width:none!important;
+    min-width:0!important;height:100%!important;
+    margin:0!important;padding:0!important;
+  }
+  .shell>header.o4t-header{
+    width:100%!important;max-width:none!important;
+    margin:0!important;padding:0!important;
+  }
+  .shell>header.o4t-header .o4t-head-inner{
+    width:calc(100% - 40px)!important;
+    max-width:none!important;
+    margin-inline:auto!important;
+    padding-inline:12px!important;
+  }
+  .hero{
+    width:calc(100% - 40px)!important;
+    max-width:none!important;
+    margin-inline:auto!important;
+    padding-inline:12px!important;
+    box-sizing:border-box!important;
+  }
+  .global-search-bar{
+    width:min(100%,980px)!important;
+    max-width:980px!important;
+  }
+  .breadcrumb{
+    width:100%!important;max-width:none!important;
+    margin-inline:auto!important;padding-inline:12px!important;
+    box-sizing:border-box!important;
+  }
+  .workspace,.workspace:not(.has-detail){
+    width:calc(100% - 40px)!important;
+    max-width:none!important;
+    margin:0 auto!important;
+    padding:10px 12px 12px!important;
+    box-sizing:border-box!important;
+  }
+  /* RTL order: sidebar at right, content in the middle, details at left. */
+  .workspace.has-detail{
+    grid-template-columns:minmax(250px,20%) minmax(0,1fr) minmax(280px,22%)!important;
+    gap:12px!important;
+  }
+  .workspace:not(.has-detail){
+    grid-template-columns:minmax(250px,20%) minmax(0,1fr)!important;
+    gap:12px!important;
+  }
+  .workspace>.panel{min-width:0!important}
+  .workspace.has-detail>.detail{
+    display:flex!important;min-width:0!important;width:100%!important;
+  }
+  .workspace.has-detail>.center{min-width:0!important;width:100%!important}
+  #content{padding:10px 12px 16px!important}
+  #content .items{
+    display:grid!important;
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    gap:8px!important;
+    align-content:start!important;
+  }
+  #content .item{
+    min-width:0!important;min-height:56px!important;
+    padding:8px 10px!important;
+  }
+  #content .itemtext{min-width:0!important}
+  #content .itemtext b{font-size:13px!important}
+  #content .itemtext small{font-size:10px!important}
+  .sidebar .nav{padding:10px!important;gap:8px!important}
+  .sidebar .o4t-nav-group{height:68px!important;min-height:68px!important;flex-basis:68px!important}
+  .sidebar .o4t-nav-group .toggle{padding:9px 11px!important}
+  .sidebar .o4t-nav-group .catname{font-size:14px!important}
+  .detailbody{padding:8px!important;gap:7px!important}
+  .detail-visual{height:68px!important;min-height:68px!important;flex-basis:68px!important}
+  .detail-title{font-size:14px!important}
+  .detail-description{font-size:10px!important;line-height:1.45!important}
+  .detail-actions .btn{min-height:30px!important;font-size:10px!important}
+  .site-foot{width:calc(100% - 40px)!important;max-width:none!important}
+}
