@@ -70,7 +70,6 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
 }
 /* Desktop application-style viewport: only the center content scrolls. */
 @media(min-width:1025px){
- #sort option[value="downloads"]{display:none}
  html,body{height:100%;min-height:0;overflow:hidden}
  body{height:100vh;height:100dvh;display:grid;grid-template-rows:minmax(0,1fr) auto;overflow:hidden}
  .shell{height:100%;min-height:0;display:flex;flex-direction:column;overflow:hidden}
@@ -86,8 +85,8 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
  #content{flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-gutter:stable}
  .detail{display:flex;flex-direction:column}
  .detail>.head{flex:0 0 auto}
- .detailbody{flex:1 1 auto;min-height:0;overflow:hidden;overscroll-behavior:contain;gap:5px;padding:7px}
- .detail-visual{height:64px;min-height:64px;flex:0 0 64px}
+ .detailbody{flex:1 1 auto;min-height:0;overflow:visible;gap:5px;padding:7px}
+ .detail-visual{height:88px;min-height:88px;flex:0 0 88px}
  .detail .bigico{width:48px;height:48px}
  .detail-title{font-size:16px!important;line-height:1.35}
  .detail-description{font-size:11px;line-height:1.55}
@@ -104,14 +103,7 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
  .install-command-row{align-items:flex-start;gap:5px}
  .install-command-row code{white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;font-size:10px;line-height:1.4}
  .mini-copy{padding:4px 7px;font-size:9px}
- @media(max-height:760px){
-  .detailbody{gap:4px;padding:6px}
-  .detail-visual{height:50px;min-height:50px;flex-basis:50px}
-  .detail-description{font-size:10px;line-height:1.4}
-  .detail-meta>div,.meta div{padding:3px 4px}
-  .detail-actions .btn{min-height:26px;padding:3px 5px}
-  .install-command-box{padding:5px}
- }
+
  footer{margin:0;padding:8px 0;flex:0 0 auto}
  .site-foot{width:95%}
 
@@ -148,4 +140,14 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
  .detailbody>.detail-meta{display:none!important}
  .detail>.head{padding:10px 12px}
  .detailbody{gap:5px;padding:7px}
+}
+
+/* Short desktop viewport refinements — kept outside the main desktop query. */
+@media(min-width:1025px) and (max-height:760px){
+ .detailbody{gap:4px;padding:6px}
+ .detail-visual{height:50px;min-height:50px;flex-basis:50px}
+ .detail-description{font-size:10px;line-height:1.4}
+ .detail-meta>div,.meta div{padding:3px 4px}
+ .detail-actions .btn{min-height:26px;padding:3px 5px}
+ .install-command-box{padding:5px}
 }
