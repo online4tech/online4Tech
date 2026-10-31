@@ -2320,6 +2320,14 @@
     "type": "Plugin"
   },
   {
+    "title": "🧩مركز البلجنات والأدوات Enigma2 Command Center مركز موحّد لاستعراض أقسام البلجنات والأدوات والتصنيفات ومحتويات Enigma2، واختيار اللي تحتاجه بسهولة. افتح مركز الأدوات←",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Backups"
+  },
+  {
     "title": "🧩مكتبة البلجنابحث عن إضافات Enigma2 وانسخ أوامر التثبيتاستكشف الإضافات ←",
     "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin-library/",
@@ -5181,6 +5189,14 @@
     "url": "https://online4tech.github.io/online4Tech/vuplus-images.html#cards",
     "category": "ملفات",
     "brand": "Dreambox",
+    "type": "Page"
+  },
+  {
+    "title": "Enigma2 Command Center",
+    "description": "مكتبة Online4Tech: ملفات القنوات والتحميلات والباك أب والبلجنات والشروحات.",
+    "url": "https://online4tech.github.io/online4Tech/library.html",
+    "category": "ملفات",
+    "brand": "Enigma2",
     "type": "Page"
   },
   {
