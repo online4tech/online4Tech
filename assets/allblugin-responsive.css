@@ -354,3 +354,46 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
   .mini-copy{display:inline-flex;margin-top:6px;min-height:27px;padding:4px 9px;font-size:10px}
   footer{background:transparent}
 }
+
+
+/* FINAL OVERRIDE — make the agreed desktop layout win over all earlier styles.
+   Mobile and tablet layouts are intentionally not changed. */
+@media (min-width:1025px){
+  :root{--o4t-app-width:min(1680px,calc(100vw - 48px))}
+  .shell>header.o4t-header .o4t-head-inner{
+    width:var(--o4t-app-width)!important;
+    max-width:1680px!important;
+    margin-inline:auto!important;
+    padding-inline:10px!important;
+    box-sizing:border-box!important
+  }
+  .hero,.breadcrumb{
+    width:var(--o4t-app-width)!important;
+    max-width:1680px!important;
+    margin-inline:auto!important;
+    box-sizing:border-box!important
+  }
+  .hero{padding-inline:10px!important}
+  .breadcrumb{padding-inline:10px!important}
+  .global-search-bar{
+    width:min(100%,920px)!important;
+    max-width:920px!important;
+    margin-inline:auto!important
+  }
+  .workspace,.workspace:not(.has-detail){
+    width:var(--o4t-app-width)!important;
+    max-width:1680px!important;
+    margin-inline:auto!important;
+    box-sizing:border-box!important
+  }
+  .workspace.has-detail{
+    grid-template-columns:minmax(0,19fr) minmax(0,66fr) minmax(0,15fr)!important;
+    gap:10px!important
+  }
+  .workspace:not(.has-detail){
+    grid-template-columns:minmax(0,22fr) minmax(0,78fr)!important
+  }
+  .workspace.has-detail>.sidebar,
+  .workspace.has-detail>.center,
+  .workspace.has-detail>.detail{min-width:0}
+}
