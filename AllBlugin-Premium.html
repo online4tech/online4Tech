@@ -359,4 +359,77 @@ const online4techOldChooseItem=window.chooseItem;
 window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="backup")breadcrumb()};
 </script>
 
+
+<script id="online4tech-premium-navigation-groups">
+(function(){
+ "use strict";
+ const groups=[
+  {id:"plugins",label:"البلجنات",icon:"🧩",entries:[{type:"main",id:"plugins",exclude:["softcam","skins","picons"]}]},
+  {id:"appearance",label:"المظهر والتخصيص",icon:"🎨",entries:[{type:"main",id:"skins"},{type:"sub",main:"plugins",id:"skins"},{type:"sub",main:"plugins",id:"picons"}]},
+  {id:"softcam",label:"السوفت كام",icon:"🔐",entries:[{type:"sub",main:"plugins",id:"softcam"}]},
+  {id:"tools",label:"التولز",icon:"🛠️",entries:[{type:"main",id:"tools"},{type:"main",id:"commands"}]},
+  {id:"files",label:"الملفات والنسخ الاحتياطية",icon:"💾",entries:[{type:"main",id:"channels"},{type:"main",id:"backup"}]}
+ ];
+ let selectedGroup=null;
+ const baseRenderNav=window.renderNav;
+ const baseRenderContent=window.renderContent;
+ const getMain=id=>db.categories.find(x=>x.id===id);
+ const getSub=(main,id)=>getMain(main)?.subcategories?.find(x=>x.id===id);
+ function entryLabel(e){
+  if(e.type==="main"){const c=getMain(e.id);return c?{label:c.label,icon:c.icon||"📁"}:null}
+  const s=getSub(e.main,e.id);return s?{label:s.label.replace(/^\p{Extended_Pictographic}\s*/u,""),icon:(s.label.match(/^\p{Extended_Pictographic}/u)||[])[0]||"📁"}:null;
+ }
+ function showGroup(){
+  const g=groups.find(x=>x.id===selectedGroup);if(!g)return;
+  const entries=[];
+  g.entries.forEach(e=>{
+   if(e.type==="main"){
+    const c=getMain(e.id);if(!c)return;
+    (c.subcategories||[]).filter(s=>!(e.exclude||[]).includes(s.id)).forEach(s=>entries.push({type:"sub",main:c.id,id:s.id,label:s.label.replace(/^\p{Extended_Pictographic}\s*/u,""),icon:(s.label.match(/^\p{Extended_Pictographic}/u)||[])[0]||"📁"}));
+    if(!(c.subcategories||[]).length)entries.push({type:"main",id:c.id,label:c.label,icon:c.icon||"📁"});
+   }else{
+    const v=entryLabel(e);if(v)entries.push({...e,...v});
+   }
+  });
+  $("title").textContent=g.label;
+  $("total").textContent=entries.length+" أقسام";
+  $("breadcrumb").innerHTML='<span class="current">'+g.label+'</span>';
+  $("middlePath").innerHTML='<span class="current">'+g.label+'</span>';
+  $("content").innerHTML=entries.length?'<div class="premium-nav-grid">'+entries.map(e=>'<button type="button" class="premium-nav-tile" data-premium-'+e.type+'="'+e.id+'" '+(e.type==="sub"?'data-premium-parent="'+e.main+'"':'')+'><span class="premium-tile-icon">'+e.icon+'</span><span class="premium-tile-label">'+e.label+'</span><span class="premium-tile-arrow">‹</span></button>').join("")+'</div>':'<div class="repo-empty">لا توجد أقسام لعرضها.</div>';
+ }
+ window.renderNav=function(){
+  if(!db?.categories)return baseRenderNav();
+  $("nav").innerHTML=groups.map(g=>'<div class="category '+(selectedGroup===g.id?'active':'')+'"><button class="toggle" type="button" data-premium-group="'+g.id+'" aria-pressed="'+(selectedGroup===g.id)+'"><span class="category-icon">'+g.icon+'</span><b class="catname">'+g.label+'</b></button></div>').join("");
+ };
+ window.renderContent=function(){
+  if(selectedGroup&&!query){showGroup();return}
+  baseRenderContent();
+ };
+ $("nav").addEventListener("click",function(e){
+  const b=e.target.closest("[data-premium-group]");if(!b)return;
+  e.preventDefault();e.stopImmediatePropagation();
+  selectedGroup=b.dataset.premiumGroup;activeMain=null;activeSub=null;selectedItem=null;
+  online4techBackupBrand=null;online4techBackupModel=null;
+  details(null);renderNav();breadcrumb();renderContent();
+ },true);
+ $("content").addEventListener("click",function(e){
+  const main=e.target.closest("[data-premium-main]");
+  const sub=e.target.closest("[data-premium-sub]");
+  if(!main&&!sub)return;
+  e.preventDefault();e.stopImmediatePropagation();
+  const mainId=main?main.dataset.premiumMain:sub.dataset.premiumParent;
+  const subId=sub?.dataset.premiumSub;
+  selectedGroup=null;
+  if(subId){chooseMain(mainId);chooseSub(mainId,subId)}
+  else chooseMain(mainId);
+ },true);
+ const oldChooseMain=window.chooseMain;
+ window.chooseMain=function(id){selectedGroup=null;return oldChooseMain(id)};
+ const oldChooseSub=window.chooseSub;
+ window.chooseSub=function(m,s){selectedGroup=null;return oldChooseSub(m,s)};
+ const oldChooseItem=window.chooseItem;
+ window.chooseItem=function(id){selectedGroup=null;return oldChooseItem(id)};
+})();
+</script>
+
 </body></html>
