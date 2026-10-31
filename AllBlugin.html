@@ -163,6 +163,25 @@ footer a:hover{color:var(--blue)}
 </style>
 <link rel="stylesheet" href="assets/allblugin-responsive.css?v=5">
 
+<style id="o4t-single-column-sections">
+/* All sections and their nested entries are displayed as one vertical list. */
+.sidebar .nav{display:flex!important;flex-direction:column!important;align-items:stretch!important}
+.sidebar .nav>.category{width:100%!important;flex:0 0 auto!important}
+#content .items,
+#content .search-results,
+#content .o4t-nav-tiles{display:flex!important;flex-direction:column!important;flex-wrap:nowrap!important;align-items:stretch!important;gap:8px!important}
+#content .items>.item,
+#content .search-results>.item,
+#content .subcategory-row,
+#content .o4t-nav-tiles>.o4t-nav-tile{width:100%!important;max-width:none!important;grid-column:1/-1!important;margin-inline:0!important}
+#content .items{padding-inline:12px!important}
+.detail-actions{display:grid!important;grid-template-columns:minmax(0,1fr)!important}
+@media(max-width:768px){
+ .sidebar .nav{display:flex!important;flex-direction:column!important}
+ #content .items{grid-template-columns:minmax(0,1fr)!important}
+}
+</style>
+
 
 <link rel="stylesheet" href="assets/site-header.css?v=6">
 <script src="assets/site-header.js?v=6" defer></script>
