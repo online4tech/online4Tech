@@ -397,3 +397,67 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
   .workspace.has-detail>.center,
   .workspace.has-detail>.detail{min-width:0}
 }
+
+
+/* VISUAL FIX — restore visible centered header and give details usable width. */
+@media (min-width:1025px){
+  .shell>header.o4t-header{
+    position:relative!important;
+    top:auto!important;
+    transform:none!important;
+    visibility:visible!important;
+    opacity:1!important;
+    pointer-events:auto!important;
+    z-index:1000!important
+  }
+  .shell>header.o4t-header.o4t-header-hidden{
+    transform:none!important;
+    visibility:visible!important;
+    opacity:1!important;
+    pointer-events:auto!important
+  }
+  .shell>header.o4t-header .o4t-head-inner{
+    display:flex!important;
+    flex-direction:column!important;
+    align-items:center!important;
+    justify-content:center!important;
+    width:var(--o4t-app-width)!important;
+    max-width:1680px!important;
+    margin:0 auto!important;
+    padding:12px 10px!important;
+    box-sizing:border-box!important
+  }
+  .shell>header.o4t-header .o4t-nav{
+    display:flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    flex:0 0 auto!important;
+    width:100%!important;
+    margin-inline:auto!important;
+    text-align:center!important
+  }
+  .workspace.has-detail{
+    grid-template-columns:minmax(0,20fr) minmax(0,58fr) minmax(0,22fr)!important;
+    gap:10px!important
+  }
+  .workspace.has-detail>.detail{
+    display:flex!important;
+    flex-direction:column!important;
+    min-width:0!important;
+    width:100%!important;
+    overflow:hidden!important
+  }
+  .workspace.has-detail>.detail>.head{flex:0 0 auto}
+  .workspace.has-detail>.detail>.detailbody{
+    min-width:0!important;
+    width:100%!important;
+    flex:1 1 auto!important;
+    overflow-y:auto!important;
+    overflow-x:hidden!important;
+    overflow-wrap:anywhere!important;
+    box-sizing:border-box!important
+  }
+  .detail-visual,.detail-title,.detail-description,.detail-actions,
+  .install-command-box{max-width:100%;min-width:0;box-sizing:border-box}
+  .detail-actions{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
