@@ -151,3 +151,36 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
  .detail-actions .btn{min-height:26px;padding:3px 5px}
  .install-command-box{padding:5px}
 }
+
+
+/* Original AllBlugin — five-group Enigma2 navigation hierarchy (visual-only). */
+.sidebar .o4t-nav-group{border-radius:13px;overflow:hidden}
+.sidebar .o4t-nav-group .toggle{min-height:62px;gap:12px;padding:11px 13px}
+.sidebar .o4t-nav-group .category-icon{width:36px;height:36px;flex:0 0 36px;display:grid;place-items:center;border-radius:10px;background:rgba(96,165,250,.10);font-size:18px}
+.sidebar .o4t-nav-group .catname{font-size:16px!important;line-height:1.45}
+.sidebar .o4t-nav-group .group-chevron{margin-inline-start:auto;color:#8ebce8;font-size:23px;line-height:1;transition:transform .2s}
+.sidebar .o4t-nav-group.active .group-chevron{transform:rotate(180deg)}
+.o4t-nav-landing{padding:4px 0 16px}
+.o4t-nav-landing-intro{margin:10px 14px 14px;padding:15px 17px;border:1px solid rgba(96,165,250,.16);border-radius:13px;background:linear-gradient(120deg,rgba(40,105,165,.13),rgba(20,45,70,.18))}
+.o4t-nav-landing-intro span{display:block;color:#65c9e9;font:10px/1.5 Consolas,monospace;letter-spacing:1.2px}
+.o4t-nav-landing-intro b{display:block;margin-top:4px;font-size:17px}
+.o4t-nav-landing-intro small{display:block;margin-top:3px;color:#91a9c0;font-size:12px;line-height:1.7}
+.o4t-nav-tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:0 14px}
+.o4t-nav-tiles .o4t-nav-tile{width:100%;min-height:76px;margin:0;padding:13px 14px;border-radius:12px;background:linear-gradient(145deg,rgba(19,43,67,.94),rgba(9,23,39,.96));border-color:rgba(96,165,250,.16)}
+.o4t-nav-tiles .o4t-nav-tile .ico{width:42px;height:42px;flex-basis:42px;font-size:19px;background:rgba(96,165,250,.12)}
+.o4t-nav-tiles .o4t-nav-tile .sub-label{font-size:15px}
+.o4t-nav-tiles .o4t-nav-tile .tile-arrow{color:#7dbcf2;font-size:21px}
+.o4t-nav-tiles .o4t-nav-tile:hover{border-color:#60a5fa;background:linear-gradient(145deg,rgba(27,67,102,.96),rgba(12,31,51,.98));box-shadow:0 8px 24px rgba(0,140,255,.16);transform:translateY(-2px)}
+@media(max-width:768px){
+ .sidebar .nav{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .sidebar .o4t-nav-group .toggle{min-height:54px;padding:8px 9px;gap:7px}
+ .sidebar .o4t-nav-group .category-icon{width:30px;height:30px;flex-basis:30px;font-size:16px}
+ .sidebar .o4t-nav-group .catname{font-size:13px!important}
+ .o4t-nav-tiles{grid-template-columns:minmax(0,1fr);gap:8px;padding-inline:9px}
+ .o4t-nav-landing-intro{margin-inline:9px}
+}
+@media(max-width:480px){
+ .sidebar .nav{grid-template-columns:minmax(0,1fr)}
+ .sidebar .o4t-nav-group .toggle{min-height:48px}
+ .o4t-nav-tiles .o4t-nav-tile{min-height:62px}
+}
