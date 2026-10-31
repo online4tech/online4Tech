@@ -85,16 +85,32 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
  #content{flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-gutter:stable}
  .detail{display:flex;flex-direction:column}
  .detail>.head{flex:0 0 auto}
- .detailbody{flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;gap:8px;padding:9px}
- .detail-visual{height:94px;flex:0 0 94px}
- .detail .bigico{width:56px;height:56px}
- .detail-meta,.meta{gap:5px}
- .detail-meta>div,.meta div{padding:6px}
- .detail-actions{gap:5px}
- .detail-actions .btn{min-height:34px;padding:6px 8px}
- .install-command-box{margin-top:0;padding:8px}
- .install-command-row{align-items:flex-start}
- .install-command-row code{white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word}
+ .detailbody{flex:1 1 auto;min-height:0;overflow:hidden;overscroll-behavior:contain;gap:5px;padding:7px}
+ .detail-visual{height:64px;min-height:64px;flex:0 0 64px}
+ .detail .bigico{width:48px;height:48px}
+ .detail-title{font-size:16px!important;line-height:1.35}
+ .detail-description{font-size:11px;line-height:1.55}
+ .type{font-size:10px;line-height:1.4}
+ .detail-meta,.meta{gap:4px}
+ .detail-meta>div,.meta div{padding:4px 5px}
+ .detail-meta small,.meta small{font-size:9px}
+ .detail-meta b,.meta b{font-size:10px;line-height:1.4}
+ .detail-actions{grid-template-columns:repeat(2,minmax(0,1fr));gap:4px}
+ .detail-actions .btn{min-height:29px;padding:4px 6px;font-size:10px}
+ .detail-actions .install-copy{display:none!important}
+ .install-command-box{margin-top:0;padding:6px}
+ .install-command-heading{font-size:10px;margin-bottom:4px}
+ .install-command-row{align-items:flex-start;gap:5px}
+ .install-command-row code{white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;font-size:10px;line-height:1.4}
+ .mini-copy{padding:4px 7px;font-size:9px}
+ @media(max-height:760px){
+  .detailbody{gap:4px;padding:6px}
+  .detail-visual{height:50px;min-height:50px;flex-basis:50px}
+  .detail-description{font-size:10px;line-height:1.4}
+  .detail-meta>div,.meta div{padding:3px 4px}
+  .detail-actions .btn{min-height:26px;padding:3px 5px}
+  .install-command-box{padding:5px}
+ }
  footer{margin:0;padding:8px 0;flex:0 0 auto}
  .site-foot{width:95%}
 }
