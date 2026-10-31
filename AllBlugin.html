@@ -554,12 +554,12 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
    document.querySelector(".workspace")?.classList.toggle("has-detail",!!s.hasDetail);
   }finally{restoring=false}
  }
- document.addEventListener("click",function(e){
+ window.addEventListener("click",function(e){
   if(restoring||!e.target.closest(watched))return;
   if(queued)return;
   queued=true;
   setTimeout(function(){queued=false;if(!restoring)saveCurrent()},0);
- },false);
+ },true);
  window.addEventListener("popstate",function(e){if(e.state&&e.state.o4tHistory){restore(e.state.view)}});
  function initialize(){
   const current=snapshot();
