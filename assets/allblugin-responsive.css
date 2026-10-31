@@ -204,3 +204,8 @@ body{min-height:100%;overflow-x:hidden;overflow-y:auto}
  .sidebar .o4t-nav-group .category-icon{width:32px;height:32px;min-width:32px;flex-basis:32px}
  .sidebar .o4t-nav-group .catname{font-size:13px!important}
 }
+
+
+/* Duplicate path and hidden section fixes */
+.center>.middle-path{display:none!important}
+.center>.section[hidden]{display:none!important}
