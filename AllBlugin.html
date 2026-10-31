@@ -162,6 +162,39 @@ footer a:hover{color:var(--blue)}
 
 </style>
 <link rel="stylesheet" href="assets/allblugin-responsive.css?v=5">
+<style id="o4t-persistent-detail-panel">
+/* Keep the item-details panel visible as a permanent part of the workspace. */
+.workspace{grid-template-columns:minmax(250px,20%) minmax(0,1fr) minmax(280px,22%)!important}
+.workspace>.detail{display:flex!important;flex-direction:column;min-width:0}
+.detail>.head{flex:0 0 auto}
+.detailbody{min-width:0;overflow-y:auto;overflow-x:hidden;overflow-wrap:anywhere}
+.detailbody>.detail-placeholder{display:grid!important;min-height:190px;align-content:center;justify-items:center;gap:10px;padding:22px 14px;border:1px dashed rgba(96,165,250,.42);border-radius:14px;background:radial-gradient(ellipse at center,rgba(40,125,190,.13),rgba(8,23,40,.12) 72%)}
+.detailbody>.detail-placeholder .placeholder-icon{width:58px;height:58px;border:1px solid rgba(96,165,250,.35);box-shadow:0 0 22px rgba(55,165,255,.2);font-size:27px}
+.detail-meta{display:grid!important}
+.detail-meta>div{border-color:rgba(96,165,250,.2);box-shadow:0 4px 16px rgba(0,140,255,.09)}
+.detail-actions .btn{border-color:rgba(96,165,250,.32);box-shadow:0 0 12px rgba(45,155,255,.12),inset 0 1px 0 rgba(255,255,255,.06)}
+.detail-actions .btn.primary{background:linear-gradient(135deg,#168bd2,#16b6c5);box-shadow:0 0 17px rgba(22,166,205,.3)}
+.detail-actions .btn:hover:not(:disabled){box-shadow:0 0 18px rgba(75,180,255,.3),0 7px 18px rgba(0,0,0,.2)}
+@media(min-width:1025px){
+ .workspace{grid-template-columns:minmax(250px,20%) minmax(0,1fr) minmax(280px,22%)!important}
+ .workspace>.detail{height:100%;max-height:100%;overflow:hidden}
+ .detailbody{flex:1 1 auto;min-height:0}
+ .detailbody>.detail-placeholder{min-height:230px}
+ .detail-meta{display:grid!important}
+ .detailbody>.detail-visual{height:92px;min-height:92px;flex-basis:92px}
+}
+@media(max-width:1024px){
+ .workspace{grid-template-columns:minmax(0,1fr)!important}
+ .workspace>.detail{grid-column:1/-1;width:100%}
+}
+@media(max-width:768px){
+ .workspace{display:flex!important;flex-direction:column!important}
+ .workspace>.detail{display:flex!important;width:100%;order:3}
+ .detailbody>.detail-placeholder{min-height:145px}
+ .detail-actions{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:480px){.detail-actions{grid-template-columns:minmax(0,1fr)}}
+</style>
 
 <style id="o4t-single-column-sections">
 /* All sections and their nested entries are displayed as one vertical list. */
@@ -301,14 +334,9 @@ const online4techOriginalDetails=window.details;
 window.details=function(item){
  const workspace=document.querySelector(".workspace");
  const panel=$("detailPanel");
- if(!item){
-  panel.hidden=true;
-  if(workspace)workspace.classList.remove("has-detail");
-  return;
- }
  panel.hidden=false;
  if(workspace)workspace.classList.add("has-detail");
- online4techOriginalDetails(item);
+ online4techOriginalDetails(item||null);
 };
 /* Move the original controls together; preserve their IDs and listeners. */
 (function arrangeGlobalSearchAndSort(){
