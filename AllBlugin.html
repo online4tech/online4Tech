@@ -144,6 +144,22 @@ footer a:hover{color:var(--blue)}
 .install-command-row code{white-space:pre-wrap}
 @keyframes copySuccess{50%{transform:scale(1.025)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.category,.sub,.sub button,.item,.toggle,.subcategory-row,.detail-actions .btn,.mini-copy{transition:none!important}}
+
+/* Preserve the existing ONLINE4TECH glass finish without altering component geometry. */
+:where(.sidebar .category,.sidebar .toggle,.sidebar .sub button,.items .item,.subcategory-row,.btn,.mini-copy,.breadcrumb button,.middle-path button,#detailModal .modal-close,.detail-actions a,.detail-actions button){
+ -webkit-backdrop-filter:blur(14px);
+ backdrop-filter:blur(14px);
+ border:1px solid rgba(255,255,255,.08);
+ box-shadow:0 4px 20px rgba(0,140,255,.12);
+ transition:all .25s ease;
+}
+:where(.sidebar .category:not(.active),.sidebar .toggle,.sidebar .sub button:not(.selected),.items .item:not(.selected),.subcategory-row:not(.active),.btn:not(.primary),.mini-copy,.breadcrumb button,.middle-path button,#detailModal .modal-close,.detail-actions a,.detail-actions button){background-color:rgba(255,255,255,.04)}
+:where(.sidebar .category:hover,.sidebar .toggle:hover,.sidebar .sub button:hover,.items .item:hover,.subcategory-row:hover,.btn:hover:not(:disabled),.mini-copy:hover,.breadcrumb button:hover,.middle-path button:hover,#detailModal .modal-close:hover,.detail-actions a:hover,.detail-actions button:hover:not(:disabled)){box-shadow:0 8px 24px rgba(75,180,255,.22);filter:brightness(1.07);transform:translateY(-2px)}
+:where(.sidebar .category.active,.sidebar .sub button.selected,.items .item.selected,.subcategory-row.active){box-shadow:0 4px 20px rgba(0,140,255,.18),0 0 12px rgba(75,180,255,.12)}
+:where(.btn:disabled,.mini-copy:disabled,#detailModal .modal-close:disabled,.detail-actions button:disabled){opacity:.45;cursor:not-allowed;filter:none;transform:none}
+:where(.detail-meta>div,.meta div){-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);background-color:rgba(255,255,255,.04);border-color:rgba(255,255,255,.08);box-shadow:0 4px 20px rgba(0,140,255,.08)}
+@media(prefers-reduced-motion:reduce){:where(.sidebar .category,.sidebar .toggle,.sidebar .sub button,.items .item,.subcategory-row,.btn,.mini-copy,.breadcrumb button,.middle-path button,#detailModal .modal-close,.detail-actions a,.detail-actions button){transition:none}}
+
 </style>
 <link rel="stylesheet" href="assets/allblugin-responsive.css?v=1">
 
