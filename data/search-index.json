@@ -1010,6 +1010,14 @@
     "type": "Plugin"
   },
   {
+    "title": "ONLINE4TECH | مركز البلجنات والأدوات — Premium",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/AllBlugin-Premium.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
     "title": "OpenWebif",
     "description": "واجهة ويب لإدارة الرسيفر ومشاهدة معلوماته والتحكم في بعض وظائفه عبر الشبكة.",
     "url": "https://online4tech.github.io/online4Tech/plugins/plugin.html?id=openwebif",
@@ -1533,6 +1541,14 @@
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
     "category": "إضافات",
     "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "مركز البلجنات والأدوات",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/AllBlugin-Premium.html",
+    "category": "إضافات",
+    "brand": "Online4Tech",
     "type": "Plugin"
   },
   {
@@ -4107,6 +4123,14 @@
     "title": "اختار الجهاز اللي يناسبك",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "اختار قسم",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/AllBlugin-Premium.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
