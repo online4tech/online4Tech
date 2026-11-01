@@ -35,7 +35,7 @@
 .contact-rail .rail-search{display:flex;align-items:center;justify-content:flex-start;gap:9px;min-height:46px;padding:8px 13px;border:2px solid #08223a;border-radius:999px;color:#fff;background:linear-gradient(135deg,#16b8d4,#1768d5);font:700 13px Tahoma,Arial,sans-serif;white-space:nowrap;cursor:pointer;box-shadow:0 5px 0 #0006,0 9px 22px #0006;transition:transform .18s,filter .18s}
 .contact-rail .rail-search:hover{transform:translateX(4px);filter:brightness(1.08)}
 .contact-rail .rail-search:focus-visible{outline:3px solid #ffcf70;outline-offset:3px}
-.o4t-home-search{display:none;position:fixed!important;inset:0!important;z-index:100000!important;width:100%!important;max-width:none!important;height:100dvh;margin:0!important;padding:22px!important;align-items:flex-start;justify-content:center;background:#020b17c9;backdrop-filter:blur(7px);overflow:auto}
+.o4t-home-search{display:none;flex-direction:column;position:fixed!important;inset:0!important;z-index:100000!important;width:100%!important;max-width:none!important;height:100dvh;margin:0!important;padding:22px!important;align-items:flex-start;justify-content:center;background:#020b17c9;backdrop-filter:blur(7px);overflow:auto}
 .o4t-home-search.is-open{display:flex}
 .o4t-home-search .o4t-search-form{width:min(720px,100%);margin:12vh auto 0;border-color:#2b83bd;box-shadow:0 22px 70px #0009}
 .o4t-home-search .o4t-search-results{position:relative;top:auto;inset:auto;width:min(720px,100%);max-height:52vh;margin:10px auto 0}
