@@ -165,6 +165,33 @@ footer a:hover{color:var(--blue)}
 :where(.detail-meta>div,.meta div){-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);background-color:rgba(255,255,255,.04);border-color:rgba(255,255,255,.08);box-shadow:0 4px 20px rgba(0,140,255,.08)}
 @media(prefers-reduced-motion:reduce){:where(.sidebar .category,.sidebar .toggle,.sidebar .sub button,.items .item,.subcategory-row,.btn,.mini-copy,.breadcrumb button,.middle-path button,#detailModal .modal-close,.detail-actions a,.detail-actions button){transition:none}}
 
+
+/* ONLINE4TECH welcome screen — visual-only empty state for the center panel. */
+.center.is-welcome{overflow:hidden;position:relative}
+.center.is-welcome>.middle-path,.center.is-welcome>.toolbar,.center.is-welcome>.section{display:none!important}
+.center.is-welcome>#content{min-height:clamp(430px,62vh,680px);padding:clamp(14px,3vw,34px)!important;display:grid;place-items:center;position:relative;isolation:isolate;overflow:hidden}
+.o4t-welcome{position:relative;isolation:isolate;width:100%;min-height:clamp(390px,58vh,620px);display:grid;place-items:center;overflow:hidden;border:1px solid rgba(91,177,239,.2);border-radius:18px;background:radial-gradient(ellipse at 50% 38%,rgba(20,111,165,.2),transparent 48%),radial-gradient(ellipse at 8% 92%,rgba(22,91,151,.12),transparent 42%),linear-gradient(145deg,rgba(15,34,56,.96),rgba(7,18,32,.98) 65%,rgba(12,29,48,.98));box-shadow:inset 0 1px 0 rgba(255,255,255,.045),0 18px 55px rgba(0,0,0,.2)}
+.o4t-welcome:before,.o4t-welcome:after{content:"";position:absolute;z-index:-1;border:1px solid rgba(89,190,240,.11);border-radius:50%;pointer-events:none}
+.o4t-welcome:before{width:min(78%,580px);aspect-ratio:1;top:-47%;left:-23%}
+.o4t-welcome:after{width:min(68%,480px);aspect-ratio:1;bottom:-48%;right:-22%}
+.o4t-welcome-orbit{position:absolute;z-index:-1;border:1px solid rgba(80,174,229,.1);border-radius:50%;pointer-events:none}
+.o4t-orbit-one{width:340px;height:340px;top:8%;right:-180px}.o4t-orbit-two{width:260px;height:260px;bottom:3%;left:-145px}
+.o4t-welcome-content{width:min(100%,720px);padding:30px 22px 24px;text-align:center;display:flex;flex-direction:column;align-items:center;animation:o4tWelcomeIn .65s ease both}
+.o4t-welcome-kicker{display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap;color:#8eaac4;font:700 10px/1.5 Arial,sans-serif;letter-spacing:2px}
+.o4t-welcome-kicker i{color:#3a9bd0;font-style:normal}.o4t-live-dot{width:7px;height:7px;border-radius:50%;background:#36d6c0;box-shadow:0 0 12px #36d6c0}
+.o4t-welcome-mark{position:relative;width:76px;height:76px;margin:23px 0 17px;display:grid;place-items:center;border:1px solid rgba(97,192,246,.4);border-radius:23px;background:linear-gradient(145deg,rgba(41,133,190,.28),rgba(13,38,63,.82));box-shadow:0 0 35px rgba(30,151,219,.18),inset 0 1px 0 rgba(255,255,255,.12);transform:rotate(-5deg)}
+.o4t-welcome-mark span{font:900 22px/1 Arial,sans-serif;letter-spacing:1px;color:#eaf8ff;text-shadow:0 0 18px rgba(70,190,255,.5)}.o4t-welcome-mark b{position:absolute;top:-10px;right:-10px;color:#65d9e9;font-size:20px;text-shadow:0 0 14px #35c6e8}
+.o4t-welcome-eyebrow{margin:0 0 7px;color:#78c7eb;font-size:14px;font-weight:700;letter-spacing:.3px}
+.o4t-welcome h1{margin:0;color:#f2f7ff;font-size:clamp(25px,3.5vw,42px);line-height:1.55;font-weight:900;letter-spacing:-.7px}.o4t-welcome h1 span{background:linear-gradient(90deg,#70d9e9,#62aafa 52%,#a4baff);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 8px 32px rgba(65,160,235,.12)}
+.o4t-welcome-description{max-width:550px;margin:13px 0 20px;color:#a9bad0;font-size:clamp(12px,1.2vw,14px);line-height:2}
+.o4t-welcome-tags{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}.o4t-welcome-tags span{padding:7px 12px;border:1px solid rgba(112,169,211,.18);border-radius:30px;background:rgba(255,255,255,.035);color:#b9d2e8;font:700 10px/1.3 Arial,sans-serif;letter-spacing:.6px}
+.o4t-welcome-divider{width:min(100%,450px);display:flex;align-items:center;gap:12px;margin:25px 0 13px;color:#7898b6;font-size:11px}.o4t-welcome-divider span{height:1px;flex:1;background:linear-gradient(90deg,transparent,rgba(84,166,220,.32))}.o4t-welcome-divider span:last-child{transform:rotate(180deg)}.o4t-welcome-divider b{font-weight:700;white-space:nowrap}
+.o4t-welcome-hint{display:flex;align-items:center;justify-content:center;gap:9px;color:#d2e6f5;font-size:13px;font-weight:700}.o4t-welcome-arrow{width:25px;height:25px;display:grid;place-items:center;border:1px solid rgba(86,185,232,.28);border-radius:50%;color:#67d2e7;background:rgba(54,147,200,.1)}
+.o4t-welcome-footer{position:absolute;bottom:0;inset-inline:0;display:flex;justify-content:space-between;gap:10px;padding:12px 17px;border-top:1px solid rgba(110,171,212,.1);color:#6f8ba7;font-size:10px}.o4t-welcome-footer span:first-child{color:#85b7d7;font-weight:700}.o4t-welcome-footer span:last-child{font:700 9px Arial,sans-serif;letter-spacing:1.5px}
+@keyframes o4tWelcomeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:768px){.center.is-welcome>#content{min-height:400px;padding:9px!important}.o4t-welcome{min-height:390px;border-radius:14px}.o4t-welcome-content{padding:25px 14px 44px}.o4t-welcome-mark{width:65px;height:65px;margin:17px 0 14px;border-radius:19px}.o4t-welcome-description{margin:10px 0 16px}.o4t-welcome-tags{gap:6px}.o4t-welcome-tags span{padding:6px 9px;font-size:9px}.o4t-welcome-divider{margin:19px 0 11px}.o4t-welcome-hint{font-size:11px}.o4t-welcome-footer{padding:10px 12px;font-size:9px}.o4t-welcome-footer span:last-child{font-size:8px;letter-spacing:1px}}
+@media(max-width:380px){.o4t-welcome-footer span:last-child{display:none}.o4t-welcome h1{font-size:25px}.o4t-welcome-description{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.o4t-welcome-content{animation:none}}
 </style>
 <link rel="stylesheet" href="assets/allblugin-responsive.css?v=5">
 <style id="o4t-persistent-detail-panel">
@@ -314,7 +341,7 @@ function globalSearch(){
 }
 function renderContent(){
  if(query.trim())return globalSearch();
- if(!activeMain){document.querySelector(".center .section").hidden=false;$("title").textContent="مستودع ONLINE4TECH";$("total").textContent="";$("content").innerHTML='<div class="repo-empty">اختار قسم من العمود الجانبي لعرض التصنيفات.</div>';return}
+ if(!activeMain){const center=document.querySelector(".center");center?.classList.add("is-welcome");document.querySelector(".center .section").hidden=true;$("title").textContent="";$("total").textContent="";$("content").innerHTML='<section class="o4t-welcome" aria-label="مرحباً بك في مركز إضافات Enigma2"><div class="o4t-welcome-orbit o4t-orbit-one"></div><div class="o4t-welcome-orbit o4t-orbit-two"></div><div class="o4t-welcome-content"><div class="o4t-welcome-kicker"><span class="o4t-live-dot"></span> ONLINE4TECH <i>·</i> ENIGMA2 PLUGIN CENTER</div><div class="o4t-welcome-mark" aria-hidden="true"><span>O4T</span><b>✦</b></div><p class="o4t-welcome-eyebrow">مرحباً بك في عالم Enigma2</p><h1>كل أدواتك وإضافاتك<br><span>في مكان واحد</span></h1><p class="o4t-welcome-description">منصة متكاملة لاستكشاف البلجنات والأدوات والتحديثات والملفات، بتنظيم يسهل عليك الوصول لكل ما تحتاجه لجهازك.</p><div class="o4t-welcome-tags"><span>🧩 PLUGINS</span><span>⚙️ TOOLS</span><span>✨ UPDATES</span><span>📦 BACKUPS</span></div><div class="o4t-welcome-divider"><span></span><b>اختار وجهتك وابدأ الاستكشاف</b><span></span></div><div class="o4t-welcome-hint"><span class="o4t-welcome-arrow">←</span> اختار قسم من القائمة الجانبية لعرض المحتوى والتصنيفات</div></div><div class="o4t-welcome-footer"><span>خليك دايماً أونلاين</span><span>DISCOVER · EXPLORE · ENJOY</span></div></section>';return}center?.classList.remove("is-welcome");
  if(!activeSub)return renderSubs(mainById(activeMain));
  renderItems();
 }
