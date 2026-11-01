@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "sources": [
     "\"Enigma2 plugin\" in:name,description,readme",
     "\"OpenATV plugin\" in:name,description,readme",
@@ -8,7 +8,7 @@
     "\"Vu+ plugin\" in:name,description,readme",
     "\"E2 plugin\" in:name,description,readme"
   ],
-  "plugins_found": 117,
+  "plugins_found": 118,
   "valid_repositories": 16,
   "plugins_added": 0,
   "plugins_updated": 16,
@@ -17,6 +17,58 @@
     {
       "source": "digiteng/xtra",
       "error": "GitHub API HTTP 404: /repos/digiteng/xtra"
+    },
+    {
+      "source": "emilnabil/download-plugins/tree/main/almuaddhin",
+      "error": "GitHub API HTTP 404: /repos/emilnabil/download-plugins/tree/main/almuaddhin"
+    },
+    {
+      "source": "emilnabil/download-plugins/tree/main/imagesdownloader",
+      "error": "GitHub API HTTP 404: /repos/emilnabil/download-plugins/tree/main/imagesdownloader"
+    },
+    {
+      "source": "emilnabil/download-plugins/tree/main/infobarweather",
+      "error": "GitHub API HTTP 404: /repos/emilnabil/download-plugins/tree/main/infobarweather"
+    },
+    {
+      "source": "emilnabil/download-plugins/tree/main/mawaqit",
+      "error": "GitHub API HTTP 404: /repos/emilnabil/download-plugins/tree/main/mawaqit"
+    },
+    {
+      "source": "emilnabil/download-plugins/tree/main/numberzapext",
+      "error": "GitHub API HTTP 404: /repos/emilnabil/download-plugins/tree/main/numberzapext"
+    },
+    {
+      "source": "emilnabil/download-plugins/tree/main/quadpip",
+      "error": "GitHub API HTTP 404: /repos/emilnabil/download-plugins/tree/main/quadpip"
+    },
+    {
+      "source": "emilnabil/download-plugins/tree/main/advancedscreenshot",
+      "error": "GitHub API HTTP 404: /repos/emilnabil/download-plugins/tree/main/advancedscreenshot"
+    },
+    {
+      "source": "emilnabil/download-plugins/tree/main/ciefp-channels-e2",
+      "error": "GitHub API HTTP 404: /repos/emilnabil/download-plugins/tree/main/ciefp-channels-e2"
+    },
+    {
+      "source": "emilnabil/download-plugins/tree/main/morpheus883-channels",
+      "error": "GitHub API HTTP 404: /repos/emilnabil/download-plugins/tree/main/morpheus883-channels"
+    },
+    {
+      "source": "emilnabil/download-plugins/tree/main/vanenbal-channels",
+      "error": "GitHub API HTTP 404: /repos/emilnabil/download-plugins/tree/main/vanenbal-channels"
+    },
+    {
+      "source": "emilnabil/download-plugins/tree/main/skin-cineview",
+      "error": "GitHub API HTTP 404: /repos/emilnabil/download-plugins/tree/main/skin-cineview"
+    },
+    {
+      "source": "emilnabil/download-plugins/tree/main/skin-mx_maestra_black_weather",
+      "error": "GitHub API HTTP 404: /repos/emilnabil/download-plugins/tree/main/skin-mx_maestra_black_weather"
+    },
+    {
+      "source": "emilnabil/download-plugins/tree/main/skins-for-dreambox",
+      "error": "GitHub API HTTP 404: /repos/emilnabil/download-plugins/tree/main/skins-for-dreambox"
     }
   ],
   "added": [],
@@ -31,14 +83,14 @@
     "tmdb",
     "openwebif",
     "ajpanel-menu1",
-    "smartaddonspanel-emil",
+    "alternative-softcam-manager",
     "ssupport",
     "xstreamity",
     "ipaudio",
     "extra-plugins-python3",
     "enigma2-plugin-blurayplayer"
   ],
-  "catalog_total": 48,
+  "catalog_total": 82,
   "limits": {
     "max_candidates_checked": 90,
     "max_new_per_run": 25,
