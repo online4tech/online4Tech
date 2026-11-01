@@ -477,10 +477,11 @@
         {
           "id": "openpli",
           "label": "OpenPLI",
-          "count": 2,
+          "count": 3,
           "items": [
             "OpenPLI Classic",
-            "OpenPLI HD"
+            "OpenPLI HD",
+            "Aglare-FHD-PLI"
           ]
         },
         {
