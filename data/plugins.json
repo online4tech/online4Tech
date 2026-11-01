@@ -2320,9 +2320,13 @@
         {
           "label": "e2iplayer Online Setup",
           "command": "curl -LJso- https://mohamed_os.gitlab.io/e2iplayer/online-setup | bash"
+        },
+        {
+          "label": "E2Iplayer Updater",
+          "command": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2IplayerUpdater/E2IplayerUpdater.sh | /bin/sh"
         }
       ],
-      "catalogUpdatedAt": "2026-10-28",
+      "catalogUpdatedAt": "2026-11-01",
       "author": "مصدر المطوّر",
       "officialWebsite": "",
       "relatedPlugins": [],
