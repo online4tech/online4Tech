@@ -79,6 +79,49 @@
           </ul>
           <p class="o4t-installer-note">💡 اتصل بالرسيفر من خلال Telnet أو SSH، ثم الصق الأمر واضغط Enter.</p>
         </section>
+
+        <section class="o4t-channel-installer" aria-labelledby="emil-installer-title">
+          <div class="o4t-installer-head">
+            <span class="o4t-installer-icon" aria-hidden="true">📡</span>
+            <div>
+              <p class="o4t-installer-eyebrow">EMIL NABIL · OPENATV</p>
+              <h2 id="emil-installer-title">📡 تثبيت ملف قنوات Emil Nabil</h2>
+            </div>
+          </div>
+          <p class="o4t-installer-description">قالب تثبيت إضافي لملف قنوات Emil Nabil على أجهزة Enigma2 المتوافقة مع OpenATV.</p>
+          <div class="o4t-command-label"><span aria-hidden="true">⌘</span> أمر التثبيت عبر Telnet / SSH</div>
+          <div class="o4t-command-row" dir="ltr">
+            <code class="o4t-install-command" id="emil-install-command">wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openatv/channel.sh -qO - | /bin/sh</code>
+            <button class="o4t-copy-command" id="emil-copy-command" type="button" aria-label="نسخ أمر تثبيت ملف قنوات Emil Nabil">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2"></rect><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"></path></svg>
+              <span>نسخ الأمر</span>
+            </button>
+          </div>
+          <ul class="o4t-installer-features">
+            <li>تحميل ملف القنوات من مستودع Emil Nabil</li>
+            <li>مخصص لبيئات Enigma2 المتوافقة</li>
+            <li>يحاول تثبيت إضافة astra-sm</li>
+            <li>يعيد تشغيل واجهة Enigma2 بعد التثبيت</li>
+          </ul>
+          <div class="empty" style="display:block;margin-top:18px;background:#fff7e8;color:#77511d;border:1px solid #f2d7a5">
+            ⚠️ <strong>تنبيه قبل التنفيذ:</strong> راجعت محتوى السكربت؛ وهو يحذف ملفات القنوات الحالية وملفات EPG والمؤقتات وبعض ملفات إعداد Enigma2، ثم يفك أرشيف القنوات الجديد داخل الجهاز ويحاول تثبيت astra-sm ويعيد تشغيل الواجهة. خُد نسخة احتياطية كاملة أولًا، وتأكد من توافق السكربت مع صورة جهازك، ولا تستخدمه لو عايز تحتفظ بالمؤقتات أو إعدادات القنوات الحالية.
+          </div>
+          <p class="o4t-installer-note">💡 نفّذ الأمر فقط على جهاز تملكه أو لديك صلاحية إدارته، وبعد مراجعة التحذير أعلاه.</p>
+        </section>
+        <script>
+          (function(){
+            "use strict";
+            var button=document.getElementById("emil-copy-command");
+            var command=document.getElementById("emil-install-command");
+            if(!button||!command)return;
+            function copy(text){
+              if(navigator.clipboard&&window.isSecureContext){
+                navigator.clipboard.writeText(text).then(function(){button.querySelector("span").textContent="تم النسخ ✓";}).catch(function(){window.prompt("انسخ الأمر يدويًا:",text);});
+              }else{window.prompt("انسخ الأمر يدويًا:",text);}
+            }
+            button.addEventListener("click",function(){copy(command.textContent.trim());});
+          })();
+        </script>
         <div class="o4t-copy-toast" id="o4t-copy-toast" role="status" aria-live="polite">تم نسخ الأمر بنجاح ✅</div>
         <style>
           .o4t-channel-installer{--o4t-card-bg:var(--tutorial-card,#0d1a2c);--o4t-card-line:var(--tutorial-border,#294761);position:relative;isolation:isolate;margin:0 0 28px;padding:clamp(18px,3.2vw,28px);border:1px solid var(--o4t-card-line);border-radius:22px;background:linear-gradient(145deg,rgba(20,48,73,.94),var(--o4t-card-bg) 68%);box-shadow:0 14px 34px rgba(0,0,0,.16);transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease;overflow:hidden}
