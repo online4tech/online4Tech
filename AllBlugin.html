@@ -337,7 +337,8 @@ function details(x){
  const metadata=[["الإصدار",x.version],["التاريخ",x.date],["التوافق",x.compatibility],["التصنيف",x.categoryLabel||m?.label],["الكلمات المفتاحية",x.keywords]];
  const meta=metadata.filter(([k,v])=>v!==undefined&&v!==null&&String(v).trim()!=="").map(([k,v])=>'<div><small>'+k+'</small><b>'+esc(v)+'</b></div>').join("");
  const action=(url,label,enabled,primary)=>enabled?'<a class="btn '+(primary?'primary':'')+'" href="'+esc(url)+'" target="_blank" rel="noopener">'+label+'</a>':'<button class="btn '+(primary?'primary':'')+'" type="button" disabled>'+label+'</button>';
- const commandBox=installCommand?'<section class="install-command-box"><div class="install-command-heading">أمر التنفيذ</div><div class="install-command-row"><code>'+esc(installCommand)+'</code></div><button class="mini-copy" type="button" data-copy-install="'+esc(installCommand)+'" aria-label="نسخ الأمر">نسخ الأمر</button></section>':'';
+ const isLongCommand=installCommand.length>180||installCommand.includes("\n");
+ const commandBox=installCommand&&!isLongCommand?'<section class="install-command-box"><div class="install-command-heading">أمر التنفيذ</div><div class="install-command-row"><code>'+esc(installCommand)+'</code></div><button class="mini-copy" type="button" data-copy-install="'+esc(installCommand)+'" aria-label="نسخ الأمر">نسخ الأمر</button></section>':'';
  const markup=(image?'<div class="detail-visual"><img src="'+esc(image)+'" alt="'+esc(x.name)+'" loading="lazy"></div>':'<div class="detail-visual"><span class="fallback">'+esc(icon)+'</span></div>')+
  '<h3 class="detail-title">'+esc(x.name)+'</h3><span class="type">'+esc(m?.label||"")+" · "+esc(sub?.label||"")+'</span>'+
  (x.description?'<p class="detail-description">'+esc(x.description)+'</p>':'')+
