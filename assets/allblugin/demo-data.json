@@ -6,12 +6,12 @@
       "id": "plugins",
       "label": "البلجنات",
       "icon": "📦",
-      "count": 24,
+      "count": 25,
       "subcategories": [
         {
           "id": "enigma",
           "label": "📦 إضافات Enigma2",
-          "count": 10,
+          "count": 14,
           "items": [
             "DreamOS Utility",
             "Service Manager",
@@ -25,7 +25,8 @@
             "Mawaqit",
             "NumberZapExt",
             "QuadPip",
-            "Advanced Screenshot"
+            "Advanced Screenshot",
+            "SubsSupportPro"
           ]
         },
         {
@@ -4218,6 +4219,22 @@
       "date": "2026-11-01",
       "keywords": "Picons OE-Alliance مصدر البيكونات opkg feed تثبيت تحميل أمر",
       "icon": "⌨️"
+    },
+    {
+      "id": 4195,
+      "name": "SubsSupportPro",
+      "category": "plugins",
+      "subcategory": "enigma",
+      "group": "📦 إضافات Enigma2",
+      "description": "إضافة لدعم وتحسين التعامل مع الترجمات على أجهزة Enigma2. راجع مستودع المطوّر وتوافق صورة النظام قبل التثبيت.",
+      "version": "غير محدد",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "SubsSupportPro Subtitles ترجمة subtitles Enigma2 بلجن",
+      "icon": "💬",
+      "sourceUrl": "https://github.com/popking159/SubsSupportPro",
+      "installCommand": "wget https://github.com/popking159/SubsSupportPro/raw/refs/heads/main/myinstaller.sh -O - | /bin/sh",
+      "command": "wget https://github.com/popking159/SubsSupportPro/raw/refs/heads/main/myinstaller.sh -O - | /bin/sh"
     }
   ]
 }
