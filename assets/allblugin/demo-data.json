@@ -6,12 +6,12 @@
       "id": "plugins",
       "label": "البلجنات",
       "icon": "📦",
-      "count": 86,
+      "count": 45,
       "subcategories": [
         {
           "id": "enigma",
           "label": "📦 إضافات Enigma2",
-          "count": 13,
+          "count": 10,
           "items": [
             "DreamOS Utility",
             "Service Manager",
@@ -38,56 +38,6 @@
             "XStreamity",
             "IPTVPlayer",
             "E2 IPTV"
-          ]
-        },
-        {
-          "id": "softcam",
-          "label": "🔐 السوفيتكامات",
-          "count": 10,
-          "items": [
-            "CCcam",
-            "OScam",
-            "NCam",
-            "GCam",
-            "Camd3",
-            "MgCamd",
-            "Levi45 Emulator (IPK)",
-            "Levi45 Emulator (DEB)",
-            "Emu Installer",
-            "Alternative Softcam Manager"
-          ]
-        },
-        {
-          "id": "skins",
-          "label": "🎨 السكينات",
-          "count": 12,
-          "items": [
-            "MetrixHD",
-            "KravenHD",
-            "BlueLine",
-            "ATV Blue",
-            "Dark Vision",
-            "Elegant Skin",
-            "DreamOS",
-            "OpenATV",
-            "OpenPLI",
-            "OpenVision",
-            "OpenBH",
-            "Vu+"
-          ]
-        },
-        {
-          "id": "picons",
-          "label": "🖼 البيكونات",
-          "count": 7,
-          "items": [
-            "Nilesat",
-            "Arabsat",
-            "Hotbird",
-            "MultiSat",
-            "IPTV",
-            "Motor",
-            "Streaming"
           ]
         },
         {
@@ -120,19 +70,6 @@
             "Download Manager",
             "Queue Manager",
             "Update Downloader"
-          ]
-        },
-        {
-          "id": "vuplus",
-          "label": "📺 إضافات Vu+",
-          "count": 6,
-          "items": [
-            "Vu+ Uno",
-            "Vu+ Solo",
-            "Vu+ Duo",
-            "Vu+ Zero",
-            "Vu+ Ultimo",
-            "Vu+ Tools"
           ]
         },
         {
@@ -180,16 +117,6 @@
           ]
         },
         {
-          "id": "backup-tools",
-          "label": "💾 النسخ الاحتياطية",
-          "count": 3,
-          "items": [
-            "AutoBackup",
-            "Backup Manager",
-            "Settings Restore"
-          ]
-        },
-        {
           "id": "plugin-updates",
           "label": "🔄 التحديثات",
           "count": 3,
@@ -198,6 +125,32 @@
             "Online Update",
             "Version Checker"
           ]
+        }
+      ]
+    },
+    {
+      "id": "softcam",
+      "label": "السوفت كام",
+      "icon": "🔐",
+      "count": 10,
+      "subcategories": [
+        {
+          "id": "packages",
+          "label": "🔐 حزم Softcam",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "id": "picons",
+      "label": "البيكونات",
+      "icon": "🖼",
+      "count": 7,
+      "subcategories": [
+        {
+          "id": "satellite-picons",
+          "label": "🖼 مجموعات البيكونات",
+          "count": 7
         }
       ]
     },
@@ -393,7 +346,7 @@
       "id": "tools",
       "label": "الأدوات",
       "icon": "🛠️",
-      "count": 20,
+      "count": 24,
       "subcategories": [
         {
           "id": "network-tools",
@@ -409,7 +362,7 @@
         {
           "id": "system-tools",
           "label": "أدوات النظام",
-          "count": 4,
+          "count": 5,
           "items": [
             "Log Viewer",
             "Memory Viewer",
@@ -430,7 +383,7 @@
         {
           "id": "backup-tools",
           "label": "أدوات النسخ الاحتياطي",
-          "count": 3,
+          "count": 6,
           "items": [
             "Backup Verifier",
             "Restore Assistant",
@@ -460,15 +413,28 @@
       ]
     },
     {
+      "id": "vuplus",
+      "label": "أجهزة Vu+",
+      "icon": "📺",
+      "count": 5,
+      "subcategories": [
+        {
+          "id": "models",
+          "label": "📺 موديلات Vu+",
+          "count": 5
+        }
+      ]
+    },
+    {
       "id": "backup",
       "label": "النسخ الاحتياطية",
       "icon": "💾",
-      "count": 13,
+      "count": 28,
       "subcategories": [
         {
           "id": "dreambox",
           "label": "Dreambox",
-          "count": 4,
+          "count": 1,
           "icon": "📦",
           "subcategories": [
             {
@@ -501,7 +467,7 @@
         {
           "id": "vuplus",
           "label": "Vu+",
-          "count": 9,
+          "count": 3,
           "icon": "📦",
           "subcategories": [
             {
@@ -645,7 +611,7 @@
       "id": "skins",
       "label": "السكينات",
       "icon": "🎨",
-      "count": 20,
+      "count": 26,
       "subcategories": [
         {
           "id": "dreamos",
@@ -708,6 +674,11 @@
             "Vu+ Black",
             "Vu+ Classic"
           ]
+        },
+        {
+          "id": "platform-index",
+          "label": "🧩 صور وأنظمة Enigma2",
+          "count": 6
         }
       ]
     },
@@ -731,22 +702,6 @@
     }
   ],
   "items": [
-    {
-      "id": 13,
-      "name": "DreamOS Utility",
-      "category": "plugins",
-      "group": "📦 إضافات Enigma2",
-      "description": "مجموعة أدوات مساعدة لإدارة أجهزة DreamOS.",
-      "version": "Demo",
-      "date": "2026-10-16",
-      "downloads": 2018,
-      "keywords": "DreamOS Utility Tools البلجنات",
-      "downloadUrl": "#",
-      "guideUrl": "#",
-      "detailUrl": "#",
-      "icon": "🧩",
-      "subcategory": "enigma"
-    },
     {
       "id": 16,
       "name": "Service Manager",
@@ -773,38 +728,6 @@
       "date": "2026-10-21",
       "downloads": 1333,
       "keywords": "SoftwareManager System البلجنات",
-      "downloadUrl": "#",
-      "guideUrl": "#",
-      "detailUrl": "#",
-      "icon": "🧩",
-      "subcategory": "enigma"
-    },
-    {
-      "id": 5,
-      "name": "EPGImport",
-      "category": "plugins",
-      "group": "📦 إضافات Enigma2",
-      "description": "استيراد بيانات دليل البرامج الإلكتروني وتنظيم مصادر EPG.",
-      "version": "Demo",
-      "date": "2026-10-24",
-      "downloads": 922,
-      "keywords": "EPGImport System البلجنات",
-      "downloadUrl": "#",
-      "guideUrl": "#",
-      "detailUrl": "#",
-      "icon": "🧩",
-      "subcategory": "enigma"
-    },
-    {
-      "id": 7,
-      "name": "AutoBackup",
-      "category": "plugins",
-      "group": "📦 إضافات Enigma2",
-      "description": "إعداد نسخ احتياطية دورية لإعدادات وملفات الجهاز.",
-      "version": "Demo",
-      "date": "2026-10-22",
-      "downloads": 1196,
-      "keywords": "AutoBackup System البلجنات",
       "downloadUrl": "#",
       "guideUrl": "#",
       "detailUrl": "#",
@@ -913,8 +836,8 @@
     {
       "id": 65,
       "name": "CCcam",
-      "category": "plugins",
-      "subcategory": "softcam",
+      "category": "softcam",
+      "subcategory": "packages",
       "group": "🔐 السوفيتكامات",
       "description": "حزمة CCcam بصيغة TAR.GZ من المستودع المصدر. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
       "version": "من المستودع المصدر",
@@ -930,8 +853,8 @@
     {
       "id": 66,
       "name": "OScam",
-      "category": "plugins",
-      "subcategory": "softcam",
+      "category": "softcam",
+      "subcategory": "packages",
       "group": "🔐 السوفيتكامات",
       "description": "حزمة OScam بصيغة TAR.GZ من المستودع المصدر. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
       "version": "من المستودع المصدر",
@@ -947,8 +870,8 @@
     {
       "id": 67,
       "name": "NCam",
-      "category": "plugins",
-      "subcategory": "softcam",
+      "category": "softcam",
+      "subcategory": "packages",
       "group": "🔐 السوفيتكامات",
       "description": "حزمة NCam بصيغة TAR.GZ من المستودع المصدر. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
       "version": "من المستودع المصدر",
@@ -964,8 +887,8 @@
     {
       "id": 68,
       "name": "GCam",
-      "category": "plugins",
-      "subcategory": "softcam",
+      "category": "softcam",
+      "subcategory": "packages",
       "group": "🔐 السوفيتكامات",
       "description": "عنصر تجريبي ضمن مجموعة Softcam.",
       "version": "Demo",
@@ -980,8 +903,8 @@
     {
       "id": 69,
       "name": "Camd3",
-      "category": "plugins",
-      "subcategory": "softcam",
+      "category": "softcam",
+      "subcategory": "packages",
       "group": "🔐 السوفيتكامات",
       "description": "عنصر تجريبي ضمن مجموعة Softcam.",
       "version": "Demo",
@@ -996,8 +919,8 @@
     {
       "id": 70,
       "name": "MgCamd",
-      "category": "plugins",
-      "subcategory": "softcam",
+      "category": "softcam",
+      "subcategory": "packages",
       "group": "🔐 السوفيتكامات",
       "description": "حزمة MgCamd بصيغة TAR.GZ من المستودع المصدر. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
       "version": "من المستودع المصدر",
@@ -1011,106 +934,10 @@
       "sourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
-      "id": 37,
-      "name": "MetrixHD",
-      "category": "plugins",
-      "group": "🎨 السكينات",
-      "description": "بيانات تجريبية لعنصر MetrixHD ضمن قسم DreamOS. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
-      "version": "Demo",
-      "date": "2026-10-19",
-      "downloads": 2506,
-      "keywords": "MetrixHD DreamOS السكينات",
-      "downloadUrl": "#",
-      "guideUrl": "#",
-      "detailUrl": "#",
-      "icon": "🎨",
-      "subcategory": "skins"
-    },
-    {
-      "id": 38,
-      "name": "KravenHD",
-      "category": "plugins",
-      "group": "🎨 السكينات",
-      "description": "بيانات تجريبية لعنصر KravenHD ضمن قسم DreamOS. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
-      "version": "Demo",
-      "date": "2026-10-18",
-      "downloads": 2643,
-      "keywords": "KravenHD DreamOS السكينات",
-      "downloadUrl": "#",
-      "guideUrl": "#",
-      "detailUrl": "#",
-      "icon": "🎨",
-      "subcategory": "skins"
-    },
-    {
-      "id": 39,
-      "name": "BlueLine",
-      "category": "plugins",
-      "group": "🎨 السكينات",
-      "description": "بيانات تجريبية لعنصر BlueLine ضمن قسم DreamOS. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
-      "version": "Demo",
-      "date": "2026-10-17",
-      "downloads": 2780,
-      "keywords": "BlueLine DreamOS السكينات",
-      "downloadUrl": "#",
-      "guideUrl": "#",
-      "detailUrl": "#",
-      "icon": "🎨",
-      "subcategory": "skins"
-    },
-    {
-      "id": 40,
-      "name": "ATV Blue",
-      "category": "plugins",
-      "group": "🎨 السكينات",
-      "description": "بيانات تجريبية لعنصر ATV Blue ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
-      "version": "Demo",
-      "date": "2026-10-16",
-      "downloads": 117,
-      "keywords": "ATV Blue OpenATV السكينات",
-      "downloadUrl": "#",
-      "guideUrl": "#",
-      "detailUrl": "#",
-      "icon": "🎨",
-      "subcategory": "skins"
-    },
-    {
-      "id": 41,
-      "name": "Dark Vision",
-      "category": "plugins",
-      "group": "🎨 السكينات",
-      "description": "بيانات تجريبية لعنصر Dark Vision ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
-      "version": "Demo",
-      "date": "2026-10-15",
-      "downloads": 254,
-      "keywords": "Dark Vision OpenATV السكينات",
-      "downloadUrl": "#",
-      "guideUrl": "#",
-      "detailUrl": "#",
-      "icon": "🎨",
-      "subcategory": "skins"
-    },
-    {
-      "id": 42,
-      "name": "Elegant Skin",
-      "category": "plugins",
-      "group": "🎨 السكينات",
-      "description": "بيانات تجريبية لعنصر Elegant Skin ضمن قسم OpenATV. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
-      "version": "Demo",
-      "date": "2026-10-14",
-      "downloads": 391,
-      "keywords": "Elegant Skin OpenATV السكينات",
-      "downloadUrl": "#",
-      "guideUrl": "#",
-      "detailUrl": "#",
-      "icon": "🎨",
-      "subcategory": "skins"
-    },
-    {
       "id": 71,
       "name": "DreamOS",
-      "category": "plugins",
-      "subcategory": "skins",
+      "category": "skins",
+      "subcategory": "platform-index",
       "group": "🎨 السكينات",
       "description": "عنصر تجريبي ضمن 🎨 السكينات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1125,8 +952,8 @@
     {
       "id": 72,
       "name": "OpenATV",
-      "category": "plugins",
-      "subcategory": "skins",
+      "category": "skins",
+      "subcategory": "platform-index",
       "group": "🎨 السكينات",
       "description": "عنصر تجريبي ضمن 🎨 السكينات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1141,8 +968,8 @@
     {
       "id": 73,
       "name": "OpenPLI",
-      "category": "plugins",
-      "subcategory": "skins",
+      "category": "skins",
+      "subcategory": "platform-index",
       "group": "🎨 السكينات",
       "description": "عنصر تجريبي ضمن 🎨 السكينات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1157,8 +984,8 @@
     {
       "id": 74,
       "name": "OpenVision",
-      "category": "plugins",
-      "subcategory": "skins",
+      "category": "skins",
+      "subcategory": "platform-index",
       "group": "🎨 السكينات",
       "description": "عنصر تجريبي ضمن 🎨 السكينات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1173,8 +1000,8 @@
     {
       "id": 75,
       "name": "OpenBH",
-      "category": "plugins",
-      "subcategory": "skins",
+      "category": "skins",
+      "subcategory": "platform-index",
       "group": "🎨 السكينات",
       "description": "عنصر تجريبي ضمن 🎨 السكينات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1189,8 +1016,8 @@
     {
       "id": 76,
       "name": "Vu+",
-      "category": "plugins",
-      "subcategory": "skins",
+      "category": "skins",
+      "subcategory": "platform-index",
       "group": "🎨 السكينات",
       "description": "عنصر تجريبي ضمن 🎨 السكينات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1205,8 +1032,8 @@
     {
       "id": 77,
       "name": "Nilesat",
-      "category": "plugins",
-      "subcategory": "picons",
+      "category": "picons",
+      "subcategory": "satellite-picons",
       "group": "🖼 البيكونات",
       "description": "مجموعة بيكونات/قنوات تجريبية لقمر نايل سات.",
       "version": "Demo",
@@ -1221,8 +1048,8 @@
     {
       "id": 78,
       "name": "Arabsat",
-      "category": "plugins",
-      "subcategory": "picons",
+      "category": "picons",
+      "subcategory": "satellite-picons",
       "group": "🖼 البيكونات",
       "description": "مجموعة تجريبية لقمر عرب سات.",
       "version": "Demo",
@@ -1237,8 +1064,8 @@
     {
       "id": 79,
       "name": "Hotbird",
-      "category": "plugins",
-      "subcategory": "picons",
+      "category": "picons",
+      "subcategory": "satellite-picons",
       "group": "🖼 البيكونات",
       "description": "مجموعة تجريبية لقمر Hotbird.",
       "version": "Demo",
@@ -1253,8 +1080,8 @@
     {
       "id": 80,
       "name": "MultiSat",
-      "category": "plugins",
-      "subcategory": "picons",
+      "category": "picons",
+      "subcategory": "satellite-picons",
       "group": "🖼 البيكونات",
       "description": "مجموعة تجريبية متعددة الأقمار.",
       "version": "Demo",
@@ -1269,8 +1096,8 @@
     {
       "id": 81,
       "name": "IPTV",
-      "category": "plugins",
-      "subcategory": "picons",
+      "category": "picons",
+      "subcategory": "satellite-picons",
       "group": "🖼 البيكونات",
       "description": "بيكونات تجريبية لقوائم IPTV.",
       "version": "Demo",
@@ -1285,8 +1112,8 @@
     {
       "id": 82,
       "name": "Motor",
-      "category": "plugins",
-      "subcategory": "picons",
+      "category": "picons",
+      "subcategory": "satellite-picons",
       "group": "🖼 البيكونات",
       "description": "بيكونات/قوائم لأنظمة الأطباق المتحركة.",
       "version": "Demo",
@@ -1301,8 +1128,8 @@
     {
       "id": 83,
       "name": "Streaming",
-      "category": "plugins",
-      "subcategory": "picons",
+      "category": "picons",
+      "subcategory": "satellite-picons",
       "group": "🖼 البيكونات",
       "description": "بيكونات لخدمات البث.",
       "version": "Demo",
@@ -1493,7 +1320,7 @@
     {
       "id": 58,
       "name": "Vu+ Uno",
-      "category": "plugins",
+      "category": "vuplus",
       "group": "📺 إضافات Vu+",
       "description": "بيانات تجريبية لعنصر Vu+ Uno ضمن قسم OpenPLI. استبدل الوصف والرابط بمعلومات العنصر الفعلية قبل النشر.",
       "version": "Demo",
@@ -1504,13 +1331,13 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "💾",
-      "subcategory": "vuplus"
+      "subcategory": "models"
     },
     {
       "id": 95,
       "name": "Vu+ Solo",
-      "category": "plugins",
-      "subcategory": "vuplus",
+      "category": "vuplus",
+      "subcategory": "models",
       "group": "📺 إضافات Vu+",
       "description": "عنصر تجريبي ضمن 📺 إضافات Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1525,8 +1352,8 @@
     {
       "id": 96,
       "name": "Vu+ Duo",
-      "category": "plugins",
-      "subcategory": "vuplus",
+      "category": "vuplus",
+      "subcategory": "models",
       "group": "📺 إضافات Vu+",
       "description": "عنصر تجريبي ضمن 📺 إضافات Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1541,8 +1368,8 @@
     {
       "id": 97,
       "name": "Vu+ Zero",
-      "category": "plugins",
-      "subcategory": "vuplus",
+      "category": "vuplus",
+      "subcategory": "models",
       "group": "📺 إضافات Vu+",
       "description": "عنصر تجريبي ضمن 📺 إضافات Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1557,8 +1384,8 @@
     {
       "id": 98,
       "name": "Vu+ Ultimo",
-      "category": "plugins",
-      "subcategory": "vuplus",
+      "category": "vuplus",
+      "subcategory": "models",
       "group": "📺 إضافات Vu+",
       "description": "عنصر تجريبي ضمن 📺 إضافات Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1573,8 +1400,8 @@
     {
       "id": 99,
       "name": "Vu+ Tools",
-      "category": "plugins",
-      "subcategory": "vuplus",
+      "category": "tools",
+      "subcategory": "system-tools",
       "group": "📺 إضافات Vu+",
       "description": "عنصر تجريبي ضمن 📺 إضافات Vu+ في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1845,7 +1672,7 @@
     {
       "id": 112,
       "name": "AutoBackup",
-      "category": "plugins",
+      "category": "tools",
       "subcategory": "backup-tools",
       "group": "💾 النسخ الاحتياطية",
       "description": "عنصر تجريبي ضمن 💾 النسخ الاحتياطية في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
@@ -1861,7 +1688,7 @@
     {
       "id": 113,
       "name": "Backup Manager",
-      "category": "plugins",
+      "category": "tools",
       "subcategory": "backup-tools",
       "group": "💾 النسخ الاحتياطية",
       "description": "عنصر تجريبي ضمن 💾 النسخ الاحتياطية في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
@@ -1877,7 +1704,7 @@
     {
       "id": 114,
       "name": "Settings Restore",
-      "category": "plugins",
+      "category": "tools",
       "subcategory": "backup-tools",
       "group": "💾 النسخ الاحتياطية",
       "description": "عنصر تجريبي ضمن 💾 النسخ الاحتياطية في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
@@ -5651,8 +5478,8 @@
     {
       "id": 4185,
       "name": "Levi45 Emulator (IPK)",
-      "category": "plugins",
-      "subcategory": "softcam",
+      "category": "softcam",
+      "subcategory": "packages",
       "group": "🔐 السوفيتكامات",
       "icon": "📦",
       "description": "حزمة IPK لإضافة Levi45 Emulator. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
@@ -5668,8 +5495,8 @@
     {
       "id": 4186,
       "name": "Levi45 Emulator (DEB)",
-      "category": "plugins",
-      "subcategory": "softcam",
+      "category": "softcam",
+      "subcategory": "packages",
       "group": "🔐 السوفيتكامات",
       "icon": "📦",
       "description": "حزمة DEB لإضافة Levi45 Emulator. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
@@ -5685,8 +5512,8 @@
     {
       "id": 4187,
       "name": "Emu Installer",
-      "category": "plugins",
-      "subcategory": "softcam",
+      "category": "softcam",
+      "subcategory": "packages",
       "group": "🔐 السوفيتكامات",
       "icon": "📦",
       "description": "أرشيف أداة Emu Installer. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
@@ -5701,8 +5528,8 @@
     {
       "id": 4188,
       "name": "Alternative Softcam Manager",
-      "category": "plugins",
-      "subcategory": "softcam",
+      "category": "softcam",
+      "subcategory": "packages",
       "group": "🔐 السوفيتكامات",
       "icon": "📦",
       "description": "أرشيف Alternative Softcam Manager. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
