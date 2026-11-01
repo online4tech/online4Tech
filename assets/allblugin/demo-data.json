@@ -201,7 +201,7 @@
       "id": "commands",
       "label": "الأوامر",
       "icon": "⌨️",
-      "count": 134,
+      "count": 135,
       "subcategories": [
         {
           "id": "sys-cmd",
@@ -260,7 +260,7 @@
         {
           "id": "chan-cmd",
           "label": "📡 أوامر القنوات",
-          "count": 20,
+          "count": 21,
           "items": [
             "عرض ملفات إعداد القنوات",
             "عرض قوائم الباقات",
@@ -281,7 +281,8 @@
             "عرض سجل آخر إعادة تحميل",
             "التحقق من صلاحيات مجلد القنوات",
             "عرض حجم مجلد القنوات",
-            "اختبار واجهة OpenWebif للقنوات"
+            "اختبار واجهة OpenWebif للقنوات",
+            "إدارة مصدر أيقونات القنوات OE-Alliance Picons"
           ]
         },
         {
@@ -5624,6 +5625,20 @@
       "date": "2026-11-01",
       "keywords": "ترقية الحزم — DreamOS update upgrade opkg apt Enigma2 DreamOS",
       "icon": "⌨️"
+    },
+    {
+      "id": 4184,
+      "name": "إدارة مصدر أيقونات القنوات OE-Alliance Picons",
+      "category": "commands",
+      "subcategory": "chan-cmd",
+      "group": "📡 أوامر القنوات",
+      "description": "سكريبت تبديل (Toggle) لمصدر OE-Alliance Picons: يضيف ملف مصدر الحزم عند عدم وجوده، ويحذفه عند وجوده، ثم يحدّث فهارس opkg. لا يثبت ملفات Picons نفسها.",
+      "command": "#!/bin/bash\n\n# Toggle OE-Alliance Picons feed: install if absent, remove if present.\nif [ -f /etc/opkg/oe-alliance-picon-feed.conf ]; then\n    echo \"> Removing OE-Alliance Picons feed...\"\n    sleep 3\n    rm -f /etc/opkg/oe-alliance-picon-feed.conf\n    rm -f /var/lib/opkg/lists/*\n    opkg update\n    echo \"OE-Alliance Picons feed removed.\"\nelse\n    echo \"> Installing OE-Alliance Picons feed...\"\n    echo \"src/gz oe-alliance-picon-feed https://raw.githubusercontent.com/oe-alliance/picons-feed/gh-pages\" > /etc/opkg/oe-alliance-picon-feed.conf\n    opkg update\n    echo \"OE-Alliance Picons feed installed.\"\nfi\nexit 0",
+      "compatibility": "أجهزة Enigma2 التي تستخدم opkg؛ يتطلب صلاحيات Root واتصال إنترنت. راجع تأثير حذف قوائم /var/lib/opkg/lists/* قبل التشغيل.",
+      "version": "Bash / Enigma2",
+      "date": "2026-11-01",
+      "keywords": "OE-Alliance Picons Feed بيكونات القنوات icons picons opkg update Enigma2",
+      "icon": "🖼️"
     }
   ]
 }
