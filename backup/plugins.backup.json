@@ -2428,7 +2428,8 @@
         "images/plugins/tmbd/screenshot-3.webp",
         "images/plugins/tmbd/screenshot-4.webp",
         "images/plugins/tmbd/screenshot-5.webp",
-        "images/plugins/tmbd/screenshot-6.webp"
+        "images/plugins/tmbd/screenshot-6.webp",
+        "images/plugins/tmbd/screenshot-7.webp"
       ],
       "changelog": [],
       "tags": [
@@ -6474,7 +6475,8 @@
       "relatedPlugins": [],
       "features": [
         "حزمة CCcam بصيغة TAR.GZ من المستودع المصدر."
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "oscam",
@@ -6520,7 +6522,8 @@
       "relatedPlugins": [],
       "features": [
         "حزمة OScam بصيغة TAR.GZ من المستودع المصدر."
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "ncam",
@@ -6566,7 +6569,8 @@
       "relatedPlugins": [],
       "features": [
         "حزمة NCam بصيغة TAR.GZ من المستودع المصدر."
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "mgcamd",
@@ -6612,7 +6616,8 @@
       "relatedPlugins": [],
       "features": [
         "حزمة MgCamd بصيغة TAR.GZ من المستودع المصدر."
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "levi45-emulator-ipk",
@@ -6650,7 +6655,7 @@
       "arabicDescription": "حزمة IPK لإضافة Levi45 Emulator.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "تحميل الحزمة ثم مراجعة تعليمات المستودع وتوافق صورة الجهاز والمعمارية قبل التثبيت.",
+      "installationMethod": "انسخ أمر Telnet؛ يتحقق من أداة التنزيل ومدير الحزم المتاح ثم يثبت ملف الحزمة. يجب التأكد من توافق الصورة والمعمارية قبل التنفيذ.",
       "requirements": "جهاز Enigma2 متوافق؛ يجب التحقق من نوع الحزمة والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/emilnabil/download-plugins",
@@ -6658,6 +6663,14 @@
       "relatedPlugins": [],
       "features": [
         "حزمة IPK لإضافة Levi45 Emulator."
+      ],
+      "githubStars": 1,
+      "telnetCommands": [
+        {
+          "label": "تثبيت عبر Telnet",
+          "command": "set -e\nURL='https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator/enigma2-plugin-extensions-levi45emulator_all.ipk'\nPKG='/tmp/levi45-emulator.ipk'\nif command -v wget >/dev/null 2>&1; then wget -O \"$PKG\" \"$URL\"; elif command -v curl >/dev/null 2>&1; then curl -fL \"$URL\" -o \"$PKG\"; else echo 'wget أو curl غير متاح'; exit 1; fi\nif [ ! -s \"$PKG\" ]; then echo 'فشل تنزيل ملف التثبيت'; exit 1; fi\nif [ 'ipk' = 'ipk' ]; then\n  if command -v opkg >/dev/null 2>&1; then opkg install \"$PKG\"; else echo 'الصورة لا تحتوي على opkg؛ ملف IPK غير مدعوم هنا'; exit 1; fi\nelse\n  if command -v dpkg >/dev/null 2>&1; then dpkg -i \"$PKG\"; else echo 'الصورة لا تحتوي على dpkg؛ ملف DEB غير مدعوم هنا'; exit 1; fi\nfi\nrm -f \"$PKG\"\necho 'انتهى أمر التثبيت؛ راجع سجل الجهاز للتأكد من نجاح الحزمة.'",
+          "compatibility": "يتطلب opkg لملف IPK أو dpkg لملف DEB؛ توافق الحزمة مع معمارية وصورة الجهاز غير مضمون تلقائياً."
+        }
       ]
     },
     {
@@ -6696,7 +6709,7 @@
       "arabicDescription": "حزمة DEB لإضافة Levi45 Emulator.",
       "latest": false,
       "downloadsCount": 0,
-      "installationMethod": "تحميل الحزمة ثم مراجعة تعليمات المستودع وتوافق صورة الجهاز والمعمارية قبل التثبيت.",
+      "installationMethod": "انسخ أمر Telnet؛ يتحقق من أداة التنزيل ومدير الحزم المتاح ثم يثبت ملف الحزمة. يجب التأكد من توافق الصورة والمعمارية قبل التنفيذ.",
       "requirements": "جهاز Enigma2 متوافق؛ يجب التحقق من نوع الحزمة والمعمارية قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/emilnabil/download-plugins",
@@ -6704,6 +6717,14 @@
       "relatedPlugins": [],
       "features": [
         "حزمة DEB لإضافة Levi45 Emulator."
+      ],
+      "githubStars": 1,
+      "telnetCommands": [
+        {
+          "label": "تثبيت عبر Telnet",
+          "command": "set -e\nURL='https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator/enigma2-plugin-extensions-levi45emulator_all.deb'\nPKG='/tmp/levi45-emulator.deb'\nif command -v wget >/dev/null 2>&1; then wget -O \"$PKG\" \"$URL\"; elif command -v curl >/dev/null 2>&1; then curl -fL \"$URL\" -o \"$PKG\"; else echo 'wget أو curl غير متاح'; exit 1; fi\nif [ ! -s \"$PKG\" ]; then echo 'فشل تنزيل ملف التثبيت'; exit 1; fi\nif [ 'deb' = 'ipk' ]; then\n  if command -v opkg >/dev/null 2>&1; then opkg install \"$PKG\"; else echo 'الصورة لا تحتوي على opkg؛ ملف IPK غير مدعوم هنا'; exit 1; fi\nelse\n  if command -v dpkg >/dev/null 2>&1; then dpkg -i \"$PKG\"; else echo 'الصورة لا تحتوي على dpkg؛ ملف DEB غير مدعوم هنا'; exit 1; fi\nfi\nrm -f \"$PKG\"\necho 'انتهى أمر التثبيت؛ راجع سجل الجهاز للتأكد من نجاح الحزمة.'",
+          "compatibility": "يتطلب opkg لملف IPK أو dpkg لملف DEB؛ توافق الحزمة مع معمارية وصورة الجهاز غير مضمون تلقائياً."
+        }
       ]
     },
     {
@@ -6750,7 +6771,8 @@
       "relatedPlugins": [],
       "features": [
         "أرشيف أداة Emu Installer."
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "alternative-softcam-manager",
@@ -6796,7 +6818,8 @@
       "relatedPlugins": [],
       "features": [
         "أرشيف Alternative Softcam Manager."
-      ]
+      ],
+      "githubStars": 1
     }
   ]
 }
