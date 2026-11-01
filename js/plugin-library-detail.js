@@ -24,10 +24,18 @@ function render(p){
  if(list)list.innerHTML=featureItems.map(x=>'<li>✓ '+esc(x)+'</li>').join('');
  if(featureSection)featureSection.hidden=!featureItems.length;
  const commandSection=document.querySelector('.pl-command-section');
- const hasCommand=Boolean(p.installCommand&&p.installCommand.trim());
+ const commands=Array.isArray(p.installCommands)?p.installCommands.filter(x=>x&&x.command&&String(x.command).trim()):[];
+ if(p.installCommand&&String(p.installCommand).trim()&&!commands.some(x=>x.command===p.installCommand))commands.unshift({label:'أمر التثبيت الأساسي',command:p.installCommand});
+ const hasCommand=commands.length>0;
  if(commandSection)commandSection.hidden=!hasCommand;
- if(hasCommand)$('detailCommand').textContent=p.installCommand;
- const copyBtn=$('detailCopy');if(copyBtn){copyBtn.hidden=!hasCommand;copyBtn.onclick=()=>copy(p.installCommand);}
+ const commandCode=$('detailCommand');
+ const commandTitle=commandCode&&commandCode.closest('.pl-command-section');
+ if(hasCommand){
+   commandTitle.querySelector('.pl-command-title h2').textContent=commands.length>1?'أوامر التثبيت والتحديث':'التثبيت السريع وأمر التثبيت';
+   commandCode.parentElement.innerHTML=commands.map((x,i)=>'<div class="pl-command-entry"><strong>'+esc(x.label||('أمر '+(i+1)))+'</strong><pre class="pl-code" dir="ltr"><code>'+esc(x.command)+'</code></pre><button type="button" class="pl-btn primary pl-copy-extra" data-command="'+esc(x.command)+'">📋 نسخ الأمر</button></div>').join('');
+   commandTitle.querySelectorAll('.pl-copy-extra').forEach(b=>b.addEventListener('click',()=>copy(b.dataset.command)));
+ }
+ const copyBtn=$('detailCopy');if(copyBtn){copyBtn.hidden=!hasCommand;copyBtn.onclick=()=>copy(commands[0].command);}
  const src=$('detailSource');if(src){if(p.sourceUrl){src.href=p.sourceUrl;src.hidden=false}else src.hidden=true;}
  const meta=document.querySelector('.pl-detail-meta');if(meta){meta.hidden=!(p.developer||p.category);}
  const related=all.filter(x=>x.category===p.category&&x.slug!==p.slug).slice(0,4);
