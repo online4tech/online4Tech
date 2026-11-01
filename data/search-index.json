@@ -5482,6 +5482,14 @@
     "type": "Page"
   },
   {
+    "title": "Aglare-FHD-PLI",
+    "description": "مكتبة سكينات Enigma2 من Online4Tech — روابط السكينات ومصادرها الأصلية.",
+    "url": "https://online4tech.github.io/online4Tech/skins.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "BackupFlash",
     "description": "تحميل وتثبيت BackupFlash لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/backupflash/index.html",
@@ -6480,13 +6488,5 @@
     "category": "منتجات",
     "brand": "Dreambox",
     "type": "Plugin"
-  },
-  {
-    "title": "Aglare-FHD-PLI",
-    "description": "Skin بدقة FHD من MNASR لعدة صور Enigma2؛ راجع التوافق وتعليمات المصدر قبل الاستخدام.",
-    "url": "https://online4tech.github.io/online4Tech/skins.html",
-    "category": "ملفات",
-    "brand": "Online4Tech",
-    "type": "Skin"
   }
 ]
