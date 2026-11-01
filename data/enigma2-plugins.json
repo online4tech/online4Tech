@@ -1425,7 +1425,7 @@
       ]
     },
     {
-      "slug": "almuaddhin",
+      "slug": "o4t-4158-almuaddhin",
       "name": "AlMuaddhin",
       "description": "إضافة مواقيت الصلاة والتنبيه لها على أجهزة Enigma2. سكربت المصدر يحذف مجلد الإضافة السابق قبل فك النسخة الجديدة؛ خذ نسخة من إعداداتك وراجع توافق الصورة قبل التنفيذ.",
       "category": "Tools",
@@ -1511,7 +1511,7 @@
       ]
     },
     {
-      "slug": "imagesdownloader",
+      "slug": "o4t-4159-imagesdownloader",
       "name": "ImagesDownloader",
       "description": "أداة تنزيل الصور/الملفات المرتبطة ببيئة Enigma2. سكربت المصدر يحذف مجلد الإضافة القديم قبل التثبيت؛ لا تنفّذه أثناء وجود تحديث أو عملية أخرى.",
       "category": "Tools",
@@ -1603,7 +1603,7 @@
       ]
     },
     {
-      "slug": "infobarweather",
+      "slug": "o4t-4160-infobarweather",
       "name": "InfoBarWeather",
       "description": "إضافة عرض معلومات الطقس على شريط المعلومات. سكربت المصدر يزيل مجلد النسخة السابقة ويثبت curl عند الحاجة؛ التوافق يعتمد على صورة Enigma2.",
       "category": "Tools",
@@ -1693,7 +1693,7 @@
       ]
     },
     {
-      "slug": "mawaqit",
+      "slug": "o4t-4161-mawaqit",
       "name": "Mawaqit",
       "description": "إضافة Mawaqit لعرض مواقيت الصلاة. سكربت المصدر يحذف مجلد الإضافة السابق قبل فك الأرشيف؛ راجع التوافق وخذ نسخة احتياطية.",
       "category": "Tools",
@@ -1776,7 +1776,7 @@
       ]
     },
     {
-      "slug": "numberzapext",
+      "slug": "o4t-4162-numberzapext",
       "name": "NumberZapExt",
       "description": "إضافة موسعة للتعامل مع التنقل بالأرقام بين القنوات. سكربت المصدر يحذف مجلد SystemPlugins السابق قبل التثبيت؛ لا تستخدمه إلا بعد التأكد من التوافق.",
       "category": "Tools",
@@ -1864,7 +1864,7 @@
       ]
     },
     {
-      "slug": "quadpip",
+      "slug": "o4t-4163-quadpip",
       "name": "QuadPip",
       "description": "إضافة وظائف العرض متعدد النوافذ (Quad PiP) للأجهزة والصور المتوافقة. سكربت المصدر يزيل الحزمة ومجلد الإضافة القديمين قبل التثبيت.",
       "category": "Tools",
@@ -1947,7 +1947,7 @@
       ]
     },
     {
-      "slug": "advanced-screenshot",
+      "slug": "o4t-4164-advanced-screenshot",
       "name": "Advanced Screenshot",
       "description": "أداة لالتقاط صور من واجهة Enigma2. ملف التثبيت IPK؛ السكربت يثبته باستخدام opkg ويحتاج curl. تحقق من معمارية وتوافق الصورة قبل التثبيت.",
       "category": "Tools",
@@ -2042,7 +2042,7 @@
       ]
     },
     {
-      "slug": "ciefp-19-e",
+      "slug": "o4t-4165-ciefp-19-e",
       "name": "Ciefp — قمر واحد 19°E",
       "description": "قائمة قنوات لقمر Astra 19.2°E. سكربت المصدر يحدّث ملفات إعدادات القنوات على الرسيفر؛ احتفظ بنسخة احتياطية قبل التنفيذ.",
       "category": "Settings",
@@ -2124,7 +2124,7 @@
       ]
     },
     {
-      "slug": "ciefp-19-e-13-e",
+      "slug": "o4t-4166-ciefp-19-e-13-e",
       "name": "Ciefp — قمران 19°E + 13°E",
       "description": "قائمة قنوات لتجميعة Astra 19.2°E وHot Bird 13°E. قد تستبدل إعدادات القنوات الحالية؛ راجع توافق الأقمار والتوصيلات وخذ نسخة احتياطية.",
       "category": "Settings",
@@ -2210,7 +2210,7 @@
       ]
     },
     {
-      "slug": "ciefp-6",
+      "slug": "o4t-4167-ciefp-6",
       "name": "Ciefp — 6 أقمار",
       "description": "قائمة متعددة الأقمار تشمل 23°E و19.2°E و16°E و13°E و1.9°E و0.8°W. تأكد من إعدادات الـDiSEqC قبل التثبيت.",
       "category": "Settings",
@@ -2286,7 +2286,7 @@
       ]
     },
     {
-      "slug": "morpheus883-hot-bird-astra",
+      "slug": "o4t-4168-morpheus883-hot-bird-astra",
       "name": "Morpheus883 — Hot Bird + Astra",
       "description": "قائمة قنوات متعددة الأقمار من Morpheus883 لتجميعة 13°E و19.2°E. السكربت ينشئ نسخة احتياطية من /etc/enigma2 قبل الاستبدال.",
       "category": "Settings",
@@ -2377,7 +2377,7 @@
       ]
     },
     {
-      "slug": "morpheus883-motor-settings",
+      "slug": "o4t-4169-morpheus883-motor-settings",
       "name": "Morpheus883 — Motor Settings",
       "description": "إعدادات قنوات للموتور من Morpheus883. السكربت ينشئ نسخة احتياطية مؤرخة من /etc/enigma2 قبل نسخ الإعدادات الجديدة.",
       "category": "Settings",
@@ -2466,7 +2466,7 @@
       ]
     },
     {
-      "slug": "morpheus883-settings",
+      "slug": "o4t-4170-morpheus883-settings",
       "name": "Morpheus883 — Settings",
       "description": "حزمة إعدادات قنوات عامة من Morpheus883. السكربت ينشئ نسخة احتياطية قبل تحديث ملفات /etc/enigma2.",
       "category": "Settings",
@@ -2549,7 +2549,7 @@
       ]
     },
     {
-      "slug": "vhannibal-hot-bird-13-e",
+      "slug": "o4t-4171-vhannibal-hot-bird-13-e",
       "name": "Vhannibal — Hot Bird 13°E",
       "description": "قائمة Vhannibal لقمر Hot Bird 13°E. تنبيه: السكربت يحذف ملفات القنوات والراديو الحالية قبل نسخ الجديدة؛ خذ نسخة احتياطية أولاً.",
       "category": "Settings",
@@ -2635,7 +2635,7 @@
       ]
     },
     {
-      "slug": "vhannibal-motor-70-e-45-w",
+      "slug": "o4t-4172-vhannibal-motor-70-e-45-w",
       "name": "Vhannibal — Motor 70°E إلى 45°W",
       "description": "إعدادات Vhannibal للموتور عبر نطاق أقمار واسع. السكربت يحذف ملفات القنوات والراديو الحالية؛ تأكد من إعدادات الموتور وخذ نسخة احتياطية.",
       "category": "Settings",
@@ -2727,7 +2727,7 @@
       ]
     },
     {
-      "slug": "vhannibal-dual-13-e-19-e",
+      "slug": "o4t-4173-vhannibal-dual-13-e-19-e",
       "name": "Vhannibal — Dual 13°E + 19°E",
       "description": "قائمة Vhannibal لقمرين Hot Bird 13°E وAstra 19.2°E. راجع توافق إعدادات الأقمار قبل الاستبدال.",
       "category": "Settings",
@@ -2816,7 +2816,7 @@
       ]
     },
     {
-      "slug": "cineview-fhd-mla",
+      "slug": "o4t-4174-cineview-fhd-mla",
       "name": "CineView FHD MLA",
       "description": "ثيم FHD مع مثبت ذكي يحدد عائلة الصورة ويتحقق من إصدار Python وملف IPK ببصمة SHA256 قبل التثبيت. مدعوم حسب السكربت: OpenATV وEGAMI وPurE2 وOpenBH وOpenViX وOpenPLi مع Python 3 ضمن الإصدارات المذكورة في المثبت.",
       "category": "Skins",
@@ -2887,7 +2887,7 @@
       ]
     },
     {
-      "slug": "mx-maestra-black-weather-python-3-12",
+      "slug": "o4t-4175-mx-maestra-black-weather-python-3-12",
       "name": "MX Maestra Black Weather — Python 3.12",
       "description": "ملف السكين المخصص لبيئات Python 3.12 فقط. لا تستخدمه مع إصدار Python مختلف؛ سكربت التثبيت يحذف مجلد السكين والحزمة السابقة.",
       "category": "Skins",
@@ -2980,7 +2980,7 @@
       ]
     },
     {
-      "slug": "mx-maestra-black-weather-python-3-13",
+      "slug": "o4t-4176-mx-maestra-black-weather-python-3-13",
       "name": "MX Maestra Black Weather — Python 3.13",
       "description": "ملف السكين المخصص لبيئات Python 3.13 فقط. لا تستخدمه مع إصدار Python مختلف؛ سكربت التثبيت يحذف مجلد السكين والحزمة السابقة.",
       "category": "Skins",
@@ -3073,7 +3073,7 @@
       ]
     },
     {
-      "slug": "holofhd-black",
+      "slug": "o4t-4177-holofhd-black",
       "name": "HoloFHD Black",
       "description": "Skin FHD لأجهزة DreamOS. مثبت المصدر يحاول تحديث الحزم ويثبت عدة مكونات Skin إضافية قبل فك الأرشيف؛ راجع الاعتماديات ومساحة التخزين.",
       "category": "Skins",
@@ -3141,7 +3141,7 @@
       ]
     },
     {
-      "slug": "zskin-fhd",
+      "slug": "o4t-4178-zskin-fhd",
       "name": "ZSkin FHD",
       "description": "Skin بدقة FHD. سكربت المصدر يفك الأرشيف إلى نظام الملفات مباشرة؛ تأكد من توافق الصورة وخذ نسخة احتياطية من إعدادات السكين.",
       "category": "Skins",
@@ -3205,7 +3205,7 @@
       ]
     },
     {
-      "slug": "brushedalu-hd",
+      "slug": "o4t-4179-brushedalu-hd",
       "name": "Brushedalu HD",
       "description": "Skin HD لأجهزة DreamOS. ملف تثبيت مباشر؛ راجع التوافق مع صورة جهازك قبل فك الملفات إلى النظام.",
       "category": "Skins",
@@ -3273,7 +3273,7 @@
       ]
     },
     {
-      "slug": "o4t-4161-openatv-enigma2",
+      "slug": "o4t-4180-openatv-enigma2",
       "name": "تحديث فهارس الحزم — OpenATV / Enigma2",
       "description": "تحديث قوائم الحزم المتاحة فقط دون تثبيت ترقيات. مناسب لصور Enigma2 التي تستخدم opkg.",
       "category": "Tools",
@@ -3372,7 +3372,7 @@
       ]
     },
     {
-      "slug": "o4t-4162-dreamos",
+      "slug": "o4t-4181-dreamos",
       "name": "تحديث فهارس الحزم — DreamOS",
       "description": "تحديث قوائم الحزم في DreamOS دون ترقية الحزم المثبتة.",
       "category": "Tools",
@@ -3461,7 +3461,7 @@
       ]
     },
     {
-      "slug": "o4t-4163-openatv-enigma2",
+      "slug": "o4t-4182-openatv-enigma2",
       "name": "ترقية الحزم — OpenATV / Enigma2",
       "description": "ترقية حزم النظام عبر opkg. قد تؤدي ترقية الحزم عشوائياً إلى عدم استقرار الصورة أو تعارضات؛ استخدمها فقط عند توصية مطور الصورة وبعد نسخة احتياطية.",
       "category": "Tools",
@@ -3554,7 +3554,7 @@
       ]
     },
     {
-      "slug": "o4t-4164-dreamos",
+      "slug": "o4t-4183-dreamos",
       "name": "ترقية الحزم — DreamOS",
       "description": "ترقية الحزم عبر apt في DreamOS. قد تغيّر مكونات النظام؛ استخدمها فقط عند توصية مطور الصورة وبعد نسخة احتياطية.",
       "category": "Tools",
