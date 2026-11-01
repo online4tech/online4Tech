@@ -422,7 +422,7 @@
           "id": "dreambox",
           "label": "Dreambox",
           "icon": "📦",
-          "count": 0,
+          "count": 1,
           "subcategories": [
             {
               "id": "dm-two",
@@ -435,7 +435,7 @@
           "id": "vuplus",
           "label": "Vu+",
           "icon": "📦",
-          "count": 1,
+          "count": 8,
           "subcategories": [
             {
               "id": "vu-zero4k",
