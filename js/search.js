@@ -221,7 +221,7 @@
       list.innerHTML = '<p class="o4t-search-empty">تعذر تحميل البحث الآن. حدّث الصفحة بعد قليل.</p>';
     }
   }
-  function init() { tagCards(); addFilters(); renderResults(); }
+  function init() { buildSearchUI(); tagCards(); addFilters(); renderResults(); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, {once:true}); else init();
 })();
 
