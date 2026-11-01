@@ -82,12 +82,12 @@
       "id": "picons",
       "label": "البيكونات",
       "icon": "🖼",
-      "count": 2,
+      "count": 3,
       "subcategories": [
         {
           "id": "satellite-picons",
           "label": "🖼 مجموعات البيكونات",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -4174,7 +4174,7 @@
       "icon": "🎨"
     },
     {
-      "id": 4185,
+      "id": 4192,
       "name": "حزمة Picons للقنوات — تحميل مباشر",
       "category": "picons",
       "subcategory": "satellite-picons",
@@ -4189,7 +4189,7 @@
       "sourceUrl": "https://online4tech.github.io/online4Tech/plugins/picons.html"
     },
     {
-      "id": 4186,
+      "id": 4193,
       "name": "SetPicon — إدارة وتثبيت البيكونات",
       "category": "picons",
       "subcategory": "satellite-picons",
@@ -4201,6 +4201,20 @@
       "downloadUrl": "",
       "sourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/setpicon",
       "installCommand": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh"
+    },
+    {
+      "id": 4194,
+      "name": "تفعيل مصدر OE-Alliance Picons",
+      "category": "picons",
+      "subcategory": "satellite-picons",
+      "group": "أوامر تحميل البيكونات",
+      "description": "أمر لإضافة مصدر بيكونات OE-Alliance إلى opkg وتحديث قائمة الحزم. يتيح الوصول إلى حزم البيكونات من مستودع OE-Alliance؛ لا يثبت ملفات البيكونات نفسها.",
+      "command": "#!/bin/bash\n\n# Toggle OE-Alliance Picons feed: install if absent, remove if present.\nif [ -f /etc/opkg/oe-alliance-picon-feed.conf ]; then\n    echo \"> Removing OE-Alliance Picons feed...\"\n    sleep 3\n    rm -f /etc/opkg/oe-alliance-picon-feed.conf\n    rm -f /var/lib/opkg/lists/*\n    opkg update\n    echo \"OE-Alliance Picons feed removed.\"\nelse\n    echo \"> Installing OE-Alliance Picons feed...\"\n    echo \"src/gz oe-alliance-picon-feed https://raw.githubusercontent.com/oe-alliance/picons-feed/gh-pages\" > /etc/opkg/oe-alliance-picon-feed.conf\n    opkg update\n    echo \"OE-Alliance Picons feed installed.\"\nfi\nexit 0",
+      "compatibility": "أجهزة Enigma2 التي تستخدم opkg؛ يتطلب صلاحيات Root واتصال إنترنت. راجع تأثير حذف قوائم /var/lib/opkg/lists/* قبل التشغيل.",
+      "version": "Bash / Enigma2",
+      "date": "2026-11-01",
+      "keywords": "Picons OE-Alliance مصدر البيكونات opkg feed تثبيت تحميل أمر",
+      "icon": "⌨️"
     }
   ]
 }
