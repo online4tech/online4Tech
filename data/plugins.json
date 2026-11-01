@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31",
+  "generatedAt": "2026-11-01",
   "schemaVersion": 4,
   "categories": [
     "Developer Tools",
@@ -2428,9 +2428,7 @@
         "images/plugins/tmbd/screenshot-3.webp",
         "images/plugins/tmbd/screenshot-4.webp",
         "images/plugins/tmbd/screenshot-5.webp",
-        "images/plugins/tmbd/screenshot-6.webp",
-        "images/plugins/tmbd/screenshot-7.webp",
-        "images/plugins/tmbd/screenshot-8.webp"
+        "images/plugins/tmbd/screenshot-6.webp"
       ],
       "changelog": [],
       "tags": [
@@ -3453,7 +3451,8 @@
         "إضافة مواقيت الصلاة والتنبيه لها على أجهزة Enigma2. سكربت المصدر يحذف مجلد الإضافة السابق قبل فك النسخة الجديدة؛ خذ نسخة من إعداداتك وراجع توافق الصورة قبل التنفيذ."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4159",
@@ -3578,7 +3577,8 @@
         "أداة تنزيل الصور/الملفات المرتبطة ببيئة Enigma2. سكربت المصدر يحذف مجلد الإضافة القديم قبل التثبيت؛ لا تنفّذه أثناء وجود تحديث أو عملية أخرى."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4160",
@@ -3701,7 +3701,8 @@
         "إضافة عرض معلومات الطقس على شريط المعلومات. سكربت المصدر يزيل مجلد النسخة السابقة ويثبت curl عند الحاجة؛ التوافق يعتمد على صورة Enigma2."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4161",
@@ -3817,7 +3818,8 @@
         "إضافة Mawaqit لعرض مواقيت الصلاة. سكربت المصدر يحذف مجلد الإضافة السابق قبل فك الأرشيف؛ راجع التوافق وخذ نسخة احتياطية."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4162",
@@ -3938,7 +3940,8 @@
         "إضافة موسعة للتعامل مع التنقل بالأرقام بين القنوات. سكربت المصدر يحذف مجلد SystemPlugins السابق قبل التثبيت؛ لا تستخدمه إلا بعد التأكد من التوافق."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4163",
@@ -4054,7 +4057,8 @@
         "إضافة وظائف العرض متعدد النوافذ (Quad PiP) للأجهزة والصور المتوافقة. سكربت المصدر يزيل الحزمة ومجلد الإضافة القديمين قبل التثبيت."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4164",
@@ -4182,7 +4186,8 @@
         "أداة لالتقاط صور من واجهة Enigma2. ملف التثبيت IPK؛ السكربت يثبته باستخدام opkg ويحتاج curl. تحقق من معمارية وتوافق الصورة قبل التثبيت."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4165",
@@ -4297,7 +4302,8 @@
         "قائمة قنوات لقمر Astra 19.2°E. سكربت المصدر يحدّث ملفات إعدادات القنوات على الرسيفر؛ احتفظ بنسخة احتياطية قبل التنفيذ."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4166",
@@ -4416,7 +4422,8 @@
         "قائمة قنوات لتجميعة Astra 19.2°E وHot Bird 13°E. قد تستبدل إعدادات القنوات الحالية؛ راجع توافق الأقمار والتوصيلات وخذ نسخة احتياطية."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4167",
@@ -4525,7 +4532,8 @@
         "قائمة متعددة الأقمار تشمل 23°E و19.2°E و16°E و13°E و1.9°E و0.8°W. تأكد من إعدادات الـDiSEqC قبل التثبيت."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4168",
@@ -4649,7 +4657,8 @@
         "قائمة قنوات متعددة الأقمار من Morpheus883 لتجميعة 13°E و19.2°E. السكربت ينشئ نسخة احتياطية من /etc/enigma2 قبل الاستبدال."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4169",
@@ -4771,7 +4780,8 @@
         "إعدادات قنوات للموتور من Morpheus883. السكربت ينشئ نسخة احتياطية مؤرخة من /etc/enigma2 قبل نسخ الإعدادات الجديدة."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4170",
@@ -4887,7 +4897,8 @@
         "حزمة إعدادات قنوات عامة من Morpheus883. السكربت ينشئ نسخة احتياطية قبل تحديث ملفات /etc/enigma2."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4171",
@@ -5006,7 +5017,8 @@
         "قائمة Vhannibal لقمر Hot Bird 13°E. تنبيه: السكربت يحذف ملفات القنوات والراديو الحالية قبل نسخ الجديدة؛ خذ نسخة احتياطية أولاً."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4172",
@@ -5131,7 +5143,8 @@
         "إعدادات Vhannibal للموتور عبر نطاق أقمار واسع. السكربت يحذف ملفات القنوات والراديو الحالية؛ تأكد من إعدادات الموتور وخذ نسخة احتياطية."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4173",
@@ -5253,7 +5266,8 @@
         "قائمة Vhannibal لقمرين Hot Bird 13°E وAstra 19.2°E. راجع توافق إعدادات الأقمار قبل الاستبدال."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4174",
@@ -5357,7 +5371,8 @@
         "ثيم FHD مع مثبت ذكي يحدد عائلة الصورة ويتحقق من إصدار Python وملف IPK ببصمة SHA256 قبل التثبيت. مدعوم حسب السكربت: OpenATV وEGAMI وPurE2 وOpenBH وOpenViX وOpenPLi مع Python 3 ضمن الإصدارات المذكورة في المثبت."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4175",
@@ -5483,7 +5498,8 @@
         "ملف السكين المخصص لبيئات Python 3.12 فقط. لا تستخدمه مع إصدار Python مختلف؛ سكربت التثبيت يحذف مجلد السكين والحزمة السابقة."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4176",
@@ -5609,7 +5625,8 @@
         "ملف السكين المخصص لبيئات Python 3.13 فقط. لا تستخدمه مع إصدار Python مختلف؛ سكربت التثبيت يحذف مجلد السكين والحزمة السابقة."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4177",
@@ -5710,7 +5727,8 @@
         "Skin FHD لأجهزة DreamOS. مثبت المصدر يحاول تحديث الحزم ويثبت عدة مكونات Skin إضافية قبل فك الأرشيف؛ راجع الاعتماديات ومساحة التخزين."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4178",
@@ -5807,7 +5825,8 @@
         "Skin بدقة FHD. سكربت المصدر يفك الأرشيف إلى نظام الملفات مباشرة؛ تأكد من توافق الصورة وخذ نسخة احتياطية من إعدادات السكين."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4179",
@@ -5908,7 +5927,8 @@
         "Skin HD لأجهزة DreamOS. ملف تثبيت مباشر؛ راجع التوافق مع صورة جهازك قبل فك الملفات إلى النظام."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4180",
@@ -6040,7 +6060,8 @@
         "تحديث قوائم الحزم المتاحة فقط دون تثبيت ترقيات. مناسب لصور Enigma2 التي تستخدم opkg."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4181",
@@ -6162,7 +6183,8 @@
         "تحديث قوائم الحزم في DreamOS دون ترقية الحزم المثبتة."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4182",
@@ -6288,7 +6310,8 @@
         "ترقية حزم النظام عبر opkg. قد تؤدي ترقية الحزم عشوائياً إلى عدم استقرار الصورة أو تعارضات؛ استخدمها فقط عند توصية مطور الصورة وبعد نسخة احتياطية."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     },
     {
       "id": "o4t-4183",
@@ -6404,7 +6427,8 @@
         "ترقية الحزم عبر apt في DreamOS. قد تغيّر مكونات النظام؛ استخدمها فقط عند توصية مطور الصورة وبعد نسخة احتياطية."
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
-      "popularityScore": 0
+      "popularityScore": 0,
+      "githubStars": 1
     }
   ]
 }
