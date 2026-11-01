@@ -333,7 +333,8 @@
       "tags": [
         "IPTV",
         "E2Player",
-        "oe-mirrors"
+        "oe-mirrors",
+        "E2Iplayer Updater"
       ],
       "icon": "📺",
       "features": [
@@ -341,6 +342,12 @@
         "تصفح الأفلام والمسلسلات",
         "الوصول إلى مصادر متعددة",
         "واجهة تشغيل من داخل Enigma2"
+      ],
+      "installCommands": [
+        {
+          "label": "E2Iplayer Updater",
+          "command": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2IplayerUpdater/E2IplayerUpdater.sh | /bin/sh"
+        }
       ]
     },
     {
