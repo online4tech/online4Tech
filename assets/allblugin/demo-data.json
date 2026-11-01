@@ -5497,7 +5497,7 @@
       "keywords": "MX Maestra Black Weather — Python 3.12 Enigma2 skin Dreambox Vu+ Python",
       "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.12.tar.gz",
       "repository": "https://github.com/emilnabil/download-plugins/tree/main/Skin-MX_Maestra_Black_weather",
-      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.12.sh | /bin/sh",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black_weather.sh | /bin/sh",
       "compatibility": "راجع إصدار Python وعائلة الصورة المدعومة في وصف السكين.",
       "icon": "🎨"
     },
@@ -5514,7 +5514,7 @@
       "keywords": "MX Maestra Black Weather — Python 3.13 Enigma2 skin Dreambox Vu+ Python",
       "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.13.tar.gz",
       "repository": "https://github.com/emilnabil/download-plugins/tree/main/Skin-MX_Maestra_Black_weather",
-      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.13.sh | /bin/sh",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black_weather.sh | /bin/sh",
       "compatibility": "راجع إصدار Python وعائلة الصورة المدعومة في وصف السكين.",
       "icon": "🎨"
     },
