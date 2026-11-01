@@ -183,7 +183,7 @@
     },
     {
       "id": "subssupportpro",
-      "name": "SubsSupport Pro",
+      "name": "SubsSupportPro",
       "slug": "subssupportpro",
       "description": "أدوات دعم الترجمة وإدارة ملفات الترجمة أثناء تشغيل الوسائط.",
       "version": "غير محدد",
@@ -219,7 +219,8 @@
         "Enigma2",
         "بلجن",
         "إضافة",
-        "subssupportpro"
+        "subssupportpro",
+        "SubsSupportPro"
       ],
       "arabicDescription": "أدوات دعم الترجمة وإدارة ملفات الترجمة أثناء تشغيل الوسائط.",
       "latest": false,
@@ -237,8 +238,8 @@
       "features": [],
       "telnetCommands": [
         {
-          "label": "تثبيت SubsSupport",
-          "command": "wget -qO- https://raw.githubusercontent.com/popking159/ssupport/main/subssupport-install.sh | /bin/sh"
+          "label": "تثبيت SubsSupportPro",
+          "command": "wget https://github.com/popking159/SubsSupportPro/raw/refs/heads/main/myinstaller.sh -O - | /bin/sh"
         }
       ],
       "icon": "images/plugins/subssupportpro/icon.webp",
@@ -2473,8 +2474,7 @@
         "images/plugins/tmbd/screenshot-4.webp",
         "images/plugins/tmbd/screenshot-5.webp",
         "images/plugins/tmbd/screenshot-6.webp",
-        "images/plugins/tmbd/screenshot-7.webp",
-        "images/plugins/tmbd/screenshot-8.webp"
+        "images/plugins/tmbd/screenshot-7.webp"
       ],
       "changelog": [],
       "tags": [
