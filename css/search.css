@@ -30,3 +30,15 @@
 @media(max-width:560px){.o4t-search-shell{width:94%;margin:10px auto 14px}.o4t-search-form{gap:5px}.o4t-search-submit{padding:9px 10px;font-size:.82rem}.o4t-filter-field{min-width:calc(50% - 8px)}.o4t-result-count{width:100%;margin:0}}
 
 .o4t-search-result-group{margin:22px 0}.o4t-search-result-group>h2{font-size:1.2rem;margin:0 0 10px;color:#67d2ff}
+
+/* Homepage search launcher and focused overlay */
+.contact-rail .rail-search{display:flex;align-items:center;justify-content:flex-start;gap:9px;min-height:46px;padding:8px 13px;border:2px solid #08223a;border-radius:999px;color:#fff;background:linear-gradient(135deg,#16b8d4,#1768d5);font:700 13px Tahoma,Arial,sans-serif;white-space:nowrap;cursor:pointer;box-shadow:0 5px 0 #0006,0 9px 22px #0006;transition:transform .18s,filter .18s}
+.contact-rail .rail-search:hover{transform:translateX(4px);filter:brightness(1.08)}
+.contact-rail .rail-search:focus-visible{outline:3px solid #ffcf70;outline-offset:3px}
+.o4t-home-search{display:none;position:fixed!important;inset:0!important;z-index:100000!important;width:100%!important;max-width:none!important;height:100dvh;margin:0!important;padding:22px!important;align-items:flex-start;justify-content:center;background:#020b17c9;backdrop-filter:blur(7px);overflow:auto}
+.o4t-home-search.is-open{display:flex}
+.o4t-home-search .o4t-search-form{width:min(720px,100%);margin:12vh auto 0;border-color:#2b83bd;box-shadow:0 22px 70px #0009}
+.o4t-home-search .o4t-search-results{position:relative;top:auto;inset:auto;width:min(720px,100%);max-height:52vh;margin:10px auto 0}
+.o4t-home-search .o4t-search-close{position:fixed;top:22px;inset-inline-end:22px;width:42px;height:42px;border:1px solid #5b7895;border-radius:50%;background:#10243a;color:#fff;font-size:1.7rem;cursor:pointer}
+.o4t-home-search .o4t-search-form,.o4t-home-search .o4t-search-results{flex-shrink:0}
+@media(max-width:600px){.contact-rail .rail-search{min-height:43px;padding:7px 10px;font-size:11px;gap:7px}.o4t-home-search{padding:14px!important}.o4t-home-search .o4t-search-form{margin-top:15vh}.o4t-home-search .o4t-search-close{top:12px;inset-inline-end:12px}}
