@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-01T08:36:09.211Z",
-  "pluginsScanned": 74,
+  "generatedAt": "2026-11-01T09:00:02.863Z",
+  "pluginsScanned": 82,
   "imagesDownloaded": 61,
   "imagesUpdated": 0,
   "placeholdersGenerated": 0,
-  "totalStoredImages": 95,
-  "repositoryImagesStored": 95,
+  "totalStoredImages": 96,
+  "repositoryImagesStored": 96,
   "placeholderAssetsStored": 0,
   "missingImages": [
     {
@@ -334,6 +334,46 @@
       "plugin": "o4t-4183",
       "repository": "emilnabil/download-plugins",
       "reason": "No approved logo/icon file found"
+    },
+    {
+      "plugin": "cccam",
+      "repository": "emilnabil/download-plugins",
+      "reason": "No approved logo/icon file found"
+    },
+    {
+      "plugin": "oscam",
+      "repository": "emilnabil/download-plugins",
+      "reason": "No approved logo/icon file found"
+    },
+    {
+      "plugin": "ncam",
+      "repository": "emilnabil/download-plugins",
+      "reason": "No approved logo/icon file found"
+    },
+    {
+      "plugin": "mgcamd",
+      "repository": "emilnabil/download-plugins",
+      "reason": "No approved logo/icon file found"
+    },
+    {
+      "plugin": "levi45-emulator-ipk",
+      "repository": "emilnabil/download-plugins",
+      "reason": "No approved logo/icon file found"
+    },
+    {
+      "plugin": "levi45-emulator-deb",
+      "repository": "emilnabil/download-plugins",
+      "reason": "No approved logo/icon file found"
+    },
+    {
+      "plugin": "emu-installer",
+      "repository": "emilnabil/download-plugins",
+      "reason": "No approved logo/icon file found"
+    },
+    {
+      "plugin": "alternative-softcam-manager",
+      "repository": "emilnabil/download-plugins",
+      "reason": "No approved logo/icon file found"
     }
   ],
   "failedRepositories": [
@@ -343,6 +383,6 @@
       "error": "GitHub API 404 https://api.github.com/repos/digiteng/xtra"
     }
   ],
-  "cachedRepositories": 6,
+  "cachedRepositories": 7,
   "catalogChanged": true
 }

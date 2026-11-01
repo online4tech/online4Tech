@@ -2428,7 +2428,8 @@
         "images/plugins/tmbd/screenshot-3.webp",
         "images/plugins/tmbd/screenshot-4.webp",
         "images/plugins/tmbd/screenshot-5.webp",
-        "images/plugins/tmbd/screenshot-6.webp"
+        "images/plugins/tmbd/screenshot-6.webp",
+        "images/plugins/tmbd/screenshot-7.webp"
       ],
       "changelog": [],
       "tags": [
@@ -6474,7 +6475,8 @@
       "relatedPlugins": [],
       "features": [
         "حزمة CCcam بصيغة TAR.GZ من المستودع المصدر."
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "oscam",
@@ -6520,7 +6522,8 @@
       "relatedPlugins": [],
       "features": [
         "حزمة OScam بصيغة TAR.GZ من المستودع المصدر."
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "ncam",
@@ -6566,7 +6569,8 @@
       "relatedPlugins": [],
       "features": [
         "حزمة NCam بصيغة TAR.GZ من المستودع المصدر."
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "mgcamd",
@@ -6612,7 +6616,8 @@
       "relatedPlugins": [],
       "features": [
         "حزمة MgCamd بصيغة TAR.GZ من المستودع المصدر."
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "levi45-emulator-ipk",
@@ -6658,7 +6663,8 @@
       "relatedPlugins": [],
       "features": [
         "حزمة IPK لإضافة Levi45 Emulator."
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "levi45-emulator-deb",
@@ -6704,7 +6710,8 @@
       "relatedPlugins": [],
       "features": [
         "حزمة DEB لإضافة Levi45 Emulator."
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "emu-installer",
@@ -6750,7 +6757,8 @@
       "relatedPlugins": [],
       "features": [
         "أرشيف أداة Emu Installer."
-      ]
+      ],
+      "githubStars": 1
     },
     {
       "id": "alternative-softcam-manager",
@@ -6796,7 +6804,8 @@
       "relatedPlugins": [],
       "features": [
         "أرشيف Alternative Softcam Manager."
-      ]
+      ],
+      "githubStars": 1
     }
   ]
 }
