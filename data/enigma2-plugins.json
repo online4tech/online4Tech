@@ -625,7 +625,7 @@
         ],
         "note": "OpenATV مذكورة ضمن صور التوافق في سجل الإضافة الحالي."
       },
-      "installCommand": "wget -qO - https://raw.githubusercontent.com/popking159/SubsSupportPro/refs/heads/main/myinstaller.sh | /bin/sh",
+      "installCommand": "wget https://github.com/popking159/SubsSupportPro/raw/refs/heads/main/myinstaller.sh -O - | /bin/sh",
       "sourceUrl": "https://github.com/popking159/SubsSupportPro",
       "tags": [
         "Translation",
