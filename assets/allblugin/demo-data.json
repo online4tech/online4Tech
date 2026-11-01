@@ -1522,23 +1522,6 @@
       "compatibility": "Vu+ Duo 4K SE فقط"
     },
     {
-      "id": 43,
-      "name": "قائمة محدثة يومية",
-      "category": "channels",
-      "group": "Nilesat",
-      "description": "ملف قنوات Online4Tech المحدث لأجهزة Enigma2 المتوافقة مع OpenATV. احتفظ بنسخة من قائمة قنواتك الحالية قبل الاستعادة.",
-      "version": "آخر إصدار من المستودع",
-      "date": "يتم التحديث مع المستودع",
-      "downloads": 528,
-      "keywords": "قائمة محدثة يومية نايل سات ملفات القنوات",
-      "downloadUrl": "https://github.com/online4tech/Enigma2-Chanal-List-BYRomeh/raw/refs/heads/main/channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
-      "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html",
-      "detailUrl": "#",
-      "icon": "📺",
-      "subcategory": "nilesat",
-      "compatibility": "OpenATV وأجهزة Enigma2 المتوافقة مع بنية ملف القنوات"
-    },
-    {
       "id": 166,
       "name": "MetrixHD",
       "category": "skins",
@@ -3725,6 +3708,23 @@
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
       "detailUrl": "#",
       "compatibility": "Vu+ Duo 4K SE فقط"
+    },
+    {
+      "id": 43,
+      "name": "ملف قنوات Online4Tech الرسمي — OpenATV",
+      "category": "channels",
+      "group": "ملف قنوات الموقع",
+      "description": "ملف القنوات الرسمي المقدم من Online4Tech لأجهزة Enigma2 المتوافقة مع OpenATV. يتم تحديثه عبر مستودع الموقع؛ احتفظ بنسخة من قائمة قنواتك الحالية قبل الاستعادة.",
+      "version": "آخر إصدار من المستودع",
+      "date": "يتم التحديث مع المستودع",
+      "downloads": 528,
+      "keywords": "Online4Tech ملف قنوات الموقع الرسمي قنوات OpenATV Enigma2 نايل سات",
+      "downloadUrl": "https://github.com/online4tech/Enigma2-Chanal-List-BYRomeh/raw/refs/heads/main/channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
+      "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html",
+      "detailUrl": "#",
+      "icon": "📺",
+      "subcategory": "nilesat",
+      "compatibility": "OpenATV وأجهزة Enigma2 المتوافقة مع بنية ملف القنوات"
     },
     {
       "id": 4157,
