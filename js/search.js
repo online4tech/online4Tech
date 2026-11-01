@@ -61,7 +61,9 @@
     const shell = document.createElement('section');
     shell.className = 'o4t-search-shell';
     shell.id = 'o4t-global-search';
-    shell.innerHTML = '<form class="o4t-search-form" role="search"><span class="o4t-search-mark" aria-hidden="true">⌕</span><input class="o4t-search-input" type="search" name="q" autocomplete="off" aria-label="بحث سريع" placeholder="ابحث عن منتج أو شرح أو جهاز"><button type="submit" class="o4t-search-submit">بحث</button></form><div class="o4t-search-results" role="listbox" aria-live="polite"></div>';
+    const homeMode = document.body.classList.contains('home-search-mode');
+    if (homeMode) shell.classList.add('o4t-home-search');
+    shell.innerHTML = (homeMode ? '<button type="button" class="o4t-search-close" aria-label="إغلاق البحث">×</button>' : '') + '<form class="o4t-search-form" role="search"><span class="o4t-search-mark" aria-hidden="true">⌕</span><input class="o4t-search-input" type="search" name="q" autocomplete="off" aria-label="بحث سريع" placeholder="ابحث عن منتج أو شرح أو جهاز"><button type="submit" class="o4t-search-submit">بحث</button></form><div class="o4t-search-results" role="listbox" aria-live="polite"></div>';
     const header = document.querySelector('header');
     const main = document.querySelector('main');
     if (header && header.parentNode) header.insertAdjacentElement('afterend', shell);
@@ -70,6 +72,12 @@
     const form = shell.querySelector('form');
     const input = shell.querySelector('input');
     const results = shell.querySelector('.o4t-search-results');
+    const closeButton = shell.querySelector('.o4t-search-close');
+    const launcher = document.querySelector('.rail-search');
+    const closeHomeSearch = () => { shell.classList.remove('is-open'); if (launcher) launcher.focus(); };
+    if (launcher && homeMode) launcher.addEventListener('click', () => { shell.classList.add('is-open'); input.focus(); });
+    if (closeButton) closeButton.addEventListener('click', closeHomeSearch);
+    document.addEventListener('keydown', event => { if (event.key === 'Escape' && shell.classList.contains('is-open')) closeHomeSearch(); });
     const run = async () => {
       const q = input.value;
       if (!normalize(q)) { results.classList.remove('is-open'); results.innerHTML=''; return; }
@@ -88,7 +96,7 @@
       const q = input.value.trim();
       window.location.href = BASE + 'search.html?q=' + encodeURIComponent(q);
     });
-    document.addEventListener('click', event => { if (!shell.contains(event.target)) results.classList.remove('is-open'); });
+    document.addEventListener('click', event => { if (homeMode && shell.classList.contains('is-open') && !shell.contains(event.target) && !launcher?.contains(event.target)) closeHomeSearch(); else if (!shell.contains(event.target)) results.classList.remove('is-open'); });
     const initial = new URLSearchParams(location.search).get('q');
     if (initial && /search\.html$/i.test(location.pathname)) input.value = initial;
   }
