@@ -2429,7 +2429,8 @@
         "images/plugins/tmbd/screenshot-4.webp",
         "images/plugins/tmbd/screenshot-5.webp",
         "images/plugins/tmbd/screenshot-6.webp",
-        "images/plugins/tmbd/screenshot-7.webp"
+        "images/plugins/tmbd/screenshot-7.webp",
+        "images/plugins/tmbd/screenshot-8.webp"
       ],
       "changelog": [],
       "tags": [
@@ -4177,7 +4178,7 @@
         "Emil Nabil"
       ],
       "downloadsCount": 0,
-      "installationMethod": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/advancedscreenshot/advancedscreenshot.sh | /bin/sh",
+      "installationMethod": "أمر Telnet ينزّل ملف IPK الرسمي ثم يثبته عبر opkg؛ يلزم التحقق من توافق صورة Enigma2 والمعمارية والاعتماديات.",
       "requirements": "تحقق من صورة Enigma2 وإصدار Python ومعمارية الجهاز قبل التثبيت.",
       "youtubeVideo": "",
       "githubUrl": "https://github.com/emilnabil/download-plugins/tree/main/advancedscreenshot",
@@ -4188,7 +4189,13 @@
       ],
       "lastUpdated": "2026-10-31T00:00:00Z",
       "popularityScore": 0,
-      "githubStars": 1
+      "githubStars": 1,
+      "telnetCommands": [
+        {
+          "label": "تثبيت IPK الرسمي عبر Telnet",
+          "command": "set -e\nURL='https://raw.githubusercontent.com/emilnabil/download-plugins/main/advancedscreenshot/enigma2-plugin-extensions-advancedscreenshot_all.ipk'\nPKG='/tmp/enigma2-plugin-extensions-advancedscreenshot_all.ipk'\nif command -v wget >/dev/null 2>&1; then wget -O \"$PKG\" \"$URL\"; elif command -v curl >/dev/null 2>&1; then curl -fL \"$URL\" -o \"$PKG\"; else echo 'wget أو curl غير متاح'; exit 1; fi\n[ -s \"$PKG\" ] || { echo 'فشل تنزيل ملف IPK'; exit 1; }\ncommand -v opkg >/dev/null 2>&1 || { echo 'مدير الحزم opkg غير متاح في هذه الصورة'; exit 1; }\nopkg install \"$PKG\"\nrm -f \"$PKG\"\necho 'انتهى التثبيت؛ تحقق من سجل الجهاز إذا ظهرت أخطاء اعتماديات.'"
+        }
+      ]
     },
     {
       "id": "o4t-4165",
