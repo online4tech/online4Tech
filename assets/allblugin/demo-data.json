@@ -6,7 +6,7 @@
       "id": "plugins",
       "label": "البلجنات",
       "icon": "📦",
-      "count": 45,
+      "count": 24,
       "subcategories": [
         {
           "id": "enigma",
@@ -41,49 +41,6 @@
           ]
         },
         {
-          "id": "system-tools",
-          "label": "🛠 أدوات النظام",
-          "count": 4,
-          "items": [
-            "DreamOS Utility",
-            "System Cleaner",
-            "Package Manager",
-            "Process Manager"
-          ]
-        },
-        {
-          "id": "settings",
-          "label": "⚙ الإعدادات",
-          "count": 4,
-          "items": [
-            "Settings Backup",
-            "Network Settings",
-            "User Interface Settings",
-            "Tuner Settings"
-          ]
-        },
-        {
-          "id": "downloads",
-          "label": "📥 مدير التنزيلات",
-          "count": 3,
-          "items": [
-            "Download Manager",
-            "Queue Manager",
-            "Update Downloader"
-          ]
-        },
-        {
-          "id": "netplugins",
-          "label": "🌐 إضافات الشبكات",
-          "count": 4,
-          "items": [
-            "Network Browser",
-            "Web Interface",
-            "FTP Manager",
-            "Wake on LAN"
-          ]
-        },
-        {
           "id": "media",
           "label": "🎬 إضافات الميديا",
           "count": 5,
@@ -104,26 +61,6 @@
             "EPG Share",
             "EPG Refresh",
             "EPG Search"
-          ]
-        },
-        {
-          "id": "files",
-          "label": "📁 مدير الملفات",
-          "count": 3,
-          "items": [
-            "File Commander",
-            "File Browser",
-            "FTP File Manager"
-          ]
-        },
-        {
-          "id": "plugin-updates",
-          "label": "🔄 التحديثات",
-          "count": 3,
-          "items": [
-            "Plugin Updates",
-            "Online Update",
-            "Version Checker"
           ]
         }
       ]
@@ -346,28 +283,37 @@
       "id": "tools",
       "label": "الأدوات",
       "icon": "🛠️",
-      "count": 24,
+      "count": 45,
       "subcategories": [
         {
           "id": "network-tools",
           "label": "أدوات الشبكات",
-          "count": 4,
+          "count": 8,
           "items": [
             "Ping Test",
             "Port Scanner",
             "DNS Lookup",
-            "Network Monitor"
+            "Network Monitor",
+            "Network Browser",
+            "Web Interface",
+            "FTP Manager",
+            "Wake on LAN"
           ]
         },
         {
           "id": "system-tools",
           "label": "أدوات النظام",
-          "count": 5,
+          "count": 9,
           "items": [
             "Log Viewer",
             "Memory Viewer",
             "Process Monitor",
-            "Storage Analyzer"
+            "Storage Analyzer",
+            "DreamOS Utility",
+            "System Cleaner",
+            "Package Manager",
+            "Process Manager",
+            "Vu+ Tools"
           ]
         },
         {
@@ -408,6 +354,47 @@
             "Signal Meter",
             "SNR Monitor",
             "Satellite Finder"
+          ]
+        },
+        {
+          "id": "settings-tools",
+          "label": "إعدادات الجهاز",
+          "count": 4,
+          "items": [
+            "Settings Backup",
+            "Network Settings",
+            "User Interface Settings",
+            "Tuner Settings"
+          ]
+        },
+        {
+          "id": "download-tools",
+          "label": "إدارة التنزيلات",
+          "count": 3,
+          "items": [
+            "Download Manager",
+            "Queue Manager",
+            "Update Downloader"
+          ]
+        },
+        {
+          "id": "file-tools",
+          "label": "إدارة الملفات",
+          "count": 3,
+          "items": [
+            "File Commander",
+            "File Browser",
+            "FTP File Manager"
+          ]
+        },
+        {
+          "id": "update-tools",
+          "label": "التحديثات",
+          "count": 3,
+          "items": [
+            "Plugin Updates",
+            "Online Update",
+            "Version Checker"
           ]
         }
       ]
@@ -1144,7 +1131,7 @@
     {
       "id": 84,
       "name": "DreamOS Utility",
-      "category": "plugins",
+      "category": "tools",
       "subcategory": "system-tools",
       "group": "🛠 أدوات النظام",
       "description": "عنصر تجريبي ضمن 🛠 أدوات النظام في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
@@ -1160,7 +1147,7 @@
     {
       "id": 85,
       "name": "System Cleaner",
-      "category": "plugins",
+      "category": "tools",
       "subcategory": "system-tools",
       "group": "🛠 أدوات النظام",
       "description": "عنصر تجريبي ضمن 🛠 أدوات النظام في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
@@ -1176,7 +1163,7 @@
     {
       "id": 86,
       "name": "Package Manager",
-      "category": "plugins",
+      "category": "tools",
       "subcategory": "system-tools",
       "group": "🛠 أدوات النظام",
       "description": "عنصر تجريبي ضمن 🛠 أدوات النظام في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
@@ -1192,7 +1179,7 @@
     {
       "id": 87,
       "name": "Process Manager",
-      "category": "plugins",
+      "category": "tools",
       "subcategory": "system-tools",
       "group": "🛠 أدوات النظام",
       "description": "عنصر تجريبي ضمن 🛠 أدوات النظام في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
@@ -1208,8 +1195,8 @@
     {
       "id": 88,
       "name": "Settings Backup",
-      "category": "plugins",
-      "subcategory": "settings",
+      "category": "tools",
+      "subcategory": "settings-tools",
       "group": "⚙ الإعدادات",
       "description": "عنصر تجريبي ضمن ⚙ الإعدادات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1224,8 +1211,8 @@
     {
       "id": 89,
       "name": "Network Settings",
-      "category": "plugins",
-      "subcategory": "settings",
+      "category": "tools",
+      "subcategory": "settings-tools",
       "group": "⚙ الإعدادات",
       "description": "عنصر تجريبي ضمن ⚙ الإعدادات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1240,8 +1227,8 @@
     {
       "id": 90,
       "name": "User Interface Settings",
-      "category": "plugins",
-      "subcategory": "settings",
+      "category": "tools",
+      "subcategory": "settings-tools",
       "group": "⚙ الإعدادات",
       "description": "عنصر تجريبي ضمن ⚙ الإعدادات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1256,8 +1243,8 @@
     {
       "id": 91,
       "name": "Tuner Settings",
-      "category": "plugins",
-      "subcategory": "settings",
+      "category": "tools",
+      "subcategory": "settings-tools",
       "group": "⚙ الإعدادات",
       "description": "عنصر تجريبي ضمن ⚙ الإعدادات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1272,8 +1259,8 @@
     {
       "id": 92,
       "name": "Download Manager",
-      "category": "plugins",
-      "subcategory": "downloads",
+      "category": "tools",
+      "subcategory": "download-tools",
       "group": "📥 مدير التنزيلات",
       "description": "عنصر تجريبي ضمن 📥 مدير التنزيلات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1288,8 +1275,8 @@
     {
       "id": 93,
       "name": "Queue Manager",
-      "category": "plugins",
-      "subcategory": "downloads",
+      "category": "tools",
+      "subcategory": "download-tools",
       "group": "📥 مدير التنزيلات",
       "description": "عنصر تجريبي ضمن 📥 مدير التنزيلات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1304,8 +1291,8 @@
     {
       "id": 94,
       "name": "Update Downloader",
-      "category": "plugins",
-      "subcategory": "downloads",
+      "category": "tools",
+      "subcategory": "download-tools",
       "group": "📥 مدير التنزيلات",
       "description": "عنصر تجريبي ضمن 📥 مدير التنزيلات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1416,8 +1403,8 @@
     {
       "id": 100,
       "name": "Network Browser",
-      "category": "plugins",
-      "subcategory": "netplugins",
+      "category": "tools",
+      "subcategory": "network-tools",
       "group": "🌐 إضافات الشبكات",
       "description": "عنصر تجريبي ضمن 🌐 إضافات الشبكات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1432,8 +1419,8 @@
     {
       "id": 101,
       "name": "Web Interface",
-      "category": "plugins",
-      "subcategory": "netplugins",
+      "category": "tools",
+      "subcategory": "network-tools",
       "group": "🌐 إضافات الشبكات",
       "description": "عنصر تجريبي ضمن 🌐 إضافات الشبكات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1448,8 +1435,8 @@
     {
       "id": 102,
       "name": "FTP Manager",
-      "category": "plugins",
-      "subcategory": "netplugins",
+      "category": "tools",
+      "subcategory": "network-tools",
       "group": "🌐 إضافات الشبكات",
       "description": "عنصر تجريبي ضمن 🌐 إضافات الشبكات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1464,8 +1451,8 @@
     {
       "id": 103,
       "name": "Wake on LAN",
-      "category": "plugins",
-      "subcategory": "netplugins",
+      "category": "tools",
+      "subcategory": "network-tools",
       "group": "🌐 إضافات الشبكات",
       "description": "عنصر تجريبي ضمن 🌐 إضافات الشبكات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1624,8 +1611,8 @@
     {
       "id": 109,
       "name": "File Commander",
-      "category": "plugins",
-      "subcategory": "files",
+      "category": "tools",
+      "subcategory": "file-tools",
       "group": "📁 مدير الملفات",
       "description": "عنصر تجريبي ضمن 📁 مدير الملفات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1640,8 +1627,8 @@
     {
       "id": 110,
       "name": "File Browser",
-      "category": "plugins",
-      "subcategory": "files",
+      "category": "tools",
+      "subcategory": "file-tools",
       "group": "📁 مدير الملفات",
       "description": "عنصر تجريبي ضمن 📁 مدير الملفات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1656,8 +1643,8 @@
     {
       "id": 111,
       "name": "FTP File Manager",
-      "category": "plugins",
-      "subcategory": "files",
+      "category": "tools",
+      "subcategory": "file-tools",
       "group": "📁 مدير الملفات",
       "description": "عنصر تجريبي ضمن 📁 مدير الملفات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1720,8 +1707,8 @@
     {
       "id": 115,
       "name": "Plugin Updates",
-      "category": "plugins",
-      "subcategory": "plugin-updates",
+      "category": "tools",
+      "subcategory": "update-tools",
       "group": "🔄 التحديثات",
       "description": "عنصر تجريبي ضمن 🔄 التحديثات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1736,8 +1723,8 @@
     {
       "id": 116,
       "name": "Online Update",
-      "category": "plugins",
-      "subcategory": "plugin-updates",
+      "category": "tools",
+      "subcategory": "update-tools",
       "group": "🔄 التحديثات",
       "description": "عنصر تجريبي ضمن 🔄 التحديثات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
@@ -1752,8 +1739,8 @@
     {
       "id": 117,
       "name": "Version Checker",
-      "category": "plugins",
-      "subcategory": "plugin-updates",
+      "category": "tools",
+      "subcategory": "update-tools",
       "group": "🔄 التحديثات",
       "description": "عنصر تجريبي ضمن 🔄 التحديثات في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
       "version": "Demo",
