@@ -530,7 +530,7 @@
       "id": "channels",
       "label": "ملفات القنوات",
       "icon": "📺",
-      "count": 22,
+      "count": 23,
       "subcategories": [
         {
           "id": "nilesat",
@@ -575,10 +575,11 @@
         {
           "id": "motor",
           "label": "Motor Systems",
-          "count": 2,
+          "count": 3,
           "items": [
             "USALS Motor List",
-            "DiSEqC Motor List"
+            "DiSEqC Motor List",
+            "Emil Nabil Channel Installer"
           ]
         },
         {
@@ -5155,6 +5156,22 @@
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
       "detailUrl": "#",
       "compatibility": "Vu+ Duo 4K SE فقط"
+    },
+    {
+      "id": 4157,
+      "name": "Emil Nabil Channel Installer",
+      "category": "channels",
+      "subcategory": "motor",
+      "group": "Motor Systems",
+      "description": "أداة تثبيت ملف قنوات Emil Nabil لأجهزة Enigma2. تنبيه مهم: السكربت يستبدل ملفات القنوات الحالية وقد يحذف بعض ملفات EPG والمؤقتات؛ خذ نسخة احتياطية كاملة وتأكد من توافق جهازك وصورة النظام قبل التشغيل.",
+      "version": "Installer Script",
+      "date": "2026-11-01",
+      "keywords": "Emil Nabil Channel Installer ملف قنوات موتور Motor Systems USALS DiSEqC Enigma2",
+      "icon": "📡",
+      "command": "wget https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openatv/channel.sh -qO - | /bin/sh",
+      "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html",
+      "detailUrl": "#",
+      "compatibility": "أجهزة Enigma2 المتوافقة مع السكربت؛ راجع صورة النظام والموديل قبل التشغيل"
     }
   ]
 }
