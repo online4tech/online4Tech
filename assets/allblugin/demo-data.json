@@ -1,6 +1,6 @@
 {
   "version": "2.0.0-demo",
-  "notice": "تنبيه توافق: راجع وصف كل عنصر قبل التنفيذ. بعض أوامر التثبيت من مستودعات خارجية وقد تستبدل مجلدات الإصدارات السابقة؛ خذ نسخة احتياطية وتأكد من توافق صورة Enigma2 والجهاز. الروابط المباشرة تشير إلى ملفات المصدر الأصلية.",
+  "notice": "تنبيه: ملفات القنوات قد تستبدل إعدادات القنوات الحالية، وبعض السكينات تتطلب صورة أو إصدار Python محدداً. راجع وصف كل عنصر وخذ نسخة احتياطية قبل التثبيت. أوامر upgrade قد تغيّر حزم النظام؛ استخدمها فقط بتوصية مطور الصورة.",
   "categories": [
     {
       "id": "plugins",
@@ -201,7 +201,7 @@
       "id": "commands",
       "label": "الأوامر",
       "icon": "⌨️",
-      "count": 130,
+      "count": 134,
       "subcategories": [
         {
           "id": "sys-cmd",
@@ -287,7 +287,7 @@
         {
           "id": "update-cmd",
           "label": "🔄 أوامر التحديث",
-          "count": 15,
+          "count": 19,
           "items": [
             "تحديث قوائم الحزم",
             "عرض الحزم المثبتة",
@@ -537,7 +537,7 @@
       "id": "channels",
       "label": "ملفات القنوات",
       "icon": "📺",
-      "count": 23,
+      "count": 32,
       "subcategories": [
         {
           "id": "nilesat",
@@ -563,39 +563,48 @@
         {
           "id": "hotbird",
           "label": "Hotbird",
-          "count": 2,
+          "count": 3,
           "items": [
             "Hotbird Full List",
-            "Hotbird HD"
+            "Hotbird HD",
+            "Vhannibal — Hot Bird 13°E"
           ]
         },
         {
           "id": "multisat",
           "label": "Multi Satellite",
-          "count": 3,
+          "count": 8,
           "items": [
             "Motor List",
             "Fixed Dish",
-            "Multi Satellite"
+            "Multi Satellite",
+            "Ciefp — قمر واحد 19°E",
+            "Ciefp — قمران 19°E + 13°E",
+            "Ciefp — 6 أقمار",
+            "Morpheus883 — Hot Bird + Astra",
+            "Vhannibal — Dual 13°E + 19°E"
           ]
         },
         {
           "id": "motor",
           "label": "Motor Systems",
-          "count": 3,
+          "count": 5,
           "items": [
             "USALS Motor List",
             "DiSEqC Motor List",
-            "Emil Nabil Channel Installer"
+            "Emil Nabil Channel Installer",
+            "Morpheus883 — Motor Settings",
+            "Vhannibal — Motor 70°E إلى 45°W"
           ]
         },
         {
           "id": "favorites",
           "label": "Favorites",
-          "count": 2,
+          "count": 3,
           "items": [
             "Favorites Bouquet",
-            "Family Favorites"
+            "Family Favorites",
+            "Morpheus883 — Settings"
           ]
         },
         {
@@ -631,26 +640,32 @@
       "id": "skins",
       "label": "السكينات",
       "icon": "🎨",
-      "count": 14,
+      "count": 20,
       "subcategories": [
         {
           "id": "dreamos",
           "label": "DreamOS",
-          "count": 3,
+          "count": 6,
           "items": [
             "MetrixHD",
             "KravenHD",
-            "BlueLine"
+            "BlueLine",
+            "HoloFHD Black",
+            "ZSkin FHD",
+            "Brushedalu HD"
           ]
         },
         {
           "id": "openatv",
           "label": "OpenATV",
-          "count": 3,
+          "count": 6,
           "items": [
             "ATV Blue",
             "Dark Vision",
-            "Elegant Skin"
+            "Elegant Skin",
+            "CineView FHD MLA",
+            "MX Maestra Black Weather — Python 3.12",
+            "MX Maestra Black Weather — Python 3.13"
           ]
         },
         {
@@ -5298,6 +5313,317 @@
       "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/advancedscreenshot/advancedscreenshot.sh | /bin/sh",
       "compatibility": "أجهزة Enigma2؛ التوافق الفعلي يعتمد على صورة النظام وإصدار Python والحزم المتاحة. راجع التحذير في الوصف.",
       "icon": "🧩"
+    },
+    {
+      "id": 4165,
+      "name": "Ciefp — قمر واحد 19°E",
+      "category": "channels",
+      "subcategory": "multisat",
+      "group": "📡 ملفات القنوات",
+      "description": "قائمة قنوات لقمر Astra 19.2°E. سكربت المصدر يحدّث ملفات إعدادات القنوات على الرسيفر؛ احتفظ بنسخة احتياطية قبل التنفيذ.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Ciefp — قمر واحد 19°E Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/ciefp-channels-e2/ciefp-E2-1sat-19E.sh",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/ciefp-channels-e2",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/ciefp-channels-e2/ciefp-E2-1sat-19E.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡"
+    },
+    {
+      "id": 4166,
+      "name": "Ciefp — قمران 19°E + 13°E",
+      "category": "channels",
+      "subcategory": "multisat",
+      "group": "📡 ملفات القنوات",
+      "description": "قائمة قنوات لتجميعة Astra 19.2°E وHot Bird 13°E. قد تستبدل إعدادات القنوات الحالية؛ راجع توافق الأقمار والتوصيلات وخذ نسخة احتياطية.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Ciefp — قمران 19°E + 13°E Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/ciefp-channels-e2/ciefp-E2-2satA-19E-13E.sh",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/ciefp-channels-e2",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/ciefp-channels-e2/ciefp-E2-2satA-19E-13E.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡"
+    },
+    {
+      "id": 4167,
+      "name": "Ciefp — 6 أقمار",
+      "category": "channels",
+      "subcategory": "multisat",
+      "group": "📡 ملفات القنوات",
+      "description": "قائمة متعددة الأقمار تشمل 23°E و19.2°E و16°E و13°E و1.9°E و0.8°W. تأكد من إعدادات الـDiSEqC قبل التثبيت.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Ciefp — 6 أقمار Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/ciefp-channels-e2/ciefp-E2-6sat-23E-19E-16E-13E-1.9E-0.8W.sh",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/ciefp-channels-e2",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/ciefp-channels-e2/ciefp-E2-6sat-23E-19E-16E-13E-1.9E-0.8W.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡"
+    },
+    {
+      "id": 4168,
+      "name": "Morpheus883 — Hot Bird + Astra",
+      "category": "channels",
+      "subcategory": "multisat",
+      "group": "📡 ملفات القنوات",
+      "description": "قائمة قنوات متعددة الأقمار من Morpheus883 لتجميعة 13°E و19.2°E. السكربت ينشئ نسخة احتياطية من /etc/enigma2 قبل الاستبدال.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Morpheus883 — Hot Bird + Astra Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/morpheus883-channels/E2_Morph883_13E-19.2E.sh",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/morpheus883-channels",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/morpheus883-channels/E2_Morph883_13E-19.2E.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡"
+    },
+    {
+      "id": 4169,
+      "name": "Morpheus883 — Motor Settings",
+      "category": "channels",
+      "subcategory": "motor",
+      "group": "📡 ملفات القنوات",
+      "description": "إعدادات قنوات للموتور من Morpheus883. السكربت ينشئ نسخة احتياطية مؤرخة من /etc/enigma2 قبل نسخ الإعدادات الجديدة.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Morpheus883 — Motor Settings Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/morpheus883-channels/E2_Morph883_Motor.sh",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/morpheus883-channels",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/morpheus883-channels/E2_Morph883_Motor.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡"
+    },
+    {
+      "id": 4170,
+      "name": "Morpheus883 — Settings",
+      "category": "channels",
+      "subcategory": "favorites",
+      "group": "📡 ملفات القنوات",
+      "description": "حزمة إعدادات قنوات عامة من Morpheus883. السكربت ينشئ نسخة احتياطية قبل تحديث ملفات /etc/enigma2.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Morpheus883 — Settings Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/morpheus883-channels/E2_Morph883_Settings.sh",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/morpheus883-channels",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/morpheus883-channels/E2_Morph883_Settings.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡"
+    },
+    {
+      "id": 4171,
+      "name": "Vhannibal — Hot Bird 13°E",
+      "category": "channels",
+      "subcategory": "hotbird",
+      "group": "📡 ملفات القنوات",
+      "description": "قائمة Vhannibal لقمر Hot Bird 13°E. تنبيه: السكربت يحذف ملفات القنوات والراديو الحالية قبل نسخ الجديدة؛ خذ نسخة احتياطية أولاً.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Vhannibal — Hot Bird 13°E Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/vanenbal-channels/Vhannibal-HotBird-13E.sh",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/vanenbal-channels",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/vanenbal-channels/Vhannibal-HotBird-13E.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡"
+    },
+    {
+      "id": 4172,
+      "name": "Vhannibal — Motor 70°E إلى 45°W",
+      "category": "channels",
+      "subcategory": "motor",
+      "group": "📡 ملفات القنوات",
+      "description": "إعدادات Vhannibal للموتور عبر نطاق أقمار واسع. السكربت يحذف ملفات القنوات والراديو الحالية؛ تأكد من إعدادات الموتور وخذ نسخة احتياطية.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Vhannibal — Motor 70°E إلى 45°W Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/vanenbal-channels/Vhannibal-Motor-70E-45W.sh",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/vanenbal-channels",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/vanenbal-channels/Vhannibal-Motor-70E-45W.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡"
+    },
+    {
+      "id": 4173,
+      "name": "Vhannibal — Dual 13°E + 19°E",
+      "category": "channels",
+      "subcategory": "multisat",
+      "group": "📡 ملفات القنوات",
+      "description": "قائمة Vhannibal لقمرين Hot Bird 13°E وAstra 19.2°E. راجع توافق إعدادات الأقمار قبل الاستبدال.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Vhannibal — Dual 13°E + 19°E Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/vanenbal-channels/Vhannibal-Dual-13-19E.sh",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/vanenbal-channels",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/vanenbal-channels/Vhannibal-Dual-13-19E.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡"
+    },
+    {
+      "id": 4174,
+      "name": "CineView FHD MLA",
+      "category": "skins",
+      "subcategory": "openatv",
+      "group": "🎨 السكينات",
+      "description": "ثيم FHD مع مثبت ذكي يحدد عائلة الصورة ويتحقق من إصدار Python وملف IPK ببصمة SHA256 قبل التثبيت. مدعوم حسب السكربت: OpenATV وEGAMI وPurE2 وOpenBH وOpenViX وOpenPLi مع Python 3 ضمن الإصدارات المذكورة في المثبت.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "CineView FHD MLA Enigma2 skin Dreambox Vu+ Python",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/skin-cineview/CineView.sh",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/skin-cineview",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/skin-cineview/CineView.sh | /bin/sh",
+      "compatibility": "راجع إصدار Python وعائلة الصورة المدعومة في وصف السكين.",
+      "icon": "🎨"
+    },
+    {
+      "id": 4175,
+      "name": "MX Maestra Black Weather — Python 3.12",
+      "category": "skins",
+      "subcategory": "openatv",
+      "group": "🎨 السكينات",
+      "description": "ملف السكين المخصص لبيئات Python 3.12 فقط. لا تستخدمه مع إصدار Python مختلف؛ سكربت التثبيت يحذف مجلد السكين والحزمة السابقة.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "MX Maestra Black Weather — Python 3.12 Enigma2 skin Dreambox Vu+ Python",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.12.tar.gz",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/Skin-MX_Maestra_Black_weather",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.12.sh | /bin/sh",
+      "compatibility": "راجع إصدار Python وعائلة الصورة المدعومة في وصف السكين.",
+      "icon": "🎨"
+    },
+    {
+      "id": 4176,
+      "name": "MX Maestra Black Weather — Python 3.13",
+      "category": "skins",
+      "subcategory": "openatv",
+      "group": "🎨 السكينات",
+      "description": "ملف السكين المخصص لبيئات Python 3.13 فقط. لا تستخدمه مع إصدار Python مختلف؛ سكربت التثبيت يحذف مجلد السكين والحزمة السابقة.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "MX Maestra Black Weather — Python 3.13 Enigma2 skin Dreambox Vu+ Python",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.13.tar.gz",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/Skin-MX_Maestra_Black_weather",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.13.sh | /bin/sh",
+      "compatibility": "راجع إصدار Python وعائلة الصورة المدعومة في وصف السكين.",
+      "icon": "🎨"
+    },
+    {
+      "id": 4177,
+      "name": "HoloFHD Black",
+      "category": "skins",
+      "subcategory": "dreamos",
+      "group": "🎨 السكينات",
+      "description": "Skin FHD لأجهزة DreamOS. مثبت المصدر يحاول تحديث الحزم ويثبت عدة مكونات Skin إضافية قبل فك الأرشيف؛ راجع الاعتماديات ومساحة التخزين.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "HoloFHD Black Enigma2 skin Dreambox Vu+ Python",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/skins-for-dreambox/HoloFHD-Black.tar.gz",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/skins-for-dreambox",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/skins-for-dreambox/HoloFHD-Black.sh | /bin/sh",
+      "compatibility": "DreamOS فقط حسب سكربت المصدر؛ لا تستخدم على OpenATV/OpenPLi.",
+      "icon": "🎨"
+    },
+    {
+      "id": 4178,
+      "name": "ZSkin FHD",
+      "category": "skins",
+      "subcategory": "dreamos",
+      "group": "🎨 السكينات",
+      "description": "Skin بدقة FHD. سكربت المصدر يفك الأرشيف إلى نظام الملفات مباشرة؛ تأكد من توافق الصورة وخذ نسخة احتياطية من إعدادات السكين.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "ZSkin FHD Enigma2 skin Dreambox Vu+ Python",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/skins-for-dreambox/ZSkin-FHD.tar.gz",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/skins-for-dreambox",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/skins-for-dreambox/ZSkin-FHD.sh | /bin/sh",
+      "compatibility": "DreamOS فقط حسب سكربت المصدر؛ لا تستخدم على OpenATV/OpenPLi.",
+      "icon": "🎨"
+    },
+    {
+      "id": 4179,
+      "name": "Brushedalu HD",
+      "category": "skins",
+      "subcategory": "dreamos",
+      "group": "🎨 السكينات",
+      "description": "Skin HD لأجهزة DreamOS. ملف تثبيت مباشر؛ راجع التوافق مع صورة جهازك قبل فك الملفات إلى النظام.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Brushedalu HD Enigma2 skin Dreambox Vu+ Python",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/skins-for-dreambox/Brushedalu-HD.tar.gz",
+      "repository": "https://github.com/emilnabil/download-plugins/tree/main/skins-for-dreambox",
+      "command": "wget -q --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/main/skins-for-dreambox/Brushedalu-HD.sh | /bin/sh",
+      "compatibility": "DreamOS فقط حسب سكربت المصدر؛ لا تستخدم على OpenATV/OpenPLi.",
+      "icon": "🎨"
+    },
+    {
+      "id": 4180,
+      "name": "تحديث فهارس الحزم — OpenATV / Enigma2",
+      "category": "commands",
+      "subcategory": "update-cmd",
+      "group": "🔄 أوامر التحديث",
+      "description": "تحديث قوائم الحزم المتاحة فقط دون تثبيت ترقيات. مناسب لصور Enigma2 التي تستخدم opkg.",
+      "command": "opkg update",
+      "compatibility": "نفّذ الأمر المناسب لنوع الصورة ومدير الحزم فقط؛ لا تخلط بين opkg وapt.",
+      "version": "Linux / Enigma2",
+      "date": "2026-11-01",
+      "keywords": "تحديث فهارس الحزم — OpenATV / Enigma2 update upgrade opkg apt Enigma2 DreamOS",
+      "icon": "⌨️"
+    },
+    {
+      "id": 4181,
+      "name": "تحديث فهارس الحزم — DreamOS",
+      "category": "commands",
+      "subcategory": "update-cmd",
+      "group": "🔄 أوامر التحديث",
+      "description": "تحديث قوائم الحزم في DreamOS دون ترقية الحزم المثبتة.",
+      "command": "apt-get update",
+      "compatibility": "نفّذ الأمر المناسب لنوع الصورة ومدير الحزم فقط؛ لا تخلط بين opkg وapt.",
+      "version": "Linux / Enigma2",
+      "date": "2026-11-01",
+      "keywords": "تحديث فهارس الحزم — DreamOS update upgrade opkg apt Enigma2 DreamOS",
+      "icon": "⌨️"
+    },
+    {
+      "id": 4182,
+      "name": "ترقية الحزم — OpenATV / Enigma2",
+      "category": "commands",
+      "subcategory": "update-cmd",
+      "group": "🔄 أوامر التحديث",
+      "description": "ترقية حزم النظام عبر opkg. قد تؤدي ترقية الحزم عشوائياً إلى عدم استقرار الصورة أو تعارضات؛ استخدمها فقط عند توصية مطور الصورة وبعد نسخة احتياطية.",
+      "command": "opkg upgrade",
+      "compatibility": "نفّذ الأمر المناسب لنوع الصورة ومدير الحزم فقط؛ لا تخلط بين opkg وapt.",
+      "version": "Linux / Enigma2",
+      "date": "2026-11-01",
+      "keywords": "ترقية الحزم — OpenATV / Enigma2 update upgrade opkg apt Enigma2 DreamOS",
+      "icon": "⌨️"
+    },
+    {
+      "id": 4183,
+      "name": "ترقية الحزم — DreamOS",
+      "category": "commands",
+      "subcategory": "update-cmd",
+      "group": "🔄 أوامر التحديث",
+      "description": "ترقية الحزم عبر apt في DreamOS. قد تغيّر مكونات النظام؛ استخدمها فقط عند توصية مطور الصورة وبعد نسخة احتياطية.",
+      "command": "apt-get upgrade",
+      "compatibility": "نفّذ الأمر المناسب لنوع الصورة ومدير الحزم فقط؛ لا تخلط بين opkg وapt.",
+      "version": "Linux / Enigma2",
+      "date": "2026-11-01",
+      "keywords": "ترقية الحزم — DreamOS update upgrade opkg apt Enigma2 DreamOS",
+      "icon": "⌨️"
     }
   ]
 }
