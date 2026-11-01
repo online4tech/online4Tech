@@ -446,7 +446,7 @@
       "id": "skins",
       "label": "السكينات",
       "icon": "🎨",
-      "count": 26,
+      "count": 27,
       "subcategories": [
         {
           "id": "dreamos",
@@ -4251,6 +4251,22 @@
       "sourceUrl": "https://github.com/emilnabil/download-plugins",
       "guideUrl": "",
       "detailUrl": ""
+    },
+    {
+      "id": 4189,
+      "name": "Aglare-FHD-PLI",
+      "category": "skins",
+      "subcategory": "openpli",
+      "group": "OpenPLI / متعدد الصور",
+      "description": "Skin بدقة FHD من MNASR. السكربت يذكر دعماً لـ OpenPLI وOpenBH وOpenViX وOpenTR وNonSoloSat وSatLodge وTeamBlue. راجع إصدار الصورة وخذ نسخة احتياطية؛ المثبت يحذف مجلد النسخة السابقة ويفك الأرشيف داخل النظام.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Aglare FHD PLI Enigma2 Skin OpenPLI OpenBH OpenViX OpenTR TeamBlue SatLodge NonSoloSat",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/aglare/main/skins-aglare-fhd-pli.sh",
+      "repository": "https://github.com/emilnabil/aglare",
+      "compatibility": "OpenPLI develop/9/10، OpenBH 5.3–5.5، OpenViX 6.4–6.7، NonSoloSat، OpenTR، SatLodge، TeamBlue 7.3–7.5 حسب السكربت. التوافق غير مختبر من Online4Tech.",
+      "icon": "🎨"
     }
   ]
 }
