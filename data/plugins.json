@@ -6429,6 +6429,374 @@
       "lastUpdated": "2026-10-31T00:00:00Z",
       "popularityScore": 0,
       "githubStars": 1
+    },
+    {
+      "id": "cccam",
+      "name": "CCcam",
+      "slug": "cccam",
+      "description": "حزمة CCcam بصيغة TAR.GZ من المستودع المصدر.",
+      "version": "من المستودع المصدر",
+      "releaseDate": "2026-11-01",
+      "author": "Emil Nabil",
+      "category": "Softcam",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "أجهزة Enigma2"
+      ],
+      "supportedImages": [],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/emilnabil/download-plugins",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "icon": "",
+      "logoFound": false,
+      "thumbnail": "",
+      "screenshots": [],
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccam_all.tar.gz",
+      "tutorialUrl": "",
+      "tags": [
+        "Softcam",
+        "Emulator",
+        "Enigma2",
+        "CCcam",
+        "Emil Nabil"
+      ],
+      "arabicDescription": "حزمة CCcam بصيغة TAR.GZ من المستودع المصدر.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "تحميل الحزمة ثم مراجعة تعليمات المستودع وتوافق صورة الجهاز والمعمارية قبل التثبيت.",
+      "requirements": "جهاز Enigma2 متوافق؛ يجب التحقق من نوع الحزمة والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [
+        "حزمة CCcam بصيغة TAR.GZ من المستودع المصدر."
+      ]
+    },
+    {
+      "id": "oscam",
+      "name": "OScam",
+      "slug": "oscam",
+      "description": "حزمة OScam بصيغة TAR.GZ من المستودع المصدر.",
+      "version": "من المستودع المصدر",
+      "releaseDate": "2026-11-01",
+      "author": "Emil Nabil",
+      "category": "Softcam",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "أجهزة Enigma2"
+      ],
+      "supportedImages": [],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/emilnabil/download-plugins",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "icon": "",
+      "logoFound": false,
+      "thumbnail": "",
+      "screenshots": [],
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/oscam_01_all.tar.gz",
+      "tutorialUrl": "",
+      "tags": [
+        "Softcam",
+        "Emulator",
+        "Enigma2",
+        "OScam",
+        "Emil Nabil"
+      ],
+      "arabicDescription": "حزمة OScam بصيغة TAR.GZ من المستودع المصدر.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "تحميل الحزمة ثم مراجعة تعليمات المستودع وتوافق صورة الجهاز والمعمارية قبل التثبيت.",
+      "requirements": "جهاز Enigma2 متوافق؛ يجب التحقق من نوع الحزمة والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [
+        "حزمة OScam بصيغة TAR.GZ من المستودع المصدر."
+      ]
+    },
+    {
+      "id": "ncam",
+      "name": "NCam",
+      "slug": "ncam",
+      "description": "حزمة NCam بصيغة TAR.GZ من المستودع المصدر.",
+      "version": "من المستودع المصدر",
+      "releaseDate": "2026-11-01",
+      "author": "Emil Nabil",
+      "category": "Softcam",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "أجهزة Enigma2"
+      ],
+      "supportedImages": [],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/emilnabil/download-plugins",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "icon": "",
+      "logoFound": false,
+      "thumbnail": "",
+      "screenshots": [],
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ncam_all.tar.gz",
+      "tutorialUrl": "",
+      "tags": [
+        "Softcam",
+        "Emulator",
+        "Enigma2",
+        "NCam",
+        "Emil Nabil"
+      ],
+      "arabicDescription": "حزمة NCam بصيغة TAR.GZ من المستودع المصدر.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "تحميل الحزمة ثم مراجعة تعليمات المستودع وتوافق صورة الجهاز والمعمارية قبل التثبيت.",
+      "requirements": "جهاز Enigma2 متوافق؛ يجب التحقق من نوع الحزمة والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [
+        "حزمة NCam بصيغة TAR.GZ من المستودع المصدر."
+      ]
+    },
+    {
+      "id": "mgcamd",
+      "name": "MgCamd",
+      "slug": "mgcamd",
+      "description": "حزمة MgCamd بصيغة TAR.GZ من المستودع المصدر.",
+      "version": "من المستودع المصدر",
+      "releaseDate": "2026-11-01",
+      "author": "Emil Nabil",
+      "category": "Softcam",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "أجهزة Enigma2"
+      ],
+      "supportedImages": [],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/emilnabil/download-plugins",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "icon": "",
+      "logoFound": false,
+      "thumbnail": "",
+      "screenshots": [],
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/mgcamd_all.tar.gz",
+      "tutorialUrl": "",
+      "tags": [
+        "Softcam",
+        "Emulator",
+        "Enigma2",
+        "MgCamd",
+        "Emil Nabil"
+      ],
+      "arabicDescription": "حزمة MgCamd بصيغة TAR.GZ من المستودع المصدر.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "تحميل الحزمة ثم مراجعة تعليمات المستودع وتوافق صورة الجهاز والمعمارية قبل التثبيت.",
+      "requirements": "جهاز Enigma2 متوافق؛ يجب التحقق من نوع الحزمة والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [
+        "حزمة MgCamd بصيغة TAR.GZ من المستودع المصدر."
+      ]
+    },
+    {
+      "id": "levi45-emulator-ipk",
+      "name": "Levi45 Emulator (IPK)",
+      "slug": "levi45-emulator-ipk",
+      "description": "حزمة IPK لإضافة Levi45 Emulator.",
+      "version": "من المستودع المصدر",
+      "releaseDate": "2026-11-01",
+      "author": "Emil Nabil",
+      "category": "Softcam",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "أجهزة Enigma2"
+      ],
+      "supportedImages": [],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/emilnabil/download-plugins",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "icon": "",
+      "logoFound": false,
+      "thumbnail": "",
+      "screenshots": [],
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator/enigma2-plugin-extensions-levi45emulator_all.ipk",
+      "tutorialUrl": "",
+      "tags": [
+        "Softcam",
+        "Emulator",
+        "Enigma2",
+        "Levi45 Emulator (IPK)",
+        "Emil Nabil"
+      ],
+      "arabicDescription": "حزمة IPK لإضافة Levi45 Emulator.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "تحميل الحزمة ثم مراجعة تعليمات المستودع وتوافق صورة الجهاز والمعمارية قبل التثبيت.",
+      "requirements": "جهاز Enigma2 متوافق؛ يجب التحقق من نوع الحزمة والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [
+        "حزمة IPK لإضافة Levi45 Emulator."
+      ]
+    },
+    {
+      "id": "levi45-emulator-deb",
+      "name": "Levi45 Emulator (DEB)",
+      "slug": "levi45-emulator-deb",
+      "description": "حزمة DEB لإضافة Levi45 Emulator.",
+      "version": "من المستودع المصدر",
+      "releaseDate": "2026-11-01",
+      "author": "Emil Nabil",
+      "category": "Softcam",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "أجهزة Enigma2"
+      ],
+      "supportedImages": [],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/emilnabil/download-plugins",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "icon": "",
+      "logoFound": false,
+      "thumbnail": "",
+      "screenshots": [],
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator/enigma2-plugin-extensions-levi45emulator_all.deb",
+      "tutorialUrl": "",
+      "tags": [
+        "Softcam",
+        "Emulator",
+        "Enigma2",
+        "Levi45 Emulator (DEB)",
+        "Emil Nabil"
+      ],
+      "arabicDescription": "حزمة DEB لإضافة Levi45 Emulator.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "تحميل الحزمة ثم مراجعة تعليمات المستودع وتوافق صورة الجهاز والمعمارية قبل التثبيت.",
+      "requirements": "جهاز Enigma2 متوافق؛ يجب التحقق من نوع الحزمة والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [
+        "حزمة DEB لإضافة Levi45 Emulator."
+      ]
+    },
+    {
+      "id": "emu-installer",
+      "name": "Emu Installer",
+      "slug": "emu-installer",
+      "description": "أرشيف أداة Emu Installer.",
+      "version": "من المستودع المصدر",
+      "releaseDate": "2026-11-01",
+      "author": "Emil Nabil",
+      "category": "Softcam",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "أجهزة Enigma2"
+      ],
+      "supportedImages": [],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/emilnabil/download-plugins",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "icon": "",
+      "logoFound": false,
+      "thumbnail": "",
+      "screenshots": [],
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/emu-installer/emuinstaller.tar.gz",
+      "tutorialUrl": "",
+      "tags": [
+        "Softcam",
+        "Emulator",
+        "Enigma2",
+        "Emu Installer",
+        "Emil Nabil"
+      ],
+      "arabicDescription": "أرشيف أداة Emu Installer.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "تحميل الحزمة ثم مراجعة تعليمات المستودع وتوافق صورة الجهاز والمعمارية قبل التثبيت.",
+      "requirements": "جهاز Enigma2 متوافق؛ يجب التحقق من نوع الحزمة والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [
+        "أرشيف أداة Emu Installer."
+      ]
+    },
+    {
+      "id": "alternative-softcam-manager",
+      "name": "Alternative Softcam Manager",
+      "slug": "alternative-softcam-manager",
+      "description": "أرشيف Alternative Softcam Manager.",
+      "version": "من المستودع المصدر",
+      "releaseDate": "2026-11-01",
+      "author": "Emil Nabil",
+      "category": "Softcam",
+      "platform": "Enigma2",
+      "supportedDevices": [
+        "أجهزة Enigma2"
+      ],
+      "supportedImages": [],
+      "rating": 0,
+      "downloads": {
+        "repository": "https://github.com/emilnabil/download-plugins",
+        "githubRelease": ""
+      },
+      "featured": false,
+      "icon": "",
+      "logoFound": false,
+      "thumbnail": "",
+      "screenshots": [],
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/AlternativeSoftcamManager/AlternativeSoftcamManager.tar.gz",
+      "tutorialUrl": "",
+      "tags": [
+        "Softcam",
+        "Emulator",
+        "Enigma2",
+        "Alternative Softcam Manager",
+        "Emil Nabil"
+      ],
+      "arabicDescription": "أرشيف Alternative Softcam Manager.",
+      "latest": false,
+      "downloadsCount": 0,
+      "installationMethod": "تحميل الحزمة ثم مراجعة تعليمات المستودع وتوافق صورة الجهاز والمعمارية قبل التثبيت.",
+      "requirements": "جهاز Enigma2 متوافق؛ يجب التحقق من نوع الحزمة والمعمارية قبل التثبيت.",
+      "youtubeVideo": "",
+      "githubUrl": "https://github.com/emilnabil/download-plugins",
+      "officialWebsite": "",
+      "relatedPlugins": [],
+      "features": [
+        "أرشيف Alternative Softcam Manager."
+      ]
     }
   ]
 }

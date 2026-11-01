@@ -6,7 +6,7 @@
       "id": "plugins",
       "label": "البلجنات",
       "icon": "📦",
-      "count": 82,
+      "count": 86,
       "subcategories": [
         {
           "id": "enigma",
@@ -43,14 +43,18 @@
         {
           "id": "softcam",
           "label": "🔐 السوفيتكامات",
-          "count": 6,
+          "count": 10,
           "items": [
             "CCcam",
             "OScam",
             "NCam",
             "GCam",
             "Camd3",
-            "MgCamd"
+            "MgCamd",
+            "Levi45 Emulator (IPK)",
+            "Levi45 Emulator (DEB)",
+            "Emu Installer",
+            "Alternative Softcam Manager"
           ]
         },
         {
@@ -912,15 +916,16 @@
       "category": "plugins",
       "subcategory": "softcam",
       "group": "🔐 السوفيتكامات",
-      "description": "بيانات تعريفية تجريبية لإدارة إعدادات Softcam على أجهزة Enigma2.",
-      "version": "Demo",
-      "date": "2026-10-14",
+      "description": "حزمة CCcam بصيغة TAR.GZ من المستودع المصدر. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
+      "version": "من المستودع المصدر",
+      "date": "2026-11-01",
       "downloads": 538,
-      "keywords": "CCcam 🔐 السوفيتكامات البلجنات",
+      "keywords": "CCcam Softcam Emulator Enigma2 Emil Nabil",
       "icon": "📦",
-      "downloadUrl": "#",
-      "guideUrl": "#",
-      "detailUrl": "#"
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccam_all.tar.gz",
+      "guideUrl": "",
+      "detailUrl": "",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
       "id": 66,
@@ -928,15 +933,16 @@
       "category": "plugins",
       "subcategory": "softcam",
       "group": "🔐 السوفيتكامات",
-      "description": "إضافة لإدارة ومتابعة إعدادات OScam. راجع مصدر الإصدار وتوافقه قبل التثبيت.",
-      "version": "Demo",
-      "date": "2026-10-13",
+      "description": "حزمة OScam بصيغة TAR.GZ من المستودع المصدر. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
+      "version": "من المستودع المصدر",
+      "date": "2026-11-01",
       "downloads": 651,
-      "keywords": "OScam 🔐 السوفيتكامات البلجنات",
+      "keywords": "OScam Softcam Emulator Enigma2 Emil Nabil",
       "icon": "📦",
-      "downloadUrl": "#",
-      "guideUrl": "#",
-      "detailUrl": "#"
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/oscam_01_all.tar.gz",
+      "guideUrl": "",
+      "detailUrl": "",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
       "id": 67,
@@ -944,15 +950,16 @@
       "category": "plugins",
       "subcategory": "softcam",
       "group": "🔐 السوفيتكامات",
-      "description": "عنصر تجريبي ضمن مجموعة Softcam.",
-      "version": "Demo",
-      "date": "2026-10-12",
+      "description": "حزمة NCam بصيغة TAR.GZ من المستودع المصدر. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
+      "version": "من المستودع المصدر",
+      "date": "2026-11-01",
       "downloads": 764,
-      "keywords": "NCam 🔐 السوفيتكامات البلجنات",
+      "keywords": "NCam Softcam Emulator Enigma2 Emil Nabil",
       "icon": "📦",
-      "downloadUrl": "#",
-      "guideUrl": "#",
-      "detailUrl": "#"
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ncam_all.tar.gz",
+      "guideUrl": "",
+      "detailUrl": "",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
       "id": 68,
@@ -992,15 +999,16 @@
       "category": "plugins",
       "subcategory": "softcam",
       "group": "🔐 السوفيتكامات",
-      "description": "عنصر تجريبي ضمن مجموعة Softcam.",
-      "version": "Demo",
-      "date": "2026-10-09",
+      "description": "حزمة MgCamd بصيغة TAR.GZ من المستودع المصدر. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
+      "version": "من المستودع المصدر",
+      "date": "2026-11-01",
       "downloads": 1103,
-      "keywords": "MgCamd 🔐 السوفيتكامات البلجنات",
+      "keywords": "MgCamd Softcam Emulator Enigma2 Emil Nabil",
       "icon": "📦",
-      "downloadUrl": "#",
-      "guideUrl": "#",
-      "detailUrl": "#"
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/mgcamd_all.tar.gz",
+      "guideUrl": "",
+      "detailUrl": "",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
       "id": 37,
@@ -5639,6 +5647,70 @@
       "date": "2026-11-01",
       "keywords": "OE-Alliance Picons Feed بيكونات القنوات icons picons opkg update Enigma2",
       "icon": "🖼️"
+    },
+    {
+      "id": 4185,
+      "name": "Levi45 Emulator (IPK)",
+      "category": "plugins",
+      "subcategory": "softcam",
+      "group": "🔐 السوفيتكامات",
+      "icon": "📦",
+      "description": "حزمة IPK لإضافة Levi45 Emulator. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
+      "version": "من المستودع المصدر",
+      "date": "2026-11-01",
+      "keywords": "Levi45 Emulator (IPK) Softcam Emulator Enigma2 Emil Nabil",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator/enigma2-plugin-extensions-levi45emulator_all.ipk",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "guideUrl": "",
+      "detailUrl": ""
+    },
+    {
+      "id": 4186,
+      "name": "Levi45 Emulator (DEB)",
+      "category": "plugins",
+      "subcategory": "softcam",
+      "group": "🔐 السوفيتكامات",
+      "icon": "📦",
+      "description": "حزمة DEB لإضافة Levi45 Emulator. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
+      "version": "من المستودع المصدر",
+      "date": "2026-11-01",
+      "keywords": "Levi45 Emulator (DEB) Softcam Emulator Enigma2 Emil Nabil",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator/enigma2-plugin-extensions-levi45emulator_all.deb",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "guideUrl": "",
+      "detailUrl": ""
+    },
+    {
+      "id": 4187,
+      "name": "Emu Installer",
+      "category": "plugins",
+      "subcategory": "softcam",
+      "group": "🔐 السوفيتكامات",
+      "icon": "📦",
+      "description": "أرشيف أداة Emu Installer. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
+      "version": "من المستودع المصدر",
+      "date": "2026-11-01",
+      "keywords": "Emu Installer Softcam Emulator Enigma2 Emil Nabil",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/emu-installer/emuinstaller.tar.gz",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "guideUrl": "",
+      "detailUrl": ""
+    },
+    {
+      "id": 4188,
+      "name": "Alternative Softcam Manager",
+      "category": "plugins",
+      "subcategory": "softcam",
+      "group": "🔐 السوفيتكامات",
+      "icon": "📦",
+      "description": "أرشيف Alternative Softcam Manager. رابط التحميل مباشر من مستودع Emil Nabil؛ تحقق من توافق الحزمة مع صورة جهازك ومعماريته قبل التثبيت.",
+      "version": "من المستودع المصدر",
+      "date": "2026-11-01",
+      "keywords": "Alternative Softcam Manager Softcam Emulator Enigma2 Emil Nabil",
+      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/AlternativeSoftcamManager/AlternativeSoftcamManager.tar.gz",
+      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "guideUrl": "",
+      "detailUrl": ""
     }
   ]
 }
