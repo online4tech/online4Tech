@@ -54,7 +54,7 @@
         <div class="tutorial-cover tutorial-cover-placeholder" role="img" aria-label="صورة توضيحية لشرح ملف القنوات"><span class="cover-placeholder-icon" aria-hidden="true">📺</span><span class="cover-placeholder-copy"><strong>ملف القنوات</strong><small>دليل عملي من Online4Tech</small></span><span class="cover-placeholder-mark" aria-hidden="true">O4T</span></div>
       </header>
       <div class="tutorial-article-content">
-        <section class="o4t-channel-installer" aria-labelledby="o4t-installer-title">
+        <section class="o4t-channel-installer o4t-main-channel-card" aria-labelledby="o4t-installer-title">
           <div class="o4t-installer-head">
             <span class="o4t-installer-icon" aria-hidden="true">🚀</span>
             <div>
@@ -62,7 +62,14 @@
               <h2 id="o4t-installer-title">🚀 تثبيت قائمة القنوات تلقائياً</h2>
             </div>
           </div>
-          <p class="o4t-installer-description">قم بتثبيت أحدث إصدار من قائمة قنوات ONLINE4TECH مباشرة من خلال التلنت مع إنشاء نسخة احتياطية تلقائية قبل التثبيت.</p>
+          <p class="o4t-installer-description">ملف قنوات متحرك وحديث لأجهزة Enigma2، يتم تحديثه باستمرار ليضم أحدث الترددات والقنوات، مع تنظيم الباقات لتسهيل الوصول لقناتك المفضلة.</p>
+          <div class="o4t-channel-highlights" aria-label="مميزات ملف القنوات">
+            <div><span aria-hidden="true">📡</span><strong>أحدث الترددات والقنوات</strong></div>
+            <div><span aria-hidden="true">🧭</span><strong>ترتيب متحرك وسهل التصفح</strong></div>
+            <div><span aria-hidden="true">✨</span><strong>بدون قنوات مكررة أو TEST</strong></div>
+            <div><span aria-hidden="true">🛡️</span><strong>بدون قنوات أو محتوى غير مناسب</strong></div>
+          </div>
+          <p class="o4t-channel-update-note">يُنصح بعمل نسخة احتياطية من قائمتك الحالية قبل تثبيت التحديث.</p>
           <div class="o4t-command-label"><span aria-hidden="true">⌘</span> أمر التثبيت عبر Telnet / SSH</div>
           <div class="o4t-command-row" dir="ltr">
             <code class="o4t-install-command" id="o4t-install-command">wget -O - https://raw.githubusercontent.com/online4tech/Enigma2-Chanal-List-BYRomeh/main/install-channels.sh | sh</code>
@@ -144,6 +151,25 @@
           .o4t-installer-note{margin:17px 0 0!important;padding-top:13px;border-top:1px solid rgba(130,165,195,.18);color:var(--tutorial-muted,#a9bfd5);font-size:.82rem}
           .o4t-copy-toast{position:fixed;z-index:9999;right:50%;bottom:24px;transform:translate(50%,16px);max-width:calc(100vw - 28px);padding:12px 18px;border:1px solid rgba(140,230,194,.45);border-radius:13px;background:#102b2a;color:#c4ffe7;font:700 .9rem Tahoma,Arial,sans-serif;box-shadow:0 12px 35px rgba(0,0,0,.3);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s ease,transform .2s ease,visibility .2s}
           .o4t-copy-toast.is-visible{opacity:1;visibility:visible;transform:translate(50%,0)}
+
+          /* Compact glossy blue treatment for the main Online4Tech channel-list card */
+          .o4t-main-channel-card{width:min(100%,920px);margin-inline:auto;padding:clamp(16px,2.2vw,22px);border:1px solid rgba(74,166,255,.58);border-radius:19px;background:radial-gradient(ellipse at 90% 0%,rgba(34,139,255,.22),transparent 48%),linear-gradient(145deg,#102c4b 0%,#0b1d34 58%,#071426 100%);box-shadow:0 12px 30px rgba(0,75,160,.2),inset 0 1px 0 rgba(255,255,255,.08)}
+          .o4t-main-channel-card:before{height:3px;background:linear-gradient(90deg,#31c5ff,#4b83ff,#9deaff)}
+          .o4t-main-channel-card .o4t-installer-head{gap:11px;margin-bottom:7px}
+          .o4t-main-channel-card .o4t-installer-icon{flex-basis:44px;width:44px;height:44px;border-color:rgba(91,190,255,.48);border-radius:13px;background:linear-gradient(145deg,rgba(42,151,255,.28),rgba(27,70,145,.2));font-size:1.4rem}
+          .o4t-main-channel-card h2{font-size:clamp(1.08rem,2vw,1.35rem)}
+          .o4t-main-channel-card .o4t-installer-description{margin:8px 0 13px!important;font-size:.9rem;line-height:1.8}
+          .o4t-channel-highlights{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:13px 0;padding:12px;border:1px solid rgba(74,166,255,.28);border-radius:14px;background:rgba(3,16,34,.48)}
+          .o4t-channel-highlights div{display:flex;align-items:center;gap:8px;min-width:0;color:#dceeff;font-size:.82rem;line-height:1.6}
+          .o4t-channel-highlights span{display:grid;place-items:center;flex:0 0 28px;width:28px;height:28px;border:1px solid rgba(80,177,255,.28);border-radius:9px;background:rgba(47,139,255,.14);font-size:1rem}
+          .o4t-channel-highlights strong{font-weight:800}
+          .o4t-channel-update-note{margin:9px 0 14px!important;color:#9fc9ed!important;font-size:.78rem!important;line-height:1.7!important}
+          .o4t-main-channel-card .o4t-installer-features{gap:7px 14px;margin-top:13px}
+          .o4t-main-channel-card .o4t-installer-features li{font-size:.81rem;line-height:1.65}
+          .o4t-main-channel-card .o4t-installer-note{margin-top:12px!important;padding-top:10px;font-size:.77rem}
+          .o4t-main-channel-card .o4t-command-row{padding:8px;border-color:rgba(79,158,228,.35)}
+          .o4t-main-channel-card .o4t-copy-command{min-height:40px;padding:8px 12px}
+          @media(max-width:620px){.o4t-channel-highlights{grid-template-columns:1fr;gap:7px;padding:10px}.o4t-main-channel-card{padding:15px;border-radius:16px}.o4t-main-channel-card .o4t-installer-description{font-size:.86rem}.o4t-channel-highlights div{font-size:.8rem}}
           @media(max-width:620px){.o4t-channel-installer{padding:17px;border-radius:18px}.o4t-installer-head{align-items:flex-start;gap:11px}.o4t-installer-icon{flex-basis:44px;width:44px;height:44px;border-radius:13px;font-size:1.4rem}.o4t-installer-description{font-size:.9rem}.o4t-command-row{flex-direction:column;gap:8px;padding:10px}.o4t-install-command{width:100%;min-height:64px;padding:7px 3px;font-size:.76rem}.o4t-copy-command{width:100%;min-height:48px;align-self:stretch}.o4t-installer-features{grid-template-columns:1fr;gap:7px}.o4t-copy-toast{bottom:16px;width:max-content;text-align:center}}
           @media(prefers-reduced-motion:reduce){.o4t-channel-installer,.o4t-copy-command,.o4t-copy-toast{transition:none}}
         </style>
