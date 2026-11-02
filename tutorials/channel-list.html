@@ -184,6 +184,37 @@
           @media(max-width:900px){.o4t-main-channel-card{grid-template-columns:1fr;gap:16px}.o4t-main-channel-card .o4t-channel-highlights{grid-template-columns:repeat(4,minmax(0,1fr))}.o4t-main-channel-card .o4t-channel-highlights div{flex-direction:column;align-items:flex-start;gap:5px;padding:9px}.o4t-main-channel-card .o4t-channel-highlights span{flex-basis:25px;width:25px;height:25px}}
           @media(max-width:600px){.o4t-main-channel-card{gap:14px;padding:16px;border-radius:17px}.o4t-main-channel-card .o4t-installer-head{gap:10px}.o4t-main-channel-card .o4t-installer-icon{flex-basis:42px;width:42px;height:42px;border-radius:12px;font-size:1.3rem}.o4t-main-channel-card h2{font-size:1.08rem}.o4t-main-channel-card .o4t-installer-description{margin:6px 0 11px!important;font-size:.84rem}.o4t-main-channel-card .o4t-channel-highlights{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.o4t-main-channel-card .o4t-channel-highlights div{flex-direction:row;align-items:center;padding:7px;font-size:.72rem}.o4t-main-channel-card .o4t-channel-highlights span{flex:0 0 24px;width:24px;height:24px}.o4t-main-channel-card .o4t-command-row{flex-direction:column;gap:6px;padding:9px}.o4t-main-channel-card .o4t-install-command{min-height:50px;font-size:.72rem}.o4t-main-channel-card .o4t-copy-command{width:100%;min-height:42px}.o4t-main-channel-card .o4t-installer-features{gap:6px 8px}.o4t-main-channel-card .o4t-installer-features div{font-size:.72rem}.o4t-main-channel-card .o4t-installer-note{font-size:.7rem}}
           @media(prefers-reduced-motion:reduce){.o4t-main-channel-card{transition:none}}
+
+          /* Page-wide layout override: defeat the shared 1100px tutorial cap */
+          html,body{max-width:100%;overflow-x:hidden}
+          body{width:100%}
+          main.tutorial-article-wrap,
+          body > main.tutorial-article-wrap{
+            width:calc(100% - 32px)!important;
+            max-width:none!important;
+            margin-inline:auto!important;
+          }
+          main.tutorial-article-wrap > article,
+          main.tutorial-article-wrap .tutorial-breadcrumb,
+          main.tutorial-article-wrap .tutorial-article-hero,
+          main.tutorial-article-wrap .tutorial-article-content{
+            width:100%!important;
+            max-width:none!important;
+          }
+          main.tutorial-article-wrap .tutorial-article-content{
+            padding:clamp(18px,2vw,30px)!important;
+          }
+          main.tutorial-article-wrap .tutorial-article-hero > p{
+            max-width:100%!important;
+          }
+          main.tutorial-article-wrap .tutorial-article-content p{
+            max-width:none;
+          }
+          @media(max-width:767px){
+            main.tutorial-article-wrap,
+            body > main.tutorial-article-wrap{width:calc(100% - 20px)!important}
+            main.tutorial-article-wrap .tutorial-article-content{padding:14px!important}
+          }
         </style>
         <script>
           (function(){
