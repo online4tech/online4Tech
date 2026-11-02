@@ -311,7 +311,10 @@
         }
       ],
       "githubStars": 304,
-      "directDownloadUrl": "https://drive.google.com/uc?export=download&id=1Cmfa7r5P01db2YP3qvD3V8LVjv9j16Hi"
+      "directDownloadUrl": "https://drive.google.com/uc?export=download&id=1Cmfa7r5P01db2YP3qvD3V8LVjv9j16Hi",
+      "latestVersion": "channellists-ziggo-2026-10-29--21-45-07",
+      "latestReleaseUrl": "https://github.com/picons/picons/releases/tag/channellists-ziggo-2026-10-29--21-45-07",
+      "latestReleaseDate": "2026-11-01T07:13:58Z"
     },
     {
       "id": "ipaudio-pro",
@@ -383,7 +386,10 @@
       "icon": "images/plugins/ipaudio-pro/icon.webp",
       "githubStars": 1,
       "logoFound": true,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "latestVersion": "IPAudio",
+      "latestReleaseUrl": "https://github.com/popking159/ipaudio/releases/tag/IPAudio",
+      "latestReleaseDate": "2025-12-10T02:33:09Z"
     },
     {
       "id": "alkuds-audio",
@@ -948,7 +954,10 @@
       ],
       "icon": "",
       "logoFound": false,
-      "officialWebsite": ""
+      "officialWebsite": "",
+      "latestVersion": "v1.0.17",
+      "latestReleaseUrl": "https://github.com/K3bOra/UltraAudio/releases/tag/v1.0.17",
+      "latestReleaseDate": "2026-10-30T10:34:54Z"
     },
     {
       "id": "scripts-tools",
@@ -1158,7 +1167,11 @@
           "label": "التثبيت من مستودع صورة النظام",
           "command": "opkg update && opkg install enigma2-plugin-extensions-xstreamity"
         }
-      ]
+      ],
+      "latestVersion": "5.59-20260914",
+      "latestReleaseUrl": "https://github.com/kiddac/XStreamity/releases/tag/5.59-20260914",
+      "latestReleaseDate": "2026-09-15T17:53:57Z",
+      "updateAvailable": false
     },
     {
       "id": "epg-import",
