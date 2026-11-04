@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1728">
+  <meta name="robots" content="noindex,nofollow">
+  <title>لوحة إدارة المحتوى | Online4Tech</title>
+  <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../" aria-label="Online4Tech">
+      <img src="../assets/site-logo.svg" alt="Online4Tech">
+      <span>مركز إدارة المحتوى</span>
+    </a>
+    <div class="top-actions">
+      <span class="secure-label"><i></i> مساحة خاصة</span>
+      <button id="signOutBtn" class="button ghost small" type="button" hidden>تسجيل الخروج</button>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section id="authView" class="auth-wrap">
+      <div class="auth-card">
+        <div class="eyebrow">ONLINE4TECH · CONTENT CONTROL</div>
+        <h1>إدارة المحتوى الأسبوعي</h1>
+        <p class="muted">سجّل دخولك بحساب المدير لمراجعة خطط ومنشورات الصفحة.</p>
+        <form id="loginForm" class="stack">
+          <label>البريد الإلكتروني<input id="loginEmail" type="email" autocomplete="username" required placeholder="name@example.com"></label>
+          <label>كلمة المرور<input id="loginPassword" type="password" autocomplete="current-password" required minlength="8" placeholder="كلمة المرور"></label>
+          <button class="button primary" type="submit">تسجيل الدخول</button>
+        </form>
+        <button id="forgotBtn" class="text-button" type="button">نسيت كلمة المرور؟ ابعت رابط إعادة التعيين</button>
+        <div id="authMessage" class="message" role="status" aria-live="polite"></div>
+        <p class="tiny-note">الدخول متاح للحسابات المصرّح لها فقط. لا تشارك كلمة المرور مع أي شخص.</p>
+      </div>
+    </section>
+
+    <section id="passwordView" class="auth-wrap" hidden>
+      <div class="auth-card">
+        <div class="eyebrow">SECURE ACCOUNT SETUP</div>
+        <h1>تعيين كلمة مرور جديدة</h1>
+        <p class="muted">اكتب كلمة مرور قوية لحساب الإدارة.</p>
+        <form id="passwordForm" class="stack">
+          <label>كلمة المرور الجديدة<input id="newPassword" type="password" autocomplete="new-password" minlength="10" required placeholder="10 أحرف على الأقل"></label>
+          <label>تأكيد كلمة المرور<input id="confirmPassword" type="password" autocomplete="new-password" minlength="10" required placeholder="أعد كتابة كلمة المرور"></label>
+          <button class="button primary" type="submit">حفظ كلمة المرور</button>
+        </form>
+        <div id="passwordMessage" class="message" role="status" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="dashboardView" hidden>
+      <div class="welcome-row">
+        <div>
+          <div class="eyebrow">ONLINE4TECH CONTROL CENTER</div>
+          <h1>أهلاً بيك في لوحة المحتوى</h1>
+          <p class="muted">جهّز الخطة، راجع كل منشور، واعتمده بشكل منفصل.</p>
+        </div>
+        <div class="manual-pill"><span></span> النشر يدوي فقط — لا يوجد نشر تلقائي</div>
+      </div>
+
+      <div class="stats-grid">
+        <article class="stat-card"><span>الخطط الأسبوعية</span><strong id="plansCount">0</strong></article>
+        <article class="stat-card"><span>إجمالي المنشورات</span><strong id="postsCount">0</strong></article>
+        <article class="stat-card"><span>بانتظار المراجعة</span><strong id="reviewCount">0</strong></article>
+        <article class="stat-card"><span>تم اعتمادها</span><strong id="approvedCount">0</strong></article>
+      </div>
+
+      <div class="content-grid">
+        <section class="panel">
+          <div class="panel-heading"><div><span class="eyebrow">WEEKLY PLANNING</span><h2>إنشاء خطة أسبوعية</h2></div></div>
+          <form id="planForm" class="stack">
+            <label>عنوان الخطة<input id="planTitle" required maxlength="120" value="خطة Online4Tech الأسبوعية"></label>
+            <label>بداية الأسبوع<input id="weekStart" type="date" required></label>
+            <button class="button primary" type="submit">إضافة الخطة</button>
+          </form>
+          <div id="plansList" class="plans-list"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-heading"><div><span class="eyebrow">POST EDITOR</span><h2>إضافة منشور للخطة</h2></div></div>
+          <form id="postForm" class="stack">\n            <input id="postId" type="hidden">
+            <label>الخطة الأسبوعية<select id="postPlan" required><option value="">اختار الخطة</option></select></label>
+            <label>عنوان المنشور<input id="postTitle" required maxlength="180" placeholder="مثال: معلومة تقنية عن Enigma2"></label>
+            <label>نص المنشور<textarea id="postBody" rows="5" required placeholder="اكتب النص هنا للمراجعة قبل النشر..."></textarea></label>
+            <div class="two-cols">
+              <label>النوع<select id="postType"><option value="post">منشور</option><option value="reel">ريل</option><option value="story">ستوري</option></select></label>
+              <label>رابط الوسائط (اختياري)<input id="mediaUrl" type="url" placeholder="https://..."></label>
+            </div>
+            <fieldset class="platforms">
+              <legend>المنصات</legend>
+              <label><input type="checkbox" name="platform" value="facebook" checked> Facebook</label>
+              <label><input type="checkbox" name="platform" value="instagram" checked> Instagram</label>
+              <label><input type="checkbox" name="platform" value="tiktok"> TikTok</label>
+            </fieldset>
+            <label>موعد مقترح (اختياري)<input id="scheduledAt" type="datetime-local"></label>
+            <button id="postSubmitBtn" class="button primary" type="submit">حفظ كمسودة</button>\n            <button id="cancelPostEdit" class="button ghost" type="button" hidden>إلغاء التعديل</button>
+          </form>
+        </section>
+      </div>
+
+      <section class="panel posts-panel">
+        <div class="panel-heading heading-wrap">
+          <div><span class="eyebrow">REVIEW QUEUE</span><h2>مراجعة المنشورات</h2></div>
+          <select id="planFilter" class="filter-select" aria-label="تصفية حسب الخطة"><option value="all">كل الخطط</option></select>
+        </div>
+        <div id="postsList" class="posts-list"></div>
+      </section>
+      <div id="dashboardMessage" class="message" role="status" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>© Online4Tech · خليك دايمًا أونلاين</footer>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
