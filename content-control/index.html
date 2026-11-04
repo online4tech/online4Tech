@@ -82,7 +82,7 @@
 
         <section class="panel">
           <div class="panel-heading"><div><span class="eyebrow">POST EDITOR</span><h2>إضافة منشور للخطة</h2></div></div>
-          <form id="postForm" class="stack">
+          <form id="postForm" class="stack">\n            <input id="postId" type="hidden">
             <label>الخطة الأسبوعية<select id="postPlan" required><option value="">اختار الخطة</option></select></label>
             <label>عنوان المنشور<input id="postTitle" required maxlength="180" placeholder="مثال: معلومة تقنية عن Enigma2"></label>
             <label>نص المنشور<textarea id="postBody" rows="5" required placeholder="اكتب النص هنا للمراجعة قبل النشر..."></textarea></label>
@@ -97,7 +97,7 @@
               <label><input type="checkbox" name="platform" value="tiktok"> TikTok</label>
             </fieldset>
             <label>موعد مقترح (اختياري)<input id="scheduledAt" type="datetime-local"></label>
-            <button class="button primary" type="submit">حفظ كمسودة</button>
+            <button id="postSubmitBtn" class="button primary" type="submit">حفظ كمسودة</button>\n            <button id="cancelPostEdit" class="button ghost" type="button" hidden>إلغاء التعديل</button>
           </form>
         </section>
       </div>
