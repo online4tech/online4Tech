@@ -137,7 +137,8 @@ function renderPosts() {
       <div class="post-actions">${post.status !== "published" && post.status !== "scheduled" ? `<button class="button ghost edit-btn" data-id="${post.id}" type="button">تعديل</button>` : ""}${canApprove ? `<button class="button primary approve-btn" data-id="${post.id}" type="button">اعتماد المحتوى</button>` : ""}</div>
     </article>`;
   }).join("") : '<div class="empty">مفيش منشورات في التصنيف ده حاليًا.</div>';
-  document.querySelectorAll(".approve-btn").forEach(btn => btn.addEventListener("click", () => approvePost(btn.dataset.id)));\n  document.querySelectorAll(".edit-btn").forEach(btn => btn.addEventListener("click", () => startEditPost(btn.dataset.id)));
+  document.querySelectorAll(".approve-btn").forEach(btn => btn.addEventListener("click", () => approvePost(btn.dataset.id))); 
+  document.querySelectorAll(".edit-btn").forEach(btn => btn.addEventListener("click", () => startEditPost(btn.dataset.id)));
 }
 
 async function approvePost(id) {
