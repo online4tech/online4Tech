@@ -4098,11 +4098,27 @@
     "type": "Page"
   },
   {
+    "title": "أهلاً بيك في لوحة المحتوى",
+    "description": "لوحة إدارة المحتوى | Online4Tech — محتوى تقني من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/content-control/index.html#dashboardView",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "إدارة الحزم",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#catalogSection",
     "category": "معلومات",
     "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "إدارة المحتوى الأسبوعي",
+    "description": "لوحة إدارة المحتوى | Online4Tech — محتوى تقني من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/content-control/index.html#authView",
+    "category": "معلومات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
@@ -4426,11 +4442,27 @@
     "type": "Page"
   },
   {
+    "title": "إضافة منشور للخطة",
+    "description": "لوحة إدارة المحتوى | Online4Tech — محتوى تقني من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/content-control/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "إعداد بيانات الجهاز",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#connection",
     "category": "معلومات",
     "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "إنشاء خطة أسبوعية",
+    "description": "لوحة إدارة المحتوى | Online4Tech — محتوى تقني من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/content-control/index.html#dashboardView",
+    "category": "معلومات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
@@ -5026,6 +5058,14 @@
     "type": "Page"
   },
   {
+    "title": "تعيين كلمة مرور جديدة",
+    "description": "لوحة إدارة المحتوى | Online4Tech — محتوى تقني من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/content-control/index.html#passwordView",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "تفاصيل إضافة Enigma2 | Online4Tech",
     "description": "تفاصيل ومميزات وأمر تثبيت إضافات Enigma2 من مكتبة Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/index.html",
@@ -5162,6 +5202,14 @@
     "type": "Page"
   },
   {
+    "title": "لوحة إدارة المحتوى | Online4Tech",
+    "description": "لوحة إدارة المحتوى | Online4Tech — محتوى تقني من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/content-control/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "محتاج مساعدة؟ إحنا معاك 👋",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/#contact",
@@ -5172,6 +5220,22 @@
   {
     "title": "محتوى تقني متجمع في مكان واحد",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "مراجعة المنشورات",
+    "description": "لوحة إدارة المحتوى | Online4Tech — محتوى تقني من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/content-control/index.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "مركز إدارة المحتوى",
+    "description": "لوحة إدارة المحتوى | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/",
     "category": "معلومات",
     "brand": "Online4Tech",
