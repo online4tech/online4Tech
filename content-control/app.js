@@ -134,10 +134,10 @@ function renderPosts() {
       <p class="post-body">${safeText(post.body)}</p>
       <div class="post-meta"><span>موعد مقترح: ${post.scheduled_at ? new Date(post.scheduled_at).toLocaleString("ar-EG") : "غير محدد"}</span><span>طريقة النشر: يدوي</span></div>
       ${post.media_url ? `<a href="${safeText(post.media_url)}" target="_blank" rel="noopener noreferrer">فتح رابط الوسائط</a>` : ""}
-      ${canApprove ? `<div class="post-actions"><button class="button primary approve-btn" data-id="${post.id}" type="button">اعتماد المحتوى</button></div>` : ""}
+      <div class="post-actions">${post.status !== "published" && post.status !== "scheduled" ? `<button class="button ghost edit-btn" data-id="${post.id}" type="button">تعديل</button>` : ""}${canApprove ? `<button class="button primary approve-btn" data-id="${post.id}" type="button">اعتماد المحتوى</button>` : ""}</div>
     </article>`;
   }).join("") : '<div class="empty">مفيش منشورات في التصنيف ده حاليًا.</div>';
-  document.querySelectorAll(".approve-btn").forEach(btn => btn.addEventListener("click", () => approvePost(btn.dataset.id)));
+  document.querySelectorAll(".approve-btn").forEach(btn => btn.addEventListener("click", () => approvePost(btn.dataset.id)));\n  document.querySelectorAll(".edit-btn").forEach(btn => btn.addEventListener("click", () => startEditPost(btn.dataset.id)));
 }
 
 async function approvePost(id) {
@@ -163,6 +163,29 @@ $("planForm").addEventListener("submit", async (event) => {
   await loadDashboard();
 });
 
+function resetPostEditor() {
+  $("postForm").reset();
+  $("postId").value = "";
+  $("postSubmitBtn").textContent = "حفظ كمسودة";
+  $("cancelPostEdit").hidden = true;
+  document.querySelectorAll('input[name="platform"]').forEach(input => input.checked = ["facebook","instagram"].includes(input.value));
+}
+function startEditPost(id) {
+  const post = posts.find(item => item.id === id);
+  if (!post) return;
+  $("postId").value = post.id;
+  $("postPlan").value = post.plan_id;
+  $("postTitle").value = post.title;
+  $("postBody").value = post.body;
+  $("postType").value = post.post_type;
+  $("mediaUrl").value = post.media_url || "";
+  $("scheduledAt").value = post.scheduled_at ? new Date(post.scheduled_at).toISOString().slice(0,16) : "";
+  document.querySelectorAll('input[name="platform"]').forEach(input => input.checked = (post.platforms || []).includes(input.value));
+  $("postSubmitBtn").textContent = "حفظ التعديلات";
+  $("cancelPostEdit").hidden = false;
+  $("postForm").scrollIntoView({ behavior:"smooth", block:"center" });
+}
+$("cancelPostEdit").addEventListener("click", resetPostEditor);
 $("postForm").addEventListener("submit", async (event) => {
   event.preventDefault();
   const platforms = [...document.querySelectorAll('input[name="platform"]:checked')].map(input=>input.value);
@@ -170,7 +193,7 @@ $("postForm").addEventListener("submit", async (event) => {
   const plan_id = $("postPlan").value;
   if (!plan_id) return setMessage("dashboardMessage", "أنشئ أو اختار خطة أسبوعية أولًا.", "error");
   const scheduledValue = $("scheduledAt").value;
-  const { error } = await supabase.from("content_posts").insert({
+  const payload = {
     plan_id,
     title:$("postTitle").value.trim(),
     body:$("postBody").value.trim(),
@@ -178,13 +201,20 @@ $("postForm").addEventListener("submit", async (event) => {
     platforms,
     media_url:$("mediaUrl").value.trim() || null,
     scheduled_at:scheduledValue ? new Date(scheduledValue).toISOString() : null,
-    publish_mode:"manual",
-    status:"draft"
-  });
+    publish_mode:"manual"
+  };
+  const editId = $("postId").value;
+  let error;
+  if (editId) {
+    const result = await supabase.from("content_posts").update({ ...payload, status:"draft", approved_at:null }).eq("id", editId);
+    error = result.error;
+  } else {
+    const result = await supabase.from("content_posts").insert({ ...payload, status:"draft" });
+    error = result.error;
+  }
   if (error) return setMessage("dashboardMessage", "تعذّر حفظ المنشور. راجع البيانات وحاول تاني.", "error");
-  $("postForm").reset();
-  document.querySelectorAll('input[name="platform"]').forEach(input=>input.checked = ["facebook","instagram"].includes(input.value));
-  setMessage("dashboardMessage", "تم حفظ المنشور كمسودة للمراجعة.", "success");
+  resetPostEditor();
+  setMessage("dashboardMessage", editId ? "تم حفظ التعديلات وإرجاع المنشور لمسودة للمراجعة من جديد." : "تم حفظ المنشور كمسودة للمراجعة.", "success");
   await loadDashboard();
 });
 $("planFilter").addEventListener("change", renderPosts);
