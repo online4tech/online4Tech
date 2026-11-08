@@ -250,6 +250,98 @@ footer a:hover{color:var(--blue)}
 </style>
 
 
+<style id="o4t-auto-install-css">
+/* ===== Auto Install button (same palette, soft pulse) ===== */
+.detail-actions>.btn.auto-install{
+ position:relative;isolation:isolate;flex-wrap:wrap;gap:4px 9px!important;
+ background:linear-gradient(115deg,#0b8a6c,#0e86b8)!important;
+ border-color:rgba(120,255,214,.7)!important;color:#fff!important;
+ box-shadow:inset 0 1px 0 rgba(255,255,255,.28),0 0 20px rgba(24,200,160,.32)!important}
+.detail-actions>.btn.auto-install::after{content:"";position:absolute;inset:-1px;border-radius:inherit;z-index:-1;pointer-events:none;animation:o4tPulse 2.2s ease-out infinite}
+.detail-actions>.btn.auto-install .auto-install-ico{font-size:17px;filter:drop-shadow(0 0 6px rgba(255,236,150,.8))}
+.detail-actions>.btn.auto-install small{font:600 11px/1 Tahoma,Arial,sans-serif;opacity:.85;direction:ltr;letter-spacing:.3px}
+.detail-actions>.btn.auto-install:hover:not(:disabled){box-shadow:inset 0 1px 0 rgba(255,255,255,.3),0 8px 24px rgba(0,0,0,.28),0 0 26px rgba(24,220,170,.45)!important}
+@keyframes o4tPulse{0%{box-shadow:0 0 0 0 rgba(40,220,170,.55)}70%{box-shadow:0 0 0 9px rgba(40,220,170,0)}100%{box-shadow:0 0 0 0 rgba(40,220,170,0)}}
+/* previously-dead buttons: still dimmed, but now answer with a toast */
+.detailbody .detail-actions>.btn.is-unavailable{opacity:.5!important;cursor:not-allowed!important}
+.detailbody .detail-actions>.btn.is-unavailable:hover{transform:none!important;filter:none!important}
+
+/* ===== Toast ===== */
+.o4t-toast{position:fixed;inset-inline:16px;bottom:22px;margin-inline:auto;width:fit-content;max-width:min(92vw,460px);z-index:3000;padding:11px 18px;border-radius:14px;font-size:14px;font-weight:700;line-height:1.6;text-align:center;color:#eaf4ff;
+ background:rgba(14,30,52,.82);border:1px solid rgba(130,190,255,.4);box-shadow:0 12px 34px rgba(0,0,0,.45);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+ opacity:0;transform:translateY(14px);pointer-events:none;transition:opacity .25s,transform .25s}
+.o4t-toast.show{opacity:1;transform:none}
+.o4t-toast[data-type=success]{border-color:rgba(88,235,174,.65)}
+.o4t-toast[data-type=error]{border-color:rgba(255,130,130,.65)}
+
+/* ===== Bridge modal (glassmorphism) ===== */
+#o4tBridge{position:fixed;inset:0;z-index:2000;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(2,8,18,.6);-webkit-backdrop-filter:blur(10px) saturate(1.2);backdrop-filter:blur(10px) saturate(1.2)}
+#o4tBridge.open{display:flex;animation:o4tFade .25s ease both}
+body.o4t-lock{overflow:hidden}
+.o4t-bridge-card{position:relative;width:min(520px,100%);max-height:calc(100vh - 32px);max-height:calc(100dvh - 32px);overflow-y:auto;border-radius:22px;padding:22px;color:var(--txt);
+ background:linear-gradient(160deg,rgba(26,48,78,.78),rgba(9,20,38,.86));border:1px solid rgba(130,190,255,.35);
+ box-shadow:0 24px 70px rgba(0,0,0,.55),0 0 44px rgba(40,160,255,.18),inset 0 1px 0 rgba(255,255,255,.16);
+ -webkit-backdrop-filter:blur(22px) saturate(1.4);backdrop-filter:blur(22px) saturate(1.4);animation:o4tPop .34s cubic-bezier(.2,.9,.3,1.15) both}
+.o4t-bridge-card::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(ellipse at 85% -10%,rgba(48,200,216,.2),transparent 55%),radial-gradient(ellipse at 0% 110%,rgba(96,165,250,.16),transparent 55%)}
+.o4t-bridge-card>*{position:relative}
+.o4t-b-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.o4t-b-orb{flex:0 0 46px;width:46px;height:46px;border-radius:14px;display:grid;place-items:center;font-size:22px;background:linear-gradient(135deg,#7be0ff,#3984ed);color:#061421;box-shadow:0 0 22px rgba(70,170,255,.45)}
+.o4t-b-title{flex:1;min-width:0}
+.o4t-b-title b{display:block;font-size:18px;line-height:1.4}
+.o4t-b-title span{display:block;color:var(--muted);font-size:12.5px;overflow-wrap:anywhere}
+.o4t-b-close{flex:0 0 auto;width:34px;height:34px;border-radius:10px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);color:#e8eefb;font-size:15px}
+.o4t-b-close:hover{background:rgba(255,255,255,.14)}
+.o4t-b-steps{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:8px}
+.o4t-b-step{display:flex;align-items:center;gap:11px;padding:10px 12px;border-radius:13px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.04);opacity:.55;transition:opacity .3s,border-color .3s,background .3s}
+.o4t-b-step.active{opacity:1;border-color:rgba(106,226,255,.55);background:rgba(40,150,210,.14);box-shadow:0 0 18px rgba(48,200,216,.14)}
+.o4t-b-step.done{opacity:1;border-color:rgba(88,235,174,.4);background:rgba(30,160,110,.1)}
+.o4t-b-dot{flex:0 0 26px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-size:13px;font-weight:900;border:2px solid rgba(255,255,255,.22);color:transparent}
+.o4t-b-step.active .o4t-b-dot{border-color:rgba(106,226,255,.25);border-top-color:#6ae2ff;animation:o4tSpin .8s linear infinite}
+.o4t-b-step.done .o4t-b-dot{border-color:#2cba82;background:#176b4b;color:#eafff5;animation:none}
+.o4t-b-txt{flex:1;min-width:0;font-size:14.5px;font-weight:700;line-height:1.5}
+.o4t-b-txt small{display:block;direction:ltr;text-align:right;color:#8fa9c4;font:500 11.5px/1.4 Tahoma,Arial,sans-serif}
+.o4t-b-stat{flex:0 0 auto;direction:ltr;font:700 12px Consolas,monospace;color:#9ee6d9}
+.o4t-b-bar{height:12px;border-radius:99px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1);overflow:hidden}
+.o4t-b-fill{height:100%;width:0;border-radius:inherit;background:linear-gradient(90deg,#168bd2,#16b6c5,#2cba82);background-size:200% 100%;box-shadow:0 0 14px rgba(22,182,197,.55);animation:o4tShimmer 1.6s linear infinite}
+.o4t-b-pct{display:flex;justify-content:space-between;align-items:center;margin:6px 2px 12px;color:var(--muted);font-size:12px}
+.o4t-b-pct b{direction:ltr;color:#e8f8ff;font:800 15px Consolas,monospace}
+.o4t-b-log{direction:ltr;text-align:left;height:118px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;gap:2px;padding:9px 11px;border-radius:12px;background:rgba(3,10,20,.62);border:1px solid rgba(255,255,255,.08);font:11.5px/1.55 Consolas,monospace;color:#9ee6d9}
+.o4t-b-log div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;animation:o4tFade .25s ease both}
+.o4t-b-log .dim{color:#7d93ac}
+.o4t-b-note{margin:12px 2px 0;color:#8aa2bc;font-size:11.5px;line-height:1.7}
+.o4t-b-actions{display:flex;gap:9px;margin-top:14px}
+.o4t-b-btn{flex:1;min-height:44px;padding:0 14px;border-radius:12px;border:1px solid rgba(130,190,255,.38);background:rgba(255,255,255,.07);color:#f3f8ff;font-weight:800;font-size:14px}
+.o4t-b-btn:hover{filter:brightness(1.15);transform:translateY(-1px)}
+.o4t-b-btn.primary{border-color:rgba(120,255,214,.6);background:linear-gradient(115deg,#0b8a6c,#0e86b8);color:#fff}
+.o4t-b-done{display:none;text-align:center;padding:6px 0 2px}
+.o4t-b-check{width:86px;height:86px;margin:2px auto 10px;display:block}
+.o4t-b-check circle{fill:rgba(30,160,110,.16);stroke:#2cba82;stroke-width:3;stroke-dasharray:252;stroke-dashoffset:252}
+.o4t-b-check path{fill:none;stroke:#7dffc9;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:60;stroke-dashoffset:60}
+.o4t-b-done h3{margin:0 0 4px;font-size:21px;color:#b9ffe3}
+.o4t-b-done p{margin:0;color:var(--muted);font-size:13px;overflow-wrap:anywhere}
+.o4t-bridge-card.is-done .o4t-b-run{display:none}
+.o4t-bridge-card.is-done .o4t-b-done{display:block}
+.o4t-bridge-card.is-done .o4t-b-check circle{animation:o4tDraw .7s ease forwards}
+.o4t-bridge-card.is-done .o4t-b-check path{animation:o4tDraw .45s .55s ease forwards}
+.o4t-bridge-card.is-done{box-shadow:0 24px 70px rgba(0,0,0,.55),0 0 54px rgba(44,186,130,.3),inset 0 1px 0 rgba(255,255,255,.16)}
+@keyframes o4tFade{from{opacity:0}to{opacity:1}}
+@keyframes o4tPop{from{opacity:0;transform:translateY(18px) scale(.95)}to{opacity:1;transform:none}}
+@keyframes o4tSpin{to{transform:rotate(360deg)}}
+@keyframes o4tShimmer{to{background-position:-200% 0}}
+@keyframes o4tDraw{to{stroke-dashoffset:0}}
+@media(max-width:560px){
+ #o4tBridge{align-items:flex-end;padding:0}
+ .o4t-bridge-card{width:100%;border-radius:22px 22px 0 0;padding:18px 16px calc(18px + env(safe-area-inset-bottom));max-height:92vh;max-height:92dvh;animation-name:o4tSheet}
+ .o4t-b-txt{font-size:13.5px}
+}
+@keyframes o4tSheet{from{transform:translateY(100%)}to{transform:none}}
+@media(prefers-reduced-motion:reduce){
+ .detail-actions>.btn.auto-install::after,.o4t-b-fill,.o4t-b-step.active .o4t-b-dot{animation:none!important}
+ .o4t-bridge-card,#o4tBridge.open{animation:none!important}
+ .o4t-bridge-card.is-done .o4t-b-check circle,.o4t-bridge-card.is-done .o4t-b-check path{animation:none!important;stroke-dashoffset:0}
+}
+</style>
+
 <link rel="stylesheet" href="assets/site-header.css?v=6">
 <script src="assets/site-header.js?v=6" defer></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"ONLINE4TECH | مركز البلجنات والأدوات","description":"مركز منظم للبلجنات والأدوات والتصنيفات وأوامر أجهزة Enigma2 من Online4Tech.","url":"https://online4tech.github.io/online4Tech/AllBlugin.html","inLanguage":"ar","publisher":{"@type":"Organization","name":"Online4Tech","url":"https://online4tech.github.io/online4Tech/"}}</script>
@@ -337,15 +429,16 @@ function details(x){
  const forum=safeLink(firstValue(x,["forumUrl","topicUrl","tunisiaSatUrl"]));
  const metadata=[["الإصدار",x.version],["التاريخ",x.date],["التوافق",x.compatibility],["التصنيف",x.categoryLabel||m?.label],["الكلمات المفتاحية",x.keywords]];
  const meta=metadata.filter(([k,v])=>v!==undefined&&v!==null&&String(v).trim()!=="").map(([k,v])=>'<div><small>'+k+'</small><b>'+esc(v)+'</b></div>').join("");
- const action=(url,label,enabled,primary)=>enabled?'<a class="btn '+(primary?'primary':'')+'" href="'+esc(url)+'" target="_blank" rel="noopener">'+label+'</a>':'<button class="btn '+(primary?'primary':'')+'" type="button" disabled>'+label+'</button>';
+ const action=(url,label,enabled,primary,plain)=>enabled?'<a class="btn '+(primary?'primary':'')+'" href="'+esc(url)+'" target="_blank" rel="noopener">'+label+'</a>':'<button class="btn is-unavailable '+(primary?'primary':'')+'" type="button" aria-disabled="true" data-unavailable="'+esc(plain||"هذا الإجراء")+'">'+label+'</button>';
  const isLongCommand=installCommand.length>180||installCommand.includes("\n");
  const commandBox=installCommand&&!isLongCommand?'<section class="install-command-box"><div class="install-command-heading">أمر التنفيذ</div><div class="install-command-row"><code>'+esc(installCommand)+'</code></div><button class="mini-copy" type="button" data-copy-install="'+esc(installCommand)+'" aria-label="نسخ الأمر">نسخ الأمر</button></section>':'';
+ const autoInstallBtn='<button class="btn auto-install" type="button" data-auto-install="'+esc(x.id)+'" aria-haspopup="dialog"><span class="auto-install-ico" aria-hidden="true">⚡</span><span>التثبيت التلقائي</span><small>Auto Install</small></button>';
  const markup=(image?'<div class="detail-visual"><img src="'+esc(image)+'" alt="'+esc(x.name)+'" loading="lazy"></div>':'<div class="detail-visual"><span class="fallback">'+esc(icon)+'</span></div>')+
  '<h3 class="detail-title">'+esc(x.name)+'</h3><span class="type">'+esc(m?.label||"")+" · "+esc(sub?.label||"")+'</span>'+
  (x.description?'<p class="detail-description">'+esc(x.description)+'</p>':'')+
  commandBox+
  (meta?'<div class="detail-meta">'+meta+'</div>':'')+
- '<div class="detail-actions">'+action(download,"⬇ تحميل مباشر",!!download,true)+action(repo,'<img class="detail-action-logo" src="assets/site-logo.svg" alt=""> مستودع GitHub',!!repo,false)+action(forum,'<img class="detail-action-logo forum-logo" src="https://tunisia-sat.com/favicon.ico" alt=""> موضوع في تونسيا سات',!!forum,false)+(installCommand?'<button class="btn install-copy" type="button" data-copy-install="'+esc(installCommand)+'">📋 نسخ الأمر</button>':'<button class="btn" type="button" disabled>📋 نسخ الأمر</button>')+'</div>';
+ '<div class="detail-actions">'+autoInstallBtn+action(download,"⬇ تحميل مباشر",!!download,true,"رابط التحميل المباشر")+action(repo,'<img class="detail-action-logo" src="assets/site-logo.svg" alt=""> مستودع GitHub',!!repo,false,"رابط مستودع GitHub")+action(forum,'<img class="detail-action-logo forum-logo" src="https://tunisia-sat.com/favicon.ico" alt=""> موضوع في تونسيا سات',!!forum,false,"رابط موضوع تونسيا سات")+(installCommand?'<button class="btn install-copy" type="button" data-copy-install="'+esc(installCommand)+'">📋 نسخ الأمر</button>':'<button class="btn is-unavailable" type="button" aria-disabled="true" data-unavailable="أمر التنفيذ">📋 نسخ الأمر</button>')+'</div>';
  targets.forEach(el=>el.innerHTML=markup);
 }
 function renderAll(){renderNav();breadcrumb();renderContent();details(selectedItem)}
@@ -363,7 +456,7 @@ $("search").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault(
 $("searchBtn").addEventListener("click",applyGlobalSearch);
 $("sort").addEventListener("change",e=>{sort=e.target.value;renderContent()});
 function openDetailModal(){$("detailModal").classList.add("open");$("detailModal").setAttribute("aria-hidden","false")}function closeDetailModal(){$("detailModal").classList.remove("open");$("detailModal").setAttribute("aria-hidden","true")}$("closeDetail").addEventListener("click",closeDetailModal);$("detailModal").addEventListener("click",e=>{if(e.target.id==="detailModal")closeDetailModal()});document.addEventListener("keydown",e=>{if(e.key==="Escape")closeDetailModal()});
-document.addEventListener("click",async e=>{const btn=e.target.closest("[data-copy-install]");if(!btn)return;const command=btn.getAttribute("data-copy-install")||"";if(!command)return;try{if(!navigator.clipboard||!navigator.clipboard.writeText)throw new Error("Clipboard API غير متاح؛ يلزم HTTPS أو localhost وصلاحية النسخ.");await navigator.clipboard.writeText(command);document.querySelectorAll("[data-copy-install]").forEach(el=>{if(el.classList.contains("install-copy")){el.textContent="✅ تم النسخ";el.classList.add("is-copied")}});if(btn.classList.contains("mini-copy"))btn.textContent="تم";window.setTimeout(()=>{document.querySelectorAll("[data-copy-install]").forEach(el=>{if(el.classList.contains("install-copy")){el.textContent="📋 نسخ أمر التثبيت";el.classList.remove("is-copied")}if(el.classList.contains("mini-copy"))el.textContent="نسخ"})},2000);}catch(err){console.error("[ONLINE4TECH] تعذر نسخ أمر التثبيت إلى Clipboard:",err);}});
+document.addEventListener("click",async e=>{const btn=e.target.closest("[data-copy-install]");if(!btn)return;const command=btn.getAttribute("data-copy-install")||"";if(!command)return;let ok=false;try{if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(command);ok=true}}catch(err){console.warn("[ONLINE4TECH] Clipboard API فشل، سيتم استخدام الطريقة البديلة:",err)}if(!ok){try{const ta=document.createElement("textarea");ta.value=command;ta.setAttribute("readonly","");ta.style.cssText="position:fixed;top:-999px;opacity:0";document.body.appendChild(ta);ta.select();ok=document.execCommand("copy");ta.remove()}catch(err){ok=false}}if(!ok){window.o4tToast&&window.o4tToast("تعذر النسخ تلقائياً — حدّد الأمر وانسخه يدوياً.","error");return}document.querySelectorAll("[data-copy-install]").forEach(el=>{if(el.classList.contains("install-copy")){el.textContent="✅ تم النسخ";el.classList.add("is-copied")}if(el.classList.contains("mini-copy"))el.textContent="تم ✓"});window.o4tToast&&window.o4tToast("تم نسخ الأمر ✓","success");window.setTimeout(()=>{document.querySelectorAll("[data-copy-install]").forEach(el=>{if(el.classList.contains("install-copy")){el.textContent="📋 نسخ الأمر";el.classList.remove("is-copied")}if(el.classList.contains("mini-copy"))el.textContent="نسخ الأمر"})},2000)});
 async function init(){try{const r=await fetch(DATA_URL,{cache:"no-store"});if(!r.ok)throw new Error("HTTP "+r.status+" أثناء تحميل "+DATA_URL);const payload=await r.json();if(!payload||!Array.isArray(payload.categories)){throw new TypeError("مصدر البيانات "+DATA_URL+" لا يحتوي على مصفوفة categories صالحة (المتوقع db.categories).");}if(!Array.isArray(payload.items)){throw new TypeError("مصدر البيانات "+DATA_URL+" لا يحتوي على مصفوفة items صالحة (المتوقع db.items).");}db=payload;if(!db.categories.length)throw new Error("مصفوفة categories في "+DATA_URL+" فارغة؛ لا توجد أقسام رئيسية لعرضها.");activeMain=null;activeSub=null;selectedItem=null;renderAll();console.info("[ONLINE4TECH] تم تحميل مصدر البيانات الفعلي:",DATA_URL,"— الأقسام الرئيسية:",db.categories.length,"— العناصر:",db.items.length);}catch(e){console.error("[ONLINE4TECH] فشل تحميل/قراءة مصدر الأقسام:",DATA_URL,". تحقق من DATA_URL وdb.categories وdb.items.",e);$("nav").innerHTML='<div class="empty">تعذر تحميل الأقسام. راجع Console لمعرفة مصدر الخطأ.</div>';$("content").innerHTML='<div class="empty">فشل قراءة ملف البيانات: '+esc(DATA_URL)+'</div>';}}init();
 </script>
 <script id="online4tech-incremental-layout-behavior">
@@ -635,6 +728,183 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
  }
  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",initialize,{once:true});
  else initialize();
+})();
+</script>
+
+<div id="o4tBridge" aria-hidden="true">
+ <section class="o4t-bridge-card" role="dialog" aria-modal="true" aria-labelledby="o4tBTitle" tabindex="-1">
+  <div class="o4t-b-head">
+   <span class="o4t-b-orb" aria-hidden="true">🌉</span>
+   <div class="o4t-b-title"><b id="o4tBTitle">جسر التثبيت</b><span id="o4tBItem"></span></div>
+   <button class="o4t-b-close" type="button" id="o4tBClose" aria-label="إغلاق">✕</button>
+  </div>
+  <div class="o4t-b-run">
+   <ol class="o4t-b-steps" id="o4tBSteps"></ol>
+   <div class="o4t-b-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="o4tBBar"><div class="o4t-b-fill" id="o4tBFill"></div></div>
+   <div class="o4t-b-pct"><span id="o4tBStatus" aria-live="polite">جاري التحضير…</span><b id="o4tBPct">0%</b></div>
+   <div class="o4t-b-log" id="o4tBLog" aria-hidden="true"></div>
+   <p class="o4t-b-note">وضع المحاكاة: العملية تجريبية للعرض فقط، ولا يتم تنفيذ أي أوامر على جهازك أو على الرسيفر.</p>
+   <div class="o4t-b-actions"><button class="o4t-b-btn" type="button" id="o4tBCancel">إلغاء</button></div>
+  </div>
+  <div class="o4t-b-done" aria-live="assertive">
+   <svg class="o4t-b-check" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="40"/><path d="M30 52 L45 66 L71 36"/></svg>
+   <h3>تم التثبيت بنجاح!</h3>
+   <p id="o4tBDoneTxt"></p>
+   <div class="o4t-b-actions"><button class="o4t-b-btn primary" type="button" id="o4tBOk">تم</button></div>
+  </div>
+ </section>
+</div>
+<script id="o4t-auto-install">
+(function(){
+ "use strict";
+ const $=id=>document.getElementById(id);
+ const reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+ const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+ /* ---------- Toast ---------- */
+ const toastEl=document.createElement("div");
+ toastEl.className="o4t-toast";toastEl.setAttribute("role","status");toastEl.setAttribute("aria-live","polite");
+ document.body.appendChild(toastEl);
+ let toastTimer;
+ window.o4tToast=function(msg,type){
+  toastEl.textContent=msg;toastEl.dataset.type=type||"info";toastEl.classList.add("show");
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>toastEl.classList.remove("show"),2700);
+ };
+
+ /* ---------- Buttons that used to be dead (no link / no command) ---------- */
+ document.addEventListener("click",e=>{
+  const b=e.target.closest(".btn.is-unavailable");
+  if(!b)return;
+  e.preventDefault();
+  window.o4tToast("غير متاح حالياً: "+(b.dataset.unavailable||"هذا الإجراء")+" لهذا العنصر.","info");
+ });
+
+ /* ---------- Bridge simulation ---------- */
+ const STEPS=[
+  {ar:"جاري الاتصال بالجسر...",en:"Connecting to Bridge...",weight:15,dur:1800},
+  {ar:"جاري تحميل الملفات اللازمة...",en:"Downloading required files...",weight:45,dur:3800},
+  {ar:"جاري تثبيت الأدوات...",en:"Installing tools...",weight:40,dur:3200}
+ ];
+ const modal=$("o4tBridge"),card=modal.querySelector(".o4t-bridge-card");
+ let token=0,opener=null;
+
+ function slug(n){return String(n||"package").trim().replace(/[^\w.\-]+/g,"-").replace(/^-+|-+$/g,"")||"package"}
+ function fileNameFor(x){
+  const u=String(x.downloadUrl||"").trim();
+  if(/^https?:\/\//i.test(u)){try{const seg=decodeURIComponent(new URL(u).pathname.split("/").filter(Boolean).pop()||"");if(seg)return seg}catch(e){}}
+  return slug(x.name)+".ipk";
+ }
+ function sizeFor(x){const n=Number(x.id)||0;return Math.round((0.4+(n%17)*0.35)*10)/10}
+ function ease(t){return t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2}
+
+ function buildSteps(){
+  $("o4tBSteps").innerHTML=STEPS.map((s,i)=>'<li class="o4t-b-step" data-i="'+i+'"><span class="o4t-b-dot" aria-hidden="true">✓</span><span class="o4t-b-txt">'+s.ar+'<small>'+s.en+'</small></span><span class="o4t-b-stat"></span></li>').join("");
+ }
+ function setProgress(p){
+  p=Math.max(0,Math.min(100,p));
+  $("o4tBFill").style.width=p+"%";
+  $("o4tBPct").textContent=Math.floor(p)+"%";
+  $("o4tBBar").setAttribute("aria-valuenow",String(Math.floor(p)));
+ }
+ function stepEl(i){return modal.querySelector('.o4t-b-step[data-i="'+i+'"]')}
+ function addLog(text,dim){
+  const log=$("o4tBLog"),d=document.createElement("div");
+  if(dim)d.className="dim";
+  d.textContent=text;log.appendChild(d);
+  while(log.children.length>5)log.removeChild(log.firstChild);
+ }
+
+ function runSimulation(x){
+  const my=++token;
+  const file=fileNameFor(x),size=sizeFor(x);
+  const cmd=String(x.installCommand||x.command||"").trim();
+  const cmdShort=cmd.length>64?cmd.slice(0,61)+"…":cmd;
+  const logs=[
+   [ [0,"$ bridge --connect 127.0.0.1:8765",0],[.45,"handshake ... ok",1],[.85,"session ready",0] ],
+   [ [0,"GET "+file,0],[.3,"resolving mirror ... ok",1],[.65,"receiving data ...",1],[.97,"checksum ... verified",0] ],
+   [ [0,cmdShort?"$ "+cmdShort:"unpack "+file,0],[.4,"registering "+slug(x.name)+" ...",1],[.8,"updating settings ...",1],[.97,"done",0] ]
+  ];
+  let i=0,t0=null,logIdx=0;
+  const status=$("o4tBStatus");
+  function enter(n){
+   i=n;t0=null;logIdx=0;
+   for(let k=0;k<STEPS.length;k++){const el=stepEl(k);el.classList.toggle("done",k<n);el.classList.toggle("active",k===n);if(k>n)el.querySelector(".o4t-b-stat").textContent=""}
+   status.textContent=STEPS[n].ar;
+  }
+  function frame(now){
+   if(my!==token)return;
+   if(t0===null)t0=now;
+   const s=STEPS[i],dur=reduce?Math.min(s.dur,700):s.dur;
+   const raw=Math.min(1,(now-t0)/dur),t=ease(raw);
+   const base=STEPS.slice(0,i).reduce((a,b)=>a+b.weight,0);
+   setProgress(base+s.weight*t);
+   const stat=stepEl(i).querySelector(".o4t-b-stat");
+   if(i===1)stat.textContent=(size*t).toFixed(1)+" / "+size.toFixed(1)+" MB";
+   else stat.textContent=Math.floor(t*100)+"%";
+   const L=logs[i];
+   while(logIdx<L.length&&raw>=L[logIdx][0]){addLog(L[logIdx][1],L[logIdx][2]);logIdx++}
+   if(raw>=1){
+    stepEl(i).querySelector(".o4t-b-stat").textContent=i===1?size.toFixed(1)+" MB ✓":"✓";
+    if(i<STEPS.length-1){enter(i+1)}else{finish(x);return}
+   }
+   requestAnimationFrame(frame);
+  }
+  enter(0);setProgress(0);
+  requestAnimationFrame(frame);
+ }
+
+ function finish(x){
+  setProgress(100);
+  for(let k=0;k<STEPS.length;k++){const el=stepEl(k);el.classList.remove("active");el.classList.add("done")}
+  $("o4tBStatus").textContent="اكتمل";
+  $("o4tBDoneTxt").textContent="تم تثبيت «"+x.name+"» (محاكاة تجريبية).";
+  card.classList.add("is-done");
+  $("o4tBOk").focus();
+ }
+
+ function openBridge(x){
+  opener=document.activeElement;
+  card.classList.remove("is-done");
+  $("o4tBItem").textContent=x.name+(x.version?" · "+x.version:"");
+  $("o4tBLog").innerHTML="";
+  buildSteps();setProgress(0);
+  $("o4tBStatus").textContent="جاري التحضير…";
+  modal.classList.add("open");modal.setAttribute("aria-hidden","false");
+  document.body.classList.add("o4t-lock");
+  $("o4tBCancel").focus();
+  runSimulation(x);
+ }
+ function closeBridge(){
+  token++;
+  modal.classList.remove("open");modal.setAttribute("aria-hidden","true");
+  document.body.classList.remove("o4t-lock");
+  if(opener&&document.contains(opener)&&opener.focus)try{opener.focus()}catch(e){}
+  opener=null;
+ }
+
+ document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-auto-install]");
+  if(!b)return;
+  e.preventDefault();
+  const x=(typeof db!=="undefined"&&db.items||[]).find(it=>String(it.id)===String(b.dataset.autoInstall));
+  if(!x){window.o4tToast("تعذر العثور على بيانات العنصر.","error");return}
+  openBridge(x);
+ });
+ $("o4tBClose").addEventListener("click",closeBridge);
+ $("o4tBCancel").addEventListener("click",()=>{closeBridge();window.o4tToast("تم إلغاء التثبيت.","info")});
+ $("o4tBOk").addEventListener("click",closeBridge);
+ modal.addEventListener("click",e=>{if(e.target===modal)closeBridge()});
+ document.addEventListener("keydown",e=>{
+  if(!modal.classList.contains("open"))return;
+  if(e.key==="Escape"){e.preventDefault();closeBridge();return}
+  if(e.key==="Tab"){
+   const f=[...card.querySelectorAll("button")].filter(el=>el.offsetParent!==null);
+   if(!f.length){e.preventDefault();return}
+   const first=f[0],last=f[f.length-1];
+   if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}
+   else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}
+  }
+ });
 })();
 </script>
 
