@@ -11,7 +11,7 @@
     ],
     "githubStars": 13,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "popking159/MyStreamer": {
     "schema": 3,
@@ -23,7 +23,7 @@
     "screenshots": [],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "popking159/SubsSupportPro": {
     "schema": 3,
@@ -60,7 +60,7 @@
   },
   "Ahmadarjan1/EnigmaPlay-Repo": {
     "schema": 3,
-    "sha": "a7c73aceacf59e22f98f04d9f7d51134715f8e1c",
+    "sha": "2bc53ddb690b85f2cf48d2ede20d7a59279fd090",
     "slug": "enigmaplay",
     "icon": "",
     "thumbnail": "",
@@ -68,7 +68,7 @@
     "screenshots": [],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "fairbird/RaedQuickSignal": {
     "schema": 3,
@@ -78,16 +78,15 @@
     "thumbnail": "",
     "logoFound": false,
     "screenshots": [
-      "images/plugins/raedquicksignal/screenshot-1.webp",
-      "images/plugins/raedquicksignal/screenshot-2.webp"
+      "images/plugins/raedquicksignal/screenshot-1.webp"
     ],
     "githubStars": 4,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "xximhxx/Alkuds-ipaudio-MAC-Xtreme-Player": {
     "schema": 3,
-    "sha": "2266a02fe057158b32268659cc8ff1b5fe4dd7e0",
+    "sha": "639b0026d38c8149bcacaae2609902acc91400ef",
     "slug": "alkuds-audio",
     "icon": "",
     "thumbnail": "",
@@ -95,7 +94,7 @@
     "screenshots": [],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "fairbird/ArabicSavior": {
     "schema": 3,
@@ -114,7 +113,7 @@
   },
   "fairbird/FootOnsat": {
     "schema": 3,
-    "sha": "0833979433a08dfebbc75183e844712b3a6922f4",
+    "sha": "290c809b59c65c2c0a62a8c7cf0a8b756b5c2fed",
     "slug": "footonsat",
     "icon": "",
     "thumbnail": "",
@@ -127,7 +126,7 @@
     ],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "K3bOra/UltraAudio": {
     "schema": 3,
@@ -148,7 +147,7 @@
     ],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "biko-73/AjPanel": {
     "schema": 3,
@@ -173,7 +172,7 @@
   },
   "tarekzoka/ajpanel": {
     "schema": 3,
-    "sha": "2504923019eaaedaf854488c428faa7894748dfa",
+    "sha": "4dc01753d18c6bdddb7f6730ce2ac807fc6c8421",
     "slug": "ajpanel-menu1",
     "icon": "",
     "thumbnail": "",
@@ -183,11 +182,11 @@
     ],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "emilnabil/download-plugins": {
     "schema": 3,
-    "sha": "fe861fb17484c283455996fccab07353f7db49ee",
+    "sha": "032225d7ff0dcc96dcbed4c6c29c65d466b1f672",
     "slug": "alternative-softcam-manager",
     "icon": "",
     "thumbnail": "",
@@ -195,7 +194,7 @@
     "screenshots": [],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "angelheart150/My_e2iplayer_hosts": {
     "schema": 3,
@@ -207,7 +206,7 @@
     "screenshots": [],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "biko-73/TMBD": {
     "schema": 3,
@@ -219,11 +218,16 @@
     "screenshots": [
       "images/plugins/tmbd/screenshot-1.webp",
       "images/plugins/tmbd/screenshot-2.webp",
-      "images/plugins/tmbd/screenshot-3.webp"
+      "images/plugins/tmbd/screenshot-3.webp",
+      "images/plugins/tmbd/screenshot-4.webp",
+      "images/plugins/tmbd/screenshot-5.webp",
+      "images/plugins/tmbd/screenshot-6.webp",
+      "images/plugins/tmbd/screenshot-7.webp",
+      "images/plugins/tmbd/screenshot-8.webp"
     ],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "Ham-ahmed/Secript-Panel": {
     "schema": 3,
@@ -235,7 +239,7 @@
     "screenshots": [],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "angelheart150/My-tsiplayer": {
     "schema": 3,
@@ -247,7 +251,7 @@
     "screenshots": [],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "popking159/ssupport": {
     "schema": 3,
@@ -271,7 +275,7 @@
     "screenshots": [],
     "githubStars": 12,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "biko-73/JediMakerXtream": {
     "schema": 3,
@@ -283,7 +287,7 @@
     "screenshots": [],
     "githubStars": 6,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "biko-73/Multi-Stalker": {
     "schema": 3,
@@ -295,7 +299,7 @@
     "screenshots": [],
     "githubStars": 3,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "emilnabil/ipaudiopro": {
     "schema": 3,
@@ -311,7 +315,7 @@
   },
   "picons/picons": {
     "schema": 3,
-    "sha": "90107e250282493c7a7088d0f690ae0d68826d58",
+    "sha": "baeb7eba6472ab0060f7695cf4098fb5be58f98c",
     "slug": "picons",
     "icon": "",
     "thumbnail": "",
@@ -319,7 +323,7 @@
     "screenshots": [],
     "githubStars": 304,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "kiddac/XStreamity": {
     "schema": 3,
@@ -342,12 +346,11 @@
     "logoFound": false,
     "screenshots": [
       "images/plugins/weather-plugin/screenshot-1.webp",
-      "images/plugins/weather-plugin/screenshot-2.webp",
-      "images/plugins/weather-plugin/screenshot-3.webp"
+      "images/plugins/weather-plugin/screenshot-2.webp"
     ],
     "githubStars": 32,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "ciefp/CiefpTMDBSearch": {
     "schema": 3,
@@ -368,7 +371,7 @@
     ],
     "githubStars": 2,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "E2OpenPlugins/e2openplugin-OpenWebif": {
     "schema": 3,
@@ -377,12 +380,10 @@
     "icon": "",
     "thumbnail": "",
     "logoFound": false,
-    "screenshots": [
-      "images/plugins/openwebif/screenshot-1.webp"
-    ],
+    "screenshots": [],
     "githubStars": 217,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "ahmedhussein4342-lgtm/XtreamNew": {
     "schema": 3,
@@ -403,7 +404,7 @@
     ],
     "githubStars": 1,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "BliNeR-KeY/extra-plugins-python3": {
     "schema": 3,
@@ -415,7 +416,7 @@
     "screenshots": [],
     "githubStars": 0,
     "iconSource": "",
-    "checkedAt": "2026-11-07T10:52:34.747Z"
+    "checkedAt": "2026-11-08T11:01:42.188Z"
   },
   "Taapat/enigma2-plugin-blurayplayer": {
     "schema": 3,
