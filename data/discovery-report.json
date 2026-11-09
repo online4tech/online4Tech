@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "sources": [
     "\"Enigma2 plugin\" in:name,description,readme",
     "\"OpenATV plugin\" in:name,description,readme",
@@ -8,11 +8,11 @@
     "\"Vu+ plugin\" in:name,description,readme",
     "\"E2 plugin\" in:name,description,readme"
   ],
-  "plugins_found": 118,
+  "plugins_found": 119,
   "valid_repositories": 16,
   "plugins_added": 0,
   "plugins_updated": 16,
-  "duplicates_skipped": 7,
+  "duplicates_skipped": 6,
   "failed_sources": [
     {
       "source": "digiteng/xtra",
@@ -77,7 +77,7 @@
     "arabicsavior",
     "enigmaplay",
     "raedquicksignal",
-    "xtreamity",
+    "weather-plugin",
     "tmdb",
     "openwebif",
     "ajpanel-menu1",
@@ -87,7 +87,7 @@
     "ipaudio",
     "extra-plugins-python3",
     "enigma2-plugin-blurayplayer",
-    "weather-plugin",
+    "xtreamity",
     "footonsat"
   ],
   "catalog_total": 82,
