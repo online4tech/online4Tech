@@ -1,0 +1,62 @@
+name: Build Bridge exe
+
+# يبني O4T-Bridge.exe (ويندوز) وينشره في release ثابت اسمه bridge-latest،
+# فيبقى رابط التحميل ثابت: .../releases/download/bridge-latest/O4T-Bridge.exe
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "bridge/bridge.py"
+      - "bridge/requirements.txt"
+      - ".github/workflows/build-bridge-exe.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-bridge-exe
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r bridge/requirements.txt pyinstaller
+      - name: Build exe
+        run: pyinstaller --onefile --noconsole --name O4T-Bridge --distpath dist bridge/bridge.py
+      - name: Smoke test (starts, answers /health, stops)
+        shell: pwsh
+        run: |
+          $p = Start-Process -FilePath "dist/O4T-Bridge.exe" -ArgumentList "--serve" -PassThru
+          $ok = $false
+          foreach ($i in 1..20) {
+            Start-Sleep -Seconds 1
+            try {
+              $r = Invoke-RestMethod -Uri "http://127.0.0.1:8765/health"
+              if ($r.ok -and ($r.capabilities -contains "install")) { $ok = $true; break }
+            } catch {}
+          }
+          Stop-Process -Id $p.Id -Force -ErrorAction SilentlyContinue
+          if (-not $ok) { throw "bridge exe did not answer /health with install capability" }
+      - name: Checksum
+        shell: pwsh
+        run: |
+          $h = (Get-FileHash dist/O4T-Bridge.exe -Algorithm SHA256).Hash.ToLower()
+          "$h  O4T-Bridge.exe" | Out-File -Encoding ascii dist/O4T-Bridge.exe.sha256
+          "SHA256=$h" | Out-File -Append -Encoding ascii $env:GITHUB_ENV
+      - name: Publish release bridge-latest
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete bridge-latest --cleanup-tag --yes 2>$null
+          gh release create bridge-latest dist/O4T-Bridge.exe dist/O4T-Bridge.exe.sha256 `
+            --title "Online4Tech Bridge (Windows)" `
+            --notes "SHA256: $env:SHA256`nBuilt from $env:GITHUB_SHA" `
+            --prerelease
