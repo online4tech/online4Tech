@@ -313,6 +313,27 @@ body.o4t-lock{overflow:hidden}
 .o4t-b-btn{flex:1;min-height:44px;padding:0 14px;border-radius:12px;border:1px solid rgba(130,190,255,.38);background:rgba(255,255,255,.07);color:#f3f8ff;font-weight:800;font-size:14px}
 .o4t-b-btn:hover{filter:brightness(1.15);transform:translateY(-1px)}
 .o4t-b-btn.primary{border-color:rgba(120,255,214,.6);background:linear-gradient(115deg,#0b8a6c,#0e86b8);color:#fff}
+.o4t-bridge-card [hidden]{display:none!important}
+.o4t-b-lead{margin:0 0 12px;color:#dbe8f7;font-size:14px;line-height:1.8}
+.o4t-b-howto{margin:0 0 12px;padding:0 20px 0 0;color:var(--muted);font-size:13px;line-height:1.9}
+.o4t-b-wait{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:12px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);color:#cfe3f7;font-size:13px}
+.o4t-b-spin{flex:0 0 18px;width:18px;height:18px;border-radius:50%;border:2px solid rgba(255,255,255,.2);border-top-color:#6ae2ff;animation:o4tSpin .8s linear infinite}
+.o4t-b-field{display:block;margin:0 0 10px}
+.o4t-b-field span{display:block;margin-bottom:5px;color:var(--muted);font-size:12px;font-weight:700}
+.o4t-b-field input{width:100%;min-height:44px;padding:0 12px;border-radius:12px;border:1px solid rgba(130,190,255,.3);background:rgba(3,10,20,.55);color:#f3f8ff;font:600 15px Consolas,monospace;text-align:left}
+.o4t-b-field input:focus{outline:2px solid #6ae2ff;outline-offset:1px}
+.o4t-b-row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.o4t-b-chk{display:flex;gap:9px;align-items:flex-start;margin:2px 0 6px;color:#cfe3f7;font-size:12.5px;line-height:1.7}
+.o4t-b-chk input{flex:0 0 auto;width:auto;min-height:0;margin:5px 0 0}
+.o4t-b-chk span{flex:1;min-width:0}
+a.o4t-b-link{display:grid;place-items:center;text-decoration:none}
+.o4t-b-errview{text-align:center}
+.o4t-b-erricon{width:62px;height:62px;margin:0 auto 8px;border-radius:50%;display:grid;place-items:center;font-size:32px;font-weight:900;color:#ffd0d0;background:rgba(220,60,60,.16);border:3px solid rgba(255,130,130,.7)}
+.o4t-b-errview h3{margin:0 0 4px;font-size:20px;color:#ffd0d0}
+.o4t-b-errtxt{margin:0 0 10px;color:#e8d0d0;font-size:13.5px;line-height:1.8;overflow-wrap:anywhere}
+.o4t-b-errlog{height:auto;max-height:96px;margin-bottom:2px}
+.o4t-bridge-card.is-error{box-shadow:0 24px 70px rgba(0,0,0,.55),0 0 54px rgba(220,70,70,.28),inset 0 1px 0 rgba(255,255,255,.16)}
+@media(max-width:560px){.o4t-b-row2{grid-template-columns:1fr}.o4t-b-actions{flex-wrap:wrap}}
 .o4t-b-done{display:none;text-align:center;padding:6px 0 2px}
 .o4t-b-check{width:86px;height:86px;margin:2px auto 10px;display:block}
 .o4t-b-check circle{fill:rgba(30,160,110,.16);stroke:#2cba82;stroke-width:3;stroke-dasharray:252;stroke-dashoffset:252}
@@ -416,6 +437,18 @@ function detailPlaceholder(){return '<div class="detail-placeholder"><span class
 function firstValue(x,keys){for(const k of keys){const v=x[k];if(v!==undefined&&v!==null&&String(v).trim()!==""&&String(v).trim()!=="#")return v}return ""}
 function safeLink(v){if(!v)return "";try{const u=new URL(String(v),location.href);return ["http:","https:"].includes(u.protocol)?u.href:""}catch(e){return ""}}
 function categoryIcon(x,m){const c=String(x.category||"").toLowerCase(),name=(String(x.name||"")+" "+String(x.group||"")).toLowerCase();if(x.icon)return x.icon;if(c==="epg"||/epg|electronic program/.test(name))return "📖";return ({plugin:"🧩",plugins:"🧩",skin:"🎨",skins:"🎨",tool:"🔧",tools:"🔧",command:"💻",commands:"💻",backup:"💾",channels:"📺",channel:"📺",updates:"🔄"})[c]||"🔧"}
+function autoInstallable(x){
+ /* نفس قواعد الجسر (الجسر هو المرجع النهائي): أنواع مسموحة + مصادر GitHub معتمدة + بدون خدمات فك التشفير */
+ const c=String(x.category||"").toLowerCase();
+ const blob=[x.name,x.keywords,x.subcategory,x.downloadUrl,x.category].join(" ");
+ if(c==="softcam"||/cccam|oscam|\bncam|mgcamd|camd3|gcam|newcamd|gbox|softcam|emulator|emu[-_ ]?installer|card[-_ ]?shar|\bc[-_ ]?line\b|keys?[-_ ]?updater|constant[-_ ]?cw/i.test(blob))return false;
+ if(!["plugins","skins","picons","channels","tools","updates"].includes(c))return false;
+ let u;try{u=new URL(String(x.downloadUrl||""))}catch(e){return false}
+ if(u.protocol!=="https:"||!["raw.githubusercontent.com","github.com"].includes(u.hostname))return false;
+ const owner=(u.pathname.split("/").filter(Boolean)[0]||"").toLowerCase();
+ if(!["online4tech","emilnabil"].includes(owner))return false;
+ return /\.(ipk|tar\.gz|tgz|sh)$/i.test(u.pathname);
+}
 function details(x){
  const panel=$("detailPanel"),targets=[$("detail"),$("modalDetail")];
  if(!activeMain){panel.hidden=false;targets.forEach(el=>el.innerHTML=detailPlaceholder());return}
@@ -432,7 +465,8 @@ function details(x){
  const action=(url,label,enabled,primary,plain)=>enabled?'<a class="btn '+(primary?'primary':'')+'" href="'+esc(url)+'" target="_blank" rel="noopener">'+label+'</a>':'<button class="btn is-unavailable '+(primary?'primary':'')+'" type="button" aria-disabled="true" data-unavailable="'+esc(plain||"هذا الإجراء")+'">'+label+'</button>';
  const isLongCommand=installCommand.length>180||installCommand.includes("\n");
  const commandBox=installCommand&&!isLongCommand?'<section class="install-command-box"><div class="install-command-heading">أمر التنفيذ</div><div class="install-command-row"><code>'+esc(installCommand)+'</code></div><button class="mini-copy" type="button" data-copy-install="'+esc(installCommand)+'" aria-label="نسخ الأمر">نسخ الأمر</button></section>':'';
- const autoInstallBtn='<button class="btn auto-install" type="button" data-auto-install="'+esc(x.id)+'" aria-haspopup="dialog"><span class="auto-install-ico" aria-hidden="true">⚡</span><span>التثبيت التلقائي</span><small>Auto Install</small></button>';
+ const canAuto=autoInstallable(x);
+ const autoInstallBtn=canAuto?'<button class="btn auto-install" type="button" data-auto-install="'+esc(x.id)+'" aria-haspopup="dialog"><span class="auto-install-ico" aria-hidden="true">⚡</span><span>التثبيت التلقائي</span><small>Auto Install</small></button>':'<button class="btn auto-install is-unavailable" type="button" aria-disabled="true" data-unavailable="التثبيت التلقائي"><span class="auto-install-ico" aria-hidden="true">⚡</span><span>التثبيت التلقائي</span><small>غير متاح</small></button>';
  const markup=(image?'<div class="detail-visual"><img src="'+esc(image)+'" alt="'+esc(x.name)+'" loading="lazy"></div>':'<div class="detail-visual"><span class="fallback">'+esc(icon)+'</span></div>')+
  '<h3 class="detail-title">'+esc(x.name)+'</h3><span class="type">'+esc(m?.label||"")+" · "+esc(sub?.label||"")+'</span>'+
  (x.description?'<p class="detail-description">'+esc(x.description)+'</p>':'')+
@@ -738,14 +772,48 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
    <div class="o4t-b-title"><b id="o4tBTitle">جسر التثبيت</b><span id="o4tBItem"></span></div>
    <button class="o4t-b-close" type="button" id="o4tBClose" aria-label="إغلاق">✕</button>
   </div>
-  <div class="o4t-b-run">
+
+  <div class="o4t-b-view" id="o4tBSetup" hidden>
+   <p class="o4t-b-lead" id="o4tBSetupMsg">التثبيت التلقائي محتاج برنامج «جسر Online4Tech» على كمبيوترك. بتنزّله وتشغّله <b>مرة واحدة بس</b>، وبعدها بيشتغل لوحده مع الويندوز.</p>
+   <ol class="o4t-b-howto">
+    <li>اضغط «تحميل الجسر» وشغّل الملف اللي نزل.</li>
+    <li>لو ويندوز ظهّر تحذير: اضغط <b>More info</b> ثم <b>Run anyway</b>.</li>
+    <li>الصفحة هتكمل لوحدها أول ما الجسر يشتغل.</li>
+   </ol>
+   <div class="o4t-b-wait" aria-live="polite"><span class="o4t-b-spin" aria-hidden="true"></span><span id="o4tBWait">في انتظار تشغيل الجسر…</span></div>
+   <p class="o4t-b-note">لو المتصفح سأل عن السماح بالاتصال بأجهزة الشبكة المحلية، اضغط «سماح». الجسر متاح لويندوز حالياً.</p>
+   <div class="o4t-b-actions"><button class="o4t-b-btn" type="button" id="o4tBSetupCancel">إلغاء</button><a class="o4t-b-btn primary o4t-b-link" id="o4tBDownload" href="#" rel="noopener" download>⬇ تحميل الجسر</a></div>
+  </div>
+
+  <form class="o4t-b-view" id="o4tBForm" autocomplete="off" hidden>
+   <p class="o4t-b-lead">الجسر شغال ✓ اكتب بيانات الرسيفر وهنكمل التثبيت لوحدنا.</p>
+   <label class="o4t-b-field"><span>IP الرسيفر</span><input id="o4tBHost" inputmode="decimal" placeholder="192.168.1.120" dir="ltr" required></label>
+   <div class="o4t-b-row2">
+    <label class="o4t-b-field"><span>اسم المستخدم</span><input id="o4tBUser" value="root" dir="ltr" required></label>
+    <label class="o4t-b-field"><span>كلمة المرور</span><input id="o4tBPass" type="password" dir="ltr" autocomplete="off" required></label>
+   </div>
+   <label class="o4t-b-chk"><input type="checkbox" id="o4tBRestart" checked><span>إعادة تشغيل واجهة الرسيفر بعد التثبيت (مطلوبة عشان البلجن/السكين يظهر)</span></label>
+   <p class="o4t-b-note">التثبيت بيتم فعلياً على رسيفرك عبر SSH داخل شبكتك المحلية. كلمة المرور بتروح للجسر على جهازك بس، ومش بتتحفظ.</p>
+   <div class="o4t-b-actions"><button class="o4t-b-btn" type="button" id="o4tBFormCancel">إلغاء</button><button class="o4t-b-btn primary" type="submit" id="o4tBStart">⚡ ابدأ التثبيت</button></div>
+  </form>
+
+  <div class="o4t-b-run" hidden>
    <ol class="o4t-b-steps" id="o4tBSteps"></ol>
    <div class="o4t-b-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="o4tBBar"><div class="o4t-b-fill" id="o4tBFill"></div></div>
    <div class="o4t-b-pct"><span id="o4tBStatus" aria-live="polite">جاري التحضير…</span><b id="o4tBPct">0%</b></div>
    <div class="o4t-b-log" id="o4tBLog" aria-hidden="true"></div>
-   <p class="o4t-b-note">وضع المحاكاة: العملية تجريبية للعرض فقط، ولا يتم تنفيذ أي أوامر على جهازك أو على الرسيفر.</p>
+   <p class="o4t-b-note">التثبيت حقيقي ويتم على رسيفرك. متقفلش الصفحة لحد ما يخلص.</p>
    <div class="o4t-b-actions"><button class="o4t-b-btn" type="button" id="o4tBCancel">إلغاء</button></div>
   </div>
+
+  <div class="o4t-b-view o4t-b-errview" id="o4tBErr" hidden>
+   <div class="o4t-b-erricon" aria-hidden="true">!</div>
+   <h3>تعذّر التثبيت</h3>
+   <p id="o4tBErrTxt" class="o4t-b-errtxt"></p>
+   <div class="o4t-b-log o4t-b-errlog" id="o4tBErrLog" dir="ltr"></div>
+   <div class="o4t-b-actions"><button class="o4t-b-btn" type="button" id="o4tBErrClose">إغلاق</button><button class="o4t-b-btn" type="button" id="o4tBForget" hidden>نسيان البصمة القديمة وإعادة المحاولة</button><button class="o4t-b-btn primary" type="button" id="o4tBRetry">إعادة المحاولة</button></div>
+  </div>
+
   <div class="o4t-b-done" aria-live="assertive">
    <svg class="o4t-b-check" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="40"/><path d="M30 52 L45 66 L71 36"/></svg>
    <h3>تم التثبيت بنجاح!</h3>
@@ -759,7 +827,6 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
  "use strict";
  const $=id=>document.getElementById(id);
  const reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
- const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
  /* ---------- Toast ---------- */
  const toastEl=document.createElement("div");
@@ -771,7 +838,7 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
   clearTimeout(toastTimer);toastTimer=setTimeout(()=>toastEl.classList.remove("show"),2700);
  };
 
- /* ---------- Buttons that used to be dead (no link / no command) ---------- */
+ /* ---------- Buttons that are not available for an item ---------- */
  document.addEventListener("click",e=>{
   const b=e.target.closest(".btn.is-unavailable");
   if(!b)return;
@@ -779,26 +846,30 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
   window.o4tToast("غير متاح حالياً: "+(b.dataset.unavailable||"هذا الإجراء")+" لهذا العنصر.","info");
  });
 
- /* ---------- Bridge simulation ---------- */
+ /* ---------- Real install through the local bridge ---------- */
+ const BRIDGE="http://127.0.0.1:8765";
+ const EXE_URL="https://github.com/online4tech/online4Tech/releases/download/bridge-latest/O4T-Bridge.exe";
+ const PROFILE_KEY="online4tech-ssh-profile-v1";   /* نفس مفتاح صفحة Enigma2 Manager */
+ const SEEN_KEY="o4t-bridge-seen";
  const STEPS=[
-  {ar:"جاري الاتصال بالجسر...",en:"Connecting to Bridge...",weight:15,dur:1800},
-  {ar:"جاري تحميل الملفات اللازمة...",en:"Downloading required files...",weight:45,dur:3800},
-  {ar:"جاري تثبيت الأدوات...",en:"Installing tools...",weight:40,dur:3200}
+  {ar:"جاري الاتصال بالجسر...",en:"Connecting to Bridge..."},
+  {ar:"جاري تحميل الملفات اللازمة...",en:"Downloading required files..."},
+  {ar:"جاري تثبيت الأدوات...",en:"Installing tools..."}
  ];
+ const STAGE_INDEX={connect:0,download:1,install:2};
  const modal=$("o4tBridge"),card=modal.querySelector(".o4t-bridge-card");
- let token=0,opener=null;
+ const VIEWS={setup:$("o4tBSetup"),form:$("o4tBForm"),run:card.querySelector(".o4t-b-run"),err:$("o4tBErr")};
+ let session=0,opener=null,current=null,abortCtl=null,pollTimer=null;
+ const SETUP_DEFAULT=$("o4tBSetupMsg").textContent;
 
- function slug(n){return String(n||"package").trim().replace(/[^\w.\-]+/g,"-").replace(/^-+|-+$/g,"")||"package"}
- function fileNameFor(x){
-  const u=String(x.downloadUrl||"").trim();
-  if(/^https?:\/\//i.test(u)){try{const seg=decodeURIComponent(new URL(u).pathname.split("/").filter(Boolean).pop()||"");if(seg)return seg}catch(e){}}
-  return slug(x.name)+".ipk";
- }
- function sizeFor(x){const n=Number(x.id)||0;return Math.round((0.4+(n%17)*0.35)*10)/10}
- function ease(t){return t<.5?2*t*t:1-Math.pow(-2*t+2,2)/2}
-
- function buildSteps(){
-  $("o4tBSteps").innerHTML=STEPS.map((s,i)=>'<li class="o4t-b-step" data-i="'+i+'"><span class="o4t-b-dot" aria-hidden="true">✓</span><span class="o4t-b-txt">'+s.ar+'<small>'+s.en+'</small></span><span class="o4t-b-stat"></span></li>').join("");
+ const store={
+  get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+  set(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+ };
+ function setView(name){
+  card.classList.toggle("is-done",name==="done");
+  card.classList.toggle("is-error",name==="err");
+  Object.entries(VIEWS).forEach(([k,el])=>{el.hidden=(k!==name)});
  }
  function setProgress(p){
   p=Math.max(0,Math.min(100,p));
@@ -806,78 +877,200 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
   $("o4tBPct").textContent=Math.floor(p)+"%";
   $("o4tBBar").setAttribute("aria-valuenow",String(Math.floor(p)));
  }
- function stepEl(i){return modal.querySelector('.o4t-b-step[data-i="'+i+'"]')}
- function addLog(text,dim){
+ function buildSteps(){
+  $("o4tBSteps").innerHTML=STEPS.map((s,i)=>'<li class="o4t-b-step" data-i="'+i+'"><span class="o4t-b-dot" aria-hidden="true">✓</span><span class="o4t-b-txt">'+s.ar+'<small>'+s.en+'</small></span><span class="o4t-b-stat"></span></li>').join("");
+ }
+ const stepEl=i=>modal.querySelector('.o4t-b-step[data-i="'+i+'"]');
+ function markStep(n){
+  for(let k=0;k<STEPS.length;k++){const el=stepEl(k);el.classList.toggle("done",k<n);el.classList.toggle("active",k===n)}
+ }
+ function addLog(text){
   const log=$("o4tBLog"),d=document.createElement("div");
-  if(dim)d.className="dim";
+  if(/^(\$|GET )/.test(text))d.className="";else d.className="dim";
   d.textContent=text;log.appendChild(d);
   while(log.children.length>5)log.removeChild(log.firstChild);
  }
 
- function runSimulation(x){
-  const my=++token;
-  const file=fileNameFor(x),size=sizeFor(x);
-  const cmd=String(x.installCommand||x.command||"").trim();
-  const cmdShort=cmd.length>64?cmd.slice(0,61)+"…":cmd;
-  const logs=[
-   [ [0,"$ bridge --connect 127.0.0.1:8765",0],[.45,"handshake ... ok",1],[.85,"session ready",0] ],
-   [ [0,"GET "+file,0],[.3,"resolving mirror ... ok",1],[.65,"receiving data ...",1],[.97,"checksum ... verified",0] ],
-   [ [0,cmdShort?"$ "+cmdShort:"unpack "+file,0],[.4,"registering "+slug(x.name)+" ...",1],[.8,"updating settings ...",1],[.97,"done",0] ]
-  ];
-  let i=0,t0=null,logIdx=0;
-  const status=$("o4tBStatus");
-  function enter(n){
-   i=n;t0=null;logIdx=0;
-   for(let k=0;k<STEPS.length;k++){const el=stepEl(k);el.classList.toggle("done",k<n);el.classList.toggle("active",k===n);if(k>n)el.querySelector(".o4t-b-stat").textContent=""}
-   status.textContent=STEPS[n].ar;
+ /* ----- كشف الجسر ----- */
+ async function health(ms){
+  const ctl=new AbortController(),t=setTimeout(()=>ctl.abort(),ms||1500);
+  try{
+   const r=await fetch(BRIDGE+"/health",{cache:"no-store",signal:ctl.signal});
+   if(!r.ok)return null;
+   const j=await r.json();
+   return j&&j.ok?j:null;
+  }catch(e){return null}finally{clearTimeout(t)}
+ }
+ const hasInstall=h=>!!(h&&Array.isArray(h.capabilities)&&h.capabilities.includes("install"));
+ /* كروم الحديث بيسأل المستخدم السماح للموقع بالاتصال بالشبكة المحلية/الكمبيوتر نفسه */
+ async function lnaState(){
+  try{return (await navigator.permissions.query({name:"local-network-access"})).state}catch(e){return "unknown"}
+ }
+ const LNA_DENIED="المتصفح مانع اتصال الصفحة بالجسر. اضغط على أيقونة القفل جنب عنوان الموقع، افتح «إعدادات الموقع» وفعّل «الأجهزة على الشبكة المحلية»، وبعدها حدّث الصفحة.";
+ function launchProtocol(){
+  try{const f=document.createElement("iframe");f.style.display="none";f.src="o4tbridge://start";document.body.appendChild(f);setTimeout(()=>f.remove(),4000)}catch(e){}
+ }
+ const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+
+ async function ensureBridge(my){
+  const st=await lnaState();
+  if(my!==session)return;
+  if(st==="denied"){showSetup(LNA_DENIED);return}
+  if(st!=="granted")$("o4tBWait").textContent="لو ظهرت رسالة من المتصفح عن الشبكة المحلية اضغط «سماح»…";
+  let h=await health(st==="granted"?1500:60000);
+  if(my!==session)return;
+  if(hasInstall(h))return showForm();
+  if(h&&!hasInstall(h)){
+   showSetup("الجسر القديم شغال على جهازك. اقفل نافذته (start.bat) وشغّل النسخة الجديدة من الزر تحت، وبعدها هنكمل لوحدنا.");
+   return waitForBridge(my);
   }
-  function frame(now){
-   if(my!==token)return;
-   if(t0===null)t0=now;
-   const s=STEPS[i],dur=reduce?Math.min(s.dur,700):s.dur;
-   const raw=Math.min(1,(now-t0)/dur),t=ease(raw);
-   const base=STEPS.slice(0,i).reduce((a,b)=>a+b.weight,0);
-   setProgress(base+s.weight*t);
-   const stat=stepEl(i).querySelector(".o4t-b-stat");
-   if(i===1)stat.textContent=(size*t).toFixed(1)+" / "+size.toFixed(1)+" MB";
-   else stat.textContent=Math.floor(t*100)+"%";
-   const L=logs[i];
-   while(logIdx<L.length&&raw>=L[logIdx][0]){addLog(L[logIdx][1],L[logIdx][2]);logIdx++}
-   if(raw>=1){
-    stepEl(i).querySelector(".o4t-b-stat").textContent=i===1?size.toFixed(1)+" MB ✓":"✓";
-    if(i<STEPS.length-1){enter(i+1)}else{finish(x);return}
+  if(store.get(SEEN_KEY)==="1"){         /* اتثبّت قبل كده: نشغّله تلقائي */
+   $("o4tBWait").textContent="جاري تشغيل الجسر…";
+   setView("setup");launchProtocol();
+   for(let i=0;i<8;i++){
+    await sleep(750);if(my!==session)return;
+    h=await health();if(hasInstall(h))return showForm();
    }
-   requestAnimationFrame(frame);
   }
-  enter(0);setProgress(0);
-  requestAnimationFrame(frame);
+  showSetup();
+  waitForBridge(my);
+ }
+ function showSetup(msg){
+  $("o4tBDownload").href=EXE_URL;
+  if(msg)$("o4tBSetupMsg").textContent=msg;
+  $("o4tBWait").textContent="في انتظار تشغيل الجسر…";
+  setView("setup");
+ }
+ function waitForBridge(my){
+  clearInterval(pollTimer);
+  pollTimer=setInterval(async()=>{
+   if(my!==session){clearInterval(pollTimer);return}
+   if(await lnaState()==="denied"){clearInterval(pollTimer);showSetup(LNA_DENIED);return}
+   const h=await health();
+   if(my!==session)return;
+   if(hasInstall(h)){clearInterval(pollTimer);showForm();return}
+   if(await lnaState()==="prompt")$("o4tBWait").textContent="في انتظار تشغيل الجسر… ولو المتصفح سأل عن الشبكة المحلية اضغط «سماح»";
+  },1500);
  }
 
- function finish(x){
-  setProgress(100);
+ /* ----- نموذج بيانات الرسيفر ----- */
+ function showForm(){
+  clearInterval(pollTimer);
+  store.set(SEEN_KEY,"1");
+  try{
+   const saved=JSON.parse(store.get(PROFILE_KEY)||"{}");
+   if(!$("o4tBHost").value&&typeof saved.bridgeHost==="string")$("o4tBHost").value=saved.bridgeHost;
+   if(typeof saved.bridgeUser==="string"&&saved.bridgeUser)$("o4tBUser").value=saved.bridgeUser;
+   if(saved.rememberPassword===true&&typeof saved.password==="string"&&!$("o4tBPass").value)$("o4tBPass").value=saved.password;
+  }catch(e){}
+  setView("form");
+  ($("o4tBHost").value?$("o4tBPass"):$("o4tBHost")).focus();
+ }
+ function rememberProfile(host,user){
+  try{
+   const saved=JSON.parse(store.get(PROFILE_KEY)||"{}");
+   saved.bridgeHost=host;saved.bridgeUser=user;if(!saved.bridgePort)saved.bridgePort="22";
+   store.set(PROFILE_KEY,JSON.stringify(saved));
+  }catch(e){}
+ }
+
+ /* ----- التنفيذ ----- */
+ async function runInstall(forget){
+  const my=++session;
+  const host=$("o4tBHost").value.trim(),user=$("o4tBUser").value.trim()||"root",password=$("o4tBPass").value;
+  if(!/^\d{1,3}(\.\d{1,3}){3}$/.test(host)){window.o4tToast("اكتب IP الرسيفر بشكل صحيح، مثال: 192.168.1.120","error");setView("form");return}
+  if(!password){window.o4tToast("اكتب كلمة مرور الرسيفر.","error");setView("form");return}
+  rememberProfile(host,user);
+  $("o4tBLog").innerHTML="";buildSteps();setProgress(0);markStep(0);
+  $("o4tBStatus").textContent="جاري الاتصال بالجسر…";
+  setView("run");
+  const errLines=[];
+  abortCtl=new AbortController();
+  let finished=false,gotEvent=false;
+  try{
+   const resp=await fetch(BRIDGE+"/install",{method:"POST",headers:{"Content-Type":"application/json"},cache:"no-store",signal:abortCtl.signal,
+    body:JSON.stringify({id:String(current.id),host:host,port:22,username:user,password:password,restart_gui:$("o4tBRestart").checked,forget_host_key:!!forget})});
+   if(!resp.ok){
+    let m="";try{m=(await resp.json()).error}catch(e){}
+    throw new Error(m||("خطأ من الجسر (HTTP "+resp.status+")"));
+   }
+   const reader=resp.body.getReader(),dec=new TextDecoder();
+   let buf="";
+   for(;;){
+    const {value,done}=await reader.read();
+    if(my!==session)return;
+    if(done)break;
+    buf+=dec.decode(value,{stream:true});
+    let nl;
+    while((nl=buf.indexOf("\n"))>=0){
+     const line=buf.slice(0,nl).trim();buf=buf.slice(nl+1);
+     if(!line)continue;
+     let ev;try{ev=JSON.parse(line)}catch(e){continue}
+     gotEvent=true;
+     if(ev.event==="stage"){
+      const idx=STAGE_INDEX[ev.stage];
+      if(idx!==undefined){markStep(idx);
+       if(/MB|\//.test(ev.msg||"")&&idx===1)stepEl(1).querySelector(".o4t-b-stat").textContent=ev.msg;
+      }
+      if(typeof ev.pct==="number")setProgress(ev.pct);
+      if(ev.msg)$("o4tBStatus").textContent=ev.msg;
+     }else if(ev.event==="log"){
+      addLog(ev.line);errLines.push(ev.line);if(errLines.length>6)errLines.shift();
+     }else if(ev.event==="done"){
+      finished=true;finish(ev.msg);
+     }else if(ev.event==="error"){
+      finished=true;fail(ev.msg,ev.code,errLines);
+     }
+    }
+   }
+   if(!finished&&my===session)fail("انقطع الاتصال بالجسر قبل ما التثبيت يخلص.","",errLines);
+  }catch(e){
+   if(my!==session||(e&&e.name==="AbortError"))return;
+   if(!gotEvent){
+    /* الجسر مش رادّ: يمكن اتقفل */
+    const h=await health();
+    if(!hasInstall(h)){showSetup("الجسر مش شغال دلوقتي. شغّله وهنكمل.");waitForBridge(my);return}
+   }
+   fail(e&&e.message?e.message:"حصل خطأ غير متوقع.","",errLines);
+  }
+ }
+ function finish(msg){
   for(let k=0;k<STEPS.length;k++){const el=stepEl(k);el.classList.remove("active");el.classList.add("done")}
-  $("o4tBStatus").textContent="اكتمل";
-  $("o4tBDoneTxt").textContent="تم تثبيت «"+x.name+"» (محاكاة تجريبية).";
-  card.classList.add("is-done");
+  setProgress(100);
+  $("o4tBDoneTxt").textContent=msg||"تم التثبيت بنجاح.";
+  setView("done");
   $("o4tBOk").focus();
  }
+ function fail(msg,code,lines){
+  $("o4tBErrTxt").textContent=msg||"حصل خطأ.";
+  const lg=$("o4tBErrLog");lg.innerHTML="";
+  (lines||[]).slice(-4).forEach(t=>{const d=document.createElement("div");d.className="dim";d.textContent=t;lg.appendChild(d)});
+  lg.hidden=!(lines&&lines.length);
+  $("o4tBForget").hidden=(code!=="host_key_changed");
+  setView("err");
+  $("o4tBRetry").focus();
+ }
 
+ /* ----- فتح وإغلاق النافذة ----- */
  function openBridge(x){
-  opener=document.activeElement;
-  card.classList.remove("is-done");
-  $("o4tBItem").textContent=x.name+(x.version?" · "+x.version:"");
-  $("o4tBLog").innerHTML="";
-  buildSteps();setProgress(0);
-  $("o4tBStatus").textContent="جاري التحضير…";
+  if(typeof autoInstallable==="function"&&!autoInstallable(x)){window.o4tToast("التثبيت التلقائي مش متاح للعنصر ده.","info");return}
+  current=x;opener=document.activeElement;
+  $("o4tBSetupMsg").textContent=SETUP_DEFAULT;
+  $("o4tBItem").textContent=x.name+(x.version&&x.version!=="Demo"?" · "+x.version:"");
   modal.classList.add("open");modal.setAttribute("aria-hidden","false");
   document.body.classList.add("o4t-lock");
-  $("o4tBCancel").focus();
-  runSimulation(x);
+  const my=++session;
+  $("o4tBWait").textContent="جاري فحص الجسر…";
+  setView("setup");
+  $("o4tBDownload").href=EXE_URL;
+  ensureBridge(my);
  }
  function closeBridge(){
-  token++;
+  session++;clearInterval(pollTimer);
+  if(abortCtl){try{abortCtl.abort()}catch(e){}abortCtl=null}
   modal.classList.remove("open");modal.setAttribute("aria-hidden","true");
   document.body.classList.remove("o4t-lock");
+  $("o4tBPass").value="";
   if(opener&&document.contains(opener)&&opener.focus)try{opener.focus()}catch(e){}
   opener=null;
  }
@@ -890,15 +1083,23 @@ window.chooseItem=function(id){online4techOldChooseItem(id);if(activeMain==="bac
   if(!x){window.o4tToast("تعذر العثور على بيانات العنصر.","error");return}
   openBridge(x);
  });
+ $("o4tBForm").addEventListener("submit",e=>{e.preventDefault();runInstall(false)});
  $("o4tBClose").addEventListener("click",closeBridge);
- $("o4tBCancel").addEventListener("click",()=>{closeBridge();window.o4tToast("تم إلغاء التثبيت.","info")});
+ $("o4tBSetupCancel").addEventListener("click",closeBridge);
+ $("o4tBFormCancel").addEventListener("click",closeBridge);
+ $("o4tBErrClose").addEventListener("click",closeBridge);
+ $("o4tBCancel").addEventListener("click",()=>{
+  closeBridge();window.o4tToast("تم إلغاء المتابعة. لو التثبيت كان بدأ على الرسيفر ممكن يكمل لوحده.","info");
+ });
+ $("o4tBRetry").addEventListener("click",()=>{setView("form");$("o4tBPass").focus()});
+ $("o4tBForget").addEventListener("click",()=>runInstall(true));
  $("o4tBOk").addEventListener("click",closeBridge);
- modal.addEventListener("click",e=>{if(e.target===modal)closeBridge()});
+ modal.addEventListener("click",e=>{if(e.target===modal&&VIEWS.run.hidden)closeBridge()});
  document.addEventListener("keydown",e=>{
   if(!modal.classList.contains("open"))return;
-  if(e.key==="Escape"){e.preventDefault();closeBridge();return}
+  if(e.key==="Escape"){e.preventDefault();if(VIEWS.run.hidden)closeBridge();return}
   if(e.key==="Tab"){
-   const f=[...card.querySelectorAll("button")].filter(el=>el.offsetParent!==null);
+   const f=[...card.querySelectorAll("button,input,a[href]")].filter(el=>!el.closest("[hidden]")&&el.offsetParent!==null&&!el.disabled);
    if(!f.length){e.preventDefault();return}
    const first=f[0],last=f[f.length-1];
    if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}
