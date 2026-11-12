@@ -601,7 +601,10 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "iptv"
+      "subcategory": "iptv",
+      "command": "wget https://raw.githubusercontent.com/biko-73/xstreamity/main/installer.sh -O - | /bin/sh",
+      "installCommand": "wget https://raw.githubusercontent.com/biko-73/xstreamity/main/installer.sh -O - | /bin/sh",
+      "repoUrl": "https://github.com/biko-73/xstreamity"
     },
     {
       "id": 2,
@@ -617,7 +620,10 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "iptv"
+      "subcategory": "iptv",
+      "command": "wget https://raw.githubusercontent.com/biko-73/JediMakerXtream/main/installer.sh -O - | /bin/sh",
+      "installCommand": "wget https://raw.githubusercontent.com/biko-73/JediMakerXtream/main/installer.sh -O - | /bin/sh",
+      "repoUrl": "https://github.com/biko-73/JediMakerXtream"
     },
     {
       "id": 3,
@@ -643,7 +649,7 @@
       "name": "IPTVPlayer",
       "category": "plugins",
       "group": "📡 إضافات IPTV",
-      "description": "إضافة للوصول إلى مصادر الفيديو عبر واجهة الجهاز.",
+      "description": "مشغّل E2iPlayer لتصفح وتشغيل محتوى الفيديو عبر الإنترنت من داخل Enigma2.",
       "version": "Demo",
       "date": "2026-10-25",
       "downloads": 785,
@@ -652,7 +658,10 @@
       "guideUrl": "#",
       "detailUrl": "#",
       "icon": "🧩",
-      "subcategory": "iptv"
+      "subcategory": "iptv",
+      "command": "wget -q https://raw.githubusercontent.com/oe-mirrors/e2iplayer/refs/heads/python3/e2iplayer_install.sh -O - | /bin/sh",
+      "installCommand": "wget -q https://raw.githubusercontent.com/oe-mirrors/e2iplayer/refs/heads/python3/e2iplayer_install.sh -O - | /bin/sh",
+      "repoUrl": "https://github.com/oe-mirrors/e2iplayer"
     },
     {
       "id": 64,
@@ -1035,7 +1044,7 @@
       "category": "plugins",
       "subcategory": "epg",
       "group": "📖 إضافات EPG",
-      "description": "عنصر تجريبي ضمن 📖 إضافات EPG في مكتبة Online4Tech. يتم استبدال هذه البيانات لاحقاً بالتفاصيل والرابط الفعلي.",
+      "description": "استيراد بيانات دليل البرامج EPG من مصادر متعددة وتحديثها على الرسيفر.",
       "version": "Demo",
       "date": "2026-10-24",
       "downloads": 1558,
@@ -1043,7 +1052,10 @@
       "icon": "📦",
       "downloadUrl": "#",
       "guideUrl": "#",
-      "detailUrl": "#"
+      "detailUrl": "#",
+      "command": "wget -qO- https://raw.githubusercontent.com/Saiedf/EPGImport/main/installer_epgimportiet5_auto.sh | /bin/sh",
+      "installCommand": "wget -qO- https://raw.githubusercontent.com/Saiedf/EPGImport/main/installer_epgimportiet5_auto.sh | /bin/sh",
+      "repoUrl": "https://github.com/Saiedf/EPGImport"
     },
     {
       "id": 106,
