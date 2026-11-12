@@ -2146,6 +2146,14 @@
     "type": "Plugin"
   },
   {
+    "title": "⬇ تحميل الجسر",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
     "title": "⬇️ تحميل مباشر",
     "description": "تحميل بيكونات Picons للقنوات لأجهزة Enigma2 مع أمر Telnet لتنزيل الملف إلى الرسيفر.",
     "url": "https://online4tech.github.io/online4Tech/plugins/picons.html",
@@ -5055,6 +5063,14 @@
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html",
     "category": "معلومات",
     "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "تعذّر التثبيت",
+    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
+    "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
