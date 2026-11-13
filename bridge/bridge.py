@@ -282,7 +282,37 @@ class Cancelled(Exception):
     pass
 
 
-def check_download_url(url, hop=False):
+def check_public_url(url):
+    """لأوامر مركز التحكم: القائمة نفسها (commands.json على موقعك) هي مصدر الثقة، فنقبل أي موقع http/https
+    بس مش عنوان IP ولا localhost ولا شبكة محلية (عشان الجسر ما يتحولش لأداة لمهاجمة الراوتر/الشبكة)."""
+    u = urlparse(str(url))
+    if u.scheme not in ("http", "https") or u.username or u.password:
+        raise ValueError("رابط التحميل غير مسموح.")
+    if u.port not in (None, 80, 443):
+        raise ValueError("رابط التحميل غير مسموح.")
+    host = (u.hostname or "").lower()
+    if not host or "." not in host or host.endswith(".local") or host.endswith(".internal"):
+        raise ValueError("رابط التحميل غير مسموح.")
+    try:
+        ipaddress.ip_address(host)
+        raise ValueError("رابط التحميل غير مسموح (عنوان IP).")
+    except ValueError as exc:
+        if "عنوان IP" in str(exc):
+            raise
+    try:
+        infos = socket.getaddrinfo(host, None)
+    except OSError:
+        raise ValueError("تعذر الوصول لمصدر التحميل: " + host)
+    for info in infos:
+        ip = ipaddress.ip_address(info[4][0])
+        if not ip.is_global:
+            raise ValueError("رابط التحميل يشير لشبكة محلية.")
+    return u
+
+
+def check_download_url(url, hop=False, trusted=False):
+    if trusted:
+        return check_public_url(url)
     u = urlparse(str(url))
     if u.scheme != "https" or u.username or u.password or u.port not in (None, 443):
         raise ValueError("رابط التحميل غير مسموح.")
@@ -378,10 +408,7 @@ def parse_command(cmd):
         raise ValueError("الأمر ده فيه خيارات مش مدعومة في الجسر.")
     if not ("-qO-" in middle or "-O-" in middle or ("-O" in middle and "-" in middle)):
         raise ValueError("الأمر ده مش مدعوم في الجسر.")
-    url = urls[0]
-    if not url.startswith("https://"):
-        raise ValueError("المصدر ده بيستخدم http غير مشفّر، فالجسر مش بينفّذه. انسخ الأمر ونفّذه بنفسك لو واثق فيه.")
-    return url
+    return urls[0]
 
 
 def plan_for_command(rec):
@@ -390,19 +417,25 @@ def plan_for_command(rec):
     if BLOCKED_RE.search(blob) or str(rec.get("sourceSection") or "").lower().startswith("softcam"):
         raise ValueError("النوع ده مش مدعوم في الجسر (خدمات فك التشفير ومشاركة الكروت).")
     url = parse_command(rec.get("cmd"))
-    check_download_url(url)
+    check_public_url(url)
     return "sh", url
 
 
 class _Redirect(urllib.request.HTTPRedirectHandler):
+    trusted = False
+
     def redirect_request(self, req, fp, code, msg, headers, newurl):
-        check_download_url(newurl, hop=True)
+        check_download_url(newurl, hop=True, trusted=self.trusted)
         return super().redirect_request(req, fp, code, msg, headers, newurl)
 
 
-def download(url, limit, on_progress=None):
-    check_download_url(url)
-    opener = urllib.request.build_opener(_Redirect)
+class _TrustedRedirect(_Redirect):
+    trusted = True
+
+
+def download(url, limit, on_progress=None, trusted=False):
+    check_download_url(url, trusted=trusted)
+    opener = urllib.request.build_opener(_TrustedRedirect if trusted else _Redirect)
     req = urllib.request.Request(url, headers={"User-Agent": "Online4TechBridge/" + VERSION})
     buf = bytearray()
     with opener.open(req, timeout=30) as resp:
@@ -642,7 +675,7 @@ def do_install(stream, payload):
 
         stream.stage("download", 16, "جاري تحميل الملفات اللازمة...")
         stream.line("GET %s" % os.path.basename(urlparse(url).path))
-        data = download(url, MAX_DOWNLOAD, on_dl)
+        data = download(url, MAX_DOWNLOAD, on_dl, trusted=center)
         digest = hashlib.sha256(data).hexdigest()
         if pinned and pinned != digest:
             raise ValueError("SHA256 للملف المحمّل مش مطابق للمسجّل في الكتالوج.")
