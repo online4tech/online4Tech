@@ -388,6 +388,24 @@ _WGET_FLAGS = {"-q", "--quiet", "--no-check-certificate", "-qO-", "-O-", "-O", "
 _SHELLS = {"sh", "/bin/sh", "bash", "/bin/bash"}
 
 
+_FIXED_CMDS = {
+    "opkg install /tmp/*.ipk": "opkg install /tmp/*.ipk",
+    "rm -rf /var/cache/opkg/* && opkg update": "rm -rf /var/cache/opkg/* && opkg update",
+}
+_OPKG_RE = re.compile(r"^opkg install ([a-z0-9][a-z0-9+._-]{0,63})$")
+
+
+def fixed_command(cmd):
+    """أوامر opkg البسيطة المعروفة بالحرف (من غير أي تركيب)، تتنفّذ على الرسيفر مباشرة. غير كده يرجّع None."""
+    c = re.sub(r"\s+", " ", str(cmd or "").strip())
+    if c in _FIXED_CMDS:
+        return _FIXED_CMDS[c]
+    m = _OPKG_RE.match(c)
+    if m:
+        return "opkg update >/dev/null 2>&1; opkg install " + m.group(1)
+    return None
+
+
 def parse_command(cmd):
     """يقبل شكل واحد بس: wget [flags] <https-url> -O - | sh. أي حاجة تانية ترجع ValueError."""
     if not isinstance(cmd, str) or not cmd.strip() or len(cmd) > 1000:
@@ -416,6 +434,9 @@ def plan_for_command(rec):
     blob = " ".join(str(rec.get(k) or "") for k in ("name", "cmd", "path", "sourceSection"))
     if BLOCKED_RE.search(blob) or str(rec.get("sourceSection") or "").lower().startswith("softcam"):
         raise ValueError("النوع ده مش مدعوم في الجسر (خدمات فك التشفير ومشاركة الكروت).")
+    fixed = fixed_command(rec.get("cmd"))
+    if fixed:
+        return "cmd", fixed
     url = parse_command(rec.get("cmd"))
     check_public_url(url)
     return "sh", url
@@ -661,6 +682,25 @@ def do_install(stream, payload):
         if kind == "ipk" and not info.get("OPKG"):
             raise RuntimeError("opkg مش موجود على الرسيفر، مينفعش تثبيت ipk.")
         stream.stage("connect", 15, "تم الاتصال بالرسيفر")
+
+        if kind == "cmd":
+            if not info.get("OPKG"):
+                raise RuntimeError("opkg مش موجود على الرسيفر.")
+            stream.stage("download", 55, "مفيش ملفات للتحميل")
+            stream.stage("install", 58, "جاري تنفيذ الأمر على الرسيفر...")
+            stream.line("$ " + url)
+            n = {"v": 0}
+
+            def tick_cmd():
+                n["v"] += 1
+                stream.stage("install", min(95, 58 + n["v"] * 1.5), "جاري تنفيذ الأمر على الرسيفر...")
+
+            code = ssh_stream(client, url + " 2>&1", stream, timeout=900, on_line=tick_cmd)
+            if code != 0:
+                raise RuntimeError("الأمر فشل على الرسيفر (exit %d). راجع السطور فوق." % code)
+            stream.stage("install", 97, "تم تنفيذ الأمر")
+            stream.line("done")
+            return name
 
         last_tick = {"t": 0.0}
 
