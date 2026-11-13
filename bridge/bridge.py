@@ -11,6 +11,7 @@ import ipaddress
 import json
 import os
 import re
+import shlex
 import secrets
 import socket
 import sys
@@ -28,12 +29,13 @@ except ImportError:
     paramiko = None
 
 VERSION = "2.0"
-CAPABILITIES = ["run", "download-backup", "upload-iptv", "install"]
+CAPABILITIES = ["run", "download-backup", "upload-iptv", "install", "install-command"]
 HOST = "127.0.0.1"
 PORT = 8765
 ALLOWED_ORIGIN = "https://online4tech.github.io"
 CATALOG_URL = "https://online4tech.github.io/online4Tech/assets/allblugin/demo-data.json"
 CATALOG_TTL = 300
+COMMANDS_URL = "https://online4tech.github.io/Chanal-List/data/enigma2/commands.json"
 MAX_BODY = 8 * 1024 * 1024
 MAX_IPTV_FILE = 5 * 1024 * 1024
 IPTV_UPLOAD_DIR = "/etc/enigma2"
@@ -72,6 +74,7 @@ _sessions = {}
 _sessions_lock = threading.Lock()
 _install_lock = threading.Lock()
 _catalog = {"at": 0, "items": None}
+_commands = {"at": 0, "records": None}
 _catalog_lock = threading.Lock()
 
 
@@ -336,6 +339,61 @@ def load_catalog(force=False):
         return items
 
 
+def load_commands(force=False):
+    with _catalog_lock:
+        if not force and _commands["records"] is not None and time.time() - _commands["at"] < CATALOG_TTL:
+            return _commands["records"]
+        req = urllib.request.Request(COMMANDS_URL + "?t=" + str(int(time.time())),
+                                     headers={"User-Agent": "Online4TechBridge/" + VERSION})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read(8 * 1024 * 1024).decode("utf-8"))
+        records = data.get("records")
+        if not isinstance(records, list):
+            raise ValueError("ملف الأوامر غير صالح.")
+        _commands.update(at=time.time(), records=records)
+        return records
+
+
+_WGET_FLAGS = {"-q", "--quiet", "--no-check-certificate", "-qO-", "-O-", "-O", "-"}
+_SHELLS = {"sh", "/bin/sh", "bash", "/bin/bash"}
+
+
+def parse_command(cmd):
+    """يقبل شكل واحد بس: wget [flags] <https-url> -O - | sh. أي حاجة تانية ترجع ValueError."""
+    if not isinstance(cmd, str) or not cmd.strip() or len(cmd) > 1000:
+        raise ValueError("الأمر ده مش مدعوم في الجسر.")
+    if re.search(r"[;&$`<>(){}\\\n\r]", cmd):
+        raise ValueError("الأمر ده فيه صيغة مش مدعومة في الجسر.")
+    try:
+        tokens = shlex.split(cmd)
+    except ValueError:
+        raise ValueError("الأمر ده مش مدعوم في الجسر.")
+    if len(tokens) < 4 or tokens[0] != "wget" or tokens[-2] != "|" or tokens[-1] not in _SHELLS:
+        raise ValueError("الأمر ده مش على شكل «wget ... | sh» فمش مدعوم في الجسر.")
+    middle = tokens[1:-2]
+    urls = [t for t in middle if re.match(r"^https?://", t)]
+    if len(urls) != 1:
+        raise ValueError("الأمر ده مش مدعوم في الجسر.")
+    if any(t not in _WGET_FLAGS and t != urls[0] for t in middle):
+        raise ValueError("الأمر ده فيه خيارات مش مدعومة في الجسر.")
+    if not ("-qO-" in middle or "-O-" in middle or ("-O" in middle and "-" in middle)):
+        raise ValueError("الأمر ده مش مدعوم في الجسر.")
+    url = urls[0]
+    if not url.startswith("https://"):
+        raise ValueError("المصدر ده بيستخدم http غير مشفّر، فالجسر مش بينفّذه. انسخ الأمر ونفّذه بنفسك لو واثق فيه.")
+    return url
+
+
+def plan_for_command(rec):
+    """يرجّع (kind, url) لسجل أوامر من مركز التحكم، أو يرفع ValueError بالسبب."""
+    blob = " ".join(str(rec.get(k) or "") for k in ("name", "cmd", "path", "sourceSection"))
+    if BLOCKED_RE.search(blob) or str(rec.get("sourceSection") or "").lower().startswith("softcam"):
+        raise ValueError("النوع ده مش مدعوم في الجسر (خدمات فك التشفير ومشاركة الكروت).")
+    url = parse_command(rec.get("cmd"))
+    check_download_url(url)
+    return "sh", url
+
+
 class _Redirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
         check_download_url(newurl, hop=True)
@@ -508,10 +566,31 @@ def detect_receiver(client):
     return info
 
 
+def resolve_center(payload):
+    """عنصر من مركز التحكم: الصفحة تبعت رقم السجل + الاسم فقط، والأمر نفسه بيتقرأ من commands.json."""
+    try:
+        idx = int(payload.get("index"))
+    except (TypeError, ValueError):
+        raise ValueError("رقم الأمر غير صالح.")
+    try:
+        records = load_commands()
+    except Exception as exc:
+        raise RuntimeError("تعذر تحميل قائمة الأوامر من الموقع: %s" % exc)
+    if idx < 0 or idx >= len(records) or not isinstance(records[idx], dict):
+        raise ValueError("الأمر مش موجود في قائمة الموقع.")
+    rec = records[idx]
+    if str(rec.get("name") or "") != str(payload.get("name") or ""):
+        raise ValueError("قائمة الأوامر اتغيّرت. حدّث الصفحة وجرّب تاني.")
+    kind, url = plan_for_command(rec)
+    return "c%d" % idx, kind, url, str(rec.get("name") or "c%d" % idx), ""
+
+
 def do_install(stream, payload):
-    pid = str(payload.get("id") or "").strip()
-    if not re.fullmatch(r"[A-Za-z0-9_-]{1,32}", pid):
-        raise ValueError("رقم العنصر غير صالح.")
+    center = payload.get("source") == "center"
+    if not center:
+        pid = str(payload.get("id") or "").strip()
+        if not re.fullmatch(r"[A-Za-z0-9_-]{1,32}", pid):
+            raise ValueError("رقم العنصر غير صالح.")
     host = validate_host(payload.get("host"))
     port = validate_port(payload.get("port", 22))
     username = str(payload.get("username") or "root").strip()
@@ -524,14 +603,18 @@ def do_install(stream, payload):
 
     stream.stage("connect", 2, "جاري الاتصال بالجسر...")
     stream.line("bridge %s ready" % VERSION)
-    try:
-        item = load_catalog().get(pid)
-    except Exception as exc:
-        raise RuntimeError("تعذر تحميل قائمة البلجنات من الموقع: %s" % exc)
-    if not item:
-        raise ValueError("العنصر مش موجود في قائمة الموقع.")
-    kind, url = plan_for(item)
-    name = str(item.get("name") or pid)
+    if center:
+        pid, kind, url, name, pinned = resolve_center(payload)
+    else:
+        try:
+            item = load_catalog().get(pid)
+        except Exception as exc:
+            raise RuntimeError("تعذر تحميل قائمة البلجنات من الموقع: %s" % exc)
+        if not item:
+            raise ValueError("العنصر مش موجود في قائمة الموقع.")
+        kind, url = plan_for(item)
+        name = str(item.get("name") or pid)
+        pinned = str(item.get("sha256") or "").lower()
     stream.line("item: %s (%s)" % (name, kind))
 
     stream.stage("connect", 6, "جاري الاتصال بالرسيفر %s..." % host)
@@ -561,7 +644,6 @@ def do_install(stream, payload):
         stream.line("GET %s" % os.path.basename(urlparse(url).path))
         data = download(url, MAX_DOWNLOAD, on_dl)
         digest = hashlib.sha256(data).hexdigest()
-        pinned = str(item.get("sha256") or "").lower()
         if pinned and pinned != digest:
             raise ValueError("SHA256 للملف المحمّل مش مطابق للمسجّل في الكتالوج.")
         stream.line("sha256 %s%s" % (digest[:16] + "…", " (verified)" if pinned else ""))
