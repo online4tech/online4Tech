@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "sources": [
     "\"Enigma2 plugin\" in:name,description,readme",
     "\"OpenATV plugin\" in:name,description,readme",
@@ -12,7 +12,7 @@
   "valid_repositories": 16,
   "plugins_added": 0,
   "plugins_updated": 16,
-  "duplicates_skipped": 5,
+  "duplicates_skipped": 6,
   "failed_sources": [
     {
       "source": "digiteng/xtra",
