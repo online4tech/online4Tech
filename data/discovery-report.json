@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "sources": [
     "\"Enigma2 plugin\" in:name,description,readme",
     "\"OpenATV plugin\" in:name,description,readme",
@@ -79,7 +79,6 @@
     "footonsat",
     "raedquicksignal",
     "xtreamity",
-    "weather-plugin",
     "tmdb",
     "openwebif",
     "ajpanel-menu1",
@@ -88,7 +87,8 @@
     "xstreamity",
     "ipaudio",
     "extra-plugins-python3",
-    "enigma2-plugin-blurayplayer"
+    "enigma2-plugin-blurayplayer",
+    "weather-plugin"
   ],
   "catalog_total": 82,
   "limits": {
