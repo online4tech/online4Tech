@@ -23,6 +23,33 @@
 .art.dreambox-art{background:#f4f7fb;border-color:#dbe4ee}
 .dreambox-device-image{width:100%;max-width:100%;height:220px;object-fit:contain;padding:12px;transition:all .3s ease;filter:drop-shadow(0 0 12px rgba(0,30,60,.18));background:transparent}
 .dreambox-device-image:hover{transform:scale(1.03);filter:drop-shadow(0 0 20px rgba(0,170,255,.45))}
+
+/* Backup downloads: clean horizontal rows inspired by the supplied reference */
+:root{color-scheme:light;--bg:#f4f5f7;--panel:#fff;--line:#dedfe3;--text:#17202b;--muted:#687382;--blue:#00a9cf}
+body{background:#f4f5f7;color:#17202b}
+.hero p,.device-panel p,.head p,.footer{color:#687382}
+.device-panel{background:#fff;border:1px solid #dedfe3;border-radius:5px;box-shadow:0 1px 2px #00000008}
+.device-panel h2{color:#17202b}
+.head h2{color:#17202b}
+.cards{display:flex;flex-direction:column;gap:2px}
+.backup-row{display:grid;grid-template-columns:100px minmax(220px,1fr) minmax(125px,160px) minmax(110px,145px) 155px;align-items:center;gap:16px;min-height:74px;padding:8px 18px;background:#fff;border:1px solid #dedfe3;border-radius:4px;color:#17202b}
+.backup-thumb{width:100px;height:56px;object-fit:contain;background:#f5f6f8;border:1px solid #e6e8eb}
+.backup-name{min-width:0}
+.backup-name h3{font-size:.94rem;line-height:1.45;margin:0;color:#17202b;overflow-wrap:anywhere}
+.backup-name p{display:none}
+.backup-extra{display:flex;gap:7px;flex-wrap:wrap;margin-top:4px}
+.backup-extra .guide-btn{margin:0;padding:2px 7px;font-size:.68rem;background:#f7fbfd;border-color:#d6e8ee;color:#52717d}
+.backup-date{font-size:.9rem;color:#253244;text-align:center}
+.mobile-label{display:none}
+.backup-version{justify-self:center;display:inline-block;padding:4px 11px;border:1px solid #d5d8dc;border-radius:999px;background:#f8f9fa;color:#687382;font-size:.78rem;white-space:nowrap}
+.download-outline{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:7px 12px;border:1px solid #00a9cf;border-radius:999px;color:#009cbe;text-decoration:none;font-size:.83rem;white-space:nowrap}
+.download-outline:hover{background:#e9faff;color:#007f9c}
+.notice{background:#fffaf0;color:#76613a;border-color:#ead8ad}
+.notice strong{color:#6e4f16}
+.footer{border-color:#dedfe3}
+@media(max-width:850px){.backup-row{grid-template-columns:82px minmax(0,1fr) 125px;gap:10px;padding:10px}.backup-thumb{width:82px;height:54px}.backup-date{grid-column:2;text-align:right;font-size:.78rem}.backup-version{grid-column:3;grid-row:2}.download-outline{grid-column:3;grid-row:1}}
+@media(max-width:560px){.backup-row{grid-template-columns:70px minmax(0,1fr);gap:8px;padding:10px}.backup-thumb{width:70px;height:52px;grid-row:1 / span 3}.backup-name h3{font-size:.82rem}.backup-extra{gap:5px}.backup-date{grid-column:2;text-align:right;font-size:.75rem}.backup-version{grid-column:2;justify-self:start;font-size:.7rem;padding:2px 8px}.download-outline{grid-column:2;grid-row:auto;justify-self:start;padding:5px 12px;font-size:.78rem}.mobile-label{display:inline;margin-left:5px;color:#7b8794}}
+
 </style>
 <link rel="stylesheet" href="../assets/site.css?v=1">
 <style>.site-logo-brand{display:flex;align-items:center;flex:0 1 auto;min-width:0;text-decoration:none}.site-logo-brand img{display:block;width:clamp(190px,27vw,300px);max-width:100%;height:auto;object-fit:contain}.site-logo-brand:focus-visible{outline:3px solid #3478f6;outline-offset:4px;border-radius:8px}@media(max-width:760px){.site-logo-brand{margin-inline:auto}.site-logo-brand img{width:clamp(190px,68vw,260px)}}@media(max-width:420px){.site-logo-brand img{width:190px}}</style>
@@ -129,7 +156,7 @@ if (!device) {
     photo.onerror = () => { photo.onerror = null; photo.style.display = "none"; };
   } document.getElementById("modelIntro").textContent = device.backups.length ? "دي النسخ المضافة حاليًا لموديل " + device.model + "." : "صفحة مخصصة لموديل " + device.model + ". هنضيف هنا أي نسخ باك أب جديدة خاصة بالموديل ده.";
  if (device.backups.length) {
-   list.innerHTML = device.backups.map(b => { const infoUrl = '../backup-info.html?device='+encodeURIComponent(device.brand+' '+device.model)+'&title='+encodeURIComponent(b.title)+'&date='+encodeURIComponent(b.date)+'&desc='+encodeURIComponent(b.desc)+'&url='+encodeURIComponent(b.url)+'&tag='+encodeURIComponent(b.tag)+'&photo='+encodeURIComponent(devicePhotos[device.slug] || '')+'&slug='+encodeURIComponent(device.slug); return '<article class="card" data-gallery-folder="images/backups/'+device.slug+'/'+b.title.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')+'" data-gallery-name="'+device.brand+' '+device.model+' — '+b.title+'"><span class="pill">'+b.tag+'</span><h3>'+b.title+'</h3><p>'+b.desc+'</p><div class="meta">تاريخ النسخة: '+b.date+'</div><a class="btn" href="'+b.url+'" target="_blank" rel="noopener noreferrer">تحميل الباك أب ↗</a><div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:9px"><a class="guide-btn" href="https://online4tech.github.io/online4Tech/tutorials/backup-install.html">شرح تركيب الباك أب</a><a class="guide-btn" href="'+infoUrl+'">معلومات أكتر ℹ️</a></div></article>'; }).join("");
+   list.innerHTML = device.backups.map(b => { const infoUrl = '../backup-info.html?device='+encodeURIComponent(device.brand+' '+device.model)+'&title='+encodeURIComponent(b.title)+'&date='+encodeURIComponent(b.date)+'&desc='+encodeURIComponent(b.desc)+'&url='+encodeURIComponent(b.url)+'&tag='+encodeURIComponent(b.tag)+'&photo='+encodeURIComponent(devicePhotos[device.slug] || '')+'&slug='+encodeURIComponent(device.slug); return '<article class="backup-row" data-gallery-folder="images/backups/'+device.slug+'/'+b.title.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')+'" data-gallery-name="'+device.brand+' '+device.model+' — '+b.title+'"><img class="backup-thumb" src="'+(devicePhotos[device.slug] || '')+'" alt="'+device.brand+' '+device.model+'" loading="lazy"><div class="backup-name"><h3>'+b.title+'</h3><p>'+b.desc+'</p><div class="backup-extra"><a class="guide-btn" href="https://online4tech.github.io/online4Tech/tutorials/backup-install.html">شرح التركيب</a><a class="guide-btn" href="'+infoUrl+'">معلومات أكتر ℹ️</a></div></div><div class="backup-date"><span class="mobile-label">تاريخ النسخة</span>'+ (b.date || '—') +'</div><span class="backup-version">'+b.tag+'</span><a class="download-outline" href="'+b.url+'" target="_blank" rel="noopener noreferrer">⬇ تحميل</a></article>'; }).join("");
  } else {
    list.innerHTML = '<div class="empty"><strong>مفيش باك أب مضاف محليًا للموديل ده لحد دلوقتي.</strong>تقدر تراجع المكتبة الخارجية وتشوف النسخ المتاحة للموديل، مع التأكد من الاسم والتوافق قبل التحميل.<br><a href="'+device.source+'" target="_blank" rel="noopener noreferrer">فتح مكتبة '+device.brand+' الخارجية ↗</a></div>';
  }
