@@ -1,0 +1,39 @@
+name: Import one Picons asset (test)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-one-asset:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Download source asset on GitHub runner
+        shell: bash
+        run: |
+          set -euo pipefail
+          URL="https://github.com/KhaledAli65/books/releases/download/Picon/picon.tar.gz"
+          curl --fail --location --retry 3 --retry-delay 2 "$URL" --output picon.tar.gz
+          ACTUAL_SIZE="$(stat -c%s picon.tar.gz)"
+          EXPECTED_SIZE="58817803"
+          echo "Downloaded bytes: $ACTUAL_SIZE"
+          test "$ACTUAL_SIZE" = "$EXPECTED_SIZE"
+          sha256sum picon.tar.gz | tee picon.sha256
+
+      - name: Create test release and upload asset
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="online4tech-picons-test"
+          if ! gh release view "$TAG" >/dev/null 2>&1; then
+            gh release create "$TAG" --title "Online4Tech Picons transfer test" --notes "اختبار نقل ملف Picons من المستودع المصدر. لن يتم حذف المصدر."
+          fi
+          gh release upload "$TAG" picon.tar.gz --clobber
+          echo "UPLOAD_OK"
+          gh release view "$TAG" --json url,assets
