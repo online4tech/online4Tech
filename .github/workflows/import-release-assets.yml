@@ -1,0 +1,94 @@
+name: Import release assets to Online4Tech
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_tag:
+        description: "اسم Release في المستودع المصدر (مثال: Vuzero أو Novalerpro أو Picon)"
+        required: true
+        type: string
+      category:
+        description: "القسم داخل Online4Tech"
+        required: true
+        type: choice
+        options:
+          - backups
+          - picons
+          - plugins
+          - skins
+          - scripts
+          - telnet-commands
+
+permissions:
+  contents: write
+
+jobs:
+  import-release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Import and verify every asset
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          SOURCE_TAG: ${{ inputs.source_tag }}
+          CATEGORY: ${{ inputs.category }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          SOURCE_REPO="KhaledAli65/books"
+          DEST_TAG="online4tech-${CATEGORY}-$(printf '%s' "$SOURCE_TAG" | tr '[:upper:]' '[:lower:]')"
+          DEST_TITLE="Online4Tech ${CATEGORY} - ${SOURCE_TAG}"
+
+          echo "Reading source release: ${SOURCE_REPO}/${SOURCE_TAG}"
+          gh api "repos/${SOURCE_REPO}/releases/tags/${SOURCE_TAG}" > release.json
+
+          ASSET_COUNT="$(jq '.assets | length' release.json)"
+          test "$ASSET_COUNT" -gt 0
+          echo "Assets to import: $ASSET_COUNT"
+
+          if ! gh release view "$DEST_TAG" >/dev/null 2>&1; then
+            gh release create "$DEST_TAG" --title "$DEST_TITLE" --notes "Imported from ${SOURCE_REPO} release ${SOURCE_TAG}. Original source is unchanged. Each file is checked by size and SHA-256."
+          fi
+
+          while IFS= read -r encoded; do
+            item="$(printf '%s' "$encoded" | base64 -d)"
+            ASSET_NAME="$(printf '%s' "$item" | jq -r '.name')"
+            EXPECTED_SIZE="$(printf '%s' "$item" | jq -r '.size')"
+            EXPECTED_DIGEST="$(printf '%s' "$item" | jq -r '.digest // empty')"
+            SOURCE_URL="$(printf '%s' "$item" | jq -r '.browser_download_url')"
+
+            echo "::group::Importing $ASSET_NAME"
+            curl --fail --location --retry 4 --retry-delay 3 "$SOURCE_URL" --output "$ASSET_NAME"
+
+            ACTUAL_SIZE="$(stat -c%s "$ASSET_NAME")"
+            test "$ACTUAL_SIZE" = "$EXPECTED_SIZE"
+
+            if [[ -n "$EXPECTED_DIGEST" && "$EXPECTED_DIGEST" == sha256:* ]]; then
+              EXPECTED_SHA="${EXPECTED_DIGEST#sha256:}"
+              ACTUAL_SHA="$(sha256sum "$ASSET_NAME" | awk '{print $1}')"
+              test "$ACTUAL_SHA" = "$EXPECTED_SHA"
+              echo "SHA256 verified: $ACTUAL_SHA"
+            else
+              echo "No source SHA256 supplied by GitHub; size verified only."
+            fi
+
+            gh release upload "$DEST_TAG" "$ASSET_NAME" --clobber
+
+            DEST_ASSET="$(gh release view "$DEST_TAG" --json assets --jq ".assets[] | select(.name == \"$ASSET_NAME\")")"
+            DEST_SIZE="$(printf '%s' "$DEST_ASSET" | jq -r '.size')"
+            DEST_DIGEST="$(printf '%s' "$DEST_ASSET" | jq -r '.digest // empty')"
+            test "$DEST_SIZE" = "$EXPECTED_SIZE"
+
+            if [[ -n "$EXPECTED_DIGEST" ]]; then
+              test "$DEST_DIGEST" = "$EXPECTED_DIGEST"
+            fi
+
+            echo "UPLOAD VERIFIED: $ASSET_NAME ($ACTUAL_SIZE bytes)"
+            rm -f "$ASSET_NAME"
+            echo "::endgroup::"
+          done < <(jq -r '.assets[] | @base64' release.json)
+
+          echo "IMPORT_COMPLETE: $ASSET_COUNT assets copied and verified."
+          echo "Destination: https://github.com/${GH_REPO}/releases/tag/${DEST_TAG}"
