@@ -1,0 +1,94 @@
+name: Import Enigma2 Plugins and Skins
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Online4Tech
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Download authorized public source repositories
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/e2src
+          git clone --depth 1 https://github.com/emilnabil/download-plugins.git /tmp/e2src/download-plugins
+          git clone --depth 1 https://github.com/emilnabil/skins-openatv.git /tmp/e2src/skins-openatv
+          git clone --depth 1 https://github.com/emilnabil/skins-obh.git /tmp/e2src/skins-obh
+          git clone --depth 1 https://github.com/emilnabil/skins-spa.git /tmp/e2src/skins-spa
+          git clone --depth 1 https://github.com/emilnabil/aglare.git /tmp/e2src/aglare
+
+      - name: Import plugin IPKs with matching Telnet installers
+        shell: bash
+        run: |
+          set -euo pipefail
+          src=/tmp/e2src/download-plugins
+          while IFS= read -r -d '' pkg; do
+            rel="${pkg#"$src"/}"
+            if [[ "$rel" =~ (softcam|cccam|oscam|cam|emulator|biss|iptv|xtream|stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]]; then
+              continue
+            fi
+            dir="$(dirname "$pkg")"
+            shopt -s nullglob
+            installers=("$dir"/*.sh)
+            shopt -u nullglob
+            (("${#installers[@]}" > 0)) || continue
+            if [[ "$rel" =~ (skin|display-skin) ]]; then
+              dest="downloads/online4tech/skins/download-plugins/$(dirname "$rel")"
+            else
+              dest="downloads/online4tech/plugins/download-plugins/$(dirname "$rel")"
+            fi
+            mkdir -p "$dest"
+            cp -n "$pkg" "$dest/"
+            for installer in "${installers[@]}"; do
+              name="$(basename "$installer")"
+              [[ "$name" =~ (softcam|cccam|oscam|cam|emulator|biss|iptv|xtream|stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]] && continue
+              cp -n "$installer" "$dest/" || true
+            done
+          done < <(find "$src" -type f -iname '*.ipk' -print0)
+
+      - name: Import skin packages and installers
+        shell: bash
+        run: |
+          set -euo pipefail
+          for repo in skins-openatv skins-obh skins-spa aglare; do
+            src="/tmp/e2src/$repo"
+            dest="downloads/online4tech/skins/$repo"
+            mkdir -p "$dest"
+            while IFS= read -r -d '' file; do
+              name="$(basename "$file")"
+              [[ "$name" =~ (softcam|cccam|oscam|cam|emulator|biss|iptv|xtream|stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]] && continue
+              case "$name" in
+                *.ipk|*.sh) cp -n "$file" "$dest/" || true ;;
+                *.tar.gz)
+                  stem="${name%.tar.gz}"
+                  if ! find "$src" -maxdepth 1 -type f -iname "$stem*.ipk" -print -quit | grep -q .; then
+                    cp -n "$file" "$dest/" || true
+                  fi
+                  ;;
+              esac
+            done < <(find "$src" -maxdepth 1 -type f \( -iname '*skin*.ipk' -o -iname '*skin*.sh' -o -iname '*skin*.tar.gz' \) -print0)
+          done
+
+      - name: Commit imported files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add downloads/online4tech/plugins downloads/online4tech/skins
+          if git diff --cached --quiet; then
+            echo "No new files to import."
+            exit 0
+          fi
+          git commit -m "Import Enigma2 plugin IPKs and skins"
+          git push origin HEAD:main
