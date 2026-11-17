@@ -272,6 +272,14 @@
     "type": "Device"
   },
   {
+    "title": "Vu+ Uno 4K",
+    "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
+    "category": "أجهزة",
+    "brand": "Vu+",
+    "type": "Device"
+  },
+  {
     "title": "Vu+ Uno 4K SE",
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
@@ -288,15 +296,7 @@
     "type": "Device"
   },
   {
-    "title": "Vu+ Uno SE",
-    "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
-    "url": "https://online4tech.github.io/online4Tech/devices/vuplus.html",
-    "category": "أجهزة",
-    "brand": "Vu+",
-    "type": "Device"
-  },
-  {
-    "title": "Vu+ Uno SEملفات الباك أب والمصادر المتاحة للموديل.فتح صفحة الجهاز ←",
+    "title": "Vu+ Uno 4Kملفات الباك أب والمصادر المتاحة للموديل.فتح صفحة الجهاز ←",
     "description": "موديلات Vu+ — أجهزة Vu+ وDreambox وملفات Enigma2 والتحميلات والشروحات من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/devices/model.html?device=vu-uno-se",
     "category": "أجهزة",
