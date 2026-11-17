@@ -472,7 +472,7 @@ function details(x){
  (x.description?'<p class="detail-description">'+esc(x.description)+'</p>':'')+
  commandBox+
  (meta?'<div class="detail-meta">'+meta+'</div>':'')+
- '<div class="detail-actions">'+autoInstallBtn+action(download,"⬇ تحميل مباشر",!!download,true,"رابط التحميل المباشر")+action(repo,'<img class="detail-action-logo" src="assets/site-logo.svg" alt=""> مستودع GitHub',!!repo,false,"رابط مستودع GitHub")+action(forum,'<img class="detail-action-logo forum-logo" src="https://tunisia-sat.com/favicon.ico" alt=""> موضوع في تونسيا سات',!!forum,false,"رابط موضوع تونسيا سات")+(installCommand?'<button class="btn install-copy" type="button" data-copy-install="'+esc(installCommand)+'">📋 نسخ الأمر</button>':'<button class="btn is-unavailable" type="button" aria-disabled="true" data-unavailable="أمر التنفيذ">📋 نسخ الأمر</button>')+'</div>';
+ '<div class="detail-actions">'+autoInstallBtn+action(download,"⬇ تحميل مباشر",!!download,true,"رابط التحميل المباشر")+action(forum,'<img class="detail-action-logo forum-logo" src="https://tunisia-sat.com/favicon.ico" alt=""> موضوع في تونسيا سات',!!forum,false,"رابط موضوع تونسيا سات")+(installCommand?'<button class="btn install-copy" type="button" data-copy-install="'+esc(installCommand)+'">📋 نسخ الأمر</button>':'<button class="btn is-unavailable" type="button" aria-disabled="true" data-unavailable="أمر التنفيذ">📋 نسخ الأمر</button>')+'</div>';
  targets.forEach(el=>el.innerHTML=markup);
 }
 function renderAll(){renderNav();breadcrumb();renderContent();details(selectedItem)}
