@@ -1,13 +1,13 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/apod/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/apod/installer.sh -O - | /bin/sh
 ##
 ###########################################
 ###########################################
 
 # My config script #
 PLUGIN_TAR="apod.tar.gz"
-MY_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/apod"
+MY_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/apod"
 
 ######################################################################################
 MY_EM='============================================================================================================'

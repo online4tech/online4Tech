@@ -1,12 +1,12 @@
 #!/bin/sh
-##command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PluginBrowser-Grid/pluginbrowser-grid-pli_8.3.sh -O - | /bin/sh
+##command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/PluginBrowser-Grid/pluginbrowser-grid-pli_8.3.sh -O - | /bin/sh
 ######################
 
 cd /tmp || exit 1
 
 cp /usr/lib/enigma2/python/Screens/PluginBrowser.pyo /usr/lib/enigma2/python/Screens/PluginBrowser.pyo.bak
 
-wget -q https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PluginBrowser-Grid/PluginBrowser-Grid-Pli_8.3.tar.gz
+wget -q https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/PluginBrowser-Grid/PluginBrowser-Grid-Pli_8.3.tar.gz
 
 if [ $? -ne 0 ]; then
     exit 1

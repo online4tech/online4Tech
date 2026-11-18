@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-## command=curl -kL https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Zombi-Shadow-FHD.sh | bash
+## command=curl -kL https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Zombi-Shadow-FHD.sh | bash
 ######################
 
 TMPFILE="/tmp/Zombi-Shadow-FHD.tar.gz"
-URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Zombi-Shadow-FHD.tar.gz"
+URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Zombi-Shadow-FHD.tar.gz"
 
 PACKAGES=(
     enigma2

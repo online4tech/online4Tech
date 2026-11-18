@@ -1,5 +1,5 @@
 #!/bin/sh
-##command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SuperBackupImages/SuperBackupImages.sh -O - | /bin/sh
+##command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/SuperBackupImages/SuperBackupImages.sh -O - | /bin/sh
 
 if [ "$(id -u)" -ne 0 ]; then
     echo "✘ This script must be run as root (use su or sudo)"
@@ -37,9 +37,9 @@ if ! cd /tmp; then
 fi
 
 if [ "$PKG_TYPE" = "DreamOS" ]; then
-    URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SuperBackupImages/dreamos/SuperBackupImages.tar.gz"
+    URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/SuperBackupImages/dreamos/SuperBackupImages.tar.gz"
 else
-    URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SuperBackupImages/SuperBackupImages.tar.gz"
+    URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/SuperBackupImages/SuperBackupImages.tar.gz"
 fi
 
 echo "Downloading from $URL ..."

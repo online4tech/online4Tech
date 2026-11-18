@@ -1,10 +1,10 @@
 #!/bin/sh
-## Command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/backupsuite/backupsuite.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/backupsuite/backupsuite.sh -O - | /bin/sh
 
 PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/BackupSuite"
 TMP_DIR="/var/volatile/tmp"
 PLUGIN="backupsuite"
-URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/backupsuite/backupsuite.tar.gz"
+URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/backupsuite/backupsuite.tar.gz"
 PACKAGE="$TMP_DIR/$PLUGIN.tar.gz"
 PACKAGE_NAME="enigma2-plugin-extensions-backupsuite"
 

@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-## command=curl -kL https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/gp4-skin-meridian-fhd.sh | bash
+## command=curl -kL https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/gp4-skin-meridian-fhd.sh | bash
 ######################
 
 TMPFILE="/tmp/gp4-skin-meridian-fhd.tar.gz"
-URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/gp4-skin-meridian-fhd.tar.gz"
+URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/gp4-skin-meridian-fhd.tar.gz"
 
 cd /tmp || {
     echo "Failed to change directory to /tmp"

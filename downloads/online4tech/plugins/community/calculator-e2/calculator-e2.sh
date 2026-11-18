@@ -1,6 +1,6 @@
 #!/bin/bash
 
-##setup command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/calculator-e2/calculator-e2.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/calculator-e2/calculator-e2.sh -O - | /bin/sh
 ######################################
 echo "Removing previous version ..."
 sleep 2
@@ -17,7 +17,7 @@ opkg install curl
 sleep 2
 
 cd /tmp || exit
-curl -k -Lbk -m 55532 -m 555104 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/calculator-e2/calculator-e2.tar.gz" -o /tmp/calculator-e2.tar.gz
+curl -k -Lbk -m 55532 -m 555104 "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/calculator-e2/calculator-e2.tar.gz" -o /tmp/calculator-e2.tar.gz
 sleep 1
 echo "Installing ...."
 tar -xzf /tmp/calculator-e2.tar.gz -C /

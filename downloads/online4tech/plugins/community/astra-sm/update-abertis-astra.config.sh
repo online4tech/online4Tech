@@ -1,5 +1,5 @@
 #!/bin/sh
-##command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/update-abertis-astra.config.sh -O - | /bin/sh
+##command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/update-abertis-astra.config.sh -O - | /bin/sh
 ######################################
 echo "> downloading astra config file. Please Wait ..."
 sleep 3

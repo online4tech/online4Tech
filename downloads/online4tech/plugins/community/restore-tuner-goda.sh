@@ -3,7 +3,7 @@
 BACKUP_DIR="/tmp"
 ENIGMA_SETTINGS="/etc/enigma2/settings"
 BACKUP_FILE="$BACKUP_DIR/tuner_backup_goda.backup"
-URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/tuner_backup_goda.backup"
+URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/tuner_backup_goda.backup"
 
 echo "> Downloading tuner backup..."
 wget -q -O "$BACKUP_FILE" "$URL"

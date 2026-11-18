@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-###command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/3gmodemmanager.sh -O - | /bin/sh
+###command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/3gmodemmanager.sh -O - | /bin/sh
 ###########################
 PYTHON_VERSION=$(python -c"import platform; print(platform.python_version())")
 ##########################

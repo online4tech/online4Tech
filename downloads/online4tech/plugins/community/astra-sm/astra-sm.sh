@@ -1,12 +1,12 @@
 #!/bin/sh
-##command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/astra-sm.sh -O - | /bin/sh
+##command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/astra-sm.sh -O - | /bin/sh
 ######################
 # config
 plugin=astra-sm
 version=0.2
-url=https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/astra-sm-0.2.tar.gz
+url=https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/astra-sm-0.2.tar.gz
 
-url1=https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/
+url1=https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/
 
 ipk=astra-sm.ipk
 
@@ -56,13 +56,13 @@ mkdir -p /etc/astra/scripts
 
 case $arch in
     aarch64)
-        wget --show-progress -qO /etc/astra/scripts/abertis "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/aarch/abertis" &
+        wget --show-progress -qO /etc/astra/scripts/abertis "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/aarch/abertis" &
         ;;
     mips)
-        wget --show-progress -qO /etc/astra/scripts/abertis "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/mips/abertis" &
+        wget --show-progress -qO /etc/astra/scripts/abertis "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/mips/abertis" &
         ;;
     sh4)
-        wget --show-progress -qO /etc/astra/scripts/abertis "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/sh4/abertis" &
+        wget --show-progress -qO /etc/astra/scripts/abertis "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/sh4/abertis" &
         ;;
     *)
         echo "> Unsupported architecture: $arch"

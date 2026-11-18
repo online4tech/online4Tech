@@ -1,6 +1,6 @@
 # مكتبة الإضافات والسكينات في Online4Tech
 
-المصدر: https://github.com/emilnabil/download-plugins
+مكتبة Online4Tech: https://github.com/online4tech/online4Tech/tree/main/downloads/online4tech/plugins/community
 النسخة التي تم فهرستها: `dd7ee9d54b193642b42f9aab66a650435b62f157`
 الفهرس الكامل ومسارات الملفات وأوامر التثبيت التي ظهرت داخل السكربتات: [`data/enigma2-community-catalog.json`](../../../../data/enigma2-community-catalog.json)
 
@@ -14,6 +14,3 @@
 لم يتم تشغيل أو تدقيق سكربتات المصدر. راجع محتوى السكربت وتوافق المعمارية وإصدار Python وصورة الجهاز قبل التنفيذ. بعض الأوامر المصدرية تنزّل سكربتًا من الإنترنت وتشغّله مباشرة؛ لا تستخدمها قبل مراجعة محتواها.
 
 تم تجنب استبدال أي ملف موجود. واستُبعدت عناصر تشير أسماؤها أو مساراتها إلى softcam وIPTV ومفاتيح/قارئات السيرفرات وأدوات كلمات المرور والمحاكيات.
-
-
-

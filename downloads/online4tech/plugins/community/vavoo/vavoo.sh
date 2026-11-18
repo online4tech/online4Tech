@@ -1,13 +1,13 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/vavoo/vavoo.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/vavoo/vavoo.sh -O - | /bin/sh
 ##
 ###########################################
 
 # Plugin Configuration
 PLUGIN_NAME="vavoo"
 PLUGIN_TAR="$PLUGIN_NAME.tar.gz"
-MY_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/main/vavoo"
+MY_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/vavoo"
 
 SEPARATOR='============================================================================================================'
 

@@ -1,8 +1,8 @@
 #!/bin/sh
-## Command=wget ## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cacheflush/cacheflush.sh -O - | /bin/sh
+## Command=wget ## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/cacheflush/cacheflush.sh -O - | /bin/sh
 ##
 plugin="cacheflush"
-git_url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cacheflush"
+git_url="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/cacheflush"
 plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/CacheFlush"
 package="enigma2-plugin-extensions-$plugin"
 targz_file="$plugin.tar.gz"

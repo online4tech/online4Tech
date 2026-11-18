@@ -1,5 +1,5 @@
 #!/bin/sh
-##command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/audiomerge.sh -O - | /bin/sh
+##command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/audiomerge/audiomerge.sh -O - | /bin/sh
 #########################################
 echo "remove old package ..."
 opkg remove enigma2-plugin-extensions-audiomerge
@@ -8,9 +8,9 @@ sleep 2
 echo "install plugin"
 cd /tmp
 if command -v wget >/dev/null 2>&1; then
-    wget -q --no-check-certificate -O audiomerge.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/audiomerge.tar.gz"
+    wget -q --no-check-certificate -O audiomerge.tar.gz "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/audiomerge/audiomerge.tar.gz"
 else
-    curl -k -L -o audiomerge.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/audiomerge.tar.gz"
+    curl -k -L -o audiomerge.tar.gz "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/audiomerge/audiomerge.tar.gz"
 fi
 sleep 1
 echo "install plugin...."

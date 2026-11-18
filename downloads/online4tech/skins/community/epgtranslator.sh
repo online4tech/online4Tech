@@ -1,8 +1,8 @@
 #!/bin/sh
 #
-#command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/epgtranslator.sh -O - | /bin/sh##
+#command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/epgtranslator.sh -O - | /bin/sh##
 PLUGIN_NAME="EPGTranslator"
-PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/epgtranslator/EPGTranslator.tar.gz"
+PLUGIN_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/epgtranslator/EPGTranslator.tar.gz"
 PLUGIN_FILE="/tmp/${PLUGIN_NAME}.tar.gz"
 PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/${PLUGIN_NAME}"
 

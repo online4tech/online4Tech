@@ -1,13 +1,13 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/radiom/radiom.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/radiom/radiom.sh -O - | /bin/sh
 ##
 ###########################################
 
 # Plugin Configuration
 PLUGIN_NAME="radiom"
 PLUGIN_TAR="$PLUGIN_NAME.tar.gz"
-MY_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/main/radiom"
+MY_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/radiom"
 
 SEPARATOR='============================================================================================================'
 

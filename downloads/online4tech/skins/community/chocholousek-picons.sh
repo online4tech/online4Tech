@@ -1,7 +1,7 @@
 #!/bin/sh
 
 PLUGIN_NAME="enigma2-plugin-extensions-chocholousek-picons"
-PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/${PLUGIN_NAME}_5.0.ipk"
+PLUGIN_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/${PLUGIN_NAME}_5.0.ipk"
 PLUGIN_FILE="/tmp/${PLUGIN_NAME}_5.0.ipk"
 
 echo "Removing old plugin version..."

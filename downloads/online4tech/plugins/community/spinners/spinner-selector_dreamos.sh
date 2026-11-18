@@ -1,9 +1,9 @@
 #!/bin/bash
-## Command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector/spinner-selector_dreamos.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/SpinnerSelector/spinner-selector_dreamos.sh -O - | /bin/sh
 #############################################
 MY_EM='============================================================================================================'
 MY_TAR="SpinnerSelector_py2_fixed_dreamos_v2.tar.gz"
-MY_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector"
+MY_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/SpinnerSelector"
 PLUGIN_PATH="/usr/lib/enigma2/python/Plugins/Extensions/SpinnerSelector"
 TMP_DIR="/tmp"
 

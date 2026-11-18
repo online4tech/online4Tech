@@ -1,5 +1,5 @@
 #!/bin/bash
-## setup command=wget -q --no-check-certificate https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/wifimanager/wifimanager.sh -O - | /bin/sh
+## setup command=wget -q --no-check-certificate https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/wifimanager/wifimanager.sh -O - | /bin/sh
 
 version='1.1'
 changelog='\nInitial release'
@@ -99,7 +99,7 @@ install_pkg "$Packagerequests"
 
 # Download and extract
 echo "⬇️ Downloading WiFiManager..."
-wget --no-check-certificate 'https://github.com/emilnabil/download-plugins/raw/refs/heads/main/wifimanager/WiFiManager.tar.gz' -O "$FILEPATH"
+wget --no-check-certificate 'https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/wifimanager/WiFiManager.tar.gz' -O "$FILEPATH"
 if [ $? -ne 0 ]; then
     echo "❌ Failed to download WiFiManager package!"
     cleanup

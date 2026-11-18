@@ -1,5 +1,5 @@
 #!/bin/sh
-### Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Zip2IPK/installer.sh -O - | /bin/sh
+### Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/Zip2IPK/installer.sh -O - | /bin/sh
 ##
 ########################
 
@@ -7,7 +7,7 @@ plugin="zip2pkg"
 plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/Zip2Pkg"
 package="enigma2-plugin-extensions-zip2ipk"
 targz_file="Zip2Pkg.tar.gz"
-url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/Zip2IPK/$targz_file"
+url="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/Zip2IPK/$targz_file"
 temp_dir="/tmp"
 
 if command -v python3 >/dev/null 2>&1; then

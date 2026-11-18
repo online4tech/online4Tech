@@ -22,7 +22,7 @@ fi
 
 cd /tmp || exit
 echo "Downloading the package..."
-curl -kL --max-time 60 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/vhannibal-settings/vhannibal-settings-motor.tar.gz" -o vhannibal-settings-motor.tar.gz || { echo "Download failed"; exit 1; }
+curl -kL --max-time 60 "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/vhannibal-settings/vhannibal-settings-motor.tar.gz" -o vhannibal-settings-motor.tar.gz || { echo "Download failed"; exit 1; }
 
 echo "Installing..."
 tar -xzf vhannibal-settings-motor.tar.gz -C / || { echo "Extraction failed"; exit 1; }

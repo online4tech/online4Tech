@@ -1,12 +1,12 @@
 #!/bin/sh
-##command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/softwaremanager/softwaremanager.sh -O - | /bin/sh
+##command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/softwaremanager/softwaremanager.sh -O - | /bin/sh
 #########################################
 echo "install plugin"
 cd /tmp
 if command -v wget >/dev/null 2>&1; then
-    wget -q --no-check-certificate -O softwaremanager.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/softwaremanager/softwaremanager.tar.gz"
+    wget -q --no-check-certificate -O softwaremanager.tar.gz "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/softwaremanager/softwaremanager.tar.gz"
 else
-    curl -k -L -o softwaremanager.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/softwaremanager/softwaremanager.tar.gz"
+    curl -k -L -o softwaremanager.tar.gz "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/softwaremanager/softwaremanager.tar.gz"
 fi
 sleep 1
 echo "install plugin...."

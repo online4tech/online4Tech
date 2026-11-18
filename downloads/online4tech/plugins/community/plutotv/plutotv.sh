@@ -1,13 +1,13 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/plutotv/plutotv.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/plutotv/plutotv.sh -O - | /bin/sh
 ##
 ###########################################
 
 # Plugin Configuration
 PLUGIN_NAME="plutotv"
 PLUGIN_TAR="$PLUGIN_NAME.tar.gz"
-MY_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/main/plutotv"
+MY_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/plutotv"
 
 SEPARATOR='============================================================================================================'
 

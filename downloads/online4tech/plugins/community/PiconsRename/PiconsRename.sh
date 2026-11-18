@@ -1,7 +1,7 @@
 #!/bin/bash
-##setup command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PiconsRename/PiconsRename.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/PiconsRename/PiconsRename.sh -O - | /bin/sh
 
-PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PiconsRename"
+PLUGIN_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/PiconsRename"
 
 #
 if [ -d /usr/lib64 ]; then

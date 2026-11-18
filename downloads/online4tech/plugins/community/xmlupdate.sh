@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/xmlupdate.sh -qO - | /bin/sh
+#Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/xmlupdate.sh -qO - | /bin/sh
 ##############################
 echo ">>>> install plugin <<<<"
 echo ""

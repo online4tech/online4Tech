@@ -1,8 +1,8 @@
 #!/bin/bash
-##setup command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/hisnmuslim/hisnmuslim.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/hisnmuslim/hisnmuslim.sh -O - | /bin/sh
 
 TMPPATH="/tmp/hisnmuslim"
-PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/hisnmuslim"
+PLUGIN_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/hisnmuslim"
 PLUGINPATH="/usr/lib/enigma2/python/Plugins/Extensions/HisnMuslim"
 STATUS="/var/lib/opkg/status"
 

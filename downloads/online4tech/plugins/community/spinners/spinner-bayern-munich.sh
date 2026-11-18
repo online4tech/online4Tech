@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-### Command=curl -kLs https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-bayern-munich.sh | sh
+### Command=curl -kLs https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-bayern-munich.sh | sh
 #####################
 
 echo "Removing previous spinners ..."
@@ -17,7 +17,7 @@ mkdir -p /usr/share/enigma2/spinner
 cd /tmp || { echo "Failed to access /tmp"; exit 1; }
 
 echo "Downloading spinner..."
-curl -k -L -m 60 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-bayern-munich.tar.gz" -o spinner-bayern-munich.tar.gz
+curl -k -L -m 60 "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-bayern-munich.tar.gz" -o spinner-bayern-munich.tar.gz
 
 if [ -s spinner-bayern-munich.tar.gz ]; then
     echo "Installing..."

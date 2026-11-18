@@ -5,8 +5,8 @@ plugin="astra-sm"
 version="0.2-r0"
 ipk="astra-sm.ipk"
 package="/var/volatile/tmp/${plugin}-${version}.tar.gz"
-url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/astra-sm-0.2.tar.gz"
-url_ipk="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/astra-sm.ipk"
+url="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/astra-sm-0.2.tar.gz"
+url_ipk="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/astra-sm.ipk"
 status="/var/lib/opkg/status"
 install="opkg install --force-reinstall --force-overwrite"
 
@@ -44,15 +44,15 @@ mkdir -p /etc/astra/scripts
 arch=$(uname -m)
 case "$arch" in
     aarch64)
-        wget -qO /etc/astra/scripts/abertis https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/abertis-aarch64
+        wget -qO /etc/astra/scripts/abertis https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/abertis-aarch64
         chmod +x /etc/astra/scripts/abertis
         ;;
     mips)
-        wget -qO /etc/astra/scripts/abertis https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/abertis-mips
+        wget -qO /etc/astra/scripts/abertis https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/abertis-mips
         chmod +x /etc/astra/scripts/abertis
         ;;
     sh4)
-        wget -qO /etc/astra/scripts/abertis https://github.com/emilnabil/download-plugins/raw/refs/heads/main/astra-sm/abertis-sh4
+        wget -qO /etc/astra/scripts/abertis https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/abertis-sh4
         chmod +x /etc/astra/scripts/abertis
         ;;
     *)

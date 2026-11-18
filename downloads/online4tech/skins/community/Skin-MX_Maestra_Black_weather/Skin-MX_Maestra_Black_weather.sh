@@ -1,5 +1,5 @@
 #!/bin/sh
-##command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black_weather.sh -O - | /bin/sh
+##command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black_weather.sh -O - | /bin/sh
 ##################################
 PYTHON_VERSION=$(python -c "import platform; print('.'.join(platform.python_version().split('.')[:2]))")
 
@@ -14,13 +14,13 @@ cd /tmp || { echo "Failed to enter /tmp"; exit 1; }
 
 case "$PYTHON_VERSION" in
     3.12)
-        URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.12.tar.gz"
+        URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.12.tar.gz"
         ;;
     3.13)
-        URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.13.tar.gz"
+        URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.13.tar.gz"
         ;;
     3.14)
-        URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black_weather_py3.14.tar.gz"
+        URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black_weather_py3.14.tar.gz"
         ;;
     *)
         echo "Unsupported Python version: $PYTHON_VERSION. Only 3.12, 3.13, 3.14 are supported."

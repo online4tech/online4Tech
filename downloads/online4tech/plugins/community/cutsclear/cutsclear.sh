@@ -1,11 +1,11 @@
 #!/bin/sh
 
-# wget -q --no-check-certificate https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cutsclear/cutsclear.sh -O - | /bin/sh
+# wget -q --no-check-certificate https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/cutsclear/cutsclear.sh -O - | /bin/sh
 
 TEMPATH="/tmp"
 MY_IPK="enigma2-plugin-extensions-cutsclear_all.ipk"
 MY_DEB="enigma2-plugin-extensions-cutsclear_all.deb"
-MY_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/cutsclear"
+MY_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/cutsclear"
 
 echo ">>>> Removing old version if exists <<<<"
 

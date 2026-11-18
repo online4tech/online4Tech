@@ -1,5 +1,5 @@
 #!/bin/bash
-##Command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/dreamexplorer/dreamexplorer.sh -O - | /bin/sh
+##Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/dreamexplorer/dreamexplorer.sh -O - | /bin/sh
 ####################
 echo "Removing previous version..."
 sleep 2
@@ -18,7 +18,7 @@ sleep 2
 
 # Download and extract the package
 cd /tmp || exit
-curl -k -Lbk -m 55532 -m 555104 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/dreamexplorer/dreamexplorer.tar.gz" -o /tmp/dreamexplorer.tar.gz
+curl -k -Lbk -m 55532 -m 555104 "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/dreamexplorer/dreamexplorer.tar.gz" -o /tmp/dreamexplorer.tar.gz
 sleep 1
 echo "Installing ...."
 tar -xzf /tmp/dreamexplorer.tar.gz -C /

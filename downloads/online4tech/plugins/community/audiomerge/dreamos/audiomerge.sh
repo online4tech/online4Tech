@@ -1,5 +1,5 @@
 #!/bin/sh
-## command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/dreamos/audiomerge.sh -O - | /bin/sh
+## command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/audiomerge/dreamos/audiomerge.sh -O - | /bin/sh
 #########################################
 
 plugin_name="AudioMerge"
@@ -7,7 +7,7 @@ plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/AudioMerge"
 package_name="enigma2-plugin-extensions-audiomerge"
 temp_dir="/tmp"
 tarball="audiomerge.tar.gz"
-download_url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/audiomerge/dreamos/audiomerge.tar.gz"
+download_url="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/audiomerge/dreamos/audiomerge.tar.gz"
 
 print_message() {
     echo "> $1"

@@ -1,5 +1,5 @@
 #!/bin/bash
-##command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/NumberZapExt/NumberZapExt.sh -O - | /bin/sh
+##command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/NumberZapExt/NumberZapExt.sh -O - | /bin/sh
 ########################################
 echo "Removing previous version ..."
 sleep 2
@@ -19,7 +19,7 @@ sleep 2
 
 # Download and extract the package
 cd /tmp || exit
-curl -k -Lbk -m 55532 -m 555104 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/NumberZapExt/NumberZapExt.tar.gz" -o /tmp/NumberZapExt.tar.gz
+curl -k -Lbk -m 55532 -m 555104 "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/NumberZapExt/NumberZapExt.tar.gz" -o /tmp/NumberZapExt.tar.gz
 sleep 1
 echo "Installing ...."
 tar -xzf /tmp/NumberZapExt.tar.gz -C /

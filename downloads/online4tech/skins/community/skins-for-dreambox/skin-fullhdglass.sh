@@ -1,9 +1,9 @@
 #!/bin/bash
-# command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/skin-fullhdglass.sh -O - | /bin/sh
+# command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/skin-fullhdglass.sh -O - | /bin/sh
 
 apt update
 
-wget -O /tmp/skin-fullhdglass17_9.50_all.deb https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/skin-fullhdglass17_9.50_all.deb
+wget -O /tmp/skin-fullhdglass17_9.50_all.deb https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/skin-fullhdglass17_9.50_all.deb
 
 dpkg -i /tmp/skin-fullhdglass17_9.50_all.deb
 

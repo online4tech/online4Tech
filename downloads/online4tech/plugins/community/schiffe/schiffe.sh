@@ -1,5 +1,5 @@
 #!/bin/sh
-###wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/schiffe/schiffe.sh | /bin/sh
+###wget --no-check-certificate -O - https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/schiffe/schiffe.sh | /bin/sh
 ###################
 
 echo "install schiffe"
@@ -7,7 +7,7 @@ sleep 2
 
 cd /tmp
 
-curl -k -L -o /tmp/schiffe.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/schiffe/schiffe.tar.gz"
+curl -k -L -o /tmp/schiffe.tar.gz "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/schiffe/schiffe.tar.gz"
 
 sleep 1
 echo "installing ...."

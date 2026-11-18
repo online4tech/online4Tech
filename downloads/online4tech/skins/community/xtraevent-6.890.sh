@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-### Command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/xtraevent-6.890.sh -O - | /bin/sh
+### Command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/xtraevent-6.890.sh -O - | /bin/sh
 ################################################################################
 
 echo ""
@@ -44,7 +44,7 @@ sleep 2
 
 PLUGIN_PATH="/usr/lib/enigma2/python/Plugins/Extensions/xtraEvent"
 PLUGIN_ARCHIVE="/tmp/xtraevent_6.890.tar.gz"
-PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/xtraevent_6.890.tar.gz"
+PLUGIN_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/xtraevent_6.890.tar.gz"
 BACKUP_DIR="/tmp/xtraevent_backup"
 
 # Create backup before removal

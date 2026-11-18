@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-### Command=curl -kLs https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Echse.sh | sh
+### Command=curl -kLs https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-Echse.sh | sh
 #####################
 
 echo "Removing previous spinners ..."
@@ -15,7 +15,7 @@ sleep 1
 cd /tmp || { echo "Failed to access /tmp"; exit 1; }
 
 echo "Downloading spinner..."
-curl -k -L -m 60 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-Echse.tar.gz" -o spinner-Echse.tar.gz
+curl -k -L -m 60 "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-Echse.tar.gz" -o spinner-Echse.tar.gz
 
 if [ -s spinner-Echse.tar.gz ]; then
     echo "Installing..."

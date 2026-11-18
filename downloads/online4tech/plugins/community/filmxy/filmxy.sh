@@ -1,8 +1,8 @@
 #!/bin/sh
-## Command=wget ## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/filmxy/filmxy.sh -O - | /bin/sh
+## Command=wget ## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/filmxy/filmxy.sh -O - | /bin/sh
 ##
 PLUGIN="filmxy"
-GIT_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/filmxy/filmxy"
+GIT_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/filmxy/filmxy"
 VERSION=""
 PLUGIN_PATH="/usr/lib/enigma2/python/Plugins/Extensions/$PLUGIN"
 PACKAGE="enigma2-plugin-extensions-$PLUGIN"

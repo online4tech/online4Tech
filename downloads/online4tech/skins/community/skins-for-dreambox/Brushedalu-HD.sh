@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-## command=curl -kL https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Brushedalu-HD.sh | bash
+## command=curl -kL https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Brushedalu-HD.sh | bash
 ######################
 
 TMPFILE="/tmp/Brushedalu-HD.tar.gz"
-URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Brushedalu-HD.tar.gz"
+URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Brushedalu-HD.tar.gz"
 
 cd /tmp || {
     echo "Failed to change directory to /tmp"

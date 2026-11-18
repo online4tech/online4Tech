@@ -1,5 +1,5 @@
 #!/bin/sh
-##command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/piconmaker/piconmaker.sh -O - | /bin/sh
+##command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/piconmaker/piconmaker.sh -O - | /bin/sh
 #########################################
 echo "remove old package ..."
 opkg remove enigma2-plugin-extensions-piconmaker
@@ -8,9 +8,9 @@ sleep 2
 echo "install plugin"
 cd /tmp
 if command -v wget >/dev/null 2>&1; then
-    wget -q --no-check-certificate -O piconmaker.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/piconmaker/piconmaker.tar.gz"
+    wget -q --no-check-certificate -O piconmaker.tar.gz "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/piconmaker/piconmaker.tar.gz"
 else
-    curl -k -L -o piconmaker.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/piconmaker/piconmaker.tar.gz"
+    curl -k -L -o piconmaker.tar.gz "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/piconmaker/piconmaker.tar.gz"
 fi
 sleep 1
 echo "install plugin...."

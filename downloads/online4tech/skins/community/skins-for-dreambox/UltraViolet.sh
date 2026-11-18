@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-## command=curl -kL https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/UltraViolet.sh | bash
+## command=curl -kL https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/UltraViolet.sh | bash
 ######################
 
 TMPFILE="/tmp/UltraViolet.tar.gz"
-URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/UltraViolet.tar.gz"
+URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/UltraViolet.tar.gz"
 
 # Check for curl or wget
 if ! command -v curl >/dev/null 2>&1 && ! command -v wget >/dev/null 2>&1; then

@@ -1,5 +1,5 @@
 #!/bin/sh
-##command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PluginBrowser-Grid/pluginbrowser-grid-v2.sh -O - | /bin/sh
+##command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/PluginBrowser-Grid/pluginbrowser-grid-v2.sh -O - | /bin/sh
 ######################
 cd /tmp || exit 1
 if [ -f "/usr/lib/enigma2/python/Screens/PluginBrowser.pyc" ]; then
@@ -8,7 +8,7 @@ if [ -f "/usr/lib/enigma2/python/Screens/PluginBrowser.pyc" ]; then
 else
     echo "Warning: Original file not found"
 fi
-wget -q --show-progress https://github.com/emilnabil/download-plugins/raw/refs/heads/main/PluginBrowser-Grid/PluginBrowser-Grid-v2.tar.gz
+wget -q --show-progress https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/PluginBrowser-Grid/PluginBrowser-Grid-v2.tar.gz
 if [ $? -ne 0 ] || [ ! -f "PluginBrowser-Grid-v2.tar.gz" ]; then
     echo "Error: Download failed"
     exit 1

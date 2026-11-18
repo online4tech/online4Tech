@@ -1,5 +1,5 @@
 {
-  "source": "https://github.com/emilnabil/download-plugins",
+  "source": "https://github.com/online4tech/online4Tech/tree/main/downloads/online4tech",
   "sourceCommit": "dd7ee9d54b193642b42f9aab66a650435b62f157",
   "generatedAt": "2026-11-18T09:40:28Z",
   "notes": [
@@ -20,7 +20,7 @@
         "downloads/online4tech/plugins/community/acherone/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/acherone/acherone.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -34,7 +34,7 @@
         "downloads/online4tech/plugins/community/AdenChManager/AdenChManager.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/AdenChManager/AdenChManager.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -48,9 +48,9 @@
         "downloads/online4tech/plugins/community/advancedscreenshot/advancedscreenshot.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/advancedscreenshot/enigma2-plugin-extensions-advancedscreenshot_all.ipk",
       "sourceInstallCommands": [
-        "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/advancedscreenshot/advancedscreenshot.sh -O - | /bin/sh",
+        "wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/advancedscreenshot/advancedscreenshot.sh -O - | /bin/sh",
         "opkg install /tmp/enigma2-plugin-extensions-advancedscreenshot_all.ipk"
       ]
     },
@@ -65,7 +65,7 @@
         "downloads/online4tech/plugins/community/AISubtitles/AISubtitles.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/AISubtitles/AISubtitles.tar.gz",
       "sourceInstallCommands": [
         "opkg install curl"
       ]
@@ -117,7 +117,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/ajpanel_all.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -147,7 +147,7 @@
         "downloads/online4tech/plugins/community/AlMuaddhin/almoaddhin.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/AlMuaddhin/AlMuaddhin.tar.gz",
       "sourceInstallCommands": [
         "opkg install curl"
       ]
@@ -163,7 +163,7 @@
         "downloads/online4tech/plugins/community/apod/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/apod/apod.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -179,7 +179,7 @@
         "downloads/online4tech/plugins/community/arabic-language_images/arabic-language_for-openatv-image.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/arabic-language_images/arabic-language_for-dream-images.tar.gz",
       "sourceInstallCommands": [
         "apt-get install curl -y >/dev/null 2>&1",
         "opkg install curl -y >/dev/null 2>&1"
@@ -198,7 +198,7 @@
         "downloads/online4tech/plugins/community/arabic-language_images/arabic-language_for-openatv-image.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/arabic-language_images/arabic-language_for-egami-image.tar.gz",
       "sourceInstallCommands": [
         "apt-get install curl -y >/dev/null 2>&1",
         "opkg install curl -y >/dev/null 2>&1"
@@ -217,7 +217,7 @@
         "downloads/online4tech/plugins/community/arabic-language_images/arabic-language_for-openatv-image.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/arabic-language_images/arabic-language_for-openatv-image.tar.gz",
       "sourceInstallCommands": [
         "apt-get install curl -y >/dev/null 2>&1",
         "opkg install curl -y >/dev/null 2>&1"
@@ -236,7 +236,7 @@
         "downloads/online4tech/plugins/community/astra-sm/update-abertis-astra.config.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/astra-sm-0.2.tar.gz",
       "sourceInstallCommands": [
         "opkg install \"$plugin\" >/dev/null 2>&1"
       ]
@@ -254,7 +254,7 @@
         "downloads/online4tech/plugins/community/astra-sm/update-abertis-astra.config.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astra-sm/astra-sm.ipk",
       "sourceInstallCommands": [
         "opkg install \"$plugin\" >/dev/null 2>&1"
       ]
@@ -270,7 +270,7 @@
         "downloads/online4tech/plugins/community/astronomy/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/astronomy/astronomy.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -284,7 +284,7 @@
         "downloads/online4tech/plugins/community/audiomerge/audiomerge.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/audiomerge/audiomerge.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -298,7 +298,7 @@
         "downloads/online4tech/plugins/community/audiomerge/dreamos/audiomerge.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/audiomerge/dreamos/audiomerge.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -312,7 +312,7 @@
         "downloads/online4tech/plugins/community/AutomaticVolumeAdjustment/AutomaticVolumeAdjustment.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/AutomaticVolumeAdjustment/AutomaticVolumeAdjustment-pli.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -326,7 +326,7 @@
         "downloads/online4tech/plugins/community/AutomaticVolumeAdjustment/AutomaticVolumeAdjustment.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/AutomaticVolumeAdjustment/AutomaticVolumeAdjustment.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -340,7 +340,7 @@
         "downloads/online4tech/plugins/community/AutoSub/AutoSub.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/AutoSub/AutoSub.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -354,7 +354,7 @@
         "downloads/online4tech/plugins/community/AutoZapRecovery/autozap-recovery.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/AutoZapRecovery/AutoZap_AhmadAlamri.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -368,7 +368,7 @@
         "downloads/online4tech/plugins/community/backupsuite/backupsuite.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/backupsuite/backupsuite.tar.gz",
       "sourceInstallCommands": [
         "opkg install \"$pkg\" >/dev/null 2>&1"
       ]
@@ -384,7 +384,7 @@
         "downloads/online4tech/plugins/community/barryallen/barryallen.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/barryallen/enigma2-plugin-extensions-barryallen_12.91-r2-MOD-RAED_all.deb",
       "sourceInstallCommands": [
         "apt-get install -y wget curl hlsdl \\",
         "dpkg -i --force-overwrite enigma2-plugin-extensions-barryallen.deb",
@@ -404,7 +404,7 @@
         "downloads/online4tech/plugins/community/bitrate/bitrate.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/bitrate/bitrate-mod-ariad.tar.gz",
       "sourceInstallCommands": [
         "opkg install \"$pkg\" >/dev/null 2>&1"
       ]
@@ -421,7 +421,7 @@
         "downloads/online4tech/plugins/community/bitrate/bitrate.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/bitrate/bitrate.tar.gz",
       "sourceInstallCommands": [
         "opkg install \"$pkg\" >/dev/null 2>&1"
       ]
@@ -437,7 +437,7 @@
         "downloads/online4tech/plugins/community/bundesliga-permanent-clock/bundesliga-permanent-clock.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/bundesliga-permanent-clock/bundesliga-permanent-clock.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -451,7 +451,7 @@
         "downloads/online4tech/plugins/community/cacheflush/cacheflush.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/cacheflush/cacheflush.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -465,7 +465,7 @@
         "downloads/online4tech/plugins/community/calculator-e2/calculator-e2.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/calculator-e2/calculator-e2.tar.gz",
       "sourceInstallCommands": [
         "opkg install curl"
       ]
@@ -517,7 +517,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/chocholousek-picons_all.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -547,7 +547,7 @@
         "downloads/online4tech/plugins/community/crondmanager/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/crondmanager/crondmanager-py2.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -561,7 +561,7 @@
         "downloads/online4tech/plugins/community/crondmanager/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/crondmanager/crondmanager-py3.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -575,7 +575,7 @@
         "downloads/online4tech/plugins/community/cutsclear/cutsclear.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/cutsclear/enigma2-plugin-extensions-cutsclear_all.deb",
       "sourceInstallCommands": [
         "dpkg -i --force-overwrite \"$MY_DEB\" >/dev/null 2>&1",
         "apt-get install -f -y >/dev/null 2>&1",
@@ -593,7 +593,7 @@
         "downloads/online4tech/plugins/community/cutsclear/cutsclear.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/cutsclear/enigma2-plugin-extensions-cutsclear_all.ipk",
       "sourceInstallCommands": [
         "dpkg -i --force-overwrite \"$MY_DEB\" >/dev/null 2>&1",
         "apt-get install -f -y >/dev/null 2>&1",
@@ -611,7 +611,7 @@
         "downloads/online4tech/plugins/community/cyrussettings/cyrussettings.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/cyrussettings/cyrussettings.tar.gz",
       "sourceInstallCommands": [
         "opkg install curl || { echo \"Failed to install curl. Exiting.\"; exit 1; }"
       ]
@@ -663,7 +663,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/devicemanager-arm.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -729,7 +729,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/devicemanager.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -795,7 +795,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/dreamexplorer_all.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -825,7 +825,7 @@
         "downloads/online4tech/plugins/community/dreamexplorer/dreamexplorer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/dreamexplorer/dreamexplorer.tar.gz",
       "sourceInstallCommands": [
         "opkg install curl"
       ]
@@ -877,7 +877,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/dreamsatpanel_all.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -907,7 +907,7 @@
         "downloads/online4tech/plugins/community/E2IplayerUpdater/E2IplayerUpdater.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/E2IplayerUpdater/E2IplayerUpdater.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -921,7 +921,7 @@
         "downloads/online4tech/plugins/community/emilbootlogos/emilbootlogos.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/emilbootlogos/EmilBootLogos.tar.gz",
       "sourceInstallCommands": [
         "opkg install ffmpeg",
         "apt-get install -y ffmpeg",
@@ -942,7 +942,7 @@
         "downloads/online4tech/plugins/community/EmilPanelPro/YoureWatching/YoureWatching.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/EmilPanelPro/YoureWatching/YoureWatching.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -956,7 +956,7 @@
         "downloads/online4tech/plugins/community/EmilRemovePackage/EmilRemovePackage.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/EmilRemovePackage/EmilRemovePackage.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1006,7 +1006,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/enigma2-plugin-extensions-chocholousek-picons_5.0.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -1072,7 +1072,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/enigma2-plugin-extensions-epgimport_1.0.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -1138,7 +1138,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/enigma2-plugin-extensions-epgtranslator_7.5.1.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -1204,7 +1204,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/enigma2-plugin-extensions-internet-speedtest_1.8_all.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -1234,7 +1234,7 @@
         "downloads/online4tech/plugins/community/epgtranslator/epgtranslator.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/epgtranslator/EPGTranslator.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1248,7 +1248,7 @@
         "downloads/online4tech/plugins/community/external_audio/external-audio.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/external_audio/adp_aarch64_py3.14.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1262,7 +1262,7 @@
         "downloads/online4tech/plugins/community/external_audio/external-audio.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/external_audio/adp_armv7ahf-neon_py3.14.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1276,7 +1276,7 @@
         "downloads/online4tech/plugins/community/external_audio/external-audio.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/external_audio/adp_cortexa15hf-neon-vfpv4_py3.14.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1290,7 +1290,7 @@
         "downloads/online4tech/plugins/community/filmxy/filmxy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/filmxy/filmxy.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1304,7 +1304,7 @@
         "downloads/online4tech/plugins/community/freearhey/freearhey.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/freearhey/freearhey.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1318,7 +1318,7 @@
         "downloads/online4tech/plugins/community/GeminiPatcher/geminipatcher.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/GeminiPatcher/GeminiPatcher.tar.gz",
       "sourceInstallCommands": [
         "opkg install --force-reinstall python3-compile",
         "opkg install --force-reinstall curl"
@@ -1335,7 +1335,7 @@
         "downloads/online4tech/plugins/community/gioppygio/gioppygio.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/gioppygio/gioppygio.tar.gz",
       "sourceInstallCommands": [
         "opkg install curl"
       ]
@@ -1387,7 +1387,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/hardwareinfo_5.2_all.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -1417,7 +1417,7 @@
         "downloads/online4tech/plugins/community/hisnmuslim/hisnmuslim.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/hisnmuslim/hisnmuslim.tar.gz",
       "sourceInstallCommands": [
         "apt-get install \"$pkg\" -y >/dev/null 2>&1",
         "opkg install \"$pkg\" >/dev/null 2>&1"
@@ -1434,7 +1434,7 @@
         "downloads/online4tech/plugins/community/HolidayCountdown/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/HolidayCountdown/HolidayCountdown.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1448,7 +1448,7 @@
         "downloads/online4tech/plugins/community/ImagesDownloader/ImagesDownloader.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/ImagesDownloader/ImagesDownloader.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1462,7 +1462,7 @@
         "downloads/online4tech/plugins/community/InfoBarWeather/InfobarWeather.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/InfoBarWeather/InfobarWeather.tar.gz",
       "sourceInstallCommands": [
         "opkg install curl"
       ]
@@ -1478,7 +1478,7 @@
         "downloads/online4tech/plugins/community/ip2sat/dreamos/ip2sat.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/ip2sat/dreamos/ip2sat.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1492,7 +1492,7 @@
         "downloads/online4tech/plugins/community/ip2sat/ip2sat.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/ip2sat/ip2sat.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1542,7 +1542,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/ipaudio.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -1608,7 +1608,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/jediepg_all.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -1674,7 +1674,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/jedimaker_all.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -1704,7 +1704,7 @@
         "downloads/online4tech/plugins/community/livematch/livematch.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/livematch/livematch.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1718,7 +1718,7 @@
         "downloads/online4tech/plugins/community/m3uconverter/m3uconverter.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/m3uconverter/m3uconverter.tar.gz",
       "sourceInstallCommands": [
         "opkg install python python-core python-json python-netclient python-codecs python-xml python-shell python-subprocess python-multiprocessing > /dev/null 2>&1",
         "opkg install wget curl busybox tar gzip > /dev/null 2>&1",
@@ -1737,7 +1737,7 @@
         "downloads/online4tech/plugins/community/Mawaqit/mawaqit.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/Mawaqit/mawaqit.tar.gz",
       "sourceInstallCommands": [
         "opkg install curl"
       ]
@@ -1753,7 +1753,7 @@
         "downloads/online4tech/plugins/community/MetrixPoster-By_MNASR/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/MetrixPoster-By_MNASR/MetrixPoster-By_MNASR.tar.gz",
       "sourceInstallCommands": [
         "opkg install \"$pkg\""
       ]
@@ -1769,7 +1769,7 @@
         "downloads/online4tech/plugins/community/netusagepro/dreamos/netusagepro.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/netusagepro/dreamos/netusagepro.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1783,7 +1783,7 @@
         "downloads/online4tech/plugins/community/netusagepro/netusagepro.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/netusagepro/netusagepro.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1833,7 +1833,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/nitroadvanced.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -1863,7 +1863,7 @@
         "downloads/online4tech/plugins/community/NumberZapExt/NumberZapExt.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/NumberZapExt/NumberZapExt.tar.gz",
       "sourceInstallCommands": [
         "opkg install curl"
       ]
@@ -1879,7 +1879,7 @@
         "downloads/online4tech/plugins/community/piconmaker/piconmaker.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/piconmaker/piconmaker.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1893,7 +1893,7 @@
         "downloads/online4tech/plugins/community/PiconsRename/PiconsRename.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/PiconsRename/PiconsRename.tar.gz",
       "sourceInstallCommands": [
         "opkg install python python-core python-json python-netclient python-codecs python-xml python-shell python-subprocess python-multiprocessing > /dev/null 2>&1",
         "opkg install enigma2-plugin-systemplugins-skinselector enigma2-plugin-extensions-openwebif opkg > /dev/null 2>&1"
@@ -1912,7 +1912,7 @@
         "downloads/online4tech/plugins/community/PluginBrowser-Grid/pluginbrowser-grid.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/PluginBrowser-Grid/PluginBrowser-Grid-Pli_8.3.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1928,7 +1928,7 @@
         "downloads/online4tech/plugins/community/PluginBrowser-Grid/pluginbrowser-grid.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/PluginBrowser-Grid/PluginBrowser-Grid-v2.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1944,7 +1944,7 @@
         "downloads/online4tech/plugins/community/PluginBrowser-Grid/pluginbrowser-grid.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/PluginBrowser-Grid/PluginBrowser-Grid.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1958,7 +1958,7 @@
         "downloads/online4tech/plugins/community/plutotv/plutotv.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/plutotv/plutotv.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1972,7 +1972,7 @@
         "downloads/online4tech/plugins/community/QuadPip/QuadPip.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/QuadPip/QuadPip.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -1986,7 +1986,7 @@
         "downloads/online4tech/plugins/community/radiom/radiom.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/radiom/radiom.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2000,7 +2000,7 @@
         "downloads/online4tech/plugins/community/rakutentv/rakutentv.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/rakutentv/rakutentv.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2014,7 +2014,7 @@
         "downloads/online4tech/plugins/community/s4aupdater/s4aupdater.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/s4aupdater/s4aupdater.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2029,7 +2029,7 @@
         "downloads/online4tech/plugins/community/satelliweblivefeeds/satelliweblivefeeds-py3.13.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/satelliweblivefeeds/satelliweblivefeeds-py3.12.tar.gz",
       "sourceInstallCommands": [
         "opkg install curl"
       ]
@@ -2046,7 +2046,7 @@
         "downloads/online4tech/plugins/community/satelliweblivefeeds/satelliweblivefeeds-py3.13.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/satelliweblivefeeds/satelliweblivefeeds-py3.13.tar.gz",
       "sourceInstallCommands": [
         "opkg install curl"
       ]
@@ -2062,7 +2062,7 @@
         "downloads/online4tech/plugins/community/schiffe/schiffe.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/schiffe/schiffe.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2076,7 +2076,7 @@
         "downloads/online4tech/plugins/community/screennames/screennames.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/screennames/screennames.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2090,7 +2090,7 @@
         "downloads/online4tech/plugins/community/screenrecorder/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/screenrecorder/enigma2-plugin-extensions-screenrecorder_1.0_all.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall python3 alsa-utils enigma2 ffmpeg mpg123"
       ]
@@ -2106,7 +2106,7 @@
         "downloads/online4tech/plugins/community/screenrecorder/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/screenrecorder/enigma2-plugin-extensions-screenrecorder_2.0_all.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall python3 alsa-utils enigma2 ffmpeg mpg123"
       ]
@@ -2122,7 +2122,7 @@
         "downloads/online4tech/plugins/community/screenrecorder/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/screenrecorder/enigma2-plugin-extensions-screenrecorder_3.0_all.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall python3 alsa-utils enigma2 ffmpeg mpg123"
       ]
@@ -2138,7 +2138,7 @@
         "downloads/online4tech/plugins/community/screenrecorder/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/screenrecorder/enigma2-plugin-extensions-screenrecorder_4.0.0_all.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall python3 alsa-utils enigma2 ffmpeg mpg123"
       ]
@@ -2154,7 +2154,7 @@
         "downloads/online4tech/plugins/community/screenrecorder/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/screenrecorder/enigma2-plugin-extensions-screenrecorder_4.1.0_all.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall python3 alsa-utils enigma2 ffmpeg mpg123"
       ]
@@ -2170,7 +2170,7 @@
         "downloads/online4tech/plugins/community/screenrecorder/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/screenrecorder/ScreenRecorder.tar.gz",
       "sourceInstallCommands": [
         "opkg install --force-reinstall python3 alsa-utils enigma2 ffmpeg mpg123"
       ]
@@ -2186,7 +2186,7 @@
         "downloads/online4tech/plugins/community/scriptexecuter/scriptexecuter.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/scriptexecuter/scriptexecuter.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2236,7 +2236,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/setpicon_all.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -2266,7 +2266,7 @@
         "downloads/online4tech/plugins/community/setpicon/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/setpicon/enigma2-plugin-extensions-setpicon_v2.0_all.ipk",
       "sourceInstallCommands": [
         "opkg install \"/tmp/$PLUGIN_IPK\""
       ]
@@ -2282,7 +2282,7 @@
         "downloads/online4tech/plugins/community/setpicon/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/setpicon/enigma2-plugin-extensions-setpicon_v3.0_all.ipk",
       "sourceInstallCommands": [
         "opkg install \"/tmp/$PLUGIN_IPK\""
       ]
@@ -2298,7 +2298,7 @@
         "downloads/online4tech/plugins/community/shiavoice/shiavoice.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/shiavoice/shiavoice.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2312,7 +2312,7 @@
         "downloads/online4tech/plugins/community/showclock/showclock.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/showclock/showclock.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2362,7 +2362,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/signalfinder.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -2392,7 +2392,7 @@
         "downloads/online4tech/plugins/community/signalfinder/signalfinder.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/signalfinder/Signalfinder.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2406,7 +2406,7 @@
         "downloads/online4tech/plugins/community/SimplySports/SimplySports.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/SimplySports/SimplySports.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2456,7 +2456,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/softwaremanager.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -2486,7 +2486,7 @@
         "downloads/online4tech/plugins/community/softwaremanager/softwaremanager.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/softwaremanager/softwaremanager.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2536,7 +2536,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-3D.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2586,7 +2586,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-aglare.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2636,7 +2636,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-barcelona.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2686,7 +2686,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-bayern-munich.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2736,7 +2736,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-chelsea.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2786,7 +2786,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-circle-brown.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2836,7 +2836,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-circle.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2886,7 +2886,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-collar.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2936,7 +2936,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-colored-Rings.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -2986,7 +2986,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-dance.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3036,7 +3036,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-dart.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3086,7 +3086,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-Echse.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3136,7 +3136,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-fan.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3186,7 +3186,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-girls-dance.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3236,7 +3236,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-girls.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3286,7 +3286,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-Jack-Sparrow.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3336,7 +3336,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-kare-dugmeler.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3386,7 +3386,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-Kum-saati-kare.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3436,7 +3436,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-Kupler.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3486,7 +3486,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-liverpool.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3536,7 +3536,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-MadMax.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3586,7 +3586,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-nasht.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3636,7 +3636,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-Number-Counter.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3686,7 +3686,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-PapaSchlumpf.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3736,7 +3736,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-pigeon.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3786,7 +3786,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-Pingu.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3836,7 +3836,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-presupaci-hodiny.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3886,7 +3886,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-Renkli-donen-cemberler.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3936,7 +3936,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-Revolution.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -3986,7 +3986,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-Simba.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4036,7 +4036,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-SylvesterTweety.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4086,7 +4086,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-ts.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4136,7 +4136,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-vu+.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4186,7 +4186,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-wheel.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4236,7 +4236,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-window.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4286,7 +4286,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4336,7 +4336,7 @@
         "downloads/online4tech/plugins/community/spinners/spinner-Xdreamy.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/spinners/SpinnerSelector_py2_fixed_dreamos_v2.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4351,7 +4351,7 @@
         "downloads/online4tech/plugins/community/SpinnerSelector/spinner-selector.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/SpinnerSelector/SpinnerSelector_py2_fixed_dreamos_v2.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4366,7 +4366,7 @@
         "downloads/online4tech/plugins/community/SpinnerSelector/spinner-selector.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/SpinnerSelector/SpinnerSelector_py2.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4381,7 +4381,7 @@
         "downloads/online4tech/plugins/community/SpinnerSelector/spinner-selector.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/SpinnerSelector/SpinnerSelector_py3.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4395,7 +4395,7 @@
         "downloads/online4tech/plugins/community/SuperBackupImages/SuperBackupImages.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/SuperBackupImages/SuperBackupImages.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4445,7 +4445,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/tmdb.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -4475,7 +4475,7 @@
         "downloads/online4tech/plugins/community/vavoo/vavoo.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/vavoo/vavoo.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4489,7 +4489,7 @@
         "downloads/online4tech/plugins/community/vhannibal-settings/vhannibal-settings.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/vhannibal-settings/vhannibal-settings-motor.tar.gz",
       "sourceInstallCommands": [
         "opkg install curl || { echo \"Failed to install curl. Exiting.\"; exit 1; }"
       ]
@@ -4505,7 +4505,7 @@
         "downloads/online4tech/plugins/community/wifimanager/wifimanager.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/wifimanager/WiFiManager.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4555,7 +4555,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/xcplugin_all.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -4621,7 +4621,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/xstreamity_all.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -4687,7 +4687,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/xtraEvent_4.5.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -4753,7 +4753,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/xtraevent_6.890.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -4819,7 +4819,7 @@
         "downloads/online4tech/plugins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/xtraevent_all.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -4849,7 +4849,7 @@
         "downloads/online4tech/plugins/community/xtraevent/xtraevent-6.840.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/xtraevent/xtraevent_6.840.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4863,7 +4863,7 @@
         "downloads/online4tech/plugins/community/YoureWatching/YoureWatching.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/YoureWatching/YoureWatching.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -4877,7 +4877,7 @@
         "downloads/online4tech/plugins/community/Zip2IPK/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/Zip2IPK/Zip2IPK.tar.gz",
       "sourceInstallCommands": [
         "opkg install --force-reinstall python3-core python3-requests binutils busybox unzip tar gzip python3-pip python3-setuptools python3-dev ca-certificates kernel-module-uinput"
       ]
@@ -4893,7 +4893,7 @@
         "downloads/online4tech/plugins/community/Zip2IPK/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/Zip2IPK/Zip2Pkg.tar.gz",
       "sourceInstallCommands": [
         "opkg install --force-reinstall python3-core python3-requests binutils busybox unzip tar gzip python3-pip python3-setuptools python3-dev ca-certificates kernel-module-uinput"
       ]
@@ -4909,7 +4909,7 @@
         "downloads/online4tech/plugins/community/Zip2Pkg/installer.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/Zip2Pkg/Zip2Pkg.tar.gz",
       "sourceInstallCommands": [
         "opkg install --force-reinstall python3-core python3-requests binutils busybox unzip tar gzip python3-pip python3-setuptools python3-dev ca-certificates kernel-module-uinput"
       ]
@@ -4938,7 +4938,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-display-skins.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -4968,7 +4968,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-plugin-display-oe-a-lcdskin-1.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -4998,7 +4998,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-plugin-display-oe-a-lcdskin-10.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -5028,7 +5028,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-plugin-display-oe-a-lcdskin-11.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -5058,7 +5058,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-plugin-display-oe-a-lcdskin-12.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -5088,7 +5088,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-plugin-display-oe-a-lcdskin-13.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -5118,7 +5118,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-plugin-display-oe-a-lcdskin-2.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -5148,7 +5148,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-plugin-display-oe-a-lcdskin-3.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -5178,7 +5178,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-plugin-display-oe-a-lcdskin-4.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -5208,7 +5208,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-plugin-display-oe-a-lcdskin-5.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -5238,7 +5238,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-plugin-display-oe-a-lcdskin-6.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -5268,7 +5268,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-plugin-display-oe-a-lcdskin-7.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -5298,7 +5298,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-plugin-display-oe-a-lcdskin-8.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -5328,7 +5328,7 @@
         "downloads/online4tech/skins/community/Display-Skin/display-skins.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/enigma2-plugin-display-oe-a-lcdskin-9.ipk",
       "sourceInstallCommands": [
         "opkg install --force-reinstall --force-depends \"$PLUGIN_FILE\"",
         "opkg install --force-reinstall \"$PLUGIN_FILE\""
@@ -5381,7 +5381,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-display-skins.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -5447,7 +5447,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-plugin-display-oe-a-lcdskin-1.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -5513,7 +5513,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-plugin-display-oe-a-lcdskin-10.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -5579,7 +5579,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-plugin-display-oe-a-lcdskin-11.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -5645,7 +5645,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-plugin-display-oe-a-lcdskin-12.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -5711,7 +5711,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-plugin-display-oe-a-lcdskin-13.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -5777,7 +5777,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-plugin-display-oe-a-lcdskin-2.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -5843,7 +5843,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-plugin-display-oe-a-lcdskin-3.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -5909,7 +5909,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-plugin-display-oe-a-lcdskin-4.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -5975,7 +5975,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-plugin-display-oe-a-lcdskin-5.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -6041,7 +6041,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-plugin-display-oe-a-lcdskin-6.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -6107,7 +6107,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-plugin-display-oe-a-lcdskin-7.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -6173,7 +6173,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-plugin-display-oe-a-lcdskin-8.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -6239,7 +6239,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/enigma2-plugin-display-oe-a-lcdskin-9.ipk",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",
@@ -6269,7 +6269,7 @@
         "downloads/online4tech/skins/community/skin-cineview/CineView.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skin-cineview/enigma2-plugin-skins-cineview-fhd-mla_1.1.3+openatv_all.ipk",
       "sourceInstallCommands": []
     },
     {
@@ -6283,7 +6283,7 @@
         "downloads/online4tech/skins/community/skin-cineview/CineView.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skin-cineview/enigma2-plugin-skins-cineview-fhd-mla_1.1.3+openbhvix_all.ipk",
       "sourceInstallCommands": []
     },
     {
@@ -6297,7 +6297,7 @@
         "downloads/online4tech/skins/community/skin-cineview/CineView.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skin-cineview/enigma2-plugin-skins-cineview-fhd-mla_1.1.3+openpli_all.ipk",
       "sourceInstallCommands": []
     },
     {
@@ -6311,7 +6311,7 @@
         "downloads/online4tech/skins/community/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black_weather.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black_weather_py3.14.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -6325,7 +6325,7 @@
         "downloads/online4tech/skins/community/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black_weather.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.12.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -6339,7 +6339,7 @@
         "downloads/online4tech/skins/community/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black_weather.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.13.tar.gz",
       "sourceInstallCommands": []
     },
     {
@@ -6374,7 +6374,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Brushedalu-HD.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -6422,7 +6422,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/cino-dreamosat-gri-fhd-mod-drsat.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -6470,7 +6470,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/enigma2-skin-metrix.hd.oe2.2_v3.2_all.deb",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -6518,7 +6518,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/gp4-skin-meridian-fhd.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -6566,7 +6566,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/hdsuisse.one4all.fhd.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -6614,7 +6614,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/HoloFHD-Black.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -6662,7 +6662,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/My-Flow.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -6710,7 +6710,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/skin_merlin-NitroFHD.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -6758,7 +6758,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/skin-fullhdglass17_9.50_all.deb",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -6806,7 +6806,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Skin-HDLine-Super.deb",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -6854,7 +6854,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/skin-metrixstylehd_13.1-r2_all.deb",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -6902,7 +6902,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/skin-ModestFHD.deb",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -6950,7 +6950,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/skin-nitrofhd.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -6998,7 +6998,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/SKIN-PAL-5-HD.deb",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -7046,7 +7046,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Skin-Sky-FHD.deb",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -7094,7 +7094,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Skin-Turbo.deb",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -7142,7 +7142,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/UltraViolet.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -7190,7 +7190,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Vali-HD-atlantis.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -7238,7 +7238,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Vali-HD-Nano.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -7286,7 +7286,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Vali-HD-Warp.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -7334,7 +7334,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/YADS-HD.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -7382,7 +7382,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Zombi-Shadow-FHD.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -7430,7 +7430,7 @@
         "downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/ZSkin-FHD.tar.gz",
       "sourceInstallCommands": [
         "apt-get install -y \"$pkg\" || echo \"[WARN] Could not install $pkg\"",
         "dpkg -i /tmp/skin-metrixstylehd_13.1-r2_all.deb",
@@ -7493,7 +7493,7 @@
         "downloads/online4tech/skins/community/xtraevent-6.890.sh"
       ],
       "installCommand": "Review the included installer script before running it on the receiver.",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "sourceUrl": "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-gradient-fhd.tar.gz",
       "sourceInstallCommands": [
         "opkg install enigma2-oe-alliance-plugins kernel-module-bsd-comp kernel-module-cdc-acm kernel-module-option kernel-module-ppp-async kernel-module-ppp-deflate kernel-module-ppp-generic kernel-module-ppp-mppe kernel-module-ppp-synctty kernel-module-pppoe kernel-module-pppox kernel-module-slhc kernel-module-usbserial libuniconf4.6 libwvstreams-extras libwvutils4.6 usb-modeswitch usb-modeswitch-data usbutils wvdial wvstreams enigma2-plugin-systemplugins-3gmodemmanager",
         "opkg install \"$PLUGIN_FILE\"",

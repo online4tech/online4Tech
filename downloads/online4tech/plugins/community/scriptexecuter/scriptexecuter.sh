@@ -1,5 +1,5 @@
 #!/bin/sh
-## Command: wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/scriptexecuter/scriptexecuter.sh -O - | /bin/sh
+## Command: wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/scriptexecuter/scriptexecuter.sh -O - | /bin/sh
 
 PLUGIN_PATH="/usr/lib/enigma2/python/Plugins/Extensions/ScriptExecuter"
 PACKAGE_NAME="enigma2-plugin-extensions-scriptexecuter"
@@ -20,7 +20,7 @@ fi
 
 PLUGIN="scriptexecuter"
 VERSION="1.0"
-DOWNLOAD_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/scriptexecuter/scriptexecuter.tar.gz"
+DOWNLOAD_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/scriptexecuter/scriptexecuter.tar.gz"
 TAR_GZ_FILE="/var/volatile/tmp/${PLUGIN}.tar.gz"
 
 echo "> Downloading $PLUGIN package, please wait..."

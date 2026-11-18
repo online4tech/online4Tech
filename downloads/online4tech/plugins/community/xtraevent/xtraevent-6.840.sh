@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-###command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/xtraevent/xtraevent-6.840.sh -O - | /bin/sh
+###command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/xtraevent/xtraevent-6.840.sh -O - | /bin/sh
 ##########
 
 echo ""
@@ -10,7 +10,7 @@ sleep 2
 
 PLUGIN_PATH="/usr/lib/enigma2/python/Plugins/Extensions/xtraEvent"
 PLUGIN_ARCHIVE="/tmp/xtraevent_6.840.tar.gz"
-PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/xtraevent/xtraevent_6.840.tar.gz"
+PLUGIN_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/xtraevent/xtraevent_6.840.tar.gz"
 
 if [ -d "$PLUGIN_PATH" ]; then
     echo "> Removing existing plugin, please wait..."

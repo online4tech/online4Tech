@@ -1,13 +1,13 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv/rakutentv.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/rakutentv/rakutentv.sh -O - | /bin/sh
 ##
 ###########################################
 
 # Plugin Configuration
 PLUGIN_NAME="rakutentv"
 PLUGIN_TAR="$PLUGIN_NAME.tar.gz"
-MY_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/main/rakutentv"
+MY_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/rakutentv"
 
 SEPARATOR='============================================================================================================'
 

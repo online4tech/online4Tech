@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# wget -qO - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/MetrixPoster-By_MNASR/installer.sh | /bin/sh
+# wget -qO - https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/MetrixPoster-By_MNASR/installer.sh | /bin/sh
 
 PLUGIN_NAME="MetrixPoster"
 USERNAME="emilnabil"

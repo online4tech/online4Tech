@@ -1,6 +1,6 @@
 #!/bin/sh
 
-##setup command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/emilbootlogos/emilbootlogos.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/emilbootlogos/emilbootlogos.sh -O - | /bin/sh
 
 echo "=============================================================="
 echo "     EmilBootLogos Installer - Python 2/3 Compatible"
@@ -102,7 +102,7 @@ echo ""
 echo "Downloading EmilBootLogos plugin..."
 cd /tmp || exit
 
-curl -k -Lbk -m 55532 -m 555104 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/emilbootlogos/EmilBootLogos.tar.gz" -o /tmp/EmilBootLogos.tar.gz
+curl -k -Lbk -m 55532 -m 555104 "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/emilbootlogos/EmilBootLogos.tar.gz" -o /tmp/EmilBootLogos.tar.gz
 
 if [ ! -f /tmp/EmilBootLogos.tar.gz ]; then
     echo "❌ Download failed! Please check your internet connection."

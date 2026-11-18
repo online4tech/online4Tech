@@ -1,5 +1,5 @@
 #!/bin/bash
-##Command=wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satelliweblivefeeds/satelliweblivefeeds-py3.12.sh -O - | /bin/sh
+##Command=wget --no-check-certificate -O - https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/satelliweblivefeeds/satelliweblivefeeds-py3.12.sh -O - | /bin/sh
 ############################
 echo "Removing previous version ..."
 sleep 2
@@ -16,7 +16,7 @@ opkg install curl
 sleep 2
 
 cd /tmp || exit
-curl -k -L "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/satelliweblivefeeds/satelliweblivefeeds-py3.12.tar.gz" -o /tmp/satelliweblivefeeds-py3.12.tar.gz
+curl -k -L "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/satelliweblivefeeds/satelliweblivefeeds-py3.12.tar.gz" -o /tmp/satelliweblivefeeds-py3.12.tar.gz
 sleep 2
 
 echo "Installing ...."

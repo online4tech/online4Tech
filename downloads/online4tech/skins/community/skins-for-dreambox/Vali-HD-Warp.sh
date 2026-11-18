@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-## command=curl -kL https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Vali-HD-Warp.sh | bash
+## command=curl -kL https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Vali-HD-Warp.sh | bash
 ######################
 
 TMPFILE="/tmp/Vali-HD-Warp.tar.gz"
-URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Vali-HD-Warp.tar.gz"
+URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Vali-HD-Warp.tar.gz"
 
 # Check for curl or wget
 if ! command -v curl >/dev/null 2>&1 && ! command -v wget >/dev/null 2>&1; then

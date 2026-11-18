@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-##setup command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/skins-gradient-fhd.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/skins-gradient-fhd.sh -O - | /bin/sh
 
-PLUGIN_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main"
+PLUGIN_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community"
 
 if [ -d /usr/lib64 ]; then
     PLUGINPATH="/usr/lib64/enigma2/python/Plugins/Extensions/GradientFHD"

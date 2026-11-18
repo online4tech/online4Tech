@@ -1,5 +1,5 @@
 #!/bin/sh
-###wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/s4aupdater/s4aupdater.sh | /bin/sh
+###wget --no-check-certificate -O - https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/s4aupdater/s4aupdater.sh | /bin/sh
 ###################
 
 echo "install s4aupdater"
@@ -7,7 +7,7 @@ sleep 2
 
 cd /tmp
 
-curl -k -L -o /tmp/s4aupdater.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/s4aupdater/s4aupdater.tar.gz"
+curl -k -L -o /tmp/s4aupdater.tar.gz "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/s4aupdater/s4aupdater.tar.gz"
 
 sleep 1
 echo "installing ...."

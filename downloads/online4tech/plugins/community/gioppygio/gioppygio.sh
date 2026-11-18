@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-##command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/gioppygio/gioppygio.sh -O - | /bin/sh ####
+##command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/gioppygio/gioppygio.sh -O - | /bin/sh ####
 echo "Removing previous version of gioppygio..."
 sleep 2
 
@@ -18,7 +18,7 @@ sleep 2
 
 # Download and extract the package
 cd /tmp || exit
-curl -k -Lbk -m 55532 -m 555104 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/gioppygio/gioppygio.tar.gz" -o /tmp/gioppygio.tar.gz
+curl -k -Lbk -m 55532 -m 555104 "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/gioppygio/gioppygio.tar.gz" -o /tmp/gioppygio.tar.gz
 sleep 1
 echo "Installing ...."
 tar -xzf /tmp/gioppygio.tar.gz -C /

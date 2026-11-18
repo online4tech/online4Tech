@@ -1,5 +1,5 @@
 #!/bin/bash
-##setup command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/tmdb.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/tmdb.sh -O - | /bin/sh
 ################################################
 echo "Removing previous version of tmdb ..."
 sleep 2
@@ -19,7 +19,7 @@ sleep 2
 
 # Download and extract the package
 cd /tmp || exit
-curl -k -Lbk -m 55532 -m 555104 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/tmdb.tar.gz" -o /tmp/tmdb.tar.gz
+curl -k -Lbk -m 55532 -m 555104 "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/tmdb.tar.gz" -o /tmp/tmdb.tar.gz
 sleep 1
 echo "Installing ...."
 tar -xzf /tmp/tmdb.tar.gz -C /

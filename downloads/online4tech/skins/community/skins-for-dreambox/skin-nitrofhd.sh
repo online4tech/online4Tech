@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-## command=curl -kL https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/skin-nitrofhd.sh | bash
+## command=curl -kL https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/skin-nitrofhd.sh | bash
 ######################
 
 apt-get install -y \
@@ -17,7 +17,7 @@ apt-get install -y \
     enigma2-plugin-skincomponents-volumetext
 
 TMPFILE="/tmp/skin-nitrofhd.tar.gz"
-URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/skin-nitrofhd.tar.gz"
+URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/skin-nitrofhd.tar.gz"
 
 cd /tmp || {
     echo "Failed to change directory to /tmp"

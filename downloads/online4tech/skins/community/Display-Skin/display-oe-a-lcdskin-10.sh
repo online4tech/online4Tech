@@ -2,7 +2,7 @@
 set -e
 
 PLUGIN_NAME="enigma2-plugin-display-oe-a-lcdskin-10"
-PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/Display-Skin/${PLUGIN_NAME}.ipk"
+PLUGIN_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/Display-Skin/${PLUGIN_NAME}.ipk"
 PLUGIN_FILE="/tmp/${PLUGIN_NAME}.ipk"
 
 echo "Downloading new version of $PLUGIN_NAME..."

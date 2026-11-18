@@ -1,11 +1,11 @@
 #!/bin/sh
-## Command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/ip2sat/dreamos/ip2sat.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/ip2sat/dreamos/ip2sat.sh -O - | /bin/sh
 ##
 
 set -e  
 
 plugin="IP2SAT"
-git_url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/ip2sat/dreamos"
+git_url="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/ip2sat/dreamos"
 plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/IP2SAT"
 package="enigma2-plugin-extensions-ip2sat"
 targz_file="ip2sat.tar.gz"

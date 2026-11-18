@@ -1,5 +1,5 @@
 #!/bin/sh
-#command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/barryallen/barryallen.sh -O - | /bin/sh
+#command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/barryallen/barryallen.sh -O - | /bin/sh
 ##############
 echo ""
 echo "Uploaded by Emil Nabil"
@@ -22,7 +22,7 @@ apt-get install -y wget curl hlsdl \
 cd /tmp
 echo ""
 echo "Downloading BarryAllen MOD by RAED ..."
-curl -kL "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/barryallen/enigma2-plugin-extensions-barryallen_12.91-r2-MOD-RAED_all.deb" -o enigma2-plugin-extensions-barryallen.deb
+curl -kL "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/barryallen/enigma2-plugin-extensions-barryallen_12.91-r2-MOD-RAED_all.deb" -o enigma2-plugin-extensions-barryallen.deb
 
 echo ""
 echo "Installing BarryAllen MOD ..."

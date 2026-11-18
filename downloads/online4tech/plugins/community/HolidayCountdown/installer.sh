@@ -1,13 +1,13 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/HolidayCountdown/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/HolidayCountdown/installer.sh -O - | /bin/sh
 ##
 ###########################################
 ###########################################
 
 # My config script #
 PLUGIN_TAR="HolidayCountdown.tar.gz"
-MY_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/HolidayCountdown"
+MY_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/HolidayCountdown"
 
 ######################################################################################
 MY_EM='============================================================================================================'

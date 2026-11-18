@@ -1,6 +1,6 @@
 #!/bin/bash
 
-##setup command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AISubtitles/AISubtitles.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/AISubtitles/AISubtitles.sh -O - | /bin/sh
 ######################################
 echo "Removing previous version ..."
 sleep 2
@@ -17,7 +17,7 @@ opkg install curl
 sleep 2
 
 cd /tmp || exit
-curl -k -Lbk -m 55532 -m 555104 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AISubtitles/AISubtitles.tar.gz" -o /tmp/AISubtitles.tar.gz
+curl -k -Lbk -m 55532 -m 555104 "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/AISubtitles/AISubtitles.tar.gz" -o /tmp/AISubtitles.tar.gz
 sleep 1
 echo "Installing ...."
 tar -xzf /tmp/AISubtitles.tar.gz -C /

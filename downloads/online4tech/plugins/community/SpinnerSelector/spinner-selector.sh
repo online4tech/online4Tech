@@ -1,11 +1,11 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector/spinner-selector.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/SpinnerSelector/spinner-selector.sh -O - | /bin/sh
 ######################################################################################
 
 MY_TAR_PY2="SpinnerSelector_py2.tar.gz"
 MY_TAR_PY3="SpinnerSelector_py3.tar.gz"
-MY_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/SpinnerSelector"
+MY_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/SpinnerSelector"
 PLUGIN_PATH="/usr/lib/enigma2/python/Plugins/Extensions/SpinnerSelector"
 MY_EM='============================================================================================================'
 

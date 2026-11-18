@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Command:
-# curl -kLs https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-dream-images.sh | sh
+# curl -kLs https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/arabic-language_images/arabic-language_for-dream-images.sh | sh
 
 echo ""
 
@@ -15,7 +15,7 @@ sleep 2
 
 cd /tmp || exit 1
 echo "Downloading package..."
-curl -kL "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/arabic-language_images/arabic-language_for-dream-images.tar.gz" -o arabic-language_for-dream-images.tar.gz
+curl -kL "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/arabic-language_images/arabic-language_for-dream-images.tar.gz" -o arabic-language_for-dream-images.tar.gz
 
 if [ ! -f arabic-language_for-dream-images.tar.gz ]; then
     echo "Download failed. Please check the link."

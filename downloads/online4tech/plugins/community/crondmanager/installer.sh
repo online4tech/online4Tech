@@ -1,6 +1,6 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/crondmanager/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/crondmanager/installer.sh -O - | /bin/sh
 ##
 ###########################################
 ###########################################
@@ -8,7 +8,7 @@
 # My config script #
 MY_TAR_PY2="crondmanager-py2.tar.gz"
 MY_TAR_PY3="crondmanager-py3.tar.gz"
-MY_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/crondmanager"
+MY_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/crondmanager"
 PYTHON_VERSION=$(python -c 'import sys; print(sys.version_info[0])')
 
 ######################################################################################

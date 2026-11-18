@@ -1,9 +1,9 @@
 #!/bin/sh
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/freearhey/freearhey.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/freearhey/freearhey.sh -O - | /bin/sh
 
 PLUGIN_PATH="/usr/lib/enigma2/python/Plugins/Extensions/freearhey"
 TMP_FILE="/tmp/freearhey.tar.gz"
-PLUGIN_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/freearhey/freearhey.tar.gz"
+PLUGIN_URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/freearhey/freearhey.tar.gz"
 
 if [ -d "$PLUGIN_PATH" ]; then
     echo "> Removing old version, please wait..."

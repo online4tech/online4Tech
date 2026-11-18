@@ -1,5 +1,5 @@
 #!/bin/bash
-##wget --no-check-certificate -O - https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/InfoBarWeather/InfobarWeather.sh | /bin/sh
+##wget --no-check-certificate -O - https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/InfoBarWeather/InfobarWeather.sh | /bin/sh
 ##################################
 echo "Removing previous version of InfoBarWeather..."
 sleep 2
@@ -17,7 +17,7 @@ sleep 2
 
 cd /tmp || exit
 
-curl -k -L --retry 3 --connect-timeout 55 --max-time 555 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/InfoBarWeather/InfobarWeather.tar.gz" -o /tmp/InfobarWeather.tar.gz
+curl -k -L --retry 3 --connect-timeout 55 --max-time 555 "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/InfoBarWeather/InfobarWeather.tar.gz" -o /tmp/InfobarWeather.tar.gz
 
 if [ ! -s /tmp/InfobarWeather.tar.gz ]; then
     echo "Error: Download failed or file is empty!"

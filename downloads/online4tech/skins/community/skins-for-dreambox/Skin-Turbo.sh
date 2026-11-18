@@ -1,8 +1,8 @@
 #!/bin/bash
-# command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Skin-Turbo.sh -O - | /bin/sh
+# command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Skin-Turbo.sh -O - | /bin/sh
 
 apt update
-wget -O /tmp/Skin-Turbo.deb https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/Skin-Turbo.deb
+wget -O /tmp/Skin-Turbo.deb https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/Skin-Turbo.deb
 dpkg -i /tmp/Skin-Turbo.deb
 apt install -f -y
 sleep 2

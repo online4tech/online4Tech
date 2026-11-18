@@ -1,6 +1,6 @@
 #!/bin/bash
 
-##setup command=wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AutoZapRecovery/autozap-recovery.sh | /bin/sh
+##setup command=wget --no-check-certificate -O - https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/AutoZapRecovery/autozap-recovery.sh | /bin/sh
 
 TMPPATH="/tmp/AutoZap_AhmadAlamri"
 PLUGIN_ARCHIVE="AutoZap_AhmadAlamri.tar.gz"
@@ -61,9 +61,9 @@ mkdir -p "$TMPPATH"
 cd "$TMPPATH" || exit 1
 
 if [ "$SYSTEM" = "DreamOS" ]; then
-    URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AutoZapRecovery/dreambox/AutoZap_AhmadAlamri.tar.gz"
+    URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/AutoZapRecovery/dreambox/AutoZap_AhmadAlamri.tar.gz"
 else
-    URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AutoZapRecovery/AutoZap_AhmadAlamri.tar.gz"
+    URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/AutoZapRecovery/AutoZap_AhmadAlamri.tar.gz"
 fi
 
 wget "$URL" -O "$PLUGIN_ARCHIVE"

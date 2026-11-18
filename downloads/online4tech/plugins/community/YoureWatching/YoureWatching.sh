@@ -1,6 +1,6 @@
 #!/bin/sh
 # =====================
-# Command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/YoureWatching/YoureWatching.sh -O - | /bin/sh
+# Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/YoureWatching/YoureWatching.sh -O - | /bin/sh
 # =====================
 # 🎬 You're Watching Plugin - Auto Installer
 # By Ahmed Ibrahim (@asdrere123-alt)
@@ -8,7 +8,7 @@
 # =============================================
 
 PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/YoureWatching"
-GITHUB_RAW="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/YoureWatching"
+GITHUB_RAW="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/YoureWatching"
 
 echo ""
 echo "======================================"
@@ -23,7 +23,7 @@ mkdir -p "$PLUGIN_DIR"
 
 cd /tmp
 echo "📥 Downloading plugin..."
-wget -q "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/YoureWatching/YoureWatching.tar.gz" -O /tmp/YoureWatching.tar.gz
+wget -q "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/YoureWatching/YoureWatching.tar.gz" -O /tmp/YoureWatching.tar.gz
 
 if [ $? -ne 0 ]; then
     echo "❌ Download failed! Please check your internet connection."

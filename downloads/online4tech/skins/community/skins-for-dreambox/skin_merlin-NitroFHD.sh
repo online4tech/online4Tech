@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-##comand=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/skin_merlin-NitroFHD.sh -O - | /bin/sh
+##comand=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/skin_merlin-NitroFHD.sh -O - | /bin/sh
 #####################
 
 echo "Installing required packages (optional)..."
@@ -18,7 +18,7 @@ apt-get install -y --force-yes wget curl tar enigma2 \
 cd /tmp || exit 1
 
 echo "Downloading plugin package..."
-curl -kL --progress-bar "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/skin_merlin-NitroFHD.tar.gz" -o /tmp/skin_merlin-NitroFHD.tar.gz
+curl -kL --progress-bar "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/skin_merlin-NitroFHD.tar.gz" -o /tmp/skin_merlin-NitroFHD.tar.gz
 
 if [ ! -f /tmp/skin_merlin-NitroFHD.tar.gz ] || [ $? -ne 0 ]; then
     echo "✖ Download failed!"

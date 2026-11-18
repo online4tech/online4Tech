@@ -1,12 +1,12 @@
 #!/bin/sh
 # Usage (telnet/ssh on the receiver):
-###wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skin-cineview/CineView.sh | /bin/sh
+###wget --no-check-certificate -O - https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skin-cineview/CineView.sh | /bin/sh
 ###################
 
 INSTALLER_VERSION="2.1-simple"
 PKG="enigma2-plugin-skins-cineview-fhd-mla"
 
-BASE="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skin-cineview"
+BASE="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skin-cineview"
 
 F_openatv_FILE="enigma2-plugin-skins-cineview-fhd-mla_1.1.3+openatv_all.ipk"
 F_openatv_SHA="3ee218d5603e49542be1eaddc9dede24a9bef06f8672fd81412838d11a1293f8"

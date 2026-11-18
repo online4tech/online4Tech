@@ -1,5 +1,5 @@
 #!/bin/sh
-## command=wget -q "--no-check-certificate" https://github.com/emilnabil/download-plugins/raw/refs/heads/main/netusagepro/dreamos/netusagepro.sh -O - | /bin/sh
+## command=wget -q "--no-check-certificate" https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/netusagepro/dreamos/netusagepro.sh -O - | /bin/sh
 #########################################
 
 plugin_name="NetUsagePro"
@@ -7,7 +7,7 @@ plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/NetUsagePro"
 package_name="enigma2-plugin-extensions-netusagepro"
 temp_dir="/tmp"
 tarball="netusagepro.tar.gz"
-download_url="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/netusagepro/dreamos/netusagepro.tar.gz"
+download_url="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/netusagepro/dreamos/netusagepro.tar.gz"
 
 print_message() {
     echo "> $1"

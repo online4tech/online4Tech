@@ -1,8 +1,8 @@
 #!/bin/bash
-# command=wget https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/skin-ModestFHD.sh -O - | /bin/sh
+# command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/skin-ModestFHD.sh -O - | /bin/sh
 
 apt update
-wget -O /tmp/skin-ModestFHD.deb https://github.com/emilnabil/download-plugins/raw/refs/heads/main/skins-for-dreambox/skin-ModestFHD.deb
+wget -O /tmp/skin-ModestFHD.deb https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/skins/community/skins-for-dreambox/skin-ModestFHD.deb
 dpkg -i /tmp/skin-ModestFHD.deb
 apt install -f -y
 sleep 2

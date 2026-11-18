@@ -1,12 +1,12 @@
 #!/bin/sh
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/bitrate/bitrate.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/bitrate/bitrate.sh -O - | /bin/sh
 ##
 PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/Bitrate"
 STATUS_FILE="/var/lib/opkg/status"
 TMP_DIR="/var/volatile/tmp"
 PLUGIN="bitrate"
 VERSION="2.0"
-URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/bitrate/bitrate.tar.gz"
+URL="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/bitrate/bitrate.tar.gz"
 PACKAGE="$TMP_DIR/$PLUGIN.tar.gz"
 PACKAGE_NAME="enigma2-plugin-extensions-bitrate"
 

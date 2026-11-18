@@ -1,5 +1,5 @@
 #!/bin/sh
-### Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/installer.sh -O - | /bin/sh
+### Command=wget https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/screenrecorder/installer.sh -O - | /bin/sh
 ##
 ########################
 
@@ -7,7 +7,7 @@ plugin="ScreenRecorder"
 plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/$plugin"
 package="enigma2-plugin-extensions-screenrecorder"
 targz_file="$plugin.tar.gz"
-url="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/screenrecorder/$targz_file"
+url="https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/screenrecorder/$targz_file"
 temp_dir="/tmp"
 
 if command -v python3 >/dev/null 2>&1; then

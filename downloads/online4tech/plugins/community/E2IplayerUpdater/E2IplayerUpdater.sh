@@ -1,5 +1,5 @@
 #!/bin/sh
-###wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2IplayerUpdater/E2IplayerUpdater.sh | /bin/sh
+###wget --no-check-certificate -O - https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/E2IplayerUpdater/E2IplayerUpdater.sh | /bin/sh
 ###################
 
 echo "install E2IplayerUpdater"
@@ -9,7 +9,7 @@ cd /tmp || exit 1
 
 rm -f /tmp/E2IplayerUpdater.tar.gz
 
-curl -k -L --fail -o /tmp/E2IplayerUpdater.tar.gz "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2IplayerUpdater/E2IplayerUpdater.tar.gz"
+curl -k -L --fail -o /tmp/E2IplayerUpdater.tar.gz "https://raw.githubusercontent.com/online4tech/online4Tech/main/downloads/online4tech/plugins/community/E2IplayerUpdater/E2IplayerUpdater.tar.gz"
 
 if [ $? -ne 0 ] || [ ! -s /tmp/E2IplayerUpdater.tar.gz ]; then
     echo "ERROR: Download failed!"
