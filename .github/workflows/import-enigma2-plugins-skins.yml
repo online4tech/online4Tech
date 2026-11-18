@@ -21,7 +21,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p /tmp/e2src
-          git clone --depth 1 https://github.com/emilnabil/download-plugins.git /tmp/e2src/download-plugins
+          git clone --depth 1 https://github.com/emilnabil/download-plugins.git /tmp/e2src/plugin-source
           git clone --depth 1 https://github.com/emilnabil/skins-openatv.git /tmp/e2src/skins-openatv
           git clone --depth 1 https://github.com/emilnabil/skins-obh.git /tmp/e2src/skins-obh
           git clone --depth 1 https://github.com/emilnabil/skins-spa.git /tmp/e2src/skins-spa
@@ -31,7 +31,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          src=/tmp/e2src/download-plugins
+          src=/tmp/e2src/plugin-source
           while IFS= read -r -d '' pkg; do
             rel="${pkg#"$src"/}"
             if [[ "$rel" =~ (softcam|cccam|oscam|cam|emulator|biss|iptv|xtream|stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]]; then
@@ -45,9 +45,9 @@ jobs:
               continue
             fi
             if [[ "$rel" =~ (skin|display-skin) ]]; then
-              dest="downloads/online4tech/skins/download-plugins/$(dirname "$rel")"
+              dest="downloads/online4tech/skins/community/$(dirname "$rel")"
             else
-              dest="downloads/online4tech/plugins/download-plugins/$(dirname "$rel")"
+              dest="downloads/online4tech/plugins/community/$(dirname "$rel")"
             fi
             mkdir -p "$dest"
             cp -n "$pkg" "$dest/"
