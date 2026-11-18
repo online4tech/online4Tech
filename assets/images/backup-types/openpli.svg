@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="OpenPLi">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffb567"/><stop offset="1" stop-color="#e96845"/></linearGradient></defs>
+  <rect width="128" height="128" rx="28" fill="#30221f"/><circle cx="64" cy="58" r="39" fill="url(#g)"/><circle cx="64" cy="58" r="27" fill="#30221f"/><path d="M53 75V41h15c11 0 17 5 17 15S79 71 68 71h-6v4zm9-12h6c5 0 8-2 8-7s-3-7-8-7h-6z" fill="#fff0e4"/><text x="64" y="111" text-anchor="middle" fill="#ffd6bd" font-family="Arial,sans-serif" font-size="12" font-weight="700">OpenPLi</text></svg>
