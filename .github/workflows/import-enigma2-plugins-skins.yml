@@ -27,7 +27,7 @@ jobs:
           git clone --depth 1 https://github.com/emilnabil/skins-spa.git /tmp/e2src/skins-spa
           git clone --depth 1 https://github.com/emilnabil/aglare.git /tmp/e2src/aglare
 
-      - name: Import plugin IPKs with matching Telnet installers
+      - name: Import plugin and skin packages with matching installers
         shell: bash
         run: |
           set -euo pipefail
@@ -41,7 +41,9 @@ jobs:
             shopt -s nullglob
             installers=("$dir"/*.sh)
             shopt -u nullglob
-            (("${#installers[@]}" > 0)) || continue
+            if [[ ! "$rel" =~ (skin|display-skin) ]] && (("${#installers[@]}" == 0)); then
+              continue
+            fi
             if [[ "$rel" =~ (skin|display-skin) ]]; then
               dest="downloads/online4tech/skins/download-plugins/$(dirname "$rel")"
             else
@@ -54,7 +56,7 @@ jobs:
               [[ "$name" =~ (softcam|cccam|oscam|cam|emulator|biss|iptv|xtream|stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]] && continue
               cp -n "$installer" "$dest/" || true
             done
-          done < <(find "$src" -type f -iname '*.ipk' -print0)
+          done < <(find "$src" -type f \( -iname '*.ipk' -o -iname '*.deb' -o -iname '*.tar.gz' \) -print0)
 
       - name: Import skin packages and installers
         shell: bash

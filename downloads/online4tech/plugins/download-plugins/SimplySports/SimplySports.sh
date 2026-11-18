@@ -1,0 +1,1 @@
+cd /usr/lib/enigma2/python/Plugins/Extensions && rm -rf SimplySports && wget --no-check-certificate https://github.com/Ahmed-Mohammed-Abbas/SimplySports/archive/refs/heads/main.zip -O SimplySports.zip && unzip SimplySports.zip && mv SimplySports-main SimplySports && rm SimplySports.zip && killall -9 enigma2

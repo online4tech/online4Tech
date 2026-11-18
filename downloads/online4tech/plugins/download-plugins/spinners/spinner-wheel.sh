@@ -1,0 +1,37 @@
+#!/bin/bash
+#
+### Command=curl -kLs https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-wheel.sh | sh
+#####################
+
+echo "Removing previous spinners ..."
+sleep 2
+
+rm -rf /usr/share/enigma2/spinner/* >/dev/null 2>&1
+rm -rf /usr/share/enigma2/skin_default/spinner/* >/dev/null 2>&1
+echo "Spinner removed."
+sleep 1
+
+cd /tmp || { echo "❌ Failed to access /tmp"; exit 1; }
+
+echo "Downloading spinner..."
+curl -k -L -m 60 "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/spinners/spinner-wheel.tar.gz" -o spinner-wheel.tar.gz
+
+if [ -s spinner-wheel.tar.gz ]; then
+    echo "Installing spinner..."
+    tar -xzf spinner-wheel.tar.gz -C / || { echo "❌ Extraction failed!"; exit 1; }
+    sleep 1
+    if [ -d /usr/share/enigma2/spinner ]; then
+        cp -p /usr/share/enigma2/spinner/* /usr/share/enigma2/skin_default/spinner/ >/dev/null 2>&1
+    fi
+    rm -f spinner-wheel.tar.gz
+    echo "✅ Installation complete."
+else
+    echo "❌ Download failed!"
+    exit 1
+fi
+
+sleep 2
+echo "✅ Done."
+exit 0
+
+
