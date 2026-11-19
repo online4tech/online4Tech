@@ -2690,6 +2690,14 @@
     "type": "Page"
   },
   {
+    "title": "العودة إلى خدمات Online4Tech",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/services.html",
+    "category": "خدمات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "بيع وشراء واستبدال الأجهزة",
     "description": "خدمات Online4Tech لأجهزة الاستقبال: اشتراكات الشيرنج وIPTV والصوتيات والترجمة والبرمجة وبيع وشراء واستبدال الأجهزة.",
     "url": "https://online4tech.github.io/online4Tech/services.html",
@@ -3394,6 +3402,14 @@
     "type": "Tutorial"
   },
   {
+    "title": "3 خطوات وخلصت",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "AIO Panel",
     "description": "تحميل وتثبيت AIO Panel لأجهزة Enigma2.",
     "url": "https://online4tech.github.io/online4Tech/downloads/plugin/aio-panel/index.html",
@@ -4090,6 +4106,22 @@
     "type": "Page"
   },
   {
+    "title": "آيفون",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html#devices",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أفلام ومسلسلات ورياضة وأطفال",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html#content",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "أقسام Installer",
     "description": "ثبت جميع إضافات Enigma2 من خلال Online4Tech Installer بأمر واحد فقط.",
     "url": "https://online4tech.github.io/online4Tech/downloads/installer-center/index.html",
@@ -4106,9 +4138,25 @@
     "type": "Page"
   },
   {
+    "title": "أندرويد",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html#devices",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "أهلاً بيك في لوحة المحتوى",
     "description": "لوحة إدارة المحتوى | Online4Tech — محتوى تقني من Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/content-control/index.html#dashboardView",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "أهم الأسئلة",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -4482,6 +4530,14 @@
     "type": "Page"
   },
   {
+    "title": "اختار الباقة",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "اختار الجهاز اللي يناسبك",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/",
@@ -4506,11 +4562,75 @@
     "type": "Page"
   },
   {
+    "title": "ادفع بإنستاباي",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html#pay",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "ادفع وابعت الإيصال",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "استلم التفعيل",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "اشتراك سنوي",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html#plans",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "اشتراكات Ninja IPTV | Online4Tech",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "اعمل نسخة احتياطية",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html",
     "category": "معلومات",
     "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "الباقة الأساسية",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html#plans",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "الباقة الكاملة",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html#plans",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "الباقة المميزة",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html#plans",
+    "category": "معلومات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
@@ -5042,6 +5162,14 @@
     "type": "Page"
   },
   {
+    "title": "باقات عالمية مترجمة",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html#content",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "باك اب ( نسخه الاحتياطية )",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/#devices",
@@ -5053,6 +5181,22 @@
     "title": "بتدور على جهاز استقبال؟",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "برامج مخصصة لكل جهاز",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "برنامج مخصص لجهازك",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html#devices",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -5098,6 +5242,14 @@
     "type": "Page"
   },
   {
+    "title": "تفعيل سريع",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "تم التثبيت بنجاح!",
     "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
     "url": "https://online4tech.github.io/online4Tech/AllBlugin.html",
@@ -5122,6 +5274,22 @@
     "type": "Page"
   },
   {
+    "title": "جاهز تبدأ؟",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "جهاز الاستقبال",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html#devices",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "جهّز الأمر",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html",
@@ -5135,6 +5303,14 @@
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html",
     "category": "معلومات",
     "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "خارج مصر",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html#plans",
+    "category": "معلومات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
@@ -5154,6 +5330,14 @@
     "type": "Page"
   },
   {
+    "title": "دعم فني طول السنة",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "سياسة الخصوصية",
     "description": "سياسة الخصوصية لموقع Online4Tech.",
     "url": "https://online4tech.github.io/online4Tech/privacy.html",
@@ -5170,9 +5354,25 @@
     "type": "Page"
   },
   {
+    "title": "شاشة التلفزيون",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html#devices",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
     "title": "شروحات وإرشادات",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/#services",
+    "category": "معلومات",
+    "brand": "Online4Tech",
+    "type": "Page"
+  },
+  {
+    "title": "شوف الباقات",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html",
     "category": "معلومات",
     "brand": "Online4Tech",
     "type": "Page"
@@ -5503,6 +5703,14 @@
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#local-bridge",
     "category": "معلومات",
     "brand": "Enigma2",
+    "type": "Page"
+  },
+  {
+    "title": "▶️اشتراكات IPTVتفاصيل باقات Ninja IPTV السنوية، والأجهزة المدعومة، وطرق التواصل والدفع.عرض باقات Ninja IPTV والتفاصيل",
+    "description": "خدمات Online4Tech لأجهزة الاستقبال: اشتراكات الشيرنج وIPTV والصوتيات والترجمة والبرمجة وبيع وشراء واستبدال الأجهزة.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html",
+    "category": "معلومات",
+    "brand": "Online4Tech",
     "type": "Page"
   },
   {
@@ -5984,6 +6192,14 @@
     "category": "ملفات",
     "brand": "Online4Tech",
     "type": "Backups"
+  },
+  {
+    "title": "تفرج على أحسن قنواتك من غير تقطيع",
+    "description": "تفاصيل باقات Ninja IPTV السنوية وطرق التواصل والدفع عبر Online4Tech.",
+    "url": "https://online4tech.github.io/online4Tech/ninja-iptv.html",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Channels"
   },
   {
     "title": "خليك دايمًا أونلاين… التقنية أسهل",
