@@ -15,8 +15,15 @@ spec=importlib.util.spec_from_file_location('o4t_ipk_module','.github/scripts/mi
 ipkmod=importlib.util.module_from_spec(spec); spec.loader.exec_module(ipkmod)
 
 def gh_api(endpoint):
-    q=subprocess.run(['gh','api',endpoint],capture_output=True,text=True,check=True)
-    return json.loads(q.stdout)
+    last=''
+    for attempt in range(8):
+        q=subprocess.run(['gh','api',endpoint],capture_output=True,text=True)
+        if q.returncode==0: return json.loads(q.stdout)
+        last=(q.stderr or q.stdout or '').strip(); low=last.lower()
+        if 'rate limit' in low or 'secondary rate limit' in low or 'http 403' in low:
+            wait=min(60*(attempt+1),300); print(f'GitHub API rate limit; retry {attempt+1}/8 after {wait}s'); time.sleep(wait); continue
+        raise RuntimeError(last or f'GitHub API request failed: {endpoint}')
+    raise RuntimeError('GitHub API rate limit persisted: '+last[:400])
 
 def fetch_raw(path,dest,expected):
     url=f'https://raw.githubusercontent.com/{SOURCE}/{BRANCH}/'+quote(path,safe='/')
@@ -34,8 +41,26 @@ def fetch_raw(path,dest,expected):
     return total
 
 def ensure_release():
-    q=subprocess.run(['gh','release','view',TAG,'--repo',REPO],capture_output=True,text=True)
-    if q.returncode: subprocess.run(['gh','release','create',TAG,'--repo',REPO,'--title','Online4Tech Picons OPKG Feed','--notes','Mirror of OE-Alliance picons feed. Upstream attribution is retained in package metadata.','--latest=false'],check=True)
+    last=''
+    for attempt in range(8):
+        q=subprocess.run(['gh','release','view',TAG,'--repo',REPO],capture_output=True,text=True)
+        if q.returncode==0: return
+        last=(q.stderr or q.stdout or '').strip(); low=last.lower()
+        if 'rate limit' in low or 'secondary rate limit' in low or 'http 403' in low:
+            wait=min(60*(attempt+1),300); print(f'GitHub release lookup rate limited; retry {attempt+1}/8 after {wait}s'); time.sleep(wait); continue
+        if 'not found' not in low and 'http 404' not in low and 'release not found' not in low:
+            raise RuntimeError(last or 'Unable to inspect Picons release')
+        break
+    else: raise RuntimeError('GitHub release lookup rate limit persisted: '+last[:400])
+    for attempt in range(6):
+        q=subprocess.run(['gh','release','create',TAG,'--repo',REPO,'--title','Online4Tech Picons OPKG Feed','--notes','Mirror of OE-Alliance picons feed. Upstream attribution is retained in package metadata.','--latest=false'],capture_output=True,text=True)
+        if q.returncode==0: return
+        last=(q.stderr or q.stdout or '').strip(); low=last.lower()
+        if 'already exists' in low or 'already_exists' in low: return
+        if 'rate limit' in low or 'secondary rate limit' in low or 'http 403' in low:
+            wait=min(60*(attempt+1),300); print(f'GitHub release creation rate limited; retry {attempt+1}/6 after {wait}s'); time.sleep(wait); continue
+        raise RuntimeError(last or 'Unable to create Picons release')
+    raise RuntimeError('GitHub release creation rate limit persisted: '+last[:400])
 
 def upload(path,name,digest,size,assets):
     found=next((x for x in assets if x.get('name')==name),None)
