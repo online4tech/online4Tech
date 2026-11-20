@@ -133,7 +133,7 @@ def build_installer(rows):
 'if [ "$ACTUAL" != "$SHA" ]; then echo "فشل التحقق من SHA256"; rm -f "$TMP"; exit 1; fi',
 'opkg install "$TMP"',
 'rm -f "$TMP"',
-'echo "تم تنفيذ أمر التثبيت. راجع نتيجة opkg أعلاه."'
+'printf "\n========================================\n        Online4Tech\n     خليك دايمًا أونلاين\n========================================\nThis package is provided by Online4Tech\nWebsite: https://online4tech.github.io/online4Tech/\nBY ahmad Rome7\n01006699169\n========================================\n"'
 ]
     return '\n'.join(lines)+'\n'
 
