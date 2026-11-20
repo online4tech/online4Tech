@@ -263,23 +263,7 @@ footer{
   .contact-box{padding:20px 14px}
 }
 </style>
-<style id="backup-manager-styles">
-.backup-manager{margin:18px 0 28px;padding:clamp(16px,3vw,26px);border:1px solid #29435f;border-radius:20px;background:linear-gradient(155deg,#11243a,#0b1727);box-shadow:0 14px 35px #0003}
-.backup-manager .section-head{margin-bottom:12px}.backup-manager h2{margin:0}.backup-manager h3{margin:0}
-.manager-note{margin:12px 0 18px}
-.manager-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.manager-form label{display:flex;flex-direction:column;gap:5px;color:#d9e8f8;font-size:.88rem;font-weight:bold;min-width:0}
-.manager-form input,.manager-form select,.manager-form textarea{width:100%;min-width:0;padding:11px 12px;border:1px solid #355574;border-radius:10px;background:#071421;color:#f4f8ff;font:inherit}
-.manager-form textarea{resize:vertical}.manager-form .wide{grid-column:1/-1}
-.manager-actions{display:flex;gap:9px;flex-wrap:wrap}.manager-actions .btn{border:0}
-.manager-list-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:22px 0 10px}
-.manager-list{display:grid;gap:9px}
-.manager-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px;border:1px solid #29435f;border-radius:12px;background:#0c1929;min-width:0}
-.manager-row-info{min-width:0}.manager-row-info b{display:block;overflow-wrap:anywhere}.manager-row-info small{display:block;color:#9fb2c9;overflow-wrap:anywhere}
-.manager-row-actions{display:flex;gap:7px;flex-shrink:0}.manager-row-actions button{border:1px solid #355574;border-radius:8px;padding:7px 10px;background:#18314b;color:#eaf5ff;font:inherit;cursor:pointer}
-.manager-row-actions .danger{border-color:#74434a;background:#3b2029}
-@media(max-width:620px){.manager-form{grid-template-columns:1fr}.manager-form .wide{grid-column:auto}.manager-row{align-items:flex-start;flex-direction:column}.manager-row-actions{width:100%}.manager-row-actions button{flex:1}}
-</style>
+
 <link rel="stylesheet" href="../assets/site-header.css?v=6">
 <style id="online4tech-dark-polish">
 :root{color-scheme:dark;--bg:#07111f;--panel:#0d1a2c;--panel2:#11233a;--text:#f4f8ff;--muted:#a8bad0;--line:#263d58;--accent:#67d2ff;--green:#8ce6c2}
@@ -368,24 +352,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
   </section>
 
 
-  <section id="backup-manager" class="backup-manager">
-    <div class="section-head"><div><h2>إدارة وإضافة نسخة باك أب</h2><p>اختار موديل موجود بالفعل، وأضف النسخة مرة واحدة لتظهر في مكتبة AllBlugin وصفحة الجهاز بعد نشر ملف البيانات.</p></div></div>
-    <div class="notice manager-note"><b>طريقة الحفظ:</b> الموقع مستضاف على GitHub Pages، لذلك لا يستطيع تعديل ملفاته مباشرة من المتصفح. الأداة تحفظ التعديلات مؤقتًا في هذا المتصفح وتجهّز ملف JSON محدّث لتنشره بدل ملف البيانات الحالي.</div>
-    <form id="backupForm" class="manager-form">
-      <input type="hidden" id="backupEditId">
-      <label>الشركة<select id="backupBrand" required><option value="">اختار الشركة</option></select></label>
-      <label>موديل الجهاز<select id="backupModel" required disabled><option value="">اختار الموديل</option></select></label>
-      <label>اسم النسخة / الصورة<input id="backupName" required maxlength="120" placeholder="مثال: Vu+ Duo 4K — OpenATV 7.5.1"></label>
-      <label>إصدار الصورة<input id="backupVersion" required maxlength="80" placeholder="OpenATV 7.5.1"></label>
-      <label>تاريخ النسخة<input id="backupDate" required maxlength="40" placeholder="31 أكتوبر 2026"></label>
-      <label class="wide">رابط التحميل<input id="backupUrl" type="url" required placeholder="https://..."></label>
-      <label class="wide">وصف مختصر<textarea id="backupDescription" rows="2" maxlength="350" placeholder="تفاصيل النسخة والتوافق..."></textarea></label>
-      <div class="manager-actions wide"><button class="btn" type="submit" id="backupSubmit">➕ إضافة النسخة</button><button class="btn alt" type="button" id="backupCancel" hidden>إلغاء التعديل</button><button class="btn alt" type="button" id="backupExport">⬇️ تصدير ملف البيانات المحدّث</button></div>
-    </form>
-    <div class="manager-list-head"><h3>النسخ المسجلة</h3><span id="backupManagerCount" class="small"></span></div>
-    <div id="backupManagerList" class="manager-list"><p class="small">جاري تحميل بيانات النسخ...</p></div>
-    <p id="backupManagerStatus" class="small" role="status" aria-live="polite"></p>
-  </section>
+
 
   <section>
     <div class="notice">
@@ -474,70 +441,7 @@ function handleDreamboxImageError(img){
 }
 </script>
 
-<script id="online4tech-backup-manager">
-(()=> {
- const DATA='../assets/allblugin/demo-data.json', STORAGE='online4tech-backup-manager-draft-v1';
- const $=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- let db=null, models=[];
- const status=(msg)=>$('backupManagerStatus').textContent=msg;
- const brandLabel=id=>id==='vuplus'?'Vu+':'Dreambox';
- function refreshModels(){
-   const brand=$('backupBrand').value,cat=db?.categories.find(c=>c.id==='backup'),group=cat?.subcategories.find(x=>x.id===brand);
-   models=group?.subcategories||[];
-   $('backupModel').innerHTML='<option value="">اختار الموديل</option>'+models.map(m=>'<option value="'+esc(m.id)+'">'+esc(m.label)+'</option>').join('');
-   $('backupModel').disabled=!models.length;
- }
- function recount(){
-   const cat=db.categories.find(c=>c.id==='backup');
-   const countNode=(node)=>{if(node.subcategories?.length){node.subcategories.forEach(countNode);node.count=node.subcategories.reduce((n,x)=>n+Number(x.count||0),0)}else node.count=db.items.filter(x=>x.category==='backup'&&x.subcategory===node.id).length};
-   cat.subcategories.forEach(countNode);cat.count=cat.subcategories.reduce((n,x)=>n+Number(x.count||0),0);
- }
- function list(){
-   const rows=db.items.filter(x=>x.category==='backup'&&['Dreambox','Vu+'].includes(x.group));
-   $('backupManagerCount').textContent=rows.length+' نسخة';
-   $('backupManagerList').innerHTML=rows.length?rows.map(x=>'<div class="manager-row"><div class="manager-row-info"><b>'+esc(x.name)+'</b><small>'+esc(x.group)+' · '+esc(x.subcategory)+' · '+esc(x.version||'')+' · '+esc(x.date||'')+'</small></div><div class="manager-row-actions"><button type="button" data-edit="'+x.id+'">تعديل</button><button type="button" class="danger" data-delete="'+x.id+'">حذف</button></div></div>').join(''):'<p class="small">لا توجد نسخ مسجلة.</p>';
- }
- function reset(){ $('backupForm').reset();$('backupEditId').value='';$('backupSubmit').textContent='➕ إضافة النسخة';$('backupCancel').hidden=true;refreshModels();}
- $('backupBrand').addEventListener('change',refreshModels);
- $('backupForm').addEventListener('submit',e=>{
-   e.preventDefault();
-   const model=$('backupModel').value,brand=$('backupBrand').value,url=$('backupUrl').value.trim();
-   if(!model||!brand){status('اختار الشركة والموديل أولًا.');return}
-   try{const u=new URL(url);if(!['http:','https:'].includes(u.protocol))throw 0}catch(_){status('رابط التحميل غير صالح.');return}
-   const target=models.find(x=>x.id===model),editId=$('backupEditId').value;
-   const id=editId?Number(editId):Math.max(0,...db.items.map(x=>Number(x.id)||0))+1;
-   if(!editId&&db.items.some(x=>Number(x.id)===id)){status('تعذر إنشاء رقم فريد للنسخة؛ أعد المحاولة.');return}
-   const version=$('backupVersion').value.trim(),name=$('backupName').value.trim();
-   const item={id,name,category:'backup',subcategory:model,group:brandLabel(brand),description:$('backupDescription').value.trim()||('نسخة باك أب '+version+' مخصصة لجهاز '+target.label+'.'),version,date:$('backupDate').value.trim(),keywords:[brandLabel(brand),target.label,version,'النسخ الاحتياطية'].join(' '),icon:'💾',downloadUrl:url,guideUrl:'https://online4tech.github.io/online4Tech/tutorials/backup-install.html',detailUrl:'#',compatibility:target.label+' فقط'};
-   if(editId){const at=db.items.findIndex(x=>Number(x.id)===Number(editId)&&x.category==='backup');if(at<0){status('لم يتم العثور على النسخة المطلوبة للتعديل.');return}db.items[at]=item}
-   else db.items.push(item);
-   recount();localStorage.setItem(STORAGE,JSON.stringify(db));list();reset();status('تم تحديث المسودة في هذا المتصفح. صدّر ملف JSON ثم استبدل ملف البيانات في المستودع لنشر التغيير للجميع.');
- });
- $('backupCancel').addEventListener('click',reset);
- $('backupManagerList').addEventListener('click',e=>{
-   const edit=e.target.closest('[data-edit]'),del=e.target.closest('[data-delete]');
-   if(edit){const x=db.items.find(x=>Number(x.id)===Number(edit.dataset.edit)&&x.category==='backup');if(!x)return;
-     const brand=x.group==='Vu+'?'vuplus':'dreambox';$('backupBrand').value=brand;refreshModels();$('backupModel').value=x.subcategory;
-     $('backupEditId').value=x.id;$('backupName').value=x.name;$('backupVersion').value=x.version||'';$('backupDate').value=x.date||'';$('backupUrl').value=x.downloadUrl||'';$('backupDescription').value=x.description||'';
-     $('backupSubmit').textContent='💾 حفظ التعديل';$('backupCancel').hidden=false;status('وضع التعديل: '+x.name);
-   }
-   if(del){const id=Number(del.dataset.delete),x=db.items.find(x=>Number(x.id)===id&&x.category==='backup');if(!x)return;
-     if(!confirm('تأكيد حذف النسخة: '+x.name+' ؟'))return;
-     db.items=db.items.filter(x=>!(Number(x.id)===id&&x.category==='backup'));recount();localStorage.setItem(STORAGE,JSON.stringify(db));list();status('تم حذف النسخة من المسودة المحلية. صدّر الملف لنشر الحذف.');}
- });
- $('backupExport').addEventListener('click',()=>{
-   if(!db)return;const blob=new Blob([JSON.stringify(db,null,2)],{type:'application/json;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');
-   a.href=url;a.download='demo-data.json';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);
-   status('تم تجهيز demo-data.json. ارفع الملف إلى assets/allblugin/demo-data.json في GitHub لنشر التغييرات.');
- });
- (async()=>{try{const response=await fetch(DATA,{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const original=await response.json();let draft=null;try{draft=JSON.parse(localStorage.getItem(STORAGE)||'null')}catch(_){}
-   db=draft&&Array.isArray(draft.items)&&Array.isArray(draft.categories)?draft:original;
-   const cat=db.categories.find(c=>c.id==='backup');if(!cat)throw Error('Backup category missing');
-   $('backupBrand').innerHTML='<option value="">اختار الشركة</option>'+cat.subcategories.filter(x=>['vuplus','dreambox'].includes(x.id)).map(x=>'<option value="'+esc(x.id)+'">'+esc(x.label)+'</option>').join('');
-   refreshModels();list();if(draft)status('تم استرجاع مسودة التعديلات المحفوظة على هذا المتصفح.');else status('جاهز لإدارة النسخ. التغييرات لا تُنشر على الموقع إلا بعد تصدير الملف ورفعه للمستودع.');
- }catch(err){status('تعذر تحميل بيانات النسخ: '+err.message);$('backupManagerList').innerHTML='<p class="small">راجع اتصال الإنترنت وملف البيانات.</p>'}})();
-})();
-</script>
+
 
 </body>
 </html>
