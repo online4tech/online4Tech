@@ -120,12 +120,12 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- monitoring; then
+          git add -f monitoring
+          if git diff --cached --quiet -- monitoring; then
             echo "No monitoring report changes."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add -f monitoring
             git commit -m "Update KhaledAli65 release monitoring report"
             git push
           fi
