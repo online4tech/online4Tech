@@ -181,8 +181,8 @@ def main():
     allrows={x['sourceUrl']:x for x in old.get('files',[]) if x.get('sourceUrl')}
     allrows.update({x['sourceUrl']:x for x in added})
     MANIFEST.write_text(json.dumps({'generatedAt':datetime.utcnow().isoformat(timespec='seconds')+'Z','files':list(allrows.values())},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    lines=['# تقرير توحيد روابط ملفات الكتالوج على Online4Tech','',f'- الروابط الجديدة المنقولة: {len(added)}',f'- الروابط التي تعذر نقلها: {len(rejected)}',f'- إجمالي الروابط المؤرشفة: {len(allrows)}','','> تم نقل الملفات المباشرة والتحقق من سلامة الأرشيفات وبيانات IPK عند توفرها. لا يتم تشغيل أي سكريبت تلقائيًا. الروابط الأصلية محفوظة في بيانات التوثيق.','','| الملف | رابط Online4Tech | التحقق |','|---|---|---|']
-    for x in added: lines.append(f"| {x['sourceAssetName']} | [فتح الملف]({x['downloadUrl']}) | {x['validation'].get('format','checked')} |")
+    lines=['# تقرير توحيد روابط ملفات الكتالوج على Online4Tech','',f'- الروابط الجديدة المنقولة في هذه الجولة: {len(added)}',f'- الروابط التي تعذر نقلها: {len(rejected)}',f'- إجمالي الروابط المؤرشفة: {len(allrows)}','','> تم نقل الملفات المباشرة والتحقق من سلامة الأرشيفات وبيانات IPK عند توفرها. لا يتم تشغيل أي سكريبت تلقائيًا. الروابط الأصلية محفوظة في بيانات التوثيق.','','| الملف | رابط Online4Tech | التحقق |','|---|---|---|']
+    for x in sorted(allrows.values(),key=lambda v:v.get('sourceAssetName','').lower()): lines.append(f"| {x['sourceAssetName']} | [فتح الملف]({x['downloadUrl']}) | {x.get('validation',{}).get('format','checked')} |")
     if rejected:
         lines+=['','## روابط لم يتم نقلها']
         for x in rejected: lines.append(f"- {x['sourceUrl']}: {x['reason']}")
