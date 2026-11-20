@@ -112,7 +112,7 @@ def main():
         if str(item.get('id')) not in ('4184','4194'): continue
         old=item.get('command','')
         item['originalCommand']=item.get('originalCommand') or old
-        item['command']=old.replace('oe-alliance-picon-feed.conf','online4tech-picons-feed.conf').replace('oe-alliance-picon-feed','online4tech-picons').replace(f'https://raw.githubusercontent.com/{SOURCE}/{BRANCH}',BASE)
+        item['command']=old.replace('oe-alliance-picon-feed.conf','online4tech-picons-feed.conf').replace('oe-alliance-picon-feed','online4tech-picons').replace('OE-Alliance Picons feed','Online4Tech Picons feed').replace('OE-Alliance Picons','Online4Tech Picons').replace(f'https://raw.githubusercontent.com/{SOURCE}/{BRANCH}',BASE)
         if item.get('installCommand'): item['installCommand']=item['installCommand'].replace('oe-alliance-picon-feed.conf','online4tech-picons-feed.conf').replace('oe-alliance-picon-feed','online4tech-picons').replace(f'https://raw.githubusercontent.com/{SOURCE}/{BRANCH}',BASE)
         item['originalSourceUrl']=item.get('originalSourceUrl') or item.get('sourceUrl') or f'https://github.com/{SOURCE}/tree/{BRANCH}'
         item['sourceUrl']=release_page; item['repoUrl']=release_page; item['detailUrl']=release_page
