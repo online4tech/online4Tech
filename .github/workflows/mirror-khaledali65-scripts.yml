@@ -1,0 +1,57 @@
+name: Mirror KhaledAli65 Telnet scripts for review
+
+on:
+  push:
+    paths:
+      - ".github/workflows/mirror-khaledali65-scripts.yml"
+      - ".github/scripts/mirror_khaledali65_scripts.py"
+  workflow_run:
+    workflows: ["Monitor KhaledAli65 Enigma2 releases"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: khaledali65-script-mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror-scripts:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout Online4Tech repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Mirror text scripts without execution
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/scripts/mirror_khaledali65_scripts.py
+      - name: Commit Online4Tech script links and manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -f assets/allblugin/demo-data.json monitoring/khaledali65-script-mirror-manifest.json monitoring/KHALEDALI65-SCRIPT-MIRROR.md
+          if git diff --cached --quiet; then
+            echo "No new script files to mirror."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Mirror Telnet scripts under Online4Tech links"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi
+      - name: Upload script mirror report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: online4tech-telnet-script-mirror-report
+          path: monitoring/KHALEDALI65-SCRIPT-MIRROR.md
+          if-no-files-found: ignore
+          retention-days: 30
