@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import hashlib, importlib.util, io, json, os, re, subprocess, tarfile, tempfile, time, urllib.request, zipfile
+from email.message import Message
 from datetime import datetime
 from pathlib import Path, PurePosixPath
-from urllib.parse import quote, unquote, urlparse
+from urllib.parse import parse_qs, quote, unquote, urlparse
 from html.parser import HTMLParser
 
 CATALOG=Path('assets/allblugin/demo-data.json')
@@ -10,9 +11,9 @@ MANIFEST=Path('monitoring/catalog-assets-mirror-manifest.json')
 REPORT=Path('monitoring/CATALOG-ASSETS-MIRROR.md')
 TAG='online4tech-catalog-assets'; REPO='online4tech/online4Tech'
 BASE=f'https://github.com/{REPO}/releases/download/{TAG}/'
-MAX=400*1024*1024
+MAX=1800*1024*1024
 EXTS=('.ipk','.sh','.tar.gz','.tar.xz','.tgz','.tar','.zip','.deb','.nfi','.img','.bin','.gz','.txt','.json','.py')
-HOSTS={'github.com','raw.githubusercontent.com','objects.githubusercontent.com','release-assets.githubusercontent.com','www.mediafire.com'}
+HOSTS={'github.com','raw.githubusercontent.com','objects.githubusercontent.com','release-assets.githubusercontent.com','www.mediafire.com','drive.google.com','drive.usercontent.google.com'}
 
 spec=importlib.util.spec_from_file_location('o4t_ipk_module','.github/scripts/mirror_khaledali65_ipks.py')
 ipkmod=importlib.util.module_from_spec(spec); spec.loader.exec_module(ipkmod)
@@ -24,10 +25,15 @@ class MediafireParser(HTMLParser):
         a=dict(attrs)
         if a.get('id')=='downloadButton' and a.get('href'): self.href=a['href']
 
-def allowed(host): return host in HOSTS or (host.endswith('.mediafire.com') and host.startswith('download'))
+def allowed(host): return host in HOSTS or (host.endswith('.mediafire.com') and host.startswith('download')) or host.endswith('.googleusercontent.com')
 
 def resolve(url):
-    if urlparse(url).hostname!='www.mediafire.com': return url
+    host=(urlparse(url).hostname or '').lower()
+    if host=='drive.google.com':
+        file_id=parse_qs(urlparse(url).query).get('id',[''])[0]
+        if not file_id: raise ValueError('رابط Google Drive لا يحتوي على file id')
+        return f'https://drive.usercontent.google.com/download?id={quote(file_id)}&export=download&confirm=t'
+    if host!='www.mediafire.com': return url
     req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 Online4TechMirror/1.0'})
     with urllib.request.urlopen(req,timeout=45) as r: html=r.read(5*1024*1024).decode('utf-8','replace')
     parser=MediafireParser(); parser.feed(html)
@@ -42,21 +48,24 @@ def download(url,path,expected):
     direct=resolve(url); host=urlparse(direct).hostname or ''
     if urlparse(direct).scheme!='https' or not allowed(host): raise ValueError('مضيف تنزيل غير مسموح: '+host)
     req=urllib.request.Request(direct,headers={'User-Agent':'Mozilla/5.0 Online4TechMirror/1.0'})
-    total=0
-    with urllib.request.urlopen(req,timeout=120) as r,path.open('wb') as out:
+    total=0; remote_name=None
+    with urllib.request.urlopen(req,timeout=180) as r,path.open('wb') as out:
         final_host=urlparse(r.geturl()).hostname or ''
         if not allowed(final_host): raise ValueError('تحويل إلى مضيف غير مسموح: '+final_host)
         ctype=(r.headers.get('Content-Type') or '').lower()
+        disposition=r.headers.get('Content-Disposition')
+        if disposition:
+            msg=Message(); msg['Content-Disposition']=disposition; remote_name=msg.get_filename()
         if 'text/html' in ctype: raise ValueError('المصدر أعاد صفحة HTML بدل الملف')
         while True:
             b=r.read(1024*1024)
             if not b: break
             total+=len(b)
-            if total>MAX: raise ValueError('حجم الملف أكبر من 400MB')
+            if total>MAX: raise ValueError('حجم الملف أكبر من 1.8GB')
             out.write(b)
     if expected and total!=expected: raise ValueError('الحجم لا يطابق الكتالوج')
     if total<128: raise ValueError('الملف أصغر من المتوقع')
-    return total
+    return total,remote_name
 
 def validate(path,name):
     low=name.lower()
@@ -119,6 +128,7 @@ def upload(path,name,digest,size,assets):
     return BASE+quote(asset),assets
 
 def file_name(url):
+    if (urlparse(url).hostname or '').lower()=='drive.google.com': return 'picons-download.bin'
     parts=[unquote(x) for x in urlparse(url).path.split('/') if x]
     name=parts[-1] if parts else 'asset.bin'
     if name.lower() in ('file','download') and len(parts)>1: name=parts[-2]
@@ -132,6 +142,8 @@ def collect_urls(catalog):
             if not isinstance(value,str): continue
             for url in re.findall(r'https?://[^\s\"\'|]+',value):
                 host=(urlparse(url).hostname or '').lower(); path=urlparse(url).path.lower()
+                if host=='drive.google.com' and parse_qs(urlparse(url).query).get('id'):
+                    out.add(url); continue
                 if host=='www.mediafire.com' or host in ('raw.githubusercontent.com','github.com'):
                     if host=='github.com' and not ('/raw/' in path or '/releases/download/' in path): continue
                     parts=[x for x in path.split('/') if x]
@@ -191,7 +203,7 @@ def main():
                 continue
             name=file_name(url); p=root/f'asset-{i}'
             try:
-                size=download(url,p,0); validation=validate(p,name); sha=hashlib.sha256(p.read_bytes()).hexdigest()
+                size,remote_name=download(url,p,0); name=remote_name or name; validation=validate(p,name); sha=hashlib.sha256(p.read_bytes()).hexdigest()
                 own,assets=upload(p,name,sha,size,assets)
                 row={'sourceUrl':url,'sourceAssetName':name,'size':size,'digest':'sha256:'+sha,'downloadUrl':own,'validation':validation,'mirroredAt':datetime.utcnow().isoformat(timespec='seconds')+'Z'}
                 mapping[url]=own; added.append(row)
