@@ -1,13 +1,175 @@
-# تقرير نقل حزم IPK إلى Online4Tech
+# تقرير حزم IPK المنشورة على Online4Tech
 
-- الحزم المنقولة: 0
-- الملفات المرفوضة: 2
+- إجمالي الحزم المنشورة: 166
+- روابط التحميل المستضافة على مستودعنا: 166
 
-> تم فحص بنية IPK وقراءة Package وVersion وArchitecture. هذا فحص بيانات وليس مراجعة أمنية للكود الداخلي؛ راجع التوافق قبل التثبيت.
+> تم التحقق من بنية ملفات IPK وقراءة Package وVersion وArchitecture. هذا فحص للبيانات والبنية وليس مراجعة أمنية للكود الداخلي. راجع توافق الحزمة مع صورة الرسيفر قبل التثبيت.
 
 | الحزمة | الإصدار | المعمارية | رابط Online4Tech |
 |---|---|---|---|
-
-## ملفات مرفوضة
-- KhaledAli65/Slot / e2m3u2bouquet.ipk: ليس IPK/ar
-- KhaledAli65/skins / malek.ipk: ليس IPK/ar
+| enigma2-plugin-extensions-ajpanel | v10.8.6 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/b07ec8816d43-ajpanel.ipk) |
+| enigma2-plugin-extensions-alkuds | r183 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/30524ec1cd9a-Alkuds_ipaudio.ipk) |
+| enigma2-plugin-extensions-ansite | 1.12.py3 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/13dce017e310-ansite.ipk) |
+| enigma2-plugin-extensions-auto-dcw-key-add | 1.0.9-git8-f5b5ae1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/24ba77183a6a-auto-dcw-key-add.ipk) |
+| enigma2-plugin-systemplugins-automaticvolumeadjustment | 5.4.1+gitr7737+5cf43630+5cf436378d-r8 | multiboxse | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/60fcf9b057b8-automaticvolumeadjustment.ipk) |
+| enigma2-plugin-extensions-enhancement | v1.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/9c6bb76e2b1d-autoresolution.ipk) |
+| enigma2-plugin-extensions-backupsuite | 3.0-r9 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/08af1c7389ea-backupsuite.ipk) |
+| enigma2-plugin-extensions-bouquetmakerxtream | 1.77.20260626 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/bc119c5fdbed-bouquetmakerxtream.ipk) |
+| enigma2-plugin-extensions-buttonpatcher | 1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/2a67519453dc-buttonpatcher.ipk) |
+| enigma2-plugin-extensions-clearmem | 1.10 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/38a4638e078d-clearmem.ipk) |
+| enigma2-plugin-extensions-dreamexplorer | 7.3+gitr7689+d4afaea-r8 | multiboxse | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/40438c042bd4-dreamexplorer.ipk) |
+| enigma2-plugin-extensions-e2duplicatechannelsmanager | 1.0.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/6bf5f21be6ec-e2duplicatechannelsmanager.ipk) |
+| enigma2-plugin-extensions-acherone | 1.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/cd60eb617e17-e2panel.ipk) |
+| enigma2-plugin-extensions-emilpanelpro | 1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/c7c53640cb51-emilpanelpro.ipk) |
+| enigma2-plugin-extensions-enhancement | v1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/c763a98bcf63-enhancement.ipk) |
+| enigma2-plugin-extensions-epgimport | 1.0+git286+71eff7f-r0 | cortexa15hf-neon-vfpv4 | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/7c2d9795ba42-epgimport.ipk) |
+| enigma2-plugin-extensions-estalker | 1.42.20260729 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/f8a7c9201809-estalker.ipk) |
+| enigma2-plugin-extensions-evgquicksignal | 1.3 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/7c00d1824529-evgquicksignal.ipk) |
+| enigma2-plugin-extensions-filecommander | 7.3+git33367+8d169ae-r0 | novaler4kse | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/f31d258e03c6-filecommander.ipk) |
+| enigma2-footonsat | v1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/5f51f11f726b-footonsat.ipk) |
+| enigma2-plugin-extensions-freeserver | 8.2.8 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/c838b20d2054-freeserver.ipk) |
+| enigma2-plugin-extensions-globaltranslateultra | v8.2 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/e3903d641ed3-globaltranslateultra.ipk) |
+| enigma2-plugin-extensions-gtiptvplayerpro | 1.7.0-r0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/608b723099ef-gtiptvplayerpro.ipk) |
+| enigma2-plugin-extensions-hamzasummary | 10.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/6e5ba0d4a7ef-hamzasummary.ipk) |
+| enigma2-plugin-extensions-historyzap | 1.0.46 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/34038a47b60c-historyzap.ipk) |
+| enigma2-plugin-extensions-ipaudio | 8.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/0442cf7f3327-ipaudio_8.0.ipk) |
+| enigma2-plugin-extensions-ipstreamer | 1.30 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/a77576f385d9-ipaudio_nassr.ipk) |
+| enigma2-plugin-extensions-ipaudiopro | 1.2+git120+9bc2d610+9bc2d61fa6-r0 | cortexa15hf-neon-vfpv4 | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/9f79097d49b3-ipaudiopro.ipk) |
+| enigma2-plugin-extensions-ipaudiopro | 1.1+git94+c20aa020+c20aa023b1-r0 | mips32el | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/b265c267e0f8-ipaudiopro_mips.ipk) |
+| enigma2-plugin-extensions-iqraaquran | 1.0.py3 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/a96566142ff3-iqraaquran.ipk) |
+| enigma2-plugin-extensions-jediepgxtream | 2.15.20251011 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/616ef60d2adc-jediepgxtream.ipk) |
+| enigma2-plugin-extensions-jedimakerxtream | 6.40.20250212 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/a82df259a244-jedimakerxtream.ipk) |
+| enigma2-plugin-extensions-levi45-freeserver | 2.4 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/5f665f9032f2-levi45-freeserver.ipk) |
+| enigma2-plugin-extensions-levi45iptv | 1.3 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/12a61022c5e2-levi45iptv.ipk) |
+| enigma2-plugin-extensions-levi45multicammanager | 10.2-r6 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/112353a6d4a8-levi45multicammanager.ipk) |
+| enigma2-plugin-extensions-linuxsat-panel | 2.9.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/15482ec08797-linuxsat-panel.ipk) |
+| enigma2-plugin-extensions-mawaqit | v1.2 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/63905043fc21-mawaqit.ipk) |
+| enigma2-plugin-extensions-mohamedstore | v1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/0605b1e0a05e-mohamedstore.ipk) |
+| enigma2-plugin-extensions-multi-stalkerpro | 1.1+git36+cb063700+cb0637046a-r0 | cortexa15hf-neon-vfpv4 | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/402282edb17d-multi-stalkerpro.ipk) |
+| enigma2-plugin-extensions-multi-stalkerpro | 1.0+git17+3e81926-r0 | armv7ahf-neon | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/bc02db243468-multi-stalkerpro_py2.7.ipk) |
+| enigma2-plugin-extensions-multi-stalkerpro | 1.1+git94+247e9ab0+247e9ab8e1-r0 | cortexa15hf-neon-vfpv4 | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/4020a58666fe-multi-stalkerpro_py3.11.ipk) |
+| enigma2-plugin-extensions-mytranslator | 1.74 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/d75affd2a3ed-mytranslator.ipk) |
+| enigma2-plugin-extensions-neoboot-v9.65-by-linuxsat | emil-nabil | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/cdc0e403c970-neoboot.ipk) |
+| enigma2-plugin-extensions-novalermultiboot | v6.2 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/0a9aa7c9bdca-novalermultiboot.ipk) |
+| enigma2-plugin-extensions-novalermultiboothdd | v7.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/b3cafe73ff1e-novalermultiboothdd.ipk) |
+| enigma2-plugin-extensions-novalermultibootusb | v3.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/c5700e82827b-novalermultibootusb.ipk) |
+| enigma2-plugin-extensions-oaweather | 1.2 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/f6999d319698-oaweather_py2.ipk) |
+| enigma2-plugin-extensions-oaweather | 1.4-git35+b653286-r0 | cortexa15hf-neon-vfpv4 | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/8e80041435b8-oaweather_py3.ipk) |
+| enigma2-plugin-extensions-panelaio | 16.0.2 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/2b9cdbe8a8d9-panelaio.ipk) |
+| enigma2-plugin-extensions-pluginspanel | 1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/a3f7c3d0fbdf-pluginspanel.ipk) |
+| enigma2-plugin-extensions-quran-karim | 2.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/844c33c47364-quran-karim.ipk) |
+| enigma2-plugin-extensions-rakutentv | 20230722 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/3c305835c855-rakutentv.ipk) |
+| enigma2-plugin-extensions-samsungtvplus | 20250815 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/84dcde5ce114-samsungtvplus.ipk) |
+| enigma2-plugin-extensions-screengrabber | 3.2 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/b0becae31fe6-screengrabber.ipk) |
+| enigma2-plugin-extensions-setpicon | v3.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/dfd26b713636-setpicon_py3.0.ipk) |
+| enigma2-plugin-extensions-sherlockmod | 1.4.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/1aaaea6a5b98-sherlockmod.ipk) |
+| enigma2-plugin-extensions-simple-zoom-panel | 2.2.7 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/9a137af36cc9-simple-zoom-panel.ipk) |
+| enigma2-plugin-extensions-subextractorlite | v1.0-armv7l_py3.14 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/1f25e90fe585-subextractorlite.ipk) |
+| enigma2-plugin-extensions-subssupport | 1.8.0-r7-py3 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/bea7b9751c4a-subssupport_py3.ipk) |
+| enigma2-plugin-extensions-subssupportpro | 1.1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/0dfe9a70d5c0-subssupportpro.ipk) |
+| enigma2-plugin-extensions-ts-sateditor | 4.4 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/d4045432881d-ts-sateditor.ipk) |
+| enigma2-plugin-extensions-tvspro | 2.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/2ee97d02106c-tvspro.ipk) |
+| enigma2-plugin-extensions-vavoo | 1.81 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/ca92fa6828bc-vavoo.ipk) |
+| enigma2-plugin-extensions-xcplugin-forever | 2.6 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/7352bcc7ffe7-xcplugin-forever.ipk) |
+| enigma2-plugin-extensions-xklass | 1.80.20260325 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/8152a34a6d24-xklass.ipk) |
+| enigma2-plugin-extensions-xmlupdatebyiet5 | 1.4 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/8cc460a72a94-xmlupdatebyiet5.ipk) |
+| enigma2-plugin-extensions-xstreamity | 5.70.20261019 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/5b37aaff07a2-xstreamity.ipk) |
+| enigma2-plugin-extensions-xtraevent | v7.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/f87b6ee59b54-xtraevent.ipk) |
+| enigma2-plugin-softcams-gosatplus-oscam | 11960-emu-r802 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/c5ca2558a347-enigma2-plugin-softcams-gosatplus-oscam.ipk) |
+| enigma2-plugin-softcams-ncam | V15.8-r2 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/b52c8cf6ef0f-enigma2-plugin-softcams-ncam.ipk) |
+| enigma2-plugin-softcams-oscam | 11975-emu-r802 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/a6a4dda73270-enigma2-plugin-softcams-oscam-emu.ipk) |
+| enigma2-plugin-softcams-powercam-oscam | 11960-emu-r802 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/80166a412cd3-enigma2-plugin-softcams-powercam-oscam.ipk) |
+| enigma2-plugin-softcams-supcam-oscam | 11960-emu-r802 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/b83f74b6b0d1-enigma2-plugin-softcams-supcam-oscam.ipk) |
+| enigma2-plugin-softcams-ultracam-oscam | 11960-emu-r802 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/52cf67b9c914-enigma2-plugin-softcams-ultracam-oscam.ipk) |
+| enigma2-softcams-cccam-all-images | 2.3.9-r2-RAED_OE2.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/954a7b7cc850-enigma2-softcams-cccam.ipk) |
+| enigma2-plugin-extensions-ipaudiopro | 1.0+git19+eb77ad3-r0 | cortexa15hf-neon-vfpv4 | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/c4879432a4fd-ipaudiopro.ipk) |
+| enigma2-plugin-picons-srp-full.100x60-86x46.light.on.transparent | 2024-03-26--21-57-01 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/9748c8a87a9e-openpicon.ipk) |
+| enigma2-plugin-extensions-aisubtitles | v2.2 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/87d893a7c4c2-aisubtitles.ipk) |
+| enigma2-plugin-extensions-ajpanel | v10.8.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/11567fe65aa2-ajpanel.ipk) |
+| enigma2-plugin-extensions-ansite | 1.9.py3 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/f85a263f6c2b-ansite.ipk) |
+| enigma2-plugin-extensions-auto-dcw-key-add | v1.0.8 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/6c387b04a708-auto-dcw-key-add.ipk) |
+| enigma2-plugin-systemplugins-automaticvolumeadjustment | 5.4.1+gitr7737+5cf43630+5cf436378d-r8 | multiboxse | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/60fcf9b057b8-automaticvolumeadjustment.ipk) |
+| enigma2-plugin-extensions-enhancement | v1.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/9c6bb76e2b1d-autoresolution.ipk) |
+| enigma2-plugin-extensions-backupsuite | 3.0-r10 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/f3e337a0a876-backupsuite.ipk) |
+| enigma2-plugin-extensions-bouquetmakerxtream | 1.24.20240901 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/be5591b3e963-bouquetmakerxtream.ipk) |
+| enigma2-plugin-extensions-buttonpatcher | 1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/2a67519453dc-buttonpatcher.ipk) |
+| enigma2-plugin-extensions-clearmem | 1.10 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/38a4638e078d-clearmem.ipk) |
+| enigma2-plugin-extensions-dreamexplorer | 7.3+gitr7689+d4afaea-r8 | multiboxse | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/40438c042bd4-dreamexplorer.ipk) |
+| enigma2-plugin-extensions-acherone | 1.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/cd60eb617e17-e2panel.ipk) |
+| enigma2-plugin-extensions-enhancement | v1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/c763a98bcf63-enhancement.ipk) |
+| enigma2-plugin-extensions-epgimport | 1.0+git286+71eff7f-r0 | cortexa15hf-neon-vfpv4 | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/7c2d9795ba42-epgimport.ipk) |
+| enigma2-plugin-extensions-estalker | 1.39.20260517 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/fccfd4753f39-estalker.ipk) |
+| enigma2-plugin-extensions-filecommander | 7.3+git33367+8d169ae-r0 | novaler4kse | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/f31d258e03c6-filecommander.ipk) |
+| enigma2-footonsat | v1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/5f51f11f726b-footonsat.ipk) |
+| enigma2-plugin-extensions-freeserver | 8.2.8 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/c838b20d2054-freeserver.ipk) |
+| enigma2-plugin-extensions-historyzap | 1.0.46 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/34038a47b60c-historyzap.ipk) |
+| enigma2-plugin-extensions-ipaudio | 8.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/0442cf7f3327-ipaudio_8.0.ipk) |
+| enigma2-plugin-extensions-ipstreamer | 1.30 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/a77576f385d9-ipaudio_nassr.ipk) |
+| enigma2-plugin-extensions-ipaudiopro | 1.2+git120+9bc2d610+9bc2d61fa6-r0 | cortexa15hf-neon-vfpv4 | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/9f79097d49b3-ipaudiopro.ipk) |
+| enigma2-plugin-extensions-ipaudiopro | 1.1+git94+c20aa020+c20aa023b1-r0 | mips32el | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/b265c267e0f8-ipaudiopro_mips.ipk) |
+| enigma2-plugin-extensions-jediepgxtream | 2.15.20251011 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/616ef60d2adc-jediepgxtream.ipk) |
+| enigma2-plugin-extensions-jedimakerxtream | 6.40.20250212 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/a82df259a244-jedimakerxtream.ipk) |
+| enigma2-plugin-extensions-levi45-freeserver | 1.8 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/8ce4a1ba1aec-levi45-freeserver.ipk) |
+| enigma2-plugin-extensions-levi45iptv | 1.3 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/12a61022c5e2-levi45iptv.ipk) |
+| libasound2 | 1.2.11-r0 | cortexa15hf-neon-vfpv4 | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/f42fd2a2eaa8-libasound.ipk) |
+| enigma2-plugin-extensions-linuxsat-panel | 2.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/8f8a71ebf525-linuxsat-panel.ipk) |
+| enigma2-plugin-skins-metrixfhd-neo | V.7.6_bv | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/af4bfa3e5f23-metrixfhd-neo.ipk) |
+| enigma2-plugin-extensions-multi-stalkerpro | 1.1+git36+cb063700+cb0637046a-r0 | cortexa15hf-neon-vfpv4 | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/402282edb17d-multi-stalkerpro.ipk) |
+| enigma2-plugin-extensions-multi-stalkerpro | 1.0+git17+3e81926-r0 | armv7ahf-neon | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/bc02db243468-multi-stalkerpro_py2.7.ipk) |
+| enigma2-plugin-extensions-multi-stalkerpro | 1.1+git94+247e9ab0+247e9ab8e1-r0 | cortexa15hf-neon-vfpv4 | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/4020a58666fe-multi-stalkerpro_py3.11.ipk) |
+| enigma2-plugin-extensions-multi-stalkerpro | 1.0+git18+32273180+32273181fa-r0 | cortexa15hf-neon-vfpv4 | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/b802156ae546-multi-stalkerpro_py3.12.ipk) |
+| enigma2-plugin-extensions-oaweather | 1.2 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/f6999d319698-oaweather_py2.ipk) |
+| enigma2-plugin-extensions-oaweather | 1.4-git35+b653286-r0 | cortexa15hf-neon-vfpv4 | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/8e80041435b8-oaweather_py3.ipk) |
+| enigma2-plugin-extensions-pluginspanel | 1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/a3f7c3d0fbdf-pluginspanel.ipk) |
+| enigma2-plugin-extensions-plutotv | 20240220 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/4148977ec37e-plutotv.ipk) |
+| enigma2-plugin-extensions-quran-karim | 2.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/844c33c47364-quran-karim.ipk) |
+| enigma2-plugin-extensions-rakutentv | 20230722 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/3c305835c855-rakutentv.ipk) |
+| enigma2-plugin-extensions-samsungtvplus | 20250815 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/84dcde5ce114-samsungtvplus.ipk) |
+| enigma2-plugin-extensions-screengrabber | 3.2 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/b0becae31fe6-screengrabber.ipk) |
+| enigma2-plugin-extensions-setpicon | v2.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/5852fcf638e4-setpicon_py2.0.ipk) |
+| enigma2-plugin-extensions-setpicon | v3.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/dfd26b713636-setpicon_py3.0.ipk) |
+| enigma2-plugin-extensions-sherlockmod | 1.4.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/1aaaea6a5b98-sherlockmod.ipk) |
+| enigma2-plugin-extensions-spinner-selector | 3.2 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/1871fa058885-spinner-selector.ipk) |
+| enigma2-plugin-extensions-subssupport | 1.7.0-r14-py3 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/ffc4d8c86ed9-subssupport_py3.ipk) |
+| enigma2-plugin-extensions-tvspro | 2.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/8324ba92b106-tvspro.ipk) |
+| enigma2-plugin-extensions-vavoo | 1.33 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/4155b33714a6-vavoo.ipk) |
+| enigma2-plugin-extensions-xcplugin-forever | 2.3 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/a93fc2a97507-xcplugin-forever.ipk) |
+| enigma2-plugin-extensions-xklass | 1.80.20260325 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/8152a34a6d24-xklass.ipk) |
+| enigma2-plugin-extensions-xmlupdatebyiet5 | 1.4 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/8cc460a72a94-xmlupdatebyiet5.ipk) |
+| enigma2-plugin-extensions-xstreamity | 5.56.20260708 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/076b6e931357-xstreamity.ipk) |
+| enigma2-plugin-extensions-xtraevent | 6.798 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/ed9ee14b15fc-xtraevent.ipk) |
+| enigma2-plugin-extensions-youtube-plus-minitv | mod-by-petry-py2-git1172-e500579-r0.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/d81b44b84103-youtube-py2.ipk) |
+| enigma2-plugin-extensions-youtube | py3-git1172-e500579-r0.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/cba87cf268a6-youtube_py3.ipk) |
+| enigma2-plugin-skins-aglare-fhd-pli | 4.9 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/610e45806ecd-aglare-pli.ipk) |
+| enigma2-plugin-skins-aglare-fhd | 5.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/8a5c66e73d69-aglare.ipk) |
+| enigma2-plugin-extensions-artemes | v1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/5e8318798913-artemis.ipk) |
+| enigma2-plugin-skins-bluemetalfhd | 2.40_atv | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/a2e8804d9300-bluemetalfhd_atv.ipk) |
+| enigma2-plugin-skins | CobaltFHD.ATV.24.01.2024 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/e78221de90cc-CobaltFHD.ipk) |
+| enigma2-plugin-skins-copper-fhd | 2.2 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/76a4530c2319-copper.ipk) |
+| enigma2-plugin-skins-darkfhd | 0.42_atv | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/2add4b39fd34-darkfhd.ipk) |
+| skin-darksilverfhd | V1.0-By-Sharp987-MOD-By-RAED | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/682ad18d7395-DarkSilverFHD.ipk) |
+| enigma2-plugin-skins-revolution-pro | full.6.7.dragon | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/5592ce0026bf-dragon.ipk) |
+| enigma2-plugin-skins-dreamosatfhd-adrenalinnrw-mod | 1.0-r0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/55ee671409a8-dreamosatfhd.ipk) |
+| enigma2-skin-fullhdglass17 | 9.17 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/44dca4334f4e-fullhdglass17.ipk) |
+| enigma2-plugin-extensions-fury_epg | v1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/38faec814ea3-fury.ipk) |
+| enigma2-plugin-skins-infinity-neo | V.7s-v3 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/c096f62eb5c9-infinity-neo.ipk) |
+| enigma2-plugin-skins-jihad | 2.15 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/8d3d9f352430-jihad.ipk) |
+| enigma2-plugin-skins-karonte-fhd-all | 1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/a3e542a21c0b-karonte.ipk) |
+| enigma2-plugin-skins-kitte888new-fhd-all | 1.4 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/9ddc47642ef7-kitte888.ipk) |
+| enigma2-plugin-skins-liis8fhdplus | 2.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/9d31740188c0-liis8.ipk) |
+| enigma2-plugin-skins-luka-fhd | 1.3 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/6d52c7fea4ba-luka.ipk) |
+| enigma2-plugin-skins-madmax-impossible | 3.4 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/b8db5d340799-madmax-impossible.ipk) |
+| enigma2-plugin-skins-metrixfhd-neo | V.7.6_bv | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/982da4a4bba8-metrixfhd-neo.ipk) |
+| enigma2-plugin-extensions-skin-mohamed | v1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/698341362a24-mohamed_skin.ipk) |
+| enigma2-plugin-extensions-mybluemetal | 1.05_py3.12 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/25a1bf494966-mybluemetal.ipk) |
+| enigma2-plugin-skins-novaler-s-fhd-green | 4.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/1d0bd979c5f6-novaler-s-fhd.ipk) |
+| enigma2-plugin-skins-novaler-s-fhd-green | 4.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/1d0bd979c5f6-novaler-s.ipk) |
+| enigma2-plugin-skins-novax-fhd | 2.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/66e249e0031f-novax.ipk) |
+| enigma2-plugin-skins-odreamy-fhd | 2.6 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/5b38fa4ec31d-odreamy.ipk) |
+| enigma2-skin-ozeta | v1.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/0c3d4ce086bd-ozeta.ipk) |
+| enigma2-plugin-skins-pd1loi-hd-night-atv | 1.0.0.7 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/d9280036dff0-pd1loi-hd-night.ipk) |
+| enigma2-plugin-skins-premium-fhd-blue | 3.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/18d01f54f19c-premium-fhd.ipk) |
+| enigma2-plugin-skins-revolution-pro | full.6.8.dragon | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/72620e1964f4-revolution-pro.ipk) |
+| enigma2-plugin-skins-simple-gray | git273-1-124be6c-r0.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/3e2b357f3b80-simple-gray.ipk) |
+| enigma2-plugin-skins-xDreamy | 7.4.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/db8e0b09aad0-xDreamy.ipk) |
+| enigma2-plugin-skins-youchie-pli-fhd-for-bh | v1.0.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/cf4382a3119e-Youchie.ipk) |
