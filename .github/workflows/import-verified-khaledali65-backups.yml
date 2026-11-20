@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: khaledali65-verified-backup-import
+  group: online4tech-catalog-mirror
   cancel-in-progress: false
 
 jobs:
@@ -40,15 +40,19 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          cp assets/allblugin/demo-data.json /tmp/online4tech-local-catalog.json
+          cp monitoring/KHALEDALI65-VERIFIED-IMPORT.md /tmp/online4tech-backup-report.md
+          git fetch origin "${GITHUB_REF_NAME}"
+          git reset --hard "origin/${GITHUB_REF_NAME}"
+          python3 .github/scripts/merge_catalog_changes.py /tmp/online4tech-local-catalog.json assets/allblugin/demo-data.json
+          cp /tmp/online4tech-backup-report.md monitoring/KHALEDALI65-VERIFIED-IMPORT.md
           git add -f assets/allblugin/demo-data.json monitoring/KHALEDALI65-VERIFIED-IMPORT.md
           if git diff --cached --quiet; then
-            echo "No verified new backups to publish."
+            echo "No verified backup catalog changes."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "Import verified KhaledAli65 receiver backups"
-            # Reconcile concurrent monitor/import commits before pushing.
-            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           fi
 
