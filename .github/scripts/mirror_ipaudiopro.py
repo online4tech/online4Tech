@@ -93,7 +93,7 @@ def build_installer(rows):
     groups={}
     for x in rows: groups.setdefault((x['python'],x['architecture']),[]).append(x)
     lines=[
-'#!/bin/sh','set -eu',
+'#!/bin/sh','set -eu',\n\'TMP=""; trap \'rm -f "$TMP"\' EXIT',
 'echo "Online4Tech - IPAudioPro installer"',
 'PYVER=""',
 'if command -v python3 >/dev/null 2>&1; then PYVER=$(python3 -c \'import sys; print("%d.%d" % (sys.version_info[0],sys.version_info[1]))\' 2>/dev/null || true); fi',
