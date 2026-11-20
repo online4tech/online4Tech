@@ -31,7 +31,9 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Download and validate eligible backup archives
+      - name: Download, validate, and mirror backup archives
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: python .github/scripts/import_verified_khaledali65_backups.py
 
       - name: Commit verified catalog entries
