@@ -96,12 +96,14 @@ def main():
             own,assets=upload(p,Path(filename).name,sha,size,assets)
             rows.append({'filename':Path(filename).name,'package':meta['Package'],'version':meta['Version'],'architecture':meta['Architecture'],'size':size,'md5':md5,'sha256':sha,'downloadUrl':own})
     # Preserve the upstream package metadata and relative filenames; release assets share one feed base.
-    packages_path=root/'Packages'; packages_path.write_text(packages_text,encoding='utf-8')
-    gz_path=root/'Packages.gz'; gz_path.write_bytes(gzip.compress(packages_text.encode('utf-8'),compresslevel=9,mtime=0))
-    for p in (packages_path,gz_path):
-        sha=hashlib.sha256(p.read_bytes()).hexdigest(); size=p.stat().st_size
-        own,assets=upload(p,p.name,sha,size,assets)
-        rows.append({'filename':p.name,'size':size,'sha256':sha,'downloadUrl':own})
+    with tempfile.TemporaryDirectory(prefix='o4t-picons-index-') as index_td:
+        index_root=Path(index_td)
+        packages_path=index_root/'Packages'; packages_path.write_text(packages_text,encoding='utf-8')
+        gz_path=index_root/'Packages.gz'; gz_path.write_bytes(gzip.compress(packages_text.encode('utf-8'),compresslevel=9,mtime=0))
+        for p in (packages_path,gz_path):
+            sha=hashlib.sha256(p.read_bytes()).hexdigest(); size=p.stat().st_size
+            own,assets=upload(p,p.name,sha,size,assets)
+            rows.append({'filename':p.name,'size':size,'sha256':sha,'downloadUrl':own})
     catalog=json.loads(CATALOG.read_text(encoding='utf-8'))
     release_page=f'https://github.com/{REPO}/releases/tag/{TAG}'
     for item in catalog.get('items',[]):
