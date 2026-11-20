@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
-import hashlib, json, re, sys, tempfile, urllib.request, zipfile
+import hashlib, json, re, sys, tempfile, urllib.request, zipfile, subprocess
 from datetime import datetime
 from pathlib import Path, PurePosixPath
-from urllib.parse import unquote, urlparse
+from urllib.parse import unquote, urlparse, quote
 
 SCAN = Path("monitoring/khaledali65-latest-scan.json")
 CATALOG = Path("assets/allblugin/demo-data.json")
 LOG = Path("monitoring/KHALEDALI65-VERIFIED-IMPORT.md")
 MAX_ASSET = 400 * 1024 * 1024
 MAX_UNCOMPRESSED = 12 * 1024 * 1024 * 1024
+RELEASE_TAG = "online4tech-backups"
+OWN_REPO = "online4tech/online4Tech"
+OWN_RELEASE_BASE = f"https://github.com/{OWN_REPO}/releases/download/{RELEASE_TAG}/"
 MONTHS = {1:"يناير",2:"فبراير",3:"مارس",4:"أبريل",5:"مايو",6:"يونيو",7:"يوليو",8:"أغسطس",9:"سبتمبر",10:"أكتوبر",11:"نوفمبر",12:"ديسمبر"}
 
 def norm(v):
@@ -91,6 +94,28 @@ def date_of(name, published):
         except ValueError: pass
     return "غير محدد"
 
+def ensure_release():
+    check = subprocess.run(["gh", "release", "view", RELEASE_TAG, "--repo", OWN_REPO], capture_output=True, text=True)
+    if check.returncode != 0:
+        subprocess.run(["gh", "release", "create", RELEASE_TAG, "--repo", OWN_REPO,
+            "--title", "Online4Tech Verified Backups",
+            "--notes", "Official Online4Tech mirror for verified Enigma2 receiver backup archives.",
+            "--latest=false"], check=True)
+
+def upload_to_our_release(path, source_name, digest, size):
+    safe = re.sub(r"[^A-Za-z0-9._-]", "_", source_name)
+    asset_name = f"{digest[:12]}-{safe}"
+    target = path.with_name(asset_name)
+    if target != path:
+        target.write_bytes(path.read_bytes())
+    subprocess.run(["gh", "release", "upload", RELEASE_TAG, str(target), "--repo", OWN_REPO, "--clobber"], check=True)
+    api = subprocess.run(["gh", "api", f"repos/{OWN_REPO}/releases/tags/{RELEASE_TAG}"], capture_output=True, text=True, check=True)
+    release = json.loads(api.stdout)
+    asset = next((x for x in release.get("assets", []) if x.get("name") == asset_name), None)
+    if not asset or int(asset.get("size", -1)) != int(size):
+        raise ValueError("لم يتم التحقق من وجود الملف بالحجم الصحيح داخل Release الخاص بنا")
+    return OWN_RELEASE_BASE + quote(asset_name)
+
 def main():
     scan=json.loads(SCAN.read_text(encoding="utf-8"))
     catalog=json.loads(CATALOG.read_text(encoding="utf-8"))
@@ -110,23 +135,48 @@ def main():
     backup_cat=next((c for c in catalog["categories"] if c.get("id")=="backup"),None)
     if not backup_cat: raise SystemExit("قسم النسخ الاحتياطية غير موجود")
     next_id=max([int(x.get("id",0)) for x in items if str(x.get("id","")).isdigit()] or [0])+1
-    published,rejected=[],[]
+    published,rejected,migrated=[],[],[]
     with tempfile.TemporaryDirectory(prefix="o4t-import-") as td:
+        ensure_release()
+        for item in items:
+            if item.get("category") != "backup" or item.get("sourceRepo") != "KhaledAli65/books":
+                continue
+            current = item.get("downloadUrl", "")
+            if current.startswith(OWN_RELEASE_BASE):
+                continue
+            source = item.get("sourceUrl") or current
+            name = item.get("sourceAssetName") or unquote(urlparse(source).path.rsplit("/",1)[-1])
+            target = Path(td)/("migrate-"+re.sub(r"[^A-Za-z0-9._-]","_",name))
+            try:
+                size = fetch(source, target, int(item.get("sourceFileSize") or 0))
+                sha, count, expanded = validate_zip(target)
+                expected = (item.get("sourceDigest") or "").removeprefix("sha256:")
+                if expected and sha.lower() != expected.lower():
+                    raise ValueError("SHA-256 لا يطابق البصمة المسجلة سابقًا")
+                item["downloadUrl"] = upload_to_our_release(target, name, sha, size)
+                item["mirroredAt"] = datetime.utcnow().isoformat(timespec="seconds")+"Z"
+                item["mirrorDigest"] = "sha256:"+sha
+                migrated.append(item)
+            except Exception as e:
+                rejected.append({"asset":name,"reason":"فشل نقل النسخة الحالية: "+str(e)})
+                print("MIRROR-FAILED",name,str(e),file=sys.stderr)
         for a,model in candidates:
             name,url=a["asset"],a["download_url"]
             target=Path(td)/re.sub(r"[^A-Za-z0-9._-]","_",name)
             try:
                 size=fetch(url,target,int(a.get("size") or 0))
                 sha,count,expanded=validate_zip(target)
+                own_url=upload_to_our_release(target,name,sha,size)
                 version,date=version_of(name),date_of(name,a.get("published_at",""))
                 item={
                     "id":next_id,"name":f"{model['model']} — {version}","category":"backup","subcategory":model["subcategory"],"group":model["group"],
                     "description":f"نسخة باك أب {version} مخصصة لجهاز {model['model']} فقط. تم اختبار سلامة الأرشيف وCRC قبل إضافتها. راجع موديل الجهاز قبل الاستعادة.",
                     "version":version,"date":date,"downloads":0,"keywords":f"{model['model']} {version} النسخ الاحتياطية Enigma2",
-                    "downloadUrl":url,"guideUrl":"https://online4tech.github.io/online4Tech/tutorials/backup-install.html","detailUrl":"#","icon":"💾",
+                    "downloadUrl":own_url,"guideUrl":"https://online4tech.github.io/online4Tech/tutorials/backup-install.html","detailUrl":"#","icon":"💾",
                     "compatibility":model["compatibility"],"sourceUrl":url,"sourceRepo":a.get("repository",""),"sourceAssetName":name,"sourceFileSize":size,
                     "sourceDigest":"sha256:"+sha,"sourceReleaseTag":a.get("release",""),
-                    "archiveValidation":{"format":"zip","crc":"passed","members":count,"uncompressedBytes":expanded,"checkedAt":datetime.utcnow().isoformat(timespec="seconds")+"Z"}
+                    "archiveValidation":{"format":"zip","crc":"passed","members":count,"uncompressedBytes":expanded,"checkedAt":datetime.utcnow().isoformat(timespec="seconds")+"Z"},
+                    "mirroredAt":datetime.utcnow().isoformat(timespec="seconds")+"Z","mirrorDigest":"sha256:"+sha
                 }
                 items.append(item); next_id+=1; published.append(item)
                 print("VERIFIED",name,model["model"],size)
@@ -143,8 +193,9 @@ def main():
             for sub in group.get("subcategories",[]):
                 sub["count"]=sum(1 for x in items if x.get("category")=="backup" and x.get("subcategory")==sub.get("id"))
         CATALOG.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    lines=["# تقرير استيراد النسخ الاحتياطية التي اجتازت الفحص","",f"- وقت التنفيذ: {datetime.utcnow().isoformat(timespec='seconds')}Z",f"- المضافة: {len(published)}",f"- المرفوضة أو غير المكتملة: {len(rejected)}","","> تم فحص ZIP واختبار CRC دون استخراج الملفات أو تشغيل أي محتوى.","","## النسخ المضافة","","| الموديل | النسخة | الملف المصدر | SHA-256 |","|---|---|---|---|"]
-    for x in published: lines.append(f"| {x['compatibility']} | {x['version']} | [{x['sourceAssetName']}]({x['sourceUrl']}) | {x['sourceDigest']} |")
+    lines=["# تقرير استيراد ومزامنة النسخ الاحتياطية","",f"- وقت التنفيذ: {datetime.utcnow().isoformat(timespec='seconds')}Z",f"- النسخ المنقولة إلى Release الخاص بنا: {len(migrated)}",f"- النسخ الجديدة المضافة: {len(published)}",f"- المرفوضة أو غير المكتملة: {len(rejected)}","","> تم فحص ZIP واختبار CRC ومطابقة SHA-256 للنسخ السابقة، ثم رفع الملفات إلى Release الخاص بـ Online4Tech.","","## النسخ المنقولة والمضافة","","| الملف | رابط Online4Tech | الحالة |","|---|---|---|"]
+    for x in migrated: lines.append(f"| {x.get('sourceAssetName','')} | [تحميل من Online4Tech]({x['downloadUrl']}) | تم النقل |")
+    for x in published: lines.append(f"| {x['sourceAssetName']} | [تحميل من Online4Tech]({x['downloadUrl']}) | نسخة جديدة: {x['compatibility']} |")
     if rejected:
         lines += ["","## المرفوض أو غير المكتمل","","| الملف | السبب |","|---|---|"]
         for x in rejected: lines.append(f"| {x['asset']} | {x['reason']} |")
