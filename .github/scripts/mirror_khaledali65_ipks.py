@@ -108,8 +108,9 @@ def main():
             c['count']=sum(1 for x in items if x.get('category')==c.get('id'))
             for sub in c.get('subcategories',[]): sub['count']=sum(1 for x in items if x.get('category')==c.get('id') and x.get('subcategory')==sub.get('id'))
     CATALOG.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    lines=['# تقرير نقل حزم IPK إلى Online4Tech','',f'- الحزم المنقولة: {len(added)}',f'- الملفات المرفوضة: {len(rejected)}','','> تم فحص بنية IPK وقراءة Package وVersion وArchitecture. هذا فحص بيانات وليس مراجعة أمنية للكود الداخلي؛ راجع التوافق قبل التثبيت.','','| الحزمة | الإصدار | المعمارية | رابط Online4Tech |','|---|---|---|---|']
-    for x in added: lines.append(f"| {x['packageName']} | {x['version']} | {x['architecture']} | [تحميل]({x['downloadUrl']}) |")
+    all_packages=[x for x in items if x.get('packageName') and x.get('category') in ('plugins','skins','picons','softcam')]
+    lines=['# تقرير نقل حزم IPK إلى Online4Tech','',f'- الحزم الجديدة في هذه الجولة: {len(added)}',f'- إجمالي الحزم المنشورة: {len(all_packages)}',f'- الملفات المرفوضة في هذه الجولة: {len(rejected)}','','> تم فحص بنية IPK وقراءة Package وVersion وArchitecture. هذا فحص بيانات وليس مراجعة أمنية للكود الداخلي؛ راجع التوافق قبل التثبيت.','','| الحزمة | الإصدار | المعمارية | رابط Online4Tech |','|---|---|---|---|']
+    for x in all_packages: lines.append(f"| {x['packageName']} | {x['version']} | {x['architecture']} | [تحميل]({x['downloadUrl']}) |")
     if rejected:
         lines+=['','## ملفات مرفوضة']
         for x in rejected: lines.append(f"- {x['repo']} / {x['asset']}: {x['reason']}")
