@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: khaledali65-script-mirror
+  group: online4tech-catalog-mirror
   cancel-in-progress: false
 
 jobs:
@@ -37,14 +37,21 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          cp assets/allblugin/demo-data.json /tmp/online4tech-local-catalog.json
+          cp monitoring/khaledali65-script-mirror-manifest.json /tmp/online4tech-script-manifest.json
+          cp monitoring/KHALEDALI65-SCRIPT-MIRROR.md /tmp/online4tech-script-report.md
+          git fetch origin "${GITHUB_REF_NAME}"
+          git reset --hard "origin/${GITHUB_REF_NAME}"
+          python3 .github/scripts/merge_catalog_changes.py /tmp/online4tech-local-catalog.json assets/allblugin/demo-data.json
+          cp /tmp/online4tech-script-manifest.json monitoring/khaledali65-script-mirror-manifest.json
+          cp /tmp/online4tech-script-report.md monitoring/KHALEDALI65-SCRIPT-MIRROR.md
           git add -f assets/allblugin/demo-data.json monitoring/khaledali65-script-mirror-manifest.json monitoring/KHALEDALI65-SCRIPT-MIRROR.md
           if git diff --cached --quiet; then
-            echo "No new script files to mirror."
+            echo "No script catalog changes."
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "Mirror Telnet scripts under Online4Tech links"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           fi
       - name: Upload script mirror report
