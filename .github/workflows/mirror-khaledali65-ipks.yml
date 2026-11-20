@@ -1,0 +1,57 @@
+name: Mirror verified KhaledAli65 IPK packages
+
+on:
+  push:
+    paths:
+      - ".github/workflows/mirror-khaledali65-ipks.yml"
+      - ".github/scripts/mirror_khaledali65_ipks.py"
+  workflow_run:
+    workflows: ["Monitor KhaledAli65 Enigma2 releases"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: khaledali65-ipk-mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror-ipks:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout Online4Tech repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Mirror and validate IPK packages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/scripts/mirror_khaledali65_ipks.py
+      - name: Commit mirrored package catalog
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -f assets/allblugin/demo-data.json monitoring/KHALEDALI65-IPK-MIRROR.md
+          if git diff --cached --quiet; then
+            echo "No new IPK packages to mirror."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Mirror verified Enigma2 IPK packages"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi
+      - name: Upload IPK mirror report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: online4tech-ipk-mirror-report
+          path: monitoring/KHALEDALI65-IPK-MIRROR.md
+          if-no-files-found: ignore
+          retention-days: 30
