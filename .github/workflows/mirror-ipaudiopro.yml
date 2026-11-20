@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: online4tech-catalog-assets
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   mirror-ipaudiopro:
@@ -22,6 +22,15 @@ jobs:
     steps:
       - name: Checkout Online4Tech
         uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/scripts/mirror_ipaudiopro.py
+            .github/scripts/mirror_khaledali65_ipks.py
+            .github/scripts/merge_catalog_changes.py
+            assets/allblugin/demo-data.json
+            monitoring
+          sparse-checkout-cone-mode: false
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
