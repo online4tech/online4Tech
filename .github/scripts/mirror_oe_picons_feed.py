@@ -106,12 +106,23 @@ def main():
     tree_by_name={Path(x['path']).name:x for x in ipks}
     if len(package_rows)!=len(ipks): raise RuntimeError(f'عدد حزم الفهرس {len(package_rows)} لا يطابق ملفات IPK {len(ipks)}')
     ensure_release(); assets=gh_api(f'repos/{REPO}/releases/tags/{TAG}').get('assets',[])
+    try:
+        previous=json.loads(MANIFEST.read_text(encoding='utf-8')).get('packages',[])
+    except Exception:
+        previous=[]
+    previous_by_path={x.get('sourcePath'):x for x in previous if x.get('sourcePath')}
     rows=[]
     with tempfile.TemporaryDirectory(prefix='o4t-picons-') as td:
         root=Path(td)
         for i,(filename,up_fields) in enumerate(package_rows):
             tree_item=tree_by_name.get(Path(filename).name)
             if not tree_item: raise RuntimeError('ملف غير موجود في الشجرة: '+filename)
+            asset_name=Path(filename).name
+            prev=previous_by_path.get(tree_item['path'])
+            existing=next((a for a in assets if a.get('name')==asset_name),None)
+            if prev and prev.get('sourceBlobSha')==tree_item.get('sha') and existing and existing.get('size')==int(tree_item.get('size') or 0) and existing.get('digest')=='sha256:'+prev.get('sha256',''):
+                rows.append({**prev,'downloadUrl':f'{BASE}/{quote(asset_name)}'})
+                continue
             p=root/Path(filename).name
             size=fetch_raw(tree_item['path'],p,int(tree_item.get('size') or 0))
             meta=ipkmod.control_fields(p)
@@ -121,7 +132,7 @@ def main():
             if int(up_fields.get('Size','0'))!=size or up_fields.get('MD5Sum','').lower()!=md5:
                 raise RuntimeError('فشل مطابقة Size/MD5Sum: '+filename)
             own,assets=upload(p,Path(filename).name,sha,size,assets)
-            rows.append({'filename':Path(filename).name,'package':meta['Package'],'version':meta['Version'],'architecture':meta['Architecture'],'size':size,'md5':md5,'sha256':sha,'downloadUrl':own})
+            rows.append({'sourcePath':tree_item['path'],'sourceBlobSha':tree_item.get('sha'),'filename':Path(filename).name,'package':meta['Package'],'version':meta['Version'],'architecture':meta['Architecture'],'size':size,'md5':md5,'sha256':sha,'downloadUrl':own})
     # Preserve the upstream package metadata and relative filenames; release assets share one feed base.
     with tempfile.TemporaryDirectory(prefix='o4t-picons-index-') as index_td:
         index_root=Path(index_td)
