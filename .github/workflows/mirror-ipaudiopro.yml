@@ -1,0 +1,60 @@
+name: Mirror IPAudioPro packages and installer
+
+on:
+  push:
+    paths:
+      - ".github/workflows/mirror-ipaudiopro.yml"
+      - ".github/scripts/mirror_ipaudiopro.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: online4tech-catalog-assets
+  cancel-in-progress: false
+
+jobs:
+  mirror-ipaudiopro:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout Online4Tech
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Mirror IPAudioPro v1.7 IPK variants and build installer
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/scripts/mirror_ipaudiopro.py
+      - name: Merge and publish IPAudioPro catalog entry
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp assets/allblugin/demo-data.json /tmp/online4tech-local-catalog.json
+          cp monitoring/ipaudiopro-mirror-manifest.json /tmp/online4tech-ipaudiopro-manifest.json
+          cp monitoring/IPAUDIOPRO-MIRROR.md /tmp/online4tech-ipaudiopro-report.md
+          git fetch origin "${GITHUB_REF_NAME}"
+          git reset --hard "origin/${GITHUB_REF_NAME}"
+          python3 .github/scripts/merge_catalog_changes.py /tmp/online4tech-local-catalog.json assets/allblugin/demo-data.json
+          cp /tmp/online4tech-ipaudiopro-manifest.json monitoring/ipaudiopro-mirror-manifest.json
+          cp /tmp/online4tech-ipaudiopro-report.md monitoring/IPAUDIOPRO-MIRROR.md
+          git add -f assets/allblugin/demo-data.json monitoring/ipaudiopro-mirror-manifest.json monitoring/IPAUDIOPRO-MIRROR.md
+          if git diff --cached --quiet; then
+            echo "No IPAudioPro catalog changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Mirror IPAudioPro packages under Online4Tech"
+            git push
+          fi
+      - name: Upload IPAudioPro report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: online4tech-ipaudiopro-report
+          path: monitoring/IPAUDIOPRO-MIRROR.md
+          if-no-files-found: ignore
+          retention-days: 30
