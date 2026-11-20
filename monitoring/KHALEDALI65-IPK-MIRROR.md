@@ -1,9 +1,10 @@
-# تقرير حزم IPK المنشورة على Online4Tech
+# تقرير نقل حزم IPK إلى Online4Tech
 
+- الحزم الجديدة في هذه الجولة: 0
 - إجمالي الحزم المنشورة: 166
-- روابط التحميل المستضافة على مستودعنا: 166
+- الملفات المرفوضة في هذه الجولة: 2
 
-> تم التحقق من بنية ملفات IPK وقراءة Package وVersion وArchitecture. هذا فحص للبيانات والبنية وليس مراجعة أمنية للكود الداخلي. راجع توافق الحزمة مع صورة الرسيفر قبل التثبيت.
+> تم فحص بنية IPK وقراءة Package وVersion وArchitecture. هذا فحص بيانات وليس مراجعة أمنية للكود الداخلي؛ راجع التوافق قبل التثبيت.
 
 | الحزمة | الإصدار | المعمارية | رابط Online4Tech |
 |---|---|---|---|
@@ -173,3 +174,7 @@
 | enigma2-plugin-skins-simple-gray | git273-1-124be6c-r0.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/3e2b357f3b80-simple-gray.ipk) |
 | enigma2-plugin-skins-xDreamy | 7.4.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/db8e0b09aad0-xDreamy.ipk) |
 | enigma2-plugin-skins-youchie-pli-fhd-for-bh | v1.0.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/cf4382a3119e-Youchie.ipk) |
+
+## ملفات مرفوضة
+- KhaledAli65/Slot / e2m3u2bouquet.ipk: ليس IPK/ar
+- KhaledAli65/skins / malek.ipk: ليس IPK/ar
