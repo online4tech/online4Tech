@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - ".github/workflows/mirror-ipaudiopro.yml"
+      - ".github/scripts/mirror_ipaudiopro.py"
   schedule:
     - cron: "55 22 * * *"
   workflow_dispatch:
@@ -20,7 +21,7 @@ permissions:
 
 concurrency:
   group: online4tech-catalog-assets
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   mirror-ipaudiopro:
