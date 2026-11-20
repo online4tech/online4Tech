@@ -120,18 +120,8 @@ def upload(path,name,digest,size,assets):
     if not found or found.get('size')!=size or found.get('digest')!='sha256:'+digest:
         target=path.with_name(asset)
         if target!=path: target.write_bytes(path.read_bytes())
-        last_error=''
-        for attempt in range(5):
-            try:
-                gh_retry(['gh','release','upload',TAG,str(target),'--repo',REPO,'--clobber'])
-                time.sleep(2)
-                break
-            except Exception as e:
-                last_error=str(e)
-                if attempt==4: raise
-                time.sleep(60*(attempt+1))
-        else:
-            raise RuntimeError('تعذر الرفع بعد إعادة المحاولة بسبب حدود GitHub: '+last_error[:400])
+        gh_retry(['gh','release','upload',TAG,str(target),'--repo',REPO,'--clobber'])
+        time.sleep(2)
         q=gh_retry(['gh','api',f'repos/{REPO}/releases/tags/{TAG}'])
         assets=json.loads(q.stdout).get('assets',[])
         found=next((x for x in assets if x.get('name')==asset),None)
