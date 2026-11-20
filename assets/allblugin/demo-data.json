@@ -5680,9 +5680,9 @@
       "date": "20 نوفمبر 2026",
       "downloads": 0,
       "keywords": "Novaler Pro OpenATV 8.0.1 multiboxpro 20112026.zip النسخ الاحتياطية Enigma2",
-      "downloadUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/01_OpenATV-8.0.1-multiboxpro_20112026.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
       "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/01_OpenATV-8.0.1-multiboxpro_20112026.zip",
@@ -5697,7 +5697,9 @@
         "members": 4,
         "uncompressedBytes": 316942452,
         "checkedAt": "2026-11-20T20:22:01Z"
-      }
+      },
+      "mirroredAt": "2026-11-20T21:11:12Z",
+      "mirrorDigest": "sha256:b56eb9f430b40905b74cf1289d40d04ffb3739ca16ec4cda707f6aca06cb79f6"
     },
     {
       "id": 4294,
@@ -5710,9 +5712,9 @@
       "date": "20 نوفمبر 2026",
       "downloads": 0,
       "keywords": "Novaler Pro OpenSPA 8.7 multiboxpro 20112026.zip النسخ الاحتياطية Enigma2",
-      "downloadUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/02_OpenSPA-8.7-multiboxpro_20112026.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
       "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/02_OpenSPA-8.7-multiboxpro_20112026.zip",
@@ -5727,7 +5729,9 @@
         "members": 4,
         "uncompressedBytes": 301140532,
         "checkedAt": "2026-11-20T20:22:03Z"
-      }
+      },
+      "mirroredAt": "2026-11-20T21:11:26Z",
+      "mirrorDigest": "sha256:33e04c550aaa394012577e31a8628ad1b1290409a65fba19cd136702e861af01"
     },
     {
       "id": 4295,
@@ -5740,9 +5744,9 @@
       "date": "24 مارس 2026",
       "downloads": 0,
       "keywords": "Novaler Pro EGAMI 11.0 multiboxpro 10112026.zip النسخ الاحتياطية Enigma2",
-      "downloadUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/03_EGAMI-11.0-multiboxpro_10112026.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
       "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/03_EGAMI-11.0-multiboxpro_10112026.zip",
@@ -5757,7 +5761,9 @@
         "members": 4,
         "uncompressedBytes": 251270532,
         "checkedAt": "2026-11-20T20:22:06Z"
-      }
+      },
+      "mirroredAt": "2026-11-20T21:11:38Z",
+      "mirrorDigest": "sha256:35590dba2f7738502fea2b478d0b946ddb4048512fe31cd4b9ed7f6707f80d24"
     },
     {
       "id": 4296,
@@ -5770,9 +5776,9 @@
       "date": "24 مارس 2026",
       "downloads": 0,
       "keywords": "Novaler Pro openHDF 8.0 multiboxpro 09112026.zip النسخ الاحتياطية Enigma2",
-      "downloadUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/04_openHDF-8.0-multiboxpro_09112026.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
       "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/04_openHDF-8.0-multiboxpro_09112026.zip",
@@ -5787,7 +5793,9 @@
         "members": 4,
         "uncompressedBytes": 226094629,
         "checkedAt": "2026-11-20T20:22:09Z"
-      }
+      },
+      "mirroredAt": "2026-11-20T21:11:50Z",
+      "mirrorDigest": "sha256:162c73ea7a946df9916d629b02045bf1cc7a820b401b50b0c97bdbb20c91a36a"
     },
     {
       "id": 4297,
@@ -5800,9 +5808,9 @@
       "date": "24 مارس 2026",
       "downloads": 0,
       "keywords": "Novaler Pro OpenPLi wrynose multiboxpro 09112026.zip النسخ الاحتياطية Enigma2",
-      "downloadUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/05_OpenPLi-wrynose-multiboxpro_09112026.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
       "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/05_OpenPLi-wrynose-multiboxpro_09112026.zip",
@@ -5817,7 +5825,9 @@
         "members": 4,
         "uncompressedBytes": 217267678,
         "checkedAt": "2026-11-20T20:22:11Z"
-      }
+      },
+      "mirroredAt": "2026-11-20T21:11:59Z",
+      "mirrorDigest": "sha256:f698efbd7f9056177490ddae1d0cfd4fdc62726906c63aebf81e2109204926c8"
     },
     {
       "id": 4298,
@@ -5830,9 +5840,9 @@
       "date": "24 مارس 2026",
       "downloads": 0,
       "keywords": "Novaler Pro Teamblue 8.0 multiboxpro 08112026.zip النسخ الاحتياطية Enigma2",
-      "downloadUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/06_Teamblue-8.0-multiboxpro_08112026.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
       "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/06_Teamblue-8.0-multiboxpro_08112026.zip",
@@ -5847,7 +5857,9 @@
         "members": 4,
         "uncompressedBytes": 225085919,
         "checkedAt": "2026-11-20T20:22:12Z"
-      }
+      },
+      "mirroredAt": "2026-11-20T21:12:09Z",
+      "mirrorDigest": "sha256:8f20e62eb42c149619d728eeb99be9bbd6b2f0726c16d4464033924770454efb"
     },
     {
       "id": 4299,
@@ -5860,9 +5872,9 @@
       "date": "24 مارس 2026",
       "downloads": 0,
       "keywords": "Novaler Pro OpenBh 6.0 multiboxpro 08112026.zip النسخ الاحتياطية Enigma2",
-      "downloadUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/07_OpenBh-6.0-multiboxpro_08112026.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
       "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/07_OpenBh-6.0-multiboxpro_08112026.zip",
@@ -5877,7 +5889,9 @@
         "members": 4,
         "uncompressedBytes": 237738088,
         "checkedAt": "2026-11-20T20:22:15Z"
-      }
+      },
+      "mirroredAt": "2026-11-20T21:12:23Z",
+      "mirrorDigest": "sha256:6418e5d01fbf626b2452be40034b5542fd743735e08c275bcc4f6b63728a2f38"
     },
     {
       "id": 4300,
@@ -5890,9 +5904,9 @@
       "date": "24 مارس 2026",
       "downloads": 0,
       "keywords": "Novaler Pro OpenATV 8.1.0 beta multiboxpro 08112026.zip النسخ الاحتياطية Enigma2",
-      "downloadUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
       "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
@@ -5907,7 +5921,9 @@
         "members": 4,
         "uncompressedBytes": 258893827,
         "checkedAt": "2026-11-20T20:22:19Z"
-      }
+      },
+      "mirroredAt": "2026-11-20T21:12:38Z",
+      "mirrorDigest": "sha256:6b8decffc63b5dc4b0c762243599a4a8a2acc2ed70d8167a644a56b5c5bf7c17"
     },
     {
       "id": 4301,
@@ -5920,9 +5936,9 @@
       "date": "24 مارس 2026",
       "downloads": 0,
       "keywords": "Novaler Pro OpenPLi GCC 16.1 novalerpro 19102026.zip النسخ الاحتياطية Enigma2",
-      "downloadUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
       "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
@@ -5937,7 +5953,9 @@
         "members": 4,
         "uncompressedBytes": 285448086,
         "checkedAt": "2026-11-20T20:22:23Z"
-      }
+      },
+      "mirroredAt": "2026-11-20T21:12:50Z",
+      "mirrorDigest": "sha256:269480c393b96f7fc391d948ec12ee7f33cd172e48f713a7b83745fe02b0e3b3"
     },
     {
       "id": 4302,
@@ -5950,9 +5968,9 @@
       "date": "24 مارس 2026",
       "downloads": 0,
       "keywords": "Novaler Pro PurE2 7.6 novalerpro 18102026.zip النسخ الاحتياطية Enigma2",
-      "downloadUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/11_PurE2-7.6-novalerpro_18102026.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
       "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/11_PurE2-7.6-novalerpro_18102026.zip",
@@ -5967,7 +5985,9 @@
         "members": 4,
         "uncompressedBytes": 232509809,
         "checkedAt": "2026-11-20T20:22:26Z"
-      }
+      },
+      "mirroredAt": "2026-11-20T21:13:02Z",
+      "mirrorDigest": "sha256:18867205cf67b0d30587cc4c45a54330f83083a48cc584510638e87c96a7e003"
     },
     {
       "id": 4303,
@@ -5980,9 +6000,9 @@
       "date": "24 مارس 2026",
       "downloads": 0,
       "keywords": "Novaler Pro Hyperion X3 novalerpro 18102026.zip النسخ الاحتياطية Enigma2",
-      "downloadUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/12_Hyperion-X3-novalerpro_18102026.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
       "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/12_Hyperion-X3-novalerpro_18102026.zip",
@@ -5997,7 +6017,9 @@
         "members": 4,
         "uncompressedBytes": 303604936,
         "checkedAt": "2026-11-20T20:22:29Z"
-      }
+      },
+      "mirroredAt": "2026-11-20T21:13:17Z",
+      "mirrorDigest": "sha256:08c14e70bec9ce8466a4ea8463f063969fe4c13a0d034b6c83c92cead19a5997"
     },
     {
       "id": 4304,
@@ -6010,9 +6032,9 @@
       "date": "24 مارس 2026",
       "downloads": 0,
       "keywords": "Novaler Pro نسخة احتياطية النسخ الاحتياطية Enigma2",
-      "downloadUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/13_novalerpro_corvoboys_slot5.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
       "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/13_novalerpro_corvoboys_slot5.zip",
@@ -6027,7 +6049,9 @@
         "members": 3,
         "uncompressedBytes": 320864263,
         "checkedAt": "2026-11-20T20:22:31Z"
-      }
+      },
+      "mirroredAt": "2026-11-20T21:13:25Z",
+      "mirrorDigest": "sha256:3cb2177b23dd01161f370e9dfce45c183ee487e0f959964f30a31609c2d10f69"
     },
     {
       "id": 4305,
@@ -6040,9 +6064,9 @@
       "date": "30 مارس 2026",
       "downloads": 0,
       "keywords": "Vu+ Duo 4K openvix 6.9.007 vuduo4k 19112026.zip النسخ الاحتياطية Enigma2",
-      "downloadUrl": "https://github.com/KhaledAli65/books/releases/download/Vuduo4k/openvix-6.9.007-vuduo4k_19112026.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/588bea701aec-openvix-6.9.007-vuduo4k_19112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/588bea701aec-openvix-6.9.007-vuduo4k_19112026.zip",
       "icon": "💾",
       "compatibility": "Vu+ Duo 4K فقط",
       "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Vuduo4k/openvix-6.9.007-vuduo4k_19112026.zip",
@@ -6057,7 +6081,9 @@
         "members": 9,
         "uncompressedBytes": 277617818,
         "checkedAt": "2026-11-20T20:22:35Z"
-      }
+      },
+      "mirroredAt": "2026-11-20T21:13:36Z",
+      "mirrorDigest": "sha256:588bea701aeccf47a9c117d768f49ef7fdf50b2e1bbd9ce58dc1f21368bcac2f"
     }
   ]
 }
