@@ -5,7 +5,7 @@ on:
     workflows: ["Mirror KhaledAli65 Telnet scripts for review", "Mirror verified KhaledAli65 IPK packages"]
     types: [completed]
   schedule:
-    - cron: "13 */6 * * *"
+    - cron: "13 3 * * *"
   workflow_dispatch:
     inputs:
       retry_mediafire:
