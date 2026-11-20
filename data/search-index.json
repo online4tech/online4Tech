@@ -5986,14 +5986,6 @@
     "type": "Page"
   },
   {
-    "title": "إدارة وإضافة نسخة باك أب",
-    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
-    "url": "https://online4tech.github.io/online4Tech/backups/index.html#backup-manager",
-    "category": "ملفات",
-    "brand": "Online4Tech",
-    "type": "Backups"
-  },
-  {
     "title": "إنشاء ملفات السيرفرات",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#server-files",
@@ -6128,14 +6120,6 @@
     "category": "ملفات",
     "brand": "Vu+",
     "type": "Backups"
-  },
-  {
-    "title": "النسخ المسجلة",
-    "description": "Online4Tech — مكتبة أجهزة Vu+ وDreambox، استعرض موديلات الأجهزة في كروت واضحة.",
-    "url": "https://online4tech.github.io/online4Tech/backups/index.html#backup-manager",
-    "category": "ملفات",
-    "brand": "Online4Tech",
-    "type": "Page"
   },
   {
     "title": "باك أب أجهزة Dreambox",
