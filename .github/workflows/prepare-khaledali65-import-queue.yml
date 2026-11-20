@@ -61,11 +61,13 @@ jobs:
           ]
 
           def classify_model(asset, release):
-              a, r = norm(asset), norm(release)
-              # Require a model token in the asset name; release tag alone is not enough.
+              a = norm(asset)
+              # Explicitly ambiguous recovery/pro variants stay in manual review.
+              if "novaler4kpro" in a:
+                  return None
               checks = [
-                  ("vuzero4k", "vu-zero4k", "Vu+ Zero 4K", "Vu+"),
                   ("vuduo4kse", "vu-duo4kse", "Vu+ Duo 4K SE", "Vu+"),
+                  ("vuzero4k", "vu-zero4k", "Vu+ Zero 4K", "Vu+"),
                   ("vuduo4k", "vu-duo4k", "Vu+ Duo 4K", "Vu+"),
                   ("vuuno4kse", "vu-uno4kse", "Vu+ Uno 4K SE", "Vu+"),
                   ("vuultimo4k", "vu-ultimo4k", "Vu+ Ultimo 4K", "Vu+"),
@@ -78,10 +80,9 @@ jobs:
                   ("novalerse", "novaler-se", "Novaler SE", "Novaler"),
                   ("novaler4k", "novaler-4k", "Novaler 4K", "Novaler"),
               ]
-              matches = [(sub, label, group) for token, sub, label, group in checks if token in a]
-              if len(matches) == 1:
-                  sub, label, group = matches[0]
-                  return {"subcategory": sub, "model": label, "group": group}
+              for token, sub, label, group in checks:
+                  if token in a:
+                      return {"subcategory": sub, "model": label, "group": group}
               return None
 
           queue = []
