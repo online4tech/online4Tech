@@ -198,9 +198,9 @@ def main():
             for sub in group.get("subcategories",[]):
                 sub["count"]=sum(1 for x in items if x.get("category")=="backup" and x.get("subcategory")==sub.get("id"))
         CATALOG.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    lines=["# تقرير استيراد ومزامنة النسخ الاحتياطية","",f"- وقت التنفيذ: {datetime.utcnow().isoformat(timespec='seconds')}Z",f"- النسخ المنقولة إلى Release الخاص بنا: {len(migrated)}",f"- النسخ الجديدة المضافة: {len(published)}",f"- المرفوضة أو غير المكتملة: {len(rejected)}","","> تم فحص ZIP واختبار CRC ومطابقة SHA-256 للنسخ السابقة، ثم رفع الملفات إلى Release الخاص بـ Online4Tech.","","## النسخ المنقولة والمضافة","","| الملف | رابط Online4Tech | الحالة |","|---|---|---|"]
-    for x in migrated: lines.append(f"| {x.get('sourceAssetName','')} | [تحميل من Online4Tech]({x['downloadUrl']}) | تم النقل |")
-    for x in published: lines.append(f"| {x['sourceAssetName']} | [تحميل من Online4Tech]({x['downloadUrl']}) | نسخة جديدة: {x['compatibility']} |")
+    all_mirrored=[x for x in items if x.get("category")=="backup" and "github.com/online4tech/online4Tech/releases/download/" in str(x.get("downloadUrl",""))]
+    lines=["# تقرير استيراد ومزامنة النسخ الاحتياطية","",f"- وقت التنفيذ: {datetime.utcnow().isoformat(timespec='seconds')}Z",f"- النسخ الجديدة في هذه الجولة: {len(published)}",f"- إجمالي النسخ المنشورة بروابط Online4Tech: {len(all_mirrored)}",f"- المرفوضة أو غير المكتملة في هذه الجولة: {len(rejected)}","","> الروابط العامة تشير إلى ملفات مستضافة في مستودع Online4Tech. يتم فحص ZIP وCRC وSHA-256 للنسخ التي تمر عبر مستورد الباك أب.","","## النسخ المنشورة","","| الملف | رابط Online4Tech | التوافق |","|---|---|---|"]
+    for x in all_mirrored: lines.append(f"| {x.get('sourceAssetName') or x.get('name','')} | [تحميل من Online4Tech]({x['downloadUrl']}) | {x.get('compatibility','غير محدد')} |")
     if rejected:
         lines += ["","## المرفوض أو غير المكتمل","","| الملف | السبب |","|---|---|"]
         for x in rejected: lines.append(f"| {x['asset']} | {x['reason']} |")
