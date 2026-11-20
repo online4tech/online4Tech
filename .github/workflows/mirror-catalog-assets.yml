@@ -19,7 +19,7 @@ permissions:
 
 concurrency:
   group: online4tech-catalog-assets
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   mirror-catalog:
