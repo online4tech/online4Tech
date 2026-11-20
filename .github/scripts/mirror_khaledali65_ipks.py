@@ -91,6 +91,7 @@ def main():
         if old is None or (a.get('source_type')=='release_asset' and old.get('source_type')!='release_asset'): selected[k]=a
     candidates=[a for a in selected.values() if a['download_url'] not in known]; candidates.sort(key=lambda a:(a['repository'],a['asset'].lower()))
     nextid=max([int(x.get('id',0)) for x in items if str(x.get('id','')).isdigit()] or [0])+1; added=[]; rejected=[]
+    footer_cmd = "printf '\\n========================================\\n        Online4Tech\\n     خليك دايمًا أونلاين\\n========================================\\nThis package is provided by Online4Tech\\nWebsite: https://online4tech.github.io/online4Tech/\\nBY ahmad Rome7\\n01006699169\\n========================================\\n'"
     release()
     with tempfile.TemporaryDirectory(prefix='o4t-ipk-') as td:
         for a in candidates:
@@ -105,7 +106,6 @@ def main():
             except Exception as e: rejected.append({'repo':a.get('repository'),'asset':a.get('asset'),'reason':str(e)})
     # Apply the Online4Tech identity to every catalog IPK install command.
     # The footer is emitted only when opkg exits successfully.
-    footer_cmd = "printf '\\n========================================\\n        Online4Tech\\n     خليك دايمًا أونلاين\\n========================================\\nThis package is provided by Online4Tech\\nWebsite: https://online4tech.github.io/online4Tech/\\nBY ahmad Rome7\\n01006699169\\n========================================\\n'"
     for row in items:
         if not row.get('packageName'):
             continue
