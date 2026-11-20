@@ -3966,8 +3966,8 @@
       "keywords": "RaedQuickSignal Other fairbird Tools Enigma2 بلجن",
       "icon": "🧩",
       "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh",
-      "installCommand": "opkg update && opkg install wget && wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh -O - | /bin/sh",
-      "command": "opkg update && opkg install wget && wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh -O - | /bin/sh",
+      "installCommand": "opkg update && opkg install wget && wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh -O - | /bin/sh && printf '\\n========================================\\n        Online4Tech\\n     خليك دايمًا أونلاين\\n========================================\\nThis package is provided by Online4Tech\\nWebsite: https://online4tech.github.io/online4Tech/\\nBY ahmad Rome7\\n01006699169\\n========================================\\n'",
+      "command": "opkg update && opkg install wget && wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh -O - | /bin/sh && printf '\\n========================================\\n        Online4Tech\\n     خليك دايمًا أونلاين\\n========================================\\nThis package is provided by Online4Tech\\nWebsite: https://online4tech.github.io/online4Tech/\\nBY ahmad Rome7\\n01006699169\\n========================================\\n'",
       "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
       "originalSourceUrl": "https://github.com/fairbird/RaedQuickSignal",
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh"
