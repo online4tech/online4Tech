@@ -135,9 +135,13 @@ def rewrite(item,mapping):
     for key in ('downloadUrl','command','installCommand','detailUrl','guideUrl'):
         value=item.get(key)
         if isinstance(value,str):
+            original_value=value
             for old,new in mapping.items():
                 if old in value:
                     value=value.replace(old,new); matched.append(new)
+            if value!=original_value:
+                provenance_key={'downloadUrl':'originalDownloadUrl','command':'originalCommand','installCommand':'originalInstallCommand','detailUrl':'originalDetailUrl','guideUrl':'originalGuideUrl'}.get(key)
+                if provenance_key: item[provenance_key]=item.get(provenance_key) or original_value
             item[key]=value
     own_download=item.get('downloadUrl','')
     if isinstance(own_download,str) and '/releases/download/' in own_download and 'github.com/online4tech/online4Tech/' in own_download:
