@@ -46,7 +46,33 @@ def replace_urls(value,mapping):
         for old,new in mapping.items(): value=value.replace(old,new)
         return value
     if isinstance(value,list): return [replace_urls(x,mapping) for x in value]
-    if isinstance(value,dict): return {k:(v if k in ('sourceUrl','sourceRepo','repository') else replace_urls(v,mapping)) for k,v in value.items()}
+    if isinstance(value,dict):
+        result={}
+        matched=[]
+        for key,original in value.items():
+            if key in ('sourceUrl','sourceRepo'):
+                result[key]=original
+                continue
+            updated=replace_urls(original,mapping)
+            result[key]=updated
+            if isinstance(original,str):
+                for old,new in mapping.items():
+                    if old in original: matched.append(new)
+        if matched:
+            primary = result.get('downloadUrl') if isinstance(result.get('downloadUrl'),str) and 'online4tech/online4Tech/releases/download/' in result.get('downloadUrl','') else matched[0]
+            old_source=value.get('sourceUrl')
+            if old_source and not str(old_source).startswith('https://github.com/online4tech/online4Tech/'):
+                result['originalSourceUrl']=value.get('originalSourceUrl') or old_source
+            result['sourceUrl']=primary
+            old_repo=value.get('repoUrl')
+            if old_repo and not str(old_repo).startswith('https://github.com/online4tech/online4Tech/'):
+                result['originalRepoUrl']=value.get('originalRepoUrl') or old_repo
+                result['repoUrl']=f'https://github.com/online4tech/online4Tech/releases/tag/{TAG}'
+            old_detail=value.get('detailUrl')
+            if old_detail and not str(old_detail).startswith('https://github.com/online4tech/online4Tech/'):
+                result['originalDetailUrl']=value.get('originalDetailUrl') or old_detail
+                result['detailUrl']=primary
+        return result
     return value
 
 def main():
