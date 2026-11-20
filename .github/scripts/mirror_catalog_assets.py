@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import hashlib, importlib.util, io, json, re, subprocess, tarfile, tempfile, urllib.request, zipfile
+import hashlib, importlib.util, io, json, re, subprocess, tarfile, tempfile, time, urllib.request, zipfile
 from datetime import datetime
 from pathlib import Path, PurePosixPath
 from urllib.parse import quote, unquote, urlparse
@@ -99,7 +99,19 @@ def upload(path,name,digest,size,assets):
     if not found or found.get('size')!=size or found.get('digest')!='sha256:'+digest:
         target=path.with_name(asset)
         if target!=path: target.write_bytes(path.read_bytes())
-        subprocess.run(['gh','release','upload',TAG,str(target),'--repo',REPO,'--clobber'],check=True)
+        last_error=''
+        for attempt in range(5):
+            result=subprocess.run(['gh','release','upload',TAG,str(target),'--repo',REPO,'--clobber'],capture_output=True,text=True)
+            if result.returncode==0:
+                time.sleep(2)
+                break
+            last_error=(result.stderr or result.stdout or '').strip()
+            if 'rate limit' in last_error.lower() or 'http 403' in last_error.lower():
+                time.sleep(60*(attempt+1))
+                continue
+            raise RuntimeError(last_error or 'فشل رفع الملف إلى Release')
+        else:
+            raise RuntimeError('تعذر الرفع بعد إعادة المحاولة بسبب حدود GitHub: '+last_error[:400])
         q=subprocess.run(['gh','api',f'repos/{REPO}/releases/tags/{TAG}'],capture_output=True,text=True,check=True)
         assets=json.loads(q.stdout).get('assets',[])
         found=next((x for x in assets if x.get('name')==asset),None)
