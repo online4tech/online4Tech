@@ -1,0 +1,189 @@
+name: Prepare KhaledAli65 import queue
+
+on:
+  workflow_run:
+    workflows: ["Monitor KhaledAli65 Enigma2 releases"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: khaledali65-import-queue
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout website repository
+        uses: actions/checkout@v4
+
+      - name: Classify new release assets safely
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, re
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          scan_path = Path("monitoring/khaledali65-latest-scan.json")
+          catalog_path = Path("assets/allblugin/demo-data.json")
+          if not scan_path.exists() or not catalog_path.exists():
+              raise SystemExit("Missing latest scan or website catalog; run the monitoring workflow first.")
+
+          scan = json.loads(scan_path.read_text(encoding="utf-8"))
+          catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
+          items = catalog.get("items", [])
+          known_urls = {x.get("sourceUrl") for x in items if x.get("sourceUrl")}
+          known_names = {x.get("sourceAssetName", "").lower() for x in items if x.get("sourceAssetName")}
+
+          def norm(value):
+              return re.sub(r"[^a-z0-9]+", "", (value or "").lower())
+
+          # Model mapping is deliberately strict. Unknown/ambiguous names are sent to manual review.
+          model_rules = [
+              (("vuzero4k", "vuzero4k"), "vu-zero4k", "Vu+ Zero 4K", "Vu+"),
+              (("vuduo4kse", "vuduo4kse"), "vu-duo4kse", "Vu+ Duo 4K SE", "Vu+"),
+              (("vuduo4k", "vuduo4k"), "vu-duo4k", "Vu+ Duo 4K", "Vu+"),
+              (("vuuno4kse", "vuuno4kse"), "vu-uno4kse", "Vu+ Uno 4K SE", "Vu+"),
+              (("vuultimo4k", "vuultimo4k"), "vu-ultimo4k", "Vu+ Ultimo 4K", "Vu+"),
+              (("vusolo4k", "vusolo4k"), "vu-solo4k", "Vu+ Solo 4K", "Vu+"),
+              (("dreamboxdm two", "dreamboxdmtwo"), "dm-two", "Dreambox DM TWO UHD", "Dreambox"),
+              (("dreamtwo", "dreamtwo"), "dm-two", "Dreambox DM TWO UHD", "Dreambox"),
+              (("multiboxpro", "novalerpro"), "novaler-pro", "Novaler Pro", "Novaler"),
+              (("multiboxse", "novalerse"), "novaler-se", "Novaler SE", "Novaler"),
+              (("novaler4k", "novaler4k"), "novaler-4k", "Novaler 4K", "Novaler"),
+          ]
+
+          def classify_model(asset, release):
+              a, r = norm(asset), norm(release)
+              # Require a model token in the asset name; release tag alone is not enough.
+              checks = [
+                  ("vuzero4k", "vu-zero4k", "Vu+ Zero 4K", "Vu+"),
+                  ("vuduo4kse", "vu-duo4kse", "Vu+ Duo 4K SE", "Vu+"),
+                  ("vuduo4k", "vu-duo4k", "Vu+ Duo 4K", "Vu+"),
+                  ("vuuno4kse", "vu-uno4kse", "Vu+ Uno 4K SE", "Vu+"),
+                  ("vuultimo4k", "vu-ultimo4k", "Vu+ Ultimo 4K", "Vu+"),
+                  ("vusolo4k", "vu-solo4k", "Vu+ Solo 4K", "Vu+"),
+                  ("dreamtwo", "dm-two", "Dreambox DM TWO UHD", "Dreambox"),
+                  ("dmtwo", "dm-two", "Dreambox DM TWO UHD", "Dreambox"),
+                  ("multiboxpro", "novaler-pro", "Novaler Pro", "Novaler"),
+                  ("novalerpro", "novaler-pro", "Novaler Pro", "Novaler"),
+                  ("multiboxse", "novaler-se", "Novaler SE", "Novaler"),
+                  ("novalerse", "novaler-se", "Novaler SE", "Novaler"),
+                  ("novaler4k", "novaler-4k", "Novaler 4K", "Novaler"),
+              ]
+              matches = [(sub, label, group) for token, sub, label, group in checks if token in a]
+              if len(matches) == 1:
+                  sub, label, group = matches[0]
+                  return {"subcategory": sub, "model": label, "group": group}
+              return None
+
+          queue = []
+          for asset in scan.get("assets", []):
+              name = asset.get("asset", "")
+              lower = name.lower()
+              url = asset.get("download_url", "")
+              if not url or url in known_urls or lower in known_names:
+                  continue
+
+              entry = {
+                  "repository": asset.get("repository", ""),
+                  "release": asset.get("release", ""),
+                  "asset": name,
+                  "size": asset.get("size", 0),
+                  "download_url": url,
+                  "release_url": asset.get("release_url", ""),
+                  "published_at": asset.get("published_at", ""),
+              }
+
+              if lower.endswith((".zip", ".tar", ".tar.gz", ".tar.xz", ".tgz", ".nfi", ".img")):
+                  model = classify_model(name, asset.get("release", ""))
+                  if model:
+                      entry.update({"type": "backup", "status": "model_matched_needs_archive_validation", **model})
+                  else:
+                      entry.update({"type": "backup", "status": "manual_model_review"})
+              elif lower.endswith(".ipk"):
+                  entry.update({"type": "plugin_package", "status": "metadata_and_architecture_review_required"})
+              elif lower.endswith(".sh"):
+                  entry.update({"type": "script", "status": "manual_security_review_never_execute"})
+              elif lower.endswith((".txt", ".md", ".json")):
+                  entry.update({"type": "text_or_command", "status": "manual_content_review_never_execute"})
+              else:
+                  entry.update({"type": "other", "status": "manual_review"})
+              queue.append(entry)
+
+          queue.sort(key=lambda x: (x["type"], x["repository"].lower(), x["asset"].lower()))
+          summary = {}
+          for item in queue:
+              key = item["status"]
+              summary[key] = summary.get(key, 0) + 1
+
+          result = {
+              "generated_at": datetime.now(timezone.utc).isoformat(),
+              "source_scan_at": scan.get("generated_at"),
+              "total_new_candidates": len(queue),
+              "summary": summary,
+              "policy": {
+                  "auto_publish": False,
+                  "auto_execute_scripts_or_telnet": False,
+                  "backup_requires_archive_validation": True,
+                  "ipk_requires_control_metadata_and_architecture_validation": True,
+                  "deduplication": "sourceUrl and sourceAssetName against existing catalog items"
+              },
+              "candidates": queue
+          }
+          Path("monitoring/KHALEDALI65-IMPORT-QUEUE.json").write_text(
+              json.dumps(result, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8"
+          )
+
+          lines = [
+              "# قائمة تجهيز الاستيراد — KhaledAli65",
+              "",
+              f"- وقت الإنشاء: {result['generated_at']}",
+              f"- الملفات الجديدة بعد منع التكرار: {len(queue)}",
+              "",
+              "> القائمة لا تنشر أي ملف للموقع. ملفات النسخ الاحتياطية تحتاج فحص محتوى الأرشيف والتوافق، وملفات IPK تحتاج قراءة بيانات الحزمة والمعمارية. لا يتم تشغيل أي سكريبت أو أمر Telnet.",
+              "",
+              "## ملخص التصنيف",
+              "",
+              "| الحالة | العدد |",
+              "|---|---:|",
+          ]
+          for key, count in sorted(summary.items()):
+              lines.append(f"| {key} | {count} |")
+          lines += ["", "## العناصر المرشحة", "", "| النوع | الحالة | الملف | الموديل | الحجم | المصدر |", "|---|---|---|---|---:|---|"]
+          for x in queue:
+              model = x.get("model", "غير محدد")
+              lines.append(f"| {x['type']} | {x['status']} | [{x['asset']}]({x['download_url']}) | {model} | {x['size']:,} bytes | {x['repository']} |")
+          Path("monitoring/KHALEDALI65-IMPORT-QUEUE.md").write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+          print(f"Prepared {len(queue)} new candidates; no website catalog items were published.")
+          PY
+
+      - name: Commit import queue
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -f monitoring/KHALEDALI65-IMPORT-QUEUE.json monitoring/KHALEDALI65-IMPORT-QUEUE.md
+          if git diff --cached --quiet -- monitoring/KHALEDALI65-IMPORT-QUEUE.json monitoring/KHALEDALI65-IMPORT-QUEUE.md; then
+            echo "Import queue unchanged."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Prepare classified KhaledAli65 import queue"
+            git push
+          fi
+
+      - name: Upload import queue
+        uses: actions/upload-artifact@v4
+        with:
+          name: khaledali65-import-queue
+          path: |
+            monitoring/KHALEDALI65-IMPORT-QUEUE.json
+            monitoring/KHALEDALI65-IMPORT-QUEUE.md
+          retention-days: 30
