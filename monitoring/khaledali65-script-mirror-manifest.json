@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T21:31:59Z",
+  "generatedAt": "2026-11-20T21:34:30Z",
   "policy": "manual review only; never execute automatically",
   "files": [
     {
@@ -9,7 +9,7 @@
       "size": 3310,
       "digest": "sha256:1dc76aa587cdbb5c9521ad4c16d4a65fc057e55845b92aad4e6e0218795fe219",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1dc76aa587cd-Backup-backup-se.txt",
-      "mirroredAt": "2026-11-20T21:13:04Z",
+      "mirroredAt": "2026-11-20T21:24:29Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -19,7 +19,7 @@
       "size": 2601,
       "digest": "sha256:4bfe849997c75105dc46bae103db775a7394c82d8bb5c0bc9343101d5df6100c",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4bfe849997c7-Backup-Backup_image_Cloud_More_Panel.sh",
-      "mirroredAt": "2026-11-20T21:13:06Z",
+      "mirroredAt": "2026-11-20T21:24:31Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -29,7 +29,7 @@
       "size": 2606,
       "digest": "sha256:ee51fcdbb5e5569caeffcdb6e36db2dee994822723b11a615519c640295c6df7",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ee51fcdbb5e5-Backup-Backup_image_EMU-ncam.sh",
-      "mirroredAt": "2026-11-20T21:13:08Z",
+      "mirroredAt": "2026-11-20T21:24:33Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -39,7 +39,7 @@
       "size": 2611,
       "digest": "sha256:c46b545d9890c6be557386e8aaa6fc90ad377edd10e7bf525425b6a6e779faa3",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c46b545d9890-Backup-Backup_image_EMU-oscam.sh",
-      "mirroredAt": "2026-11-20T21:13:09Z",
+      "mirroredAt": "2026-11-20T21:24:35Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -49,7 +49,7 @@
       "size": 115,
       "digest": "sha256:921a120f331be8cb3ff576168c46c22401a4d1137bf98be801953abd48b75e49",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/921a120f331b-Backup-Backup_image_FREE-Free_audio.sh",
-      "mirroredAt": "2026-11-20T21:13:11Z",
+      "mirroredAt": "2026-11-20T21:24:38Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -59,7 +59,7 @@
       "size": 11334,
       "digest": "sha256:b0d666550772b2c0556202b7068d5de943ee5775a3e3905991c78737a3867c78",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b0d666550772-Backup-Backup_image_full_image_BH.sh",
-      "mirroredAt": "2026-11-20T21:13:13Z",
+      "mirroredAt": "2026-11-20T21:24:40Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -69,7 +69,7 @@
       "size": 2600,
       "digest": "sha256:74ecf76fb3af7a15c7e677d1667173d776301d61f6940b970eca908739c54d04",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/74ecf76fb3af-Backup-Backup_image_install_khaled_manager.sh",
-      "mirroredAt": "2026-11-20T21:13:15Z",
+      "mirroredAt": "2026-11-20T21:24:42Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -79,7 +79,7 @@
       "size": 1365,
       "digest": "sha256:adfc30f8d79e21b5e89f50e8947eca4c5331738f72a5c09f6f3c2d64c91bdfec",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/adfc30f8d79e-Backup-Backup_image_install_khaled_panel.sh",
-      "mirroredAt": "2026-11-20T21:13:16Z",
+      "mirroredAt": "2026-11-20T21:24:44Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -89,7 +89,7 @@
       "size": 1348,
       "digest": "sha256:15c3a4bbc0fe635f8343e5eb7770af17b57ae564b2c14e60a23ec8b3f2e5abc8",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/15c3a4bbc0fe-Backup-Backup_image_install_khaled_pro.sh",
-      "mirroredAt": "2026-11-20T21:13:18Z",
+      "mirroredAt": "2026-11-20T21:24:47Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -99,7 +99,7 @@
       "size": 2603,
       "digest": "sha256:9ea28754695935c0ad3054ee219d0e9bbd9cb56bf66625123905d5625ba9ce57",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9ea287546959-Backup-Backup_image_install_KhaledCamManager.sh",
-      "mirroredAt": "2026-11-20T21:13:19Z",
+      "mirroredAt": "2026-11-20T21:24:48Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -109,7 +109,7 @@
       "size": 2603,
       "digest": "sha256:3e972caa2cbf6efd35f2c5c2fa06572b0ccd284da5cdb37342c18427851251d3",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3e972caa2cbf-Backup-Backup_image_khaled_free_server.sh",
-      "mirroredAt": "2026-11-20T21:13:21Z",
+      "mirroredAt": "2026-11-20T21:24:51Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -119,7 +119,7 @@
       "size": 2602,
       "digest": "sha256:1fb29ac8290b6cda664e91f89b0135eecbb63b6e3094af691c15ac1aa7637049",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1fb29ac8290b-Backup-Backup_image_Khaled_Uninstaller.sh",
-      "mirroredAt": "2026-11-20T21:13:23Z",
+      "mirroredAt": "2026-11-20T21:24:53Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -129,7 +129,7 @@
       "size": 112,
       "digest": "sha256:91b65da8b76442c4bf0b25d24743fc2e589e5a11af697f9be93d08678f148f6a",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/91b65da8b764-Backup-Backup_image_PANEL-Ajpanel.sh",
-      "mirroredAt": "2026-11-20T21:13:24Z",
+      "mirroredAt": "2026-11-20T21:24:55Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -139,7 +139,7 @@
       "size": 253,
       "digest": "sha256:4b2550dbb27df0228b25c2e9e936ff3c4558c6293caee2c3d09e36a42811c03b",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4b2550dbb27d-Backup-Backup_image_PANEL-Ciefp.sh",
-      "mirroredAt": "2026-11-20T21:13:26Z",
+      "mirroredAt": "2026-11-20T21:24:57Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -149,7 +149,7 @@
       "size": 92,
       "digest": "sha256:cc6705498ada37b42d32fb6b72457cd9492aff6b51cd0323a6a319ef528516cc",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/cc6705498ada-Backup-Backup_image_PANEL-IraqiPanel.sh",
-      "mirroredAt": "2026-11-20T21:13:28Z",
+      "mirroredAt": "2026-11-20T21:24:59Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -159,7 +159,7 @@
       "size": 116,
       "digest": "sha256:366c5734d5d4ce675ef2329bdec7d0a292cefd61c0cc9519450de6ca366795ee",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/366c5734d5d4-Backup-Backup_image_PANEL-Levi45.sh",
-      "mirroredAt": "2026-11-20T21:13:29Z",
+      "mirroredAt": "2026-11-20T21:25:00Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -169,7 +169,7 @@
       "size": 2724,
       "digest": "sha256:efc35ad4427c460c083ecb12b61c2a725e222c6e314917be9cc1bbb63104ec98",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/efc35ad4427c-Backup-Backup_image_picon_sync_fast.sh",
-      "mirroredAt": "2026-11-20T21:13:31Z",
+      "mirroredAt": "2026-11-20T21:25:02Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -179,7 +179,7 @@
       "size": 4456,
       "digest": "sha256:d50efe4e0dbd1deed88e6be1bf42b6ca5010625aa45fb47efd4561779ffeecff",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/d50efe4e0dbd-Backup-Backup_image_PLUGIN-AIsubtitle.sh",
-      "mirroredAt": "2026-11-20T21:13:32Z",
+      "mirroredAt": "2026-11-20T21:25:04Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -189,7 +189,7 @@
       "size": 123,
       "digest": "sha256:a37a085c8c4081caa5c9f1bf30db209668a43a3eddb5b69bb54dfb0bd6171976",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a37a085c8c40-Backup-Backup_image_PLUGIN-Arabicsavior.sh",
-      "mirroredAt": "2026-11-20T21:13:34Z",
+      "mirroredAt": "2026-11-20T21:25:06Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -199,7 +199,7 @@
       "size": 2600,
       "digest": "sha256:4695c9c8ebfbbd84f4c057f9e0dc4d890134be75509bf63196b89263f8887eda",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4695c9c8ebfb-Backup-Backup_image_PLUGIN-AutoDcwKeyAdd.sh",
-      "mirroredAt": "2026-11-20T21:13:36Z",
+      "mirroredAt": "2026-11-20T21:25:08Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -209,7 +209,7 @@
       "size": 5083,
       "digest": "sha256:46bec90f94670755bdf9890c622d163e044d25b18bc1e59a345ffc0ae8a8b00a",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/46bec90f9467-Backup-Backup_image_PLUGIN-ButtonPatcher.sh",
-      "mirroredAt": "2026-11-20T21:13:37Z",
+      "mirroredAt": "2026-11-20T21:25:10Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -219,7 +219,7 @@
       "size": 142,
       "digest": "sha256:fd01400507794279f7ff67e0c8d745f6df093d3830774f7d85ff7bde09262279",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/fd0140050779-Backup-Backup_image_PLUGIN-ClouringServer.sh",
-      "mirroredAt": "2026-11-20T21:13:39Z",
+      "mirroredAt": "2026-11-20T21:25:12Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -229,7 +229,7 @@
       "size": 2603,
       "digest": "sha256:0acaf697d49e9700945f9028e23792e64d25a6a3e05f23c584c2c5527341aefe",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/0acaf697d49e-Backup-Backup_image_PLUGIN-E2BissKeyEditor.sh",
-      "mirroredAt": "2026-11-20T21:13:41Z",
+      "mirroredAt": "2026-11-20T21:25:14Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -239,7 +239,7 @@
       "size": 104,
       "digest": "sha256:2689def13e71fa2de24820f7357ea15f82915830758e9517c3b2256280e8e44a",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2689def13e71-Backup-Backup_image_PLUGIN-Epggrabber.sh",
-      "mirroredAt": "2026-11-20T21:13:42Z",
+      "mirroredAt": "2026-11-20T21:25:16Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -249,7 +249,7 @@
       "size": 2592,
       "digest": "sha256:513ce11d7e63ea5c9f66798017e8c2017e14382e323798704ffd8a3f1fc498c3",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/513ce11d7e63-Backup-Backup_image_PLUGIN-Estalker.sh",
-      "mirroredAt": "2026-11-20T21:13:44Z",
+      "mirroredAt": "2026-11-20T21:25:18Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -259,7 +259,7 @@
       "size": 98,
       "digest": "sha256:9f023b3b6d1b5413e20edeb99b7730b12694164b4b5d55e5856944d31f8f6cdc",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9f023b3b6d1b-Backup-Backup_image_PLUGIN-Footonsat.sh",
-      "mirroredAt": "2026-11-20T21:13:46Z",
+      "mirroredAt": "2026-11-20T21:25:19Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -269,7 +269,7 @@
       "size": 407,
       "digest": "sha256:29ce37bb1a75527f3eae0220a9aa6268e6c74d9c8f0f759b935af8047ddd3903",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/29ce37bb1a75-Backup-Backup_image_PLUGIN-FuryBissPro.sh",
-      "mirroredAt": "2026-11-20T21:13:47Z",
+      "mirroredAt": "2026-11-20T21:25:22Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -279,7 +279,7 @@
       "size": 2599,
       "digest": "sha256:99249143b8f9d7d89b3ddf70735e20cc3fe9a7a857012bba445087f1f39ca650",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/99249143b8f9-Backup-Backup_image_PLUGIN-Getiptvpro.sh",
-      "mirroredAt": "2026-11-20T21:13:49Z",
+      "mirroredAt": "2026-11-20T21:25:24Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -289,7 +289,7 @@
       "size": 2594,
       "digest": "sha256:e79db9b3bc69c5442d767d9e0c1ce1ffe4f71af706c411126f4b69bd469f3008",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e79db9b3bc69-Backup-Backup_image_PLUGIN-Historyzapselector.sh",
-      "mirroredAt": "2026-11-20T21:13:50Z",
+      "mirroredAt": "2026-11-20T21:25:26Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -299,7 +299,7 @@
       "size": 2597,
       "digest": "sha256:efec2bb1657a148fb906dc7f76250de99980e0956a2116ddee61b6b2eac0a6d6",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/efec2bb1657a-Backup-Backup_image_PLUGIN-Ipaudio_nasr.sh",
-      "mirroredAt": "2026-11-20T21:13:52Z",
+      "mirroredAt": "2026-11-20T21:25:28Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -309,7 +309,7 @@
       "size": 131,
       "digest": "sha256:162b4db864c862828568e1619367626f0bc211ffd0ebc6f5a113ce871d744ac4",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/162b4db864c8-Backup-Backup_image_PLUGIN-Ipaudio_pro.sh",
-      "mirroredAt": "2026-11-20T21:13:53Z",
+      "mirroredAt": "2026-11-20T21:25:30Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -319,7 +319,7 @@
       "size": 2594,
       "digest": "sha256:6ea9e15e8b7a48839d2a4e7a294a4d6a26dc83d0a86c1e12a5c23d9d209bc3bd",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/6ea9e15e8b7a-Backup-Backup_image_PLUGIN-Iptosat.sh",
-      "mirroredAt": "2026-11-20T21:13:55Z",
+      "mirroredAt": "2026-11-20T21:25:33Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -329,7 +329,7 @@
       "size": 125,
       "digest": "sha256:e7cd526d2a8e6ef793741b2a5353f73430cbdd80d0b2e218bdc4950ff084cd77",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e7cd526d2a8e-Backup-Backup_image_PLUGIN-IptvAdder.sh",
-      "mirroredAt": "2026-11-20T21:13:56Z",
+      "mirroredAt": "2026-11-20T21:25:34Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -339,7 +339,7 @@
       "size": 2599,
       "digest": "sha256:817eb601523799f34b0d9076c950d8001d4a4e49d3ef38b0d97ab61df9794484",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/817eb6015237-Backup-Backup_image_PLUGIN-Jedimakerxtream.sh",
-      "mirroredAt": "2026-11-20T21:13:58Z",
+      "mirroredAt": "2026-11-20T21:25:36Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -349,7 +349,7 @@
       "size": 2883,
       "digest": "sha256:d0897bbada7e5ee3b8c39872aa23354717ab969225a9888f481cfb9eeeb3700c",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/d0897bbada7e-Backup-Backup_image_PLUGIN-Keyadder.sh",
-      "mirroredAt": "2026-11-20T21:13:59Z",
+      "mirroredAt": "2026-11-20T21:25:39Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -359,7 +359,7 @@
       "size": 149,
       "digest": "sha256:2e574e85f2ef47b96f2e374148b13ffa2ce3584ad8095cbfef689ac1bc390dba",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2e574e85f2ef-Backup-Backup_image_PLUGIN-MultiCamAdd.sh",
-      "mirroredAt": "2026-11-20T21:14:01Z",
+      "mirroredAt": "2026-11-20T21:25:40Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -369,7 +369,7 @@
       "size": 1356,
       "digest": "sha256:f1b4aadf69dedecbc3585cbbe9c41715d6daafad911443e6e33c161b17ead72a",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f1b4aadf69de-Backup-Backup_image_PLUGIN-OrangeAudio.sh",
-      "mirroredAt": "2026-11-20T21:14:03Z",
+      "mirroredAt": "2026-11-20T21:25:42Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -379,7 +379,7 @@
       "size": 127,
       "digest": "sha256:07ae583cd7dd871c24d8a3be9de8e8fb22ab7c3728ea4c9b4f0046d305e11489",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/07ae583cd7dd-Backup-Backup_image_PLUGIN-Raedquicksignal.sh",
-      "mirroredAt": "2026-11-20T21:14:04Z",
+      "mirroredAt": "2026-11-20T21:25:44Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -389,7 +389,7 @@
       "size": 2595,
       "digest": "sha256:bd429be2bbe1e25badc3e7dfb1e008108f36c0a92a4db0d81e7b473064803786",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/bd429be2bbe1-Backup-Backup_image_PLUGIN-Setpicon.sh",
-      "mirroredAt": "2026-11-20T21:14:06Z",
+      "mirroredAt": "2026-11-20T21:25:46Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -399,7 +399,7 @@
       "size": 92,
       "digest": "sha256:9b76ea8c2f26c9f447b4274e80376bbe12246b825dbaef402dbb8509deb80da6",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9b76ea8c2f26-Backup-Backup_image_PLUGIN-Sherlock.sh",
-      "mirroredAt": "2026-11-20T21:14:07Z",
+      "mirroredAt": "2026-11-20T21:25:48Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -409,7 +409,7 @@
       "size": 308,
       "digest": "sha256:b2c5a73318d22e49c50e8f58a3a138da52182ff6decf2a73271561ef3895e1f8",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b2c5a73318d2-Backup-Backup_image_PLUGIN-SimplySports.sh",
-      "mirroredAt": "2026-11-20T21:14:09Z",
+      "mirroredAt": "2026-11-20T21:25:50Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -419,7 +419,7 @@
       "size": 155,
       "digest": "sha256:85ad7ccac38a70e58f63ec71167afb8afc74f7d7376a7baee72f2c28aceb85ac",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/85ad7ccac38a-Backup-Backup_image_PLUGIN-Supssupport.sh",
-      "mirroredAt": "2026-11-20T21:14:11Z",
+      "mirroredAt": "2026-11-20T21:25:52Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -429,7 +429,7 @@
       "size": 128,
       "digest": "sha256:c025c1b15c863a0bea266e28eedc75ba2f47b6bf423e58064df4360cafd38bc8",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c025c1b15c86-Backup-Backup_image_PLUGIN-Supssupport_Pro.sh",
-      "mirroredAt": "2026-11-20T21:14:12Z",
+      "mirroredAt": "2026-11-20T21:25:54Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -439,7 +439,7 @@
       "size": 91,
       "digest": "sha256:a5ab411bfee1b4a285fe95e820c1096ff33fa48dc9ae43491e7ce67bed47e915",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a5ab411bfee1-Backup-Backup_image_PLUGIN-UltraStalker.sh",
-      "mirroredAt": "2026-11-20T21:14:14Z",
+      "mirroredAt": "2026-11-20T21:25:55Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -449,7 +449,7 @@
       "size": 131,
       "digest": "sha256:e70a4cfcf858089a0a735b2ba0d5dd9690f2e1473c8744d9cfc7ec18ba5de22e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e70a4cfcf858-Backup-Backup_image_PLUGIN-Xcpluginforever.sh",
-      "mirroredAt": "2026-11-20T21:14:16Z",
+      "mirroredAt": "2026-11-20T21:25:57Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -459,7 +459,7 @@
       "size": 87,
       "digest": "sha256:12499a6cfc6eec3748165f1108a2ec2f4e14ee2d52671399fa78a6be1abaa090",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/12499a6cfc6e-Backup-Backup_image_PLUGIN-XKlass.sh",
-      "mirroredAt": "2026-11-20T21:14:17Z",
+      "mirroredAt": "2026-11-20T21:25:59Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -469,7 +469,7 @@
       "size": 118,
       "digest": "sha256:8000a43c7a5ac5463281c89404f13e625555509793a7da0114afe74cde2a3665",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8000a43c7a5a-Backup-Backup_image_PLUGIN-XmlSatellitesUpdates.sh",
-      "mirroredAt": "2026-11-20T21:14:19Z",
+      "mirroredAt": "2026-11-20T21:26:01Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -479,7 +479,7 @@
       "size": 135,
       "digest": "sha256:36968d1dd949d38be813a748deb56347ac243935c2769f30f18ffd8485585e35",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/36968d1dd949-Backup-Backup_image_PLUGIN-Xportal.sh",
-      "mirroredAt": "2026-11-20T21:14:20Z",
+      "mirroredAt": "2026-11-20T21:26:03Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -489,7 +489,7 @@
       "size": 2593,
       "digest": "sha256:412a323d51cf97416e276deb567541945d13864d3f0d87cce5d4d83031daa7e7",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/412a323d51cf-Backup-Backup_image_PLUGIN-Xstreamity.sh",
-      "mirroredAt": "2026-11-20T21:14:22Z",
+      "mirroredAt": "2026-11-20T21:26:05Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -499,7 +499,7 @@
       "size": 2593,
       "digest": "sha256:68eafdb4a15d4ef57826f55d17aab73adda3f3ee3b219141f795c9414eabf0f2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/68eafdb4a15d-Backup-Backup_image_PLUGIN-Xtraevent.sh",
-      "mirroredAt": "2026-11-20T21:14:23Z",
+      "mirroredAt": "2026-11-20T21:26:06Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -509,7 +509,7 @@
       "size": 115,
       "digest": "sha256:f8c13119760f39868a50f36360cfed53ce6b15c39ff417587938868a768d97c5",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f8c13119760f-Backup-Backup_image_PLUGIN-Xtream2audio.sh",
-      "mirroredAt": "2026-11-20T21:14:25Z",
+      "mirroredAt": "2026-11-20T21:26:08Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -519,7 +519,7 @@
       "size": 139,
       "digest": "sha256:c49208ee519309e72cd588dc31bff34c3187b3f442869a2dfcab946bd8c4b6f7",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c49208ee5193-Backup-Backup_image_PLUGIN-XtreamNew.sh",
-      "mirroredAt": "2026-11-20T21:14:26Z",
+      "mirroredAt": "2026-11-20T21:26:11Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -529,7 +529,7 @@
       "size": 137,
       "digest": "sha256:f2fd8a031ac7d594b1d30c54c1e3486094e71fff55261e6c26a70dd202951075",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f2fd8a031ac7-Backup-Backup_image_PLUGIN-Youtube.sh",
-      "mirroredAt": "2026-11-20T21:14:28Z",
+      "mirroredAt": "2026-11-20T21:26:13Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -539,7 +539,7 @@
       "size": 138,
       "digest": "sha256:2c4f70be7ebffbd1a08f3cca6ef30747b0c75f3e8082267046fa500af2462ccb",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2c4f70be7ebf-Backup-Backup_image_SKIN-aglare.sh",
-      "mirroredAt": "2026-11-20T21:14:29Z",
+      "mirroredAt": "2026-11-20T21:26:15Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -549,7 +549,7 @@
       "size": 2591,
       "digest": "sha256:2b2516246569770a600fe5189dcdc8a70d2b93d89e43f855f477b748d555701e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2b2516246569-Backup-Backup_image_SKIN-jihad.sh",
-      "mirroredAt": "2026-11-20T21:14:31Z",
+      "mirroredAt": "2026-11-20T21:26:17Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -559,7 +559,7 @@
       "size": 132,
       "digest": "sha256:6484c92376cebc93969e29a2522d187ffc6891ba151c71eb57a7868a722d117b",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/6484c92376ce-Backup-Backup_image_SKIN-xdreamy.sh",
-      "mirroredAt": "2026-11-20T21:14:33Z",
+      "mirroredAt": "2026-11-20T21:26:19Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -569,7 +569,7 @@
       "size": 2587,
       "digest": "sha256:d790a4e1fc747ea79f384819be0ac7743f0137d4b671f46a0d9cc07c14a3b305",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/d790a4e1fc74-Backup-Backup_image_SKIN-youchie.sh",
-      "mirroredAt": "2026-11-20T21:14:34Z",
+      "mirroredAt": "2026-11-20T21:26:21Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -579,7 +579,7 @@
       "size": 75,
       "digest": "sha256:c02429402cf0642403573f1444160b1948b57bc946af722b2ff207eb2ecda2c1",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c02429402cf0-Backup-Backup_image_TOOL-Curl.sh",
-      "mirroredAt": "2026-11-20T21:14:36Z",
+      "mirroredAt": "2026-11-20T21:26:23Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -589,7 +589,7 @@
       "size": 112,
       "digest": "sha256:d0c22123dd5766715a069fa30a35ffcd4e9836caba34dc0b6fbe1f92ecb94d80",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/d0c22123dd57-Backup-Backup_image_TOOL-DNS_google.sh",
-      "mirroredAt": "2026-11-20T21:14:38Z",
+      "mirroredAt": "2026-11-20T21:26:25Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -599,7 +599,7 @@
       "size": 2598,
       "digest": "sha256:720b74070d874654b0140b5c0e39d145f127e1eb13347c11e121a6ce3712eeea",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/720b74070d87-Backup-Backup_image_TOOL-Khaled_Channels_fullsat.sh",
-      "mirroredAt": "2026-11-20T21:14:39Z",
+      "mirroredAt": "2026-11-20T21:26:27Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -609,7 +609,7 @@
       "size": 960,
       "digest": "sha256:3e68a81ae19e8c1fb249aeb045b71635408ef9647d82b052dc66a8dd57ca0f8f",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3e68a81ae19e-Backup-Backup_image_TOOL-KhaledEpg.sh",
-      "mirroredAt": "2026-11-20T21:14:41Z",
+      "mirroredAt": "2026-11-20T21:26:29Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -619,7 +619,7 @@
       "size": 867,
       "digest": "sha256:13fdbb614e5fa766194fd61ded0355968539fdbf1389d8036195145acbfb9200",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/13fdbb614e5f-Backup-Backup_image_TOOL-Satellites_org.sh",
-      "mirroredAt": "2026-11-20T21:14:42Z",
+      "mirroredAt": "2026-11-20T21:26:31Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -629,7 +629,7 @@
       "size": 2653,
       "digest": "sha256:f20739b35c9b337162d7f50cd8e19e93c4217c6468c607c68905b1c31e975566",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f20739b35c9b-Backup-Backup_image_update_channels.sh",
-      "mirroredAt": "2026-11-20T21:14:44Z",
+      "mirroredAt": "2026-11-20T21:26:33Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -639,7 +639,7 @@
       "size": 2600,
       "digest": "sha256:1fbc60d450261d80a82ee8a0a2343e5d6c3e537560a51213ea70a7fadf6ec7fe",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1fbc60d45026-Backup-Backup_image_XtreamAndroid.sh",
-      "mirroredAt": "2026-11-20T21:14:45Z",
+      "mirroredAt": "2026-11-20T21:26:35Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -649,7 +649,7 @@
       "size": 2680,
       "digest": "sha256:ebb7a37e91506037de70e2a3bcc651f6095babab105367cfb0da6f9826cc0bb2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ebb7a37e9150-Backup-download_channels.sh",
-      "mirroredAt": "2026-11-20T21:14:47Z",
+      "mirroredAt": "2026-11-20T21:26:37Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -659,7 +659,7 @@
       "size": 2347,
       "digest": "sha256:e8e6192a16dc1c37abd99bc1c6e8a7643ca0fdb0d7ef79793a1c900d5a2e6bdd",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e8e6192a16dc-Backup-download_picons.sh",
-      "mirroredAt": "2026-11-20T21:14:49Z",
+      "mirroredAt": "2026-11-20T21:26:39Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -669,7 +669,7 @@
       "size": 2603,
       "digest": "sha256:9ea28754695935c0ad3054ee219d0e9bbd9cb56bf66625123905d5625ba9ce57",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9ea287546959-Backup-install_KhaledCamManager.sh",
-      "mirroredAt": "2026-11-20T21:14:50Z",
+      "mirroredAt": "2026-11-20T21:26:41Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -679,7 +679,7 @@
       "size": 2100,
       "digest": "sha256:28353e331bd864fd87ef0a081e27e864615b429e5642eeb9fccbfaa346007518",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/28353e331bd8-books-install.sh",
-      "mirroredAt": "2026-11-20T21:14:52Z",
+      "mirroredAt": "2026-11-20T21:26:43Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -689,7 +689,7 @@
       "size": 2033,
       "digest": "sha256:266de62133873b932e27dfc3af9eed024f484fab94d057dfdc84419801ddb11e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/266de6213387-books-khaled_restore.sh",
-      "mirroredAt": "2026-11-20T21:14:54Z",
+      "mirroredAt": "2026-11-20T21:26:45Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -699,7 +699,7 @@
       "size": 90,
       "digest": "sha256:1de7ece0d2c9d9475506f0a358d9449f9c0ddf0dba4410e4c160314b11386f8b",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1de7ece0d2c9-books-whitelist.txt",
-      "mirroredAt": "2026-11-20T21:14:55Z",
+      "mirroredAt": "2026-11-20T21:26:47Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -709,7 +709,7 @@
       "size": 2601,
       "digest": "sha256:4bfe849997c75105dc46bae103db775a7394c82d8bb5c0bc9343101d5df6100c",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4bfe849997c7-Channels-Cloud_More_Panel.sh",
-      "mirroredAt": "2026-11-20T21:14:57Z",
+      "mirroredAt": "2026-11-20T21:26:49Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -719,7 +719,7 @@
       "size": 79,
       "digest": "sha256:e5c689cc7c5a232985b59f6bfefb8152fa295f6c5205dde82bd5d0924a74e443",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e5c689cc7c5a-Channels-EMU-cccam.sh",
-      "mirroredAt": "2026-11-20T21:14:59Z",
+      "mirroredAt": "2026-11-20T21:26:50Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -729,7 +729,7 @@
       "size": 83,
       "digest": "sha256:6d13f95c7559281c21f669f5ae108032e93a38e0e61b24ad60392eccf0b7fb63",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/6d13f95c7559-Channels-EMU-gosatplus.sh",
-      "mirroredAt": "2026-11-20T21:15:01Z",
+      "mirroredAt": "2026-11-20T21:26:53Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -739,7 +739,7 @@
       "size": 2606,
       "digest": "sha256:ee51fcdbb5e5569caeffcdb6e36db2dee994822723b11a615519c640295c6df7",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ee51fcdbb5e5-Channels-EMU-ncam.sh",
-      "mirroredAt": "2026-11-20T21:15:02Z",
+      "mirroredAt": "2026-11-20T21:26:55Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -749,7 +749,7 @@
       "size": 110,
       "digest": "sha256:80e0e715353016817ef6e2c58ddbf5d07b9aab7e543ad7f917e62587e38c501e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/80e0e7153530-Channels-EMU-ncam_gosatplus.sh",
-      "mirroredAt": "2026-11-20T21:15:04Z",
+      "mirroredAt": "2026-11-20T21:26:57Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -759,7 +759,7 @@
       "size": 109,
       "digest": "sha256:513f5594e1067638da511fb2b31779ad7c3ed8441188f3d2ca3ce2ca9974dd68",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/513f5594e106-Channels-EMU-ncam_powercam.sh",
-      "mirroredAt": "2026-11-20T21:15:06Z",
+      "mirroredAt": "2026-11-20T21:26:59Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -769,7 +769,7 @@
       "size": 107,
       "digest": "sha256:0af4b56a425b15552268c3256e46479aaddb73bc397dc942287b2f0be2bdaadd",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/0af4b56a425b-Channels-EMU-ncam_revcam.sh",
-      "mirroredAt": "2026-11-20T21:15:09Z",
+      "mirroredAt": "2026-11-20T21:27:00Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -779,7 +779,7 @@
       "size": 107,
       "digest": "sha256:08ae5454f635a062236306c9527170eef179dafdc89274244f8e591abb898a5c",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/08ae5454f635-Channels-EMU-ncam_subcam.sh",
-      "mirroredAt": "2026-11-20T21:15:11Z",
+      "mirroredAt": "2026-11-20T21:27:03Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -789,7 +789,7 @@
       "size": 109,
       "digest": "sha256:5642e591ffc2a91e263db2f3c8da364881b660b84d93d65f5d080d4683b8d162",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/5642e591ffc2-Channels-EMU-ncam_ultracam.sh",
-      "mirroredAt": "2026-11-20T21:15:13Z",
+      "mirroredAt": "2026-11-20T21:27:04Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -799,7 +799,7 @@
       "size": 2611,
       "digest": "sha256:c46b545d9890c6be557386e8aaa6fc90ad377edd10e7bf525425b6a6e779faa3",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c46b545d9890-Channels-EMU-oscam.sh",
-      "mirroredAt": "2026-11-20T21:15:14Z",
+      "mirroredAt": "2026-11-20T21:27:07Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -809,7 +809,7 @@
       "size": 111,
       "digest": "sha256:536f0343e76b0695a749ad27a97a44e2d1a64cbbf4b96a485809780b119a7761",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/536f0343e76b-Channels-EMU-oscam_gosatplus.sh",
-      "mirroredAt": "2026-11-20T21:15:16Z",
+      "mirroredAt": "2026-11-20T21:27:08Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -819,7 +819,7 @@
       "size": 105,
       "digest": "sha256:e2e84f304c02435da1df6b445af978f0e6ab6c018da34eac63d0ea5b33dccdf9",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e2e84f304c02-Channels-EMU-oscam_icam.sh",
-      "mirroredAt": "2026-11-20T21:15:18Z",
+      "mirroredAt": "2026-11-20T21:27:10Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -829,7 +829,7 @@
       "size": 110,
       "digest": "sha256:4ca08ab7b471f7a0c5a1a0ad22a8c8b8428bf38b645719ddf89e1777b928382f",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4ca08ab7b471-Channels-EMU-oscam_powercam.sh",
-      "mirroredAt": "2026-11-20T21:15:20Z",
+      "mirroredAt": "2026-11-20T21:27:12Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -839,7 +839,7 @@
       "size": 108,
       "digest": "sha256:c74fd450dfbc64976a192b2eeeed0f556a81016f56b9d04bfbddb12ba409e01e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c74fd450dfbc-Channels-EMU-oscam_revcam.sh",
-      "mirroredAt": "2026-11-20T21:15:22Z",
+      "mirroredAt": "2026-11-20T21:27:14Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -849,7 +849,7 @@
       "size": 108,
       "digest": "sha256:5fc6825946bcec7f53563e66b380d4fb6cd2b1a59edf6519a7ae787cccbc2ebd",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/5fc6825946bc-Channels-EMU-oscam_supcam.sh",
-      "mirroredAt": "2026-11-20T21:15:24Z",
+      "mirroredAt": "2026-11-20T21:27:16Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -859,7 +859,7 @@
       "size": 110,
       "digest": "sha256:4af208b3d6488a23cfaa1fc741ffee483cc331615a377dd4f7abe1666c4a5395",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4af208b3d648-Channels-EMU-oscam_ultracam.sh",
-      "mirroredAt": "2026-11-20T21:15:25Z",
+      "mirroredAt": "2026-11-20T21:27:18Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -869,7 +869,7 @@
       "size": 104,
       "digest": "sha256:51e1750743656c6b827249cf8ba734de675f4e144425db2c8d8720261d0061f1",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/51e175074365-Channels-EMU-powercam.sh",
-      "mirroredAt": "2026-11-20T21:15:28Z",
+      "mirroredAt": "2026-11-20T21:27:20Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -879,7 +879,7 @@
       "size": 95,
       "digest": "sha256:f4c200c6bb629492e433a3290cbcfdc4a4c282fc1b508e31fe069cbee346c7b2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f4c200c6bb62-Channels-EMU-revcam.sh",
-      "mirroredAt": "2026-11-20T21:15:30Z",
+      "mirroredAt": "2026-11-20T21:27:22Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -889,7 +889,7 @@
       "size": 104,
       "digest": "sha256:492a3a1be86f9c3281fd00e60a0c3d6766c2f080e4242b7bcdbd0cb220f8271a",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/492a3a1be86f-Channels-EMU-ultracam.sh",
-      "mirroredAt": "2026-11-20T21:15:32Z",
+      "mirroredAt": "2026-11-20T21:27:24Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -899,7 +899,7 @@
       "size": 95,
       "digest": "sha256:35536a0f110776fc770182a576e39516cde113c07c7a34fbfe657b15d6cb0383",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/35536a0f1107-Channels-Emu_service.sh",
-      "mirroredAt": "2026-11-20T21:15:34Z",
+      "mirroredAt": "2026-11-20T21:27:26Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -909,7 +909,7 @@
       "size": 115,
       "digest": "sha256:921a120f331be8cb3ff576168c46c22401a4d1137bf98be801953abd48b75e49",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/921a120f331b-Channels-FREE-Free_audio.sh",
-      "mirroredAt": "2026-11-20T21:15:35Z",
+      "mirroredAt": "2026-11-20T21:27:28Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -919,7 +919,7 @@
       "size": 14856,
       "digest": "sha256:e57a12e0b74328f36bb4653aa9cbbac7e5256c516299bd174072677dfc32555d",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e57a12e0b743-Channels-FREE-Free_Cccam.sh",
-      "mirroredAt": "2026-11-20T21:15:37Z",
+      "mirroredAt": "2026-11-20T21:27:29Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -929,7 +929,7 @@
       "size": 34184,
       "digest": "sha256:e872a59c838f08373b4ee1c6ee5da699a502534f338bb10a21c9c00ac8ed3b04",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e872a59c838f-Channels-FREE-Free_Server.sh",
-      "mirroredAt": "2026-11-20T21:15:39Z",
+      "mirroredAt": "2026-11-20T21:27:31Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -939,7 +939,7 @@
       "size": 234,
       "digest": "sha256:9b13adb9a912477d6259fab12352023442845ec36ea13761275d88cfe136e132",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9b13adb9a912-Channels-FREE-Free_Servers.sh",
-      "mirroredAt": "2026-11-20T21:15:41Z",
+      "mirroredAt": "2026-11-20T21:27:33Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -949,7 +949,7 @@
       "size": 210,
       "digest": "sha256:aa43e99c5c66f1857ce2a297f5b38d7a64caa27f97341985da50661524146b92",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/aa43e99c5c66-Channels-FREE-Free_Servers_levi45.sh",
-      "mirroredAt": "2026-11-20T21:15:43Z",
+      "mirroredAt": "2026-11-20T21:27:35Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -959,7 +959,7 @@
       "size": 11752,
       "digest": "sha256:cfcc2cc3f1a5f55d8249feb0a5d04065889d6d4ea8ee54a45fa1a00c617f11fb",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/cfcc2cc3f1a5-Channels-full_image_ATV.sh",
-      "mirroredAt": "2026-11-20T21:15:45Z",
+      "mirroredAt": "2026-11-20T21:27:37Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -969,7 +969,7 @@
       "size": 11860,
       "digest": "sha256:64f54f751b78f28cb735bcb597d9fd79b262528f50650e61fa730d17b380481f",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/64f54f751b78-Channels-full_image_BH.sh",
-      "mirroredAt": "2026-11-20T21:15:46Z",
+      "mirroredAt": "2026-11-20T21:27:39Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -979,7 +979,7 @@
       "size": 11993,
       "digest": "sha256:dc29221079e3e3cad0a7c024568641b069161dc545874c700b867fdef44e7632",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/dc29221079e3-Channels-full_image_EGAMI.sh",
-      "mirroredAt": "2026-11-20T21:15:48Z",
+      "mirroredAt": "2026-11-20T21:27:41Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -989,7 +989,7 @@
       "size": 11861,
       "digest": "sha256:a09bc50c166fc1b2c2cc873dcf0089c21d14a79c0cc7db447fa781711b65fe35",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a09bc50c166f-Channels-full_image_PLI.sh",
-      "mirroredAt": "2026-11-20T21:15:50Z",
+      "mirroredAt": "2026-11-20T21:27:42Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -999,7 +999,7 @@
       "size": 11990,
       "digest": "sha256:3a6b5bcfaad665cedb5f21149d6ab35e24399c106e1997f7b85ef1f49dac397d",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3a6b5bcfaad6-Channels-full_image_PUR.sh",
-      "mirroredAt": "2026-11-20T21:15:52Z",
+      "mirroredAt": "2026-11-20T21:27:44Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1009,7 +1009,7 @@
       "size": 11873,
       "digest": "sha256:61bd5876dab5808c48a4481a13b757483a2fa5cbbf739c4b3aa71a97946a9eaf",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/61bd5876dab5-Channels-full_image_SPA.sh",
-      "mirroredAt": "2026-11-20T21:15:54Z",
+      "mirroredAt": "2026-11-20T21:27:46Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1019,7 +1019,7 @@
       "size": 11860,
       "digest": "sha256:64f54f751b78f28cb735bcb597d9fd79b262528f50650e61fa730d17b380481f",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/64f54f751b78-Channels-full_image_VIX.sh",
-      "mirroredAt": "2026-11-20T21:15:55Z",
+      "mirroredAt": "2026-11-20T21:27:48Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1029,7 +1029,7 @@
       "size": 2261,
       "digest": "sha256:1ea8575a811149c63ec50a65ef563e2019fb0813cad6ee34b4ef93a260d7bbea",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1ea8575a8111-Channels-Global_Channel_Restore.sh",
-      "mirroredAt": "2026-11-20T21:15:57Z",
+      "mirroredAt": "2026-11-20T21:27:49Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1039,7 +1039,7 @@
       "size": 8645,
       "digest": "sha256:5fb0ff6c0c7bfd53cdcabf64fcbe0f75859088cb1b4060a7f1d45dbcdea7f50e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/5fb0ff6c0c7b-Channels-Global_Channels_Backup.sh",
-      "mirroredAt": "2026-11-20T21:15:59Z",
+      "mirroredAt": "2026-11-20T21:27:51Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1049,7 +1049,7 @@
       "size": 2600,
       "digest": "sha256:74ecf76fb3af7a15c7e677d1667173d776301d61f6940b970eca908739c54d04",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/74ecf76fb3af-Channels-install_khaled_manager.sh",
-      "mirroredAt": "2026-11-20T21:16:01Z",
+      "mirroredAt": "2026-11-20T21:27:53Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1059,7 +1059,7 @@
       "size": 1365,
       "digest": "sha256:adfc30f8d79e21b5e89f50e8947eca4c5331738f72a5c09f6f3c2d64c91bdfec",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/adfc30f8d79e-Channels-install_khaled_panel.sh",
-      "mirroredAt": "2026-11-20T21:16:03Z",
+      "mirroredAt": "2026-11-20T21:27:55Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1069,7 +1069,7 @@
       "size": 1348,
       "digest": "sha256:15c3a4bbc0fe635f8343e5eb7770af17b57ae564b2c14e60a23ec8b3f2e5abc8",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/15c3a4bbc0fe-Channels-install_khaled_pro.sh",
-      "mirroredAt": "2026-11-20T21:16:05Z",
+      "mirroredAt": "2026-11-20T21:27:57Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1079,7 +1079,7 @@
       "size": 2603,
       "digest": "sha256:9ea28754695935c0ad3054ee219d0e9bbd9cb56bf66625123905d5625ba9ce57",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9ea287546959-Channels-install_KhaledCamManager.sh",
-      "mirroredAt": "2026-11-20T21:16:07Z",
+      "mirroredAt": "2026-11-20T21:27:59Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1089,7 +1089,7 @@
       "size": 2603,
       "digest": "sha256:3e972caa2cbf6efd35f2c5c2fa06572b0ccd284da5cdb37342c18427851251d3",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3e972caa2cbf-Channels-khaled_free_server.sh",
-      "mirroredAt": "2026-11-20T21:16:09Z",
+      "mirroredAt": "2026-11-20T21:28:01Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1099,7 +1099,7 @@
       "size": 2602,
       "digest": "sha256:1fb29ac8290b6cda664e91f89b0135eecbb63b6e3094af691c15ac1aa7637049",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1fb29ac8290b-Channels-Khaled_Uninstaller.sh",
-      "mirroredAt": "2026-11-20T21:16:10Z",
+      "mirroredAt": "2026-11-20T21:28:03Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1109,7 +1109,7 @@
       "size": 9421,
       "digest": "sha256:07ea5a55ddd61133ad34af07ce8636ba99c1267457ebf325e2b635681435c7e4",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/07ea5a55ddd6-Channels-khaled_universal_full_backup.sh",
-      "mirroredAt": "2026-11-20T21:16:12Z",
+      "mirroredAt": "2026-11-20T21:28:04Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1119,7 +1119,7 @@
       "size": 2596,
       "digest": "sha256:c8b81cb05305bbed9f0c27a5d298a3f9854fa63fa34744fe7bb80a45021d3cf7",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c8b81cb05305-Channels-KhaledEpg_AI.sh",
-      "mirroredAt": "2026-11-20T21:16:15Z",
+      "mirroredAt": "2026-11-20T21:28:06Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1129,7 +1129,7 @@
       "size": 4469,
       "digest": "sha256:ee371b3e50171aedb7e9e33b2360e7afefe7b012b20bb1bbc50f8df19c845258",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ee371b3e5017-Channels-master_backup.sh",
-      "mirroredAt": "2026-11-20T21:16:17Z",
+      "mirroredAt": "2026-11-20T21:28:08Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1139,7 +1139,7 @@
       "size": 2600,
       "digest": "sha256:843655f701c26f7a7b11aadbc7cb71c09cc91ade8f40e4056866ff0ea7540068",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/843655f701c2-Channels-Novaler_MultiBoot.sh",
-      "mirroredAt": "2026-11-20T21:16:19Z",
+      "mirroredAt": "2026-11-20T21:28:10Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1149,7 +1149,7 @@
       "size": 2603,
       "digest": "sha256:7ccc679029db4161ce1d4d21ff937c1737ca02ebc707438f8adda8c0335bb4fa",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7ccc679029db-Channels-Novaler_MultiBoot_HDD.sh",
-      "mirroredAt": "2026-11-20T21:16:21Z",
+      "mirroredAt": "2026-11-20T21:28:12Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1159,7 +1159,7 @@
       "size": 2603,
       "digest": "sha256:3c27a6bfc94c19b43c6f1c2a6ad8e2af4e21ddb1c6b9dba49016b01ea4cd4842",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3c27a6bfc94c-Channels-Novaler_MultiBoot_USB.sh",
-      "mirroredAt": "2026-11-20T21:16:23Z",
+      "mirroredAt": "2026-11-20T21:28:14Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1169,7 +1169,7 @@
       "size": 102,
       "digest": "sha256:73cae26b9ea91318fd2c76d9ce5f05b679f930aa5aa385e6118920ade2800146",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/73cae26b9ea9-Channels-PANEL-AIO_Panel.sh",
-      "mirroredAt": "2026-11-20T21:16:25Z",
+      "mirroredAt": "2026-11-20T21:28:16Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1179,7 +1179,7 @@
       "size": 112,
       "digest": "sha256:91b65da8b76442c4bf0b25d24743fc2e589e5a11af697f9be93d08678f148f6a",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/91b65da8b764-Channels-PANEL-Ajpanel.sh",
-      "mirroredAt": "2026-11-20T21:16:27Z",
+      "mirroredAt": "2026-11-20T21:28:17Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1189,7 +1189,7 @@
       "size": 253,
       "digest": "sha256:4b2550dbb27df0228b25c2e9e936ff3c4558c6293caee2c3d09e36a42811c03b",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4b2550dbb27d-Channels-PANEL-Ciefp.sh",
-      "mirroredAt": "2026-11-20T21:16:29Z",
+      "mirroredAt": "2026-11-20T21:28:19Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1199,7 +1199,7 @@
       "size": 98,
       "digest": "sha256:624732506eba56af162d38ba48fb5ef5a94bda211fc9f414108ce8dc4e546cc2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/624732506eba-Channels-PANEL-Dbackup.sh",
-      "mirroredAt": "2026-11-20T21:16:31Z",
+      "mirroredAt": "2026-11-20T21:28:21Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1209,7 +1209,7 @@
       "size": 126,
       "digest": "sha256:aec3dcbc6ff6ddb6074ebec19d548926fa8439a1ad015748ad00e536f76eb095",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/aec3dcbc6ff6-Channels-PANEL-EmilPanelPro.sh",
-      "mirroredAt": "2026-11-20T21:16:33Z",
+      "mirroredAt": "2026-11-20T21:28:23Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1219,7 +1219,7 @@
       "size": 92,
       "digest": "sha256:cc6705498ada37b42d32fb6b72457cd9492aff6b51cd0323a6a319ef528516cc",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/cc6705498ada-Channels-PANEL-IraqiPanel.sh",
-      "mirroredAt": "2026-11-20T21:16:35Z",
+      "mirroredAt": "2026-11-20T21:28:25Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1229,7 +1229,7 @@
       "size": 116,
       "digest": "sha256:366c5734d5d4ce675ef2329bdec7d0a292cefd61c0cc9519450de6ca366795ee",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/366c5734d5d4-Channels-PANEL-Levi45.sh",
-      "mirroredAt": "2026-11-20T21:16:37Z",
+      "mirroredAt": "2026-11-20T21:28:27Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1239,7 +1239,7 @@
       "size": 114,
       "digest": "sha256:7de2180a696a077e9d1f4480e57591566777824ae4d5b6a739e7646caa4ed7d9",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7de2180a696a-Channels-PANEL-Levi45Addon.sh",
-      "mirroredAt": "2026-11-20T21:16:39Z",
+      "mirroredAt": "2026-11-20T21:28:29Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1249,7 +1249,7 @@
       "size": 14402,
       "digest": "sha256:91918421d9b9dbcf4db49011a13adf71dcc70411373a81381c7d3932c298d0bd",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/91918421d9b9-Channels-PANEL-MagicPanelMax.sh",
-      "mirroredAt": "2026-11-20T21:16:41Z",
+      "mirroredAt": "2026-11-20T21:28:31Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1259,7 +1259,7 @@
       "size": 331,
       "digest": "sha256:a7789b5de8381080e12f60b43f646e0fa9f57bad81b240b550bdd23544cfe343",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a7789b5de838-Channels-PANEL-SkyBlue.sh",
-      "mirroredAt": "2026-11-20T21:16:43Z",
+      "mirroredAt": "2026-11-20T21:28:32Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1269,7 +1269,7 @@
       "size": 129,
       "digest": "sha256:40988c235c4891aa30f3b676b00311beb68b486227f112d51b8142eec052d925",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/40988c235c48-Channels-PANEL-SmartAddon.sh",
-      "mirroredAt": "2026-11-20T21:16:45Z",
+      "mirroredAt": "2026-11-20T21:28:34Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1279,7 +1279,7 @@
       "size": 104,
       "digest": "sha256:a6752309c856fbcaaa9a73ae5adf6e7b41c559eaefdbb5de8d9e48e4a312e4ef",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a6752309c856-Channels-PANEL-Team_nitro.sh",
-      "mirroredAt": "2026-11-20T21:16:47Z",
+      "mirroredAt": "2026-11-20T21:28:36Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1289,7 +1289,7 @@
       "size": 91,
       "digest": "sha256:8b5b3798e8fae7dccb90a321897e7a1689ba214b5c0753e762572d3cac43b0b2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8b5b3798e8fa-Channels-PANEL-ZoomPanel.sh",
-      "mirroredAt": "2026-11-20T21:16:50Z",
+      "mirroredAt": "2026-11-20T21:28:38Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1299,7 +1299,7 @@
       "size": 2720,
       "digest": "sha256:c2a33a8476282899942e6a80100b9c91793dd23ec81531e3b520427cc82d772f",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c2a33a847628-Channels-picon_SNP_lite.sh",
-      "mirroredAt": "2026-11-20T21:16:52Z",
+      "mirroredAt": "2026-11-20T21:28:40Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1309,7 +1309,7 @@
       "size": 2724,
       "digest": "sha256:efc35ad4427c460c083ecb12b61c2a725e222c6e314917be9cc1bbb63104ec98",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/efc35ad4427c-Channels-picon_sync_fast.sh",
-      "mirroredAt": "2026-11-20T21:16:54Z",
+      "mirroredAt": "2026-11-20T21:28:42Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1319,7 +1319,7 @@
       "size": 114,
       "digest": "sha256:e2610735866bca87087204fb628432bde3e6e5bcf033ffbca452a27a8e3405de",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e2610735866b-Channels-PLUGIN-AdvancedBootlogo_swap.sh",
-      "mirroredAt": "2026-11-20T21:16:56Z",
+      "mirroredAt": "2026-11-20T21:28:44Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1329,7 +1329,7 @@
       "size": 4456,
       "digest": "sha256:d50efe4e0dbd1deed88e6be1bf42b6ca5010625aa45fb47efd4561779ffeecff",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/d50efe4e0dbd-Channels-PLUGIN-AIsubtitle.sh",
-      "mirroredAt": "2026-11-20T21:16:58Z",
+      "mirroredAt": "2026-11-20T21:28:45Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1339,7 +1339,7 @@
       "size": 2593,
       "digest": "sha256:0dd697dd75d8398ae7b85613fe47413ebba9896f90896ab1f367be96751eaa42",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/0dd697dd75d8-Channels-PLUGIN-Ansite_quran.sh",
-      "mirroredAt": "2026-11-20T21:17:00Z",
+      "mirroredAt": "2026-11-20T21:28:47Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1349,7 +1349,7 @@
       "size": 123,
       "digest": "sha256:a37a085c8c4081caa5c9f1bf30db209668a43a3eddb5b69bb54dfb0bd6171976",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a37a085c8c40-Channels-PLUGIN-Arabicsavior.sh",
-      "mirroredAt": "2026-11-20T21:17:02Z",
+      "mirroredAt": "2026-11-20T21:29:04Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1359,7 +1359,7 @@
       "size": 2600,
       "digest": "sha256:4695c9c8ebfbbd84f4c057f9e0dc4d890134be75509bf63196b89263f8887eda",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4695c9c8ebfb-Channels-PLUGIN-AutoDcwKeyAdd.sh",
-      "mirroredAt": "2026-11-20T21:17:04Z",
+      "mirroredAt": "2026-11-20T21:29:06Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1369,7 +1369,7 @@
       "size": 2647,
       "digest": "sha256:8950a61e5cc2f3533ec29e8dd2cd2d0736c811193c1f5284f8300d20cc527fa5",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8950a61e5cc2-Channels-PLUGIN-Autofullbackup.sh",
-      "mirroredAt": "2026-11-20T21:17:06Z",
+      "mirroredAt": "2026-11-20T21:29:08Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1379,7 +1379,7 @@
       "size": 2598,
       "digest": "sha256:c38188dde0e73017950dd73e0e93d337ea59ec0d1c3da125dacea84b5317f3aa",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c38188dde0e7-Channels-PLUGIN-AutoResolution.sh",
-      "mirroredAt": "2026-11-20T21:17:08Z",
+      "mirroredAt": "2026-11-20T21:29:10Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1389,7 +1389,7 @@
       "size": 234,
       "digest": "sha256:317ceb7dd9d00df8bd6d73fadbb4d9b8277dd0481c065e9713ee81ce4f3c8c76",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/317ceb7dd9d0-Channels-PLUGIN-AutoSub.sh",
-      "mirroredAt": "2026-11-20T21:17:10Z",
+      "mirroredAt": "2026-11-20T21:29:12Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1399,7 +1399,7 @@
       "size": 2608,
       "digest": "sha256:f5ceeb5806974fc52cf5f8c6242cbd8f9d442e8a51ee3caa32ef4323ed5e74e7",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f5ceeb580697-Channels-PLUGIN-AutoVolumeAdjustment.sh",
-      "mirroredAt": "2026-11-20T21:17:13Z",
+      "mirroredAt": "2026-11-20T21:29:14Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1409,7 +1409,7 @@
       "size": 2595,
       "digest": "sha256:649ecfe1b00ad326fec837b408569708128f5ca3e040ee8838cd6711f94ca1b5",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/649ecfe1b00a-Channels-PLUGIN-BackupSuite.sh",
-      "mirroredAt": "2026-11-20T21:17:15Z",
+      "mirroredAt": "2026-11-20T21:29:16Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1419,7 +1419,7 @@
       "size": 2599,
       "digest": "sha256:e768744d9234990ac144c53960ba165ef23d5ec4ba9acf4e00ce3ab898193675",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e768744d9234-Channels-PLUGIN-Bootlogo_swap.sh",
-      "mirroredAt": "2026-11-20T21:17:17Z",
+      "mirroredAt": "2026-11-20T21:29:18Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1429,7 +1429,7 @@
       "size": 2606,
       "digest": "sha256:6675cefa65f8cc43813b6eff141f58d825f24a675094e79fefa4c58bde3571d6",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/6675cefa65f8-Channels-PLUGIN-Bootlogo_swap_ATV.sh",
-      "mirroredAt": "2026-11-20T21:17:19Z",
+      "mirroredAt": "2026-11-20T21:29:19Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1439,7 +1439,7 @@
       "size": 2608,
       "digest": "sha256:0e4ef5f3b7006a858c9ad5b9358d804aee4539e537e8a0c4fcfd4e173cbf3b69",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/0e4ef5f3b700-Channels-PLUGIN-Bootlogo_swap_EGAMI.sh",
-      "mirroredAt": "2026-11-20T21:17:21Z",
+      "mirroredAt": "2026-11-20T21:29:21Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1449,7 +1449,7 @@
       "size": 2606,
       "digest": "sha256:8e915feba0e17971823d62bb79da81db5a5ee4e8be253254c382a93b74b14b1d",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8e915feba0e1-Channels-PLUGIN-Bootlogo_swap_OBH.sh",
-      "mirroredAt": "2026-11-20T21:17:23Z",
+      "mirroredAt": "2026-11-20T21:29:23Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1459,7 +1459,7 @@
       "size": 2606,
       "digest": "sha256:4b694b9cc075f33ad1790f8e7dc92bb7d347c9fa2cc3044dab7c2f35dc5e0bb2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4b694b9cc075-Channels-PLUGIN-Bootlogo_swap_PUR.sh",
-      "mirroredAt": "2026-11-20T21:17:25Z",
+      "mirroredAt": "2026-11-20T21:29:25Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1469,7 +1469,7 @@
       "size": 2606,
       "digest": "sha256:4ea1a32c1ec89535198b5bcee0530c1e2a4cf0ad45045687bf1b05085513ad54",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4ea1a32c1ec8-Channels-PLUGIN-Bootlogo_swap_SPA.sh",
-      "mirroredAt": "2026-11-20T21:17:27Z",
+      "mirroredAt": "2026-11-20T21:29:27Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1479,7 +1479,7 @@
       "size": 2606,
       "digest": "sha256:faf99f03965d42c36da61d91d0ad3c46df191d8b0eab84725749703136e659ab",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/faf99f03965d-Channels-PLUGIN-Bootlogo_swap_VIX.sh",
-      "mirroredAt": "2026-11-20T21:17:29Z",
+      "mirroredAt": "2026-11-20T21:29:28Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1489,7 +1489,7 @@
       "size": 2599,
       "digest": "sha256:b37ecbe785439bc778a0c9269e5a31eab12a5437845d1de473a59ecc3ee45169",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b37ecbe78543-Channels-PLUGIN-Bootlogokids.sh",
-      "mirroredAt": "2026-11-20T21:17:31Z",
+      "mirroredAt": "2026-11-20T21:29:30Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1499,7 +1499,7 @@
       "size": 2602,
       "digest": "sha256:25c696085ce706ee851df40362a44bbb541c9af20a68472f54c82ed6d73d59c4",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/25c696085ce7-Channels-PLUGIN-Bouquet_makerxtream.sh",
-      "mirroredAt": "2026-11-20T21:17:33Z",
+      "mirroredAt": "2026-11-20T21:29:32Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1509,7 +1509,7 @@
       "size": 5083,
       "digest": "sha256:46bec90f94670755bdf9890c622d163e044d25b18bc1e59a345ffc0ae8a8b00a",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/46bec90f9467-Channels-PLUGIN-ButtonPatcher.sh",
-      "mirroredAt": "2026-11-20T21:17:35Z",
+      "mirroredAt": "2026-11-20T21:29:34Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1519,7 +1519,7 @@
       "size": 133,
       "digest": "sha256:a34d4da82bea0dc257441f1e73a93f6f229a8e8ac59e8e901e48df3269f3b0af",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a34d4da82bea-Channels-PLUGIN-Channel_Logo_Changer.sh",
-      "mirroredAt": "2026-11-20T21:17:38Z",
+      "mirroredAt": "2026-11-20T21:29:36Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1529,7 +1529,7 @@
       "size": 195,
       "digest": "sha256:f846052ddec619f5c514199834cb95f1ca3108db38bf34f62576a8c1f53519ce",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f846052ddec6-Channels-PLUGIN-ChannelLingo.sh",
-      "mirroredAt": "2026-11-20T21:17:40Z",
+      "mirroredAt": "2026-11-20T21:29:38Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1539,7 +1539,7 @@
       "size": 2595,
       "digest": "sha256:7b30ec7a99bc232498f77b1642d759875675c497cebfc23ef98dd2d008bbdc30",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7b30ec7a99bc-Channels-PLUGIN-Clearmem.sh",
-      "mirroredAt": "2026-11-20T21:17:42Z",
+      "mirroredAt": "2026-11-20T21:29:40Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1549,7 +1549,7 @@
       "size": 142,
       "digest": "sha256:fd01400507794279f7ff67e0c8d745f6df093d3830774f7d85ff7bde09262279",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/fd0140050779-Channels-PLUGIN-ClouringServer.sh",
-      "mirroredAt": "2026-11-20T21:17:44Z",
+      "mirroredAt": "2026-11-20T21:29:42Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1559,7 +1559,7 @@
       "size": 119,
       "digest": "sha256:39e77d2dfb2e6e0725f4711191e4405fe8bcccccabf41f3f25897071af28ef76",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/39e77d2dfb2e-Channels-PLUGIN-CustomChannelSlection.sh",
-      "mirroredAt": "2026-11-20T21:17:46Z",
+      "mirroredAt": "2026-11-20T21:29:44Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1569,7 +1569,7 @@
       "size": 2597,
       "digest": "sha256:b9a64076d6a90ac6ab48881e44c984bfcf6f4fc7020e765f7c75f4405a3cdd52",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b9a64076d6a9-Channels-PLUGIN-Dreamexplorer.sh",
-      "mirroredAt": "2026-11-20T21:17:48Z",
+      "mirroredAt": "2026-11-20T21:29:46Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1579,7 +1579,7 @@
       "size": 138,
       "digest": "sha256:9c1fb693cf7db81fa5ae0d1c82fc12afb78be0f66d3f0f28a92ba1e53d58f380",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9c1fb693cf7d-Channels-PLUGIN-DupleChannelsManager.sh",
-      "mirroredAt": "2026-11-20T21:17:50Z",
+      "mirroredAt": "2026-11-20T21:29:48Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1589,7 +1589,7 @@
       "size": 2603,
       "digest": "sha256:0acaf697d49e9700945f9028e23792e64d25a6a3e05f23c584c2c5527341aefe",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/0acaf697d49e-Channels-PLUGIN-E2BissKeyEditor.sh",
-      "mirroredAt": "2026-11-20T21:17:52Z",
+      "mirroredAt": "2026-11-20T21:29:49Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1599,7 +1599,7 @@
       "size": 331,
       "digest": "sha256:b60c41ed5934bfd2b7b2c190580c6dbc7b8b12deae7f3a530227e202dc9632bc",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b60c41ed5934-Channels-PLUGIN-E2iplayer.sh",
-      "mirroredAt": "2026-11-20T21:17:54Z",
+      "mirroredAt": "2026-11-20T21:29:51Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1609,7 +1609,7 @@
       "size": 156,
       "digest": "sha256:7fb356369ccb496d28c0217fe7bb543406ce37e4a77163fca77fccdc488aec9a",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7fb356369ccb-Channels-PLUGIN-E2iplayer_org.sh",
-      "mirroredAt": "2026-11-20T21:17:56Z",
+      "mirroredAt": "2026-11-20T21:29:53Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1619,7 +1619,7 @@
       "size": 125,
       "digest": "sha256:ed25d422e3acca160c7eb6d465459660d9db3154555700bfd3a0d345be7a35a7",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ed25d422e3ac-Channels-PLUGIN-E2iplayer_Patch.sh",
-      "mirroredAt": "2026-11-20T21:17:58Z",
+      "mirroredAt": "2026-11-20T21:29:55Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1629,7 +1629,7 @@
       "size": 2597,
       "digest": "sha256:33420fc8578feab4ecd3a2c5bf6b44b1bf1e67fc4890e8f860d002b350fd8fb5",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/33420fc8578f-Channels-PLUGIN-E2m3u.sh",
-      "mirroredAt": "2026-11-20T21:18:00Z",
+      "mirroredAt": "2026-11-20T21:29:57Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1639,7 +1639,7 @@
       "size": 104,
       "digest": "sha256:2689def13e71fa2de24820f7357ea15f82915830758e9517c3b2256280e8e44a",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2689def13e71-Channels-PLUGIN-Epggrabber.sh",
-      "mirroredAt": "2026-11-20T21:18:02Z",
+      "mirroredAt": "2026-11-20T21:29:59Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1649,7 +1649,7 @@
       "size": 2593,
       "digest": "sha256:28c848c316469ed347c176a1da9da12db57061c7c2a322f3412618cd217a76f5",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/28c848c31646-Channels-PLUGIN-Epgimport.sh",
-      "mirroredAt": "2026-11-20T21:18:04Z",
+      "mirroredAt": "2026-11-20T21:30:01Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1659,7 +1659,7 @@
       "size": 2592,
       "digest": "sha256:513ce11d7e63ea5c9f66798017e8c2017e14382e323798704ffd8a3f1fc498c3",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/513ce11d7e63-Channels-PLUGIN-Estalker.sh",
-      "mirroredAt": "2026-11-20T21:18:06Z",
+      "mirroredAt": "2026-11-20T21:30:03Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1669,7 +1669,7 @@
       "size": 2597,
       "digest": "sha256:1459392e8153908cc0b8ea3ce16cdf33d1bf53f862f64f73d081f36b5c23d0f5",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1459392e8153-Channels-PLUGIN-Filecommander.sh",
-      "mirroredAt": "2026-11-20T21:18:08Z",
+      "mirroredAt": "2026-11-20T21:30:05Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1679,7 +1679,7 @@
       "size": 98,
       "digest": "sha256:9f023b3b6d1b5413e20edeb99b7730b12694164b4b5d55e5856944d31f8f6cdc",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9f023b3b6d1b-Channels-PLUGIN-Footonsat.sh",
-      "mirroredAt": "2026-11-20T21:18:11Z",
+      "mirroredAt": "2026-11-20T21:30:07Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1689,7 +1689,7 @@
       "size": 3723,
       "digest": "sha256:add3cba73886c9a25f90b559dc55dc7e972c7d22e9886ddc9755f612a65d9d75",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/add3cba73886-Channels-PLUGIN-Freeserverplugin.sh",
-      "mirroredAt": "2026-11-20T21:18:13Z",
+      "mirroredAt": "2026-11-20T21:30:09Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1699,7 +1699,7 @@
       "size": 407,
       "digest": "sha256:29ce37bb1a75527f3eae0220a9aa6268e6c74d9c8f0f759b935af8047ddd3903",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/29ce37bb1a75-Channels-PLUGIN-FuryBissPro.sh",
-      "mirroredAt": "2026-11-20T21:18:15Z",
+      "mirroredAt": "2026-11-20T21:30:10Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1709,7 +1709,7 @@
       "size": 2599,
       "digest": "sha256:99249143b8f9d7d89b3ddf70735e20cc3fe9a7a857012bba445087f1f39ca650",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/99249143b8f9-Channels-PLUGIN-Getiptvpro.sh",
-      "mirroredAt": "2026-11-20T21:18:17Z",
+      "mirroredAt": "2026-11-20T21:30:12Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1719,7 +1719,7 @@
       "size": 2604,
       "digest": "sha256:2acbbebde4b90df1990f23674e46e6ccf81c1b4902853531a91d1c6b736aea5e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2acbbebde4b9-Channels-PLUGIN-GlobalTranslateUltra.sh",
-      "mirroredAt": "2026-11-20T21:18:19Z",
+      "mirroredAt": "2026-11-20T21:30:14Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1729,7 +1729,7 @@
       "size": 2596,
       "digest": "sha256:c97fc66c3774ce309a91217aaa05c2ebad5876c98ef39385178645a81c34be73",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c97fc66c3774-Channels-PLUGIN-HamzaSummary.sh",
-      "mirroredAt": "2026-11-20T21:18:21Z",
+      "mirroredAt": "2026-11-20T21:30:16Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1739,7 +1739,7 @@
       "size": 2594,
       "digest": "sha256:e79db9b3bc69c5442d767d9e0c1ce1ffe4f71af706c411126f4b69bd469f3008",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e79db9b3bc69-Channels-PLUGIN-Historyzapselector.sh",
-      "mirroredAt": "2026-11-20T21:18:23Z",
+      "mirroredAt": "2026-11-20T21:30:18Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1749,7 +1749,7 @@
       "size": 2597,
       "digest": "sha256:efec2bb1657a148fb906dc7f76250de99980e0956a2116ddee61b6b2eac0a6d6",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/efec2bb1657a-Channels-PLUGIN-Ipaudio_nasr.sh",
-      "mirroredAt": "2026-11-20T21:18:25Z",
+      "mirroredAt": "2026-11-20T21:30:19Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1759,7 +1759,7 @@
       "size": 131,
       "digest": "sha256:162b4db864c862828568e1619367626f0bc211ffd0ebc6f5a113ce871d744ac4",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/162b4db864c8-Channels-PLUGIN-Ipaudio_pro.sh",
-      "mirroredAt": "2026-11-20T21:18:27Z",
+      "mirroredAt": "2026-11-20T21:30:21Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1769,7 +1769,7 @@
       "size": 2594,
       "digest": "sha256:6ea9e15e8b7a48839d2a4e7a294a4d6a26dc83d0a86c1e12a5c23d9d209bc3bd",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/6ea9e15e8b7a-Channels-PLUGIN-Iptosat.sh",
-      "mirroredAt": "2026-11-20T21:18:29Z",
+      "mirroredAt": "2026-11-20T21:30:23Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1779,7 +1779,7 @@
       "size": 125,
       "digest": "sha256:e7cd526d2a8e6ef793741b2a5353f73430cbdd80d0b2e218bdc4950ff084cd77",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e7cd526d2a8e-Channels-PLUGIN-IptvAdder.sh",
-      "mirroredAt": "2026-11-20T21:18:32Z",
+      "mirroredAt": "2026-11-20T21:30:24Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1789,7 +1789,7 @@
       "size": 2597,
       "digest": "sha256:a4c407d613cbb150765a79bb7e08a23cc2969e52ebd5d466bd5022386257899b",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a4c407d613cb-Channels-PLUGIN-Jediepgxtream.sh",
-      "mirroredAt": "2026-11-20T21:18:34Z",
+      "mirroredAt": "2026-11-20T21:30:26Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1799,7 +1799,7 @@
       "size": 2599,
       "digest": "sha256:817eb601523799f34b0d9076c950d8001d4a4e49d3ef38b0d97ab61df9794484",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/817eb6015237-Channels-PLUGIN-Jedimakerxtream.sh",
-      "mirroredAt": "2026-11-20T21:18:36Z",
+      "mirroredAt": "2026-11-20T21:30:28Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1809,7 +1809,7 @@
       "size": 2883,
       "digest": "sha256:d0897bbada7e5ee3b8c39872aa23354717ab969225a9888f481cfb9eeeb3700c",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/d0897bbada7e-Channels-PLUGIN-Keyadder.sh",
-      "mirroredAt": "2026-11-20T21:18:38Z",
+      "mirroredAt": "2026-11-20T21:30:30Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1819,7 +1819,7 @@
       "size": 111,
       "digest": "sha256:3b719bf628c72fc196afd4939329e05a68eed6755937dee1b51146ebd2c572da",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3b719bf628c7-Channels-PLUGIN-KudsIpaudio.sh",
-      "mirroredAt": "2026-11-20T21:18:41Z",
+      "mirroredAt": "2026-11-20T21:30:32Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1829,7 +1829,7 @@
       "size": 2594,
       "digest": "sha256:61c1afe92ca96991f1b9d03f6b034a5df985f6ee7c3b9d82d45254f42d1ebe5b",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/61c1afe92ca9-Channels-PLUGIN-Levi45iptv.sh",
-      "mirroredAt": "2026-11-20T21:18:43Z",
+      "mirroredAt": "2026-11-20T21:30:33Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1839,7 +1839,7 @@
       "size": 11175,
       "digest": "sha256:b1eec4183887774ecd5addf0b3e8c8699ad33e1d1e9f907e2d737def62f5f02e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b1eec4183887-Channels-PLUGIN-LiveFeed.sh",
-      "mirroredAt": "2026-11-20T21:18:45Z",
+      "mirroredAt": "2026-11-20T21:30:36Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1849,7 +1849,7 @@
       "size": 1216,
       "digest": "sha256:8a3a039fce76cdbf14661b1cfb467f8b37d33b47d19ca3b1ceafa14c7dc14e9b",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8a3a039fce76-Channels-PLUGIN-Movies_Manager.sh",
-      "mirroredAt": "2026-11-20T21:18:47Z",
+      "mirroredAt": "2026-11-20T21:30:37Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1859,7 +1859,7 @@
       "size": 149,
       "digest": "sha256:2e574e85f2ef47b96f2e374148b13ffa2ce3584ad8095cbfef689ac1bc390dba",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2e574e85f2ef-Channels-PLUGIN-MultiCamAdd.sh",
-      "mirroredAt": "2026-11-20T21:18:49Z",
+      "mirroredAt": "2026-11-20T21:30:39Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1869,7 +1869,7 @@
       "size": 6600,
       "digest": "sha256:88b3135e4f6607e46d82c1d03997af2399051d6b6602d1aa27bde0e4b533623f",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/88b3135e4f66-Channels-PLUGIN-Multistalker.sh",
-      "mirroredAt": "2026-11-20T21:18:51Z",
+      "mirroredAt": "2026-11-20T21:30:41Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1879,7 +1879,7 @@
       "size": 4365,
       "digest": "sha256:046c84d1e685c474cb07eb5db0b661c5649fbf6819cbcdf0e097fde170932d2d",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/046c84d1e685-Channels-PLUGIN-Multistalker_pro.sh",
-      "mirroredAt": "2026-11-20T21:18:54Z",
+      "mirroredAt": "2026-11-20T21:30:42Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1889,7 +1889,7 @@
       "size": 107,
       "digest": "sha256:4a775c16dbe6db4f798f7caaeaa96bd86648232b1acac0b102945cf9b877300c",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4a775c16dbe6-Channels-PLUGIN-MyStreamer.sh",
-      "mirroredAt": "2026-11-20T21:18:56Z",
+      "mirroredAt": "2026-11-20T21:30:44Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1899,7 +1899,7 @@
       "size": 2591,
       "digest": "sha256:11b731153515060d173bbf52041fa75409e994b9468bee6d0850d4cee54af056",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/11b731153515-Channels-PLUGIN-NeoBoot.sh",
-      "mirroredAt": "2026-11-20T21:18:58Z",
+      "mirroredAt": "2026-11-20T21:30:46Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1909,7 +1909,7 @@
       "size": 1061,
       "digest": "sha256:f34f998db127159340978c0d2e7794391af4ff7f75a3e2c68a7a8bfcc0a111e7",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f34f998db127-Channels-PLUGIN-OPD_multiboot.sh",
-      "mirroredAt": "2026-11-20T21:19:00Z",
+      "mirroredAt": "2026-11-20T21:30:48Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1919,7 +1919,7 @@
       "size": 1356,
       "digest": "sha256:f1b4aadf69dedecbc3585cbbe9c41715d6daafad911443e6e33c161b17ead72a",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f1b4aadf69de-Channels-PLUGIN-OrangeAudio.sh",
-      "mirroredAt": "2026-11-20T21:19:02Z",
+      "mirroredAt": "2026-11-20T21:30:50Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1929,7 +1929,7 @@
       "size": 575,
       "digest": "sha256:a742336aa9668052bfb41234dff2f4431fca605b91cc89f3346681e69092dcdf",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a742336aa966-Channels-PLUGIN-PluginBrawserBH.sh",
-      "mirroredAt": "2026-11-20T21:19:04Z",
+      "mirroredAt": "2026-11-20T21:30:51Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1939,7 +1939,7 @@
       "size": 2600,
       "digest": "sha256:30c289271ba4813b239a389e57b1517c168539912d8f686a3c8e72befb9219e2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/30c289271ba4-Channels-PLUGIN-PluginsPanel.sh",
-      "mirroredAt": "2026-11-20T21:19:06Z",
+      "mirroredAt": "2026-11-20T21:30:53Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1949,7 +1949,7 @@
       "size": 2591,
       "digest": "sha256:acd25d57d4ee3c8d6afd51850c5d0c18fbd2e4dfd3673fa69b5c0cffe0422363",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/acd25d57d4ee-Channels-PLUGIN-Plutotv.sh",
-      "mirroredAt": "2026-11-20T21:19:08Z",
+      "mirroredAt": "2026-11-20T21:30:55Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1959,7 +1959,7 @@
       "size": 121,
       "digest": "sha256:d772443f4f79a5cbe0f9ce5d0f54a9a43b3eea77772060d41f5cc00b116f2368",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/d772443f4f79-Channels-PLUGIN-Quarterpounder.sh",
-      "mirroredAt": "2026-11-20T21:19:10Z",
+      "mirroredAt": "2026-11-20T21:30:56Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1969,7 +1969,7 @@
       "size": 90,
       "digest": "sha256:7bd5611fe8c4afbb112c6a9c65f4c499f6797a84b4964e307532952178ac02a8",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7bd5611fe8c4-Channels-PLUGIN-QuranKarem.sh",
-      "mirroredAt": "2026-11-20T21:19:13Z",
+      "mirroredAt": "2026-11-20T21:30:58Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1979,7 +1979,7 @@
       "size": 127,
       "digest": "sha256:07ae583cd7dd871c24d8a3be9de8e8fb22ab7c3728ea4c9b4f0046d305e11489",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/07ae583cd7dd-Channels-PLUGIN-Raedquicksignal.sh",
-      "mirroredAt": "2026-11-20T21:19:15Z",
+      "mirroredAt": "2026-11-20T21:31:00Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1989,7 +1989,7 @@
       "size": 2597,
       "digest": "sha256:8cee332defd4e70f1db95639821fc40f875faa503835e4b538c6f16fb55ca5ab",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8cee332defd4-Channels-PLUGIN-SamsungTV.sh",
-      "mirroredAt": "2026-11-20T21:19:17Z",
+      "mirroredAt": "2026-11-20T21:31:02Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -1999,7 +1999,7 @@
       "size": 2597,
       "digest": "sha256:944f0490cec57dc0d899fd4c226f96668381dec3871772ccdf26e298b0c5f2a4",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/944f0490cec5-Channels-PLUGIN-Screen_Grabber.sh",
-      "mirroredAt": "2026-11-20T21:19:19Z",
+      "mirroredAt": "2026-11-20T21:31:04Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2009,7 +2009,7 @@
       "size": 2595,
       "digest": "sha256:bd429be2bbe1e25badc3e7dfb1e008108f36c0a92a4db0d81e7b473064803786",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/bd429be2bbe1-Channels-PLUGIN-Setpicon.sh",
-      "mirroredAt": "2026-11-20T21:19:21Z",
+      "mirroredAt": "2026-11-20T21:31:05Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2019,7 +2019,7 @@
       "size": 92,
       "digest": "sha256:9b76ea8c2f26c9f447b4274e80376bbe12246b825dbaef402dbb8509deb80da6",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9b76ea8c2f26-Channels-PLUGIN-Sherlock.sh",
-      "mirroredAt": "2026-11-20T21:19:23Z",
+      "mirroredAt": "2026-11-20T21:31:07Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2029,7 +2029,7 @@
       "size": 308,
       "digest": "sha256:b2c5a73318d22e49c50e8f58a3a138da52182ff6decf2a73271561ef3895e1f8",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b2c5a73318d2-Channels-PLUGIN-SimplySports.sh",
-      "mirroredAt": "2026-11-20T21:19:25Z",
+      "mirroredAt": "2026-11-20T21:31:09Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2039,7 +2039,7 @@
       "size": 2600,
       "digest": "sha256:e6d17aeb4022009bc2e0a4a656e8d8e84da51b11be7d63dbbd1bbdde4bb8da05",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e6d17aeb4022-Channels-PLUGIN-Spinner.sh",
-      "mirroredAt": "2026-11-20T21:19:27Z",
+      "mirroredAt": "2026-11-20T21:31:11Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2049,7 +2049,7 @@
       "size": 155,
       "digest": "sha256:85ad7ccac38a70e58f63ec71167afb8afc74f7d7376a7baee72f2c28aceb85ac",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/85ad7ccac38a-Channels-PLUGIN-Supssupport.sh",
-      "mirroredAt": "2026-11-20T21:19:30Z",
+      "mirroredAt": "2026-11-20T21:31:12Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2059,7 +2059,7 @@
       "size": 128,
       "digest": "sha256:c025c1b15c863a0bea266e28eedc75ba2f47b6bf423e58064df4360cafd38bc8",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c025c1b15c86-Channels-PLUGIN-Supssupport_Pro.sh",
-      "mirroredAt": "2026-11-20T21:19:32Z",
+      "mirroredAt": "2026-11-20T21:31:14Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2069,7 +2069,7 @@
       "size": 87,
       "digest": "sha256:f192480df9c10f2811c66b6b92930fa157ae142e3b399a48de648fade18a75ed",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f192480df9c1-Channels-PLUGIN-SupTV.sh",
-      "mirroredAt": "2026-11-20T21:19:34Z",
+      "mirroredAt": "2026-11-20T21:31:16Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2079,7 +2079,7 @@
       "size": 73,
       "digest": "sha256:00783aa112fc625893b441066026fba269d24340e59fd505b21dfa83c8cb6b4e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/00783aa112fc-Channels-PLUGIN-TimeShiftDelay.sh",
-      "mirroredAt": "2026-11-20T21:19:36Z",
+      "mirroredAt": "2026-11-20T21:31:17Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2089,7 +2089,7 @@
       "size": 84,
       "digest": "sha256:7e05f941d088731eb0007aa0fd279086466401ac6e7958faf5a42e15afa6beec",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7e05f941d088-Channels-PLUGIN-TiviMate.sh",
-      "mirroredAt": "2026-11-20T21:19:38Z",
+      "mirroredAt": "2026-11-20T21:31:19Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2099,7 +2099,7 @@
       "size": 3155,
       "digest": "sha256:65eca6889b60bc5803ea245a9223c360c89d9710732ee2a209bbc9735f89e952",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/65eca6889b60-Channels-PLUGIN-TMBD.sh",
-      "mirroredAt": "2026-11-20T21:19:40Z",
+      "mirroredAt": "2026-11-20T21:31:21Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2109,7 +2109,7 @@
       "size": 236,
       "digest": "sha256:8aa02574719dca152d51104da0169827e95dae3ce1a7b364051bcd9e75a878c2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8aa02574719d-Channels-PLUGIN-Transmission.sh",
-      "mirroredAt": "2026-11-20T21:19:42Z",
+      "mirroredAt": "2026-11-20T21:31:22Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2119,7 +2119,7 @@
       "size": 2592,
       "digest": "sha256:8c68bfca661cbe2d110769f9706a1f67146999a18f5e72cd6a54fe4af971a0d3",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8c68bfca661c-Channels-PLUGIN-Ts_sat_editor.sh",
-      "mirroredAt": "2026-11-20T21:19:44Z",
+      "mirroredAt": "2026-11-20T21:31:24Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2129,7 +2129,7 @@
       "size": 2596,
       "digest": "sha256:565586594aa1c3c88cb1c47bab2dcb1768d62e7fbddf5565b05d546fdcde30f1",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/565586594aa1-Channels-PLUGIN-Tsiplayer.sh",
-      "mirroredAt": "2026-11-20T21:19:47Z",
+      "mirroredAt": "2026-11-20T21:31:26Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2139,7 +2139,7 @@
       "size": 2590,
       "digest": "sha256:c68aad54029178b17419f66db41f254f93bb4573412ce7d337ce3342be641d57",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c68aad540291-Channels-PLUGIN-TVS_pro.sh",
-      "mirroredAt": "2026-11-20T21:19:49Z",
+      "mirroredAt": "2026-11-20T21:31:27Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2149,7 +2149,7 @@
       "size": 2594,
       "digest": "sha256:e3da8589decf53e4b2a0bf0e392d9c77c0ac3d8acff5af6e0db5375b12fac151",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e3da8589decf-Channels-PLUGIN-Tvtom3u.sh",
-      "mirroredAt": "2026-11-20T21:19:51Z",
+      "mirroredAt": "2026-11-20T21:31:29Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2159,7 +2159,7 @@
       "size": 87,
       "digest": "sha256:d1188b33517dcc438c29663fd11c294aac046f074406310c29b5bee7d0695e65",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/d1188b33517d-Channels-PLUGIN-UltraAudio.sh",
-      "mirroredAt": "2026-11-20T21:19:53Z",
+      "mirroredAt": "2026-11-20T21:31:31Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2169,7 +2169,7 @@
       "size": 87,
       "digest": "sha256:3965c62efc1e4f16894febab5d69076ebec0e1273cf60b7030b2bc6f84cb91af",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3965c62efc1e-Channels-PLUGIN-UltraQuran.sh",
-      "mirroredAt": "2026-11-20T21:19:55Z",
+      "mirroredAt": "2026-11-20T21:31:33Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2179,7 +2179,7 @@
       "size": 181,
       "digest": "sha256:189149d4e676b05255a14fcc3863fa5a814b44819c02ff86542ed7b25e8c4efc",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/189149d4e676-Channels-PLUGIN-UltraStalker.sh",
-      "mirroredAt": "2026-11-20T21:19:58Z",
+      "mirroredAt": "2026-11-20T21:31:35Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2189,7 +2189,7 @@
       "size": 123,
       "digest": "sha256:7aee8bf26234de353cb3fcf08e154aa690441a0876c9d8cef9c517e5c6185d87",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7aee8bf26234-Channels-PLUGIN-Vavo.sh",
-      "mirroredAt": "2026-11-20T21:20:00Z",
+      "mirroredAt": "2026-11-20T21:31:36Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2199,7 +2199,7 @@
       "size": 137,
       "digest": "sha256:e2a4cc250d28f648d7218b62960e7dfc9dec35e09e6e7203dac9a5c08999bec9",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e2a4cc250d28-Channels-PLUGIN-Vertualkeyboard.sh",
-      "mirroredAt": "2026-11-20T21:20:02Z",
+      "mirroredAt": "2026-11-20T21:31:38Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2209,7 +2209,7 @@
       "size": 2595,
       "digest": "sha256:379c068d11568e1214457f809d4074f112015a49e5cd81491d9844edea575777",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/379c068d1156-Channels-PLUGIN-Video_enhancement.sh",
-      "mirroredAt": "2026-11-20T21:20:04Z",
+      "mirroredAt": "2026-11-20T21:31:40Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2219,7 +2219,7 @@
       "size": 3157,
       "digest": "sha256:3df6cc4085ed3cd49236feffed3d64c01cae37564709716f1db824f5074da5d0",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3df6cc4085ed-Channels-PLUGIN-Visual_Weather.sh",
-      "mirroredAt": "2026-11-20T21:20:06Z",
+      "mirroredAt": "2026-11-20T21:31:41Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2229,7 +2229,7 @@
       "size": 2600,
       "digest": "sha256:5565c38ae93174a99bc826c03d7e2375d611e0eb0668d2662e97cd9b33dcbbc2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/5565c38ae931-Channels-PLUGIN-Weatherplugin.sh",
-      "mirroredAt": "2026-11-20T21:20:09Z",
+      "mirroredAt": "2026-11-20T21:31:43Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2239,7 +2239,7 @@
       "size": 131,
       "digest": "sha256:e70a4cfcf858089a0a735b2ba0d5dd9690f2e1473c8744d9cfc7ec18ba5de22e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e70a4cfcf858-Channels-PLUGIN-Xcpluginforever.sh",
-      "mirroredAt": "2026-11-20T21:20:11Z",
+      "mirroredAt": "2026-11-20T21:31:45Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2249,7 +2249,7 @@
       "size": 87,
       "digest": "sha256:12499a6cfc6eec3748165f1108a2ec2f4e14ee2d52671399fa78a6be1abaa090",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/12499a6cfc6e-Channels-PLUGIN-XKlass.sh",
-      "mirroredAt": "2026-11-20T21:20:13Z",
+      "mirroredAt": "2026-11-20T21:31:47Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2259,7 +2259,7 @@
       "size": 118,
       "digest": "sha256:8000a43c7a5ac5463281c89404f13e625555509793a7da0114afe74cde2a3665",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8000a43c7a5a-Channels-PLUGIN-XmlSatellitesUpdates.sh",
-      "mirroredAt": "2026-11-20T21:20:15Z",
+      "mirroredAt": "2026-11-20T21:31:49Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2269,7 +2269,7 @@
       "size": 135,
       "digest": "sha256:36968d1dd949d38be813a748deb56347ac243935c2769f30f18ffd8485585e35",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/36968d1dd949-Channels-PLUGIN-Xportal.sh",
-      "mirroredAt": "2026-11-20T21:20:17Z",
+      "mirroredAt": "2026-11-20T21:31:51Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2279,7 +2279,7 @@
       "size": 2593,
       "digest": "sha256:412a323d51cf97416e276deb567541945d13864d3f0d87cce5d4d83031daa7e7",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/412a323d51cf-Channels-PLUGIN-Xstreamity.sh",
-      "mirroredAt": "2026-11-20T21:20:19Z",
+      "mirroredAt": "2026-11-20T21:31:53Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2289,7 +2289,7 @@
       "size": 2593,
       "digest": "sha256:68eafdb4a15d4ef57826f55d17aab73adda3f3ee3b219141f795c9414eabf0f2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/68eafdb4a15d-Channels-PLUGIN-Xtraevent.sh",
-      "mirroredAt": "2026-11-20T21:20:22Z",
+      "mirroredAt": "2026-11-20T21:31:55Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2299,7 +2299,7 @@
       "size": 115,
       "digest": "sha256:f8c13119760f39868a50f36360cfed53ce6b15c39ff417587938868a768d97c5",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f8c13119760f-Channels-PLUGIN-Xtream2audio.sh",
-      "mirroredAt": "2026-11-20T21:20:24Z",
+      "mirroredAt": "2026-11-20T21:31:56Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2309,7 +2309,7 @@
       "size": 139,
       "digest": "sha256:c49208ee519309e72cd588dc31bff34c3187b3f442869a2dfcab946bd8c4b6f7",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c49208ee5193-Channels-PLUGIN-XtreamNew.sh",
-      "mirroredAt": "2026-11-20T21:20:26Z",
+      "mirroredAt": "2026-11-20T21:31:58Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2319,7 +2319,7 @@
       "size": 137,
       "digest": "sha256:f2fd8a031ac7d594b1d30c54c1e3486094e71fff55261e6c26a70dd202951075",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f2fd8a031ac7-Channels-PLUGIN-Youtube.sh",
-      "mirroredAt": "2026-11-20T21:20:29Z",
+      "mirroredAt": "2026-11-20T21:32:00Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2329,7 +2329,7 @@
       "size": 1751,
       "digest": "sha256:77100fb8819e3c44036a33049fc3e7d1ea1f67841cc39ace634b937b6269d6c6",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/77100fb8819e-Channels-rootfs.sh",
-      "mirroredAt": "2026-11-20T21:20:31Z",
+      "mirroredAt": "2026-11-20T21:32:02Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2339,7 +2339,7 @@
       "size": 138,
       "digest": "sha256:2c4f70be7ebffbd1a08f3cca6ef30747b0c75f3e8082267046fa500af2462ccb",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2c4f70be7ebf-Channels-SKIN-aglare.sh",
-      "mirroredAt": "2026-11-20T21:20:33Z",
+      "mirroredAt": "2026-11-20T21:32:04Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2349,7 +2349,7 @@
       "size": 138,
       "digest": "sha256:671671f8f97ad41abb00609262e008ae666d2524f9c0ccf8c4c445119f41df94",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/671671f8f97a-Channels-SKIN-aglare_pli.sh",
-      "mirroredAt": "2026-11-20T21:20:35Z",
+      "mirroredAt": "2026-11-20T21:32:06Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2359,7 +2359,7 @@
       "size": 99,
       "digest": "sha256:aaefaf7b8ff0fd1fc7019e83067322032c4054d6b953161daad014e4494925d3",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/aaefaf7b8ff0-Channels-SKIN-ayam.sh",
-      "mirroredAt": "2026-11-20T21:20:37Z",
+      "mirroredAt": "2026-11-20T21:32:08Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2369,7 +2369,7 @@
       "size": 2597,
       "digest": "sha256:1f9007d925e9c9df30440deb61b2c37d57cae9416efc63da8c85b84239382a65",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1f9007d925e9-Channels-SKIN-beta_pro.sh",
-      "mirroredAt": "2026-11-20T21:20:39Z",
+      "mirroredAt": "2026-11-20T21:32:09Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2379,7 +2379,7 @@
       "size": 2598,
       "digest": "sha256:9e5f594664f0f2ae54e3add4235799fff1eacf69827ea6dd522dd37b740eb14d",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9e5f594664f0-Channels-SKIN-blackneon.sh",
-      "mirroredAt": "2026-11-20T21:20:41Z",
+      "mirroredAt": "2026-11-20T21:32:12Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2389,7 +2389,7 @@
       "size": 2595,
       "digest": "sha256:9b6f952ba782fb92a25dc4d36ac53e6b41f6deea1e40f35219e70e04af78c1fb",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9b6f952ba782-Channels-SKIN-blackx.sh",
-      "mirroredAt": "2026-11-20T21:20:43Z",
+      "mirroredAt": "2026-11-20T21:32:13Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2399,7 +2399,7 @@
       "size": 2600,
       "digest": "sha256:0c7c50d3b1a85c41c01084dfde9f20de7b9f5e58c6f97635fbce1b259cdb9db0",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/0c7c50d3b1a8-Channels-SKIN-blueAccents.sh",
-      "mirroredAt": "2026-11-20T21:20:45Z",
+      "mirroredAt": "2026-11-20T21:32:15Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2409,7 +2409,7 @@
       "size": 2597,
       "digest": "sha256:81823c5d3920bab74ce891944dace28bf5e479c00536ee00e669bdb742de3237",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/81823c5d3920-Channels-SKIN-blueMetal.sh",
-      "mirroredAt": "2026-11-20T21:20:47Z",
+      "mirroredAt": "2026-11-20T21:32:17Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2419,7 +2419,7 @@
       "size": 98,
       "digest": "sha256:34c7d602868bb269be91833853ca4cc6434acc4720869011f2d00d082bb6fb77",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/34c7d602868b-Channels-SKIN-boHlala.sh",
-      "mirroredAt": "2026-11-20T21:20:50Z",
+      "mirroredAt": "2026-11-20T21:32:19Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2429,7 +2429,7 @@
       "size": 152,
       "digest": "sha256:b12eb796a433a75204d7033c9ded91f0e6ba8d688342187928456aa3aac47f3a",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b12eb796a433-Channels-SKIN-CineView.sh",
-      "mirroredAt": "2026-11-20T21:20:52Z",
+      "mirroredAt": "2026-11-20T21:32:21Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2439,7 +2439,7 @@
       "size": 2598,
       "digest": "sha256:ab947c14515eca0c348dc39925426d5bffadded9b6c64800428a44a9c7124837",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ab947c14515e-Channels-SKIN-cino_openpli.sh",
-      "mirroredAt": "2026-11-20T21:20:54Z",
+      "mirroredAt": "2026-11-20T21:32:23Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2449,7 +2449,7 @@
       "size": 2595,
       "digest": "sha256:87371f376a7eb2b1c359527fa60c045f18cf78a95fcc65ef9dc408653ef41c81",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/87371f376a7e-Channels-SKIN-copper.sh",
-      "mirroredAt": "2026-11-20T21:20:56Z",
+      "mirroredAt": "2026-11-20T21:32:25Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2459,7 +2459,7 @@
       "size": 2599,
       "digest": "sha256:91292174d5e3d7aaf7f485016c8a3a45c05bc3f917715fd7cb7487bfc344a4b9",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/91292174d5e3-Channels-SKIN-darkSilver.sh",
-      "mirroredAt": "2026-11-20T21:20:58Z",
+      "mirroredAt": "2026-11-20T21:32:27Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2469,7 +2469,7 @@
       "size": 2592,
       "digest": "sha256:40c36e031a663da3619fae98a5db3e56d1761fa98a61b2edecda13bc0a25b953",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/40c36e031a66-Channels-SKIN-dragon.sh",
-      "mirroredAt": "2026-11-20T21:21:01Z",
+      "mirroredAt": "2026-11-20T21:32:29Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2479,7 +2479,7 @@
       "size": 2598,
       "digest": "sha256:ed663cc124614dc1a6ef4bf2073b5b9171ef9982eb5e468964f8b2be3bd585af",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ed663cc12461-Channels-SKIN-ekselance.sh",
-      "mirroredAt": "2026-11-20T21:21:03Z",
+      "mirroredAt": "2026-11-20T21:32:31Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2489,7 +2489,7 @@
       "size": 2594,
       "digest": "sha256:149e40aab95f4f94132a4963dbd27b4a5226be5df63c2a3a077f3b39ff2af31e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/149e40aab95f-Channels-SKIN-elite.sh",
-      "mirroredAt": "2026-11-20T21:21:05Z",
+      "mirroredAt": "2026-11-20T21:32:32Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2499,7 +2499,7 @@
       "size": 2596,
       "digest": "sha256:eca3e9b9d72b76d1cea5ca73f3e2577410992c83530df3a125fee2582876dd5b",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/eca3e9b9d72b-Channels-SKIN-flatui.sh",
-      "mirroredAt": "2026-11-20T21:21:07Z",
+      "mirroredAt": "2026-11-20T21:32:34Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2509,7 +2509,7 @@
       "size": 2598,
       "digest": "sha256:3290334b058c95d5593df4bc8e7958f2ed08ee7adbe9c14c86f77c1913d85c14",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3290334b058c-Channels-SKIN-full_night.sh",
-      "mirroredAt": "2026-11-20T21:21:09Z",
+      "mirroredAt": "2026-11-20T21:32:36Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2519,7 +2519,7 @@
       "size": 2589,
       "digest": "sha256:1bf640413118665b5939eb3f6d59034e346a6d1c27f4fa708234c42555a8a521",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1bf640413118-Channels-SKIN-fury.sh",
-      "mirroredAt": "2026-11-20T21:21:12Z",
+      "mirroredAt": "2026-11-20T21:32:38Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2529,7 +2529,7 @@
       "size": 2600,
       "digest": "sha256:283ff64fb057da0a5dd66b8202f7d60c2f6f994902cddbbe5ad64c8087556751",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/283ff64fb057-Channels-SKIN-grey_shadow.sh",
-      "mirroredAt": "2026-11-20T21:21:14Z",
+      "mirroredAt": "2026-11-20T21:32:39Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2539,7 +2539,7 @@
       "size": 2599,
       "digest": "sha256:64f7979876225dc5cfe9b43b65e92b268e654a22d1698f0813d6f9747eca8712",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/64f797987622-Channels-SKIN-hdline.sh",
-      "mirroredAt": "2026-11-20T21:21:16Z",
+      "mirroredAt": "2026-11-20T21:32:41Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2549,7 +2549,7 @@
       "size": 2597,
       "digest": "sha256:ffef344801e82c3797f0bc6587f99277c63355cdc598f5e826f110e8ee771666",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ffef344801e8-Channels-SKIN-honycomb.sh",
-      "mirroredAt": "2026-11-20T21:21:18Z",
+      "mirroredAt": "2026-11-20T21:32:44Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2559,7 +2559,7 @@
       "size": 2591,
       "digest": "sha256:2b2516246569770a600fe5189dcdc8a70d2b93d89e43f855f477b748d555701e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2b2516246569-Channels-SKIN-jihad.sh",
-      "mirroredAt": "2026-11-20T21:21:21Z",
+      "mirroredAt": "2026-11-20T21:32:45Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2569,7 +2569,7 @@
       "size": 2593,
       "digest": "sha256:8df6e9da324be0cad81a1321f5360ca51007654f88977ff385db7e3496f5377e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8df6e9da324b-Channels-SKIN-karonte.sh",
-      "mirroredAt": "2026-11-20T21:21:23Z",
+      "mirroredAt": "2026-11-20T21:32:48Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2579,7 +2579,7 @@
       "size": 1818,
       "digest": "sha256:f89ee05a91082afbdba93397f8b1119c12ef12718bee208394d0a783da828dd6",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f89ee05a9108-Channels-SKIN-killPro.sh",
-      "mirroredAt": "2026-11-20T21:21:25Z",
+      "mirroredAt": "2026-11-20T21:32:50Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2589,7 +2589,7 @@
       "size": 2593,
       "digest": "sha256:5f0996ec57b1ad9d827f48669a9f9a69c55022bd1945f6aaf1179b90ac145a63",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/5f0996ec57b1-Channels-SKIN-lava.sh",
-      "mirroredAt": "2026-11-20T21:21:27Z",
+      "mirroredAt": "2026-11-20T21:32:52Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2599,7 +2599,7 @@
       "size": 2591,
       "digest": "sha256:e75004a60539900ae9293983ee3f593eb8f62d0b9d191838032e3845c4ec7d8e",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e75004a60539-Channels-SKIN-liis8.sh",
-      "mirroredAt": "2026-11-20T21:21:29Z",
+      "mirroredAt": "2026-11-20T21:32:53Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2609,7 +2609,7 @@
       "size": 1692,
       "digest": "sha256:74a50bd014f5df83cdd28df6b19211ed63664be9f69ab3a0c2c7b5a3419562c0",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/74a50bd014f5-Channels-SKIN-luka.sh",
-      "mirroredAt": "2026-11-20T21:21:31Z",
+      "mirroredAt": "2026-11-20T21:32:55Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2619,7 +2619,7 @@
       "size": 2591,
       "digest": "sha256:febaa49f899fbf83abaa87ffd71b1a8d6456107b8e56e2df63327f20faddee01",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/febaa49f899f-Channels-SKIN-malek.sh",
-      "mirroredAt": "2026-11-20T21:21:34Z",
+      "mirroredAt": "2026-11-20T21:32:57Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2629,7 +2629,7 @@
       "size": 1701,
       "digest": "sha256:ef0a41c025b639046c5d27bafe197098b14d714d958d6ba3e795b4dd14e8fb39",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ef0a41c025b6-Channels-SKIN-maxy.sh",
-      "mirroredAt": "2026-11-20T21:21:36Z",
+      "mirroredAt": "2026-11-20T21:32:59Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2639,7 +2639,7 @@
       "size": 2603,
       "digest": "sha256:84e2bc9d1022a44cb4f1ceda7ab1c15b0d3d7cd6e80dcfc466d45a385b42e451",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/84e2bc9d1022-Channels-SKIN-metrix_xp.sh",
-      "mirroredAt": "2026-11-20T21:21:38Z",
+      "mirroredAt": "2026-11-20T21:33:00Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2649,7 +2649,7 @@
       "size": 2599,
       "digest": "sha256:fd70d734aeb08d13b89eda21a97ecc2e5849016c958fcb44720e5477e07a2029",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/fd70d734aeb0-Channels-SKIN-metrixneon.sh",
-      "mirroredAt": "2026-11-20T21:21:40Z",
+      "mirroredAt": "2026-11-20T21:33:02Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2659,7 +2659,7 @@
       "size": 3499,
       "digest": "sha256:e4893b6a634793ff0b0fd9b596bf4e07fb2466dbb91c61b1b1b3d415dd8cfec2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e4893b6a6347-Channels-SKIN-MohammedSkin.sh",
-      "mirroredAt": "2026-11-20T21:21:42Z",
+      "mirroredAt": "2026-11-20T21:33:05Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2669,7 +2669,7 @@
       "size": 2600,
       "digest": "sha256:745ded28350f0bb32ef68f00c2db8cc8c5623e43bf4199d5604c1abacfb99ad3",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/745ded28350f-Channels-SKIN-multiposter.sh",
-      "mirroredAt": "2026-11-20T21:21:44Z",
+      "mirroredAt": "2026-11-20T21:33:06Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2679,7 +2679,7 @@
       "size": 2599,
       "digest": "sha256:ee255113a41152e4931733db90576889ea74855006779f564e619805b41ffb08",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ee255113a411-Channels-SKIN-mx_graphite.sh",
-      "mirroredAt": "2026-11-20T21:21:47Z",
+      "mirroredAt": "2026-11-20T21:33:09Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2689,7 +2689,7 @@
       "size": 2604,
       "digest": "sha256:720cf7511291cd2969bce035f8392650ead074c0068266a3be3ec3c74e097ba2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/720cf7511291-Channels-SKIN-mx_maestra_gray.sh",
-      "mirroredAt": "2026-11-20T21:21:49Z",
+      "mirroredAt": "2026-11-20T21:33:10Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2699,7 +2699,7 @@
       "size": 2596,
       "digest": "sha256:aa5b4607b929afb16cfa181674f888a619ce45252929fc12c9ce7888517aef8d",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/aa5b4607b929-Channels-SKIN-nacht.sh",
-      "mirroredAt": "2026-11-20T21:21:51Z",
+      "mirroredAt": "2026-11-20T21:33:12Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2709,7 +2709,7 @@
       "size": 2594,
       "digest": "sha256:bfaea1d91568dca39c54968aff0b022ac92fcae858bab949cd1b25cb8a3ac976",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/bfaea1d91568-Channels-SKIN-nitro.sh",
-      "mirroredAt": "2026-11-20T21:21:53Z",
+      "mirroredAt": "2026-11-20T21:33:14Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2719,7 +2719,7 @@
       "size": 152,
       "digest": "sha256:be3e5df0431d8eaa9a281739cea09636c2aa0788a2755f4c50f999c0c6acaef9",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/be3e5df0431d-Channels-SKIN-nitro_adv.sh",
-      "mirroredAt": "2026-11-20T21:21:55Z",
+      "mirroredAt": "2026-11-20T21:33:16Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2729,7 +2729,7 @@
       "size": 2599,
       "digest": "sha256:5e061cbc438ac91b385f270c0b4aa3f8440eeb4a9f9b930fc900a3d27088a068",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/5e061cbc438a-Channels-SKIN-novaler.sh",
-      "mirroredAt": "2026-11-20T21:21:58Z",
+      "mirroredAt": "2026-11-20T21:33:18Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2739,7 +2739,7 @@
       "size": 2594,
       "digest": "sha256:0eb2af087cbc064c2f9b5430a0fae3a18d9f4f10d3ce5f77b426dcbfaeba98f2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/0eb2af087cbc-Channels-SKIN-novax.sh",
-      "mirroredAt": "2026-11-20T21:22:00Z",
+      "mirroredAt": "2026-11-20T21:33:19Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2749,7 +2749,7 @@
       "size": 1130,
       "digest": "sha256:8a725775320b32172a08a2a2a1ca50e54ec44cf0d34f5b4f390d2182b95066e2",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8a725775320b-Channels-SKIN-Obsidian.sh",
-      "mirroredAt": "2026-11-20T21:22:02Z",
+      "mirroredAt": "2026-11-20T21:33:21Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2759,7 +2759,7 @@
       "size": 2594,
       "digest": "sha256:0f953145535f49765c7ae6562f6304e0d51c0d44187dc8e2e59cb80866cb7561",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/0f953145535f-Channels-SKIN-octel.sh",
-      "mirroredAt": "2026-11-20T21:22:05Z",
+      "mirroredAt": "2026-11-20T21:33:23Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2769,7 +2769,7 @@
       "size": 2593,
       "digest": "sha256:b7ce5bbfd5ab777578c8e1c055d52a7d99107af75597712c43dc9a7a42de8459",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b7ce5bbfd5ab-Channels-SKIN-odreamy.sh",
-      "mirroredAt": "2026-11-20T21:22:07Z",
+      "mirroredAt": "2026-11-20T21:33:25Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2779,7 +2779,7 @@
       "size": 2599,
       "digest": "sha256:7c219d727b4e155decd31d63646fa8ed781158a7ce10882a2486fbaefd1e82de",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7c219d727b4e-Channels-SKIN-orange_sky.sh",
-      "mirroredAt": "2026-11-20T21:22:09Z",
+      "mirroredAt": "2026-11-20T21:33:26Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2789,7 +2789,7 @@
       "size": 2592,
       "digest": "sha256:4bd81cfd15cf99d101cfe2bccd83689399be0ecdb951287e5e3e2dec611b51c6",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4bd81cfd15cf-Channels-SKIN-osn.sh",
-      "mirroredAt": "2026-11-20T21:22:13Z",
+      "mirroredAt": "2026-11-20T21:33:28Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2799,7 +2799,7 @@
       "size": 2591,
       "digest": "sha256:b7c0aca33efcda6f98a6e9f518e46f6616730a0dd5489863adaa71a4f04b3261",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b7c0aca33efc-Channels-SKIN-ozeta.sh",
-      "mirroredAt": "2026-11-20T21:22:15Z",
+      "mirroredAt": "2026-11-20T21:33:29Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2809,7 +2809,7 @@
       "size": 2592,
       "digest": "sha256:b04d15753eb5edaab6228e885793881966b2951a88212254289334a049e1c623",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b04d15753eb5-Channels-SKIN-pal.sh",
-      "mirroredAt": "2026-11-20T21:22:17Z",
+      "mirroredAt": "2026-11-20T21:33:31Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2819,7 +2819,7 @@
       "size": 2601,
       "digest": "sha256:09a3b05e122afa4ed2822cacde73a8899534690d0e6c21d4474a1da6f7908573",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/09a3b05e122a-Channels-SKIN-pd1loi.sh",
-      "mirroredAt": "2026-11-20T21:22:20Z",
+      "mirroredAt": "2026-11-20T21:33:33Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2829,7 +2829,7 @@
       "size": 2596,
       "digest": "sha256:3191c73f852acbd73e870b55f89a45fb3f6bb4ed1f9f56cdccb16e1b88896d03",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3191c73f852a-Channels-SKIN-pdreamy.sh",
-      "mirroredAt": "2026-11-20T21:22:22Z",
+      "mirroredAt": "2026-11-20T21:33:35Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2839,7 +2839,7 @@
       "size": 2597,
       "digest": "sha256:dc5fbb748663a2fd34b139455ff6808240cf3098c173418b196b9f738ea0f7f9",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/dc5fbb748663-Channels-SKIN-premium.sh",
-      "mirroredAt": "2026-11-20T21:22:24Z",
+      "mirroredAt": "2026-11-20T21:33:36Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2849,7 +2849,7 @@
       "size": 132,
       "digest": "sha256:6484c92376cebc93969e29a2522d187ffc6891ba151c71eb57a7868a722d117b",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/6484c92376ce-Channels-SKIN-xdreamy.sh",
-      "mirroredAt": "2026-11-20T21:22:26Z",
+      "mirroredAt": "2026-11-20T21:33:38Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2859,7 +2859,7 @@
       "size": 2593,
       "digest": "sha256:92347fce22e8cf9bd8ac7bcbea08d7bfef2a3860b2268e418d2c241738e878e3",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/92347fce22e8-Channels-SKIN-youchie.sh",
-      "mirroredAt": "2026-11-20T21:22:29Z",
+      "mirroredAt": "2026-11-20T21:33:40Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2869,7 +2869,7 @@
       "size": 2589,
       "digest": "sha256:26b8550c25bf12eae507533e7b4b3389c602db2cfcc4207cbb97493d2d12db2f",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/26b8550c25bf-Channels-TOOL-Arabic_ATV_7.6.sh",
-      "mirroredAt": "2026-11-20T21:22:31Z",
+      "mirroredAt": "2026-11-20T21:33:42Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2879,7 +2879,7 @@
       "size": 80,
       "digest": "sha256:70efcba05ace7535e5bbcfc9c86b2f1bd97724b183253910db369e1dd829a7fb",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/70efcba05ace-Channels-TOOL-BackToScratch.sh",
-      "mirroredAt": "2026-11-20T21:22:33Z",
+      "mirroredAt": "2026-11-20T21:33:44Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2889,7 +2889,7 @@
       "size": 769,
       "digest": "sha256:e62267ff31469a6afca50e7f6cce76e8e14ca7b36a4697101f2296666f69e043",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e62267ff3146-Channels-TOOL-BackupSettings.sh",
-      "mirroredAt": "2026-11-20T21:22:35Z",
+      "mirroredAt": "2026-11-20T21:33:46Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2899,7 +2899,7 @@
       "size": 453,
       "digest": "sha256:2317ae0ebe5f252ab80dcad08b133a44834f7126e14a09c565a6a84a3c2cb7ce",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2317ae0ebe5f-Channels-TOOL-Convert_jpg_bootlogo.sh",
-      "mirroredAt": "2026-11-20T21:22:38Z",
+      "mirroredAt": "2026-11-20T21:33:48Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2909,7 +2909,7 @@
       "size": 75,
       "digest": "sha256:c02429402cf0642403573f1444160b1948b57bc946af722b2ff207eb2ecda2c1",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c02429402cf0-Channels-TOOL-Curl.sh",
-      "mirroredAt": "2026-11-20T21:22:41Z",
+      "mirroredAt": "2026-11-20T21:33:50Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2919,7 +2919,7 @@
       "size": 112,
       "digest": "sha256:d0c22123dd5766715a069fa30a35ffcd4e9836caba34dc0b6fbe1f92ecb94d80",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/d0c22123dd57-Channels-TOOL-DNS_google.sh",
-      "mirroredAt": "2026-11-20T21:22:43Z",
+      "mirroredAt": "2026-11-20T21:33:52Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2929,7 +2929,7 @@
       "size": 2612,
       "digest": "sha256:a5caa9956841a2a852362b270771933e6f1145a3d086d0418a01a564fe07c81a",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a5caa9956841-Channels-TOOL-Epggrabber_auto.sh",
-      "mirroredAt": "2026-11-20T21:22:45Z",
+      "mirroredAt": "2026-11-20T21:33:53Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2939,7 +2939,7 @@
       "size": 4259,
       "digest": "sha256:4da8cf6c6701e91a3237e48316b59c970dadeccaec82aef36bb6c8a5be6c92c6",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4da8cf6c6701-Channels-TOOL-Full_backup_image.sh",
-      "mirroredAt": "2026-11-20T21:22:48Z",
+      "mirroredAt": "2026-11-20T21:33:55Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2949,7 +2949,7 @@
       "size": 1445,
       "digest": "sha256:f296404d5fe94d1dd2e862712c8a208f2be21c37249f21e76ad315e655190cc5",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f296404d5fe9-Channels-TOOL-Khaled_Channels_fullsat.sh",
-      "mirroredAt": "2026-11-20T21:22:50Z",
+      "mirroredAt": "2026-11-20T21:33:57Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2959,7 +2959,7 @@
       "size": 2482,
       "digest": "sha256:5ff1e5944dfaffc6278989519bfd052615bc22ad9e1322e70e80d1df5693fcf8",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/5ff1e5944dfa-Channels-TOOL-Khaled_epg_fast.sh",
-      "mirroredAt": "2026-11-20T21:22:53Z",
+      "mirroredAt": "2026-11-20T21:33:59Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2969,7 +2969,7 @@
       "size": 181,
       "digest": "sha256:d977602c6b2baa17ed59a70f8a984829d922636ab930f619d19f062e3ba2c1da",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/d977602c6b2b-Channels-TOOL-Khaled_softcam_update.sh",
-      "mirroredAt": "2026-11-20T21:22:55Z",
+      "mirroredAt": "2026-11-20T21:34:01Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2979,7 +2979,7 @@
       "size": 2063,
       "digest": "sha256:54997dd5b9bfe33ebe64619674e8d45ae5d1fb7fe2ee76ec198687a5715d3729",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/54997dd5b9bf-Channels-TOOL-KhaledAli_picon_pro.sh",
-      "mirroredAt": "2026-11-20T21:22:58Z",
+      "mirroredAt": "2026-11-20T21:34:03Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2989,7 +2989,7 @@
       "size": 960,
       "digest": "sha256:3e68a81ae19e8c1fb249aeb045b71635408ef9647d82b052dc66a8dd57ca0f8f",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3e68a81ae19e-Channels-TOOL-KhaledEpg.sh",
-      "mirroredAt": "2026-11-20T21:23:01Z",
+      "mirroredAt": "2026-11-20T21:34:04Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -2999,7 +2999,7 @@
       "size": 1282,
       "digest": "sha256:e3251162243c1ae36d2b4c8b7f3242be2068a302e28603547f7a26e49c707c54",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e3251162243c-Channels-TOOL-KhaledHotkey_all_image.sh",
-      "mirroredAt": "2026-11-20T21:23:04Z",
+      "mirroredAt": "2026-11-20T21:34:06Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -3009,7 +3009,7 @@
       "size": 1275,
       "digest": "sha256:34ecbdc02130f9f8af40cd606b0885c0fedf99894cb1c26cb0bf57402294a8de",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/34ecbdc02130-Channels-TOOL-KhaledSettings_all_image.sh",
-      "mirroredAt": "2026-11-20T21:23:06Z",
+      "mirroredAt": "2026-11-20T21:34:08Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -3019,7 +3019,7 @@
       "size": 3773,
       "digest": "sha256:4f7c0ecf2744bdf180c4e3a5466e1598b51a6e3a71033c0a26ad3fc8d39b2e4f",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4f7c0ecf2744-Channels-TOOL-KhaledSNP_internal.sh",
-      "mirroredAt": "2026-11-20T21:23:09Z",
+      "mirroredAt": "2026-11-20T21:34:10Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -3029,7 +3029,7 @@
       "size": 189,
       "digest": "sha256:1ef1b9cbb59628db5a266f2da1090acd1e85183886ee1574b2b26dc987457778",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1ef1b9cbb596-Channels-TOOL-Mymetrix_backup.sh",
-      "mirroredAt": "2026-11-20T21:23:11Z",
+      "mirroredAt": "2026-11-20T21:34:12Z",
       "reviewStatus": "manual_review_never_execute"
     },
     {
@@ -3039,277 +3039,7 @@
       "size": 215,
       "digest": "sha256:00bf509bcb80519672e7076d3d494686b40271a7a886bb52ac6c5d4db8031720",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/00bf509bcb80-Channels-TOOL-Mymetrix_fonts.sh",
-      "mirroredAt": "2026-11-20T21:23:14Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Mymetrix_neo.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-Mymetrix_neo.sh",
-      "size": 231,
-      "digest": "sha256:7dd557402a3e084157f97f60cc341950991799da1556f95affcca2fc8e1a11ef",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7dd557402a3e-Channels-TOOL-Mymetrix_neo.sh",
-      "mirroredAt": "2026-11-20T21:23:16Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Mymetrix_poster.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-Mymetrix_poster.sh",
-      "size": 224,
-      "digest": "sha256:98cb0ecb1bbcc72e863b6c3d860ac834b93ee21b2bbd20a70d04641c0cfaf02c",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/98cb0ecb1bbc-Channels-TOOL-Mymetrix_poster.sh",
-      "mirroredAt": "2026-11-20T21:23:19Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-NovalerDownloader.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-NovalerDownloader.sh",
-      "size": 4031,
-      "digest": "sha256:9e8596c7dbad2c4c5b66b4ed6359e97291f507e53e49af1cd56c1b9c2cebb26e",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9e8596c7dbad-Channels-TOOL-NovalerDownloader.sh",
-      "mirroredAt": "2026-11-20T21:23:22Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-PiconProvider_sat_crypt.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-PiconProvider_sat_crypt.sh",
-      "size": 404,
-      "digest": "sha256:6b9ac5dfcf9ff4c9cc134f669e790eb95860886391bcbf1c6fa3a467734bbd2d",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/6b9ac5dfcf9f-Channels-TOOL-PiconProvider_sat_crypt.sh",
-      "mirroredAt": "2026-11-20T21:23:24Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Satellites_ciefp.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-Satellites_ciefp.sh",
-      "size": 879,
-      "digest": "sha256:bc198092b20351a804ee08f1bf519a95149a4a3fcc949ddee5282d432fbcb695",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/bc198092b203-Channels-TOOL-Satellites_ciefp.sh",
-      "mirroredAt": "2026-11-20T21:23:27Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Satellites_khaled_nilesat.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-Satellites_khaled_nilesat.sh",
-      "size": 851,
-      "digest": "sha256:653d48cafa3ff4a1af3dfa293db89cee82cc91755b65b27396c697152d2f9ff9",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/653d48cafa3f-Channels-TOOL-Satellites_khaled_nilesat.sh",
-      "mirroredAt": "2026-11-20T21:23:30Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Satellites_morph.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-Satellites_morph.sh",
-      "size": 877,
-      "digest": "sha256:9b88249a97b1255ee263e9b518315eb5c9c1ccc1151513759d318713f395cd94",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9b88249a97b1-Channels-TOOL-Satellites_morph.sh",
-      "mirroredAt": "2026-11-20T21:23:32Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Satellites_org.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-Satellites_org.sh",
-      "size": 867,
-      "digest": "sha256:13fdbb614e5fa766194fd61ded0355968539fdbf1389d8036195145acbfb9200",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/13fdbb614e5f-Channels-TOOL-Satellites_org.sh",
-      "mirroredAt": "2026-11-20T21:23:34Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-SettingsMotor_ciefp.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-SettingsMotor_ciefp.sh",
-      "size": 82,
-      "digest": "sha256:9201caba26f94072400902744058799349c1eafeb1458ea9e01852fd81f859f1",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9201caba26f9-Channels-TOOL-SettingsMotor_ciefp.sh",
-      "mirroredAt": "2026-11-20T21:23:37Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-SymLink_picon.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-SymLink_picon.sh",
-      "size": 69,
-      "digest": "sha256:85466f26e192ba2f1523c13028e64d20f64765ac22c7c8a508b074de40d652b3",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/85466f26e192-Channels-TOOL-SymLink_picon.sh",
-      "mirroredAt": "2026-11-20T21:23:39Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-update-all-python.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-update-all-python.sh",
-      "size": 7693,
-      "digest": "sha256:2d0834338b7980a18a8f1a4c4fe81350066b9228fbe99e05be155b59661a55fd",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2d0834338b79-Channels-TOOL-update-all-python.sh",
-      "mirroredAt": "2026-11-20T21:23:42Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Upgrade.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-Upgrade.sh",
-      "size": 53,
-      "digest": "sha256:3e6fd500b59c549a553f28198bb5bfc6c287f9d0ffa23067379fadd50eb8a7c7",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3e6fd500b59c-Channels-TOOL-Upgrade.sh",
-      "mirroredAt": "2026-11-20T21:23:44Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Wget.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-Wget.sh",
-      "size": 62,
-      "digest": "sha256:f552ddff2d544f3223dff2befd787e0c94a9fd27f76d07cb45eb15d1f654a28f",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f552ddff2d54-Channels-TOOL-Wget.sh",
-      "mirroredAt": "2026-11-20T21:23:47Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-WhiteList_ciefp.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "TOOL-WhiteList_ciefp.sh",
-      "size": 132,
-      "digest": "sha256:bb57885c892b6aa7d79970513ac090150ed9d0317dc02f1c4c606a2534860df2",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/bb57885c892b-Channels-TOOL-WhiteList_ciefp.sh",
-      "mirroredAt": "2026-11-20T21:23:50Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Aiscript/update_channels.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "update_channels.sh",
-      "size": 2653,
-      "digest": "sha256:f20739b35c9b337162d7f50cd8e19e93c4217c6468c607c68905b1c31e975566",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f20739b35c9b-Channels-update_channels.sh",
-      "mirroredAt": "2026-11-20T21:23:52Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Aiscript/update_picons.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "update_picons.sh",
-      "size": 2578,
-      "digest": "sha256:8cf13afe47ce144894be8c536908f225b872405466b5992cdab1ac29e4a94062",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8cf13afe47ce-Channels-update_picons.sh",
-      "mirroredAt": "2026-11-20T21:23:55Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Aiscript/XtreamAndroid.sh",
-      "repository": "KhaledAli65/Channels",
-      "sourceAssetName": "XtreamAndroid.sh",
-      "size": 2600,
-      "digest": "sha256:1fbc60d450261d80a82ee8a0a2343e5d6c3e537560a51213ea70a7fadf6ec7fe",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1fbc60d45026-Channels-XtreamAndroid.sh",
-      "mirroredAt": "2026-11-20T21:23:57Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/emu/main/backup-4k.txt",
-      "repository": "KhaledAli65/emu",
-      "sourceAssetName": "backup-4k.txt",
-      "size": 1990,
-      "digest": "sha256:cebaa11fa1b3c1402bee4d7be047f2427002040020971b32ac6dbbff033f5201",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/cebaa11fa1b3-emu-backup-4k.txt",
-      "mirroredAt": "2026-11-20T21:24:00Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/emu/main/install.sh",
-      "repository": "KhaledAli65/emu",
-      "sourceAssetName": "install.sh",
-      "size": 2412,
-      "digest": "sha256:cdb5de8baf886e86f5769ab1cc74fcf662ad96dd5270b31a079529be0c88eb73",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/cdb5de8baf88-emu-install.sh",
-      "mirroredAt": "2026-11-20T21:24:02Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/novaler/main/install.sh",
-      "repository": "KhaledAli65/novaler",
-      "sourceAssetName": "install.sh",
-      "size": 2113,
-      "digest": "sha256:ecb68af454b7a75da7b65061940ae40503a576dbe1e2f278aa642a500ff13249",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ecb68af454b7-novaler-install.sh",
-      "mirroredAt": "2026-11-20T21:24:04Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/novaler/main/playlists.txt",
-      "repository": "KhaledAli65/novaler",
-      "sourceAssetName": "playlists.txt",
-      "size": 160,
-      "digest": "sha256:b4b3858647d3f38a0d371ae0b86dc217a0a8c88008788d42c97c073c90174047",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b4b3858647d3-novaler-playlists.txt",
-      "mirroredAt": "2026-11-20T21:24:06Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/picons/main/backup-pro.txt",
-      "repository": "KhaledAli65/picons",
-      "sourceAssetName": "backup-pro.txt",
-      "size": 3154,
-      "digest": "sha256:7fb6deccec6843524a717b77d81b40e170a6e1ef2f30550f05c15fd62bb41263",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7fb6deccec68-picons-backup-pro.txt",
-      "mirroredAt": "2026-11-20T21:24:08Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/plugins/main/build_khaled_feed.sh",
-      "repository": "KhaledAli65/plugins",
-      "sourceAssetName": "build_khaled_feed.sh",
-      "size": 5303,
-      "digest": "sha256:bdeb492b403fe7318b2a50cd856eb8d202ca4b512ab09c00dd628245474c2182",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/bdeb492b403f-plugins-build_khaled_feed.sh",
-      "mirroredAt": "2026-11-20T21:24:11Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/plugins/main/tar_list.txt",
-      "repository": "KhaledAli65/plugins",
-      "sourceAssetName": "tar_list.txt",
-      "size": 758,
-      "digest": "sha256:2c76a7be8070d73201401de80b51e4778d15740f1a8780e1371531b6869b74ae",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2c76a7be8070-plugins-tar_list.txt",
-      "mirroredAt": "2026-11-20T21:24:13Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://github.com/KhaledAli65/skins/releases/download/Enigma2/SKIN-MohammedSkin.sh",
-      "repository": "KhaledAli65/skins",
-      "sourceAssetName": "SKIN-MohammedSkin.sh",
-      "size": 3499,
-      "digest": "sha256:e4893b6a634793ff0b0fd9b596bf4e07fb2466dbb91c61b1b1b3d415dd8cfec2",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e4893b6a6347-skins-SKIN-MohammedSkin.sh",
-      "mirroredAt": "2026-11-20T21:24:16Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/Slot/main/e2multiboot_engine.sh",
-      "repository": "KhaledAli65/Slot",
-      "sourceAssetName": "e2multiboot_engine.sh",
-      "size": 2540,
-      "digest": "sha256:decb8fd7282c526c2110683e2a22a9914c587f04711084b50f0c526575c9da90",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/decb8fd7282c-Slot-e2multiboot_engine.sh",
-      "mirroredAt": "2026-11-20T21:24:19Z",
-      "reviewStatus": "manual_review_never_execute"
-    },
-    {
-      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/Slot/main/install-feed.sh",
-      "repository": "KhaledAli65/Slot",
-      "sourceAssetName": "install-feed.sh",
-      "size": 1537,
-      "digest": "sha256:17161fc29bc9afe657bc393339820fae82254278502fdd3c37137f5448a2fda9",
-      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/17161fc29bc9-Slot-install-feed.sh",
-      "mirroredAt": "2026-11-20T21:24:22Z",
+      "mirroredAt": "2026-11-20T21:34:14Z",
       "reviewStatus": "manual_review_never_execute"
     }
   ]
