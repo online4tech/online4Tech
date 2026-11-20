@@ -1,0 +1,134 @@
+name: Monitor KhaledAli65 Enigma2 releases
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: khaledali65-release-monitor
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout website repository
+        uses: actions/checkout@v4
+
+      - name: Scan public repositories and recent releases
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p monitoring
+          gh api --paginate "users/KhaledAli65/repos?type=public&per_page=100&sort=updated" > monitoring/repos-pages.json
+          python3 - <<'PY'
+          import json, os, subprocess, re
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          repos = json.loads(Path("monitoring/repos-pages.json").read_text())
+          # Exclude forks and archived repositories; newly created public repos are discovered automatically.
+          repos = [r for r in repos if not r.get("fork") and not r.get("archived")]
+          extensions = (".ipk", ".sh", ".zip", ".tar", ".tar.gz", ".tar.xz", ".tgz", ".nfi", ".img", ".bin", ".txt", ".md", ".json")
+          rows = []
+          errors = []
+
+          for repo in repos:
+              full = repo["full_name"]
+              try:
+                  raw = subprocess.check_output(
+                      ["gh", "api", "--paginate", f"repos/{full}/releases?per_page=20"],
+                      text=True, stderr=subprocess.PIPE
+                  )
+                  releases = json.loads(raw)
+                  for release in releases:
+                      for asset in release.get("assets", []):
+                          name = asset.get("name", "")
+                          lower = name.lower()
+                          if lower.endswith(extensions):
+                              rows.append({
+                                  "repository": full,
+                                  "repository_url": repo["html_url"],
+                                  "release": release.get("tag_name", ""),
+                                  "release_url": release.get("html_url", ""),
+                                  "published_at": release.get("published_at", ""),
+                                  "asset": name,
+                                  "size": asset.get("size", 0),
+                                  "download_url": asset.get("browser_download_url", ""),
+                                  "content_type": asset.get("content_type", "")
+                              })
+              except Exception as exc:
+                  errors.append({"repository": full, "error": str(exc)[:500]})
+
+          rows.sort(key=lambda x: (x["repository"].lower(), x["release"], x["asset"].lower()))
+          report = {
+              "generated_at": datetime.now(timezone.utc).isoformat(),
+              "owner": "KhaledAli65",
+              "repositories_scanned": len(repos),
+              "matching_release_assets": len(rows),
+              "assets": rows,
+              "scan_errors": errors
+          }
+          Path("monitoring/khaledali65-latest-scan.json").write_text(
+              json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+          )
+
+          lines = [
+              "# تقرير مراقبة مستودعات KhaledAli65",
+              "",
+              f"- آخر فحص: {report['generated_at']}",
+              f"- المستودعات العامة المفحوصة: {len(repos)}",
+              f"- الملفات المطابقة في الإصدارات: {len(rows)}",
+              f"- أخطاء الفحص: {len(errors)}",
+              "",
+              "> هذا الفحص يرصد الملفات فقط. لا يتم تنفيذ ملفات SH أو أوامر Telnet، ولا تُنشر ملفات IPK أو الصور أو النسخ الاحتياطية تلقائيًا قبل فحص التوافق والتصنيف.",
+              "",
+              "## الملفات المكتشفة",
+              ""
+          ]
+          if rows:
+              lines += ["| المستودع | الإصدار | الملف | الحجم |", "|---|---|---|---:|"]
+              for item in rows:
+                  lines.append(
+                      f"| [{item['repository']}]({item['repository_url']}) "
+                      f"| [{item['release']}]({item['release_url']}) "
+                      f"| [{item['asset']}]({item['download_url']}) "
+                      f"| {item['size']:,} bytes |"
+                  )
+          else:
+              lines.append("لم يتم العثور على ملفات مطابقة في إصدارات المستودعات أثناء هذا الفحص.")
+          if errors:
+              lines += ["", "## مستودعات تعذر فحصها", ""]
+              for err in errors:
+                  lines.append(f"- {err['repository']}: {err['error']}")
+          Path("monitoring/KHALEDALI65-LATEST-REPORT.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+          print(f"Scanned {len(repos)} repositories; found {len(rows)} matching assets; {len(errors)} errors.")
+          PY
+
+      - name: Commit updated monitoring report
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- monitoring; then
+            echo "No monitoring report changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add monitoring
+            git commit -m "Update KhaledAli65 release monitoring report"
+            git push
+          fi
+
+      - name: Upload scan report
+        uses: actions/upload-artifact@v4
+        with:
+          name: khaledali65-monitoring-report
+          path: monitoring/
+          retention-days: 30
