@@ -6111,7 +6111,7 @@
       "sourceAssetName": "ajpanel.ipk",
       "sourceFileSize": 541714,
       "sourceDigest": "sha256:b07ec8816d43ba00640e990af0fc5ed2507a4b0ffbeb9d5780dee73b59446daa",
-      "mirroredAt": "2026-11-20T21:20:59Z",
+      "mirroredAt": "2026-11-20T21:21:07Z",
       "mirrorDigest": "sha256:b07ec8816d43ba00640e990af0fc5ed2507a4b0ffbeb9d5780dee73b59446daa",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6144,7 +6144,7 @@
       "sourceAssetName": "Alkuds_ipaudio.ipk",
       "sourceFileSize": 3119042,
       "sourceDigest": "sha256:30524ec1cd9ac8162af4578628ed0e8e13ce4b9eb0f434d0b0773f28c3cf0476",
-      "mirroredAt": "2026-11-20T21:20:59Z",
+      "mirroredAt": "2026-11-20T21:21:08Z",
       "mirrorDigest": "sha256:30524ec1cd9ac8162af4578628ed0e8e13ce4b9eb0f434d0b0773f28c3cf0476",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6177,7 +6177,7 @@
       "sourceAssetName": "ansite.ipk",
       "sourceFileSize": 6218262,
       "sourceDigest": "sha256:13dce017e310578c8552db55e5e5eece968ea641630ed9a597b5a034fba44c2b",
-      "mirroredAt": "2026-11-20T21:21:00Z",
+      "mirroredAt": "2026-11-20T21:21:09Z",
       "mirrorDigest": "sha256:13dce017e310578c8552db55e5e5eece968ea641630ed9a597b5a034fba44c2b",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6210,7 +6210,7 @@
       "sourceAssetName": "auto-dcw-key-add.ipk",
       "sourceFileSize": 133156,
       "sourceDigest": "sha256:24ba77183a6aeeeab6eb53c1e40c0159fa647ac71a92ccf56fd990924178de86",
-      "mirroredAt": "2026-11-20T21:21:00Z",
+      "mirroredAt": "2026-11-20T21:21:10Z",
       "mirrorDigest": "sha256:24ba77183a6aeeeab6eb53c1e40c0159fa647ac71a92ccf56fd990924178de86",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6243,7 +6243,7 @@
       "sourceAssetName": "automaticvolumeadjustment.ipk",
       "sourceFileSize": 24894,
       "sourceDigest": "sha256:60fcf9b057b8523a4a523b9bff890b69c3979c2560a04b4259aecb1e77e8d075",
-      "mirroredAt": "2026-11-20T21:21:01Z",
+      "mirroredAt": "2026-11-20T21:21:11Z",
       "mirrorDigest": "sha256:60fcf9b057b8523a4a523b9bff890b69c3979c2560a04b4259aecb1e77e8d075",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6276,7 +6276,7 @@
       "sourceAssetName": "autoresolution.ipk",
       "sourceFileSize": 36860,
       "sourceDigest": "sha256:9c6bb76e2b1deefc7c48ebc0a89a608633b67723f6cf8b39e9e957dc0f522720",
-      "mirroredAt": "2026-11-20T21:21:01Z",
+      "mirroredAt": "2026-11-20T21:21:12Z",
       "mirrorDigest": "sha256:9c6bb76e2b1deefc7c48ebc0a89a608633b67723f6cf8b39e9e957dc0f522720",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6309,7 +6309,7 @@
       "sourceAssetName": "backupsuite.ipk",
       "sourceFileSize": 186482,
       "sourceDigest": "sha256:08af1c7389ea230e34260877a417764880c9a007d7efca6644b05dadc395c664",
-      "mirroredAt": "2026-11-20T21:21:02Z",
+      "mirroredAt": "2026-11-20T21:21:13Z",
       "mirrorDigest": "sha256:08af1c7389ea230e34260877a417764880c9a007d7efca6644b05dadc395c664",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6342,7 +6342,7 @@
       "sourceAssetName": "bouquetmakerxtream.ipk",
       "sourceFileSize": 4297136,
       "sourceDigest": "sha256:bc119c5fdbed81191550576689e5a9cf3438627bafdd264b4c9f4e1514ef025e",
-      "mirroredAt": "2026-11-20T21:21:02Z",
+      "mirroredAt": "2026-11-20T21:21:14Z",
       "mirrorDigest": "sha256:bc119c5fdbed81191550576689e5a9cf3438627bafdd264b4c9f4e1514ef025e",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6375,7 +6375,7 @@
       "sourceAssetName": "buttonpatcher.ipk",
       "sourceFileSize": 10102,
       "sourceDigest": "sha256:2a67519453dc8bd7caee562d6aab545c68b7cdec879e56870e7865ba4b243516",
-      "mirroredAt": "2026-11-20T21:21:03Z",
+      "mirroredAt": "2026-11-20T21:21:15Z",
       "mirrorDigest": "sha256:2a67519453dc8bd7caee562d6aab545c68b7cdec879e56870e7865ba4b243516",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6408,7 +6408,7 @@
       "sourceAssetName": "clearmem.ipk",
       "sourceFileSize": 11366,
       "sourceDigest": "sha256:38a4638e078d912948a804514d332fc845e13b749c7b8bcdd5dab704d634ccd1",
-      "mirroredAt": "2026-11-20T21:21:03Z",
+      "mirroredAt": "2026-11-20T21:21:16Z",
       "mirrorDigest": "sha256:38a4638e078d912948a804514d332fc845e13b749c7b8bcdd5dab704d634ccd1",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6441,7 +6441,7 @@
       "sourceAssetName": "dreamexplorer.ipk",
       "sourceFileSize": 61822,
       "sourceDigest": "sha256:40438c042bd47151a22d9eb9e0fd02db07808e6f223d0abcf7587a77d118760a",
-      "mirroredAt": "2026-11-20T21:21:04Z",
+      "mirroredAt": "2026-11-20T21:21:17Z",
       "mirrorDigest": "sha256:40438c042bd47151a22d9eb9e0fd02db07808e6f223d0abcf7587a77d118760a",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6474,7 +6474,7 @@
       "sourceAssetName": "e2duplicatechannelsmanager.ipk",
       "sourceFileSize": 79968,
       "sourceDigest": "sha256:6bf5f21be6ecaeab54f19a133abba8e62d01795a55d9403ae89cf2404f43699a",
-      "mirroredAt": "2026-11-20T21:21:04Z",
+      "mirroredAt": "2026-11-20T21:21:18Z",
       "mirrorDigest": "sha256:6bf5f21be6ecaeab54f19a133abba8e62d01795a55d9403ae89cf2404f43699a",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6507,7 +6507,7 @@
       "sourceAssetName": "e2panel.ipk",
       "sourceFileSize": 11230,
       "sourceDigest": "sha256:cd60eb617e17b896959be93d3047f12ace9ffe1eb10751bf1ef7af9a7a1ffa5b",
-      "mirroredAt": "2026-11-20T21:21:05Z",
+      "mirroredAt": "2026-11-20T21:21:19Z",
       "mirrorDigest": "sha256:cd60eb617e17b896959be93d3047f12ace9ffe1eb10751bf1ef7af9a7a1ffa5b",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6540,7 +6540,7 @@
       "sourceAssetName": "emilpanelpro.ipk",
       "sourceFileSize": 1968120,
       "sourceDigest": "sha256:c7c53640cb518bee0b121c710a1daf9b2bb59a5f3c4b7696603a18f5b4062997",
-      "mirroredAt": "2026-11-20T21:21:06Z",
+      "mirroredAt": "2026-11-20T21:21:20Z",
       "mirrorDigest": "sha256:c7c53640cb518bee0b121c710a1daf9b2bb59a5f3c4b7696603a18f5b4062997",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6573,7 +6573,7 @@
       "sourceAssetName": "enhancement.ipk",
       "sourceFileSize": 16634,
       "sourceDigest": "sha256:c763a98bcf63d3d43a27fb96938b254e670876c73fd1bb64277b066fa25474a3",
-      "mirroredAt": "2026-11-20T21:21:06Z",
+      "mirroredAt": "2026-11-20T21:21:21Z",
       "mirrorDigest": "sha256:c763a98bcf63d3d43a27fb96938b254e670876c73fd1bb64277b066fa25474a3",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6606,7 +6606,7 @@
       "sourceAssetName": "epgimport.ipk",
       "sourceFileSize": 87330,
       "sourceDigest": "sha256:7c2d9795ba420690822362874278099016337b656d3a014ee633d1a884d5427a",
-      "mirroredAt": "2026-11-20T21:21:07Z",
+      "mirroredAt": "2026-11-20T21:21:22Z",
       "mirrorDigest": "sha256:7c2d9795ba420690822362874278099016337b656d3a014ee633d1a884d5427a",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6639,7 +6639,7 @@
       "sourceAssetName": "estalker.ipk",
       "sourceFileSize": 3261872,
       "sourceDigest": "sha256:f8a7c920180975e8ef4348679c60a6910a9ba3e3951b7dc145ed5fce19fcc1d9",
-      "mirroredAt": "2026-11-20T21:21:07Z",
+      "mirroredAt": "2026-11-20T21:21:23Z",
       "mirrorDigest": "sha256:f8a7c920180975e8ef4348679c60a6910a9ba3e3951b7dc145ed5fce19fcc1d9",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6672,7 +6672,7 @@
       "sourceAssetName": "evgquicksignal.ipk",
       "sourceFileSize": 3665458,
       "sourceDigest": "sha256:7c00d18245295951b8eb15529d71420b49711547f5bf4054923e50ee3a81397a",
-      "mirroredAt": "2026-11-20T21:21:08Z",
+      "mirroredAt": "2026-11-20T21:21:24Z",
       "mirrorDigest": "sha256:7c00d18245295951b8eb15529d71420b49711547f5bf4054923e50ee3a81397a",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6705,7 +6705,7 @@
       "sourceAssetName": "filecommander.ipk",
       "sourceFileSize": 75238,
       "sourceDigest": "sha256:f31d258e03c6d5839bd47f171be49bb2a26ddb098c7fe978f2eeaedb11c63739",
-      "mirroredAt": "2026-11-20T21:21:08Z",
+      "mirroredAt": "2026-11-20T21:21:24Z",
       "mirrorDigest": "sha256:f31d258e03c6d5839bd47f171be49bb2a26ddb098c7fe978f2eeaedb11c63739",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6738,7 +6738,7 @@
       "sourceAssetName": "footonsat.ipk",
       "sourceFileSize": 14910756,
       "sourceDigest": "sha256:5f51f11f726bdb73f54bf0623cb7b4d761b705ab3aa8f6ef4612a4ffdf287af3",
-      "mirroredAt": "2026-11-20T21:21:09Z",
+      "mirroredAt": "2026-11-20T21:21:26Z",
       "mirrorDigest": "sha256:5f51f11f726bdb73f54bf0623cb7b4d761b705ab3aa8f6ef4612a4ffdf287af3",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6771,7 +6771,7 @@
       "sourceAssetName": "freeserver.ipk",
       "sourceFileSize": 2422248,
       "sourceDigest": "sha256:c838b20d205405b1e43499fcb4f365e2c039db739b3f646e9b998ca88e5d5696",
-      "mirroredAt": "2026-11-20T21:21:09Z",
+      "mirroredAt": "2026-11-20T21:21:27Z",
       "mirrorDigest": "sha256:c838b20d205405b1e43499fcb4f365e2c039db739b3f646e9b998ca88e5d5696",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6804,7 +6804,7 @@
       "sourceAssetName": "globaltranslateultra.ipk",
       "sourceFileSize": 1588620,
       "sourceDigest": "sha256:e3903d641ed32202011e9f353601f2c9feead00fe33cce04c430527919a5338f",
-      "mirroredAt": "2026-11-20T21:21:10Z",
+      "mirroredAt": "2026-11-20T21:21:28Z",
       "mirrorDigest": "sha256:e3903d641ed32202011e9f353601f2c9feead00fe33cce04c430527919a5338f",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6837,7 +6837,7 @@
       "sourceAssetName": "gtiptvplayerpro.ipk",
       "sourceFileSize": 42698936,
       "sourceDigest": "sha256:608b723099eff195967ff5af2e8511ea788cead058cb7368871ecd46d96ba683",
-      "mirroredAt": "2026-11-20T21:21:11Z",
+      "mirroredAt": "2026-11-20T21:21:30Z",
       "mirrorDigest": "sha256:608b723099eff195967ff5af2e8511ea788cead058cb7368871ecd46d96ba683",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6870,7 +6870,7 @@
       "sourceAssetName": "hamzasummary.ipk",
       "sourceFileSize": 5360,
       "sourceDigest": "sha256:6e5ba0d4a7ef9f9672ec9d9cb56ffeac509ab3e07e90b040e31b863e2ff54602",
-      "mirroredAt": "2026-11-20T21:21:11Z",
+      "mirroredAt": "2026-11-20T21:21:31Z",
       "mirrorDigest": "sha256:6e5ba0d4a7ef9f9672ec9d9cb56ffeac509ab3e07e90b040e31b863e2ff54602",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6903,7 +6903,7 @@
       "sourceAssetName": "historyzap.ipk",
       "sourceFileSize": 1932940,
       "sourceDigest": "sha256:34038a47b60cdbd6d7a71aac9744a0f7a3712ccd180e57a0d72fd5d1e768a6d4",
-      "mirroredAt": "2026-11-20T21:21:12Z",
+      "mirroredAt": "2026-11-20T21:21:31Z",
       "mirrorDigest": "sha256:34038a47b60cdbd6d7a71aac9744a0f7a3712ccd180e57a0d72fd5d1e768a6d4",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6936,7 +6936,7 @@
       "sourceAssetName": "ipaudio_8.0.ipk",
       "sourceFileSize": 32664,
       "sourceDigest": "sha256:0442cf7f332741d623dfaf2f27b29d3c51453ed4ce2612c59f16cc4a26aa6874",
-      "mirroredAt": "2026-11-20T21:21:12Z",
+      "mirroredAt": "2026-11-20T21:21:32Z",
       "mirrorDigest": "sha256:0442cf7f332741d623dfaf2f27b29d3c51453ed4ce2612c59f16cc4a26aa6874",
       "packageValidation": {
         "format": "ipk/ar",
@@ -6969,7 +6969,7 @@
       "sourceAssetName": "ipaudio_nassr.ipk",
       "sourceFileSize": 527716,
       "sourceDigest": "sha256:a77576f385d9323046cc97689450beeb4cc44422fce09f00bc6e68c86119790a",
-      "mirroredAt": "2026-11-20T21:21:13Z",
+      "mirroredAt": "2026-11-20T21:21:33Z",
       "mirrorDigest": "sha256:a77576f385d9323046cc97689450beeb4cc44422fce09f00bc6e68c86119790a",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7002,7 +7002,7 @@
       "sourceAssetName": "ipaudiopro.ipk",
       "sourceFileSize": 1064594,
       "sourceDigest": "sha256:9f79097d49b3d6cf0b0fee03208b67b315127afba652af6e82669c194bcf4db4",
-      "mirroredAt": "2026-11-20T21:21:13Z",
+      "mirroredAt": "2026-11-20T21:21:34Z",
       "mirrorDigest": "sha256:9f79097d49b3d6cf0b0fee03208b67b315127afba652af6e82669c194bcf4db4",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7035,7 +7035,7 @@
       "sourceAssetName": "ipaudiopro_mips.ipk",
       "sourceFileSize": 964436,
       "sourceDigest": "sha256:b265c267e0f8cef246db1d232dfd6037d5c5805fb6a31356657d939bbd955eb4",
-      "mirroredAt": "2026-11-20T21:21:14Z",
+      "mirroredAt": "2026-11-20T21:21:35Z",
       "mirrorDigest": "sha256:b265c267e0f8cef246db1d232dfd6037d5c5805fb6a31356657d939bbd955eb4",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7068,7 +7068,7 @@
       "sourceAssetName": "iqraaquran.ipk",
       "sourceFileSize": 7559630,
       "sourceDigest": "sha256:a96566142ff3031589805fccfe7b672a0d49a5e3c78d861bde5609b2bee28e87",
-      "mirroredAt": "2026-11-20T21:21:14Z",
+      "mirroredAt": "2026-11-20T21:21:36Z",
       "mirrorDigest": "sha256:a96566142ff3031589805fccfe7b672a0d49a5e3c78d861bde5609b2bee28e87",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7101,7 +7101,7 @@
       "sourceAssetName": "jediepgxtream.ipk",
       "sourceFileSize": 251190,
       "sourceDigest": "sha256:616ef60d2adce5053b9e64e56f046748bd9cac5dd7d2a44330bb9f29d79f10b9",
-      "mirroredAt": "2026-11-20T21:21:15Z",
+      "mirroredAt": "2026-11-20T21:21:37Z",
       "mirrorDigest": "sha256:616ef60d2adce5053b9e64e56f046748bd9cac5dd7d2a44330bb9f29d79f10b9",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7134,7 +7134,7 @@
       "sourceAssetName": "jedimakerxtream.ipk",
       "sourceFileSize": 3662090,
       "sourceDigest": "sha256:a82df259a244dbc23253ac990b57e8ecac0be86309cf0f2c5bcc6fd690ace717",
-      "mirroredAt": "2026-11-20T21:21:15Z",
+      "mirroredAt": "2026-11-20T21:21:38Z",
       "mirrorDigest": "sha256:a82df259a244dbc23253ac990b57e8ecac0be86309cf0f2c5bcc6fd690ace717",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7167,7 +7167,7 @@
       "sourceAssetName": "levi45-freeserver.ipk",
       "sourceFileSize": 26774,
       "sourceDigest": "sha256:5f665f9032f23de3b5ec821f7f90e2e32a6325a530359145f81351529ef0ec0a",
-      "mirroredAt": "2026-11-20T21:21:16Z",
+      "mirroredAt": "2026-11-20T21:21:39Z",
       "mirrorDigest": "sha256:5f665f9032f23de3b5ec821f7f90e2e32a6325a530359145f81351529ef0ec0a",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7200,7 +7200,7 @@
       "sourceAssetName": "levi45iptv.ipk",
       "sourceFileSize": 21284,
       "sourceDigest": "sha256:12a61022c5e265b2a4329c8e042df86698475a34bce1e1c04deaa8962e8bdafd",
-      "mirroredAt": "2026-11-20T21:21:16Z",
+      "mirroredAt": "2026-11-20T21:21:40Z",
       "mirrorDigest": "sha256:12a61022c5e265b2a4329c8e042df86698475a34bce1e1c04deaa8962e8bdafd",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7233,7 +7233,7 @@
       "sourceAssetName": "levi45multicammanager.ipk",
       "sourceFileSize": 1049126,
       "sourceDigest": "sha256:112353a6d4a8e452fceb7c5072b5e7913359d01cac79584ec74483ffee09ec47",
-      "mirroredAt": "2026-11-20T21:21:17Z",
+      "mirroredAt": "2026-11-20T21:21:41Z",
       "mirrorDigest": "sha256:112353a6d4a8e452fceb7c5072b5e7913359d01cac79584ec74483ffee09ec47",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7266,7 +7266,7 @@
       "sourceAssetName": "linuxsat-panel.ipk",
       "sourceFileSize": 10158742,
       "sourceDigest": "sha256:15482ec087978920bb24c603aef3ca405311423dc7d51a3cad7a867adb181afb",
-      "mirroredAt": "2026-11-20T21:21:17Z",
+      "mirroredAt": "2026-11-20T21:21:42Z",
       "mirrorDigest": "sha256:15482ec087978920bb24c603aef3ca405311423dc7d51a3cad7a867adb181afb",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7299,7 +7299,7 @@
       "sourceAssetName": "mawaqit.ipk",
       "sourceFileSize": 1358770,
       "sourceDigest": "sha256:63905043fc21cebc51e262a4564809baee9189956f38828d253de11089d5361f",
-      "mirroredAt": "2026-11-20T21:21:18Z",
+      "mirroredAt": "2026-11-20T21:21:43Z",
       "mirrorDigest": "sha256:63905043fc21cebc51e262a4564809baee9189956f38828d253de11089d5361f",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7332,7 +7332,7 @@
       "sourceAssetName": "mohamedstore.ipk",
       "sourceFileSize": 3851646,
       "sourceDigest": "sha256:0605b1e0a05e3ea04ad551880cdd1f8b805e8e6e3e85dca03b82277e9d86f50e",
-      "mirroredAt": "2026-11-20T21:21:18Z",
+      "mirroredAt": "2026-11-20T21:21:44Z",
       "mirrorDigest": "sha256:0605b1e0a05e3ea04ad551880cdd1f8b805e8e6e3e85dca03b82277e9d86f50e",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7365,7 +7365,7 @@
       "sourceAssetName": "multi-stalkerpro.ipk",
       "sourceFileSize": 2328424,
       "sourceDigest": "sha256:402282edb17d035cb952ea5ae28974d41fbaf91c960e4243986bf57a51b681a9",
-      "mirroredAt": "2026-11-20T21:21:19Z",
+      "mirroredAt": "2026-11-20T21:21:45Z",
       "mirrorDigest": "sha256:402282edb17d035cb952ea5ae28974d41fbaf91c960e4243986bf57a51b681a9",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7398,7 +7398,7 @@
       "sourceAssetName": "multi-stalkerpro_py2.7.ipk",
       "sourceFileSize": 721254,
       "sourceDigest": "sha256:bc02db24346853bec8f09c6e475a62683b52b336c11e3537cfd7cb68002d8929",
-      "mirroredAt": "2026-11-20T21:21:19Z",
+      "mirroredAt": "2026-11-20T21:21:46Z",
       "mirrorDigest": "sha256:bc02db24346853bec8f09c6e475a62683b52b336c11e3537cfd7cb68002d8929",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7431,7 +7431,7 @@
       "sourceAssetName": "multi-stalkerpro_py3.11.ipk",
       "sourceFileSize": 2922160,
       "sourceDigest": "sha256:4020a58666fe76d2ba953f670fa57a10a5f18a451ab2a6875997197d50f2f96e",
-      "mirroredAt": "2026-11-20T21:21:20Z",
+      "mirroredAt": "2026-11-20T21:21:47Z",
       "mirrorDigest": "sha256:4020a58666fe76d2ba953f670fa57a10a5f18a451ab2a6875997197d50f2f96e",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7464,7 +7464,7 @@
       "sourceAssetName": "mytranslator.ipk",
       "sourceFileSize": 3230254,
       "sourceDigest": "sha256:d75affd2a3ed4b9cd2835bd56f49e33095c17f6ce223ac6cfaa3f44df32c0a88",
-      "mirroredAt": "2026-11-20T21:21:21Z",
+      "mirroredAt": "2026-11-20T21:21:47Z",
       "mirrorDigest": "sha256:d75affd2a3ed4b9cd2835bd56f49e33095c17f6ce223ac6cfaa3f44df32c0a88",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7497,7 +7497,7 @@
       "sourceAssetName": "neoboot.ipk",
       "sourceFileSize": 8135636,
       "sourceDigest": "sha256:cdc0e403c9700bb932590054b305f2c3980b7a4bd52f7beecb7b4f628e2fe5c2",
-      "mirroredAt": "2026-11-20T21:21:21Z",
+      "mirroredAt": "2026-11-20T21:21:49Z",
       "mirrorDigest": "sha256:cdc0e403c9700bb932590054b305f2c3980b7a4bd52f7beecb7b4f628e2fe5c2",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7530,7 +7530,7 @@
       "sourceAssetName": "novalermultiboot.ipk",
       "sourceFileSize": 51650,
       "sourceDigest": "sha256:0a9aa7c9bdca0c12704341a6ccf22544099317953173405b11f05f331f0dd835",
-      "mirroredAt": "2026-11-20T21:21:22Z",
+      "mirroredAt": "2026-11-20T21:21:49Z",
       "mirrorDigest": "sha256:0a9aa7c9bdca0c12704341a6ccf22544099317953173405b11f05f331f0dd835",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7563,7 +7563,7 @@
       "sourceAssetName": "novalermultiboothdd.ipk",
       "sourceFileSize": 214902,
       "sourceDigest": "sha256:b3cafe73ff1e06e5c3f4717c39e902a68c5e590aa5a7965fbc461cf53d328ae5",
-      "mirroredAt": "2026-11-20T21:21:22Z",
+      "mirroredAt": "2026-11-20T21:21:50Z",
       "mirrorDigest": "sha256:b3cafe73ff1e06e5c3f4717c39e902a68c5e590aa5a7965fbc461cf53d328ae5",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7596,7 +7596,7 @@
       "sourceAssetName": "novalermultibootusb.ipk",
       "sourceFileSize": 51564,
       "sourceDigest": "sha256:c5700e82827b0e77a3e03937896ad835a8295468ed59cc44d7ca03a5f78ab612",
-      "mirroredAt": "2026-11-20T21:21:23Z",
+      "mirroredAt": "2026-11-20T21:21:51Z",
       "mirrorDigest": "sha256:c5700e82827b0e77a3e03937896ad835a8295468ed59cc44d7ca03a5f78ab612",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7629,7 +7629,7 @@
       "sourceAssetName": "oaweather_py2.ipk",
       "sourceFileSize": 1026064,
       "sourceDigest": "sha256:f6999d31969892ee1f7a5244550fc9e1fb88ca0635be86555d61b1cf55993df4",
-      "mirroredAt": "2026-11-20T21:21:23Z",
+      "mirroredAt": "2026-11-20T21:21:52Z",
       "mirrorDigest": "sha256:f6999d31969892ee1f7a5244550fc9e1fb88ca0635be86555d61b1cf55993df4",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7662,7 +7662,7 @@
       "sourceAssetName": "oaweather_py3.ipk",
       "sourceFileSize": 836382,
       "sourceDigest": "sha256:8e80041435b87e5a6f9c2cd3e80b984838602c27c7647a1d593757deeea15195",
-      "mirroredAt": "2026-11-20T21:21:24Z",
+      "mirroredAt": "2026-11-20T21:21:53Z",
       "mirrorDigest": "sha256:8e80041435b87e5a6f9c2cd3e80b984838602c27c7647a1d593757deeea15195",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7695,7 +7695,7 @@
       "sourceAssetName": "panelaio.ipk",
       "sourceFileSize": 396942,
       "sourceDigest": "sha256:2b9cdbe8a8d9fe39d7a20b5f6d6684f8626d86ba4deae6500934f989749d1f62",
-      "mirroredAt": "2026-11-20T21:21:24Z",
+      "mirroredAt": "2026-11-20T21:21:54Z",
       "mirrorDigest": "sha256:2b9cdbe8a8d9fe39d7a20b5f6d6684f8626d86ba4deae6500934f989749d1f62",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7728,7 +7728,7 @@
       "sourceAssetName": "pluginspanel.ipk",
       "sourceFileSize": 35200,
       "sourceDigest": "sha256:a3f7c3d0fbdfad8ac70f516b92f669cd8a536040aa4e63ab6b36da3871a7246f",
-      "mirroredAt": "2026-11-20T21:21:25Z",
+      "mirroredAt": "2026-11-20T21:21:55Z",
       "mirrorDigest": "sha256:a3f7c3d0fbdfad8ac70f516b92f669cd8a536040aa4e63ab6b36da3871a7246f",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7761,7 +7761,7 @@
       "sourceAssetName": "quran-karim.ipk",
       "sourceFileSize": 4416118,
       "sourceDigest": "sha256:844c33c47364269813aaedb0159489b0d2a8cea1b3cf33f98ebea6e4a58f004c",
-      "mirroredAt": "2026-11-20T21:21:25Z",
+      "mirroredAt": "2026-11-20T21:21:56Z",
       "mirrorDigest": "sha256:844c33c47364269813aaedb0159489b0d2a8cea1b3cf33f98ebea6e4a58f004c",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7794,7 +7794,7 @@
       "sourceAssetName": "rakutentv.ipk",
       "sourceFileSize": 543990,
       "sourceDigest": "sha256:3c305835c855d951f1fcacd4e373abc9d4a257d5e5459a724a9fff613e172afe",
-      "mirroredAt": "2026-11-20T21:21:25Z",
+      "mirroredAt": "2026-11-20T21:21:57Z",
       "mirrorDigest": "sha256:3c305835c855d951f1fcacd4e373abc9d4a257d5e5459a724a9fff613e172afe",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7827,7 +7827,7 @@
       "sourceAssetName": "samsungtvplus.ipk",
       "sourceFileSize": 174972,
       "sourceDigest": "sha256:84dcde5ce11443cc6d0bc862910e4b071efd83a2b816014102d3f68724bdbda0",
-      "mirroredAt": "2026-11-20T21:21:26Z",
+      "mirroredAt": "2026-11-20T21:21:58Z",
       "mirrorDigest": "sha256:84dcde5ce11443cc6d0bc862910e4b071efd83a2b816014102d3f68724bdbda0",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7860,7 +7860,7 @@
       "sourceAssetName": "screengrabber.ipk",
       "sourceFileSize": 964258,
       "sourceDigest": "sha256:b0becae31fe60d8d45e47dbea612b445c87580d2d3bb1ef8ceb3cc9ba8a4d3a4",
-      "mirroredAt": "2026-11-20T21:21:27Z",
+      "mirroredAt": "2026-11-20T21:21:59Z",
       "mirrorDigest": "sha256:b0becae31fe60d8d45e47dbea612b445c87580d2d3bb1ef8ceb3cc9ba8a4d3a4",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7893,7 +7893,7 @@
       "sourceAssetName": "setpicon_py3.0.ipk",
       "sourceFileSize": 59960,
       "sourceDigest": "sha256:dfd26b713636358b1e2782bc05dc52d37ce8cafb73de03621a128bf0ff2eda3d",
-      "mirroredAt": "2026-11-20T21:21:27Z",
+      "mirroredAt": "2026-11-20T21:22:00Z",
       "mirrorDigest": "sha256:dfd26b713636358b1e2782bc05dc52d37ce8cafb73de03621a128bf0ff2eda3d",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7926,7 +7926,7 @@
       "sourceAssetName": "sherlockmod.ipk",
       "sourceFileSize": 2608260,
       "sourceDigest": "sha256:1aaaea6a5b981a7aaa7204a2b57fa0f02943a2fdfd54e75b634e4be8c5c78dac",
-      "mirroredAt": "2026-11-20T21:21:28Z",
+      "mirroredAt": "2026-11-20T21:22:01Z",
       "mirrorDigest": "sha256:1aaaea6a5b981a7aaa7204a2b57fa0f02943a2fdfd54e75b634e4be8c5c78dac",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7959,7 +7959,7 @@
       "sourceAssetName": "simple-zoom-panel.ipk",
       "sourceFileSize": 185018,
       "sourceDigest": "sha256:9a137af36cc953a460e54bbd89cbcc817052a0a17046b823878657b71a4514a6",
-      "mirroredAt": "2026-11-20T21:21:28Z",
+      "mirroredAt": "2026-11-20T21:22:02Z",
       "mirrorDigest": "sha256:9a137af36cc953a460e54bbd89cbcc817052a0a17046b823878657b71a4514a6",
       "packageValidation": {
         "format": "ipk/ar",
@@ -7992,7 +7992,7 @@
       "sourceAssetName": "subextractorlite.ipk",
       "sourceFileSize": 640512,
       "sourceDigest": "sha256:1f25e90fe585655d9f57e879d1ec0fc30a6566b31d881379d3d2fe6d06df1404",
-      "mirroredAt": "2026-11-20T21:21:29Z",
+      "mirroredAt": "2026-11-20T21:22:03Z",
       "mirrorDigest": "sha256:1f25e90fe585655d9f57e879d1ec0fc30a6566b31d881379d3d2fe6d06df1404",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8025,7 +8025,7 @@
       "sourceAssetName": "subssupport_py3.ipk",
       "sourceFileSize": 1703134,
       "sourceDigest": "sha256:bea7b9751c4ad616f5d1a39a6baf1517cf58cad4be622783af31600f50f87edd",
-      "mirroredAt": "2026-11-20T21:21:29Z",
+      "mirroredAt": "2026-11-20T21:22:04Z",
       "mirrorDigest": "sha256:bea7b9751c4ad616f5d1a39a6baf1517cf58cad4be622783af31600f50f87edd",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8058,7 +8058,7 @@
       "sourceAssetName": "subssupportpro.ipk",
       "sourceFileSize": 1796670,
       "sourceDigest": "sha256:0dfe9a70d5c0ff1397347d8ea358c76194c16f3e092c9423a89fc904a6ba7dec",
-      "mirroredAt": "2026-11-20T21:21:30Z",
+      "mirroredAt": "2026-11-20T21:22:05Z",
       "mirrorDigest": "sha256:0dfe9a70d5c0ff1397347d8ea358c76194c16f3e092c9423a89fc904a6ba7dec",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8091,7 +8091,7 @@
       "sourceAssetName": "ts-sateditor.ipk",
       "sourceFileSize": 36266,
       "sourceDigest": "sha256:d4045432881d94ee4922e44c44467c29fb91b163c7ecd04e6ab4b22a97a301fc",
-      "mirroredAt": "2026-11-20T21:21:30Z",
+      "mirroredAt": "2026-11-20T21:22:05Z",
       "mirrorDigest": "sha256:d4045432881d94ee4922e44c44467c29fb91b163c7ecd04e6ab4b22a97a301fc",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8124,7 +8124,7 @@
       "sourceAssetName": "tvspro.ipk",
       "sourceFileSize": 3747208,
       "sourceDigest": "sha256:2ee97d02106c2a4320d4548773393bf4c1c9506e2519977cac9cddc8c6ba183e",
-      "mirroredAt": "2026-11-20T21:21:31Z",
+      "mirroredAt": "2026-11-20T21:22:06Z",
       "mirrorDigest": "sha256:2ee97d02106c2a4320d4548773393bf4c1c9506e2519977cac9cddc8c6ba183e",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8157,7 +8157,7 @@
       "sourceAssetName": "vavoo.ipk",
       "sourceFileSize": 10143828,
       "sourceDigest": "sha256:ca92fa6828bceda2523ae6d25545cad3d8b6839610e00a0a19b9b168d641229b",
-      "mirroredAt": "2026-11-20T21:21:31Z",
+      "mirroredAt": "2026-11-20T21:22:08Z",
       "mirrorDigest": "sha256:ca92fa6828bceda2523ae6d25545cad3d8b6839610e00a0a19b9b168d641229b",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8190,7 +8190,7 @@
       "sourceAssetName": "xcplugin-forever.ipk",
       "sourceFileSize": 1580370,
       "sourceDigest": "sha256:7352bcc7ffe7a8518259b77d57b04dda01f3800a64da8f8ac8570309ae270cb6",
-      "mirroredAt": "2026-11-20T21:21:32Z",
+      "mirroredAt": "2026-11-20T21:22:09Z",
       "mirrorDigest": "sha256:7352bcc7ffe7a8518259b77d57b04dda01f3800a64da8f8ac8570309ae270cb6",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8223,7 +8223,7 @@
       "sourceAssetName": "xklass.ipk",
       "sourceFileSize": 5999850,
       "sourceDigest": "sha256:8152a34a6d243149e451bc1b1bffec41d35ceb3302377213581c71872080bbe4",
-      "mirroredAt": "2026-11-20T21:21:32Z",
+      "mirroredAt": "2026-11-20T21:22:10Z",
       "mirrorDigest": "sha256:8152a34a6d243149e451bc1b1bffec41d35ceb3302377213581c71872080bbe4",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8256,7 +8256,7 @@
       "sourceAssetName": "xmlupdatebyiet5.ipk",
       "sourceFileSize": 79966,
       "sourceDigest": "sha256:8cc460a72a9422ffdb44e620a83e4e1ba0754c916cc7393d12df1cadbcb1aa90",
-      "mirroredAt": "2026-11-20T21:21:33Z",
+      "mirroredAt": "2026-11-20T21:22:10Z",
       "mirrorDigest": "sha256:8cc460a72a9422ffdb44e620a83e4e1ba0754c916cc7393d12df1cadbcb1aa90",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8289,7 +8289,7 @@
       "sourceAssetName": "xstreamity.ipk",
       "sourceFileSize": 8797116,
       "sourceDigest": "sha256:5b37aaff07a25787a848a066a4da633fc2d5d74e0c95ff5d647fe4fa9b241a8d",
-      "mirroredAt": "2026-11-20T21:21:33Z",
+      "mirroredAt": "2026-11-20T21:22:11Z",
       "mirrorDigest": "sha256:5b37aaff07a25787a848a066a4da633fc2d5d74e0c95ff5d647fe4fa9b241a8d",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8322,7 +8322,7 @@
       "sourceAssetName": "xtraevent.ipk",
       "sourceFileSize": 2783996,
       "sourceDigest": "sha256:f87b6ee59b5459cd56a099417ca19e569cd2dcbed75b132ffaafd8aec1ef35a0",
-      "mirroredAt": "2026-11-20T21:21:34Z",
+      "mirroredAt": "2026-11-20T21:22:12Z",
       "mirrorDigest": "sha256:f87b6ee59b5459cd56a099417ca19e569cd2dcbed75b132ffaafd8aec1ef35a0",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8355,7 +8355,7 @@
       "sourceAssetName": "enigma2-plugin-softcams-gosatplus-oscam.ipk",
       "sourceFileSize": 3778906,
       "sourceDigest": "sha256:c5ca2558a34763dac4e314a98a07966f37c34ffd3c996cdf52774f0286a15459",
-      "mirroredAt": "2026-11-20T21:21:34Z",
+      "mirroredAt": "2026-11-20T21:22:13Z",
       "mirrorDigest": "sha256:c5ca2558a34763dac4e314a98a07966f37c34ffd3c996cdf52774f0286a15459",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8388,7 +8388,7 @@
       "sourceAssetName": "enigma2-plugin-softcams-ncam.ipk",
       "sourceFileSize": 5072682,
       "sourceDigest": "sha256:b52c8cf6ef0f1e51e17610d540d56611496717ae43c8dd2e5c4e61a2445919c9",
-      "mirroredAt": "2026-11-20T21:21:35Z",
+      "mirroredAt": "2026-11-20T21:22:14Z",
       "mirrorDigest": "sha256:b52c8cf6ef0f1e51e17610d540d56611496717ae43c8dd2e5c4e61a2445919c9",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8421,7 +8421,7 @@
       "sourceAssetName": "enigma2-plugin-softcams-oscam-emu.ipk",
       "sourceFileSize": 4589914,
       "sourceDigest": "sha256:a6a4dda73270ae5e40873c6fa0d4d4363bbd4186f7afc4986e36192b90b122e3",
-      "mirroredAt": "2026-11-20T21:21:35Z",
+      "mirroredAt": "2026-11-20T21:22:15Z",
       "mirrorDigest": "sha256:a6a4dda73270ae5e40873c6fa0d4d4363bbd4186f7afc4986e36192b90b122e3",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8454,7 +8454,7 @@
       "sourceAssetName": "enigma2-plugin-softcams-powercam-oscam.ipk",
       "sourceFileSize": 3778584,
       "sourceDigest": "sha256:80166a412cd37d12131697556bca5de1c63e094e31320a73de26f909eb06bbb9",
-      "mirroredAt": "2026-11-20T21:21:36Z",
+      "mirroredAt": "2026-11-20T21:22:16Z",
       "mirrorDigest": "sha256:80166a412cd37d12131697556bca5de1c63e094e31320a73de26f909eb06bbb9",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8487,7 +8487,7 @@
       "sourceAssetName": "enigma2-plugin-softcams-supcam-oscam.ipk",
       "sourceFileSize": 3773462,
       "sourceDigest": "sha256:b83f74b6b0d1289a845cb08a92838949f25d42dbf2ec8a3338560c35750e4aa1",
-      "mirroredAt": "2026-11-20T21:21:37Z",
+      "mirroredAt": "2026-11-20T21:22:17Z",
       "mirrorDigest": "sha256:b83f74b6b0d1289a845cb08a92838949f25d42dbf2ec8a3338560c35750e4aa1",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8520,7 +8520,7 @@
       "sourceAssetName": "enigma2-plugin-softcams-ultracam-oscam.ipk",
       "sourceFileSize": 965762,
       "sourceDigest": "sha256:52cf67b9c914e45196aabb0f7eae90a5bc3774bb99b0b915e9a7a1647c50ff3c",
-      "mirroredAt": "2026-11-20T21:21:37Z",
+      "mirroredAt": "2026-11-20T21:22:18Z",
       "mirrorDigest": "sha256:52cf67b9c914e45196aabb0f7eae90a5bc3774bb99b0b915e9a7a1647c50ff3c",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8553,7 +8553,7 @@
       "sourceAssetName": "enigma2-softcams-cccam.ipk",
       "sourceFileSize": 1412832,
       "sourceDigest": "sha256:954a7b7cc850983d75fe6977adb798dcb9ec3b0a463dd0007c23722fe984f23d",
-      "mirroredAt": "2026-11-20T21:21:38Z",
+      "mirroredAt": "2026-11-20T21:22:19Z",
       "mirrorDigest": "sha256:954a7b7cc850983d75fe6977adb798dcb9ec3b0a463dd0007c23722fe984f23d",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8586,7 +8586,7 @@
       "sourceAssetName": "ipaudiopro.ipk",
       "sourceFileSize": 723452,
       "sourceDigest": "sha256:c4879432a4fd2b540c1a5d553c037942dc8509689b24a3095e136574a4309435",
-      "mirroredAt": "2026-11-20T21:21:38Z",
+      "mirroredAt": "2026-11-20T21:22:20Z",
       "mirrorDigest": "sha256:c4879432a4fd2b540c1a5d553c037942dc8509689b24a3095e136574a4309435",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8619,7 +8619,7 @@
       "sourceAssetName": "openpicon.ipk",
       "sourceFileSize": 14012866,
       "sourceDigest": "sha256:9748c8a87a9ee11451e8f52029617ad72863aa0022c32cf630274161f1eb8b2d",
-      "mirroredAt": "2026-11-20T21:21:39Z",
+      "mirroredAt": "2026-11-20T21:22:21Z",
       "mirrorDigest": "sha256:9748c8a87a9ee11451e8f52029617ad72863aa0022c32cf630274161f1eb8b2d",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8652,7 +8652,7 @@
       "sourceAssetName": "ipk_packages/aisubtitles.ipk",
       "sourceFileSize": 56280,
       "sourceDigest": "sha256:87d893a7c4c279ac6d7ea4ccac5992daf683dc12f37e65f491bd936e5583f1c2",
-      "mirroredAt": "2026-11-20T21:21:40Z",
+      "mirroredAt": "2026-11-20T21:22:22Z",
       "mirrorDigest": "sha256:87d893a7c4c279ac6d7ea4ccac5992daf683dc12f37e65f491bd936e5583f1c2",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8685,7 +8685,7 @@
       "sourceAssetName": "ipk_packages/ajpanel.ipk",
       "sourceFileSize": 539456,
       "sourceDigest": "sha256:11567fe65aa2223afa455ae1b6362990f91792625e883a1e2546d492db753fb7",
-      "mirroredAt": "2026-11-20T21:21:40Z",
+      "mirroredAt": "2026-11-20T21:22:23Z",
       "mirrorDigest": "sha256:11567fe65aa2223afa455ae1b6362990f91792625e883a1e2546d492db753fb7",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8718,7 +8718,7 @@
       "sourceAssetName": "ipk_packages/ansite.ipk",
       "sourceFileSize": 2276976,
       "sourceDigest": "sha256:f85a263f6c2b6a48441df049ac59da5d0f75596b340bd9f4ff8b8ccbcee3890f",
-      "mirroredAt": "2026-11-20T21:21:41Z",
+      "mirroredAt": "2026-11-20T21:22:24Z",
       "mirrorDigest": "sha256:f85a263f6c2b6a48441df049ac59da5d0f75596b340bd9f4ff8b8ccbcee3890f",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8751,7 +8751,7 @@
       "sourceAssetName": "ipk_packages/auto-dcw-key-add.ipk",
       "sourceFileSize": 88078,
       "sourceDigest": "sha256:6c387b04a708fdddbf4d2570e107ba326fd02096d5489980ee24f3c05aa00eff",
-      "mirroredAt": "2026-11-20T21:21:41Z",
+      "mirroredAt": "2026-11-20T21:22:24Z",
       "mirrorDigest": "sha256:6c387b04a708fdddbf4d2570e107ba326fd02096d5489980ee24f3c05aa00eff",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8784,7 +8784,7 @@
       "sourceAssetName": "ipk_packages/automaticvolumeadjustment.ipk",
       "sourceFileSize": 24894,
       "sourceDigest": "sha256:60fcf9b057b8523a4a523b9bff890b69c3979c2560a04b4259aecb1e77e8d075",
-      "mirroredAt": "2026-11-20T21:21:42Z",
+      "mirroredAt": "2026-11-20T21:22:25Z",
       "mirrorDigest": "sha256:60fcf9b057b8523a4a523b9bff890b69c3979c2560a04b4259aecb1e77e8d075",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8817,7 +8817,7 @@
       "sourceAssetName": "ipk_packages/autoresolution.ipk",
       "sourceFileSize": 36860,
       "sourceDigest": "sha256:9c6bb76e2b1deefc7c48ebc0a89a608633b67723f6cf8b39e9e957dc0f522720",
-      "mirroredAt": "2026-11-20T21:21:42Z",
+      "mirroredAt": "2026-11-20T21:22:26Z",
       "mirrorDigest": "sha256:9c6bb76e2b1deefc7c48ebc0a89a608633b67723f6cf8b39e9e957dc0f522720",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8850,7 +8850,7 @@
       "sourceAssetName": "ipk_packages/backupsuite.ipk",
       "sourceFileSize": 416824,
       "sourceDigest": "sha256:f3e337a0a87637254b0154aa9487ac584f138bf9d3c25d97802bbbc9bf96ef90",
-      "mirroredAt": "2026-11-20T21:21:43Z",
+      "mirroredAt": "2026-11-20T21:22:27Z",
       "mirrorDigest": "sha256:f3e337a0a87637254b0154aa9487ac584f138bf9d3c25d97802bbbc9bf96ef90",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8883,7 +8883,7 @@
       "sourceAssetName": "ipk_packages/bouquetmakerxtream.ipk",
       "sourceFileSize": 1442310,
       "sourceDigest": "sha256:be5591b3e9630136e95f8d509f1b5f6c4ede42ef67639b6345518f3f6f42d3df",
-      "mirroredAt": "2026-11-20T21:21:43Z",
+      "mirroredAt": "2026-11-20T21:22:28Z",
       "mirrorDigest": "sha256:be5591b3e9630136e95f8d509f1b5f6c4ede42ef67639b6345518f3f6f42d3df",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8916,7 +8916,7 @@
       "sourceAssetName": "ipk_packages/buttonpatcher.ipk",
       "sourceFileSize": 10102,
       "sourceDigest": "sha256:2a67519453dc8bd7caee562d6aab545c68b7cdec879e56870e7865ba4b243516",
-      "mirroredAt": "2026-11-20T21:21:44Z",
+      "mirroredAt": "2026-11-20T21:22:29Z",
       "mirrorDigest": "sha256:2a67519453dc8bd7caee562d6aab545c68b7cdec879e56870e7865ba4b243516",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8949,7 +8949,7 @@
       "sourceAssetName": "ipk_packages/clearmem.ipk",
       "sourceFileSize": 11366,
       "sourceDigest": "sha256:38a4638e078d912948a804514d332fc845e13b749c7b8bcdd5dab704d634ccd1",
-      "mirroredAt": "2026-11-20T21:21:44Z",
+      "mirroredAt": "2026-11-20T21:22:30Z",
       "mirrorDigest": "sha256:38a4638e078d912948a804514d332fc845e13b749c7b8bcdd5dab704d634ccd1",
       "packageValidation": {
         "format": "ipk/ar",
@@ -8982,7 +8982,7 @@
       "sourceAssetName": "ipk_packages/dreamexplorer.ipk",
       "sourceFileSize": 61822,
       "sourceDigest": "sha256:40438c042bd47151a22d9eb9e0fd02db07808e6f223d0abcf7587a77d118760a",
-      "mirroredAt": "2026-11-20T21:21:44Z",
+      "mirroredAt": "2026-11-20T21:22:31Z",
       "mirrorDigest": "sha256:40438c042bd47151a22d9eb9e0fd02db07808e6f223d0abcf7587a77d118760a",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9015,7 +9015,7 @@
       "sourceAssetName": "ipk_packages/e2panel.ipk",
       "sourceFileSize": 11230,
       "sourceDigest": "sha256:cd60eb617e17b896959be93d3047f12ace9ffe1eb10751bf1ef7af9a7a1ffa5b",
-      "mirroredAt": "2026-11-20T21:21:45Z",
+      "mirroredAt": "2026-11-20T21:22:31Z",
       "mirrorDigest": "sha256:cd60eb617e17b896959be93d3047f12ace9ffe1eb10751bf1ef7af9a7a1ffa5b",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9048,7 +9048,7 @@
       "sourceAssetName": "ipk_packages/enhancement.ipk",
       "sourceFileSize": 16634,
       "sourceDigest": "sha256:c763a98bcf63d3d43a27fb96938b254e670876c73fd1bb64277b066fa25474a3",
-      "mirroredAt": "2026-11-20T21:21:45Z",
+      "mirroredAt": "2026-11-20T21:22:32Z",
       "mirrorDigest": "sha256:c763a98bcf63d3d43a27fb96938b254e670876c73fd1bb64277b066fa25474a3",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9081,7 +9081,7 @@
       "sourceAssetName": "ipk_packages/epgimport.ipk",
       "sourceFileSize": 87330,
       "sourceDigest": "sha256:7c2d9795ba420690822362874278099016337b656d3a014ee633d1a884d5427a",
-      "mirroredAt": "2026-11-20T21:21:46Z",
+      "mirroredAt": "2026-11-20T21:22:33Z",
       "mirrorDigest": "sha256:7c2d9795ba420690822362874278099016337b656d3a014ee633d1a884d5427a",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9114,7 +9114,7 @@
       "sourceAssetName": "ipk_packages/estalker.ipk",
       "sourceFileSize": 3256448,
       "sourceDigest": "sha256:fccfd4753f39d6c0db0169e792baa2cfab3adaad3d3dadcf97329c91e583f091",
-      "mirroredAt": "2026-11-20T21:21:46Z",
+      "mirroredAt": "2026-11-20T21:22:34Z",
       "mirrorDigest": "sha256:fccfd4753f39d6c0db0169e792baa2cfab3adaad3d3dadcf97329c91e583f091",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9147,7 +9147,7 @@
       "sourceAssetName": "ipk_packages/filecommander.ipk",
       "sourceFileSize": 75238,
       "sourceDigest": "sha256:f31d258e03c6d5839bd47f171be49bb2a26ddb098c7fe978f2eeaedb11c63739",
-      "mirroredAt": "2026-11-20T21:21:47Z",
+      "mirroredAt": "2026-11-20T21:22:34Z",
       "mirrorDigest": "sha256:f31d258e03c6d5839bd47f171be49bb2a26ddb098c7fe978f2eeaedb11c63739",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9180,7 +9180,7 @@
       "sourceAssetName": "ipk_packages/footonsat.ipk",
       "sourceFileSize": 14910756,
       "sourceDigest": "sha256:5f51f11f726bdb73f54bf0623cb7b4d761b705ab3aa8f6ef4612a4ffdf287af3",
-      "mirroredAt": "2026-11-20T21:21:47Z",
+      "mirroredAt": "2026-11-20T21:22:35Z",
       "mirrorDigest": "sha256:5f51f11f726bdb73f54bf0623cb7b4d761b705ab3aa8f6ef4612a4ffdf287af3",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9213,7 +9213,7 @@
       "sourceAssetName": "ipk_packages/freeserver.ipk",
       "sourceFileSize": 2422248,
       "sourceDigest": "sha256:c838b20d205405b1e43499fcb4f365e2c039db739b3f646e9b998ca88e5d5696",
-      "mirroredAt": "2026-11-20T21:21:48Z",
+      "mirroredAt": "2026-11-20T21:22:37Z",
       "mirrorDigest": "sha256:c838b20d205405b1e43499fcb4f365e2c039db739b3f646e9b998ca88e5d5696",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9246,7 +9246,7 @@
       "sourceAssetName": "ipk_packages/historyzap.ipk",
       "sourceFileSize": 1932940,
       "sourceDigest": "sha256:34038a47b60cdbd6d7a71aac9744a0f7a3712ccd180e57a0d72fd5d1e768a6d4",
-      "mirroredAt": "2026-11-20T21:21:48Z",
+      "mirroredAt": "2026-11-20T21:22:38Z",
       "mirrorDigest": "sha256:34038a47b60cdbd6d7a71aac9744a0f7a3712ccd180e57a0d72fd5d1e768a6d4",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9279,7 +9279,7 @@
       "sourceAssetName": "ipk_packages/ipaudio_8.0.ipk",
       "sourceFileSize": 32664,
       "sourceDigest": "sha256:0442cf7f332741d623dfaf2f27b29d3c51453ed4ce2612c59f16cc4a26aa6874",
-      "mirroredAt": "2026-11-20T21:21:49Z",
+      "mirroredAt": "2026-11-20T21:22:38Z",
       "mirrorDigest": "sha256:0442cf7f332741d623dfaf2f27b29d3c51453ed4ce2612c59f16cc4a26aa6874",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9312,7 +9312,7 @@
       "sourceAssetName": "ipk_packages/ipaudio_nassr.ipk",
       "sourceFileSize": 527716,
       "sourceDigest": "sha256:a77576f385d9323046cc97689450beeb4cc44422fce09f00bc6e68c86119790a",
-      "mirroredAt": "2026-11-20T21:21:49Z",
+      "mirroredAt": "2026-11-20T21:22:39Z",
       "mirrorDigest": "sha256:a77576f385d9323046cc97689450beeb4cc44422fce09f00bc6e68c86119790a",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9345,7 +9345,7 @@
       "sourceAssetName": "ipk_packages/ipaudiopro.ipk",
       "sourceFileSize": 1064594,
       "sourceDigest": "sha256:9f79097d49b3d6cf0b0fee03208b67b315127afba652af6e82669c194bcf4db4",
-      "mirroredAt": "2026-11-20T21:21:50Z",
+      "mirroredAt": "2026-11-20T21:22:40Z",
       "mirrorDigest": "sha256:9f79097d49b3d6cf0b0fee03208b67b315127afba652af6e82669c194bcf4db4",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9378,7 +9378,7 @@
       "sourceAssetName": "ipk_packages/ipaudiopro_mips.ipk",
       "sourceFileSize": 964436,
       "sourceDigest": "sha256:b265c267e0f8cef246db1d232dfd6037d5c5805fb6a31356657d939bbd955eb4",
-      "mirroredAt": "2026-11-20T21:21:50Z",
+      "mirroredAt": "2026-11-20T21:22:41Z",
       "mirrorDigest": "sha256:b265c267e0f8cef246db1d232dfd6037d5c5805fb6a31356657d939bbd955eb4",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9411,7 +9411,7 @@
       "sourceAssetName": "ipk_packages/jediepgxtream.ipk",
       "sourceFileSize": 251190,
       "sourceDigest": "sha256:616ef60d2adce5053b9e64e56f046748bd9cac5dd7d2a44330bb9f29d79f10b9",
-      "mirroredAt": "2026-11-20T21:21:51Z",
+      "mirroredAt": "2026-11-20T21:22:42Z",
       "mirrorDigest": "sha256:616ef60d2adce5053b9e64e56f046748bd9cac5dd7d2a44330bb9f29d79f10b9",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9444,7 +9444,7 @@
       "sourceAssetName": "ipk_packages/jedimakerxtream.ipk",
       "sourceFileSize": 3662090,
       "sourceDigest": "sha256:a82df259a244dbc23253ac990b57e8ecac0be86309cf0f2c5bcc6fd690ace717",
-      "mirroredAt": "2026-11-20T21:21:51Z",
+      "mirroredAt": "2026-11-20T21:22:43Z",
       "mirrorDigest": "sha256:a82df259a244dbc23253ac990b57e8ecac0be86309cf0f2c5bcc6fd690ace717",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9477,7 +9477,7 @@
       "sourceAssetName": "ipk_packages/levi45-freeserver.ipk",
       "sourceFileSize": 17058,
       "sourceDigest": "sha256:8ce4a1ba1aec03f545c0e913d2b11681174f2477c5d41f4435841060004bb514",
-      "mirroredAt": "2026-11-20T21:21:52Z",
+      "mirroredAt": "2026-11-20T21:22:43Z",
       "mirrorDigest": "sha256:8ce4a1ba1aec03f545c0e913d2b11681174f2477c5d41f4435841060004bb514",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9510,7 +9510,7 @@
       "sourceAssetName": "ipk_packages/levi45iptv.ipk",
       "sourceFileSize": 21284,
       "sourceDigest": "sha256:12a61022c5e265b2a4329c8e042df86698475a34bce1e1c04deaa8962e8bdafd",
-      "mirroredAt": "2026-11-20T21:21:52Z",
+      "mirroredAt": "2026-11-20T21:22:44Z",
       "mirrorDigest": "sha256:12a61022c5e265b2a4329c8e042df86698475a34bce1e1c04deaa8962e8bdafd",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9543,7 +9543,7 @@
       "sourceAssetName": "ipk_packages/libasound.ipk",
       "sourceFileSize": 357826,
       "sourceDigest": "sha256:f42fd2a2eaa8eddf5d0f228a2ee6ba27cdea0176fe1e7ce7cdeb8c070b153573",
-      "mirroredAt": "2026-11-20T21:21:53Z",
+      "mirroredAt": "2026-11-20T21:22:45Z",
       "mirrorDigest": "sha256:f42fd2a2eaa8eddf5d0f228a2ee6ba27cdea0176fe1e7ce7cdeb8c070b153573",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9576,7 +9576,7 @@
       "sourceAssetName": "ipk_packages/linuxsat-panel.ipk",
       "sourceFileSize": 1700262,
       "sourceDigest": "sha256:8f8a71ebf525bfbcdfa7a2b37bf9bd8ebeab5066f589013b20a0c4a9574dc508",
-      "mirroredAt": "2026-11-20T21:21:53Z",
+      "mirroredAt": "2026-11-20T21:22:46Z",
       "mirrorDigest": "sha256:8f8a71ebf525bfbcdfa7a2b37bf9bd8ebeab5066f589013b20a0c4a9574dc508",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9609,7 +9609,7 @@
       "sourceAssetName": "ipk_packages/metrixfhd-neo.ipk",
       "sourceFileSize": 777694,
       "sourceDigest": "sha256:af4bfa3e5f23e65cac8592303dfbc1faba9e33b2a01e93c6bc124f4b34ab7a60",
-      "mirroredAt": "2026-11-20T21:21:54Z",
+      "mirroredAt": "2026-11-20T21:22:47Z",
       "mirrorDigest": "sha256:af4bfa3e5f23e65cac8592303dfbc1faba9e33b2a01e93c6bc124f4b34ab7a60",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9642,7 +9642,7 @@
       "sourceAssetName": "ipk_packages/multi-stalkerpro.ipk",
       "sourceFileSize": 2328424,
       "sourceDigest": "sha256:402282edb17d035cb952ea5ae28974d41fbaf91c960e4243986bf57a51b681a9",
-      "mirroredAt": "2026-11-20T21:21:54Z",
+      "mirroredAt": "2026-11-20T21:22:48Z",
       "mirrorDigest": "sha256:402282edb17d035cb952ea5ae28974d41fbaf91c960e4243986bf57a51b681a9",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9675,7 +9675,7 @@
       "sourceAssetName": "ipk_packages/multi-stalkerpro_py2.7.ipk",
       "sourceFileSize": 721254,
       "sourceDigest": "sha256:bc02db24346853bec8f09c6e475a62683b52b336c11e3537cfd7cb68002d8929",
-      "mirroredAt": "2026-11-20T21:21:55Z",
+      "mirroredAt": "2026-11-20T21:22:49Z",
       "mirrorDigest": "sha256:bc02db24346853bec8f09c6e475a62683b52b336c11e3537cfd7cb68002d8929",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9708,7 +9708,7 @@
       "sourceAssetName": "ipk_packages/multi-stalkerpro_py3.11.ipk",
       "sourceFileSize": 2922160,
       "sourceDigest": "sha256:4020a58666fe76d2ba953f670fa57a10a5f18a451ab2a6875997197d50f2f96e",
-      "mirroredAt": "2026-11-20T21:21:56Z",
+      "mirroredAt": "2026-11-20T21:22:50Z",
       "mirrorDigest": "sha256:4020a58666fe76d2ba953f670fa57a10a5f18a451ab2a6875997197d50f2f96e",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9741,7 +9741,7 @@
       "sourceAssetName": "ipk_packages/multi-stalkerpro_py3.12.ipk",
       "sourceFileSize": 975608,
       "sourceDigest": "sha256:b802156ae5466fe5ec02e65b699665642e5bbe43b2dd7e7d0ac43b072456b95c",
-      "mirroredAt": "2026-11-20T21:21:56Z",
+      "mirroredAt": "2026-11-20T21:22:50Z",
       "mirrorDigest": "sha256:b802156ae5466fe5ec02e65b699665642e5bbe43b2dd7e7d0ac43b072456b95c",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9774,7 +9774,7 @@
       "sourceAssetName": "ipk_packages/oaweather_py2.ipk",
       "sourceFileSize": 1026064,
       "sourceDigest": "sha256:f6999d31969892ee1f7a5244550fc9e1fb88ca0635be86555d61b1cf55993df4",
-      "mirroredAt": "2026-11-20T21:21:57Z",
+      "mirroredAt": "2026-11-20T21:22:51Z",
       "mirrorDigest": "sha256:f6999d31969892ee1f7a5244550fc9e1fb88ca0635be86555d61b1cf55993df4",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9807,7 +9807,7 @@
       "sourceAssetName": "ipk_packages/oaweather_py3.ipk",
       "sourceFileSize": 836382,
       "sourceDigest": "sha256:8e80041435b87e5a6f9c2cd3e80b984838602c27c7647a1d593757deeea15195",
-      "mirroredAt": "2026-11-20T21:21:57Z",
+      "mirroredAt": "2026-11-20T21:22:52Z",
       "mirrorDigest": "sha256:8e80041435b87e5a6f9c2cd3e80b984838602c27c7647a1d593757deeea15195",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9840,7 +9840,7 @@
       "sourceAssetName": "ipk_packages/pluginspanel.ipk",
       "sourceFileSize": 35200,
       "sourceDigest": "sha256:a3f7c3d0fbdfad8ac70f516b92f669cd8a536040aa4e63ab6b36da3871a7246f",
-      "mirroredAt": "2026-11-20T21:21:58Z",
+      "mirroredAt": "2026-11-20T21:22:53Z",
       "mirrorDigest": "sha256:a3f7c3d0fbdfad8ac70f516b92f669cd8a536040aa4e63ab6b36da3871a7246f",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9873,7 +9873,7 @@
       "sourceAssetName": "ipk_packages/plutotv.ipk",
       "sourceFileSize": 507780,
       "sourceDigest": "sha256:4148977ec37eb5ee184fda7dffef27e73d45895ec236e8cb5f596167af16ae39",
-      "mirroredAt": "2026-11-20T21:21:58Z",
+      "mirroredAt": "2026-11-20T21:22:56Z",
       "mirrorDigest": "sha256:4148977ec37eb5ee184fda7dffef27e73d45895ec236e8cb5f596167af16ae39",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9906,7 +9906,7 @@
       "sourceAssetName": "ipk_packages/quran-karim.ipk",
       "sourceFileSize": 4416118,
       "sourceDigest": "sha256:844c33c47364269813aaedb0159489b0d2a8cea1b3cf33f98ebea6e4a58f004c",
-      "mirroredAt": "2026-11-20T21:21:59Z",
+      "mirroredAt": "2026-11-20T21:22:57Z",
       "mirrorDigest": "sha256:844c33c47364269813aaedb0159489b0d2a8cea1b3cf33f98ebea6e4a58f004c",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9939,7 +9939,7 @@
       "sourceAssetName": "ipk_packages/rakutentv.ipk",
       "sourceFileSize": 543990,
       "sourceDigest": "sha256:3c305835c855d951f1fcacd4e373abc9d4a257d5e5459a724a9fff613e172afe",
-      "mirroredAt": "2026-11-20T21:21:59Z",
+      "mirroredAt": "2026-11-20T21:22:57Z",
       "mirrorDigest": "sha256:3c305835c855d951f1fcacd4e373abc9d4a257d5e5459a724a9fff613e172afe",
       "packageValidation": {
         "format": "ipk/ar",
@@ -9972,7 +9972,7 @@
       "sourceAssetName": "ipk_packages/samsungtvplus.ipk",
       "sourceFileSize": 174972,
       "sourceDigest": "sha256:84dcde5ce11443cc6d0bc862910e4b071efd83a2b816014102d3f68724bdbda0",
-      "mirroredAt": "2026-11-20T21:22:00Z",
+      "mirroredAt": "2026-11-20T21:22:58Z",
       "mirrorDigest": "sha256:84dcde5ce11443cc6d0bc862910e4b071efd83a2b816014102d3f68724bdbda0",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10005,7 +10005,7 @@
       "sourceAssetName": "ipk_packages/screengrabber.ipk",
       "sourceFileSize": 964258,
       "sourceDigest": "sha256:b0becae31fe60d8d45e47dbea612b445c87580d2d3bb1ef8ceb3cc9ba8a4d3a4",
-      "mirroredAt": "2026-11-20T21:22:00Z",
+      "mirroredAt": "2026-11-20T21:22:59Z",
       "mirrorDigest": "sha256:b0becae31fe60d8d45e47dbea612b445c87580d2d3bb1ef8ceb3cc9ba8a4d3a4",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10038,7 +10038,7 @@
       "sourceAssetName": "ipk_packages/setpicon_py2.0.ipk",
       "sourceFileSize": 48030,
       "sourceDigest": "sha256:5852fcf638e4b7f939b214c47ca132f1da10927e8874b7411c63157651db70cd",
-      "mirroredAt": "2026-11-20T21:22:01Z",
+      "mirroredAt": "2026-11-20T21:23:00Z",
       "mirrorDigest": "sha256:5852fcf638e4b7f939b214c47ca132f1da10927e8874b7411c63157651db70cd",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10071,7 +10071,7 @@
       "sourceAssetName": "ipk_packages/setpicon_py3.0.ipk",
       "sourceFileSize": 59960,
       "sourceDigest": "sha256:dfd26b713636358b1e2782bc05dc52d37ce8cafb73de03621a128bf0ff2eda3d",
-      "mirroredAt": "2026-11-20T21:22:01Z",
+      "mirroredAt": "2026-11-20T21:23:01Z",
       "mirrorDigest": "sha256:dfd26b713636358b1e2782bc05dc52d37ce8cafb73de03621a128bf0ff2eda3d",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10104,7 +10104,7 @@
       "sourceAssetName": "ipk_packages/sherlockmod.ipk",
       "sourceFileSize": 2608260,
       "sourceDigest": "sha256:1aaaea6a5b981a7aaa7204a2b57fa0f02943a2fdfd54e75b634e4be8c5c78dac",
-      "mirroredAt": "2026-11-20T21:22:02Z",
+      "mirroredAt": "2026-11-20T21:23:02Z",
       "mirrorDigest": "sha256:1aaaea6a5b981a7aaa7204a2b57fa0f02943a2fdfd54e75b634e4be8c5c78dac",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10137,7 +10137,7 @@
       "sourceAssetName": "ipk_packages/spinner-selector.ipk",
       "sourceFileSize": 12192068,
       "sourceDigest": "sha256:1871fa058885d91a55063d7d3545a13356136cc7c342299dace5e06476603647",
-      "mirroredAt": "2026-11-20T21:22:02Z",
+      "mirroredAt": "2026-11-20T21:23:03Z",
       "mirrorDigest": "sha256:1871fa058885d91a55063d7d3545a13356136cc7c342299dace5e06476603647",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10170,7 +10170,7 @@
       "sourceAssetName": "ipk_packages/subssupport_py3.ipk",
       "sourceFileSize": 737584,
       "sourceDigest": "sha256:ffc4d8c86ed9b97710a1d5f70e4a6cbe7a12659da486c4a286165f4ad8c9c5e8",
-      "mirroredAt": "2026-11-20T21:22:03Z",
+      "mirroredAt": "2026-11-20T21:23:04Z",
       "mirrorDigest": "sha256:ffc4d8c86ed9b97710a1d5f70e4a6cbe7a12659da486c4a286165f4ad8c9c5e8",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10203,7 +10203,7 @@
       "sourceAssetName": "ipk_packages/tvspro.ipk",
       "sourceFileSize": 3747206,
       "sourceDigest": "sha256:8324ba92b10676bfe07e8f367efd207a0f5bcdef6ce112170bd2739ab509bd5f",
-      "mirroredAt": "2026-11-20T21:22:03Z",
+      "mirroredAt": "2026-11-20T21:23:04Z",
       "mirrorDigest": "sha256:8324ba92b10676bfe07e8f367efd207a0f5bcdef6ce112170bd2739ab509bd5f",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10236,7 +10236,7 @@
       "sourceAssetName": "ipk_packages/vavoo.ipk",
       "sourceFileSize": 9478548,
       "sourceDigest": "sha256:4155b33714a69ae855b10dd644d0c8ebbf7360f5e53ac29d734e306f81420d07",
-      "mirroredAt": "2026-11-20T21:22:04Z",
+      "mirroredAt": "2026-11-20T21:23:06Z",
       "mirrorDigest": "sha256:4155b33714a69ae855b10dd644d0c8ebbf7360f5e53ac29d734e306f81420d07",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10269,7 +10269,7 @@
       "sourceAssetName": "ipk_packages/xcplugin-forever.ipk",
       "sourceFileSize": 718902,
       "sourceDigest": "sha256:a93fc2a97507d87e3907c4c0f0cb9f0bcd8ca6ebd06c3263b86b11b218fafbef",
-      "mirroredAt": "2026-11-20T21:22:04Z",
+      "mirroredAt": "2026-11-20T21:23:07Z",
       "mirrorDigest": "sha256:a93fc2a97507d87e3907c4c0f0cb9f0bcd8ca6ebd06c3263b86b11b218fafbef",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10302,7 +10302,7 @@
       "sourceAssetName": "ipk_packages/xklass.ipk",
       "sourceFileSize": 5999850,
       "sourceDigest": "sha256:8152a34a6d243149e451bc1b1bffec41d35ceb3302377213581c71872080bbe4",
-      "mirroredAt": "2026-11-20T21:22:05Z",
+      "mirroredAt": "2026-11-20T21:23:08Z",
       "mirrorDigest": "sha256:8152a34a6d243149e451bc1b1bffec41d35ceb3302377213581c71872080bbe4",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10335,7 +10335,7 @@
       "sourceAssetName": "ipk_packages/xmlupdatebyiet5.ipk",
       "sourceFileSize": 79966,
       "sourceDigest": "sha256:8cc460a72a9422ffdb44e620a83e4e1ba0754c916cc7393d12df1cadbcb1aa90",
-      "mirroredAt": "2026-11-20T21:22:05Z",
+      "mirroredAt": "2026-11-20T21:23:09Z",
       "mirrorDigest": "sha256:8cc460a72a9422ffdb44e620a83e4e1ba0754c916cc7393d12df1cadbcb1aa90",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10368,7 +10368,7 @@
       "sourceAssetName": "ipk_packages/xstreamity.ipk",
       "sourceFileSize": 8759744,
       "sourceDigest": "sha256:076b6e931357902afe1984c7f27aabe4711d93b6d311d523f1e762152f47f41e",
-      "mirroredAt": "2026-11-20T21:22:06Z",
+      "mirroredAt": "2026-11-20T21:23:10Z",
       "mirrorDigest": "sha256:076b6e931357902afe1984c7f27aabe4711d93b6d311d523f1e762152f47f41e",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10401,7 +10401,7 @@
       "sourceAssetName": "ipk_packages/xtraevent.ipk",
       "sourceFileSize": 761684,
       "sourceDigest": "sha256:ed9ee14b15fc5352ba14f2043c4f4445458a259b92c74c0e25e77cbae075e12a",
-      "mirroredAt": "2026-11-20T21:22:06Z",
+      "mirroredAt": "2026-11-20T21:23:11Z",
       "mirrorDigest": "sha256:ed9ee14b15fc5352ba14f2043c4f4445458a259b92c74c0e25e77cbae075e12a",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10434,7 +10434,7 @@
       "sourceAssetName": "ipk_packages/youtube-py2.ipk",
       "sourceFileSize": 134710,
       "sourceDigest": "sha256:d81b44b841031826cdfb6737041f8f6ef347fc8898b6f16b4f697a2eeab6c695",
-      "mirroredAt": "2026-11-20T21:22:07Z",
+      "mirroredAt": "2026-11-20T21:23:12Z",
       "mirrorDigest": "sha256:d81b44b841031826cdfb6737041f8f6ef347fc8898b6f16b4f697a2eeab6c695",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10467,7 +10467,7 @@
       "sourceAssetName": "ipk_packages/youtube_py3.ipk",
       "sourceFileSize": 174104,
       "sourceDigest": "sha256:cba87cf268a6390478291cec86ce2584698a7171e021e4b05c72faf776e75177",
-      "mirroredAt": "2026-11-20T21:22:07Z",
+      "mirroredAt": "2026-11-20T21:23:12Z",
       "mirrorDigest": "sha256:cba87cf268a6390478291cec86ce2584698a7171e021e4b05c72faf776e75177",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10500,7 +10500,7 @@
       "sourceAssetName": "aglare-pli.ipk",
       "sourceFileSize": 7900820,
       "sourceDigest": "sha256:610e45806ecd644fb4637a100fe0668ff6eb3dd6e1e5358285f7c353fa01a39f",
-      "mirroredAt": "2026-11-20T21:22:08Z",
+      "mirroredAt": "2026-11-20T21:23:13Z",
       "mirrorDigest": "sha256:610e45806ecd644fb4637a100fe0668ff6eb3dd6e1e5358285f7c353fa01a39f",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10533,7 +10533,7 @@
       "sourceAssetName": "aglare.ipk",
       "sourceFileSize": 7069076,
       "sourceDigest": "sha256:8a5c66e73d69a57b238028a91d89c3e7d39b01e3a248dee117027d906fb0e57c",
-      "mirroredAt": "2026-11-20T21:22:08Z",
+      "mirroredAt": "2026-11-20T21:23:15Z",
       "mirrorDigest": "sha256:8a5c66e73d69a57b238028a91d89c3e7d39b01e3a248dee117027d906fb0e57c",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10566,7 +10566,7 @@
       "sourceAssetName": "artemis.ipk",
       "sourceFileSize": 11711580,
       "sourceDigest": "sha256:5e831879891308dc98f9f80d655e916c421ef1f03f6c4642d6edc55e129da616",
-      "mirroredAt": "2026-11-20T21:22:09Z",
+      "mirroredAt": "2026-11-20T21:23:16Z",
       "mirrorDigest": "sha256:5e831879891308dc98f9f80d655e916c421ef1f03f6c4642d6edc55e129da616",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10599,7 +10599,7 @@
       "sourceAssetName": "bluemetalfhd_atv.ipk",
       "sourceFileSize": 2057684,
       "sourceDigest": "sha256:a2e8804d9300f0f4d805bf24cc02b7f9bc8dc92030d265909e330b181236c2c3",
-      "mirroredAt": "2026-11-20T21:22:09Z",
+      "mirroredAt": "2026-11-20T21:23:17Z",
       "mirrorDigest": "sha256:a2e8804d9300f0f4d805bf24cc02b7f9bc8dc92030d265909e330b181236c2c3",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10632,7 +10632,7 @@
       "sourceAssetName": "CobaltFHD.ipk",
       "sourceFileSize": 42373248,
       "sourceDigest": "sha256:e78221de90ccea1f0719beafbd84803ac3f79dca5f7fa8df5db1c02ad8e56d9b",
-      "mirroredAt": "2026-11-20T21:22:10Z",
+      "mirroredAt": "2026-11-20T21:23:20Z",
       "mirrorDigest": "sha256:e78221de90ccea1f0719beafbd84803ac3f79dca5f7fa8df5db1c02ad8e56d9b",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10665,7 +10665,7 @@
       "sourceAssetName": "copper.ipk",
       "sourceFileSize": 6820274,
       "sourceDigest": "sha256:76a4530c2319c1701cc120d1594f1ac5b1bcfb6519d88c5609c17802c80a3fa4",
-      "mirroredAt": "2026-11-20T21:22:10Z",
+      "mirroredAt": "2026-11-20T21:23:21Z",
       "mirrorDigest": "sha256:76a4530c2319c1701cc120d1594f1ac5b1bcfb6519d88c5609c17802c80a3fa4",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10698,7 +10698,7 @@
       "sourceAssetName": "darkfhd.ipk",
       "sourceFileSize": 3444384,
       "sourceDigest": "sha256:2add4b39fd348c275d8f7a1db08bbf046d3a42fee981cb49d49da510034838ff",
-      "mirroredAt": "2026-11-20T21:22:11Z",
+      "mirroredAt": "2026-11-20T21:23:22Z",
       "mirrorDigest": "sha256:2add4b39fd348c275d8f7a1db08bbf046d3a42fee981cb49d49da510034838ff",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10731,7 +10731,7 @@
       "sourceAssetName": "DarkSilverFHD.ipk",
       "sourceFileSize": 7629766,
       "sourceDigest": "sha256:682ad18d739577226ac081a5e1e34c6075fa938b41f3996a94800eead323d75d",
-      "mirroredAt": "2026-11-20T21:22:11Z",
+      "mirroredAt": "2026-11-20T21:23:23Z",
       "mirrorDigest": "sha256:682ad18d739577226ac081a5e1e34c6075fa938b41f3996a94800eead323d75d",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10764,7 +10764,7 @@
       "sourceAssetName": "dragon.ipk",
       "sourceFileSize": 20406424,
       "sourceDigest": "sha256:5592ce0026bf28459dc77a515738cc40b60388290fbf1eb5c6325d85f1a2d46f",
-      "mirroredAt": "2026-11-20T21:22:12Z",
+      "mirroredAt": "2026-11-20T21:23:24Z",
       "mirrorDigest": "sha256:5592ce0026bf28459dc77a515738cc40b60388290fbf1eb5c6325d85f1a2d46f",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10797,7 +10797,7 @@
       "sourceAssetName": "dreamosatfhd.ipk",
       "sourceFileSize": 6014760,
       "sourceDigest": "sha256:55ee671409a88150bfced08704fcdd877148e848ede5c6b32741c2e9d7308bf5",
-      "mirroredAt": "2026-11-20T21:22:13Z",
+      "mirroredAt": "2026-11-20T21:23:25Z",
       "mirrorDigest": "sha256:55ee671409a88150bfced08704fcdd877148e848ede5c6b32741c2e9d7308bf5",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10830,7 +10830,7 @@
       "sourceAssetName": "fullhdglass17.ipk",
       "sourceFileSize": 11296730,
       "sourceDigest": "sha256:44dca4334f4e13707ee1fe1a27f6468562f7a679c92515b776cb9f1d5cb07dda",
-      "mirroredAt": "2026-11-20T21:22:13Z",
+      "mirroredAt": "2026-11-20T21:23:26Z",
       "mirrorDigest": "sha256:44dca4334f4e13707ee1fe1a27f6468562f7a679c92515b776cb9f1d5cb07dda",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10863,7 +10863,7 @@
       "sourceAssetName": "fury.ipk",
       "sourceFileSize": 14638676,
       "sourceDigest": "sha256:38faec814ea332351f73631b9c8b8e6d207ae81305540b304cf58cefb014df77",
-      "mirroredAt": "2026-11-20T21:22:14Z",
+      "mirroredAt": "2026-11-20T21:23:28Z",
       "mirrorDigest": "sha256:38faec814ea332351f73631b9c8b8e6d207ae81305540b304cf58cefb014df77",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10896,7 +10896,7 @@
       "sourceAssetName": "infinity-neo.ipk",
       "sourceFileSize": 1589286,
       "sourceDigest": "sha256:c096f62eb5c98a1c400eb40ee801daac1e5714e0a86d967ed3b20e7e0a00e3e7",
-      "mirroredAt": "2026-11-20T21:22:14Z",
+      "mirroredAt": "2026-11-20T21:23:29Z",
       "mirrorDigest": "sha256:c096f62eb5c98a1c400eb40ee801daac1e5714e0a86d967ed3b20e7e0a00e3e7",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10929,7 +10929,7 @@
       "sourceAssetName": "jihad.ipk",
       "sourceFileSize": 32192022,
       "sourceDigest": "sha256:8d3d9f35243003caeaa28cbf3bd40e35e34c5125784357b944c27f145d00fece",
-      "mirroredAt": "2026-11-20T21:22:15Z",
+      "mirroredAt": "2026-11-20T21:23:30Z",
       "mirrorDigest": "sha256:8d3d9f35243003caeaa28cbf3bd40e35e34c5125784357b944c27f145d00fece",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10962,7 +10962,7 @@
       "sourceAssetName": "karonte.ipk",
       "sourceFileSize": 4250326,
       "sourceDigest": "sha256:a3e542a21c0b8866a4f73c11fe7e4e60c1753aeb52948161970579ef6d473a68",
-      "mirroredAt": "2026-11-20T21:22:15Z",
+      "mirroredAt": "2026-11-20T21:23:31Z",
       "mirrorDigest": "sha256:a3e542a21c0b8866a4f73c11fe7e4e60c1753aeb52948161970579ef6d473a68",
       "packageValidation": {
         "format": "ipk/ar",
@@ -10995,7 +10995,7 @@
       "sourceAssetName": "kitte888.ipk",
       "sourceFileSize": 9283646,
       "sourceDigest": "sha256:9ddc47642ef742528ac537e4695e89bf14901de754ba3470dcb68162c54b5408",
-      "mirroredAt": "2026-11-20T21:22:16Z",
+      "mirroredAt": "2026-11-20T21:23:32Z",
       "mirrorDigest": "sha256:9ddc47642ef742528ac537e4695e89bf14901de754ba3470dcb68162c54b5408",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11028,7 +11028,7 @@
       "sourceAssetName": "liis8.ipk",
       "sourceFileSize": 12457180,
       "sourceDigest": "sha256:9d31740188c0bbcd7df332234c06be614354cd7462c9d5d3b2d9c3c79e23555c",
-      "mirroredAt": "2026-11-20T21:22:17Z",
+      "mirroredAt": "2026-11-20T21:23:33Z",
       "mirrorDigest": "sha256:9d31740188c0bbcd7df332234c06be614354cd7462c9d5d3b2d9c3c79e23555c",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11061,7 +11061,7 @@
       "sourceAssetName": "luka.ipk",
       "sourceFileSize": 13700660,
       "sourceDigest": "sha256:6d52c7fea4ba6a86be4fc5cc604586810bbefed8b9e5c3a64c9b24738c9d5512",
-      "mirroredAt": "2026-11-20T21:22:17Z",
+      "mirroredAt": "2026-11-20T21:23:35Z",
       "mirrorDigest": "sha256:6d52c7fea4ba6a86be4fc5cc604586810bbefed8b9e5c3a64c9b24738c9d5512",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11094,7 +11094,7 @@
       "sourceAssetName": "madmax-impossible.ipk",
       "sourceFileSize": 6258608,
       "sourceDigest": "sha256:b8db5d34079964f7780b2a4db38a1fec98537d5a225e126b1ac46287d631e969",
-      "mirroredAt": "2026-11-20T21:22:18Z",
+      "mirroredAt": "2026-11-20T21:23:36Z",
       "mirrorDigest": "sha256:b8db5d34079964f7780b2a4db38a1fec98537d5a225e126b1ac46287d631e969",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11127,7 +11127,7 @@
       "sourceAssetName": "metrixfhd-neo.ipk",
       "sourceFileSize": 777688,
       "sourceDigest": "sha256:982da4a4bba8f557637f55f1bfd41b93a674b6b4793ac24ef81b41338403a144",
-      "mirroredAt": "2026-11-20T21:22:18Z",
+      "mirroredAt": "2026-11-20T21:23:38Z",
       "mirrorDigest": "sha256:982da4a4bba8f557637f55f1bfd41b93a674b6b4793ac24ef81b41338403a144",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11160,7 +11160,7 @@
       "sourceAssetName": "mohamed_skin.ipk",
       "sourceFileSize": 34402368,
       "sourceDigest": "sha256:698341362a24ee1dc65e5bb1f42a96df666c45aff71811ff52fa4747c6d96487",
-      "mirroredAt": "2026-11-20T21:22:19Z",
+      "mirroredAt": "2026-11-20T21:23:39Z",
       "mirrorDigest": "sha256:698341362a24ee1dc65e5bb1f42a96df666c45aff71811ff52fa4747c6d96487",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11193,7 +11193,7 @@
       "sourceAssetName": "mybluemetal.ipk",
       "sourceFileSize": 7144416,
       "sourceDigest": "sha256:25a1bf49496661011c0756fa4e145acc087e303c6cfcfc6d849a677e585a81ad",
-      "mirroredAt": "2026-11-20T21:22:20Z",
+      "mirroredAt": "2026-11-20T21:23:40Z",
       "mirrorDigest": "sha256:25a1bf49496661011c0756fa4e145acc087e303c6cfcfc6d849a677e585a81ad",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11226,7 +11226,7 @@
       "sourceAssetName": "novaler-s-fhd.ipk",
       "sourceFileSize": 8497810,
       "sourceDigest": "sha256:1d0bd979c5f6eb2236cf0bd23323c82608c2d65ca02977840c70b02129e4aff9",
-      "mirroredAt": "2026-11-20T21:22:20Z",
+      "mirroredAt": "2026-11-20T21:23:41Z",
       "mirrorDigest": "sha256:1d0bd979c5f6eb2236cf0bd23323c82608c2d65ca02977840c70b02129e4aff9",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11259,7 +11259,7 @@
       "sourceAssetName": "novaler-s.ipk",
       "sourceFileSize": 8497810,
       "sourceDigest": "sha256:1d0bd979c5f6eb2236cf0bd23323c82608c2d65ca02977840c70b02129e4aff9",
-      "mirroredAt": "2026-11-20T21:22:21Z",
+      "mirroredAt": "2026-11-20T21:23:44Z",
       "mirrorDigest": "sha256:1d0bd979c5f6eb2236cf0bd23323c82608c2d65ca02977840c70b02129e4aff9",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11292,7 +11292,7 @@
       "sourceAssetName": "novax.ipk",
       "sourceFileSize": 3625020,
       "sourceDigest": "sha256:66e249e0031f93b759914c00a8bada9118c634eb0268725353bccb2c499c5783",
-      "mirroredAt": "2026-11-20T21:22:21Z",
+      "mirroredAt": "2026-11-20T21:23:45Z",
       "mirrorDigest": "sha256:66e249e0031f93b759914c00a8bada9118c634eb0268725353bccb2c499c5783",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11325,7 +11325,7 @@
       "sourceAssetName": "odreamy.ipk",
       "sourceFileSize": 13143052,
       "sourceDigest": "sha256:5b38fa4ec31dbde0b4ee98096f6d6dd0695a0e3893ef0e68b90b622da74563c8",
-      "mirroredAt": "2026-11-20T21:22:22Z",
+      "mirroredAt": "2026-11-20T21:23:46Z",
       "mirrorDigest": "sha256:5b38fa4ec31dbde0b4ee98096f6d6dd0695a0e3893ef0e68b90b622da74563c8",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11358,7 +11358,7 @@
       "sourceAssetName": "ozeta.ipk",
       "sourceFileSize": 18319744,
       "sourceDigest": "sha256:0c3d4ce086bdca26a213dfca3f695bb22cd0c2e8202120cf5ebae9a56ba59579",
-      "mirroredAt": "2026-11-20T21:22:22Z",
+      "mirroredAt": "2026-11-20T21:23:48Z",
       "mirrorDigest": "sha256:0c3d4ce086bdca26a213dfca3f695bb22cd0c2e8202120cf5ebae9a56ba59579",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11391,7 +11391,7 @@
       "sourceAssetName": "pd1loi-hd-night.ipk",
       "sourceFileSize": 9548152,
       "sourceDigest": "sha256:d9280036dff03051575e72299f8313735077d84af7fca82b2ce4ebc8c5bc6dbd",
-      "mirroredAt": "2026-11-20T21:22:23Z",
+      "mirroredAt": "2026-11-20T21:23:49Z",
       "mirrorDigest": "sha256:d9280036dff03051575e72299f8313735077d84af7fca82b2ce4ebc8c5bc6dbd",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11424,7 +11424,7 @@
       "sourceAssetName": "premium-fhd.ipk",
       "sourceFileSize": 11208276,
       "sourceDigest": "sha256:18d01f54f19c934ced89ea47270d01b0ecd3d5563ed8e60dab7ef483df84320f",
-      "mirroredAt": "2026-11-20T21:22:24Z",
+      "mirroredAt": "2026-11-20T21:23:50Z",
       "mirrorDigest": "sha256:18d01f54f19c934ced89ea47270d01b0ecd3d5563ed8e60dab7ef483df84320f",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11457,7 +11457,7 @@
       "sourceAssetName": "revolution-pro.ipk",
       "sourceFileSize": 20450990,
       "sourceDigest": "sha256:72620e1964f414c6508e1910565c65708ce6f591eaeb0ada5669b8ade52cc3be",
-      "mirroredAt": "2026-11-20T21:22:24Z",
+      "mirroredAt": "2026-11-20T21:23:52Z",
       "mirrorDigest": "sha256:72620e1964f414c6508e1910565c65708ce6f591eaeb0ada5669b8ade52cc3be",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11490,7 +11490,7 @@
       "sourceAssetName": "simple-gray.ipk",
       "sourceFileSize": 439624,
       "sourceDigest": "sha256:3e2b357f3b8079697004ce1c493f4606aa9f0038f657a8366825887fa4379958",
-      "mirroredAt": "2026-11-20T21:22:25Z",
+      "mirroredAt": "2026-11-20T21:23:53Z",
       "mirrorDigest": "sha256:3e2b357f3b8079697004ce1c493f4606aa9f0038f657a8366825887fa4379958",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11523,7 +11523,7 @@
       "sourceAssetName": "xDreamy.ipk",
       "sourceFileSize": 21364720,
       "sourceDigest": "sha256:db8e0b09aad011f359a9c5c6033b4e206070aa2688d7c06d250b54efa2d77c78",
-      "mirroredAt": "2026-11-20T21:22:25Z",
+      "mirroredAt": "2026-11-20T21:23:54Z",
       "mirrorDigest": "sha256:db8e0b09aad011f359a9c5c6033b4e206070aa2688d7c06d250b54efa2d77c78",
       "packageValidation": {
         "format": "ipk/ar",
@@ -11556,7 +11556,7 @@
       "sourceAssetName": "Youchie.ipk",
       "sourceFileSize": 25458420,
       "sourceDigest": "sha256:cf4382a3119e7a784e6d5b15629f494c78d85b0a38fa1e058a0601fd2e0134cb",
-      "mirroredAt": "2026-11-20T21:22:26Z",
+      "mirroredAt": "2026-11-20T21:23:55Z",
       "mirrorDigest": "sha256:cf4382a3119e7a784e6d5b15629f494c78d85b0a38fa1e058a0601fd2e0134cb",
       "packageValidation": {
         "format": "ipk/ar",
