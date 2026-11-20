@@ -134,11 +134,24 @@ def main():
     files=[x for x in tree if x.get('type')=='blob' and x.get('path','').startswith('v1.7/') and x.get('path','').lower().endswith('.ipk')]
     if not files: raise RuntimeError('لم يتم العثور على حزم IPAudioPro v1.7')
     ensure_release()
-    assets=gh_api(f'repos/{REPO}/releases/tags/{TAG}').get('assets',[]); rows=[]
+    assets=gh_api(f'repos/{REPO}/releases/tags/{TAG}').get('assets',[])
+    try:
+        previous=json.loads(MANIFEST.read_text(encoding='utf-8')).get('packages',[])
+    except Exception:
+        previous=[]
+    previous_by_path={x.get('sourcePath'):x for x in previous if x.get('sourcePath')}
+    rows=[]
     with tempfile.TemporaryDirectory(prefix='o4t-ipaudiopro-') as td:
         root=Path(td)
         for i,x in enumerate(files):
-            name=Path(x['path']).name; p=root/f'pkg-{i}.ipk'
+            name=Path(x['path']).name
+            prev=previous_by_path.get(x['path'])
+            if prev and prev.get('sourceBlobSha')==x.get('sha'):
+                existing=next((a for a in assets if a.get('name')==prev.get('assetName')),None)
+                if existing and existing.get('size')==int(x.get('size') or 0) and existing.get('digest')=='sha256:'+prev.get('sha256',''):
+                    rows.append({**prev,'downloadUrl':BASE+quote(prev['assetName'])})
+                    continue
+            p=root/f'pkg-{i}.ipk'
             url=f'https://raw.githubusercontent.com/{SOURCE}/{BRANCH}/'+quote(x['path'],safe='/')
             req=urllib.request.Request(url,headers={'User-Agent':'Online4Tech-IPAudioPro-Mirror/1.0'})
             total=0
@@ -156,7 +169,7 @@ def main():
             if not py or not ffm: raise ValueError('تعذر تحديد Python/FF من اسم الحزمة: '+name)
             sha=hashlib.sha256(p.read_bytes()).hexdigest(); asset_name=sha[:12]+'-'+re.sub(r'[^A-Za-z0-9._-]','_',name)
             own,assets=upload(p,name,sha,total,assets)
-            rows.append({'sourcePath':x['path'],'sourceUrl':url,'assetName':asset_name,'downloadUrl':own,'size':total,'sha256':sha,'package':meta['Package'],'version':meta['Version'],'architecture':meta['Architecture'],'python':py,'ff':ffm.group(1)})
+            rows.append({'sourcePath':x['path'],'sourceBlobSha':x.get('sha'),'sourceUrl':url,'assetName':asset_name,'downloadUrl':own,'size':total,'sha256':sha,'package':meta['Package'],'version':meta['Version'],'architecture':meta['Architecture'],'python':py,'ff':ffm.group(1)})
         installer=build_installer(rows); installer_path=root/'ipaudiopro-installer.sh'; installer_path.write_text(installer,encoding='utf-8')
         subprocess.run(['sh','-n',str(installer_path)],check=True)
         sha=hashlib.sha256(installer_path.read_bytes()).hexdigest(); size=installer_path.stat().st_size
