@@ -28,6 +28,7 @@ jobs:
           set -euo pipefail
           python3 - <<'PY'
           import json, re
+          from urllib.parse import urlsplit, unquote
           from pathlib import Path
           from datetime import datetime, timezone
 
@@ -39,8 +40,16 @@ jobs:
           scan = json.loads(scan_path.read_text(encoding="utf-8"))
           catalog = json.loads(catalog_path.read_text(encoding="utf-8"))
           items = catalog.get("items", [])
-          known_urls = {x.get("sourceUrl") for x in items if x.get("sourceUrl")}
-          known_names = {x.get("sourceAssetName", "").lower() for x in items if x.get("sourceAssetName")}
+          known_urls = {
+              url for x in items
+              for url in (x.get("sourceUrl"), x.get("downloadUrl"))
+              if url
+          }
+          known_names = set()
+          for x in items:
+              for value in (x.get("sourceAssetName"), urlsplit(x.get("downloadUrl", "")).path.rsplit("/", 1)[-1]):
+                  if value:
+                      known_names.add(unquote(value).lower())
 
           def norm(value):
               return re.sub(r"[^a-z0-9]+", "", (value or "").lower())
