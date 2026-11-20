@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import hashlib, io, json, re, subprocess, tarfile, tempfile, urllib.request
+import hashlib, io, json, re, subprocess, tarfile, tempfile, time, urllib.request
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import quote, urlparse
@@ -56,20 +56,31 @@ def control_fields(path):
         if not fields.get(key): raise ValueError('بيانات ناقصة: '+key)
     return fields
 
+def gh_retry(args):
+    last=''
+    for attempt in range(8):
+        q=subprocess.run(args,capture_output=True,text=True)
+        if q.returncode==0: return q
+        last=(q.stderr or q.stdout or '').strip(); low=last.lower()
+        if 'rate limit' in low or 'secondary rate limit' in low or 'http 403' in low:
+            wait=min(60*(attempt+1),300); print(f'GitHub API rate limit; retry {attempt+1}/8 after {wait}s'); time.sleep(wait); continue
+        raise RuntimeError(last or 'GitHub command failed')
+    raise RuntimeError('GitHub rate limit persisted: '+last[:400])
+
 def release():
-    q=subprocess.run(['gh','release','view',TAG,'--repo',REPO],capture_output=True,text=True)
-    if q.returncode: subprocess.run(['gh','release','create',TAG,'--repo',REPO,'--title','Online4Tech Enigma2 IPK Packages','--notes','Online4Tech mirror. Metadata checked; verify receiver compatibility before install.','--latest=false'],check=True)
+    q=gh_retry(['gh','release','view',TAG,'--repo',REPO])
+    if q.returncode: gh_retry(['gh','release','create',TAG,'--repo',REPO,'--title','Online4Tech Enigma2 IPK Packages','--notes','Online4Tech mirror. Metadata checked; verify receiver compatibility before install.','--latest=false'])
 
 def upload(path,name,digest,size):
     safe=re.sub(r'[^A-Za-z0-9._-]','_',name.rsplit('/',1)[-1]); asset=digest[:12]+'-'+safe
     target=path.with_name(asset)
     if target!=path: target.write_bytes(path.read_bytes())
-    q=subprocess.run(['gh','api',f'repos/{REPO}/releases/tags/{TAG}'],capture_output=True,text=True,check=True)
+    q=gh_retry(['gh','api',f'repos/{REPO}/releases/tags/{TAG}'])
     assets=json.loads(q.stdout).get('assets',[])
     found=next((x for x in assets if x.get('name')==asset),None)
     if not found or found.get('size')!=size or found.get('digest')!='sha256:'+digest:
-        subprocess.run(['gh','release','upload',TAG,str(target),'--repo',REPO,'--clobber'],check=True)
-        q=subprocess.run(['gh','api',f'repos/{REPO}/releases/tags/{TAG}'],capture_output=True,text=True,check=True)
+        gh_retry(['gh','release','upload',TAG,str(target),'--repo',REPO,'--clobber']); time.sleep(2)
+        q=gh_retry(['gh','api',f'repos/{REPO}/releases/tags/{TAG}'])
         assets=json.loads(q.stdout).get('assets',[])
         found=next((x for x in assets if x.get('name')==asset),None)
     if not found or found.get('size')!=size or found.get('digest')!='sha256:'+digest: raise ValueError('فشل التحقق من الملف المرفوع')
