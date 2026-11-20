@@ -120,8 +120,9 @@ def main():
     scan=json.loads(SCAN.read_text(encoding="utf-8"))
     catalog=json.loads(CATALOG.read_text(encoding="utf-8"))
     items=catalog.setdefault("items",[])
-    known_urls={v for x in items for v in (x.get("sourceUrl"),x.get("downloadUrl")) if v}
-    known_names={unquote(urlparse(x.get("downloadUrl","")).path.rsplit("/",1)[-1]).lower() for x in items if x.get("downloadUrl")}
+    known_urls={v for x in items for v in (x.get("sourceUrl"),x.get("originalSourceUrl"),x.get("downloadUrl")) if v}
+    known_names={str(x.get("sourceAssetName","")).lower() for x in items if x.get("sourceAssetName")}
+    known_names.update(unquote(urlparse(x.get("downloadUrl","")).path.rsplit("/",1)[-1]).lower() for x in items if x.get("downloadUrl"))
     candidates=[]
     for a in scan.get("assets",[]):
         name,url=a.get("asset",""),a.get("download_url","")
@@ -144,7 +145,7 @@ def main():
             current = item.get("downloadUrl", "")
             if current.startswith(OWN_RELEASE_BASE):
                 continue
-            source = item.get("sourceUrl") or current
+            source = item.get("originalSourceUrl") or item.get("sourceUrl") or current
             name = item.get("sourceAssetName") or unquote(urlparse(source).path.rsplit("/",1)[-1])
             target = Path(td)/("migrate-"+re.sub(r"[^A-Za-z0-9._-]","_",name))
             try:
@@ -154,7 +155,9 @@ def main():
                 if expected and sha.lower() != expected.lower():
                     raise ValueError("SHA-256 لا يطابق البصمة المسجلة سابقًا")
                 item["downloadUrl"] = upload_to_our_release(target, name, sha, size)
-                # Public-facing detail/download links must resolve to Online4Tech.
+                # Keep provenance separately; all public-facing links resolve to Online4Tech.
+                item["originalSourceUrl"] = source
+                item["sourceUrl"] = item["downloadUrl"]
                 item["detailUrl"] = item["downloadUrl"]
                 item["mirroredAt"] = datetime.utcnow().isoformat(timespec="seconds")+"Z"
                 item["mirrorDigest"] = "sha256:"+sha
@@ -174,8 +177,8 @@ def main():
                     "id":next_id,"name":f"{model['model']} — {version}","category":"backup","subcategory":model["subcategory"],"group":model["group"],
                     "description":f"نسخة باك أب {version} مخصصة لجهاز {model['model']} فقط. تم اختبار سلامة الأرشيف وCRC قبل إضافتها. راجع موديل الجهاز قبل الاستعادة.",
                     "version":version,"date":date,"downloads":0,"keywords":f"{model['model']} {version} النسخ الاحتياطية Enigma2",
-                    "downloadUrl":own_url,"guideUrl":"https://online4tech.github.io/online4Tech/tutorials/backup-install.html","detailUrl":"#","icon":"💾",
-                    "compatibility":model["compatibility"],"sourceUrl":url,"sourceRepo":a.get("repository",""),"sourceAssetName":name,"sourceFileSize":size,
+                    "downloadUrl":own_url,"guideUrl":"https://online4tech.github.io/online4Tech/tutorials/backup-install.html","detailUrl":own_url,"icon":"💾",
+                    "compatibility":model["compatibility"],"sourceUrl":own_url,"originalSourceUrl":url,"sourceRepo":a.get("repository",""),"sourceAssetName":name,"sourceFileSize":size,
                     "sourceDigest":"sha256:"+sha,"sourceReleaseTag":a.get("release",""),
                     "archiveValidation":{"format":"zip","crc":"passed","members":count,"uncompressedBytes":expanded,"checkedAt":datetime.utcnow().isoformat(timespec="seconds")+"Z"},
                     "mirroredAt":datetime.utcnow().isoformat(timespec="seconds")+"Z","mirrorDigest":"sha256:"+sha
