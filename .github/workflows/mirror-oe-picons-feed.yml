@@ -1,0 +1,60 @@
+name: Mirror OE-Alliance Picons feed under Online4Tech
+
+on:
+  push:
+    paths:
+      - ".github/workflows/mirror-oe-picons-feed.yml"
+      - ".github/scripts/mirror_oe_picons_feed.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: online4tech-catalog-assets
+  cancel-in-progress: false
+
+jobs:
+  mirror-picons:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout Online4Tech
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Mirror and verify Picons packages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python .github/scripts/mirror_oe_picons_feed.py
+      - name: Merge and publish Online4Tech feed links
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp assets/allblugin/demo-data.json /tmp/online4tech-local-catalog.json
+          cp monitoring/online4tech-picons-feed-manifest.json /tmp/online4tech-picons-feed-manifest.json
+          cp monitoring/ONLINE4TECH-PICONS-FEED.md /tmp/online4tech-picons-feed-report.md
+          git fetch origin "${GITHUB_REF_NAME}"
+          git reset --hard "origin/${GITHUB_REF_NAME}"
+          python3 .github/scripts/merge_catalog_changes.py /tmp/online4tech-local-catalog.json assets/allblugin/demo-data.json
+          cp /tmp/online4tech-picons-feed-manifest.json monitoring/online4tech-picons-feed-manifest.json
+          cp /tmp/online4tech-picons-feed-report.md monitoring/ONLINE4TECH-PICONS-FEED.md
+          git add -f assets/allblugin/demo-data.json monitoring/online4tech-picons-feed-manifest.json monitoring/ONLINE4TECH-PICONS-FEED.md
+          if git diff --cached --quiet; then
+            echo "No Picons feed catalog changes."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Mirror OE-Alliance Picons feed under Online4Tech"
+            git push
+          fi
+      - name: Upload Picons feed report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: online4tech-picons-feed-report
+          path: monitoring/ONLINE4TECH-PICONS-FEED.md
+          if-no-files-found: ignore
+          retention-days: 30
