@@ -99,10 +99,25 @@ def main():
                 size=download(a['download_url'],p,int(a.get('size') or 0)); meta=control_fields(p); sha=hashlib.sha256(p.read_bytes()).hexdigest(); url=upload(p,a['asset'],sha,size)
                 cat,sub,group,icon=classify(a['repository'],a['asset'],meta['Package']); pkg=meta['Package']; ver=meta['Version']; arch=meta['Architecture']
                 desc=meta.get('Description','').split('\n',1)[0].strip() or f'حزمة Enigma2: {pkg}'
-                cmd=f'wget -q "{url}" -O /tmp/{pkg}.ipk && opkg install /tmp/{pkg}.ipk'
+                cmd=f'wget -q "{url}" -O /tmp/{pkg}.ipk && opkg install /tmp/{pkg}.ipk && printf '\n========================================\n        Online4Tech\n     خليك دايمًا أونلاين\n========================================\nThis package is provided by Online4Tech\nWebsite: https://online4tech.github.io/online4Tech/\nBY ahmad Rome7\n01006699169\n========================================\n''
                 item={'id':nextid,'name':re.sub(r'[-_]+',' ',pkg),'category':cat,'subcategory':sub,'group':group,'description':f'{desc} الإصدار {ver} — المعمارية {arch}. تحقق من التوافق قبل التثبيت.','version':ver,'date':a.get('published_at','')[:10] or 'غير محدد','downloads':0,'keywords':f'{pkg} {ver} {arch} Enigma2 IPK','downloadUrl':url,'command':cmd,'installCommand':cmd,'guideUrl':'#','detailUrl':url,'icon':icon,'compatibility':f'Architecture: {arch}','packageName':pkg,'architecture':arch,'sourceUrl':url,'originalSourceUrl':a['download_url'],'sourceRepo':a['repository'],'sourceAssetName':a['asset'],'sourceFileSize':size,'sourceDigest':'sha256:'+sha,'mirroredAt':datetime.utcnow().isoformat(timespec='seconds')+'Z','mirrorDigest':'sha256:'+sha,'packageValidation':{'format':'ipk/ar','controlMetadata':'passed'}}
                 items.append(item); known.add(a['download_url']); added.append(item); nextid+=1
             except Exception as e: rejected.append({'repo':a.get('repository'),'asset':a.get('asset'),'reason':str(e)})
+    # Apply the Online4Tech identity to every catalog IPK install command.
+    # The footer is emitted only when opkg exits successfully.
+    footer_cmd = "printf '\\n========================================\\n        Online4Tech\\n     خليك دايمًا أونلاين\\n========================================\\nThis package is provided by Online4Tech\\nWebsite: https://online4tech.github.io/online4Tech/\\nBY ahmad Rome7\\n01006699169\\n========================================\\n'"
+    for row in items:
+        if not row.get('packageName'):
+            continue
+        url = row.get('downloadUrl')
+        if not url or not str(url).startswith(f'https://github.com/{REPO}/releases/download/'):
+            continue
+        pkg = re.sub(r'[^A-Za-z0-9_.+-]', '_', str(row.get('packageName')))
+        install = f'wget -q "{url}" -O /tmp/{pkg}.ipk && opkg install /tmp/{pkg}.ipk'
+        if 'opkg install' in str(row.get('command', '')):
+            row['command'] = install + ' && ' + footer_cmd
+        if 'opkg install' in str(row.get('installCommand', '')):
+            row['installCommand'] = install + ' && ' + footer_cmd
     if added:
         for c in catalog.get('categories',[]):
             c['count']=sum(1 for x in items if x.get('category')==c.get('id'))
