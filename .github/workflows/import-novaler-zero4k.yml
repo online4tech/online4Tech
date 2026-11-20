@@ -1,0 +1,177 @@
+name: Import Vu+ Zero 4K backups from Novaler
+
+on:
+  push:
+    paths:
+      - ".github/workflows/import-novaler-zero4k.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-novaler-zero4k
+  cancel-in-progress: false
+
+jobs:
+  import-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout website
+        uses: actions/checkout@v4
+
+      - name: Download, verify and mirror release assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          SOURCE_REPO="KhaledAli65/novaler"
+          SOURCE_TAG="Zero4k"
+          DEST_TAG="online4tech-backups-zero4k"
+          SOURCE_URL="https://github.com/${SOURCE_REPO}/releases/tag/${SOURCE_TAG}"
+
+          gh api "repos/${SOURCE_REPO}/releases/tags/${SOURCE_TAG}" > release.json
+          ASSET_COUNT="$(jq '.assets | length' release.json)"
+          test "$ASSET_COUNT" -eq 5
+          echo "Found ${ASSET_COUNT} source images."
+
+          if ! gh release view "$DEST_TAG" >/dev/null 2>&1; then
+            gh release create "$DEST_TAG" --title "Online4Tech Backups - Vu+ Zero 4K" --notes "نسخ صور أنظمة متوافقة مع Vu+ Zero 4K فقط. تم نقل الملفات من ${SOURCE_URL} مع التحقق من الحجم وSHA-256. المصدر الأصلي لم يتم تغييره."
+          fi
+
+          mkdir -p imported-assets
+          while IFS= read -r encoded; do
+            item="$(printf '%s' "$encoded" | base64 -d)"
+            ASSET_NAME="$(printf '%s' "$item" | jq -r '.name')"
+            EXPECTED_SIZE="$(printf '%s' "$item" | jq -r '.size')"
+            EXPECTED_DIGEST="$(printf '%s' "$item" | jq -r '.digest // empty')"
+            SOURCE_ASSET_URL="$(printf '%s' "$item" | jq -r '.browser_download_url')"
+
+            echo "::group::${ASSET_NAME}"
+            curl --fail --location --retry 4 --retry-delay 3 "$SOURCE_ASSET_URL" --output "imported-assets/${ASSET_NAME}"
+            ACTUAL_SIZE="$(stat -c%s "imported-assets/${ASSET_NAME}")"
+            test "$ACTUAL_SIZE" = "$EXPECTED_SIZE"
+
+            if [[ -n "$EXPECTED_DIGEST" && "$EXPECTED_DIGEST" == sha256:* ]]; then
+              EXPECTED_SHA="${EXPECTED_DIGEST#sha256:}"
+              ACTUAL_SHA="$(sha256sum "imported-assets/${ASSET_NAME}" | awk '{print $1}')"
+              test "$ACTUAL_SHA" = "$EXPECTED_SHA"
+              echo "Source SHA256 verified: ${ACTUAL_SHA}"
+            fi
+
+            gh release upload "$DEST_TAG" "imported-assets/${ASSET_NAME}" --clobber
+            echo "Uploaded and size-verified: ${ASSET_NAME} (${ACTUAL_SIZE} bytes)"
+            echo "::endgroup::"
+          done < <(jq -r '.assets[] | @base64' release.json)
+
+          gh release view "$DEST_TAG" --json assets > destination-assets.json
+          python3 - <<'PY'
+          import json, os, sys
+          src = json.load(open("release.json", encoding="utf-8"))
+          dst = json.load(open("destination-assets.json", encoding="utf-8"))
+          dest = {a["name"]: a for a in dst["assets"]}
+          for asset in src["assets"]:
+              copied = dest.get(asset["name"])
+              if not copied or copied["size"] != asset["size"]:
+                  raise SystemExit("Destination verification failed: " + asset["name"])
+              if asset.get("digest") and copied.get("digest") != asset["digest"]:
+                  raise SystemExit("Destination SHA256 mismatch: " + asset["name"])
+          print("All 5 destination release assets verified.")
+          PY
+
+      - name: Add the five images to the website backup catalog
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, re
+          from pathlib import Path
+
+          path = Path("assets/allblugin/demo-data.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+          release = json.loads(Path("release.json").read_text(encoding="utf-8"))
+          assets = release["assets"]
+          source_repo = "KhaledAli65/novaler"
+          source_tag = "Zero4k"
+          source_url = "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k"
+          dest_tag = "online4tech-backups-zero4k"
+          dest_base = f"https://github.com/online4tech/online4Tech/releases/download/{dest_tag}/"
+
+          systems = [
+              ("egami-11.0-r23-vuzero4k-03112026.zip", "EGAMI 11.0 R23"),
+              ("openatv-8.0.1-vuzero4k-03112026.zip", "OpenATV 8.0.1"),
+              ("openbh-6.0.005-vuzero4k-03112026.zip", "OpenBH 6.0.005"),
+              ("openvix-6.9.003-vuzero4k_03112026.zip", "OpenViX 6.9.003"),
+              ("PurE2-7.6-vuzero4k_03112026.zip", "PurE2 7.6"),
+          ]
+          by_name = {a["name"]: a for a in assets}
+          missing = [name for name, _ in systems if name not in by_name]
+          if missing:
+              raise SystemExit("Missing source assets: " + ", ".join(missing))
+
+          items = data.setdefault("items", [])
+          existing = {
+              x.get("sourceAssetName")
+              for x in items
+              if x.get("sourceRepo") == source_repo and x.get("sourceReleaseTag") == source_tag
+          }
+          next_id = max((int(x.get("id", 0)) for x in items if str(x.get("id", "")).isdigit()), default=0) + 1
+          added = 0
+          for filename, version in systems:
+              if filename in existing:
+                  continue
+              asset = by_name[filename]
+              item = {
+                  "id": next_id,
+                  "name": f"Vu+ Zero 4K — {version}",
+                  "category": "backup",
+                  "subcategory": "vu-zero4k",
+                  "group": "Vu+",
+                  "description": f"صورة نظام {version} بملف {filename}، مخصصة لجهاز Vu+ Zero 4K فقط. تأكد من تطابق الموديل قبل التفليش.",
+                  "version": version,
+                  "date": "2026-11-03",
+                  "downloads": 0,
+                  "keywords": f"Vu+ Zero 4K {version} {source_repo} صور أنظمة النسخ الاحتياطية Enigma2",
+                  "icon": "💾",
+                  "downloadUrl": dest_base + filename,
+                  "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
+                  "detailUrl": source_url,
+                  "compatibility": "Vu+ Zero 4K فقط",
+                  "sourceUrl": source_url,
+                  "sourceRepo": source_repo,
+                  "sourceAssetName": filename,
+                  "sourceFileSize": asset["size"],
+                  "sourceDigest": asset.get("digest", ""),
+                  "sourceReleaseTag": source_tag
+              }
+              items.append(item)
+              next_id += 1
+              added += 1
+
+          if added:
+              path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(f"Added {added} new Vu+ Zero 4K backup entries; total catalog items: {len(items)}.")
+          PY
+
+      - name: Commit updated backup catalog
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- assets/allblugin/demo-data.json; then
+            echo "Catalog already contains these assets; no commit needed."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/allblugin/demo-data.json
+            git commit -m "Add Novaler Vu Zero 4K backup images"
+            git push
+          fi
+
+      - name: Summary
+        run: |
+          echo "Imported 5 Vu+ Zero 4K system images."
+          echo "Release: https://github.com/online4tech/online4Tech/releases/tag/online4tech-backups-zero4k"
+          echo "Catalog: https://github.com/online4tech/online4Tech/blob/main/assets/allblugin/demo-data.json"
