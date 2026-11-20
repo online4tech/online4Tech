@@ -1,6 +1,10 @@
 name: Monitor KhaledAli65 Enigma2 releases
 
 on:
+  push:
+    paths:
+      - ".github/workflows/monitor-khaledali65.yml"
+      - ".github/monitored-sources.json"
   schedule:
     - cron: "17 2 * * *"
   workflow_dispatch:
