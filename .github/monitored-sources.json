@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "owners": [
+    "KhaledAli65"
+  ],
+  "discovery": {
+    "includeAllPublicRepositories": true,
+    "includeArchived": false,
+    "autoDiscoverNewRepositories": true
+  },
+  "monitoredReleaseAssetExtensions": [
+    ".ipk",
+    ".sh",
+    ".zip",
+    ".tar",
+    ".tar.gz",
+    ".tar.xz",
+    ".tgz",
+    ".nfi",
+    ".img",
+    ".bin"
+  ],
+  "monitoredTextExtensions": [
+    ".txt",
+    ".md",
+    ".json"
+  ],
+  "note": "This file defines monitoring scope only. Assets and commands must be classified, compatibility-checked, deduplicated, and reviewed before publication. Never execute imported scripts or Telnet commands automatically."
+}
