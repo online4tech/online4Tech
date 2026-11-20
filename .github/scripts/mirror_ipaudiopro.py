@@ -125,15 +125,7 @@ def build_installer(rows):
 '  *) echo "لا توجد حزمة مطابقة لإصدار Python والمعمارية الحالية."; echo "راجع قائمة الحزم في مستودع Online4Tech."; exit 1 ;;',
 'esac',
 'echo "الحزمة المختارة: $FILE | FF: $FF"',
-'printf "تأكيد تنزيل وتثبيت IPAudioPro؟ [y/N]: "; read -r ANSWER',
-'case "$ANSWER" in y|Y|yes|YES) ;; *) echo "تم الإلغاء."; exit 0 ;; esac',
-'TMP="/tmp/$FILE"',
-'if ! wget -q -O "$TMP" "$URL"; then echo "فشل تنزيل الحزمة من Online4Tech"; rm -f "$TMP"; exit 1; fi',
-'if command -v sha256sum >/dev/null 2>&1; then ACTUAL=$(sha256sum "$TMP" | awk \'{print $1}\'); elif command -v sha256 >/dev/null 2>&1; then ACTUAL=$(sha256 -q "$TMP"); else echo "أداة SHA256 غير متاحة؛ أوقف التثبيت للتحقق من سلامة الملف"; rm -f "$TMP"; exit 1; fi',
-'if [ "$ACTUAL" != "$SHA" ]; then echo "فشل التحقق من SHA256"; rm -f "$TMP"; exit 1; fi',
-'opkg install "$TMP"',
-'rm -f "$TMP"',
-'printf "\n========================================\n        Online4Tech\n     خليك دايمًا أونلاين\n========================================\nThis package is provided by Online4Tech\nWebsite: https://online4tech.github.io/online4Tech/\nBY ahmad Rome7\n01006699169\n========================================\n"'
+'printf "\\n========================================\\n        Online4Tech\\n     خليك دايمًا أونلاين\\n========================================\\nThis package is provided by Online4Tech\\nWebsite: https://online4tech.github.io/online4Tech/\\nBY ahmad Rome7\\n01006699169\\n========================================\\n"'
 ]
     return '\n'.join(lines)+'\n'
 
