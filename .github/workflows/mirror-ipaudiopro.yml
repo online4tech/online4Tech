@@ -1,4 +1,5 @@
 name: Mirror IPAudioPro packages and installer
+# Online4Tech branding footer enabled
 # Re-run after catalog assets have synchronized
 
 on:
