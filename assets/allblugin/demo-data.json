@@ -3796,7 +3796,7 @@
       "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4b908f3ec63e-enigma2-plugin-extensions-levi45emulator_all.ipk",
       "guideUrl": "",
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4b908f3ec63e-enigma2-plugin-extensions-levi45emulator_all.ipk",
-      "installCommand": "set -e\nURL='https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4b908f3ec63e-enigma2-plugin-extensions-levi45emulator_all.ipk'\nPKG='/tmp/levi45-emulator.ipk'\nif command -v wget >/dev/null 2>&1; then wget -O \"$PKG\" \"$URL\"; elif command -v curl >/dev/null 2>&1; then curl -fL \"$URL\" -o \"$PKG\"; else echo 'wget أو curl غير متاح'; exit 1; fi\nif [ ! -s \"$PKG\" ]; then echo 'فشل تنزيل ملف التثبيت'; exit 1; fi\nif [ 'ipk' = 'ipk' ]; then\n  if command -v opkg >/dev/null 2>&1; then opkg install \"$PKG\"; else echo 'الصورة لا تحتوي على opkg؛ ملف IPK غير مدعوم هنا'; exit 1; fi\nelse\n  if command -v dpkg >/dev/null 2>&1; then dpkg -i \"$PKG\"; else echo 'الصورة لا تحتوي على dpkg؛ ملف DEB غير مدعوم هنا'; exit 1; fi\nfi\nrm -f \"$PKG\"\necho 'انتهى أمر التثبيت؛ راجع سجل الجهاز للتأكد من نجاح الحزمة.'\nprintf '\\n========================================\\n        Online4Tech\\n     خليك دايمًا أونلاين\\n========================================\\nThis package is provided by Online4Tech\\nWebsite: https://online4tech.github.io/online4Tech/\\nBY ahmad Rome7\\n01006699169\\n========================================\\n'",
+      "installCommand": "set -e\nURL='https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4b908f3ec63e-enigma2-plugin-extensions-levi45emulator_all.ipk'\nPKG='/tmp/levi45-emulator.ipk'\nif command -v wget >/dev/null 2>&1; then wget -O \"$PKG\" \"$URL\"; elif command -v curl >/dev/null 2>&1; then curl -fL \"$URL\" -o \"$PKG\"; else echo 'wget أو curl غير متاح'; exit 1; fi\nif [ ! -s \"$PKG\" ]; then echo 'فشل تنزيل ملف التثبيت'; exit 1; fi\nif [ 'ipk' = 'ipk' ]; then\n  if command -v opkg >/dev/null 2>&1; then opkg install \"$PKG\"; else echo 'الصورة لا تحتوي على opkg؛ ملف IPK غير مدعوم هنا'; exit 1; fi\nelse\n  if command -v dpkg >/dev/null 2>&1; then dpkg -i \"$PKG\"; else echo 'الصورة لا تحتوي على dpkg؛ ملف DEB غير مدعوم هنا'; exit 1; fi\nfi\nrm -f \"$PKG\"\necho 'انتهى أمر التثبيت؛ راجع سجل الجهاز للتأكد من نجاح الحزمة.'",
       "originalSourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
@@ -3814,7 +3814,7 @@
       "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/043b4f2fa18d-enigma2-plugin-extensions-levi45emulator_all.deb",
       "guideUrl": "",
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/043b4f2fa18d-enigma2-plugin-extensions-levi45emulator_all.deb",
-      "installCommand": "set -e\nURL='https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/043b4f2fa18d-enigma2-plugin-extensions-levi45emulator_all.deb'\nPKG='/tmp/levi45-emulator.deb'\nif command -v wget >/dev/null 2>&1; then wget -O \"$PKG\" \"$URL\"; elif command -v curl >/dev/null 2>&1; then curl -fL \"$URL\" -o \"$PKG\"; else echo 'wget أو curl غير متاح'; exit 1; fi\nif [ ! -s \"$PKG\" ]; then echo 'فشل تنزيل ملف التثبيت'; exit 1; fi\nif [ 'deb' = 'ipk' ]; then\n  if command -v opkg >/dev/null 2>&1; then opkg install \"$PKG\"; else echo 'الصورة لا تحتوي على opkg؛ ملف IPK غير مدعوم هنا'; exit 1; fi\nelse\n  if command -v dpkg >/dev/null 2>&1; then dpkg -i \"$PKG\"; else echo 'الصورة لا تحتوي على dpkg؛ ملف DEB غير مدعوم هنا'; exit 1; fi\nfi\nrm -f \"$PKG\"\necho 'انتهى أمر التثبيت؛ راجع سجل الجهاز للتأكد من نجاح الحزمة.'\nprintf '\\n========================================\\n        Online4Tech\\n     خليك دايمًا أونلاين\\n========================================\\nThis package is provided by Online4Tech\\nWebsite: https://online4tech.github.io/online4Tech/\\nBY ahmad Rome7\\n01006699169\\n========================================\\n'",
+      "installCommand": "set -e\nURL='https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/043b4f2fa18d-enigma2-plugin-extensions-levi45emulator_all.deb'\nPKG='/tmp/levi45-emulator.deb'\nif command -v wget >/dev/null 2>&1; then wget -O \"$PKG\" \"$URL\"; elif command -v curl >/dev/null 2>&1; then curl -fL \"$URL\" -o \"$PKG\"; else echo 'wget أو curl غير متاح'; exit 1; fi\nif [ ! -s \"$PKG\" ]; then echo 'فشل تنزيل ملف التثبيت'; exit 1; fi\nif [ 'deb' = 'ipk' ]; then\n  if command -v opkg >/dev/null 2>&1; then opkg install \"$PKG\"; else echo 'الصورة لا تحتوي على opkg؛ ملف IPK غير مدعوم هنا'; exit 1; fi\nelse\n  if command -v dpkg >/dev/null 2>&1; then dpkg -i \"$PKG\"; else echo 'الصورة لا تحتوي على dpkg؛ ملف DEB غير مدعوم هنا'; exit 1; fi\nfi\nrm -f \"$PKG\"\necho 'انتهى أمر التثبيت؛ راجع سجل الجهاز للتأكد من نجاح الحزمة.'",
       "originalSourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
@@ -3882,9 +3882,12 @@
       "date": "2026-11-01",
       "keywords": "Picons بيكونات القنوات Enigma2 تحميل مباشر Google Drive",
       "icon": "🖼️",
-      "downloadUrl": "https://drive.google.com/uc?export=download&id=1Cmfa7r5P01db2YP3qvD3V8LVjv9j16Hi",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/52c2f8685fec-picon.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/plugins/picons.html",
-      "sourceUrl": "https://online4tech.github.io/online4Tech/plugins/picons.html"
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/52c2f8685fec-picon.zip",
+      "originalDownloadUrl": "https://drive.google.com/uc?export=download&id=1Cmfa7r5P01db2YP3qvD3V8LVjv9j16Hi",
+      "originalSourceUrl": "https://online4tech.github.io/online4Tech/plugins/picons.html",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/52c2f8685fec-picon.zip"
     },
     {
       "id": 4193,
@@ -3966,8 +3969,8 @@
       "keywords": "RaedQuickSignal Other fairbird Tools Enigma2 بلجن",
       "icon": "🧩",
       "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh",
-      "installCommand": "opkg update && opkg install wget && wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh -O - | /bin/sh && printf '\\n========================================\\n        Online4Tech\\n     خليك دايمًا أونلاين\\n========================================\\nThis package is provided by Online4Tech\\nWebsite: https://online4tech.github.io/online4Tech/\\nBY ahmad Rome7\\n01006699169\\n========================================\\n'",
-      "command": "opkg update && opkg install wget && wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh -O - | /bin/sh && printf '\\n========================================\\n        Online4Tech\\n     خليك دايمًا أونلاين\\n========================================\\nThis package is provided by Online4Tech\\nWebsite: https://online4tech.github.io/online4Tech/\\nBY ahmad Rome7\\n01006699169\\n========================================\\n'",
+      "installCommand": "opkg update && opkg install wget && wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh -O - | /bin/sh",
+      "command": "opkg update && opkg install wget && wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh -O - | /bin/sh",
       "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
       "originalSourceUrl": "https://github.com/fairbird/RaedQuickSignal",
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh"

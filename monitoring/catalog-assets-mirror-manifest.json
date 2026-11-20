@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T21:46:08Z",
+  "generatedAt": "2026-11-20T22:00:02Z",
   "files": [
     {
       "sourceUrl": "https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openatv/channel.sh",
@@ -848,6 +848,18 @@
         "crc": "passed"
       },
       "mirroredAt": "2026-11-20T21:34:12Z"
+    },
+    {
+      "sourceUrl": "https://drive.google.com/uc?export=download&id=1Cmfa7r5P01db2YP3qvD3V8LVjv9j16Hi",
+      "sourceAssetName": "picon.zip",
+      "size": 61062642,
+      "digest": "sha256:52c2f8685feccd127eb0f078704c14af4600511baa7cb4a213f4f44fa18b5129",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/52c2f8685fec-picon.zip",
+      "validation": {
+        "format": "zip",
+        "crc": "passed"
+      },
+      "mirroredAt": "2026-11-20T22:00:02Z"
     }
   ]
 }

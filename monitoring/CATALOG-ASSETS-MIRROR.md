@@ -1,8 +1,8 @@
 # تقرير توحيد روابط ملفات الكتالوج على Online4Tech
 
-- الروابط الجديدة المنقولة في هذه الجولة: 0
+- الروابط الجديدة المنقولة في هذه الجولة: 1
 - الروابط التي تعذر نقلها: 7
-- إجمالي الروابط المؤرشفة: 67
+- إجمالي الروابط المؤرشفة: 68
 
 > تم نقل الملفات المباشرة والتحقق من سلامة الأرشيفات وبيانات IPK عند توفرها. لا يتم تشغيل أي سكريبت تلقائيًا. الروابط الأصلية محفوظة في بيانات التوثيق.
 
@@ -63,6 +63,7 @@
 | NumberZapExt.tar.gz | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/861b5793f027-NumberZapExt.tar.gz) | tar |
 | openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip) | zip |
 | oscam_01_all.tar.gz | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b1139ee139c0-oscam_01_all.tar.gz) | tar |
+| picon.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/52c2f8685fec-picon.zip) | zip |
 | pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip) | zip |
 | QuadPip.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/50c3392671b1-QuadPip.sh) | text |
 | QuadPip.tar.gz | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/471a6c781fb3-QuadPip.tar.gz) | tar |
