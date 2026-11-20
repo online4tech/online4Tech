@@ -19,8 +19,10 @@ def upload(path,name,digest,size,assets):
     found=next((x for x in assets if x.get('name')==asset),None)
     if not found or found.get('size')!=size or found.get('digest')!='sha256:'+digest:
         last=''
+        target=path.with_name(asset)
+        if target!=path: target.write_bytes(path.read_bytes())
         for attempt in range(5):
-            q=subprocess.run(['gh','release','upload',TAG,str(path.with_name(asset)),'--repo',REPO,'--clobber'],capture_output=True,text=True)
+            q=subprocess.run(['gh','release','upload',TAG,str(target),'--repo',REPO,'--clobber'],capture_output=True,text=True)
             if q.returncode==0: time.sleep(2); break
             last=(q.stderr or q.stdout or '').strip()
             if 'rate limit' in last.lower() or 'http 403' in last.lower(): time.sleep(60*(attempt+1)); continue
