@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import hashlib, importlib.util, io, json, re, subprocess, tarfile, tempfile, time, urllib.request, zipfile
+import hashlib, importlib.util, io, json, os, re, subprocess, tarfile, tempfile, time, urllib.request, zipfile
 from datetime import datetime
 from pathlib import Path, PurePosixPath
 from urllib.parse import quote, unquote, urlparse
@@ -180,11 +180,15 @@ def main():
     catalog=json.loads(CATALOG.read_text(encoding='utf-8')); old=json.loads(MANIFEST.read_text(encoding='utf-8')) if MANIFEST.exists() else {'files':[]}
     mapping={x['sourceUrl']:x['downloadUrl'] for x in old.get('files',[]) if x.get('sourceUrl') and x.get('downloadUrl')}
     urls=collect_urls(catalog); todo=[u for u in urls if u not in mapping]
+    retry_mediafire=os.environ.get('O4T_RETRY_MEDIAFIRE','0')=='1'
     ensure_release(); q=subprocess.run(['gh','api',f'repos/{REPO}/releases/tags/{TAG}'],capture_output=True,text=True,check=True); assets=json.loads(q.stdout).get('assets',[])
     added=[]; rejected=[]
     with tempfile.TemporaryDirectory(prefix='o4t-catalog-assets-') as td:
         root=Path(td)
         for i,url in enumerate(todo):
+            if (urlparse(url).hostname or '').lower()=='www.mediafire.com' and not retry_mediafire:
+                rejected.append({'sourceUrl':url,'reason':'مؤجل مؤقتًا بسبب حدود رفع GitHub Release API؛ سيعاد تلقائيًا في تشغيل مجدول أو عند اختيار retry_mediafire'})
+                continue
             name=file_name(url); p=root/f'asset-{i}'
             try:
                 size=download(url,p,0); validation=validate(p,name); sha=hashlib.sha256(p.read_bytes()).hexdigest()
