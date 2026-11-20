@@ -102,8 +102,8 @@ def main():
     catalog=replace_urls(catalog,{k:v['downloadUrl'] for k,v in mapped.items()})
     CATALOG.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     MANIFEST.write_text(json.dumps({'generatedAt':datetime.utcnow().isoformat(timespec='seconds')+'Z','policy':'manual review only; never execute automatically','files':list(mapped.values())},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    lines=['# تقرير نقل سكريبتات وأوامر Telnet إلى Online4Tech','',f'- الملفات الجديدة المنقولة: {len(added)}',f'- الملفات المرفوضة: {len(rejected)}',f'- إجمالي الملفات في الفهرس: {len(mapped)}','','> تم نقل الملفات النصية فقط. لم يتم تشغيل أي سكريبت. كل عنصر يظل للمراجعة اليدوية قبل إتاحته كأمر تثبيت أو تحديث.','','| المستودع | الملف | رابط Online4Tech | حالة المراجعة |','|---|---|---|---|']
-    for x in added: lines.append(f"| {x['repository']} | {x['sourceAssetName']} | [فتح الملف]({x['downloadUrl']}) | مراجعة يدوية مطلوبة |")
+    lines=['# تقرير نقل سكريبتات وأوامر Telnet إلى Online4Tech','',f'- الملفات الجديدة المنقولة في هذه الجولة: {len(added)}',f'- الملفات المرفوضة: {len(rejected)}',f'- إجمالي الملفات في الفهرس: {len(mapped)}','','> تم نقل الملفات النصية فقط. لم يتم تشغيل أي سكريبت. كل عنصر يظل للمراجعة اليدوية قبل إتاحته كأمر تثبيت أو تحديث.','','| المستودع | الملف | رابط Online4Tech | حالة المراجعة |','|---|---|---|---|']
+    for x in sorted(mapped.values(),key=lambda v:(v.get('repository','').lower(),v.get('sourceAssetName','').lower())): lines.append(f"| {x['repository']} | {x['sourceAssetName']} | [فتح الملف]({x['downloadUrl']}) | مراجعة يدوية مطلوبة |")
     if rejected:
         lines+=['','## ملفات لم يتم نقلها']
         for x in rejected: lines.append(f"- {x['repository']} / {x['asset']}: {x['reason']}")
