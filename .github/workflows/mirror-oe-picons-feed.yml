@@ -4,8 +4,15 @@ on:
   push:
     paths:
       - ".github/workflows/mirror-oe-picons-feed.yml"
-      - ".github/scripts/mirror_oe_picons_feed.py"
+  schedule:
+    - cron: "15 23 * * *"
   workflow_dispatch:
+    inputs:
+      run_now:
+        description: "تشغيل مزامنة Picons الآن بعد توفر GitHub API"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -16,11 +23,21 @@ concurrency:
 
 jobs:
   mirror-picons:
+    if: github.event_name == 'schedule' || inputs.run_now == true
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:
       - name: Checkout Online4Tech
         uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/scripts/mirror_oe_picons_feed.py
+            .github/scripts/mirror_khaledali65_ipks.py
+            .github/scripts/merge_catalog_changes.py
+            assets/allblugin/demo-data.json
+            monitoring
+          sparse-checkout-cone-mode: false
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
