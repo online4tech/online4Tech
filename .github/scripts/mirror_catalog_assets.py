@@ -98,9 +98,21 @@ def validate(path,name):
         return {'format':'deb/ar'}
     return {'format':Path(name).suffix.lower() or 'binary'}
 
+def gh_retry(args,allow_not_found=False):
+    last=''
+    for attempt in range(8):
+        q=subprocess.run(args,capture_output=True,text=True)
+        if q.returncode==0: return q
+        last=(q.stderr or q.stdout or '').strip(); low=last.lower()
+        if allow_not_found and ('not found' in low or 'http 404' in low): return q
+        if 'rate limit' in low or 'secondary rate limit' in low or 'http 403' in low:
+            wait=min(60*(attempt+1),300); print(f'GitHub API rate limit; retry {attempt+1}/8 after {wait}s'); time.sleep(wait); continue
+        raise RuntimeError(last or 'GitHub command failed')
+    raise RuntimeError('GitHub rate limit persisted: '+last[:400])
+
 def ensure_release():
-    q=subprocess.run(['gh','release','view',TAG,'--repo',REPO],capture_output=True,text=True)
-    if q.returncode: subprocess.run(['gh','release','create',TAG,'--repo',REPO,'--title','Online4Tech Catalog Assets','--notes','Mirrored downloadable assets referenced by the Online4Tech catalog. Original provenance is retained in metadata.','--latest=false'],check=True)
+    q=gh_retry(['gh','release','view',TAG,'--repo',REPO],allow_not_found=True)
+    if q.returncode: gh_retry(['gh','release','create',TAG,'--repo',REPO,'--title','Online4Tech Catalog Assets','--notes','Mirrored downloadable assets referenced by the Online4Tech catalog. Original provenance is retained in metadata.','--latest=false'])
 
 def upload(path,name,digest,size,assets):
     safe=re.sub(r'[^A-Za-z0-9._-]','_',name); asset=digest[:12]+'-'+safe
@@ -110,18 +122,17 @@ def upload(path,name,digest,size,assets):
         if target!=path: target.write_bytes(path.read_bytes())
         last_error=''
         for attempt in range(5):
-            result=subprocess.run(['gh','release','upload',TAG,str(target),'--repo',REPO,'--clobber'],capture_output=True,text=True)
-            if result.returncode==0:
+            try:
+                gh_retry(['gh','release','upload',TAG,str(target),'--repo',REPO,'--clobber'])
                 time.sleep(2)
                 break
-            last_error=(result.stderr or result.stdout or '').strip()
-            if 'rate limit' in last_error.lower() or 'http 403' in last_error.lower():
+            except Exception as e:
+                last_error=str(e)
+                if attempt==4: raise
                 time.sleep(60*(attempt+1))
-                continue
-            raise RuntimeError(last_error or 'فشل رفع الملف إلى Release')
         else:
             raise RuntimeError('تعذر الرفع بعد إعادة المحاولة بسبب حدود GitHub: '+last_error[:400])
-        q=subprocess.run(['gh','api',f'repos/{REPO}/releases/tags/{TAG}'],capture_output=True,text=True,check=True)
+        q=gh_retry(['gh','api',f'repos/{REPO}/releases/tags/{TAG}'])
         assets=json.loads(q.stdout).get('assets',[])
         found=next((x for x in assets if x.get('name')==asset),None)
     if not found or found.get('size')!=size or found.get('digest')!='sha256:'+digest: raise ValueError('فشل التحقق من الملف المرفوع')
