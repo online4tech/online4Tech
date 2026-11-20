@@ -122,7 +122,9 @@ def collect_urls(catalog):
                 host=(urlparse(url).hostname or '').lower(); path=urlparse(url).path.lower()
                 if host=='www.mediafire.com' or host in ('raw.githubusercontent.com','github.com'):
                     if host=='github.com' and not ('/raw/' in path or '/releases/download/' in path): continue
-                    if not path.endswith(EXTS): continue
+                    parts=[x for x in path.split('/') if x]
+                    candidate=(parts[-2] if host=='www.mediafire.com' and parts and parts[-1]=='file' and len(parts)>1 else parts[-1] if parts else '')
+                    if not candidate.lower().endswith(EXTS): continue
                     if '/online4tech/online4tech/releases/' in path: continue
                     out.add(url)
     return sorted(out)
@@ -151,6 +153,11 @@ def rewrite(item,mapping):
         if original_repo and not str(original_repo).startswith('https://github.com/online4tech/online4Tech/'):
             item['originalRepoUrl']=item.get('originalRepoUrl') or original_repo
             item['repoUrl']=f'https://github.com/{REPO}/releases/tag/{TAG}'
+        for key in ('repository','github'):
+            value=item.get(key)
+            if isinstance(value,str) and value.startswith('http') and 'github.com/online4tech/online4Tech/' not in value:
+                item['original'+key[:1].upper()+key[1:]]=item.get('original'+key[:1].upper()+key[1:]) or value
+                item[key]=f'https://github.com/{REPO}/releases/tag/{TAG}'
     return item
 
 def main():
