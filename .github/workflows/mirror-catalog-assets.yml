@@ -5,6 +5,9 @@ on:
     paths:
       - ".github/workflows/mirror-catalog-assets.yml"
       - ".github/scripts/mirror_catalog_assets.py"
+  workflow_run:
+    workflows: ["Mirror KhaledAli65 Telnet scripts for review"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -16,6 +19,7 @@ concurrency:
 
 jobs:
   mirror-catalog:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:
