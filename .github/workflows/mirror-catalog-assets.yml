@@ -7,19 +7,29 @@ on:
   workflow_run:
     workflows: ["Mirror KhaledAli65 Telnet scripts for review", "Mirror verified KhaledAli65 IPK packages"]
     types: [completed]
+  schedule:
+    - cron: "13 */6 * * *"
   workflow_dispatch:
+    inputs:
+      retry_mediafire:
+        description: "إعادة محاولة نقل ملفات MediaFire المؤجلة"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
 
 concurrency:
   group: online4tech-catalog-assets
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   mirror-catalog:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
+    env:
+      O4T_RETRY_MEDIAFIRE: ${{ (github.event_name == 'schedule' || inputs.retry_mediafire) && '1' || '0' }}
     timeout-minutes: 180
     steps:
       - name: Checkout Online4Tech
