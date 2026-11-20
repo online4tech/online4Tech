@@ -12,7 +12,55 @@ spec=importlib.util.spec_from_file_location('o4t_ipk_module','.github/scripts/mi
 ipkmod=importlib.util.module_from_spec(spec); spec.loader.exec_module(ipkmod)
 
 def gh_api(endpoint):
-    return json.loads(subprocess.run(['gh','api',endpoint],capture_output=True,text=True,check=True).stdout)
+    last=''
+    for attempt in range(8):
+        q=subprocess.run(['gh','api',endpoint],capture_output=True,text=True)
+        if q.returncode==0:
+            return json.loads(q.stdout)
+        last=(q.stderr or q.stdout or '').strip()
+        low=last.lower()
+        if 'rate limit' in low or 'secondary rate limit' in low or 'http 403' in low:
+            wait=min(60*(attempt+1),300)
+            print(f'GitHub API rate limit; retry {attempt+1}/8 after {wait}s')
+            time.sleep(wait)
+            continue
+        raise RuntimeError(last or f'GitHub API request failed: {endpoint}')
+    raise RuntimeError('GitHub API rate limit persisted after retries: '+last[:500])
+
+def ensure_release():
+    last=''
+    for attempt in range(8):
+        q=subprocess.run(['gh','release','view',TAG,'--repo',REPO],capture_output=True,text=True)
+        if q.returncode==0:
+            return
+        last=(q.stderr or q.stdout or '').strip()
+        low=last.lower()
+        if 'rate limit' in low or 'secondary rate limit' in low or 'http 403' in low:
+            wait=min(60*(attempt+1),300)
+            print(f'GitHub release lookup rate limited; retry {attempt+1}/8 after {wait}s')
+            time.sleep(wait)
+            continue
+        if 'not found' not in low and 'http 404' not in low and 'release not found' not in low:
+            raise RuntimeError(last or 'Unable to inspect IPAudioPro release')
+        break
+    else:
+        raise RuntimeError('GitHub release lookup rate limit persisted: '+last[:500])
+
+    for attempt in range(6):
+        q=subprocess.run(['gh','release','create',TAG,'--repo',REPO,'--title','Online4Tech IPAudioPro Packages','--notes','IPAudioPro v1.7 package variants mirrored from the upstream repository. Installer selects by Python and architecture and asks before installing.','--latest=false'],capture_output=True,text=True)
+        if q.returncode==0:
+            return
+        last=(q.stderr or q.stdout or '').strip()
+        low=last.lower()
+        if 'already exists' in low or 'already_exists' in low:
+            return
+        if 'rate limit' in low or 'secondary rate limit' in low or 'http 403' in low:
+            wait=min(60*(attempt+1),300)
+            print(f'GitHub release creation rate limited; retry {attempt+1}/6 after {wait}s')
+            time.sleep(wait)
+            continue
+        raise RuntimeError(last or 'Unable to create IPAudioPro release')
+    raise RuntimeError('GitHub release creation rate limit persisted: '+last[:500])
 
 def upload(path,name,digest,size,assets):
     asset=digest[:12]+'-'+re.sub(r'[^A-Za-z0-9._-]','_',name)
@@ -92,8 +140,7 @@ def main():
     tree=gh_api(f'repos/{SOURCE}/git/trees/{BRANCH}?recursive=1').get('tree',[])
     files=[x for x in tree if x.get('type')=='blob' and x.get('path','').startswith('v1.7/') and x.get('path','').lower().endswith('.ipk')]
     if not files: raise RuntimeError('لم يتم العثور على حزم IPAudioPro v1.7')
-    ensure=subprocess.run(['gh','release','view',TAG,'--repo',REPO],capture_output=True,text=True)
-    if ensure.returncode: subprocess.run(['gh','release','create',TAG,'--repo',REPO,'--title','Online4Tech IPAudioPro Packages','--notes','IPAudioPro v1.7 package variants mirrored from the upstream repository. Installer selects by Python and architecture and asks before installing.','--latest=false'],check=True)
+    ensure_release()
     assets=gh_api(f'repos/{REPO}/releases/tags/{TAG}').get('assets',[]); rows=[]
     with tempfile.TemporaryDirectory(prefix='o4t-ipaudiopro-') as td:
         root=Path(td)
