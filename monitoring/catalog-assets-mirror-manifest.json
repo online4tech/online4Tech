@@ -1,0 +1,853 @@
+{
+  "generatedAt": "2026-11-20T21:35:03Z",
+  "files": [
+    {
+      "sourceUrl": "https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openatv/channel.sh",
+      "sourceAssetName": "channel.sh",
+      "size": 3292,
+      "digest": "sha256:d0e73d26871dbff0b2927baf781ada1680e74bcba0f59e65abc652ff985815b7",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/d0e73d26871d-channel.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:03Z"
+    },
+    {
+      "sourceUrl": "https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2IplayerUpdater/E2IplayerUpdater.sh",
+      "sourceAssetName": "E2IplayerUpdater.sh",
+      "size": 928,
+      "digest": "sha256:880499943e1d76266a33df798cc3a2f2f513ad416a42df627dd790fe331b218d",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/880499943e1d-E2IplayerUpdater.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:05Z"
+    },
+    {
+      "sourceUrl": "https://github.com/online4tech/Enigma2-Chanal-List-BYRomeh/raw/refs/heads/main/channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
+      "sourceAssetName": "channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
+      "size": 680644,
+      "digest": "sha256:c2b23973eae0df47f3af6166261de63b379b9ec1f7879a2056132618efdc66e2",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c2b23973eae0-channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 45
+      },
+      "mirroredAt": "2026-11-20T21:32:06Z"
+    },
+    {
+      "sourceUrl": "https://github.com/popking159/SubsSupportPro/raw/refs/heads/main/myinstaller.sh",
+      "sourceAssetName": "myinstaller.sh",
+      "size": 5792,
+      "digest": "sha256:21057ada2f27a1b439e9e72f5059ac7012f1470e3037ba542e5a3e336744f5e4",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/21057ada2f27-myinstaller.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:07Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/Ahmadarjan1/IPAudioPlus-Releases/main/installer.sh",
+      "sourceAssetName": "installer.sh",
+      "size": 5119,
+      "digest": "sha256:5e9d35528f7363f74ecfbb80a08b33a177b954208d91cd8e30efea234260900c",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5e9d35528f73-installer.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:09Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/Arian7s/SubExtractorLite/main/installer.sh",
+      "sourceAssetName": "installer.sh",
+      "size": 4585,
+      "digest": "sha256:99cce768604cae4a127f7bcbc01a2e33cf453e36d32d6f03e10f20a1e7202b65",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/99cce768604c-installer.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:10Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/HBK2010/AutoSub/main/AutoSub.tar.gz",
+      "sourceAssetName": "AutoSub.tar.gz",
+      "size": 66500,
+      "digest": "sha256:2b0bb7087ec6b9bdc6cb02d4c077df11fe07912362bf603a46873204c469aff9",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/2b0bb7087ec6-AutoSub.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 10
+      },
+      "mirroredAt": "2026-11-20T21:32:11Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh",
+      "sourceAssetName": "install.sh",
+      "size": 33391,
+      "digest": "sha256:29ae620764ab6528fe7b250e2a9e4922f4b9f19488a78e32b5ca77c2471810f1",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/29ae620764ab-install.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:12Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/Saiedf/EPGImport/main/installer_epgimportiet5_auto.sh",
+      "sourceAssetName": "installer_epgimportiet5_auto.sh",
+      "size": 27961,
+      "digest": "sha256:23fa001a388a5c3c638e666fb4aacf33ff9542ee0c92b5d467f712d73c906b48",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/23fa001a388a-installer_epgimportiet5_auto.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:13Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/biko-73/BouquetMakerXtream/main/installer.sh",
+      "sourceAssetName": "installer.sh",
+      "size": 3138,
+      "digest": "sha256:1c2932ca36928c1bd69be8655fbe855ffff1274153f8f8cdd209808cc12b4b18",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1c2932ca3692-installer.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:14Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/biko-73/JediMakerXtream/main/installer.sh",
+      "sourceAssetName": "installer.sh",
+      "size": 3144,
+      "digest": "sha256:175bf4a1f35bd9ca39e8a97ddeba09727e1b28e089bd38e27a434b07f364e9d5",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/175bf4a1f35b-installer.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:15Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/biko-73/TMBD/main/installer.sh",
+      "sourceAssetName": "installer.sh",
+      "size": 3103,
+      "digest": "sha256:5116aa49107265ea2e58f30fcd53853b226a4654c6eed6a84ec0f8d618c3b1bf",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5116aa491072-installer.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:16Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/biko-73/xstreamity/main/installer.sh",
+      "sourceAssetName": "installer.sh",
+      "size": 3139,
+      "digest": "sha256:4f9f5175129697d3d559c75a5722d3deaa2128d6d327780f702c1c34327e334e",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4f9f51751296-installer.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:17Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/dali44g/Obsidian-FHD/main/install.sh",
+      "sourceAssetName": "install.sh",
+      "size": 7503,
+      "digest": "sha256:b6aba588babd942350d17358b03d2817bbae311744faa1ebef904cdd2dba5735",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b6aba588babd-install.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:18Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/aglare/main/skins-aglare-fhd-pli.sh",
+      "sourceAssetName": "skins-aglare-fhd-pli.sh",
+      "size": 3328,
+      "digest": "sha256:3daaa68cd442c80b30e0c54d223f48470a71f3185d06ddfc2ee3f1ca2e5251bd",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/3daaa68cd442-skins-aglare-fhd-pli.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:19Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/AlMuaddhin/AlMuaddhin.tar.gz",
+      "sourceAssetName": "AlMuaddhin.tar.gz",
+      "size": 2481795,
+      "digest": "sha256:8153dbc2436f3ed4e5ad311b9f77f0a306936dbde4f8b984122c885af63111e3",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/8153dbc2436f-AlMuaddhin.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 5
+      },
+      "mirroredAt": "2026-11-20T21:32:20Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/AlMuaddhin/almoaddhin.sh",
+      "sourceAssetName": "almoaddhin.sh",
+      "size": 884,
+      "digest": "sha256:566bdaf92a7126643a6e910ba4a6e13fb3f6eeb0cc941b245e7ffd08c1b17f96",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/566bdaf92a71-almoaddhin.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:21Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/ImagesDownloader/ImagesDownloader.sh",
+      "sourceAssetName": "ImagesDownloader.sh",
+      "size": 1212,
+      "digest": "sha256:3c3cbd6ac49849785c555f4755f1ebc1a836a59613945592d3ed0159dac9e7bb",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/3c3cbd6ac498-ImagesDownloader.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:22Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/ImagesDownloader/ImagesDownloader.tar.gz",
+      "sourceAssetName": "ImagesDownloader.tar.gz",
+      "size": 73259,
+      "digest": "sha256:798375270d639d11635253a294c11ebefde4cfc839938be805d2f2752748bbfd",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/798375270d63-ImagesDownloader.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 22
+      },
+      "mirroredAt": "2026-11-20T21:32:23Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/InfoBarWeather/InfobarWeather.sh",
+      "sourceAssetName": "InfobarWeather.sh",
+      "size": 1166,
+      "digest": "sha256:cc4cf93759fad4429e3724919e71bb3f36fb6df5c58a0e3f776bd799e6ab06bc",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/cc4cf93759fa-InfobarWeather.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:25Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/InfoBarWeather/InfobarWeather.tar.gz",
+      "sourceAssetName": "InfobarWeather.tar.gz",
+      "size": 26135,
+      "digest": "sha256:fe816b31f1625260a87f7c49ab3991a40529ab0c394b40a03f6cda0fcef15b7c",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/fe816b31f162-InfobarWeather.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 62
+      },
+      "mirroredAt": "2026-11-20T21:32:26Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/Mawaqit/Mawaqit.sh",
+      "sourceAssetName": "Mawaqit.sh",
+      "size": 845,
+      "digest": "sha256:80f4f68e9c704e8be0f042c73450e6751d8c1355e851956cbb86e90854325817",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/80f4f68e9c70-Mawaqit.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:27Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/Mawaqit/mawaqit.tar.gz",
+      "sourceAssetName": "mawaqit.tar.gz",
+      "size": 1347704,
+      "digest": "sha256:b143375fdef82be37aa63c19ec387444600e13f0cc8cd240f227a91143fac9fb",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b143375fdef8-mawaqit.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 157
+      },
+      "mirroredAt": "2026-11-20T21:32:28Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/NumberZapExt/NumberZapExt.sh",
+      "sourceAssetName": "NumberZapExt.sh",
+      "size": 944,
+      "digest": "sha256:dc4c323e2bcf3e84762883ae4da9b175ebd924b3c6360f1b6754bfd3f7c71e86",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/dc4c323e2bcf-NumberZapExt.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:29Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/NumberZapExt/NumberZapExt.tar.gz",
+      "sourceAssetName": "NumberZapExt.tar.gz",
+      "size": 11894,
+      "digest": "sha256:861b5793f0274b0fdcf7cad8fc93dcf7b85590ce85cdab3de3a6134cef265d91",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/861b5793f027-NumberZapExt.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 5
+      },
+      "mirroredAt": "2026-11-20T21:32:30Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/QuadPip/QuadPip.sh",
+      "sourceAssetName": "QuadPip.sh",
+      "size": 1159,
+      "digest": "sha256:50c3392671b12f38cc12055b35fc4a7412add08a9bdf74e635238acc453c9484",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/50c3392671b1-QuadPip.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:31Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/QuadPip/QuadPip.tar.gz",
+      "sourceAssetName": "QuadPip.tar.gz",
+      "size": 16177,
+      "digest": "sha256:471a6c781fb3bc32b4bda0ef987552c60e66a80e7980b343eb17cf2194e30987",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/471a6c781fb3-QuadPip.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 15
+      },
+      "mirroredAt": "2026-11-20T21:32:32Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.12.tar.gz",
+      "sourceAssetName": "Skin-MX_Maestra_Black-weather_py3.12.tar.gz",
+      "size": 5574072,
+      "digest": "sha256:d578ba57c305f975dac5c8fa47085ade05f5c4ff0c350024cb686d2ab49bd268",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/d578ba57c305-Skin-MX_Maestra_Black-weather_py3.12.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 908
+      },
+      "mirroredAt": "2026-11-20T21:32:33Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black-weather_py3.13.tar.gz",
+      "sourceAssetName": "Skin-MX_Maestra_Black-weather_py3.13.tar.gz",
+      "size": 5582059,
+      "digest": "sha256:78e448d41aeb7e5841ab46d367600777381f4c3c62a38945099bee5b4ac9d707",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/78e448d41aeb-Skin-MX_Maestra_Black-weather_py3.13.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 908
+      },
+      "mirroredAt": "2026-11-20T21:32:35Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/Skin-MX_Maestra_Black_weather/Skin-MX_Maestra_Black_weather.sh",
+      "sourceAssetName": "Skin-MX_Maestra_Black_weather.sh",
+      "size": 1942,
+      "digest": "sha256:9a4156c7e97f900c183a6e713f2bdddcf11ee3fe7155d7898d175190802fa2ff",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a4156c7e97f-Skin-MX_Maestra_Black_weather.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:36Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/advancedscreenshot/advancedscreenshot.sh",
+      "sourceAssetName": "advancedscreenshot.sh",
+      "size": 746,
+      "digest": "sha256:49aab7f6b38bb520e4b77ca97e3b0629ae99980e8aee1cdc3a47523f85d13171",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/49aab7f6b38b-advancedscreenshot.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:37Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/advancedscreenshot/enigma2-plugin-extensions-advancedscreenshot_all.ipk",
+      "sourceAssetName": "enigma2-plugin-extensions-advancedscreenshot_all.ipk",
+      "size": 42294,
+      "digest": "sha256:bfd32c2d37d8baab469350722d295e8b5b9e8971f2da80ed5073ff79459b3f4e",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bfd32c2d37d8-enigma2-plugin-extensions-advancedscreenshot_all.ipk",
+      "validation": {
+        "format": "ipk",
+        "package": "enigma2-plugin-extensions-advancedscreenshot",
+        "version": "1.2",
+        "architecture": "all"
+      },
+      "mirroredAt": "2026-11-20T21:32:38Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/ciefp-channels-e2/ciefp-E2-1sat-19E.sh",
+      "sourceAssetName": "ciefp-E2-1sat-19E.sh",
+      "size": 2224,
+      "digest": "sha256:5c4df64d5ca666509d14a68a69e88d54b25ce8f47d9e2ddb6c6b4a74f01476da",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5c4df64d5ca6-ciefp-E2-1sat-19E.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:39Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/ciefp-channels-e2/ciefp-E2-2satA-19E-13E.sh",
+      "sourceAssetName": "ciefp-E2-2satA-19E-13E.sh",
+      "size": 2229,
+      "digest": "sha256:202af2efe8308e332f59d34838bebcafbf8d19a32282c6f4604a8b40560ed26f",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/202af2efe830-ciefp-E2-2satA-19E-13E.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:41Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/ciefp-channels-e2/ciefp-E2-6sat-23E-19E-16E-13E-1.9E-0.8W.sh",
+      "sourceAssetName": "ciefp-E2-6sat-23E-19E-16E-13E-1.9E-0.8W.sh",
+      "size": 2246,
+      "digest": "sha256:1bce3ef58e4c0b92136d6fd89dad18409b12dfd38e97d81efa189ef14f59fda1",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1bce3ef58e4c-ciefp-E2-6sat-23E-19E-16E-13E-1.9E-0.8W.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:42Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/morpheus883-channels/E2_Morph883_13E-19.2E.sh",
+      "sourceAssetName": "E2_Morph883_13E-19.2E.sh",
+      "size": 2489,
+      "digest": "sha256:f256b867e761b70894785406c771756da28e4d96ac9f2d5625132377f2c12b73",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/f256b867e761-E2_Morph883_13E-19.2E.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:43Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/morpheus883-channels/E2_Morph883_Motor.sh",
+      "sourceAssetName": "E2_Morph883_Motor.sh",
+      "size": 2483,
+      "digest": "sha256:e2c3cf20b45b28749395ad300f3c2c7fd6f58e7bd092dcbf98bd2ca99c826d47",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e2c3cf20b45b-E2_Morph883_Motor.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:43Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/morpheus883-channels/E2_Morph883_Settings.sh",
+      "sourceAssetName": "E2_Morph883_Settings.sh",
+      "size": 2488,
+      "digest": "sha256:6bafe9c4763bc67bf7b1cee6f524c725060bcc313f01d93dc41df37e5f3835ee",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6bafe9c4763b-E2_Morph883_Settings.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:44Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/skin-cineview/CineView.sh",
+      "sourceAssetName": "CineView.sh",
+      "size": 4400,
+      "digest": "sha256:d9faf4daf248817be513515fb0545215900dc8b122aeeaf538ef213d1a80c9f6",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/d9faf4daf248-CineView.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:45Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/skins-for-dreambox/Brushedalu-HD.sh",
+      "sourceAssetName": "Brushedalu-HD.sh",
+      "size": 786,
+      "digest": "sha256:0adcaf72ebc4c732e265bd255c782883533c7f0c38bd0d8747896e5997cf8d9c",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/0adcaf72ebc4-Brushedalu-HD.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:46Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/skins-for-dreambox/Brushedalu-HD.tar.gz",
+      "sourceAssetName": "Brushedalu-HD.tar.gz",
+      "size": 1977056,
+      "digest": "sha256:6a6ae2615144a2085c07e13aee0089462e1725ca604ffc8204add880d5b11222",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6a6ae2615144-Brushedalu-HD.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 104
+      },
+      "mirroredAt": "2026-11-20T21:32:48Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/skins-for-dreambox/HoloFHD-Black.sh",
+      "sourceAssetName": "HoloFHD-Black.sh",
+      "size": 1944,
+      "digest": "sha256:103ee7519ec55111dcc5fb751dcaa5d35f1a47988b1c71454635289bf81f0a25",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/103ee7519ec5-HoloFHD-Black.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:49Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/skins-for-dreambox/HoloFHD-Black.tar.gz",
+      "sourceAssetName": "HoloFHD-Black.tar.gz",
+      "size": 625398,
+      "digest": "sha256:c9aeee4e32b3ca41457c876dc9b4c9fb1fbab5f75ac30e98bd64f318434233c5",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c9aeee4e32b3-HoloFHD-Black.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 327
+      },
+      "mirroredAt": "2026-11-20T21:32:50Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/skins-for-dreambox/ZSkin-FHD.sh",
+      "sourceAssetName": "ZSkin-FHD.sh",
+      "size": 776,
+      "digest": "sha256:f22f81ac4e8ed4b099ca0e44b160965f60d7dc97259ab35de9f58c5651e9d3a3",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/f22f81ac4e8e-ZSkin-FHD.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:51Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/skins-for-dreambox/ZSkin-FHD.tar.gz",
+      "sourceAssetName": "ZSkin-FHD.tar.gz",
+      "size": 15691679,
+      "digest": "sha256:c965943b1a1b502f76509d15497dce3654ec9ccb28b8d49369ee735b530b55d6",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c965943b1a1b-ZSkin-FHD.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 748
+      },
+      "mirroredAt": "2026-11-20T21:32:53Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/vanenbal-channels/Vhannibal-Dual-13-19E.sh",
+      "sourceAssetName": "Vhannibal-Dual-13-19E.sh",
+      "size": 1740,
+      "digest": "sha256:248597faea8c13830ed3f367feb031ece616edc65b41fa82a1d0ba817271edd9",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/248597faea8c-Vhannibal-Dual-13-19E.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:54Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/vanenbal-channels/Vhannibal-HotBird-13E.sh",
+      "sourceAssetName": "Vhannibal-HotBird-13E.sh",
+      "size": 1741,
+      "digest": "sha256:22d8e638805cba57e6536e2399b831175c8859c2f3cc232a37d49fa03440a5b0",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/22d8e638805c-Vhannibal-HotBird-13E.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:55Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/main/vanenbal-channels/Vhannibal-Motor-70E-45W.sh",
+      "sourceAssetName": "Vhannibal-Motor-70E-45W.sh",
+      "size": 1728,
+      "digest": "sha256:9a81fadc05da85b93e2388baee93643a4219af48c1955a7ee17740f02ce734a7",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a81fadc05da-Vhannibal-Motor-70E-45W.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:32:56Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/AlternativeSoftcamManager/AlternativeSoftcamManager.tar.gz",
+      "sourceAssetName": "AlternativeSoftcamManager.tar.gz",
+      "size": 23799,
+      "digest": "sha256:6e7c6d9245e7bff84e47d8c8dc60df1e131914093f5e5faf7d73c96ee4335a6e",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6e7c6d9245e7-AlternativeSoftcamManager.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 48
+      },
+      "mirroredAt": "2026-11-20T21:32:57Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccam_all.tar.gz",
+      "sourceAssetName": "cccam_all.tar.gz",
+      "size": 2809782,
+      "digest": "sha256:e5d79efd688293b34a50d96f6ed056149983233b76cfb4df9baf8cc2362beb50",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e5d79efd6882-cccam_all.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 200
+      },
+      "mirroredAt": "2026-11-20T21:32:58Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/emu-installer/emuinstaller.tar.gz",
+      "sourceAssetName": "emuinstaller.tar.gz",
+      "size": 9300,
+      "digest": "sha256:64b9e16b10acee756ed6c847f1da339173d73377ae3cd187c481833d41eefcd7",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/64b9e16b10ac-emuinstaller.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 11
+      },
+      "mirroredAt": "2026-11-20T21:32:59Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator/enigma2-plugin-extensions-levi45emulator_all.deb",
+      "sourceAssetName": "enigma2-plugin-extensions-levi45emulator_all.deb",
+      "size": 33320,
+      "digest": "sha256:043b4f2fa18d10987117bc0f02751a38d9773630171006e64f202cd2b67cb0fd",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/043b4f2fa18d-enigma2-plugin-extensions-levi45emulator_all.deb",
+      "validation": {
+        "format": "deb/ar"
+      },
+      "mirroredAt": "2026-11-20T21:33:00Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator/enigma2-plugin-extensions-levi45emulator_all.ipk",
+      "sourceAssetName": "enigma2-plugin-extensions-levi45emulator_all.ipk",
+      "size": 34560,
+      "digest": "sha256:4b908f3ec63eeed2e08397d5099300964737bc60f7d160da9a006485b2ac0475",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4b908f3ec63e-enigma2-plugin-extensions-levi45emulator_all.ipk",
+      "validation": {
+        "format": "ipk",
+        "package": "enigma2-plugin-extensions-levi45emulator",
+        "version": "1.4",
+        "architecture": "all"
+      },
+      "mirroredAt": "2026-11-20T21:33:01Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/mgcamd_all.tar.gz",
+      "sourceAssetName": "mgcamd_all.tar.gz",
+      "size": 1864113,
+      "digest": "sha256:2e0e58c641ae5488c5e2c72ac807aa669472b7fa3dc03e8446793fe09d06dfbf",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/2e0e58c641ae-mgcamd_all.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 206
+      },
+      "mirroredAt": "2026-11-20T21:33:02Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ncam_all.tar.gz",
+      "sourceAssetName": "ncam_all.tar.gz",
+      "size": 3897568,
+      "digest": "sha256:ae91e7d284d79061930fb176b445348d0c9b93cbe6d30e13f80fef1e7906095d",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/ae91e7d284d7-ncam_all.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 227
+      },
+      "mirroredAt": "2026-11-20T21:33:03Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/oscam_01_all.tar.gz",
+      "sourceAssetName": "oscam_01_all.tar.gz",
+      "size": 6639483,
+      "digest": "sha256:b1139ee139c04c6ac58acd33f9598158e9c4fd17e191712782080015774f4a99",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b1139ee139c0-oscam_01_all.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 209
+      },
+      "mirroredAt": "2026-11-20T21:33:05Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh",
+      "sourceAssetName": "installer.sh",
+      "size": 1847,
+      "digest": "sha256:1daaa80ed2a4625bc24719be9b173b758cff4374ff24f5ee5f94effd66528cae",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1daaa80ed2a4-installer.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:33:06Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh",
+      "sourceAssetName": "installer.sh",
+      "size": 1709,
+      "digest": "sha256:cc98ff7325a364bba363c1883eab070500c2857c665411ea7a3c2e9ad8ef5fbd",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/cc98ff7325a3-installer.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:33:07Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh",
+      "sourceAssetName": "installer.sh",
+      "size": 7444,
+      "digest": "sha256:6b8ab8b7255abf15a11503dcb5e0591e06d64a078a714c5e125f8683f13c8ca3",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:33:08Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/fairbird/backupflash/main/installer.sh",
+      "sourceAssetName": "installer.sh",
+      "size": 9275,
+      "digest": "sha256:0868e084d763257771373da3a40c0dd5a2520791b14e612b034bec07d6257bba",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/0868e084d763-installer.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:33:09Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/mido00020/MohammedSkin/main/installer.sh",
+      "sourceAssetName": "installer.sh",
+      "size": 15846,
+      "digest": "sha256:ce3f9c9fb1e0b2f95bbd7b179d91909d98721b1900eb897f6c38f6b7170c2962",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/ce3f9c9fb1e0-installer.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:33:10Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/oe-mirrors/e2iplayer/refs/heads/python3/e2iplayer_install.sh",
+      "sourceAssetName": "e2iplayer_install.sh",
+      "size": 11715,
+      "digest": "sha256:9a454d425201915b316c6367bfe8430bd46d15a31b33c78ed137ea92ce27e125",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a454d425201-e2iplayer_install.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:33:11Z"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/popking159/OrangeAudio/main/installer.sh",
+      "sourceAssetName": "installer.sh",
+      "size": 1356,
+      "digest": "sha256:f1b4aadf69dedecbc3585cbbe9c41715d6daafad911443e6e33c161b17ead72a",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/f1b4aadf69de-installer.sh",
+      "validation": {
+        "format": "text",
+        "utf8": "passed",
+        "execution": "never"
+      },
+      "mirroredAt": "2026-11-20T21:33:12Z"
+    },
+    {
+      "sourceUrl": "https://www.mediafire.com/file/5bmwrlm7gqrrq8w/openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip",
+      "sourceAssetName": "openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip",
+      "size": 249639756,
+      "digest": "sha256:5a4936532bbad6b1dbaa636f425b0cae5f9d70c56d8d4bc3ec04132f14632af2",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip",
+      "validation": {
+        "format": "zip",
+        "crc": "passed"
+      },
+      "mirroredAt": "2026-11-20T21:33:22Z"
+    },
+    {
+      "sourceUrl": "https://www.mediafire.com/file/b650mz4s93d12dr/egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip/file",
+      "sourceAssetName": "egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip",
+      "size": 224288883,
+      "digest": "sha256:963370be28ebf8855927b1fe504097a4f6b825b3b04b9b40428fa5b8c4657c77",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip",
+      "validation": {
+        "format": "zip",
+        "crc": "passed"
+      },
+      "mirroredAt": "2026-11-20T21:33:37Z"
+    },
+    {
+      "sourceUrl": "https://www.mediafire.com/file/hfzbvvbity7ryez/egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip/file",
+      "sourceAssetName": "egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip",
+      "size": 393912491,
+      "digest": "sha256:6c56c6aee3837044c74d7bc708146bf437c91440e5d3dbbc00902394d81744c0",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip",
+      "validation": {
+        "format": "zip",
+        "crc": "passed"
+      },
+      "mirroredAt": "2026-11-20T21:33:56Z"
+    },
+    {
+      "sourceUrl": "https://www.mediafire.com/file/ibngfj4ekxxha0a/pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip/file",
+      "sourceAssetName": "pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip",
+      "size": 306293414,
+      "digest": "sha256:bb90ccc567c253d45ddc48ca1ee463256dfad312ba19cfe16d3ed3937c8fdd17",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip",
+      "validation": {
+        "format": "zip",
+        "crc": "passed"
+      },
+      "mirroredAt": "2026-11-20T21:34:12Z"
+    }
+  ]
+}

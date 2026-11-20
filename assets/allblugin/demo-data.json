@@ -6,12 +6,12 @@
       "id": "plugins",
       "label": "البلجنات",
       "icon": "📦",
-      "count": 147,
+      "count": 158,
       "subcategories": [
         {
           "id": "enigma",
           "label": "📦 إضافات Enigma2",
-          "count": 134,
+          "count": 141,
           "items": [
             "AlMuaddhin",
             "ImagesDownloader",
@@ -31,7 +31,7 @@
         {
           "id": "iptv",
           "label": "📡 إضافات IPTV",
-          "count": 6,
+          "count": 9,
           "items": [
             "Xtreamity",
             "JediMakerXtream",
@@ -57,7 +57,7 @@
         {
           "id": "epg",
           "label": "📖 إضافات EPG",
-          "count": 1,
+          "count": 2,
           "items": [
             "EPGImport"
           ]
@@ -363,7 +363,7 @@
       "id": "backup",
       "label": "النسخ الاحتياطية",
       "icon": "💾",
-      "count": 102,
+      "count": 106,
       "subcategories": [
         {
           "id": "dreambox",
@@ -382,7 +382,7 @@
           "id": "vuplus",
           "label": "Vu+",
           "icon": "📦",
-          "count": 1,
+          "count": 2,
           "subcategories": [
             {
               "id": "vu-zero4k",
@@ -455,7 +455,7 @@
       "id": "channels",
       "label": "ملفات القنوات",
       "icon": "📺",
-      "count": 12,
+      "count": 23,
       "subcategories": [
         {
           "id": "nilesat",
@@ -465,22 +465,22 @@
         {
           "id": "hotbird",
           "label": "Hotbird 13°E",
-          "count": 1
+          "count": 2
         },
         {
           "id": "multisat",
           "label": "قوائم متعددة الأقمار",
-          "count": 6
+          "count": 11
         },
         {
           "id": "motor",
           "label": "أنظمة الموتور",
-          "count": 4
+          "count": 8
         },
         {
           "id": "favorites",
           "label": "قوائم وإعدادات مفضلة",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -488,12 +488,12 @@
       "id": "skins",
       "label": "السكينات",
       "icon": "🎨",
-      "count": 43,
+      "count": 50,
       "subcategories": [
         {
           "id": "dreamos",
           "label": "DreamOS",
-          "count": 3,
+          "count": 6,
           "items": [
             "HoloFHD Black",
             "ZSkin FHD",
@@ -503,7 +503,7 @@
         {
           "id": "openatv",
           "label": "OpenATV",
-          "count": 3,
+          "count": 6,
           "items": [
             "CineView FHD MLA",
             "MX Maestra Black Weather — Python 3.12",
@@ -513,7 +513,7 @@
         {
           "id": "openpli",
           "label": "OpenPLI",
-          "count": 1,
+          "count": 2,
           "items": [
             "Aglare-FHD-PLI"
           ]
@@ -639,10 +639,11 @@
       "icon": "📦",
       "downloadUrl": "",
       "guideUrl": "",
-      "detailUrl": "",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/E2IplayerUpdater",
-      "installCommand": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2IplayerUpdater/E2IplayerUpdater.sh | /bin/sh",
-      "command": "wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/E2IplayerUpdater/E2IplayerUpdater.sh | /bin/sh"
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/880499943e1d-E2IplayerUpdater.sh",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/880499943e1d-E2IplayerUpdater.sh",
+      "installCommand": "wget --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/880499943e1d-E2IplayerUpdater.sh | /bin/sh",
+      "command": "wget --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/880499943e1d-E2IplayerUpdater.sh | /bin/sh",
+      "originalSourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/E2IplayerUpdater"
     },
     {
       "id": 65,
@@ -656,10 +657,11 @@
       "downloads": 538,
       "keywords": "CCcam Softcam Emulator Enigma2 Emil Nabil",
       "icon": "📦",
-      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/cccam_all.tar.gz",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e5d79efd6882-cccam_all.tar.gz",
       "guideUrl": "",
-      "detailUrl": "",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins"
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e5d79efd6882-cccam_all.tar.gz",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e5d79efd6882-cccam_all.tar.gz",
+      "originalSourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
       "id": 66,
@@ -673,10 +675,11 @@
       "downloads": 651,
       "keywords": "OScam Softcam Emulator Enigma2 Emil Nabil",
       "icon": "📦",
-      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/oscam_01_all.tar.gz",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b1139ee139c0-oscam_01_all.tar.gz",
       "guideUrl": "",
-      "detailUrl": "",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins"
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b1139ee139c0-oscam_01_all.tar.gz",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b1139ee139c0-oscam_01_all.tar.gz",
+      "originalSourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
       "id": 67,
@@ -690,10 +693,11 @@
       "downloads": 764,
       "keywords": "NCam Softcam Emulator Enigma2 Emil Nabil",
       "icon": "📦",
-      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/ncam_all.tar.gz",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/ae91e7d284d7-ncam_all.tar.gz",
       "guideUrl": "",
-      "detailUrl": "",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins"
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/ae91e7d284d7-ncam_all.tar.gz",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/ae91e7d284d7-ncam_all.tar.gz",
+      "originalSourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
       "id": 68,
@@ -739,10 +743,11 @@
       "downloads": 1103,
       "keywords": "MgCamd Softcam Emulator Enigma2 Emil Nabil",
       "icon": "📦",
-      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/mgcamd_all.tar.gz",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/2e0e58c641ae-mgcamd_all.tar.gz",
       "guideUrl": "",
-      "detailUrl": "",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins"
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/2e0e58c641ae-mgcamd_all.tar.gz",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/2e0e58c641ae-mgcamd_all.tar.gz",
+      "originalSourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
       "id": 58,
@@ -3632,11 +3637,12 @@
       "version": "من المستودع المصدر",
       "date": "2026-11-01",
       "keywords": "Levi45 Emulator (IPK) Softcam Emulator Enigma2 Emil Nabil",
-      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator/enigma2-plugin-extensions-levi45emulator_all.ipk",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4b908f3ec63e-enigma2-plugin-extensions-levi45emulator_all.ipk",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4b908f3ec63e-enigma2-plugin-extensions-levi45emulator_all.ipk",
       "guideUrl": "",
-      "detailUrl": "",
-      "installCommand": "set -e\nURL='https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator/enigma2-plugin-extensions-levi45emulator_all.ipk'\nPKG='/tmp/levi45-emulator.ipk'\nif command -v wget >/dev/null 2>&1; then wget -O \"$PKG\" \"$URL\"; elif command -v curl >/dev/null 2>&1; then curl -fL \"$URL\" -o \"$PKG\"; else echo 'wget أو curl غير متاح'; exit 1; fi\nif [ ! -s \"$PKG\" ]; then echo 'فشل تنزيل ملف التثبيت'; exit 1; fi\nif [ 'ipk' = 'ipk' ]; then\n  if command -v opkg >/dev/null 2>&1; then opkg install \"$PKG\"; else echo 'الصورة لا تحتوي على opkg؛ ملف IPK غير مدعوم هنا'; exit 1; fi\nelse\n  if command -v dpkg >/dev/null 2>&1; then dpkg -i \"$PKG\"; else echo 'الصورة لا تحتوي على dpkg؛ ملف DEB غير مدعوم هنا'; exit 1; fi\nfi\nrm -f \"$PKG\"\necho 'انتهى أمر التثبيت؛ راجع سجل الجهاز للتأكد من نجاح الحزمة.'"
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4b908f3ec63e-enigma2-plugin-extensions-levi45emulator_all.ipk",
+      "installCommand": "set -e\nURL='https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4b908f3ec63e-enigma2-plugin-extensions-levi45emulator_all.ipk'\nPKG='/tmp/levi45-emulator.ipk'\nif command -v wget >/dev/null 2>&1; then wget -O \"$PKG\" \"$URL\"; elif command -v curl >/dev/null 2>&1; then curl -fL \"$URL\" -o \"$PKG\"; else echo 'wget أو curl غير متاح'; exit 1; fi\nif [ ! -s \"$PKG\" ]; then echo 'فشل تنزيل ملف التثبيت'; exit 1; fi\nif [ 'ipk' = 'ipk' ]; then\n  if command -v opkg >/dev/null 2>&1; then opkg install \"$PKG\"; else echo 'الصورة لا تحتوي على opkg؛ ملف IPK غير مدعوم هنا'; exit 1; fi\nelse\n  if command -v dpkg >/dev/null 2>&1; then dpkg -i \"$PKG\"; else echo 'الصورة لا تحتوي على dpkg؛ ملف DEB غير مدعوم هنا'; exit 1; fi\nfi\nrm -f \"$PKG\"\necho 'انتهى أمر التثبيت؛ راجع سجل الجهاز للتأكد من نجاح الحزمة.'",
+      "originalSourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
       "id": 4186,
@@ -3649,11 +3655,12 @@
       "version": "من المستودع المصدر",
       "date": "2026-11-01",
       "keywords": "Levi45 Emulator (DEB) Softcam Emulator Enigma2 Emil Nabil",
-      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator/enigma2-plugin-extensions-levi45emulator_all.deb",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/043b4f2fa18d-enigma2-plugin-extensions-levi45emulator_all.deb",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/043b4f2fa18d-enigma2-plugin-extensions-levi45emulator_all.deb",
       "guideUrl": "",
-      "detailUrl": "",
-      "installCommand": "set -e\nURL='https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/levi45emulator/enigma2-plugin-extensions-levi45emulator_all.deb'\nPKG='/tmp/levi45-emulator.deb'\nif command -v wget >/dev/null 2>&1; then wget -O \"$PKG\" \"$URL\"; elif command -v curl >/dev/null 2>&1; then curl -fL \"$URL\" -o \"$PKG\"; else echo 'wget أو curl غير متاح'; exit 1; fi\nif [ ! -s \"$PKG\" ]; then echo 'فشل تنزيل ملف التثبيت'; exit 1; fi\nif [ 'deb' = 'ipk' ]; then\n  if command -v opkg >/dev/null 2>&1; then opkg install \"$PKG\"; else echo 'الصورة لا تحتوي على opkg؛ ملف IPK غير مدعوم هنا'; exit 1; fi\nelse\n  if command -v dpkg >/dev/null 2>&1; then dpkg -i \"$PKG\"; else echo 'الصورة لا تحتوي على dpkg؛ ملف DEB غير مدعوم هنا'; exit 1; fi\nfi\nrm -f \"$PKG\"\necho 'انتهى أمر التثبيت؛ راجع سجل الجهاز للتأكد من نجاح الحزمة.'"
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/043b4f2fa18d-enigma2-plugin-extensions-levi45emulator_all.deb",
+      "installCommand": "set -e\nURL='https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/043b4f2fa18d-enigma2-plugin-extensions-levi45emulator_all.deb'\nPKG='/tmp/levi45-emulator.deb'\nif command -v wget >/dev/null 2>&1; then wget -O \"$PKG\" \"$URL\"; elif command -v curl >/dev/null 2>&1; then curl -fL \"$URL\" -o \"$PKG\"; else echo 'wget أو curl غير متاح'; exit 1; fi\nif [ ! -s \"$PKG\" ]; then echo 'فشل تنزيل ملف التثبيت'; exit 1; fi\nif [ 'deb' = 'ipk' ]; then\n  if command -v opkg >/dev/null 2>&1; then opkg install \"$PKG\"; else echo 'الصورة لا تحتوي على opkg؛ ملف IPK غير مدعوم هنا'; exit 1; fi\nelse\n  if command -v dpkg >/dev/null 2>&1; then dpkg -i \"$PKG\"; else echo 'الصورة لا تحتوي على dpkg؛ ملف DEB غير مدعوم هنا'; exit 1; fi\nfi\nrm -f \"$PKG\"\necho 'انتهى أمر التثبيت؛ راجع سجل الجهاز للتأكد من نجاح الحزمة.'",
+      "originalSourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
       "id": 4187,
@@ -3666,10 +3673,11 @@
       "version": "من المستودع المصدر",
       "date": "2026-11-01",
       "keywords": "Emu Installer Softcam Emulator Enigma2 Emil Nabil",
-      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/emu-installer/emuinstaller.tar.gz",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/64b9e16b10ac-emuinstaller.tar.gz",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/64b9e16b10ac-emuinstaller.tar.gz",
       "guideUrl": "",
-      "detailUrl": ""
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/64b9e16b10ac-emuinstaller.tar.gz",
+      "originalSourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
       "id": 4188,
@@ -3682,10 +3690,11 @@
       "version": "من المستودع المصدر",
       "date": "2026-11-01",
       "keywords": "Alternative Softcam Manager Softcam Emulator Enigma2 Emil Nabil",
-      "downloadUrl": "https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/AlternativeSoftcamManager/AlternativeSoftcamManager.tar.gz",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6e7c6d9245e7-AlternativeSoftcamManager.tar.gz",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6e7c6d9245e7-AlternativeSoftcamManager.tar.gz",
       "guideUrl": "",
-      "detailUrl": ""
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6e7c6d9245e7-AlternativeSoftcamManager.tar.gz",
+      "originalSourceUrl": "https://github.com/emilnabil/download-plugins"
     },
     {
       "id": 4189,
@@ -3729,8 +3738,10 @@
       "keywords": "SetPicon Picons بيكونات إدارة مسار التثبيت Enigma2",
       "icon": "🧩",
       "downloadUrl": "",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/setpicon",
-      "installCommand": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh"
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1daaa80ed2a4-installer.sh",
+      "installCommand": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1daaa80ed2a4-installer.sh -O - | /bin/sh",
+      "originalSourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/setpicon",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1daaa80ed2a4-installer.sh"
     },
     {
       "id": 4194,
@@ -3758,9 +3769,11 @@
       "downloads": 0,
       "keywords": "SubsSupportPro Subtitles ترجمة subtitles Enigma2 بلجن",
       "icon": "💬",
-      "sourceUrl": "https://github.com/popking159/SubsSupportPro",
-      "installCommand": "wget https://github.com/popking159/SubsSupportPro/raw/refs/heads/main/myinstaller.sh -O - | /bin/sh",
-      "command": "wget https://github.com/popking159/SubsSupportPro/raw/refs/heads/main/myinstaller.sh -O - | /bin/sh"
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/21057ada2f27-myinstaller.sh",
+      "installCommand": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/21057ada2f27-myinstaller.sh -O - | /bin/sh",
+      "command": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/21057ada2f27-myinstaller.sh -O - | /bin/sh",
+      "originalSourceUrl": "https://github.com/popking159/SubsSupportPro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/21057ada2f27-myinstaller.sh"
     },
     {
       "id": 4200,
@@ -3774,10 +3787,12 @@
       "downloads": 0,
       "keywords": "BackupFlash Tools fairbird Enigma2 بلجن",
       "icon": "🧩",
-      "sourceUrl": "https://github.com/fairbird/backupflash",
-      "installCommand": "wget https://raw.githubusercontent.com/fairbird/backupflash/main/installer.sh -O - | /bin/sh",
-      "command": "wget https://raw.githubusercontent.com/fairbird/backupflash/main/installer.sh -O - | /bin/sh",
-      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت."
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/0868e084d763-installer.sh",
+      "installCommand": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/0868e084d763-installer.sh -O - | /bin/sh",
+      "command": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/0868e084d763-installer.sh -O - | /bin/sh",
+      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
+      "originalSourceUrl": "https://github.com/fairbird/backupflash",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/0868e084d763-installer.sh"
     },
     {
       "id": 4201,
@@ -3791,10 +3806,12 @@
       "downloads": 0,
       "keywords": "RaedQuickSignal Other fairbird Tools Enigma2 بلجن",
       "icon": "🧩",
-      "sourceUrl": "https://github.com/fairbird/RaedQuickSignal",
-      "installCommand": "opkg update && opkg install wget && wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh",
-      "command": "opkg update && opkg install wget && wget https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh",
-      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت."
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh",
+      "installCommand": "opkg update && opkg install wget && wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh -O - | /bin/sh",
+      "command": "opkg update && opkg install wget && wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh -O - | /bin/sh",
+      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
+      "originalSourceUrl": "https://github.com/fairbird/RaedQuickSignal",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6b8ab8b7255a-installer.sh"
     },
     {
       "id": 4202,
@@ -3808,10 +3825,12 @@
       "downloads": 0,
       "keywords": "SetPicon Picons emilnabil Enigma2 بلجن",
       "icon": "🧩",
-      "sourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/setpicon",
-      "installCommand": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh",
-      "command": "wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/setpicon/installer.sh -O - | /bin/sh",
-      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت."
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1daaa80ed2a4-installer.sh",
+      "installCommand": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1daaa80ed2a4-installer.sh -O - | /bin/sh",
+      "command": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1daaa80ed2a4-installer.sh -O - | /bin/sh",
+      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
+      "originalSourceUrl": "https://github.com/emilnabil/download-plugins/tree/main/setpicon",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1daaa80ed2a4-installer.sh"
     },
     {
       "id": 4203,
@@ -3825,10 +3844,12 @@
       "downloads": 0,
       "keywords": "TMBD Other Enigma2 بلجن",
       "icon": "🧩",
-      "sourceUrl": "https://github.com/biko-73/TMBD",
-      "installCommand": "wget https://raw.githubusercontent.com/biko-73/TMBD/main/installer.sh -O - | /bin/sh",
-      "command": "wget https://raw.githubusercontent.com/biko-73/TMBD/main/installer.sh -O - | /bin/sh",
-      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت."
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5116aa491072-installer.sh",
+      "installCommand": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5116aa491072-installer.sh -O - | /bin/sh",
+      "command": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5116aa491072-installer.sh -O - | /bin/sh",
+      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
+      "originalSourceUrl": "https://github.com/biko-73/TMBD",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5116aa491072-installer.sh"
     },
     {
       "id": 4204,
@@ -3842,10 +3863,12 @@
       "downloads": 0,
       "keywords": "ArabicSavior Tools Arabic Savior popking159 Enigma2 بلجن",
       "icon": "🧩",
-      "sourceUrl": "https://github.com/fairbird/ArabicSavior",
-      "installCommand": "wget https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh",
-      "command": "wget https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh",
-      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت."
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/cc98ff7325a3-installer.sh",
+      "installCommand": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/cc98ff7325a3-installer.sh -O - | /bin/sh",
+      "command": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/cc98ff7325a3-installer.sh -O - | /bin/sh",
+      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
+      "originalSourceUrl": "https://github.com/fairbird/ArabicSavior",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/cc98ff7325a3-installer.sh"
     },
     {
       "id": 4205,
@@ -3876,10 +3899,12 @@
       "downloads": 0,
       "keywords": "UltraAudio Audio K3bOra Enigma2 بلجن",
       "icon": "🎬",
-      "sourceUrl": "https://github.com/K3bOra/UltraAudio",
-      "installCommand": "wget -qO- https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh | /bin/sh",
-      "command": "wget -qO- https://raw.githubusercontent.com/K3bOra/UltraAudio/main/install.sh | /bin/sh",
-      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت."
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/29ae620764ab-install.sh",
+      "installCommand": "wget -qO- https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/29ae620764ab-install.sh | /bin/sh",
+      "command": "wget -qO- https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/29ae620764ab-install.sh | /bin/sh",
+      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
+      "originalSourceUrl": "https://github.com/K3bOra/UltraAudio",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/29ae620764ab-install.sh"
     },
     {
       "id": 4207,
@@ -3893,10 +3918,12 @@
       "downloads": 0,
       "keywords": "OrangeAudio Audio popking159 Enigma2 بلجن",
       "icon": "🎬",
-      "sourceUrl": "https://github.com/popking159/OrangeAudio",
-      "installCommand": "wget -qO- https://raw.githubusercontent.com/popking159/OrangeAudio/main/installer.sh | sh",
-      "command": "wget -qO- https://raw.githubusercontent.com/popking159/OrangeAudio/main/installer.sh | sh",
-      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت."
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/f1b4aadf69de-installer.sh",
+      "installCommand": "wget -qO- https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/f1b4aadf69de-installer.sh | sh",
+      "command": "wget -qO- https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/f1b4aadf69de-installer.sh | sh",
+      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
+      "originalSourceUrl": "https://github.com/popking159/OrangeAudio",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/f1b4aadf69de-installer.sh"
     },
     {
       "id": 4208,
@@ -3910,10 +3937,12 @@
       "downloads": 0,
       "keywords": "IPAudioPlus Audio Ahmadarjan1 Enigma2 بلجن",
       "icon": "🎬",
-      "sourceUrl": "https://github.com/Ahmadarjan1/IPAudioPlus-Releases",
-      "installCommand": "wget -q -O - https://raw.githubusercontent.com/Ahmadarjan1/IPAudioPlus-Releases/main/installer.sh | /bin/sh",
-      "command": "wget -q -O - https://raw.githubusercontent.com/Ahmadarjan1/IPAudioPlus-Releases/main/installer.sh | /bin/sh",
-      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت."
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5e9d35528f73-installer.sh",
+      "installCommand": "wget -q -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5e9d35528f73-installer.sh | /bin/sh",
+      "command": "wget -q -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5e9d35528f73-installer.sh | /bin/sh",
+      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
+      "originalSourceUrl": "https://github.com/Ahmadarjan1/IPAudioPlus-Releases",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5e9d35528f73-installer.sh"
     },
     {
       "id": 4209,
@@ -3927,10 +3956,12 @@
       "downloads": 0,
       "keywords": "SubExtractor Lite Translation Arian7s Enigma2 بلجن",
       "icon": "🎬",
-      "sourceUrl": "https://github.com/Arian7s/SubExtractorLite",
-      "installCommand": "wget https://raw.githubusercontent.com/Arian7s/SubExtractorLite/main/installer.sh -O - | /bin/sh",
-      "command": "wget https://raw.githubusercontent.com/Arian7s/SubExtractorLite/main/installer.sh -O - | /bin/sh",
-      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت."
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/99cce768604c-installer.sh",
+      "installCommand": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/99cce768604c-installer.sh -O - | /bin/sh",
+      "command": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/99cce768604c-installer.sh -O - | /bin/sh",
+      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
+      "originalSourceUrl": "https://github.com/Arian7s/SubExtractorLite",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/99cce768604c-installer.sh"
     },
     {
       "id": 4210,
@@ -3944,10 +3975,12 @@
       "downloads": 0,
       "keywords": "AutoSub AI Translation HBK2010 Enigma2 بلجن",
       "icon": "🎬",
-      "sourceUrl": "https://github.com/HBK2010/AutoSub",
-      "installCommand": "wget -q -O /tmp/AutoSub.tar.gz https://raw.githubusercontent.com/HBK2010/AutoSub/main/AutoSub.tar.gz && tar xzf /tmp/AutoSub.tar.gz -C /usr/lib/enigma2/python/Plugins/Extensions",
-      "command": "wget -q -O /tmp/AutoSub.tar.gz https://raw.githubusercontent.com/HBK2010/AutoSub/main/AutoSub.tar.gz && tar xzf /tmp/AutoSub.tar.gz -C /usr/lib/enigma2/python/Plugins/Extensions",
-      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت."
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/2b0bb7087ec6-AutoSub.tar.gz",
+      "installCommand": "wget -q -O /tmp/AutoSub.tar.gz https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/2b0bb7087ec6-AutoSub.tar.gz && tar xzf /tmp/AutoSub.tar.gz -C /usr/lib/enigma2/python/Plugins/Extensions",
+      "command": "wget -q -O /tmp/AutoSub.tar.gz https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/2b0bb7087ec6-AutoSub.tar.gz && tar xzf /tmp/AutoSub.tar.gz -C /usr/lib/enigma2/python/Plugins/Extensions",
+      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
+      "originalSourceUrl": "https://github.com/HBK2010/AutoSub",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/2b0bb7087ec6-AutoSub.tar.gz"
     },
     {
       "id": 4211,
@@ -3961,10 +3994,12 @@
       "downloads": 0,
       "keywords": "BouquetMakerXtream IPTV biko-73 Enigma2 بلجن",
       "icon": "📡",
-      "sourceUrl": "https://github.com/biko-73/BouquetMakerXtream",
-      "installCommand": "wget https://raw.githubusercontent.com/biko-73/BouquetMakerXtream/main/installer.sh -O - | /bin/sh",
-      "command": "wget https://raw.githubusercontent.com/biko-73/BouquetMakerXtream/main/installer.sh -O - | /bin/sh",
-      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت."
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1c2932ca3692-installer.sh",
+      "installCommand": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1c2932ca3692-installer.sh -O - | /bin/sh",
+      "command": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1c2932ca3692-installer.sh -O - | /bin/sh",
+      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
+      "originalSourceUrl": "https://github.com/biko-73/BouquetMakerXtream",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1c2932ca3692-installer.sh"
     },
     {
       "id": 4212,
@@ -3978,10 +4013,12 @@
       "downloads": 0,
       "keywords": "Mohammed Skin Skins mido00020 Enigma2 سكين",
       "icon": "🎨",
-      "sourceUrl": "https://github.com/mido00020/MohammedSkin",
-      "installCommand": "wget -q --no-check-certificate https://raw.githubusercontent.com/mido00020/MohammedSkin/main/installer.sh -O - | /bin/sh",
-      "command": "wget -q --no-check-certificate https://raw.githubusercontent.com/mido00020/MohammedSkin/main/installer.sh -O - | /bin/sh",
-      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت."
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/ce3f9c9fb1e0-installer.sh",
+      "installCommand": "wget -q --no-check-certificate https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/ce3f9c9fb1e0-installer.sh -O - | /bin/sh",
+      "command": "wget -q --no-check-certificate https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/ce3f9c9fb1e0-installer.sh -O - | /bin/sh",
+      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
+      "originalSourceUrl": "https://github.com/mido00020/MohammedSkin",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/ce3f9c9fb1e0-installer.sh"
     },
     {
       "id": 4213,
@@ -3995,10 +4032,12 @@
       "downloads": 0,
       "keywords": "Obsidian FHD Skins dali44g Enigma2 سكين",
       "icon": "🎨",
-      "sourceUrl": "https://github.com/dali44g/Obsidian-FHD",
-      "installCommand": "wget -qO- https://raw.githubusercontent.com/dali44g/Obsidian-FHD/main/install.sh | sh",
-      "command": "wget -qO- https://raw.githubusercontent.com/dali44g/Obsidian-FHD/main/install.sh | sh",
-      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت."
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b6aba588babd-install.sh",
+      "installCommand": "wget -qO- https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b6aba588babd-install.sh | sh",
+      "command": "wget -qO- https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b6aba588babd-install.sh | sh",
+      "compatibility": "لم يتم التحقق من التوافق مع صور النظام المحددة. راجع مستودع المطوّر قبل التثبيت.",
+      "originalSourceUrl": "https://github.com/dali44g/Obsidian-FHD",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b6aba588babd-install.sh"
     },
     {
       "id": 4214,
@@ -4014,12 +4053,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/egami-10.5.r10-vuzero-03102026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/egami-10.5.r10-vuzero-03102026.zip",
       "compatibility": "Vu+ Zero العادي فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/egami-10.5.r10-vuzero-03102026.zip",
       "sourceAssetName": "egami-10.5.r10-vuzero-03102026.zip",
       "sourceFileSize": 250392527,
-      "sourceReleaseTag": "Vuzero"
+      "sourceReleaseTag": "Vuzero",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero"
     },
     {
       "id": 4215,
@@ -4035,12 +4076,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/OpenATV-8.0.1-vuzero-02102026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/OpenATV-8.0.1-vuzero-02102026.zip",
       "compatibility": "Vu+ Zero العادي فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/OpenATV-8.0.1-vuzero-02102026.zip",
       "sourceAssetName": "OpenATV-8.0.1-vuzero-02102026.zip",
       "sourceFileSize": 339032196,
-      "sourceReleaseTag": "Vuzero"
+      "sourceReleaseTag": "Vuzero",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero"
     },
     {
       "id": 4216,
@@ -4056,12 +4099,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/openbh-6.0.004-vuzero-03102026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/openbh-6.0.004-vuzero-03102026.zip",
       "compatibility": "Vu+ Zero العادي فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/openbh-6.0.004-vuzero-03102026.zip",
       "sourceAssetName": "openbh-6.0.004-vuzero-03102026.zip",
       "sourceFileSize": 327883063,
-      "sourceReleaseTag": "Vuzero"
+      "sourceReleaseTag": "Vuzero",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero"
     },
     {
       "id": 4217,
@@ -4077,12 +4122,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/openspa-8.7-vuzero-03102026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/openspa-8.7-vuzero-03102026.zip",
       "compatibility": "Vu+ Zero العادي فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/openspa-8.7-vuzero-03102026.zip",
       "sourceAssetName": "openspa-8.7-vuzero-03102026.zip",
       "sourceFileSize": 337822562,
-      "sourceReleaseTag": "Vuzero"
+      "sourceReleaseTag": "Vuzero",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero"
     },
     {
       "id": 4218,
@@ -4098,12 +4145,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/openvix-6.9.002-vuzero-03102026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/openvix-6.9.002-vuzero-03102026.zip",
       "compatibility": "Vu+ Zero العادي فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/openvix-6.9.002-vuzero-03102026.zip",
       "sourceAssetName": "openvix-6.9.002-vuzero-03102026.zip",
       "sourceFileSize": 340464827,
-      "sourceReleaseTag": "Vuzero"
+      "sourceReleaseTag": "Vuzero",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuzero"
     },
     {
       "id": 4219,
@@ -4119,12 +4168,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/egami-11.0-r23-vuuno4kse-01112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/egami-11.0-r23-vuuno4kse-01112026.zip",
       "compatibility": "Vu+ Uno 4K SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/egami-11.0-r23-vuuno4kse-01112026.zip",
       "sourceAssetName": "egami-11.0-r23-vuuno4kse-01112026.zip",
       "sourceFileSize": 255104359,
-      "sourceReleaseTag": "Vuuno4kse"
+      "sourceReleaseTag": "Vuuno4kse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse"
     },
     {
       "id": 4220,
@@ -4140,12 +4191,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openatv-8.0.1-vuuno4kse-01112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openatv-8.0.1-vuuno4kse-01112026.zip",
       "compatibility": "Vu+ Uno 4K SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openatv-8.0.1-vuuno4kse-01112026.zip",
       "sourceAssetName": "openatv-8.0.1-vuuno4kse-01112026.zip",
       "sourceFileSize": 257776006,
-      "sourceReleaseTag": "Vuuno4kse"
+      "sourceReleaseTag": "Vuuno4kse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse"
     },
     {
       "id": 4221,
@@ -4161,12 +4214,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openbh-6.0.005-vuuno4kse-01112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openbh-6.0.005-vuuno4kse-01112026.zip",
       "compatibility": "Vu+ Uno 4K SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openbh-6.0.005-vuuno4kse-01112026.zip",
       "sourceAssetName": "openbh-6.0.005-vuuno4kse-01112026.zip",
       "sourceFileSize": 253712451,
-      "sourceReleaseTag": "Vuuno4kse"
+      "sourceReleaseTag": "Vuuno4kse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse"
     },
     {
       "id": 4222,
@@ -4182,12 +4237,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openvix-6.9.003-vuuno4kse_01112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openvix-6.9.003-vuuno4kse_01112026.zip",
       "compatibility": "Vu+ Uno 4K SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/openvix-6.9.003-vuuno4kse_01112026.zip",
       "sourceAssetName": "openvix-6.9.003-vuuno4kse_01112026.zip",
       "sourceFileSize": 393433400,
-      "sourceReleaseTag": "Vuuno4kse"
+      "sourceReleaseTag": "Vuuno4kse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse"
     },
     {
       "id": 4223,
@@ -4203,12 +4260,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/PurE2-7.6_vuuno4kse-01112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/PurE2-7.6_vuuno4kse-01112026.zip",
       "compatibility": "Vu+ Uno 4K SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4kse/PurE2-7.6_vuuno4kse-01112026.zip",
       "sourceAssetName": "PurE2-7.6_vuuno4kse-01112026.zip",
       "sourceFileSize": 254527069,
-      "sourceReleaseTag": "Vuuno4kse"
+      "sourceReleaseTag": "Vuuno4kse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse"
     },
     {
       "id": 4224,
@@ -4224,12 +4283,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/egami-10.6-r14-vuuno4k.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/egami-10.6-r14-vuuno4k.zip",
       "compatibility": "Vu+ Uno 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/egami-10.6-r14-vuuno4k.zip",
       "sourceAssetName": "egami-10.6-r14-vuuno4k.zip",
       "sourceFileSize": 231007471,
-      "sourceReleaseTag": "Vuuno4k"
+      "sourceReleaseTag": "Vuuno4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k"
     },
     {
       "id": 4225,
@@ -4245,12 +4306,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openatv-8.0.1-vuuno4k-08112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openatv-8.0.1-vuuno4k-08112026.zip",
       "compatibility": "Vu+ Uno 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openatv-8.0.1-vuuno4k-08112026.zip",
       "sourceAssetName": "openatv-8.0.1-vuuno4k-08112026.zip",
       "sourceFileSize": 254705146,
-      "sourceReleaseTag": "Vuuno4k"
+      "sourceReleaseTag": "Vuuno4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k"
     },
     {
       "id": 4226,
@@ -4266,12 +4329,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openbh-6.0.005-vuuno4k-08112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openbh-6.0.005-vuuno4k-08112026.zip",
       "compatibility": "Vu+ Uno 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openbh-6.0.005-vuuno4k-08112026.zip",
       "sourceAssetName": "openbh-6.0.005-vuuno4k-08112026.zip",
       "sourceFileSize": 229161785,
-      "sourceReleaseTag": "Vuuno4k"
+      "sourceReleaseTag": "Vuuno4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k"
     },
     {
       "id": 4227,
@@ -4287,12 +4352,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openspa-8.7.003-vuuno4k-08112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openspa-8.7.003-vuuno4k-08112026.zip",
       "compatibility": "Vu+ Uno 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openspa-8.7.003-vuuno4k-08112026.zip",
       "sourceAssetName": "openspa-8.7.003-vuuno4k-08112026.zip",
       "sourceFileSize": 291740893,
-      "sourceReleaseTag": "Vuuno4k"
+      "sourceReleaseTag": "Vuuno4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k"
     },
     {
       "id": 4228,
@@ -4308,12 +4375,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openvix-6.9.003-vuuno4k_08112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openvix-6.9.003-vuuno4k_08112026.zip",
       "compatibility": "Vu+ Uno 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/openvix-6.9.003-vuuno4k_08112026.zip",
       "sourceAssetName": "openvix-6.9.003-vuuno4k_08112026.zip",
       "sourceFileSize": 254504341,
-      "sourceReleaseTag": "Vuuno4k"
+      "sourceReleaseTag": "Vuuno4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k"
     },
     {
       "id": 4229,
@@ -4329,12 +4398,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/PurE2-7.6-vuuno4k-08112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/PurE2-7.6-vuuno4k-08112026.zip",
       "compatibility": "Vu+ Uno 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuuno4k/PurE2-7.6-vuuno4k-08112026.zip",
       "sourceAssetName": "PurE2-7.6-vuuno4k-08112026.zip",
       "sourceFileSize": 255510961,
-      "sourceReleaseTag": "Vuuno4k"
+      "sourceReleaseTag": "Vuuno4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4k"
     },
     {
       "id": 4230,
@@ -4350,12 +4421,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/egami-11.0-r23-vuultimo4k-05112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/egami-11.0-r23-vuultimo4k-05112026.zip",
       "compatibility": "Vu+ Ultimo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/egami-11.0-r23-vuultimo4k-05112026.zip",
       "sourceAssetName": "egami-11.0-r23-vuultimo4k-05112026.zip",
       "sourceFileSize": 257949060,
-      "sourceReleaseTag": "Vuultimo4k"
+      "sourceReleaseTag": "Vuultimo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k"
     },
     {
       "id": 4231,
@@ -4371,12 +4444,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/openatv-8.0.1-vuultimo4k-05112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/openatv-8.0.1-vuultimo4k-05112026.zip",
       "compatibility": "Vu+ Ultimo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/openatv-8.0.1-vuultimo4k-05112026.zip",
       "sourceAssetName": "openatv-8.0.1-vuultimo4k-05112026.zip",
       "sourceFileSize": 257303999,
-      "sourceReleaseTag": "Vuultimo4k"
+      "sourceReleaseTag": "Vuultimo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k"
     },
     {
       "id": 4232,
@@ -4392,12 +4467,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/openbh-6.0.005-vuultimo4k-05112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/openbh-6.0.005-vuultimo4k-05112026.zip",
       "compatibility": "Vu+ Ultimo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/openbh-6.0.005-vuultimo4k-05112026.zip",
       "sourceAssetName": "openbh-6.0.005-vuultimo4k-05112026.zip",
       "sourceFileSize": 231071614,
-      "sourceReleaseTag": "Vuultimo4k"
+      "sourceReleaseTag": "Vuultimo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k"
     },
     {
       "id": 4233,
@@ -4413,12 +4490,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/openvix-6.9.003-vuultimo4k_05112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/openvix-6.9.003-vuultimo4k_05112026.zip",
       "compatibility": "Vu+ Ultimo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/openvix-6.9.003-vuultimo4k_05112026.zip",
       "sourceAssetName": "openvix-6.9.003-vuultimo4k_05112026.zip",
       "sourceFileSize": 256037765,
-      "sourceReleaseTag": "Vuultimo4k"
+      "sourceReleaseTag": "Vuultimo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k"
     },
     {
       "id": 4234,
@@ -4434,12 +4513,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/PurE2-7.6-vuultimo4k_05112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/PurE2-7.6-vuultimo4k_05112026.zip",
       "compatibility": "Vu+ Ultimo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuultimo4k/PurE2-7.6-vuultimo4k_05112026.zip",
       "sourceAssetName": "PurE2-7.6-vuultimo4k_05112026.zip",
       "sourceFileSize": 242331366,
-      "sourceReleaseTag": "Vuultimo4k"
+      "sourceReleaseTag": "Vuultimo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuultimo4k"
     },
     {
       "id": 4235,
@@ -4455,12 +4536,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/egami-11.0-r22-vusolo4k-23092026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/egami-11.0-r22-vusolo4k-23092026.zip",
       "compatibility": "Vu+ Solo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/egami-11.0-r22-vusolo4k-23092026.zip",
       "sourceAssetName": "egami-11.0-r22-vusolo4k-23092026.zip",
       "sourceFileSize": 342373028,
-      "sourceReleaseTag": "Vusolo4k"
+      "sourceReleaseTag": "Vusolo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k"
     },
     {
       "id": 4236,
@@ -4476,12 +4559,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openatv-8.0.0-RC1-vusolo4k-23092026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openatv-8.0.0-RC1-vusolo4k-23092026.zip",
       "compatibility": "Vu+ Solo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openatv-8.0.0-RC1-vusolo4k-23092026.zip",
       "sourceAssetName": "openatv-8.0.0-RC1-vusolo4k-23092026.zip",
       "sourceFileSize": 339607479,
-      "sourceReleaseTag": "Vusolo4k"
+      "sourceReleaseTag": "Vusolo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k"
     },
     {
       "id": 4237,
@@ -4497,12 +4582,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openbh-6.0.003-vusolo4k-23092026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openbh-6.0.003-vusolo4k-23092026.zip",
       "compatibility": "Vu+ Solo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openbh-6.0.003-vusolo4k-23092026.zip",
       "sourceAssetName": "openbh-6.0.003-vusolo4k-23092026.zip",
       "sourceFileSize": 315074191,
-      "sourceReleaseTag": "Vusolo4k"
+      "sourceReleaseTag": "Vusolo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k"
     },
     {
       "id": 4238,
@@ -4518,12 +4605,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openvix-6.9.002-vusolo4k_23092026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openvix-6.9.002-vusolo4k_23092026.zip",
       "compatibility": "Vu+ Solo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openvix-6.9.002-vusolo4k_23092026.zip",
       "sourceAssetName": "openvix-6.9.002-vusolo4k_23092026.zip",
       "sourceFileSize": 342365439,
-      "sourceReleaseTag": "Vusolo4k"
+      "sourceReleaseTag": "Vusolo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k"
     },
     {
       "id": 4239,
@@ -4539,12 +4628,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/vusolo4k-PurE2-7.6-23092026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/vusolo4k-PurE2-7.6-23092026.zip",
       "compatibility": "Vu+ Solo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/vusolo4k-PurE2-7.6-23092026.zip",
       "sourceAssetName": "vusolo4k-PurE2-7.6-23092026.zip",
       "sourceFileSize": 331743345,
-      "sourceReleaseTag": "Vusolo4k"
+      "sourceReleaseTag": "Vusolo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k"
     },
     {
       "id": 4240,
@@ -4560,12 +4651,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/egami-11.0-r23-vuduo4kse-02112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/egami-11.0-r23-vuduo4kse-02112026.zip",
       "compatibility": "Vu+ Duo 4K SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/egami-11.0-r23-vuduo4kse-02112026.zip",
       "sourceAssetName": "egami-11.0-r23-vuduo4kse-02112026.zip",
       "sourceFileSize": 259803031,
-      "sourceReleaseTag": "Vuduo4kse"
+      "sourceReleaseTag": "Vuduo4kse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse"
     },
     {
       "id": 4241,
@@ -4581,12 +4674,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openatv-8.0.1-vuduo4kse-02112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openatv-8.0.1-vuduo4kse-02112026.zip",
       "compatibility": "Vu+ Duo 4K SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openatv-8.0.1-vuduo4kse-02112026.zip",
       "sourceAssetName": "openatv-8.0.1-vuduo4kse-02112026.zip",
       "sourceFileSize": 265912352,
-      "sourceReleaseTag": "Vuduo4kse"
+      "sourceReleaseTag": "Vuduo4kse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse"
     },
     {
       "id": 4242,
@@ -4602,12 +4697,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openatv-8.1.0.beta-vuduo4kse-12112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openatv-8.1.0.beta-vuduo4kse-12112026.zip",
       "compatibility": "Vu+ Duo 4K SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openatv-8.1.0.beta-vuduo4kse-12112026.zip",
       "sourceAssetName": "openatv-8.1.0.beta-vuduo4kse-12112026.zip",
       "sourceFileSize": 329602471,
-      "sourceReleaseTag": "Vuduo4kse"
+      "sourceReleaseTag": "Vuduo4kse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse"
     },
     {
       "id": 4243,
@@ -4623,12 +4720,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openbh-6.0.005-vuduo4kse-02112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openbh-6.0.005-vuduo4kse-02112026.zip",
       "compatibility": "Vu+ Duo 4K SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openbh-6.0.005-vuduo4kse-02112026.zip",
       "sourceAssetName": "openbh-6.0.005-vuduo4kse-02112026.zip",
       "sourceFileSize": 221222283,
-      "sourceReleaseTag": "Vuduo4kse"
+      "sourceReleaseTag": "Vuduo4kse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse"
     },
     {
       "id": 4244,
@@ -4644,12 +4743,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openvix-6.9.006-vuduo4kse_13112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openvix-6.9.006-vuduo4kse_13112026.zip",
       "compatibility": "Vu+ Duo 4K SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/openvix-6.9.006-vuduo4kse_13112026.zip",
       "sourceAssetName": "openvix-6.9.006-vuduo4kse_13112026.zip",
       "sourceFileSize": 257421662,
-      "sourceReleaseTag": "Vuduo4kse"
+      "sourceReleaseTag": "Vuduo4kse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse"
     },
     {
       "id": 4245,
@@ -4665,12 +4766,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/PurE2-7.6-vuduo4kse-02112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/PurE2-7.6-vuduo4kse-02112026.zip",
       "compatibility": "Vu+ Duo 4K SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4kse/PurE2-7.6-vuduo4kse-02112026.zip",
       "sourceAssetName": "PurE2-7.6-vuduo4kse-02112026.zip",
       "sourceFileSize": 243013286,
-      "sourceReleaseTag": "Vuduo4kse"
+      "sourceReleaseTag": "Vuduo4kse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4kse"
     },
     {
       "id": 4246,
@@ -4686,12 +4789,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/egami-11.0-r22-vuduo4k-24092026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/egami-11.0-r22-vuduo4k-24092026.zip",
       "compatibility": "Vu+ Duo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/egami-11.0-r22-vuduo4k-24092026.zip",
       "sourceAssetName": "egami-11.0-r22-vuduo4k-24092026.zip",
       "sourceFileSize": 352703631,
-      "sourceReleaseTag": "Vuduo4k"
+      "sourceReleaseTag": "Vuduo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k"
     },
     {
       "id": 4247,
@@ -4707,12 +4812,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openatv-8.0.0-RC1-vuduo4k-24092026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openatv-8.0.0-RC1-vuduo4k-24092026.zip",
       "compatibility": "Vu+ Duo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openatv-8.0.0-RC1-vuduo4k-24092026.zip",
       "sourceAssetName": "openatv-8.0.0-RC1-vuduo4k-24092026.zip",
       "sourceFileSize": 336122453,
-      "sourceReleaseTag": "Vuduo4k"
+      "sourceReleaseTag": "Vuduo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k"
     },
     {
       "id": 4248,
@@ -4728,12 +4835,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openbh-6.0.003-vuduo4k-24092026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openbh-6.0.003-vuduo4k-24092026.zip",
       "compatibility": "Vu+ Duo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openbh-6.0.003-vuduo4k-24092026.zip",
       "sourceAssetName": "openbh-6.0.003-vuduo4k-24092026.zip",
       "sourceFileSize": 325030160,
-      "sourceReleaseTag": "Vuduo4k"
+      "sourceReleaseTag": "Vuduo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k"
     },
     {
       "id": 4249,
@@ -4749,12 +4858,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openvix-6.9.002-vuduo4k_24092026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openvix-6.9.002-vuduo4k_24092026.zip",
       "compatibility": "Vu+ Duo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openvix-6.9.002-vuduo4k_24092026.zip",
       "sourceAssetName": "openvix-6.9.002-vuduo4k_24092026.zip",
       "sourceFileSize": 352887466,
-      "sourceReleaseTag": "Vuduo4k"
+      "sourceReleaseTag": "Vuduo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k"
     },
     {
       "id": 4250,
@@ -4770,12 +4881,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/vuduo4k-PurE2-7.6-24092026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/vuduo4k-PurE2-7.6-24092026.zip",
       "compatibility": "Vu+ Duo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/vuduo4k-PurE2-7.6-24092026.zip",
       "sourceAssetName": "vuduo4k-PurE2-7.6-24092026.zip",
       "sourceFileSize": 342294166,
-      "sourceReleaseTag": "Vuduo4k"
+      "sourceReleaseTag": "Vuduo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k"
     },
     {
       "id": 4251,
@@ -4791,12 +4904,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/EGAMI-11.0-multiboxse_06112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/EGAMI-11.0-multiboxse_06112026.zip",
       "compatibility": "Novaler SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/EGAMI-11.0-multiboxse_06112026.zip",
       "sourceAssetName": "EGAMI-11.0-multiboxse_06112026.zip",
       "sourceFileSize": 265450626,
-      "sourceReleaseTag": "Novalerse"
+      "sourceReleaseTag": "Novalerse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse"
     },
     {
       "id": 4252,
@@ -4812,12 +4927,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/novalerSE_corvoboys_slot5.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/novalerSE_corvoboys_slot5.zip",
       "compatibility": "Novaler SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/novalerSE_corvoboys_slot5.zip",
       "sourceAssetName": "novalerSE_corvoboys_slot5.zip",
       "sourceFileSize": 116524864,
-      "sourceReleaseTag": "Novalerse"
+      "sourceReleaseTag": "Novalerse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse"
     },
     {
       "id": 4253,
@@ -4833,12 +4950,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenATV-8.0.1-multiboxse_06112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenATV-8.0.1-multiboxse_06112026.zip",
       "compatibility": "Novaler SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenATV-8.0.1-multiboxse_06112026.zip",
       "sourceAssetName": "OpenATV-8.0.1-multiboxse_06112026.zip",
       "sourceFileSize": 250955975,
-      "sourceReleaseTag": "Novalerse"
+      "sourceReleaseTag": "Novalerse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse"
     },
     {
       "id": 4254,
@@ -4854,12 +4973,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenATV-8.1.0_beta-multiboxse_06112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenATV-8.1.0_beta-multiboxse_06112026.zip",
       "compatibility": "Novaler SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenATV-8.1.0_beta-multiboxse_06112026.zip",
       "sourceAssetName": "OpenATV-8.1.0_beta-multiboxse_06112026.zip",
       "sourceFileSize": 257229709,
-      "sourceReleaseTag": "Novalerse"
+      "sourceReleaseTag": "Novalerse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse"
     },
     {
       "id": 4255,
@@ -4875,12 +4996,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenBh-6.0-multiboxse_06112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenBh-6.0-multiboxse_06112026.zip",
       "compatibility": "Novaler SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenBh-6.0-multiboxse_06112026.zip",
       "sourceAssetName": "OpenBh-6.0-multiboxse_06112026.zip",
       "sourceFileSize": 223147791,
-      "sourceReleaseTag": "Novalerse"
+      "sourceReleaseTag": "Novalerse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse"
     },
     {
       "id": 4256,
@@ -4896,12 +5019,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenPLi-9.2-multiboxse_06112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenPLi-9.2-multiboxse_06112026.zip",
       "compatibility": "Novaler SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenPLi-9.2-multiboxse_06112026.zip",
       "sourceAssetName": "OpenPLi-9.2-multiboxse_06112026.zip",
       "sourceFileSize": 144212364,
-      "sourceReleaseTag": "Novalerse"
+      "sourceReleaseTag": "Novalerse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse"
     },
     {
       "id": 4257,
@@ -4917,12 +5042,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/openspa-8.7.003-novalerse-10112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/openspa-8.7.003-novalerse-10112026.zip",
       "compatibility": "Novaler SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/openspa-8.7.003-novalerse-10112026.zip",
       "sourceAssetName": "openspa-8.7.003-novalerse-10112026.zip",
       "sourceFileSize": 265020291,
-      "sourceReleaseTag": "Novalerse"
+      "sourceReleaseTag": "Novalerse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse"
     },
     {
       "id": 4258,
@@ -4938,12 +5065,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenViX-6.9-multiboxse_06112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenViX-6.9-multiboxse_06112026.zip",
       "compatibility": "Novaler SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/OpenViX-6.9-multiboxse_06112026.zip",
       "sourceAssetName": "OpenViX-6.9-multiboxse_06112026.zip",
       "sourceFileSize": 235364816,
-      "sourceReleaseTag": "Novalerse"
+      "sourceReleaseTag": "Novalerse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse"
     },
     {
       "id": 4259,
@@ -4959,12 +5088,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/PurE2-7.6-multiboxse_06112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/PurE2-7.6-multiboxse_06112026.zip",
       "compatibility": "Novaler SE فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerse/PurE2-7.6-multiboxse_06112026.zip",
       "sourceAssetName": "PurE2-7.6-multiboxse_06112026.zip",
       "sourceFileSize": 250219774,
-      "sourceReleaseTag": "Novalerse"
+      "sourceReleaseTag": "Novalerse",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerse"
     },
     {
       "id": 4260,
@@ -4980,12 +5111,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/EGAMI-11.0-multiboxpro_10112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/EGAMI-11.0-multiboxpro_10112026.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/EGAMI-11.0-multiboxpro_10112026.zip",
       "sourceAssetName": "EGAMI-11.0-multiboxpro_10112026.zip",
       "sourceFileSize": 251271032,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4261,
@@ -5001,12 +5134,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/Hyperion-X3-novalerpro_18102026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/Hyperion-X3-novalerpro_18102026.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/Hyperion-X3-novalerpro_18102026.zip",
       "sourceAssetName": "Hyperion-X3-novalerpro_18102026.zip",
       "sourceFileSize": 303605436,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4262,
@@ -5022,12 +5157,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/novaler4kpro-3.53_recovery.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/novaler4kpro-3.53_recovery.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/novaler4kpro-3.53_recovery.zip",
       "sourceAssetName": "novaler4kpro-3.53_recovery.zip",
       "sourceFileSize": 17632678,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4263,
@@ -5043,12 +5180,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/novalerpro_corvoboys_slot5.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/novalerpro_corvoboys_slot5.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/novalerpro_corvoboys_slot5.zip",
       "sourceAssetName": "novalerpro_corvoboys_slot5.zip",
       "sourceFileSize": 125702672,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4264,
@@ -5064,12 +5203,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenATV-8.0.1-multiboxpro_10112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenATV-8.0.1-multiboxpro_10112026.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenATV-8.0.1-multiboxpro_10112026.zip",
       "sourceAssetName": "OpenATV-8.0.1-multiboxpro_10112026.zip",
       "sourceFileSize": 243696684,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4265,
@@ -5085,12 +5226,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
       "sourceAssetName": "OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
       "sourceFileSize": 258894327,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4266,
@@ -5106,12 +5249,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenBh-6.0-multiboxpro_08112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenBh-6.0-multiboxpro_08112026.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenBh-6.0-multiboxpro_08112026.zip",
       "sourceAssetName": "OpenBh-6.0-multiboxpro_08112026.zip",
       "sourceFileSize": 237738588,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4267,
@@ -5127,12 +5272,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/openHDF-8.0-multiboxpro_09112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/openHDF-8.0-multiboxpro_09112026.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/openHDF-8.0-multiboxpro_09112026.zip",
       "sourceAssetName": "openHDF-8.0-multiboxpro_09112026.zip",
       "sourceFileSize": 226095129,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4268,
@@ -5148,12 +5295,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenPLi-GCC-16.1-novalerpro_19102026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenPLi-GCC-16.1-novalerpro_19102026.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenPLi-GCC-16.1-novalerpro_19102026.zip",
       "sourceAssetName": "OpenPLi-GCC-16.1-novalerpro_19102026.zip",
       "sourceFileSize": 285448586,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4269,
@@ -5169,12 +5318,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenPLi-wrynose-multiboxpro_09112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenPLi-wrynose-multiboxpro_09112026.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenPLi-wrynose-multiboxpro_09112026.zip",
       "sourceAssetName": "OpenPLi-wrynose-multiboxpro_09112026.zip",
       "sourceFileSize": 217268146,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4270,
@@ -5190,12 +5341,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/openspa-8.7.002-OEA-novaler4kpro-06102026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/openspa-8.7.002-OEA-novaler4kpro-06102026.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/openspa-8.7.002-OEA-novaler4kpro-06102026.zip",
       "sourceAssetName": "openspa-8.7.002-OEA-novaler4kpro-06102026.zip",
       "sourceFileSize": 335085957,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4271,
@@ -5211,12 +5364,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenViX-6.9-novaler4kpro_01112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenViX-6.9-novaler4kpro_01112026.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/OpenViX-6.9-novaler4kpro_01112026.zip",
       "sourceAssetName": "OpenViX-6.9-novaler4kpro_01112026.zip",
       "sourceFileSize": 245983429,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4272,
@@ -5232,12 +5387,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/PurE2-7.6-novalerpro_18102026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/PurE2-7.6-novalerpro_18102026.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/PurE2-7.6-novalerpro_18102026.zip",
       "sourceAssetName": "PurE2-7.6-novalerpro_18102026.zip",
       "sourceFileSize": 232510309,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4273,
@@ -5253,12 +5410,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/Teamblue-8.0-multiboxpro_08112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/Teamblue-8.0-multiboxpro_08112026.zip",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novalerpro/Teamblue-8.0-multiboxpro_08112026.zip",
       "sourceAssetName": "Teamblue-8.0-multiboxpro_08112026.zip",
       "sourceFileSize": 225086419,
-      "sourceReleaseTag": "Novalerpro"
+      "sourceReleaseTag": "Novalerpro",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro"
     },
     {
       "id": 4274,
@@ -5274,12 +5433,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/egami-11.0-r23-novaler4k-07112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/egami-11.0-r23-novaler4k-07112026.zip",
       "compatibility": "Novaler 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/egami-11.0-r23-novaler4k-07112026.zip",
       "sourceAssetName": "egami-11.0-r23-novaler4k-07112026.zip",
       "sourceFileSize": 236411992,
-      "sourceReleaseTag": "Novaler4k"
+      "sourceReleaseTag": "Novaler4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k"
     },
     {
       "id": 4275,
@@ -5295,12 +5456,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openatv-8.1.0.beta-novaler4k-07112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openatv-8.1.0.beta-novaler4k-07112026.zip",
       "compatibility": "Novaler 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openatv-8.1.0.beta-novaler4k-07112026.zip",
       "sourceAssetName": "openatv-8.1.0.beta-novaler4k-07112026.zip",
       "sourceFileSize": 243465044,
-      "sourceReleaseTag": "Novaler4k"
+      "sourceReleaseTag": "Novaler4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k"
     },
     {
       "id": 4276,
@@ -5316,12 +5479,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openbh-6.0.005-novaler4k_07112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openbh-6.0.005-novaler4k_07112026.zip",
       "compatibility": "Novaler 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openbh-6.0.005-novaler4k_07112026.zip",
       "sourceAssetName": "openbh-6.0.005-novaler4k_07112026.zip",
       "sourceFileSize": 210768715,
-      "sourceReleaseTag": "Novaler4k"
+      "sourceReleaseTag": "Novaler4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k"
     },
     {
       "id": 4277,
@@ -5337,12 +5502,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openvix-6.9.006-novaler4k_07112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openvix-6.9.006-novaler4k_07112026.zip",
       "compatibility": "Novaler 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/openvix-6.9.006-novaler4k_07112026.zip",
       "sourceAssetName": "openvix-6.9.006-novaler4k_07112026.zip",
       "sourceFileSize": 221806371,
-      "sourceReleaseTag": "Novaler4k"
+      "sourceReleaseTag": "Novaler4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k"
     },
     {
       "id": 4278,
@@ -5358,12 +5525,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/PurE2-7.6-novaler4k-07112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/PurE2-7.6-novaler4k-07112026.zip",
       "compatibility": "Novaler 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-novaler4k/PurE2-7.6-novaler4k-07112026.zip",
       "sourceAssetName": "PurE2-7.6-novaler4k-07112026.zip",
       "sourceFileSize": 236005381,
-      "sourceReleaseTag": "Novaler4k"
+      "sourceReleaseTag": "Novaler4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Novaler4k"
     },
     {
       "id": 4279,
@@ -5379,12 +5548,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/egami-11.0-r23-vusolo4k-19112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/egami-11.0-r23-vusolo4k-19112026.zip",
       "compatibility": "Vu+ Solo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/egami-11.0-r23-vusolo4k-19112026.zip",
       "sourceAssetName": "egami-11.0-r23-vusolo4k-19112026.zip",
       "sourceFileSize": 307714032,
-      "sourceReleaseTag": "Vusolo4k"
+      "sourceReleaseTag": "Vusolo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k"
     },
     {
       "id": 4280,
@@ -5400,12 +5571,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openatv-8.0.1-vusolo4k-19112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openatv-8.0.1-vusolo4k-19112026.zip",
       "compatibility": "Vu+ Solo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openatv-8.0.1-vusolo4k-19112026.zip",
       "sourceAssetName": "openatv-8.0.1-vusolo4k-19112026.zip",
       "sourceFileSize": 292732748,
-      "sourceReleaseTag": "Vusolo4k"
+      "sourceReleaseTag": "Vusolo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k"
     },
     {
       "id": 4281,
@@ -5421,12 +5594,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openbh-6.0.005-vusolo4k-19112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openbh-6.0.005-vusolo4k-19112026.zip",
       "compatibility": "Vu+ Solo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openbh-6.0.005-vusolo4k-19112026.zip",
       "sourceAssetName": "openbh-6.0.005-vusolo4k-19112026.zip",
       "sourceFileSize": 230620551,
-      "sourceReleaseTag": "Vusolo4k"
+      "sourceReleaseTag": "Vusolo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k"
     },
     {
       "id": 4282,
@@ -5442,12 +5617,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openvix-6.9.007-vusolo4k_19112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openvix-6.9.007-vusolo4k_19112026.zip",
       "compatibility": "Vu+ Solo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/openvix-6.9.007-vusolo4k_19112026.zip",
       "sourceAssetName": "openvix-6.9.007-vusolo4k_19112026.zip",
       "sourceFileSize": 265124896,
-      "sourceReleaseTag": "Vusolo4k"
+      "sourceReleaseTag": "Vusolo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k"
     },
     {
       "id": 4283,
@@ -5463,12 +5640,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/PurE2-7.6-vusolo4k_19112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/PurE2-7.6-vusolo4k_19112026.zip",
       "compatibility": "Vu+ Solo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vusolo4k/PurE2-7.6-vusolo4k_19112026.zip",
       "sourceAssetName": "PurE2-7.6-vusolo4k_19112026.zip",
       "sourceFileSize": 284291824,
-      "sourceReleaseTag": "Vusolo4k"
+      "sourceReleaseTag": "Vusolo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vusolo4k"
     },
     {
       "id": 4284,
@@ -5484,12 +5663,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/egami-11.0-r23-vuduo4k-19112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/egami-11.0-r23-vuduo4k-19112026.zip",
       "compatibility": "Vu+ Duo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/egami-11.0-r23-vuduo4k-19112026.zip",
       "sourceAssetName": "egami-11.0-r23-vuduo4k-19112026.zip",
       "sourceFileSize": 328750389,
-      "sourceReleaseTag": "Vuduo4k"
+      "sourceReleaseTag": "Vuduo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k"
     },
     {
       "id": 4285,
@@ -5505,12 +5686,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openatv-8.0.1-vuduo4k-19112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openatv-8.0.1-vuduo4k-19112026.zip",
       "compatibility": "Vu+ Duo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openatv-8.0.1-vuduo4k-19112026.zip",
       "sourceAssetName": "openatv-8.0.1-vuduo4k-19112026.zip",
       "sourceFileSize": 308788571,
-      "sourceReleaseTag": "Vuduo4k"
+      "sourceReleaseTag": "Vuduo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k"
     },
     {
       "id": 4286,
@@ -5526,12 +5709,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openbh-6.0.005-vuduo4k-19112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openbh-6.0.005-vuduo4k-19112026.zip",
       "compatibility": "Vu+ Duo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/openbh-6.0.005-vuduo4k-19112026.zip",
       "sourceAssetName": "openbh-6.0.005-vuduo4k-19112026.zip",
       "sourceFileSize": 241803605,
-      "sourceReleaseTag": "Vuduo4k"
+      "sourceReleaseTag": "Vuduo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k"
     },
     {
       "id": 4287,
@@ -5547,12 +5732,14 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/PurE2-7.6-vuduo4k_19112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/PurE2-7.6-vuduo4k_19112026.zip",
       "compatibility": "Vu+ Duo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuduo4k/PurE2-7.6-vuduo4k_19112026.zip",
       "sourceAssetName": "PurE2-7.6-vuduo4k_19112026.zip",
       "sourceFileSize": 305447922,
-      "sourceReleaseTag": "Vuduo4k"
+      "sourceReleaseTag": "Vuduo4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/books/releases/tag/Vuduo4k"
     },
     {
       "id": 4288,
@@ -5568,14 +5755,16 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/egami-11.0-r23-vuzero4k-03112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/egami-11.0-r23-vuzero4k-03112026.zip",
       "compatibility": "Vu+ Zero 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/egami-11.0-r23-vuzero4k-03112026.zip",
       "sourceRepo": "KhaledAli65/novaler",
       "sourceAssetName": "egami-11.0-r23-vuzero4k-03112026.zip",
       "sourceFileSize": 274187897,
       "sourceDigest": "sha256:6361bd883c700d4ad64c93f28f02092595fd60be8bab85db56514f8bedbcd19a",
-      "sourceReleaseTag": "Zero4k"
+      "sourceReleaseTag": "Zero4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k"
     },
     {
       "id": 4289,
@@ -5591,14 +5780,16 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openatv-8.0.1-vuzero4k-03112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openatv-8.0.1-vuzero4k-03112026.zip",
       "compatibility": "Vu+ Zero 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openatv-8.0.1-vuzero4k-03112026.zip",
       "sourceRepo": "KhaledAli65/novaler",
       "sourceAssetName": "openatv-8.0.1-vuzero4k-03112026.zip",
       "sourceFileSize": 251220439,
       "sourceDigest": "sha256:4581594f950b195c8f2cac5014ba07a755dce8482a8f6f333ab6bcd5cb58a86f",
-      "sourceReleaseTag": "Zero4k"
+      "sourceReleaseTag": "Zero4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k"
     },
     {
       "id": 4290,
@@ -5614,14 +5805,16 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openbh-6.0.005-vuzero4k-03112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openbh-6.0.005-vuzero4k-03112026.zip",
       "compatibility": "Vu+ Zero 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openbh-6.0.005-vuzero4k-03112026.zip",
       "sourceRepo": "KhaledAli65/novaler",
       "sourceAssetName": "openbh-6.0.005-vuzero4k-03112026.zip",
       "sourceFileSize": 230983618,
       "sourceDigest": "sha256:d6622c2bc19c45332dc582ae1469796c762baa7421720e164a2cf0d6189e05dd",
-      "sourceReleaseTag": "Zero4k"
+      "sourceReleaseTag": "Zero4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k"
     },
     {
       "id": 4291,
@@ -5637,14 +5830,16 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openvix-6.9.003-vuzero4k_03112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openvix-6.9.003-vuzero4k_03112026.zip",
       "compatibility": "Vu+ Zero 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/openvix-6.9.003-vuzero4k_03112026.zip",
       "sourceRepo": "KhaledAli65/novaler",
       "sourceAssetName": "openvix-6.9.003-vuzero4k_03112026.zip",
       "sourceFileSize": 254121239,
       "sourceDigest": "sha256:f2c14d4d4a5ae7bec4880a87e95305a48b84d7e79e0c5b69304aba1e246cbb73",
-      "sourceReleaseTag": "Zero4k"
+      "sourceReleaseTag": "Zero4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k"
     },
     {
       "id": 4292,
@@ -5660,14 +5855,16 @@
       "icon": "💾",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/PurE2-7.6-vuzero4k_03112026.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/PurE2-7.6-vuzero4k_03112026.zip",
       "compatibility": "Vu+ Zero 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-zero4k/PurE2-7.6-vuzero4k_03112026.zip",
       "sourceRepo": "KhaledAli65/novaler",
       "sourceAssetName": "PurE2-7.6-vuzero4k_03112026.zip",
       "sourceFileSize": 255023176,
       "sourceDigest": "sha256:3a5192e6def2ab0f05060cd975ad365b7b8ef0793ada50482bc9e200eaaf4fca",
-      "sourceReleaseTag": "Zero4k"
+      "sourceReleaseTag": "Zero4k",
+      "originalSourceUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "originalDetailUrl": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k"
     },
     {
       "id": 4293,
@@ -5685,7 +5882,7 @@
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/01_OpenATV-8.0.1-multiboxpro_20112026.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/b56eb9f430b4-01_OpenATV-8.0.1-multiboxpro_20112026.zip",
       "sourceRepo": "KhaledAli65/books",
       "sourceAssetName": "01_OpenATV-8.0.1-multiboxpro_20112026.zip",
       "sourceFileSize": 316942952,
@@ -5699,7 +5896,8 @@
         "checkedAt": "2026-11-20T20:22:01Z"
       },
       "mirroredAt": "2026-11-20T21:11:12Z",
-      "mirrorDigest": "sha256:b56eb9f430b40905b74cf1289d40d04ffb3739ca16ec4cda707f6aca06cb79f6"
+      "mirrorDigest": "sha256:b56eb9f430b40905b74cf1289d40d04ffb3739ca16ec4cda707f6aca06cb79f6",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/01_OpenATV-8.0.1-multiboxpro_20112026.zip"
     },
     {
       "id": 4294,
@@ -5717,7 +5915,7 @@
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/02_OpenSPA-8.7-multiboxpro_20112026.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/33e04c550aaa-02_OpenSPA-8.7-multiboxpro_20112026.zip",
       "sourceRepo": "KhaledAli65/books",
       "sourceAssetName": "02_OpenSPA-8.7-multiboxpro_20112026.zip",
       "sourceFileSize": 301141032,
@@ -5731,7 +5929,8 @@
         "checkedAt": "2026-11-20T20:22:03Z"
       },
       "mirroredAt": "2026-11-20T21:11:26Z",
-      "mirrorDigest": "sha256:33e04c550aaa394012577e31a8628ad1b1290409a65fba19cd136702e861af01"
+      "mirrorDigest": "sha256:33e04c550aaa394012577e31a8628ad1b1290409a65fba19cd136702e861af01",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/02_OpenSPA-8.7-multiboxpro_20112026.zip"
     },
     {
       "id": 4295,
@@ -5749,7 +5948,7 @@
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/03_EGAMI-11.0-multiboxpro_10112026.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/35590dba2f77-03_EGAMI-11.0-multiboxpro_10112026.zip",
       "sourceRepo": "KhaledAli65/books",
       "sourceAssetName": "03_EGAMI-11.0-multiboxpro_10112026.zip",
       "sourceFileSize": 251271032,
@@ -5763,7 +5962,8 @@
         "checkedAt": "2026-11-20T20:22:06Z"
       },
       "mirroredAt": "2026-11-20T21:11:38Z",
-      "mirrorDigest": "sha256:35590dba2f7738502fea2b478d0b946ddb4048512fe31cd4b9ed7f6707f80d24"
+      "mirrorDigest": "sha256:35590dba2f7738502fea2b478d0b946ddb4048512fe31cd4b9ed7f6707f80d24",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/03_EGAMI-11.0-multiboxpro_10112026.zip"
     },
     {
       "id": 4296,
@@ -5781,7 +5981,7 @@
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/04_openHDF-8.0-multiboxpro_09112026.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/162c73ea7a94-04_openHDF-8.0-multiboxpro_09112026.zip",
       "sourceRepo": "KhaledAli65/books",
       "sourceAssetName": "04_openHDF-8.0-multiboxpro_09112026.zip",
       "sourceFileSize": 226095129,
@@ -5795,7 +5995,8 @@
         "checkedAt": "2026-11-20T20:22:09Z"
       },
       "mirroredAt": "2026-11-20T21:11:50Z",
-      "mirrorDigest": "sha256:162c73ea7a946df9916d629b02045bf1cc7a820b401b50b0c97bdbb20c91a36a"
+      "mirrorDigest": "sha256:162c73ea7a946df9916d629b02045bf1cc7a820b401b50b0c97bdbb20c91a36a",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/04_openHDF-8.0-multiboxpro_09112026.zip"
     },
     {
       "id": 4297,
@@ -5813,7 +6014,7 @@
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/05_OpenPLi-wrynose-multiboxpro_09112026.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/f698efbd7f90-05_OpenPLi-wrynose-multiboxpro_09112026.zip",
       "sourceRepo": "KhaledAli65/books",
       "sourceAssetName": "05_OpenPLi-wrynose-multiboxpro_09112026.zip",
       "sourceFileSize": 217268146,
@@ -5827,7 +6028,8 @@
         "checkedAt": "2026-11-20T20:22:11Z"
       },
       "mirroredAt": "2026-11-20T21:11:59Z",
-      "mirrorDigest": "sha256:f698efbd7f9056177490ddae1d0cfd4fdc62726906c63aebf81e2109204926c8"
+      "mirrorDigest": "sha256:f698efbd7f9056177490ddae1d0cfd4fdc62726906c63aebf81e2109204926c8",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/05_OpenPLi-wrynose-multiboxpro_09112026.zip"
     },
     {
       "id": 4298,
@@ -5845,7 +6047,7 @@
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/06_Teamblue-8.0-multiboxpro_08112026.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/8f20e62eb42c-06_Teamblue-8.0-multiboxpro_08112026.zip",
       "sourceRepo": "KhaledAli65/books",
       "sourceAssetName": "06_Teamblue-8.0-multiboxpro_08112026.zip",
       "sourceFileSize": 225086419,
@@ -5859,7 +6061,8 @@
         "checkedAt": "2026-11-20T20:22:12Z"
       },
       "mirroredAt": "2026-11-20T21:12:09Z",
-      "mirrorDigest": "sha256:8f20e62eb42c149619d728eeb99be9bbd6b2f0726c16d4464033924770454efb"
+      "mirrorDigest": "sha256:8f20e62eb42c149619d728eeb99be9bbd6b2f0726c16d4464033924770454efb",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/06_Teamblue-8.0-multiboxpro_08112026.zip"
     },
     {
       "id": 4299,
@@ -5877,7 +6080,7 @@
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/07_OpenBh-6.0-multiboxpro_08112026.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6418e5d01fbf-07_OpenBh-6.0-multiboxpro_08112026.zip",
       "sourceRepo": "KhaledAli65/books",
       "sourceAssetName": "07_OpenBh-6.0-multiboxpro_08112026.zip",
       "sourceFileSize": 237738588,
@@ -5891,7 +6094,8 @@
         "checkedAt": "2026-11-20T20:22:15Z"
       },
       "mirroredAt": "2026-11-20T21:12:23Z",
-      "mirrorDigest": "sha256:6418e5d01fbf626b2452be40034b5542fd743735e08c275bcc4f6b63728a2f38"
+      "mirrorDigest": "sha256:6418e5d01fbf626b2452be40034b5542fd743735e08c275bcc4f6b63728a2f38",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/07_OpenBh-6.0-multiboxpro_08112026.zip"
     },
     {
       "id": 4300,
@@ -5909,7 +6113,7 @@
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6b8decffc63b-08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
       "sourceRepo": "KhaledAli65/books",
       "sourceAssetName": "08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip",
       "sourceFileSize": 258894327,
@@ -5923,7 +6127,8 @@
         "checkedAt": "2026-11-20T20:22:19Z"
       },
       "mirroredAt": "2026-11-20T21:12:38Z",
-      "mirrorDigest": "sha256:6b8decffc63b5dc4b0c762243599a4a8a2acc2ed70d8167a644a56b5c5bf7c17"
+      "mirrorDigest": "sha256:6b8decffc63b5dc4b0c762243599a4a8a2acc2ed70d8167a644a56b5c5bf7c17",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/08_OpenATV-8.1.0_beta-multiboxpro_08112026.zip"
     },
     {
       "id": 4301,
@@ -5941,7 +6146,7 @@
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/269480c393b9-10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
       "sourceRepo": "KhaledAli65/books",
       "sourceAssetName": "10_OpenPLi-GCC-16.1-novalerpro_19102026.zip",
       "sourceFileSize": 285448586,
@@ -5955,7 +6160,8 @@
         "checkedAt": "2026-11-20T20:22:23Z"
       },
       "mirroredAt": "2026-11-20T21:12:50Z",
-      "mirrorDigest": "sha256:269480c393b96f7fc391d948ec12ee7f33cd172e48f713a7b83745fe02b0e3b3"
+      "mirrorDigest": "sha256:269480c393b96f7fc391d948ec12ee7f33cd172e48f713a7b83745fe02b0e3b3",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/10_OpenPLi-GCC-16.1-novalerpro_19102026.zip"
     },
     {
       "id": 4302,
@@ -5973,7 +6179,7 @@
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/11_PurE2-7.6-novalerpro_18102026.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/18867205cf67-11_PurE2-7.6-novalerpro_18102026.zip",
       "sourceRepo": "KhaledAli65/books",
       "sourceAssetName": "11_PurE2-7.6-novalerpro_18102026.zip",
       "sourceFileSize": 232510309,
@@ -5987,7 +6193,8 @@
         "checkedAt": "2026-11-20T20:22:26Z"
       },
       "mirroredAt": "2026-11-20T21:13:02Z",
-      "mirrorDigest": "sha256:18867205cf67b0d30587cc4c45a54330f83083a48cc584510638e87c96a7e003"
+      "mirrorDigest": "sha256:18867205cf67b0d30587cc4c45a54330f83083a48cc584510638e87c96a7e003",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/11_PurE2-7.6-novalerpro_18102026.zip"
     },
     {
       "id": 4303,
@@ -6005,7 +6212,7 @@
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/12_Hyperion-X3-novalerpro_18102026.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip",
       "sourceRepo": "KhaledAli65/books",
       "sourceAssetName": "12_Hyperion-X3-novalerpro_18102026.zip",
       "sourceFileSize": 303605436,
@@ -6019,7 +6226,8 @@
         "checkedAt": "2026-11-20T20:22:29Z"
       },
       "mirroredAt": "2026-11-20T21:13:17Z",
-      "mirrorDigest": "sha256:08c14e70bec9ce8466a4ea8463f063969fe4c13a0d034b6c83c92cead19a5997"
+      "mirrorDigest": "sha256:08c14e70bec9ce8466a4ea8463f063969fe4c13a0d034b6c83c92cead19a5997",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/12_Hyperion-X3-novalerpro_18102026.zip"
     },
     {
       "id": 4304,
@@ -6037,7 +6245,7 @@
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip",
       "icon": "💾",
       "compatibility": "Novaler Pro فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/13_novalerpro_corvoboys_slot5.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip",
       "sourceRepo": "KhaledAli65/books",
       "sourceAssetName": "13_novalerpro_corvoboys_slot5.zip",
       "sourceFileSize": 125702672,
@@ -6051,7 +6259,8 @@
         "checkedAt": "2026-11-20T20:22:31Z"
       },
       "mirroredAt": "2026-11-20T21:13:25Z",
-      "mirrorDigest": "sha256:3cb2177b23dd01161f370e9dfce45c183ee487e0f959964f30a31609c2d10f69"
+      "mirrorDigest": "sha256:3cb2177b23dd01161f370e9dfce45c183ee487e0f959964f30a31609c2d10f69",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/13_novalerpro_corvoboys_slot5.zip"
     },
     {
       "id": 4305,
@@ -6069,7 +6278,7 @@
       "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/588bea701aec-openvix-6.9.007-vuduo4k_19112026.zip",
       "icon": "💾",
       "compatibility": "Vu+ Duo 4K فقط",
-      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Vuduo4k/openvix-6.9.007-vuduo4k_19112026.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/588bea701aec-openvix-6.9.007-vuduo4k_19112026.zip",
       "sourceRepo": "KhaledAli65/books",
       "sourceAssetName": "openvix-6.9.007-vuduo4k_19112026.zip",
       "sourceFileSize": 276576499,
@@ -6083,7 +6292,8 @@
         "checkedAt": "2026-11-20T20:22:35Z"
       },
       "mirroredAt": "2026-11-20T21:13:36Z",
-      "mirrorDigest": "sha256:588bea701aeccf47a9c117d768f49ef7fdf50b2e1bbd9ce58dc1f21368bcac2f"
+      "mirrorDigest": "sha256:588bea701aeccf47a9c117d768f49ef7fdf50b2e1bbd9ce58dc1f21368bcac2f",
+      "originalSourceUrl": "https://github.com/KhaledAli65/books/releases/download/Vuduo4k/openvix-6.9.007-vuduo4k_19112026.zip"
     },
     {
       "id": 4306,
@@ -11562,6 +11772,664 @@
         "format": "ipk/ar",
         "controlMetadata": "passed"
       }
+    },
+    {
+      "id": 4472,
+      "name": "XStreamity",
+      "category": "plugins",
+      "group": "📡 إضافات IPTV",
+      "description": "واجهة لمشاهدة وإدارة محتوى IPTV على أجهزة Enigma2.",
+      "version": "5.72",
+      "date": "2026-10-24",
+      "downloads": 648,
+      "keywords": "XStreamity IPTV البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4f9f51751296-installer.sh",
+      "icon": "🧩",
+      "subcategory": "iptv",
+      "command": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4f9f51751296-installer.sh -O - | /bin/sh",
+      "repoUrl": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "compatibility": "متوافق مع معظم صور وأجهزة Enigma2؛ راجع متطلبات Python والتبعيات حسب الصورة",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4f9f51751296-installer.sh",
+      "originalDetailUrl": "#",
+      "originalRepoUrl": "https://github.com/kiddac/XStreamity"
+    },
+    {
+      "id": 4473,
+      "name": "JediMakerXtream",
+      "category": "plugins",
+      "group": "📡 إضافات IPTV",
+      "description": "إنشاء وتنظيم قوائم IPTV وتحويل بيانات الخدمة إلى بوكيهات.",
+      "version": "Demo",
+      "date": "2026-10-27",
+      "downloads": 511,
+      "keywords": "JediMakerXtream IPTV البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/175bf4a1f35b-installer.sh",
+      "icon": "🧩",
+      "subcategory": "iptv",
+      "command": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/175bf4a1f35b-installer.sh -O - | /bin/sh",
+      "installCommand": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/175bf4a1f35b-installer.sh -O - | /bin/sh",
+      "repoUrl": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/175bf4a1f35b-installer.sh",
+      "originalDetailUrl": "#",
+      "originalRepoUrl": "https://github.com/biko-73/JediMakerXtream"
+    },
+    {
+      "id": 4474,
+      "name": "IPTVPlayer",
+      "category": "plugins",
+      "group": "📡 إضافات IPTV",
+      "description": "مشغّل E2iPlayer لتصفح وتشغيل محتوى الفيديو عبر الإنترنت من داخل Enigma2.",
+      "version": "Demo",
+      "date": "2026-10-25",
+      "downloads": 785,
+      "keywords": "IPTVPlayer IPTV البلجنات",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a454d425201-e2iplayer_install.sh",
+      "icon": "🧩",
+      "subcategory": "iptv",
+      "command": "wget -q https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a454d425201-e2iplayer_install.sh -O - | /bin/sh",
+      "installCommand": "wget -q https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a454d425201-e2iplayer_install.sh -O - | /bin/sh",
+      "repoUrl": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a454d425201-e2iplayer_install.sh",
+      "originalDetailUrl": "#",
+      "originalRepoUrl": "https://github.com/oe-mirrors/e2iplayer"
+    },
+    {
+      "id": 4475,
+      "name": "EPGImport",
+      "category": "plugins",
+      "subcategory": "epg",
+      "group": "📖 إضافات EPG",
+      "description": "استيراد بيانات دليل البرامج EPG من مصادر متعددة وتحديثها على الرسيفر.",
+      "version": "Demo",
+      "date": "2026-10-24",
+      "downloads": 1558,
+      "keywords": "EPGImport 📖 إضافات EPG البلجنات",
+      "icon": "📦",
+      "downloadUrl": "#",
+      "guideUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/23fa001a388a-installer_epgimportiet5_auto.sh",
+      "command": "wget -qO- https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/23fa001a388a-installer_epgimportiet5_auto.sh | /bin/sh",
+      "installCommand": "wget -qO- https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/23fa001a388a-installer_epgimportiet5_auto.sh | /bin/sh",
+      "repoUrl": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/23fa001a388a-installer_epgimportiet5_auto.sh",
+      "originalDetailUrl": "#",
+      "originalRepoUrl": "https://github.com/Saiedf/EPGImport"
+    },
+    {
+      "id": 4476,
+      "name": "Vu+ Uno",
+      "category": "backup",
+      "subcategory": "vuplus",
+      "group": "Vu+",
+      "description": "نسخة باك أب EGAMI 11.0 R21 لجهاز Vu+ Uno 4K SE. راجع موديل الجهاز قبل الاستعادة.",
+      "version": "EGAMI 11.0 R21",
+      "date": "22 أغسطس 2026",
+      "downloads": 2013,
+      "keywords": "Vu+ Uno Vu+ النسخ الاحتياطية",
+      "icon": "💾",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip",
+      "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip",
+      "compatibility": "Vu+ Uno 4K SE فقط",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip",
+      "originalDetailUrl": "#"
+    },
+    {
+      "id": 4477,
+      "name": "Vu+ Duo 4K SE — OpenATV 7.4",
+      "category": "backup",
+      "subcategory": "vu-duo4kse",
+      "group": "Vu+",
+      "description": "نسخة باك أب OpenATV 7.4 مخصصة لجهاز Vu+ Duo 4K SE. راجع موديل الجهاز قبل الاستعادة.",
+      "version": "OpenATV 7.4",
+      "date": "3 يوليو 2024",
+      "downloads": 2239,
+      "keywords": "Vu+ Duo 4K SE OpenATV 7.4 النسخ الاحتياطية",
+      "icon": "💾",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip",
+      "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip",
+      "compatibility": "Vu+ Duo 4K SE فقط",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip",
+      "originalDetailUrl": "#"
+    },
+    {
+      "id": 4478,
+      "name": "Vu+ Uno 4K SE — Pure2 7.6",
+      "category": "backup",
+      "subcategory": "vu-uno4kse",
+      "group": "Vu+",
+      "description": "نسخة باك أب Pure2 7.6 مخصصة لجهاز Vu+ Uno 4K SE. راجع موديل الجهاز قبل الاستعادة.",
+      "version": "Pure2 7.6",
+      "date": "5 أغسطس 2026",
+      "keywords": "Vu+ Uno 4K SE Pure2 7.6 النسخ الاحتياطية",
+      "icon": "💾",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip",
+      "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip",
+      "compatibility": "Vu+ Uno 4K SE فقط",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip",
+      "originalDetailUrl": "#"
+    },
+    {
+      "id": 4479,
+      "name": "Vu+ Duo 4K SE — EGAMI 11.0 R18",
+      "category": "backup",
+      "subcategory": "vu-duo4kse",
+      "group": "Vu+",
+      "description": "نسخة باك أب EGAMI 11.0 R18 مخصصة لجهاز Vu+ Duo 4K SE بواسطة Rome7. راجع موديل الجهاز قبل الاستعادة.",
+      "version": "EGAMI 11.0 R18",
+      "date": "28 مارس 2026",
+      "keywords": "Vu+ Duo 4K SE EGAMI 11.0 R18 النسخ الاحتياطية",
+      "icon": "💾",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip",
+      "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip",
+      "compatibility": "Vu+ Duo 4K SE فقط",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip",
+      "originalDetailUrl": "#"
+    },
+    {
+      "id": 4480,
+      "name": "ملف قنوات Online4Tech الرسمي — موتور",
+      "category": "channels",
+      "group": "أنظمة الموتور",
+      "description": "ملف القنوات الرسمي المقدم من Online4Tech لأجهزة Enigma2 المتوافقة مع OpenATV. يتم تحديثه عبر مستودع الموقع؛ احتفظ بنسخة من قائمة قنواتك الحالية قبل الاستعادة.",
+      "version": "آخر إصدار من المستودع",
+      "date": "يتم التحديث مع المستودع",
+      "downloads": 528,
+      "keywords": "Online4Tech ملف قنوات الموقع الرسمي موتور Motor Enigma2 OpenATV",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c2b23973eae0-channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
+      "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c2b23973eae0-channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
+      "icon": "📺",
+      "subcategory": "motor",
+      "compatibility": "OpenATV وأجهزة Enigma2 المتوافقة مع بنية ملف القنوات",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c2b23973eae0-channels_backup_openATV_Enigma2-Chanal-List-BYRomeh.tar.gz",
+      "originalDetailUrl": "#"
+    },
+    {
+      "id": 4481,
+      "name": "Emil Nabil Channel Installer",
+      "category": "channels",
+      "subcategory": "motor",
+      "group": "Motor Systems",
+      "description": "أداة تثبيت ملف قنوات Emil Nabil لأجهزة Enigma2. تنبيه مهم: السكربت يستبدل ملفات القنوات الحالية وقد يحذف بعض ملفات EPG والمؤقتات؛ خذ نسخة احتياطية كاملة وتأكد من توافق جهازك وصورة النظام قبل التشغيل.",
+      "version": "Installer Script",
+      "date": "2026-11-01",
+      "keywords": "Emil Nabil Channel Installer ملف قنوات موتور Motor Systems USALS DiSEqC Enigma2",
+      "icon": "📡",
+      "command": "wget https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/d0e73d26871d-channel.sh -qO - | /bin/sh",
+      "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/channel-list.html",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/d0e73d26871d-channel.sh",
+      "compatibility": "أجهزة Enigma2 المتوافقة مع السكربت؛ راجع صورة النظام والموديل قبل التشغيل",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/d0e73d26871d-channel.sh",
+      "originalDetailUrl": "#"
+    },
+    {
+      "id": 4482,
+      "name": "AlMuaddhin",
+      "category": "plugins",
+      "subcategory": "enigma",
+      "group": "📦 إضافات Enigma2",
+      "description": "إضافة مواقيت الصلاة والتنبيه لها على أجهزة Enigma2. سكربت المصدر يحذف مجلد الإضافة السابق قبل فك النسخة الجديدة؛ خذ نسخة من إعداداتك وراجع توافق الصورة قبل التنفيذ.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "AlMuaddhin Enigma2 Dreambox Vu+ OpenATV OpenPLI Egami Emil Nabil",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/8153dbc2436f-AlMuaddhin.tar.gz",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/566bdaf92a71-almoaddhin.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ التوافق الفعلي يعتمد على صورة النظام وإصدار Python والحزم المتاحة. راجع التحذير في الوصف.",
+      "icon": "🧩",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/8153dbc2436f-AlMuaddhin.tar.gz",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/8153dbc2436f-AlMuaddhin.tar.gz",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/AlMuaddhin"
+    },
+    {
+      "id": 4483,
+      "name": "ImagesDownloader",
+      "category": "plugins",
+      "subcategory": "enigma",
+      "group": "📦 إضافات Enigma2",
+      "description": "أداة تنزيل الصور/الملفات المرتبطة ببيئة Enigma2. سكربت المصدر يحذف مجلد الإضافة القديم قبل التثبيت؛ لا تنفّذه أثناء وجود تحديث أو عملية أخرى.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "ImagesDownloader Enigma2 Dreambox Vu+ OpenATV OpenPLI Egami Emil Nabil",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/798375270d63-ImagesDownloader.tar.gz",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/3c3cbd6ac498-ImagesDownloader.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ التوافق الفعلي يعتمد على صورة النظام وإصدار Python والحزم المتاحة. راجع التحذير في الوصف.",
+      "icon": "🧩",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/798375270d63-ImagesDownloader.tar.gz",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/798375270d63-ImagesDownloader.tar.gz",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/ImagesDownloader"
+    },
+    {
+      "id": 4484,
+      "name": "InfoBarWeather",
+      "category": "plugins",
+      "subcategory": "enigma",
+      "group": "📦 إضافات Enigma2",
+      "description": "إضافة عرض معلومات الطقس على شريط المعلومات. سكربت المصدر يزيل مجلد النسخة السابقة ويثبت curl عند الحاجة؛ التوافق يعتمد على صورة Enigma2.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "InfoBarWeather Enigma2 Dreambox Vu+ OpenATV OpenPLI Egami Emil Nabil",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/fe816b31f162-InfobarWeather.tar.gz",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/cc4cf93759fa-InfobarWeather.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ التوافق الفعلي يعتمد على صورة النظام وإصدار Python والحزم المتاحة. راجع التحذير في الوصف.",
+      "icon": "🧩",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/fe816b31f162-InfobarWeather.tar.gz",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/fe816b31f162-InfobarWeather.tar.gz",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/InfoBarWeather"
+    },
+    {
+      "id": 4485,
+      "name": "Mawaqit",
+      "category": "plugins",
+      "subcategory": "enigma",
+      "group": "📦 إضافات Enigma2",
+      "description": "إضافة Mawaqit لعرض مواقيت الصلاة. سكربت المصدر يحذف مجلد الإضافة السابق قبل فك الأرشيف؛ راجع التوافق وخذ نسخة احتياطية.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Mawaqit Enigma2 Dreambox Vu+ OpenATV OpenPLI Egami Emil Nabil",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b143375fdef8-mawaqit.tar.gz",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/80f4f68e9c70-Mawaqit.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ التوافق الفعلي يعتمد على صورة النظام وإصدار Python والحزم المتاحة. راجع التحذير في الوصف.",
+      "icon": "🧩",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b143375fdef8-mawaqit.tar.gz",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b143375fdef8-mawaqit.tar.gz",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/Mawaqit"
+    },
+    {
+      "id": 4486,
+      "name": "NumberZapExt",
+      "category": "plugins",
+      "subcategory": "enigma",
+      "group": "📦 إضافات Enigma2",
+      "description": "إضافة موسعة للتعامل مع التنقل بالأرقام بين القنوات. سكربت المصدر يحذف مجلد SystemPlugins السابق قبل التثبيت؛ لا تستخدمه إلا بعد التأكد من التوافق.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "NumberZapExt Enigma2 Dreambox Vu+ OpenATV OpenPLI Egami Emil Nabil",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/861b5793f027-NumberZapExt.tar.gz",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/dc4c323e2bcf-NumberZapExt.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ التوافق الفعلي يعتمد على صورة النظام وإصدار Python والحزم المتاحة. راجع التحذير في الوصف.",
+      "icon": "🧩",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/861b5793f027-NumberZapExt.tar.gz",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/861b5793f027-NumberZapExt.tar.gz",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/NumberZapExt"
+    },
+    {
+      "id": 4487,
+      "name": "QuadPip",
+      "category": "plugins",
+      "subcategory": "enigma",
+      "group": "📦 إضافات Enigma2",
+      "description": "إضافة وظائف العرض متعدد النوافذ (Quad PiP) للأجهزة والصور المتوافقة. سكربت المصدر يزيل الحزمة ومجلد الإضافة القديمين قبل التثبيت.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "QuadPip Enigma2 Dreambox Vu+ OpenATV OpenPLI Egami Emil Nabil",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/471a6c781fb3-QuadPip.tar.gz",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/50c3392671b1-QuadPip.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ التوافق الفعلي يعتمد على صورة النظام وإصدار Python والحزم المتاحة. راجع التحذير في الوصف.",
+      "icon": "🧩",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/471a6c781fb3-QuadPip.tar.gz",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/471a6c781fb3-QuadPip.tar.gz",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/QuadPip"
+    },
+    {
+      "id": 4488,
+      "name": "Advanced Screenshot",
+      "category": "plugins",
+      "subcategory": "enigma",
+      "group": "📦 إضافات Enigma2",
+      "description": "أداة لالتقاط صور من واجهة Enigma2. ملف التثبيت IPK؛ السكربت يثبته باستخدام opkg ويحتاج curl. تحقق من معمارية وتوافق الصورة قبل التثبيت.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Advanced Screenshot Enigma2 Dreambox Vu+ OpenATV OpenPLI Egami Emil Nabil",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bfd32c2d37d8-enigma2-plugin-extensions-advancedscreenshot_all.ipk",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/49aab7f6b38b-advancedscreenshot.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ التوافق الفعلي يعتمد على صورة النظام وإصدار Python والحزم المتاحة. راجع التحذير في الوصف.",
+      "icon": "🧩",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bfd32c2d37d8-enigma2-plugin-extensions-advancedscreenshot_all.ipk",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bfd32c2d37d8-enigma2-plugin-extensions-advancedscreenshot_all.ipk",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/advancedscreenshot"
+    },
+    {
+      "id": 4489,
+      "name": "Ciefp — قمر واحد 19°E",
+      "category": "channels",
+      "subcategory": "multisat",
+      "group": "📡 ملفات القنوات",
+      "description": "قائمة قنوات لقمر Astra 19.2°E. سكربت المصدر يحدّث ملفات إعدادات القنوات على الرسيفر؛ احتفظ بنسخة احتياطية قبل التنفيذ.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Ciefp — قمر واحد 19°E Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5c4df64d5ca6-ciefp-E2-1sat-19E.sh",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5c4df64d5ca6-ciefp-E2-1sat-19E.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5c4df64d5ca6-ciefp-E2-1sat-19E.sh",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5c4df64d5ca6-ciefp-E2-1sat-19E.sh",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/ciefp-channels-e2"
+    },
+    {
+      "id": 4490,
+      "name": "Ciefp — قمران 19°E + 13°E",
+      "category": "channels",
+      "subcategory": "multisat",
+      "group": "📡 ملفات القنوات",
+      "description": "قائمة قنوات لتجميعة Astra 19.2°E وHot Bird 13°E. قد تستبدل إعدادات القنوات الحالية؛ راجع توافق الأقمار والتوصيلات وخذ نسخة احتياطية.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Ciefp — قمران 19°E + 13°E Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/202af2efe830-ciefp-E2-2satA-19E-13E.sh",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/202af2efe830-ciefp-E2-2satA-19E-13E.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/202af2efe830-ciefp-E2-2satA-19E-13E.sh",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/202af2efe830-ciefp-E2-2satA-19E-13E.sh",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/ciefp-channels-e2"
+    },
+    {
+      "id": 4491,
+      "name": "Ciefp — 6 أقمار",
+      "category": "channels",
+      "subcategory": "multisat",
+      "group": "📡 ملفات القنوات",
+      "description": "قائمة متعددة الأقمار تشمل 23°E و19.2°E و16°E و13°E و1.9°E و0.8°W. تأكد من إعدادات الـDiSEqC قبل التثبيت.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Ciefp — 6 أقمار Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1bce3ef58e4c-ciefp-E2-6sat-23E-19E-16E-13E-1.9E-0.8W.sh",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1bce3ef58e4c-ciefp-E2-6sat-23E-19E-16E-13E-1.9E-0.8W.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1bce3ef58e4c-ciefp-E2-6sat-23E-19E-16E-13E-1.9E-0.8W.sh",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/1bce3ef58e4c-ciefp-E2-6sat-23E-19E-16E-13E-1.9E-0.8W.sh",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/ciefp-channels-e2"
+    },
+    {
+      "id": 4492,
+      "name": "Morpheus883 — Hot Bird + Astra",
+      "category": "channels",
+      "subcategory": "multisat",
+      "group": "📡 ملفات القنوات",
+      "description": "قائمة قنوات متعددة الأقمار من Morpheus883 لتجميعة 13°E و19.2°E. السكربت ينشئ نسخة احتياطية من /etc/enigma2 قبل الاستبدال.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Morpheus883 — Hot Bird + Astra Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/f256b867e761-E2_Morph883_13E-19.2E.sh",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/f256b867e761-E2_Morph883_13E-19.2E.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/f256b867e761-E2_Morph883_13E-19.2E.sh",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/f256b867e761-E2_Morph883_13E-19.2E.sh",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/morpheus883-channels"
+    },
+    {
+      "id": 4493,
+      "name": "Morpheus883 — Motor Settings",
+      "category": "channels",
+      "subcategory": "motor",
+      "group": "📡 ملفات القنوات",
+      "description": "إعدادات قنوات للموتور من Morpheus883. السكربت ينشئ نسخة احتياطية مؤرخة من /etc/enigma2 قبل نسخ الإعدادات الجديدة.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Morpheus883 — Motor Settings Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e2c3cf20b45b-E2_Morph883_Motor.sh",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e2c3cf20b45b-E2_Morph883_Motor.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e2c3cf20b45b-E2_Morph883_Motor.sh",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e2c3cf20b45b-E2_Morph883_Motor.sh",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/morpheus883-channels"
+    },
+    {
+      "id": 4494,
+      "name": "Morpheus883 — Settings",
+      "category": "channels",
+      "subcategory": "favorites",
+      "group": "📡 ملفات القنوات",
+      "description": "حزمة إعدادات قنوات عامة من Morpheus883. السكربت ينشئ نسخة احتياطية قبل تحديث ملفات /etc/enigma2.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Morpheus883 — Settings Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6bafe9c4763b-E2_Morph883_Settings.sh",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6bafe9c4763b-E2_Morph883_Settings.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6bafe9c4763b-E2_Morph883_Settings.sh",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6bafe9c4763b-E2_Morph883_Settings.sh",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/morpheus883-channels"
+    },
+    {
+      "id": 4495,
+      "name": "Vhannibal — Hot Bird 13°E",
+      "category": "channels",
+      "subcategory": "hotbird",
+      "group": "📡 ملفات القنوات",
+      "description": "قائمة Vhannibal لقمر Hot Bird 13°E. تنبيه: السكربت يحذف ملفات القنوات والراديو الحالية قبل نسخ الجديدة؛ خذ نسخة احتياطية أولاً.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Vhannibal — Hot Bird 13°E Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/22d8e638805c-Vhannibal-HotBird-13E.sh",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/22d8e638805c-Vhannibal-HotBird-13E.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/22d8e638805c-Vhannibal-HotBird-13E.sh",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/22d8e638805c-Vhannibal-HotBird-13E.sh",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/vanenbal-channels"
+    },
+    {
+      "id": 4496,
+      "name": "Vhannibal — Motor 70°E إلى 45°W",
+      "category": "channels",
+      "subcategory": "motor",
+      "group": "📡 ملفات القنوات",
+      "description": "إعدادات Vhannibal للموتور عبر نطاق أقمار واسع. السكربت يحذف ملفات القنوات والراديو الحالية؛ تأكد من إعدادات الموتور وخذ نسخة احتياطية.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Vhannibal — Motor 70°E إلى 45°W Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a81fadc05da-Vhannibal-Motor-70E-45W.sh",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a81fadc05da-Vhannibal-Motor-70E-45W.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a81fadc05da-Vhannibal-Motor-70E-45W.sh",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a81fadc05da-Vhannibal-Motor-70E-45W.sh",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/vanenbal-channels"
+    },
+    {
+      "id": 4497,
+      "name": "Vhannibal — Dual 13°E + 19°E",
+      "category": "channels",
+      "subcategory": "multisat",
+      "group": "📡 ملفات القنوات",
+      "description": "قائمة Vhannibal لقمرين Hot Bird 13°E وAstra 19.2°E. راجع توافق إعدادات الأقمار قبل الاستبدال.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Vhannibal — Dual 13°E + 19°E Enigma2 settings channels Dreambox Vu+",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/248597faea8c-Vhannibal-Dual-13-19E.sh",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/248597faea8c-Vhannibal-Dual-13-19E.sh | /bin/sh",
+      "compatibility": "أجهزة Enigma2؛ تحقق من الأقمار وإعدادات DiSEqC ونوع التوصيل قبل التنفيذ.",
+      "icon": "📡",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/248597faea8c-Vhannibal-Dual-13-19E.sh",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/248597faea8c-Vhannibal-Dual-13-19E.sh",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/vanenbal-channels"
+    },
+    {
+      "id": 4498,
+      "name": "CineView FHD MLA",
+      "category": "skins",
+      "subcategory": "openatv",
+      "group": "🎨 السكينات",
+      "description": "ثيم FHD مع مثبت ذكي يحدد عائلة الصورة ويتحقق من إصدار Python وملف IPK ببصمة SHA256 قبل التثبيت. مدعوم حسب السكربت: OpenATV وEGAMI وPurE2 وOpenBH وOpenViX وOpenPLi مع Python 3 ضمن الإصدارات المذكورة في المثبت.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "CineView FHD MLA Enigma2 skin Dreambox Vu+ Python",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/d9faf4daf248-CineView.sh",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/d9faf4daf248-CineView.sh | /bin/sh",
+      "compatibility": "راجع إصدار Python وعائلة الصورة المدعومة في وصف السكين.",
+      "icon": "🎨",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/d9faf4daf248-CineView.sh",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/d9faf4daf248-CineView.sh",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/skin-cineview"
+    },
+    {
+      "id": 4499,
+      "name": "MX Maestra Black Weather — Python 3.12",
+      "category": "skins",
+      "subcategory": "openatv",
+      "group": "🎨 السكينات",
+      "description": "ملف السكين المخصص لبيئات Python 3.12 فقط. لا تستخدمه مع إصدار Python مختلف؛ سكربت التثبيت يحذف مجلد السكين والحزمة السابقة.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "MX Maestra Black Weather — Python 3.12 Enigma2 skin Dreambox Vu+ Python",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/d578ba57c305-Skin-MX_Maestra_Black-weather_py3.12.tar.gz",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a4156c7e97f-Skin-MX_Maestra_Black_weather.sh | /bin/sh",
+      "compatibility": "راجع إصدار Python وعائلة الصورة المدعومة في وصف السكين.",
+      "icon": "🎨",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/d578ba57c305-Skin-MX_Maestra_Black-weather_py3.12.tar.gz",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/d578ba57c305-Skin-MX_Maestra_Black-weather_py3.12.tar.gz",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/Skin-MX_Maestra_Black_weather"
+    },
+    {
+      "id": 4500,
+      "name": "MX Maestra Black Weather — Python 3.13",
+      "category": "skins",
+      "subcategory": "openatv",
+      "group": "🎨 السكينات",
+      "description": "ملف السكين المخصص لبيئات Python 3.13 فقط. لا تستخدمه مع إصدار Python مختلف؛ سكربت التثبيت يحذف مجلد السكين والحزمة السابقة.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "MX Maestra Black Weather — Python 3.13 Enigma2 skin Dreambox Vu+ Python",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/78e448d41aeb-Skin-MX_Maestra_Black-weather_py3.13.tar.gz",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a4156c7e97f-Skin-MX_Maestra_Black_weather.sh | /bin/sh",
+      "compatibility": "راجع إصدار Python وعائلة الصورة المدعومة في وصف السكين.",
+      "icon": "🎨",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/78e448d41aeb-Skin-MX_Maestra_Black-weather_py3.13.tar.gz",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/78e448d41aeb-Skin-MX_Maestra_Black-weather_py3.13.tar.gz",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/Skin-MX_Maestra_Black_weather"
+    },
+    {
+      "id": 4501,
+      "name": "HoloFHD Black",
+      "category": "skins",
+      "subcategory": "dreamos",
+      "group": "🎨 السكينات",
+      "description": "Skin FHD لأجهزة DreamOS. مثبت المصدر يحاول تحديث الحزم ويثبت عدة مكونات Skin إضافية قبل فك الأرشيف؛ راجع الاعتماديات ومساحة التخزين.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "HoloFHD Black Enigma2 skin Dreambox Vu+ Python",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c9aeee4e32b3-HoloFHD-Black.tar.gz",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/103ee7519ec5-HoloFHD-Black.sh | /bin/sh",
+      "compatibility": "DreamOS فقط حسب سكربت المصدر؛ لا تستخدم على OpenATV/OpenPLi.",
+      "icon": "🎨",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c9aeee4e32b3-HoloFHD-Black.tar.gz",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c9aeee4e32b3-HoloFHD-Black.tar.gz",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/skins-for-dreambox"
+    },
+    {
+      "id": 4502,
+      "name": "ZSkin FHD",
+      "category": "skins",
+      "subcategory": "dreamos",
+      "group": "🎨 السكينات",
+      "description": "Skin بدقة FHD. سكربت المصدر يفك الأرشيف إلى نظام الملفات مباشرة؛ تأكد من توافق الصورة وخذ نسخة احتياطية من إعدادات السكين.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "ZSkin FHD Enigma2 skin Dreambox Vu+ Python",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c965943b1a1b-ZSkin-FHD.tar.gz",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/f22f81ac4e8e-ZSkin-FHD.sh | /bin/sh",
+      "compatibility": "DreamOS فقط حسب سكربت المصدر؛ لا تستخدم على OpenATV/OpenPLi.",
+      "icon": "🎨",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c965943b1a1b-ZSkin-FHD.tar.gz",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c965943b1a1b-ZSkin-FHD.tar.gz",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/skins-for-dreambox"
+    },
+    {
+      "id": 4503,
+      "name": "Brushedalu HD",
+      "category": "skins",
+      "subcategory": "dreamos",
+      "group": "🎨 السكينات",
+      "description": "Skin HD لأجهزة DreamOS. ملف تثبيت مباشر؛ راجع التوافق مع صورة جهازك قبل فك الملفات إلى النظام.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Brushedalu HD Enigma2 skin Dreambox Vu+ Python",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6a6ae2615144-Brushedalu-HD.tar.gz",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "command": "wget -q --no-check-certificate -O - https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/0adcaf72ebc4-Brushedalu-HD.sh | /bin/sh",
+      "compatibility": "DreamOS فقط حسب سكربت المصدر؛ لا تستخدم على OpenATV/OpenPLi.",
+      "icon": "🎨",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6a6ae2615144-Brushedalu-HD.tar.gz",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6a6ae2615144-Brushedalu-HD.tar.gz",
+      "originalRepository": "https://github.com/emilnabil/download-plugins/tree/main/skins-for-dreambox"
+    },
+    {
+      "id": 4504,
+      "name": "Aglare-FHD-PLI",
+      "category": "skins",
+      "subcategory": "openpli",
+      "group": "OpenPLI / متعدد الصور",
+      "description": "Skin بدقة FHD من MNASR. السكربت يذكر دعماً لـ OpenPLI وOpenBH وOpenViX وOpenTR وNonSoloSat وSatLodge وTeamBlue. راجع إصدار الصورة وخذ نسخة احتياطية؛ المثبت يحذف مجلد النسخة السابقة ويفك الأرشيف داخل النظام.",
+      "version": "من مستودع Emil Nabil",
+      "date": "2026-11-01",
+      "downloads": 0,
+      "keywords": "Aglare FHD PLI Enigma2 Skin OpenPLI OpenBH OpenViX OpenTR TeamBlue SatLodge NonSoloSat",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/3daaa68cd442-skins-aglare-fhd-pli.sh",
+      "repository": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-catalog-assets",
+      "compatibility": "OpenPLI develop/9/10، OpenBH 5.3–5.5، OpenViX 6.4–6.7، NonSoloSat، OpenTR، SatLodge، TeamBlue 7.3–7.5 حسب السكربت. التوافق غير مختبر من Online4Tech.",
+      "icon": "🎨",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/3daaa68cd442-skins-aglare-fhd-pli.sh",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/3daaa68cd442-skins-aglare-fhd-pli.sh",
+      "originalRepository": "https://github.com/emilnabil/aglare"
     }
   ]
 }
