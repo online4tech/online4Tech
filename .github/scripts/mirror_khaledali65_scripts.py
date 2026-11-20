@@ -46,7 +46,7 @@ def replace_urls(value,mapping):
         for old,new in mapping.items(): value=value.replace(old,new)
         return value
     if isinstance(value,list): return [replace_urls(x,mapping) for x in value]
-    if isinstance(value,dict): return {k:replace_urls(v,mapping) for k,v in value.items()}
+    if isinstance(value,dict): return {k:(v if k in ('sourceUrl','sourceRepo','repository') else replace_urls(v,mapping)) for k,v in value.items()}
     return value
 
 def main():
