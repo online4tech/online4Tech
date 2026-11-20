@@ -25,7 +25,7 @@ concurrency:
 
 jobs:
   mirror-ipaudiopro:
-    if: github.event_name == 'schedule' || inputs.run_now == true
+    if: github.event_name == 'push' || github.event_name == 'schedule' || inputs.run_now == true
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:
