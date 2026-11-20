@@ -1,14 +1,16 @@
 name: Mirror verified KhaledAli65 IPK packages
 
 on:
-  push:
-    paths:
-      - ".github/workflows/mirror-khaledali65-ipks.yml"
-      - ".github/scripts/mirror_khaledali65_ipks.py"
   workflow_run:
     workflows: ["Monitor KhaledAli65 Enigma2 releases"]
     types: [completed]
   workflow_dispatch:
+    inputs:
+      run_now:
+        description: "تشغيل مزامنة حزم IPK الآن"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -19,12 +21,20 @@ concurrency:
 
 jobs:
   mirror-ipks:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    if: (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') || inputs.run_now == true
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:
       - name: Checkout Online4Tech repository
         uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            .github/scripts/mirror_khaledali65_ipks.py
+            .github/scripts/merge_catalog_changes.py
+            assets/allblugin/demo-data.json
+            monitoring
+          sparse-checkout-cone-mode: false
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
