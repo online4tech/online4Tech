@@ -1,0 +1,58 @@
+name: Import verified KhaledAli65 backups
+
+on:
+  push:
+    paths:
+      - ".github/workflows/import-verified-khaledali65-backups.yml"
+      - ".github/scripts/import_verified_khaledali65_backups.py"
+  workflow_run:
+    workflows: ["Monitor KhaledAli65 Enigma2 releases"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: khaledali65-verified-backup-import
+  cancel-in-progress: false
+
+jobs:
+  import-verified-backups:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout website repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download and validate eligible backup archives
+        run: python .github/scripts/import_verified_khaledali65_backups.py
+
+      - name: Commit verified catalog entries
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -f assets/allblugin/demo-data.json monitoring/KHALEDALI65-VERIFIED-IMPORT.md
+          if git diff --cached --quiet; then
+            echo "No verified new backups to publish."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Import verified KhaledAli65 receiver backups"
+            git push
+          fi
+
+      - name: Upload import report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: khaledali65-verified-import-report
+          path: monitoring/KHALEDALI65-VERIFIED-IMPORT.md
+          if-no-files-found: ignore
+          retention-days: 30
