@@ -66,8 +66,37 @@ jobs:
                                   "asset": name,
                                   "size": asset.get("size", 0),
                                   "download_url": asset.get("browser_download_url", ""),
-                                  "content_type": asset.get("content_type", "")
+                                  "content_type": asset.get("content_type", ""),
+                                  "source_type": "release_asset"
                               })
+                  # Also inspect tracked files on the default branch (not only release assets).
+                  branch = repo.get("default_branch") or "main"
+                  tree_raw = subprocess.check_output(
+                      ["gh", "api", f"repos/{full}/git/trees/{branch}?recursive=1"],
+                      text=True, stderr=subprocess.PIPE
+                  )
+                  tree = json.loads(tree_raw)
+                  if tree.get("truncated"):
+                      errors.append({"repository": full, "error": "Default-branch tree response was truncated; some repository files may be missing."})
+                  for blob in tree.get("tree", []):
+                      if blob.get("type") != "blob":
+                          continue
+                      path = blob.get("path", "")
+                      lower = path.lower()
+                      if lower.endswith(extensions):
+                          rows.append({
+                              "repository": full,
+                              "repository_url": repo["html_url"],
+                              "release": "",
+                              "release_url": "",
+                              "published_at": "",
+                              "asset": path,
+                              "size": blob.get("size", 0),
+                              "download_url": f"https://raw.githubusercontent.com/{full}/{branch}/{path}",
+                              "content_type": "repository_file",
+                              "source_type": "repository_file",
+                              "branch": branch
+                          })
               except Exception as exc:
                   errors.append({"repository": full, "error": str(exc)[:500]})
 
