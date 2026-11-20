@@ -1,9 +1,6 @@
 name: Mirror all catalog downloads to Online4Tech
 
 on:
-  push:
-    paths:
-      - ".github/scripts/mirror_catalog_assets.py"
   workflow_run:
     workflows: ["Mirror KhaledAli65 Telnet scripts for review", "Mirror verified KhaledAli65 IPK packages"]
     types: [completed]
