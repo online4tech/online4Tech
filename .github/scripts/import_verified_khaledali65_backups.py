@@ -154,6 +154,8 @@ def main():
                 if expected and sha.lower() != expected.lower():
                     raise ValueError("SHA-256 لا يطابق البصمة المسجلة سابقًا")
                 item["downloadUrl"] = upload_to_our_release(target, name, sha, size)
+                # Public-facing detail/download links must resolve to Online4Tech.
+                item["detailUrl"] = item["downloadUrl"]
                 item["mirroredAt"] = datetime.utcnow().isoformat(timespec="seconds")+"Z"
                 item["mirrorDigest"] = "sha256:"+sha
                 migrated.append(item)
@@ -183,7 +185,7 @@ def main():
             except Exception as e:
                 rejected.append({"asset":name,"reason":str(e)})
                 print("REJECTED",name,str(e),file=sys.stderr)
-    if published:
+    if published or migrated:
         backup_cat["count"]=sum(1 for x in items if x.get("category")=="backup")
         for group in backup_cat.get("subcategories",[]):
             group["count"]=sum(1 for x in items if x.get("category")=="backup" and x.get("group")==group.get("label"))
@@ -200,6 +202,6 @@ def main():
         lines += ["","## المرفوض أو غير المكتمل","","| الملف | السبب |","|---|---|"]
         for x in rejected: lines.append(f"| {x['asset']} | {x['reason']} |")
     LOG.parent.mkdir(parents=True,exist_ok=True); LOG.write_text("\n".join(lines)+"\n",encoding="utf-8")
-    print(json.dumps({"published":len(published),"rejected":len(rejected)},ensure_ascii=False))
+    print(json.dumps({"mirrored_existing":len(migrated),"published":len(published),"rejected":len(rejected)},ensure_ascii=False))
 
 if __name__=="__main__": main()
