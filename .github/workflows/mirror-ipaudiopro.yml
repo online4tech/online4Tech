@@ -5,8 +5,15 @@ on:
   push:
     paths:
       - ".github/workflows/mirror-ipaudiopro.yml"
-      - ".github/scripts/mirror_ipaudiopro.py"
+  schedule:
+    - cron: "55 22 * * *"
   workflow_dispatch:
+    inputs:
+      run_now:
+        description: "تشغيل مزامنة IPAudioPro الآن بعد توفر GitHub API"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -17,6 +24,7 @@ concurrency:
 
 jobs:
   mirror-ipaudiopro:
+    if: github.event_name == 'schedule' || inputs.run_now == true
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:
