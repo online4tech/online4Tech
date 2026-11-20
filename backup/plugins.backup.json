@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19",
+  "generatedAt": "2026-11-20",
   "schemaVersion": 4,
   "categories": [
     "Developer Tools",
@@ -146,6 +146,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -174,7 +178,7 @@
       "githubStars": 13,
       "githubForks": 0,
       "lastUpdated": "2026-04-23T15:08:07Z",
-      "popularityScore": 6.504,
+      "popularityScore": 6.5,
       "telnetCommands": [
         {
           "label": "AJPanel — المصدر الرسمي",
@@ -635,6 +639,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -663,7 +671,7 @@
       "githubStars": 3,
       "githubForks": 2,
       "lastUpdated": "2026-05-05T00:53:20Z",
-      "popularityScore": 5.687,
+      "popularityScore": 5.683,
       "telnetCommands": [
         {
           "label": "Quick Install",
@@ -790,6 +798,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -819,7 +831,7 @@
       "features": [],
       "githubStars": 0,
       "githubForks": 0,
-      "lastUpdated": "2026-11-19T10:57:15Z",
+      "lastUpdated": "2026-11-20T10:35:07Z",
       "popularityScore": 2.0,
       "telnetCommands": [
         {
@@ -952,6 +964,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -982,7 +998,7 @@
       "githubStars": 1,
       "githubForks": 3,
       "lastUpdated": "2026-11-11T22:18:40Z",
-      "popularityScore": 5.44,
+      "popularityScore": 5.436,
       "telnetCommands": [
         {
           "label": "تثبيت من مستودع المطوّر",
@@ -1112,6 +1128,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -1140,7 +1160,7 @@
       "githubStars": 4,
       "githubForks": 4,
       "lastUpdated": "2026-10-09T19:19:40Z",
-      "popularityScore": 7.485,
+      "popularityScore": 7.481,
       "telnetCommands": [
         {
           "label": "تحديث المستودعات",
@@ -1517,6 +1537,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -1545,7 +1569,7 @@
       "githubStars": 58,
       "githubForks": 32,
       "lastUpdated": "2026-11-08T14:01:53Z",
-      "popularityScore": 15.363,
+      "popularityScore": 15.359,
       "telnetCommands": [
         {
           "label": "التثبيت من مستودع صورة النظام",
@@ -1749,6 +1773,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -1779,7 +1807,7 @@
       "githubStars": 2,
       "githubForks": 0,
       "lastUpdated": "2026-11-16T18:23:50Z",
-      "popularityScore": 4.19,
+      "popularityScore": 4.186,
       "telnetCommands": [
         {
           "label": "تثبيت من مستودع GitHub",
@@ -2242,6 +2270,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -2267,7 +2299,7 @@
       "githubStars": 32,
       "githubForks": 100,
       "lastUpdated": "2026-11-16T13:27:45Z",
-      "popularityScore": 15.908,
+      "popularityScore": 15.905,
       "telnetCommands": [
         {
           "label": "التثبيت من مستودع صورة النظام",
@@ -2398,6 +2430,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -2434,7 +2470,7 @@
       "githubStars": 217,
       "githubForks": 223,
       "lastUpdated": "2026-05-15T15:54:29Z",
-      "popularityScore": 20.194,
+      "popularityScore": 20.19,
       "telnetCommands": [
         {
           "label": "التثبيت من مستودع صورة النظام",
@@ -2694,6 +2730,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -2717,8 +2757,8 @@
       "features": [],
       "githubStars": 1,
       "githubForks": 0,
-      "lastUpdated": "2026-11-18T00:43:53Z",
-      "popularityScore": 3.383,
+      "lastUpdated": "2026-11-19T11:48:05Z",
+      "popularityScore": 3.386,
       "telnetCommands": [
         {
           "label": "Quick Install",
@@ -3633,6 +3673,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -3657,7 +3701,7 @@
       "githubStars": 1,
       "githubForks": 2,
       "lastUpdated": "2026-06-05T20:10:27Z",
-      "popularityScore": 4.419,
+      "popularityScore": 4.416,
       "telnetCommands": [
         {
           "label": "Quick Install",
@@ -3786,6 +3830,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -3810,7 +3858,7 @@
       "githubStars": 12,
       "githubForks": 4,
       "lastUpdated": "2026-09-16T15:28:50Z",
-      "popularityScore": 9.311,
+      "popularityScore": 9.307,
       "telnetCommands": [
         {
           "label": "Quick Install",
@@ -4055,6 +4103,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -4079,7 +4131,7 @@
       "githubStars": 0,
       "githubForks": 0,
       "lastUpdated": "2026-11-18T20:45:27Z",
-      "popularityScore": 2.0,
+      "popularityScore": 1.996,
       "telnetCommands": [
         {
           "label": "Quick Install",
@@ -4264,6 +4316,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -4284,7 +4340,7 @@
       "githubStars": 0,
       "githubForks": 2,
       "lastUpdated": "2025-07-05T08:11:31Z",
-      "popularityScore": 1.789
+      "popularityScore": 1.785
     },
     {
       "id": "enigma2-plugin-blurayplayer",
@@ -4408,6 +4464,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -4428,7 +4488,7 @@
       "githubStars": 3,
       "githubForks": 5,
       "lastUpdated": "2025-07-10T13:07:00Z",
-      "popularityScore": 5.623
+      "popularityScore": 5.619
     },
     {
       "id": "o4t-4158",
@@ -7977,6 +8037,10 @@
         {
           "date": "2026-11-19",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-20",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -8002,7 +8066,7 @@
       ],
       "githubStars": 1,
       "githubForks": 0,
-      "lastUpdated": "2026-11-18T21:08:55Z",
+      "lastUpdated": "2026-11-19T14:17:34Z",
       "popularityScore": 3.386
     }
   ]
