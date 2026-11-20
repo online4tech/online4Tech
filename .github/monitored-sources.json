@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "owners": [
     "KhaledAli65"
   ],
@@ -25,5 +25,13 @@
     ".md",
     ".json"
   ],
-  "note": "This file defines monitoring scope only. Assets and commands must be classified, compatibility-checked, deduplicated, and reviewed before publication. Never execute imported scripts or Telnet commands automatically."
+  "note": "This file defines monitoring scope only. Assets and commands must be classified, compatibility-checked, deduplicated, and reviewed before publication. Never execute imported scripts or Telnet commands automatically.",
+  "importPipeline": {
+    "queueWorkflow": ".github/workflows/prepare-khaledali65-import-queue.yml",
+    "deduplicateAgainstWebsiteCatalog": true,
+    "requireArchiveValidationForBackups": true,
+    "requirePackageMetadataAndArchitectureForIpks": true,
+    "scriptsAndTelnetCommands": "manual-review-only-never-execute",
+    "autoPublish": false
+  }
 }
