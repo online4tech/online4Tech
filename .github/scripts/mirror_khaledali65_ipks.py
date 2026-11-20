@@ -64,11 +64,15 @@ def upload(path,name,digest,size):
     safe=re.sub(r'[^A-Za-z0-9._-]','_',name.rsplit('/',1)[-1]); asset=digest[:12]+'-'+safe
     target=path.with_name(asset)
     if target!=path: target.write_bytes(path.read_bytes())
-    subprocess.run(['gh','release','upload',TAG,str(target),'--repo',REPO,'--clobber'],check=True)
     q=subprocess.run(['gh','api',f'repos/{REPO}/releases/tags/{TAG}'],capture_output=True,text=True,check=True)
     assets=json.loads(q.stdout).get('assets',[])
     found=next((x for x in assets if x.get('name')==asset),None)
-    if not found or found.get('size')!=size: raise ValueError('فشل التحقق من الملف المرفوع')
+    if not found or found.get('size')!=size or found.get('digest')!='sha256:'+digest:
+        subprocess.run(['gh','release','upload',TAG,str(target),'--repo',REPO,'--clobber'],check=True)
+        q=subprocess.run(['gh','api',f'repos/{REPO}/releases/tags/{TAG}'],capture_output=True,text=True,check=True)
+        assets=json.loads(q.stdout).get('assets',[])
+        found=next((x for x in assets if x.get('name')==asset),None)
+    if not found or found.get('size')!=size or found.get('digest')!='sha256:'+digest: raise ValueError('فشل التحقق من الملف المرفوع')
     return BASE+quote(asset)
 
 def classify(repo,name,pkg):
@@ -80,7 +84,7 @@ def classify(repo,name,pkg):
 
 def main():
     scan=json.loads(SCAN.read_text(encoding='utf-8')); catalog=json.loads(CATALOG.read_text(encoding='utf-8')); items=catalog.setdefault('items',[])
-    known={x.get('sourceUrl') for x in items if x.get('sourceUrl')}; selected={}
+    known={v for x in items for v in (x.get('sourceUrl'),x.get('originalSourceUrl'),x.get('downloadUrl')) if v}; selected={}
     for a in scan.get('assets',[]):
         if not a.get('asset','').lower().endswith('.ipk') or not a.get('download_url') or not a.get('repository','').startswith('KhaledAli65/'): continue
         k=(a['repository'].lower(),a['asset'].lower()); old=selected.get(k)
@@ -96,7 +100,7 @@ def main():
                 cat,sub,group,icon=classify(a['repository'],a['asset'],meta['Package']); pkg=meta['Package']; ver=meta['Version']; arch=meta['Architecture']
                 desc=meta.get('Description','').split('\n',1)[0].strip() or f'حزمة Enigma2: {pkg}'
                 cmd=f'wget -q "{url}" -O /tmp/{pkg}.ipk && opkg install /tmp/{pkg}.ipk'
-                item={'id':nextid,'name':re.sub(r'[-_]+',' ',pkg),'category':cat,'subcategory':sub,'group':group,'description':f'{desc} الإصدار {ver} — المعمارية {arch}. تحقق من التوافق قبل التثبيت.','version':ver,'date':a.get('published_at','')[:10] or 'غير محدد','downloads':0,'keywords':f'{pkg} {ver} {arch} Enigma2 IPK','downloadUrl':url,'command':cmd,'installCommand':cmd,'guideUrl':'#','detailUrl':url,'icon':icon,'compatibility':f'Architecture: {arch}','packageName':pkg,'architecture':arch,'sourceUrl':a['download_url'],'sourceRepo':a['repository'],'sourceAssetName':a['asset'],'sourceFileSize':size,'sourceDigest':'sha256:'+sha,'mirroredAt':datetime.utcnow().isoformat(timespec='seconds')+'Z','mirrorDigest':'sha256:'+sha,'packageValidation':{'format':'ipk/ar','controlMetadata':'passed'}}
+                item={'id':nextid,'name':re.sub(r'[-_]+',' ',pkg),'category':cat,'subcategory':sub,'group':group,'description':f'{desc} الإصدار {ver} — المعمارية {arch}. تحقق من التوافق قبل التثبيت.','version':ver,'date':a.get('published_at','')[:10] or 'غير محدد','downloads':0,'keywords':f'{pkg} {ver} {arch} Enigma2 IPK','downloadUrl':url,'command':cmd,'installCommand':cmd,'guideUrl':'#','detailUrl':url,'icon':icon,'compatibility':f'Architecture: {arch}','packageName':pkg,'architecture':arch,'sourceUrl':url,'originalSourceUrl':a['download_url'],'sourceRepo':a['repository'],'sourceAssetName':a['asset'],'sourceFileSize':size,'sourceDigest':'sha256:'+sha,'mirroredAt':datetime.utcnow().isoformat(timespec='seconds')+'Z','mirrorDigest':'sha256:'+sha,'packageValidation':{'format':'ipk/ar','controlMetadata':'passed'}}
                 items.append(item); known.add(a['download_url']); added.append(item); nextid+=1
             except Exception as e: rejected.append({'repo':a.get('repository'),'asset':a.get('asset'),'reason':str(e)})
     if added:
