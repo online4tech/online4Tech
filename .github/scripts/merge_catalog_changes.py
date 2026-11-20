@@ -15,7 +15,7 @@ def identity(item):
     if repo and asset:
         return ('source-asset', repo.lower(), asset.lower())
     source = item.get('originalSourceUrl') or item.get('sourceUrl') or ''
-    if source:
+    if source and ('/releases/download/' in source or source.lower().endswith(('.ipk','.sh','.zip','.tar','.tar.gz','.tar.xz','.tgz','.deb','.nfi','.img','.bin'))):
         return ('source-url', source)
     package = item.get('packageName') or ''
     if package:
