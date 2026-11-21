@@ -1,0 +1,1042 @@
+{
+  "schemaVersion": 1,
+  "source": "KhaledAli65/skins@Enigma2",
+  "releaseUrl": "https://github.com/online4tech/online4Tech/releases/tag/o4t-enigma2-skins-20261121",
+  "generatedAt": "2026-11-22",
+  "count": 73,
+  "items": [
+    {
+      "id": "o4t-skin-1",
+      "name": "aglare-pli.ipk",
+      "title": "aglare pli",
+      "format": "ipk",
+      "size": 7900820,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/aglare-pli.ipk",
+      "command": "wget -O '/tmp/aglare-pli.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/aglare-pli.ipk' && opkg install '/tmp/aglare-pli.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-2",
+      "name": "aglare.ipk",
+      "title": "aglare",
+      "format": "ipk",
+      "size": 7069076,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/aglare.ipk",
+      "command": "wget -O '/tmp/aglare.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/aglare.ipk' && opkg install '/tmp/aglare.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-3",
+      "name": "artemis.ipk",
+      "title": "artemis",
+      "format": "ipk",
+      "size": 11711580,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/artemis.ipk",
+      "command": "wget -O '/tmp/artemis.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/artemis.ipk' && opkg install '/tmp/artemis.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-4",
+      "name": "batman.tar.gz",
+      "title": "batman",
+      "format": "tar.gz",
+      "size": 13320065,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/batman.tar.gz",
+      "command": "wget -O '/tmp/batman.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/batman.tar.gz' && mkdir -p '/tmp/o4t-skins/batman' && tar -xzf '/tmp/batman.tar.gz' -C '/tmp/o4t-skins/batman' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/batman' && find '/tmp/o4t-skins/batman' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-5",
+      "name": "bein.tar.gz",
+      "title": "bein",
+      "format": "tar.gz",
+      "size": 4406423,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/bein.tar.gz",
+      "command": "wget -O '/tmp/bein.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/bein.tar.gz' && mkdir -p '/tmp/o4t-skins/bein' && tar -xzf '/tmp/bein.tar.gz' -C '/tmp/o4t-skins/bein' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/bein' && find '/tmp/o4t-skins/bein' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-6",
+      "name": "beta-pro.tar.gz",
+      "title": "beta pro",
+      "format": "tar.gz",
+      "size": 900019,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/beta-pro.tar.gz",
+      "command": "wget -O '/tmp/beta-pro.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/beta-pro.tar.gz' && mkdir -p '/tmp/o4t-skins/beta-pro' && tar -xzf '/tmp/beta-pro.tar.gz' -C '/tmp/o4t-skins/beta-pro' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/beta-pro' && find '/tmp/o4t-skins/beta-pro' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-7",
+      "name": "blackneon.tar.gz",
+      "title": "blackneon",
+      "format": "tar.gz",
+      "size": 4345316,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/blackneon.tar.gz",
+      "command": "wget -O '/tmp/blackneon.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/blackneon.tar.gz' && mkdir -p '/tmp/o4t-skins/blackneon' && tar -xzf '/tmp/blackneon.tar.gz' -C '/tmp/o4t-skins/blackneon' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/blackneon' && find '/tmp/o4t-skins/blackneon' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-8",
+      "name": "Blackx.tar.gz",
+      "title": "Blackx",
+      "format": "tar.gz",
+      "size": 3970205,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Blackx.tar.gz",
+      "command": "wget -O '/tmp/Blackx.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Blackx.tar.gz' && mkdir -p '/tmp/o4t-skins/Blackx' && tar -xzf '/tmp/Blackx.tar.gz' -C '/tmp/o4t-skins/Blackx' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/Blackx' && find '/tmp/o4t-skins/Blackx' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-9",
+      "name": "blackyorange.tar.gz",
+      "title": "blackyorange",
+      "format": "tar.gz",
+      "size": 2327192,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/blackyorange.tar.gz",
+      "command": "wget -O '/tmp/blackyorange.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/blackyorange.tar.gz' && mkdir -p '/tmp/o4t-skins/blackyorange' && tar -xzf '/tmp/blackyorange.tar.gz' -C '/tmp/o4t-skins/blackyorange' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/blackyorange' && find '/tmp/o4t-skins/blackyorange' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-10",
+      "name": "BlueAccents.tar.gz",
+      "title": "BlueAccents",
+      "format": "tar.gz",
+      "size": 12001602,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/BlueAccents.tar.gz",
+      "command": "wget -O '/tmp/BlueAccents.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/BlueAccents.tar.gz' && mkdir -p '/tmp/o4t-skins/BlueAccents' && tar -xzf '/tmp/BlueAccents.tar.gz' -C '/tmp/o4t-skins/BlueAccents' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/BlueAccents' && find '/tmp/o4t-skins/BlueAccents' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-11",
+      "name": "CH_LEAGUE.tar.gz",
+      "title": "CH LEAGUE",
+      "format": "tar.gz",
+      "size": 8518659,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/CH_LEAGUE.tar.gz",
+      "command": "wget -O '/tmp/CH_LEAGUE.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/CH_LEAGUE.tar.gz' && mkdir -p '/tmp/o4t-skins/CH_LEAGUE' && tar -xzf '/tmp/CH_LEAGUE.tar.gz' -C '/tmp/o4t-skins/CH_LEAGUE' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/CH_LEAGUE' && find '/tmp/o4t-skins/CH_LEAGUE' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-12",
+      "name": "CobaltFHD.ipk",
+      "title": "CobaltFHD",
+      "format": "ipk",
+      "size": 42373248,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/CobaltFHD.ipk",
+      "command": "wget -O '/tmp/CobaltFHD.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/CobaltFHD.ipk' && opkg install '/tmp/CobaltFHD.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK",
+        "FHD"
+      ]
+    },
+    {
+      "id": "o4t-skin-13",
+      "name": "Copper.tar.gz",
+      "title": "Copper",
+      "format": "tar.gz",
+      "size": 6938132,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Copper.tar.gz",
+      "command": "wget -O '/tmp/Copper.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Copper.tar.gz' && mkdir -p '/tmp/o4t-skins/Copper' && tar -xzf '/tmp/Copper.tar.gz' -C '/tmp/o4t-skins/Copper' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/Copper' && find '/tmp/o4t-skins/Copper' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-14",
+      "name": "darkfhd.ipk",
+      "title": "darkfhd",
+      "format": "ipk",
+      "size": 3444384,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/darkfhd.ipk",
+      "command": "wget -O '/tmp/darkfhd.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/darkfhd.ipk' && opkg install '/tmp/darkfhd.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK",
+        "FHD"
+      ]
+    },
+    {
+      "id": "o4t-skin-15",
+      "name": "darkness.tar.gz",
+      "title": "darkness",
+      "format": "tar.gz",
+      "size": 2628462,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/darkness.tar.gz",
+      "command": "wget -O '/tmp/darkness.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/darkness.tar.gz' && mkdir -p '/tmp/o4t-skins/darkness' && tar -xzf '/tmp/darkness.tar.gz' -C '/tmp/o4t-skins/darkness' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/darkness' && find '/tmp/o4t-skins/darkness' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-16",
+      "name": "DarkSilverFHD.ipk",
+      "title": "DarkSilverFHD",
+      "format": "ipk",
+      "size": 7629766,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/DarkSilverFHD.ipk",
+      "command": "wget -O '/tmp/DarkSilverFHD.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/DarkSilverFHD.ipk' && opkg install '/tmp/DarkSilverFHD.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK",
+        "FHD"
+      ]
+    },
+    {
+      "id": "o4t-skin-17",
+      "name": "decfHD_Xtra_openpli.tar.gz",
+      "title": "decfHD Xtra OPENPLI",
+      "format": "tar.gz",
+      "size": 3723608,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/decfHD_Xtra_openpli.tar.gz",
+      "command": "wget -O '/tmp/decfHD_Xtra_openpli.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/decfHD_Xtra_openpli.tar.gz' && mkdir -p '/tmp/o4t-skins/decfHD_Xtra_openpli' && tar -xzf '/tmp/decfHD_Xtra_openpli.tar.gz' -C '/tmp/o4t-skins/decfHD_Xtra_openpli' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/decfHD_Xtra_openpli' && find '/tmp/o4t-skins/decfHD_Xtra_openpli' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ",
+        "FHD",
+        "OpenPLi"
+      ]
+    },
+    {
+      "id": "o4t-skin-18",
+      "name": "dmm.tar.gz",
+      "title": "dmm",
+      "format": "tar.gz",
+      "size": 6665105,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/dmm.tar.gz",
+      "command": "wget -O '/tmp/dmm.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/dmm.tar.gz' && mkdir -p '/tmp/o4t-skins/dmm' && tar -xzf '/tmp/dmm.tar.gz' -C '/tmp/o4t-skins/dmm' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/dmm' && find '/tmp/o4t-skins/dmm' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-19",
+      "name": "dragon.ipk",
+      "title": "dragon",
+      "format": "ipk",
+      "size": 20406424,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/dragon.ipk",
+      "command": "wget -O '/tmp/dragon.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/dragon.ipk' && opkg install '/tmp/dragon.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-20",
+      "name": "dreamosatfhd.ipk",
+      "title": "dreamosatfhd",
+      "format": "ipk",
+      "size": 6014760,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/dreamosatfhd.ipk",
+      "command": "wget -O '/tmp/dreamosatfhd.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/dreamosatfhd.ipk' && opkg install '/tmp/dreamosatfhd.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK",
+        "FHD"
+      ]
+    },
+    {
+      "id": "o4t-skin-21",
+      "name": "ekselance.tar.gz",
+      "title": "ekselance",
+      "format": "tar.gz",
+      "size": 8087230,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/ekselance.tar.gz",
+      "command": "wget -O '/tmp/ekselance.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/ekselance.tar.gz' && mkdir -p '/tmp/o4t-skins/ekselance' && tar -xzf '/tmp/ekselance.tar.gz' -C '/tmp/o4t-skins/ekselance' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/ekselance' && find '/tmp/o4t-skins/ekselance' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-22",
+      "name": "elite.tar.gz",
+      "title": "elite",
+      "format": "tar.gz",
+      "size": 11607098,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/elite.tar.gz",
+      "command": "wget -O '/tmp/elite.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/elite.tar.gz' && mkdir -p '/tmp/o4t-skins/elite' && tar -xzf '/tmp/elite.tar.gz' -C '/tmp/o4t-skins/elite' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/elite' && find '/tmp/o4t-skins/elite' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-23",
+      "name": "FH.GRADIENT.FHD.OpenATV.tar.gz",
+      "title": "FH GRADIENT FHD OPENATV",
+      "format": "tar.gz",
+      "size": 38986610,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/FH.GRADIENT.FHD.OpenATV.tar.gz",
+      "command": "wget -O '/tmp/FH.GRADIENT.FHD.OpenATV.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/FH.GRADIENT.FHD.OpenATV.tar.gz' && mkdir -p '/tmp/o4t-skins/FH.GRADIENT.FHD.OpenATV' && tar -xzf '/tmp/FH.GRADIENT.FHD.OpenATV.tar.gz' -C '/tmp/o4t-skins/FH.GRADIENT.FHD.OpenATV' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/FH.GRADIENT.FHD.OpenATV' && find '/tmp/o4t-skins/FH.GRADIENT.FHD.OpenATV' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ",
+        "FHD",
+        "OpenATV"
+      ]
+    },
+    {
+      "id": "o4t-skin-24",
+      "name": "Flat-UI.tar.gz",
+      "title": "Flat UI",
+      "format": "tar.gz",
+      "size": 2417542,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Flat-UI.tar.gz",
+      "command": "wget -O '/tmp/Flat-UI.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Flat-UI.tar.gz' && mkdir -p '/tmp/o4t-skins/Flat-UI' && tar -xzf '/tmp/Flat-UI.tar.gz' -C '/tmp/o4t-skins/Flat-UI' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/Flat-UI' && find '/tmp/o4t-skins/Flat-UI' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-25",
+      "name": "froid.tar.gz",
+      "title": "froid",
+      "format": "tar.gz",
+      "size": 2681810,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/froid.tar.gz",
+      "command": "wget -O '/tmp/froid.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/froid.tar.gz' && mkdir -p '/tmp/o4t-skins/froid' && tar -xzf '/tmp/froid.tar.gz' -C '/tmp/o4t-skins/froid' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/froid' && find '/tmp/o4t-skins/froid' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-26",
+      "name": "fullhdglass17.ipk",
+      "title": "fullhdglass17",
+      "format": "ipk",
+      "size": 11296730,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/fullhdglass17.ipk",
+      "command": "wget -O '/tmp/fullhdglass17.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/fullhdglass17.ipk' && opkg install '/tmp/fullhdglass17.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-27",
+      "name": "fullhdline.tar.gz",
+      "title": "fullhdline",
+      "format": "tar.gz",
+      "size": 4780248,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/fullhdline.tar.gz",
+      "command": "wget -O '/tmp/fullhdline.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/fullhdline.tar.gz' && mkdir -p '/tmp/o4t-skins/fullhdline' && tar -xzf '/tmp/fullhdline.tar.gz' -C '/tmp/o4t-skins/fullhdline' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/fullhdline' && find '/tmp/o4t-skins/fullhdline' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-28",
+      "name": "fullnight.tar.gz",
+      "title": "fullnight",
+      "format": "tar.gz",
+      "size": 974944,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/fullnight.tar.gz",
+      "command": "wget -O '/tmp/fullnight.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/fullnight.tar.gz' && mkdir -p '/tmp/o4t-skins/fullnight' && tar -xzf '/tmp/fullnight.tar.gz' -C '/tmp/o4t-skins/fullnight' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/fullnight' && find '/tmp/o4t-skins/fullnight' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-29",
+      "name": "fury.ipk",
+      "title": "fury",
+      "format": "ipk",
+      "size": 14638676,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/fury.ipk",
+      "command": "wget -O '/tmp/fury.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/fury.ipk' && opkg install '/tmp/fury.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-30",
+      "name": "GREY_SHADOW.tar.gz",
+      "title": "GREY SHADOW",
+      "format": "tar.gz",
+      "size": 4824634,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/GREY_SHADOW.tar.gz",
+      "command": "wget -O '/tmp/GREY_SHADOW.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/GREY_SHADOW.tar.gz' && mkdir -p '/tmp/o4t-skins/GREY_SHADOW' && tar -xzf '/tmp/GREY_SHADOW.tar.gz' -C '/tmp/o4t-skins/GREY_SHADOW' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/GREY_SHADOW' && find '/tmp/o4t-skins/GREY_SHADOW' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-31",
+      "name": "honycomb.tar.gz",
+      "title": "honycomb",
+      "format": "tar.gz",
+      "size": 10457246,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/honycomb.tar.gz",
+      "command": "wget -O '/tmp/honycomb.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/honycomb.tar.gz' && mkdir -p '/tmp/o4t-skins/honycomb' && tar -xzf '/tmp/honycomb.tar.gz' -C '/tmp/o4t-skins/honycomb' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/honycomb' && find '/tmp/o4t-skins/honycomb' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-32",
+      "name": "icon.tar.gz",
+      "title": "icon",
+      "format": "tar.gz",
+      "size": 3334500,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/icon.tar.gz",
+      "command": "wget -O '/tmp/icon.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/icon.tar.gz' && mkdir -p '/tmp/o4t-skins/icon' && tar -xzf '/tmp/icon.tar.gz' -C '/tmp/o4t-skins/icon' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/icon' && find '/tmp/o4t-skins/icon' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-33",
+      "name": "infinity-neo.ipk",
+      "title": "infinity neo",
+      "format": "ipk",
+      "size": 1589286,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/infinity-neo.ipk",
+      "command": "wget -O '/tmp/infinity-neo.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/infinity-neo.ipk' && opkg install '/tmp/infinity-neo.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-34",
+      "name": "jihad.ipk",
+      "title": "jihad",
+      "format": "ipk",
+      "size": 32192022,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/jihad.ipk",
+      "command": "wget -O '/tmp/jihad.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/jihad.ipk' && opkg install '/tmp/jihad.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-35",
+      "name": "karonte.ipk",
+      "title": "karonte",
+      "format": "ipk",
+      "size": 4250326,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/karonte.ipk",
+      "command": "wget -O '/tmp/karonte.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/karonte.ipk' && opkg install '/tmp/karonte.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-36",
+      "name": "kitte888.ipk",
+      "title": "kitte888",
+      "format": "ipk",
+      "size": 9283646,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/kitte888.ipk",
+      "command": "wget -O '/tmp/kitte888.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/kitte888.ipk' && opkg install '/tmp/kitte888.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-37",
+      "name": "Lava.tar.gz",
+      "title": "Lava",
+      "format": "tar.gz",
+      "size": 11722963,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Lava.tar.gz",
+      "command": "wget -O '/tmp/Lava.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Lava.tar.gz' && mkdir -p '/tmp/o4t-skins/Lava' && tar -xzf '/tmp/Lava.tar.gz' -C '/tmp/o4t-skins/Lava' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/Lava' && find '/tmp/o4t-skins/Lava' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-38",
+      "name": "liis8.ipk",
+      "title": "liis8",
+      "format": "ipk",
+      "size": 12457180,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/liis8.ipk",
+      "command": "wget -O '/tmp/liis8.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/liis8.ipk' && opkg install '/tmp/liis8.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-39",
+      "name": "luka.ipk",
+      "title": "luka",
+      "format": "ipk",
+      "size": 13700660,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/luka.ipk",
+      "command": "wget -O '/tmp/luka.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/luka.ipk' && opkg install '/tmp/luka.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-40",
+      "name": "madmax-impossible.ipk",
+      "title": "madmax impossible",
+      "format": "ipk",
+      "size": 6258608,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/madmax-impossible.ipk",
+      "command": "wget -O '/tmp/madmax-impossible.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/madmax-impossible.ipk' && opkg install '/tmp/madmax-impossible.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-41",
+      "name": "malek.ipk",
+      "title": "malek",
+      "format": "ipk",
+      "size": 13247951,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/malek.ipk",
+      "command": "wget -O '/tmp/malek.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/malek.ipk' && opkg install '/tmp/malek.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-42",
+      "name": "metrixfhd-neo.ipk",
+      "title": "metrixfhd neo",
+      "format": "ipk",
+      "size": 777688,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/metrixfhd-neo.ipk",
+      "command": "wget -O '/tmp/metrixfhd-neo.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/metrixfhd-neo.ipk' && opkg install '/tmp/metrixfhd-neo.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK",
+        "FHD"
+      ]
+    },
+    {
+      "id": "o4t-skin-43",
+      "name": "MetrixperiencE.tar.gz",
+      "title": "MetrixperiencE",
+      "format": "tar.gz",
+      "size": 12726150,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/MetrixperiencE.tar.gz",
+      "command": "wget -O '/tmp/MetrixperiencE.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/MetrixperiencE.tar.gz' && mkdir -p '/tmp/o4t-skins/MetrixperiencE' && tar -xzf '/tmp/MetrixperiencE.tar.gz' -C '/tmp/o4t-skins/MetrixperiencE' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/MetrixperiencE' && find '/tmp/o4t-skins/MetrixperiencE' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-44",
+      "name": "mohamed_skin.ipk",
+      "title": "mohamed skin",
+      "format": "ipk",
+      "size": 34402368,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/mohamed_skin.ipk",
+      "command": "wget -O '/tmp/mohamed_skin.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/mohamed_skin.ipk' && opkg install '/tmp/mohamed_skin.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-45",
+      "name": "multiposter.tar.gz",
+      "title": "multiposter",
+      "format": "tar.gz",
+      "size": 1571097,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/multiposter.tar.gz",
+      "command": "wget -O '/tmp/multiposter.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/multiposter.tar.gz' && mkdir -p '/tmp/o4t-skins/multiposter' && tar -xzf '/tmp/multiposter.tar.gz' -C '/tmp/o4t-skins/multiposter' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/multiposter' && find '/tmp/o4t-skins/multiposter' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-46",
+      "name": "mxgraphite.tar.gz",
+      "title": "mxgraphite",
+      "format": "tar.gz",
+      "size": 5109531,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/mxgraphite.tar.gz",
+      "command": "wget -O '/tmp/mxgraphite.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/mxgraphite.tar.gz' && mkdir -p '/tmp/o4t-skins/mxgraphite' && tar -xzf '/tmp/mxgraphite.tar.gz' -C '/tmp/o4t-skins/mxgraphite' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/mxgraphite' && find '/tmp/o4t-skins/mxgraphite' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-47",
+      "name": "MX_Maestra_Gray.tar.gz",
+      "title": "MX Maestra Gray",
+      "format": "tar.gz",
+      "size": 5350960,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/MX_Maestra_Gray.tar.gz",
+      "command": "wget -O '/tmp/MX_Maestra_Gray.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/MX_Maestra_Gray.tar.gz' && mkdir -p '/tmp/o4t-skins/MX_Maestra_Gray' && tar -xzf '/tmp/MX_Maestra_Gray.tar.gz' -C '/tmp/o4t-skins/MX_Maestra_Gray' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/MX_Maestra_Gray' && find '/tmp/o4t-skins/MX_Maestra_Gray' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-48",
+      "name": "mybluemetal.ipk",
+      "title": "mybluemetal",
+      "format": "ipk",
+      "size": 7144416,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/mybluemetal.ipk",
+      "command": "wget -O '/tmp/mybluemetal.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/mybluemetal.ipk' && opkg install '/tmp/mybluemetal.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-49",
+      "name": "nacht.tar.gz",
+      "title": "nacht",
+      "format": "tar.gz",
+      "size": 7326808,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/nacht.tar.gz",
+      "command": "wget -O '/tmp/nacht.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/nacht.tar.gz' && mkdir -p '/tmp/o4t-skins/nacht' && tar -xzf '/tmp/nacht.tar.gz' -C '/tmp/o4t-skins/nacht' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/nacht' && find '/tmp/o4t-skins/nacht' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-50",
+      "name": "nitro.tar.gz",
+      "title": "nitro",
+      "format": "tar.gz",
+      "size": 15434891,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/nitro.tar.gz",
+      "command": "wget -O '/tmp/nitro.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/nitro.tar.gz' && mkdir -p '/tmp/o4t-skins/nitro' && tar -xzf '/tmp/nitro.tar.gz' -C '/tmp/o4t-skins/nitro' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/nitro' && find '/tmp/o4t-skins/nitro' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-51",
+      "name": "novaler-s-fhd.ipk",
+      "title": "novaler s FHD",
+      "format": "ipk",
+      "size": 8497810,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/novaler-s-fhd.ipk",
+      "command": "wget -O '/tmp/novaler-s-fhd.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/novaler-s-fhd.ipk' && opkg install '/tmp/novaler-s-fhd.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK",
+        "FHD"
+      ]
+    },
+    {
+      "id": "o4t-skin-52",
+      "name": "Novax.tar.gz",
+      "title": "Novax",
+      "format": "tar.gz",
+      "size": 4159513,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Novax.tar.gz",
+      "command": "wget -O '/tmp/Novax.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Novax.tar.gz' && mkdir -p '/tmp/o4t-skins/Novax' && tar -xzf '/tmp/Novax.tar.gz' -C '/tmp/o4t-skins/Novax' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/Novax' && find '/tmp/o4t-skins/Novax' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-53",
+      "name": "nshare2.tar.gz",
+      "title": "nshare2",
+      "format": "tar.gz",
+      "size": 20129490,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/nshare2.tar.gz",
+      "command": "wget -O '/tmp/nshare2.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/nshare2.tar.gz' && mkdir -p '/tmp/o4t-skins/nshare2' && tar -xzf '/tmp/nshare2.tar.gz' -C '/tmp/o4t-skins/nshare2' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/nshare2' && find '/tmp/o4t-skins/nshare2' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-54",
+      "name": "octel.tar.gz",
+      "title": "octel",
+      "format": "tar.gz",
+      "size": 3315749,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/octel.tar.gz",
+      "command": "wget -O '/tmp/octel.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/octel.tar.gz' && mkdir -p '/tmp/o4t-skins/octel' && tar -xzf '/tmp/octel.tar.gz' -C '/tmp/o4t-skins/octel' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/octel' && find '/tmp/o4t-skins/octel' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-55",
+      "name": "odreamy.ipk",
+      "title": "odreamy",
+      "format": "ipk",
+      "size": 13143052,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/odreamy.ipk",
+      "command": "wget -O '/tmp/odreamy.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/odreamy.ipk' && opkg install '/tmp/odreamy.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-56",
+      "name": "ORANGE_SKY.tar.gz",
+      "title": "ORANGE SKY",
+      "format": "tar.gz",
+      "size": 5002507,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/ORANGE_SKY.tar.gz",
+      "command": "wget -O '/tmp/ORANGE_SKY.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/ORANGE_SKY.tar.gz' && mkdir -p '/tmp/o4t-skins/ORANGE_SKY' && tar -xzf '/tmp/ORANGE_SKY.tar.gz' -C '/tmp/o4t-skins/ORANGE_SKY' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/ORANGE_SKY' && find '/tmp/o4t-skins/ORANGE_SKY' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-57",
+      "name": "osn.tar.gz",
+      "title": "osn",
+      "format": "tar.gz",
+      "size": 5448552,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/osn.tar.gz",
+      "command": "wget -O '/tmp/osn.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/osn.tar.gz' && mkdir -p '/tmp/o4t-skins/osn' && tar -xzf '/tmp/osn.tar.gz' -C '/tmp/o4t-skins/osn' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/osn' && find '/tmp/o4t-skins/osn' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-58",
+      "name": "ozeta.ipk",
+      "title": "ozeta",
+      "format": "ipk",
+      "size": 18319744,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/ozeta.ipk",
+      "command": "wget -O '/tmp/ozeta.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/ozeta.ipk' && opkg install '/tmp/ozeta.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-59",
+      "name": "Pal.tar.gz",
+      "title": "Pal",
+      "format": "tar.gz",
+      "size": 4990067,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Pal.tar.gz",
+      "command": "wget -O '/tmp/Pal.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Pal.tar.gz' && mkdir -p '/tmp/o4t-skins/Pal' && tar -xzf '/tmp/Pal.tar.gz' -C '/tmp/o4t-skins/Pal' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/Pal' && find '/tmp/o4t-skins/Pal' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-60",
+      "name": "pd1loi-hd-night.ipk",
+      "title": "pd1loi HD night",
+      "format": "ipk",
+      "size": 9548152,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/pd1loi-hd-night.ipk",
+      "command": "wget -O '/tmp/pd1loi-hd-night.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/pd1loi-hd-night.ipk' && opkg install '/tmp/pd1loi-hd-night.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-61",
+      "name": "pd1loi.tar.gz",
+      "title": "pd1loi",
+      "format": "tar.gz",
+      "size": 8023447,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/pd1loi.tar.gz",
+      "command": "wget -O '/tmp/pd1loi.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/pd1loi.tar.gz' && mkdir -p '/tmp/o4t-skins/pd1loi' && tar -xzf '/tmp/pd1loi.tar.gz' -C '/tmp/o4t-skins/pd1loi' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/pd1loi' && find '/tmp/o4t-skins/pd1loi' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-62",
+      "name": "pdreamy.tar.gz",
+      "title": "pdreamy",
+      "format": "tar.gz",
+      "size": 4927250,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/pdreamy.tar.gz",
+      "command": "wget -O '/tmp/pdreamy.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/pdreamy.tar.gz' && mkdir -p '/tmp/o4t-skins/pdreamy' && tar -xzf '/tmp/pdreamy.tar.gz' -C '/tmp/o4t-skins/pdreamy' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/pdreamy' && find '/tmp/o4t-skins/pdreamy' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-63",
+      "name": "premium-fhd.ipk",
+      "title": "premium FHD",
+      "format": "ipk",
+      "size": 11208276,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/premium-fhd.ipk",
+      "command": "wget -O '/tmp/premium-fhd.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/premium-fhd.ipk' && opkg install '/tmp/premium-fhd.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK",
+        "FHD"
+      ]
+    },
+    {
+      "id": "o4t-skin-64",
+      "name": "revolution-pro.ipk",
+      "title": "revolution pro",
+      "format": "ipk",
+      "size": 20450990,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/revolution-pro.ipk",
+      "command": "wget -O '/tmp/revolution-pro.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/revolution-pro.ipk' && opkg install '/tmp/revolution-pro.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-65",
+      "name": "ROBOCOP.tar.gz",
+      "title": "ROBOCOP",
+      "format": "tar.gz",
+      "size": 6467215,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/ROBOCOP.tar.gz",
+      "command": "wget -O '/tmp/ROBOCOP.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/ROBOCOP.tar.gz' && mkdir -p '/tmp/o4t-skins/ROBOCOP' && tar -xzf '/tmp/ROBOCOP.tar.gz' -C '/tmp/o4t-skins/ROBOCOP' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/ROBOCOP' && find '/tmp/o4t-skins/ROBOCOP' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-66",
+      "name": "simple-gray.ipk",
+      "title": "simple gray",
+      "format": "ipk",
+      "size": 439624,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/simple-gray.ipk",
+      "command": "wget -O '/tmp/simple-gray.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/simple-gray.ipk' && opkg install '/tmp/simple-gray.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-67",
+      "name": "SKIN-MohammedSkin.sh",
+      "title": "SKIN MohammedSkin",
+      "format": "sh",
+      "size": 3499,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/SKIN-MohammedSkin.sh",
+      "command": "wget -O '/tmp/SKIN-MohammedSkin.sh' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/SKIN-MohammedSkin.sh' && echo 'راجع السكربت قبل تشغيله:' && sed -n '1,220p' '/tmp/SKIN-MohammedSkin.sh'",
+      "commandLabel": "أمر تنزيل ومراجعة السكربت",
+      "description": "يُنزل السكربت من متجرنا ويعرض محتواه للمراجعة فقط؛ لا يتم تشغيله تلقائيًا قبل التأكد من أوامره.",
+      "tags": [
+        "SH"
+      ]
+    },
+    {
+      "id": "o4t-skin-68",
+      "name": "skin_cino.tar.gz",
+      "title": "skin cino",
+      "format": "tar.gz",
+      "size": 3271635,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/skin_cino.tar.gz",
+      "command": "wget -O '/tmp/skin_cino.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/skin_cino.tar.gz' && mkdir -p '/tmp/o4t-skins/skin_cino' && tar -xzf '/tmp/skin_cino.tar.gz' -C '/tmp/o4t-skins/skin_cino' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/skin_cino' && find '/tmp/o4t-skins/skin_cino' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-69",
+      "name": "spiderman.tar.gz",
+      "title": "spiderman",
+      "format": "tar.gz",
+      "size": 16972006,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/spiderman.tar.gz",
+      "command": "wget -O '/tmp/spiderman.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/spiderman.tar.gz' && mkdir -p '/tmp/o4t-skins/spiderman' && tar -xzf '/tmp/spiderman.tar.gz' -C '/tmp/o4t-skins/spiderman' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/spiderman' && find '/tmp/o4t-skins/spiderman' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-70",
+      "name": "V_Bolt.tar.gz",
+      "title": "V Bolt",
+      "format": "tar.gz",
+      "size": 1071848,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/V_Bolt.tar.gz",
+      "command": "wget -O '/tmp/V_Bolt.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/V_Bolt.tar.gz' && mkdir -p '/tmp/o4t-skins/V_Bolt' && tar -xzf '/tmp/V_Bolt.tar.gz' -C '/tmp/o4t-skins/V_Bolt' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/V_Bolt' && find '/tmp/o4t-skins/V_Bolt' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-71",
+      "name": "WAR.tar.gz",
+      "title": "WAR",
+      "format": "tar.gz",
+      "size": 12108202,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/WAR.tar.gz",
+      "command": "wget -O '/tmp/WAR.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/WAR.tar.gz' && mkdir -p '/tmp/o4t-skins/WAR' && tar -xzf '/tmp/WAR.tar.gz' -C '/tmp/o4t-skins/WAR' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/WAR' && find '/tmp/o4t-skins/WAR' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تنزيل وتجهيز الأرشيف",
+      "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
+      "tags": [
+        "TAR.GZ"
+      ]
+    },
+    {
+      "id": "o4t-skin-72",
+      "name": "xDreamy.ipk",
+      "title": "xDreamy",
+      "format": "ipk",
+      "size": 21364720,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/xDreamy.ipk",
+      "command": "wget -O '/tmp/xDreamy.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/xDreamy.ipk' && opkg install '/tmp/xDreamy.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    },
+    {
+      "id": "o4t-skin-73",
+      "name": "Youchie.ipk",
+      "title": "Youchie",
+      "format": "ipk",
+      "size": 25458420,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Youchie.ipk",
+      "command": "wget -O '/tmp/Youchie.ipk' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-20261121/Youchie.ipk' && opkg install '/tmp/Youchie.ipk'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
+      "tags": [
+        "IPK"
+      ]
+    }
+  ]
+}
