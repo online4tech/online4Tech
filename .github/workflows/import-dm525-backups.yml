@@ -1,0 +1,46 @@
+name: Import Dreambox DM520 DM525 backup images
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/import-dm525-backups.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import-release-assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Download original release assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets-to-import
+          base="https://github.com/KhaledAli65/Dreambox/releases/download/Dm525"
+          files=(
+            "01_openATV-8.0.1-dm520-internal.zip"
+            "02_openATV-8.0.1-dm520-16112026.zip"
+            "03_openATV-8.1beta-dm520-16112026.zip"
+            "04_OpenBH-6.0-dm520-16112026.zip"
+            "05_OpenVix-6.9-dm520-16112026.zip"
+            "06_TSimage-13.0-dm520-17112026.zip"
+          )
+          for file in "${files[@]}"; do
+            echo "Downloading $file"
+            curl --fail --location --retry 5 --retry-all-errors --retry-delay 5 "$base/$file" -o "assets-to-import/$file"
+            test -s "assets-to-import/$file"
+          done
+          ls -lh assets-to-import
+      - name: Publish assets under Online4Tech release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="o4t-dm520-dm525-backups-20261121"
+          if gh release view "$tag" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            gh release upload "$tag" assets-to-import/* --repo "${{ github.repository }}" --clobber
+          else
+            gh release create "$tag" assets-to-import/* --repo "${{ github.repository }}" --title "Dreambox DM520 + DM525 Backup Images" --notes "نسخ باك أب منقولة إلى Online4Tech من إصدار KhaledAli65/Dreambox Dm525. أسماء الملفات الأصلية محفوظة كما هي. الملفات مصنفة للموديلين DM520 HD وDM525 HD وفق طلب المستخدم."
+          fi
