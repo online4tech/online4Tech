@@ -1,0 +1,46 @@
+name: Import Enigma2 skins release assets
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/import-enigma2-skins.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import-release-assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Download all original Enigma2 skin assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p skins-assets
+          api="https://api.github.com/repos/KhaledAli65/skins/releases/tags/Enigma2"
+          curl --fail --location --retry 5 -H "Accept: application/vnd.github+json" "$api" -o release.json
+          count=$(jq '.assets | length' release.json)
+          echo "Assets found: $count"
+          test "$count" -eq 73
+          jq -r '.assets[].browser_download_url' release.json | while IFS= read -r url; do
+            name="${url##*/}"
+            echo "Downloading $name"
+            curl --fail --location --retry 5 --retry-all-errors --retry-delay 3 "$url" -o "skins-assets/$name"
+            test -s "skins-assets/$name"
+          done
+          test "$(find skins-assets -maxdepth 1 -type f | wc -l)" -eq "$count"
+          du -sh skins-assets
+      - name: Publish assets in Online4Tech release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="o4t-enigma2-skins-20261121"
+          if gh release view "$tag" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            gh release upload "$tag" skins-assets/* --repo "${{ github.repository }}" --clobber
+          else
+            gh release create "$tag" skins-assets/* --repo "${{ github.repository }}" --title "Online4Tech Enigma2 Skins Collection" --notes "73 original Enigma2 skin packages imported from KhaledAli65/skins release Enigma2. Original filenames and formats preserved. Total source size approximately 709 MB."
+          fi
