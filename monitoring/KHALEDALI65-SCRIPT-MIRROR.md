@@ -1,8 +1,8 @@
 # تقرير نقل سكريبتات وأوامر Telnet إلى Online4Tech
 
-- الملفات الجديدة المنقولة: 304
-- الملفات المرفوضة: 27
-- إجمالي الملفات في الفهرس: 304
+- الملفات الجديدة المنقولة في هذه الجولة: 27
+- الملفات المرفوضة: 0
+- إجمالي الملفات في الفهرس: 331
 
 > تم نقل الملفات النصية فقط. لم يتم تشغيل أي سكريبت. كل عنصر يظل للمراجعة اليدوية قبل إتاحته كأمر تثبيت أو تحديث.
 
@@ -312,32 +312,30 @@
 | KhaledAli65/Channels | TOOL-KhaledSNP_internal.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4f7c0ecf2744-Channels-TOOL-KhaledSNP_internal.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | TOOL-Mymetrix_backup.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1ef1b9cbb596-Channels-TOOL-Mymetrix_backup.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | TOOL-Mymetrix_fonts.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/00bf509bcb80-Channels-TOOL-Mymetrix_fonts.sh) | مراجعة يدوية مطلوبة |
-
-## ملفات لم يتم نقلها
-- KhaledAli65/Channels / TOOL-Mymetrix_neo.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/7dd557402a3e-Channels-TOOL-Mymetrix_neo.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / TOOL-Mymetrix_poster.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/98cb0ecb1bbc-Channels-TOOL-Mymetrix_poster.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / TOOL-NovalerDownloader.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/9e8596c7dbad-Channels-TOOL-NovalerDownloader.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / TOOL-PiconProvider_sat_crypt.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/6b9ac5dfcf9f-Channels-TOOL-PiconProvider_sat_crypt.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / TOOL-Satellites_ciefp.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/bc198092b203-Channels-TOOL-Satellites_ciefp.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / TOOL-Satellites_khaled_nilesat.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/653d48cafa3f-Channels-TOOL-Satellites_khaled_nilesat.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / TOOL-Satellites_morph.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/9b88249a97b1-Channels-TOOL-Satellites_morph.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / TOOL-Satellites_org.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/13fdbb614e5f-Channels-TOOL-Satellites_org.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / TOOL-SettingsMotor_ciefp.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/9201caba26f9-Channels-TOOL-SettingsMotor_ciefp.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / TOOL-SymLink_picon.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/85466f26e192-Channels-TOOL-SymLink_picon.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / TOOL-update-all-python.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/2d0834338b79-Channels-TOOL-update-all-python.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / TOOL-Upgrade.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/3e6fd500b59c-Channels-TOOL-Upgrade.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / TOOL-Wget.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/f552ddff2d54-Channels-TOOL-Wget.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / TOOL-WhiteList_ciefp.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/bb57885c892b-Channels-TOOL-WhiteList_ciefp.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / update_channels.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/f20739b35c9b-Channels-update_channels.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / update_picons.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/8cf13afe47ce-Channels-update_picons.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Channels / XtreamAndroid.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/1fbc60d45026-Channels-XtreamAndroid.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/emu / backup-4k.txt: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/cebaa11fa1b3-emu-backup-4k.txt', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/emu / install.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/cdb5de8baf88-emu-install.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/novaler / install.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/ecb68af454b7-novaler-install.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/novaler / playlists.txt: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/b4b3858647d3-novaler-playlists.txt', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/picons / backup-pro.txt: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/7fb6deccec68-picons-backup-pro.txt', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/plugins / build_khaled_feed.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/bdeb492b403f-plugins-build_khaled_feed.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/plugins / tar_list.txt: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/2c76a7be8070-plugins-tar_list.txt', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/skins / SKIN-MohammedSkin.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/e4893b6a6347-skins-SKIN-MohammedSkin.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Slot / e2multiboot_engine.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/decb8fd7282c-Slot-e2multiboot_engine.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
-- KhaledAli65/Slot / install-feed.sh: Command '['gh', 'release', 'upload', 'online4tech-telnet-scripts', '/tmp/o4t-scripts-aw2xrl2l/17161fc29bc9-Slot-install-feed.sh', '--repo', 'online4tech/online4Tech', '--clobber']' returned non-zero exit status 1.
+| KhaledAli65/Channels | TOOL-Mymetrix_neo.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7dd557402a3e-Channels-TOOL-Mymetrix_neo.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | TOOL-Mymetrix_poster.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/98cb0ecb1bbc-Channels-TOOL-Mymetrix_poster.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | TOOL-NovalerDownloader.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9e8596c7dbad-Channels-TOOL-NovalerDownloader.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | TOOL-PiconProvider_sat_crypt.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/6b9ac5dfcf9f-Channels-TOOL-PiconProvider_sat_crypt.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | TOOL-Satellites_ciefp.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/bc198092b203-Channels-TOOL-Satellites_ciefp.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | TOOL-Satellites_khaled_nilesat.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/653d48cafa3f-Channels-TOOL-Satellites_khaled_nilesat.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | TOOL-Satellites_morph.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9b88249a97b1-Channels-TOOL-Satellites_morph.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | TOOL-Satellites_org.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/13fdbb614e5f-Channels-TOOL-Satellites_org.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | TOOL-SettingsMotor_ciefp.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9201caba26f9-Channels-TOOL-SettingsMotor_ciefp.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | TOOL-SymLink_picon.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/85466f26e192-Channels-TOOL-SymLink_picon.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | TOOL-update-all-python.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2d0834338b79-Channels-TOOL-update-all-python.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | TOOL-Upgrade.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3e6fd500b59c-Channels-TOOL-Upgrade.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | TOOL-Wget.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f552ddff2d54-Channels-TOOL-Wget.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | TOOL-WhiteList_ciefp.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/bb57885c892b-Channels-TOOL-WhiteList_ciefp.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | update_channels.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f20739b35c9b-Channels-update_channels.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | update_picons.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8cf13afe47ce-Channels-update_picons.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | XtreamAndroid.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1fbc60d45026-Channels-XtreamAndroid.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/emu | backup-4k.txt | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/cebaa11fa1b3-emu-backup-4k.txt) | مراجعة يدوية مطلوبة |
+| KhaledAli65/emu | install.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/cdb5de8baf88-emu-install.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/novaler | install.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ecb68af454b7-novaler-install.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/novaler | playlists.txt | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b4b3858647d3-novaler-playlists.txt) | مراجعة يدوية مطلوبة |
+| KhaledAli65/picons | backup-pro.txt | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/17540b16493a-picons-backup-pro.txt) | مراجعة يدوية مطلوبة |
+| KhaledAli65/plugins | build_khaled_feed.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/bdeb492b403f-plugins-build_khaled_feed.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/plugins | tar_list.txt | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2c76a7be8070-plugins-tar_list.txt) | مراجعة يدوية مطلوبة |
+| KhaledAli65/skins | SKIN-MohammedSkin.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e4893b6a6347-skins-SKIN-MohammedSkin.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Slot | e2multiboot_engine.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/decb8fd7282c-Slot-e2multiboot_engine.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Slot | install-feed.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/17161fc29bc9-Slot-install-feed.sh) | مراجعة يدوية مطلوبة |

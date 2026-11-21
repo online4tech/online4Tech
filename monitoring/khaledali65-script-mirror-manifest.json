@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T21:34:30Z",
+  "generatedAt": "2026-11-21T09:55:49Z",
   "policy": "manual review only; never execute automatically",
   "files": [
     {
@@ -3040,6 +3040,276 @@
       "digest": "sha256:00bf509bcb80519672e7076d3d494686b40271a7a886bb52ac6c5d4db8031720",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/00bf509bcb80-Channels-TOOL-Mymetrix_fonts.sh",
       "mirroredAt": "2026-11-20T21:34:14Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Mymetrix_neo.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-Mymetrix_neo.sh",
+      "size": 231,
+      "digest": "sha256:7dd557402a3e084157f97f60cc341950991799da1556f95affcca2fc8e1a11ef",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7dd557402a3e-Channels-TOOL-Mymetrix_neo.sh",
+      "mirroredAt": "2026-11-21T09:54:50Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Mymetrix_poster.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-Mymetrix_poster.sh",
+      "size": 224,
+      "digest": "sha256:98cb0ecb1bbcc72e863b6c3d860ac834b93ee21b2bbd20a70d04641c0cfaf02c",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/98cb0ecb1bbc-Channels-TOOL-Mymetrix_poster.sh",
+      "mirroredAt": "2026-11-21T09:54:52Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-NovalerDownloader.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-NovalerDownloader.sh",
+      "size": 4031,
+      "digest": "sha256:9e8596c7dbad2c4c5b66b4ed6359e97291f507e53e49af1cd56c1b9c2cebb26e",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9e8596c7dbad-Channels-TOOL-NovalerDownloader.sh",
+      "mirroredAt": "2026-11-21T09:54:55Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-PiconProvider_sat_crypt.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-PiconProvider_sat_crypt.sh",
+      "size": 404,
+      "digest": "sha256:6b9ac5dfcf9ff4c9cc134f669e790eb95860886391bcbf1c6fa3a467734bbd2d",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/6b9ac5dfcf9f-Channels-TOOL-PiconProvider_sat_crypt.sh",
+      "mirroredAt": "2026-11-21T09:54:57Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Satellites_ciefp.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-Satellites_ciefp.sh",
+      "size": 879,
+      "digest": "sha256:bc198092b20351a804ee08f1bf519a95149a4a3fcc949ddee5282d432fbcb695",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/bc198092b203-Channels-TOOL-Satellites_ciefp.sh",
+      "mirroredAt": "2026-11-21T09:54:59Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Satellites_khaled_nilesat.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-Satellites_khaled_nilesat.sh",
+      "size": 851,
+      "digest": "sha256:653d48cafa3ff4a1af3dfa293db89cee82cc91755b65b27396c697152d2f9ff9",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/653d48cafa3f-Channels-TOOL-Satellites_khaled_nilesat.sh",
+      "mirroredAt": "2026-11-21T09:55:02Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Satellites_morph.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-Satellites_morph.sh",
+      "size": 877,
+      "digest": "sha256:9b88249a97b1255ee263e9b518315eb5c9c1ccc1151513759d318713f395cd94",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9b88249a97b1-Channels-TOOL-Satellites_morph.sh",
+      "mirroredAt": "2026-11-21T09:55:04Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Satellites_org.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-Satellites_org.sh",
+      "size": 867,
+      "digest": "sha256:13fdbb614e5fa766194fd61ded0355968539fdbf1389d8036195145acbfb9200",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/13fdbb614e5f-Channels-TOOL-Satellites_org.sh",
+      "mirroredAt": "2026-11-21T09:55:06Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-SettingsMotor_ciefp.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-SettingsMotor_ciefp.sh",
+      "size": 82,
+      "digest": "sha256:9201caba26f94072400902744058799349c1eafeb1458ea9e01852fd81f859f1",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/9201caba26f9-Channels-TOOL-SettingsMotor_ciefp.sh",
+      "mirroredAt": "2026-11-21T09:55:09Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-SymLink_picon.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-SymLink_picon.sh",
+      "size": 69,
+      "digest": "sha256:85466f26e192ba2f1523c13028e64d20f64765ac22c7c8a508b074de40d652b3",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/85466f26e192-Channels-TOOL-SymLink_picon.sh",
+      "mirroredAt": "2026-11-21T09:55:11Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-update-all-python.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-update-all-python.sh",
+      "size": 7693,
+      "digest": "sha256:2d0834338b7980a18a8f1a4c4fe81350066b9228fbe99e05be155b59661a55fd",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2d0834338b79-Channels-TOOL-update-all-python.sh",
+      "mirroredAt": "2026-11-21T09:55:13Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Upgrade.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-Upgrade.sh",
+      "size": 53,
+      "digest": "sha256:3e6fd500b59c549a553f28198bb5bfc6c287f9d0ffa23067379fadd50eb8a7c7",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/3e6fd500b59c-Channels-TOOL-Upgrade.sh",
+      "mirroredAt": "2026-11-21T09:55:15Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-Wget.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-Wget.sh",
+      "size": 62,
+      "digest": "sha256:f552ddff2d544f3223dff2befd787e0c94a9fd27f76d07cb45eb15d1f654a28f",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f552ddff2d54-Channels-TOOL-Wget.sh",
+      "mirroredAt": "2026-11-21T09:55:18Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Toolscript/TOOL-WhiteList_ciefp.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "TOOL-WhiteList_ciefp.sh",
+      "size": 132,
+      "digest": "sha256:bb57885c892b6aa7d79970513ac090150ed9d0317dc02f1c4c606a2534860df2",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/bb57885c892b-Channels-TOOL-WhiteList_ciefp.sh",
+      "mirroredAt": "2026-11-21T09:55:20Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Aiscript/update_channels.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "update_channels.sh",
+      "size": 2653,
+      "digest": "sha256:f20739b35c9b337162d7f50cd8e19e93c4217c6468c607c68905b1c31e975566",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f20739b35c9b-Channels-update_channels.sh",
+      "mirroredAt": "2026-11-21T09:55:22Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Aiscript/update_picons.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "update_picons.sh",
+      "size": 2578,
+      "digest": "sha256:8cf13afe47ce144894be8c536908f225b872405466b5992cdab1ac29e4a94062",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8cf13afe47ce-Channels-update_picons.sh",
+      "mirroredAt": "2026-11-21T09:55:25Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Aiscript/XtreamAndroid.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "XtreamAndroid.sh",
+      "size": 2600,
+      "digest": "sha256:1fbc60d450261d80a82ee8a0a2343e5d6c3e537560a51213ea70a7fadf6ec7fe",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/1fbc60d45026-Channels-XtreamAndroid.sh",
+      "mirroredAt": "2026-11-21T09:55:27Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/emu/main/backup-4k.txt",
+      "repository": "KhaledAli65/emu",
+      "sourceAssetName": "backup-4k.txt",
+      "size": 1990,
+      "digest": "sha256:cebaa11fa1b3c1402bee4d7be047f2427002040020971b32ac6dbbff033f5201",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/cebaa11fa1b3-emu-backup-4k.txt",
+      "mirroredAt": "2026-11-21T09:55:29Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/emu/main/install.sh",
+      "repository": "KhaledAli65/emu",
+      "sourceAssetName": "install.sh",
+      "size": 2412,
+      "digest": "sha256:cdb5de8baf886e86f5769ab1cc74fcf662ad96dd5270b31a079529be0c88eb73",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/cdb5de8baf88-emu-install.sh",
+      "mirroredAt": "2026-11-21T09:55:31Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/novaler/main/install.sh",
+      "repository": "KhaledAli65/novaler",
+      "sourceAssetName": "install.sh",
+      "size": 2113,
+      "digest": "sha256:ecb68af454b7a75da7b65061940ae40503a576dbe1e2f278aa642a500ff13249",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/ecb68af454b7-novaler-install.sh",
+      "mirroredAt": "2026-11-21T09:55:33Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/novaler/main/playlists.txt",
+      "repository": "KhaledAli65/novaler",
+      "sourceAssetName": "playlists.txt",
+      "size": 160,
+      "digest": "sha256:b4b3858647d3f38a0d371ae0b86dc217a0a8c88008788d42c97c073c90174047",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/b4b3858647d3-novaler-playlists.txt",
+      "mirroredAt": "2026-11-21T09:55:35Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/picons/main/backup-pro.txt",
+      "repository": "KhaledAli65/picons",
+      "sourceAssetName": "backup-pro.txt",
+      "size": 3314,
+      "digest": "sha256:17540b16493ae7570202f8eb7f1d7a6a326cabed2ceab9899fb81fffa1e0d175",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/17540b16493a-picons-backup-pro.txt",
+      "mirroredAt": "2026-11-21T09:55:37Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/plugins/main/build_khaled_feed.sh",
+      "repository": "KhaledAli65/plugins",
+      "sourceAssetName": "build_khaled_feed.sh",
+      "size": 5303,
+      "digest": "sha256:bdeb492b403fe7318b2a50cd856eb8d202ca4b512ab09c00dd628245474c2182",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/bdeb492b403f-plugins-build_khaled_feed.sh",
+      "mirroredAt": "2026-11-21T09:55:39Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/plugins/main/tar_list.txt",
+      "repository": "KhaledAli65/plugins",
+      "sourceAssetName": "tar_list.txt",
+      "size": 758,
+      "digest": "sha256:2c76a7be8070d73201401de80b51e4778d15740f1a8780e1371531b6869b74ae",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2c76a7be8070-plugins-tar_list.txt",
+      "mirroredAt": "2026-11-21T09:55:42Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/skins/releases/download/Enigma2/SKIN-MohammedSkin.sh",
+      "repository": "KhaledAli65/skins",
+      "sourceAssetName": "SKIN-MohammedSkin.sh",
+      "size": 3499,
+      "digest": "sha256:e4893b6a634793ff0b0fd9b596bf4e07fb2466dbb91c61b1b1b3d415dd8cfec2",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e4893b6a6347-skins-SKIN-MohammedSkin.sh",
+      "mirroredAt": "2026-11-21T09:55:45Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/Slot/main/e2multiboot_engine.sh",
+      "repository": "KhaledAli65/Slot",
+      "sourceAssetName": "e2multiboot_engine.sh",
+      "size": 2540,
+      "digest": "sha256:decb8fd7282c526c2110683e2a22a9914c587f04711084b50f0c526575c9da90",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/decb8fd7282c-Slot-e2multiboot_engine.sh",
+      "mirroredAt": "2026-11-21T09:55:47Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/Slot/main/install-feed.sh",
+      "repository": "KhaledAli65/Slot",
+      "sourceAssetName": "install-feed.sh",
+      "size": 1537,
+      "digest": "sha256:17161fc29bc9afe657bc393339820fae82254278502fdd3c37137f5448a2fda9",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/17161fc29bc9-Slot-install-feed.sh",
+      "mirroredAt": "2026-11-21T09:55:49Z",
       "reviewStatus": "manual_review_never_execute"
     }
   ]
