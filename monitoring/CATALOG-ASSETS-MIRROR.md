@@ -1,8 +1,8 @@
 # تقرير توحيد روابط ملفات الكتالوج على Online4Tech
 
-- الروابط الجديدة المنقولة في هذه الجولة: 0
-- الروابط التي تعذر نقلها: 7
-- إجمالي الروابط المؤرشفة: 68
+- الروابط الجديدة المنقولة في هذه الجولة: 6
+- الروابط التي تعذر نقلها: 1
+- إجمالي الروابط المؤرشفة: 74
 
 > تم نقل الملفات المباشرة والتحقق من سلامة الأرشيفات وبيانات IPK عند توفرها. لا يتم تشغيل أي سكريبت تلقائيًا. الروابط الأصلية محفوظة في بيانات التوثيق.
 
@@ -27,12 +27,15 @@
 | E2_Morph883_Settings.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6bafe9c4763b-E2_Morph883_Settings.sh) | text |
 | e2iplayer_install.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a454d425201-e2iplayer_install.sh) | text |
 | E2IplayerUpdater.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/880499943e1d-E2IplayerUpdater.sh) | text |
+| egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip) | zip |
 | egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip) | zip |
 | egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip) | zip |
+| egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a9127b41a48-egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip) | zip |
 | emuinstaller.tar.gz | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/64b9e16b10ac-emuinstaller.tar.gz) | tar |
 | enigma2-plugin-extensions-advancedscreenshot_all.ipk | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bfd32c2d37d8-enigma2-plugin-extensions-advancedscreenshot_all.ipk) | ipk |
 | enigma2-plugin-extensions-levi45emulator_all.deb | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/043b4f2fa18d-enigma2-plugin-extensions-levi45emulator_all.deb) | deb/ar |
 | enigma2-plugin-extensions-levi45emulator_all.ipk | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/4b908f3ec63e-enigma2-plugin-extensions-levi45emulator_all.ipk) | ipk |
+| gemini-aio-backup-dreamtwo-20261027_171848.tar.xz | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz) | tar |
 | HoloFHD-Black.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/103ee7519ec5-HoloFHD-Black.sh) | text |
 | HoloFHD-Black.tar.gz | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/c9aeee4e32b3-HoloFHD-Black.tar.gz) | tar |
 | ImagesDownloader.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/3c3cbd6ac498-ImagesDownloader.sh) | text |
@@ -62,6 +65,9 @@
 | NumberZapExt.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/dc4c323e2bcf-NumberZapExt.sh) | text |
 | NumberZapExt.tar.gz | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/861b5793f027-NumberZapExt.tar.gz) | tar |
 | openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip) | zip |
+| openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/7627b95d6937-openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip) | zip |
+| openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip) | zip |
+| openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip) | zip |
 | oscam_01_all.tar.gz | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b1139ee139c0-oscam_01_all.tar.gz) | tar |
 | picon.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/52c2f8685fec-picon.zip) | zip |
 | pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip) | zip |
@@ -79,9 +85,3 @@
 
 ## روابط لم يتم نقلها
 - https://raw.githubusercontent.com/emilnabil/ipaudiopro/refs/heads/main/ipaudiopro.sh: HTTP Error 404: Not Found
-- https://www.mediafire.com/file/isygzwbhd2bkz5a/openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip/file: مؤجل مؤقتًا بسبب حدود رفع GitHub Release API؛ سيعاد تلقائيًا في تشغيل مجدول أو عند اختيار retry_mediafire
-- https://www.mediafire.com/file/jcz1ga5js3j4d4z/egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip: مؤجل مؤقتًا بسبب حدود رفع GitHub Release API؛ سيعاد تلقائيًا في تشغيل مجدول أو عند اختيار retry_mediafire
-- https://www.mediafire.com/file/n69s61im02ijoxb/openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip/file: مؤجل مؤقتًا بسبب حدود رفع GitHub Release API؛ سيعاد تلقائيًا في تشغيل مجدول أو عند اختيار retry_mediafire
-- https://www.mediafire.com/file/rtlhobp5ys0uzdo/openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip/file: مؤجل مؤقتًا بسبب حدود رفع GitHub Release API؛ سيعاد تلقائيًا في تشغيل مجدول أو عند اختيار retry_mediafire
-- https://www.mediafire.com/file/smyi04yfocjal9g/egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip/file: مؤجل مؤقتًا بسبب حدود رفع GitHub Release API؛ سيعاد تلقائيًا في تشغيل مجدول أو عند اختيار retry_mediafire
-- https://www.mediafire.com/file/u8wlxp8qolsh0s5/gemini-aio-backup-dreamtwo-20261027_171848.tar.xz/file: مؤجل مؤقتًا بسبب حدود رفع GitHub Release API؛ سيعاد تلقائيًا في تشغيل مجدول أو عند اختيار retry_mediafire

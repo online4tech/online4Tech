@@ -1134,12 +1134,15 @@
       "date": "27 أكتوبر 2026",
       "downloads": 2857,
       "keywords": "Dreambox Two OpenPLI النسخ الاحتياطية",
-      "downloadUrl": "https://www.mediafire.com/file/u8wlxp8qolsh0s5/gemini-aio-backup-dreamtwo-20261027_171848.tar.xz/file",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz",
       "icon": "💾",
       "subcategory": "dm-two",
-      "compatibility": "Dreambox DM TWO UHD فقط"
+      "compatibility": "Dreambox DM TWO UHD فقط",
+      "originalDownloadUrl": "https://www.mediafire.com/file/u8wlxp8qolsh0s5/gemini-aio-backup-dreamtwo-20261027_171848.tar.xz/file",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz",
+      "originalDetailUrl": "#"
     },
     {
       "id": 57,
@@ -1151,12 +1154,15 @@
       "date": "26 مارس 2026",
       "downloads": 2446,
       "keywords": "Vu+ Zero 4K OpenATV النسخ الاحتياطية",
-      "downloadUrl": "https://www.mediafire.com/file/n69s61im02ijoxb/openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip/file",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip",
       "icon": "💾",
       "subcategory": "vu-zero4k",
-      "compatibility": "Vu+ Zero 4K فقط"
+      "compatibility": "Vu+ Zero 4K فقط",
+      "originalDownloadUrl": "https://www.mediafire.com/file/n69s61im02ijoxb/openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip/file",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip",
+      "originalDetailUrl": "#"
     },
     {
       "id": 140,
@@ -3077,10 +3083,13 @@
       "date": "30 أغسطس 2025",
       "keywords": "Vu+ Duo 4K OpenATV 7.4 النسخ الاحتياطية",
       "icon": "💾",
-      "downloadUrl": "https://www.mediafire.com/file/isygzwbhd2bkz5a/openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip/file",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/7627b95d6937-openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
-      "compatibility": "Vu+ Duo 4K فقط"
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/7627b95d6937-openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip",
+      "compatibility": "Vu+ Duo 4K فقط",
+      "originalDownloadUrl": "https://www.mediafire.com/file/isygzwbhd2bkz5a/openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip/file",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/7627b95d6937-openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip",
+      "originalDetailUrl": "#"
     },
     {
       "id": 4154,
@@ -3093,10 +3102,13 @@
       "date": "14 ديسمبر 2025",
       "keywords": "Vu+ Duo 4K EGAMI 10.4 النسخ الاحتياطية",
       "icon": "💾",
-      "downloadUrl": "https://www.mediafire.com/file/smyi04yfocjal9g/egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip/file",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a9127b41a48-egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
-      "compatibility": "Vu+ Duo 4K فقط"
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a9127b41a48-egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip",
+      "compatibility": "Vu+ Duo 4K فقط",
+      "originalDownloadUrl": "https://www.mediafire.com/file/smyi04yfocjal9g/egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip/file",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a9127b41a48-egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip",
+      "originalDetailUrl": "#"
     },
     {
       "id": 4155,
@@ -3109,10 +3121,13 @@
       "date": "3 يوليو 2024",
       "keywords": "Vu+ Duo 4K SE EGAMI 10.5 R7 النسخ الاحتياطية",
       "icon": "💾",
-      "downloadUrl": "https://www.mediafire.com/file/jcz1ga5js3j4d4z/egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
-      "compatibility": "Vu+ Duo 4K SE فقط"
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
+      "compatibility": "Vu+ Duo 4K SE فقط",
+      "originalDownloadUrl": "https://www.mediafire.com/file/jcz1ga5js3j4d4z/egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
+      "originalDetailUrl": "#"
     },
     {
       "id": 311,
@@ -3125,10 +3140,13 @@
       "date": "5 أغسطس 2026",
       "keywords": "Vu+ Uno 4K SE OpenATV 7.5.1 النسخ الاحتياطية",
       "icon": "💾",
-      "downloadUrl": "https://www.mediafire.com/file/rtlhobp5ys0uzdo/openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip/file",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip",
       "guideUrl": "https://online4tech.github.io/online4Tech/tutorials/backup-install.html",
-      "detailUrl": "#",
-      "compatibility": "Vu+ Uno 4K SE فقط"
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip",
+      "compatibility": "Vu+ Uno 4K SE فقط",
+      "originalDownloadUrl": "https://www.mediafire.com/file/rtlhobp5ys0uzdo/openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip/file",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip",
+      "originalDetailUrl": "#"
     },
     {
       "id": 312,

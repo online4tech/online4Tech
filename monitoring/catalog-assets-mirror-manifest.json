@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T09:58:35Z",
+  "generatedAt": "2026-11-21T10:55:53Z",
   "files": [
     {
       "sourceUrl": "https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openatv/channel.sh",
@@ -860,6 +860,78 @@
         "crc": "passed"
       },
       "mirroredAt": "2026-11-20T22:00:02Z"
+    },
+    {
+      "sourceUrl": "https://www.mediafire.com/file/isygzwbhd2bkz5a/openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip/file",
+      "sourceAssetName": "openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip",
+      "size": 228614446,
+      "digest": "sha256:7627b95d6937409b790cbd854e45ddbd0da4bb15faef7fc9d0c06092cdc0edbb",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/7627b95d6937-openatv-7.5.1-vuduo4k-backup-20250830_1514_usb.zip",
+      "validation": {
+        "format": "zip",
+        "crc": "passed"
+      },
+      "mirroredAt": "2026-11-21T10:54:10Z"
+    },
+    {
+      "sourceUrl": "https://www.mediafire.com/file/jcz1ga5js3j4d4z/egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
+      "sourceAssetName": "egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
+      "size": 385860219,
+      "digest": "sha256:9f1f46073900bcbbd7ee745c450ea6bcf05e0c7e0ccddc96b6fb53e9f9d46df2",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9f1f46073900-egami-10.5.r7-vuduo4kse-backup-20240703_Rome7.zip",
+      "validation": {
+        "format": "zip",
+        "crc": "passed"
+      },
+      "mirroredAt": "2026-11-21T10:54:33Z"
+    },
+    {
+      "sourceUrl": "https://www.mediafire.com/file/n69s61im02ijoxb/openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip/file",
+      "sourceAssetName": "openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip",
+      "size": 252724394,
+      "digest": "sha256:bdca625aa91d8dd3d5165dd204163a17d97531429b5b102f7e3e1c5095b8c7f7",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip",
+      "validation": {
+        "format": "zip",
+        "crc": "passed"
+      },
+      "mirroredAt": "2026-11-21T10:54:53Z"
+    },
+    {
+      "sourceUrl": "https://www.mediafire.com/file/rtlhobp5ys0uzdo/openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip/file",
+      "sourceAssetName": "openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip",
+      "size": 292270554,
+      "digest": "sha256:8a584af4f32afb111931751828a4af20935bf9f4b3bd1048e41baad78c79aebf",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip",
+      "validation": {
+        "format": "zip",
+        "crc": "passed"
+      },
+      "mirroredAt": "2026-11-21T10:55:09Z"
+    },
+    {
+      "sourceUrl": "https://www.mediafire.com/file/smyi04yfocjal9g/egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip/file",
+      "sourceAssetName": "egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip",
+      "size": 215235869,
+      "digest": "sha256:9a9127b41a486ef2f80f82ba7e6fd58bd3f462cf7c284d4f7bfc5ea294008175",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/9a9127b41a48-egami-11.0.r8-vuduo4k-backup-20251214_1435_usb.zip",
+      "validation": {
+        "format": "zip",
+        "crc": "passed"
+      },
+      "mirroredAt": "2026-11-21T10:55:29Z"
+    },
+    {
+      "sourceUrl": "https://www.mediafire.com/file/u8wlxp8qolsh0s5/gemini-aio-backup-dreamtwo-20261027_171848.tar.xz/file",
+      "sourceAssetName": "gemini-aio-backup-dreamtwo-20261027_171848.tar.xz",
+      "size": 308651776,
+      "digest": "sha256:e9a7fba53b2dd6747c64c2c82a6f1119111f0aec011c294fa120402538749208",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/e9a7fba53b2d-gemini-aio-backup-dreamtwo-20261027_171848.tar.xz",
+      "validation": {
+        "format": "tar",
+        "members": 23664
+      },
+      "mirroredAt": "2026-11-21T10:55:53Z"
     }
   ]
 }
