@@ -7,6 +7,10 @@ on:
         description: "اسم Release في المستودع المصدر (مثال: Vuzero أو Novalerpro أو Picon)"
         required: true
         type: string
+      asset_name:
+        description: "اسم ملف محدد للاستيراد فقط (اتركه فارغًا لاستيراد كل ملفات الإصدار)"
+        required: false
+        type: string
       category:
         description: "القسم داخل Online4Tech"
         required: true
@@ -33,6 +37,7 @@ jobs:
           GH_REPO: ${{ github.repository }}
           SOURCE_TAG: ${{ inputs.source_tag }}
           CATEGORY: ${{ inputs.category }}
+          ASSET_NAME_FILTER: ${{ inputs.asset_name }}
         shell: bash
         run: |
           set -euo pipefail
@@ -44,9 +49,10 @@ jobs:
           echo "Reading source release: ${SOURCE_REPO}/${SOURCE_TAG}"
           gh api "repos/${SOURCE_REPO}/releases/tags/${SOURCE_TAG}" > release.json
 
-          ASSET_COUNT="$(jq '.assets | length' release.json)"
+          jq --arg wanted "$ASSET_NAME_FILTER" '.assets | map(select($wanted == "" or .name == $wanted))' release.json > selected-assets.json
+          ASSET_COUNT="$(jq 'length' selected-assets.json)"
           test "$ASSET_COUNT" -gt 0
-          echo "Assets to import: $ASSET_COUNT"
+          echo "Assets selected for import: $ASSET_COUNT"
 
           if ! gh release view "$DEST_TAG" >/dev/null 2>&1; then
             gh release create "$DEST_TAG" --title "$DEST_TITLE" --notes "Imported from ${SOURCE_REPO} release ${SOURCE_TAG}. Original source is unchanged. Each file is checked by size and SHA-256."
@@ -88,7 +94,7 @@ jobs:
             echo "UPLOAD VERIFIED: $ASSET_NAME ($ACTUAL_SIZE bytes)"
             rm -f "$ASSET_NAME"
             echo "::endgroup::"
-          done < <(jq -r '.assets[] | @base64' release.json)
+          done < <(jq -r '.[] | @base64' selected-assets.json)
 
           echo "IMPORT_COMPLETE: $ASSET_COUNT assets copied and verified."
           echo "Destination: https://github.com/${GH_REPO}/releases/tag/${DEST_TAG}"
