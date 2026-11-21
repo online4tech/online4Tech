@@ -60,114 +60,163 @@ body{background:radial-gradient(ellipse at 75% -10%,#153a5b 0,transparent 42%),v
 @media(max-width:760px){.wrap{width:calc(100% - 24px)}}
 </style>
 <style>
-/* 1. تثبيت كامل الصفحة وجعل السكرول داخل قائمة الباكبات فقط */
-html, body {
-  height: 100%;
-  overflow: hidden !important;
+/* 1. تثبيت الصفحة وتكبير مساحة سكرول قائمة الباكبات لأقصى حد */
+@media (min-width: 769px) and (min-height: 600px) {
+  html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  body > *:not(.wrap):not(.contact-rail):not(script) {
+    flex: 0 0 auto;
+  }
+  .wrap {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  header.top, .hero, .device-panel, .head, .notice, .footer {
+    flex: 0 0 auto;
+  }
+  header.top {
+    padding: 6px 0 !important;
+    gap: 6px !important;
+  }
+  .site-logo-brand img {
+    width: clamp(150px, 18vw, 210px) !important;
+  }
+  .site-main-nav {
+    margin: 0 !important;
+  }
+  .site-main-nav a {
+    padding: 6px 11px !important;
+    font-size: .8rem !important;
+  }
+  main {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  main > section:nth-of-type(3) {
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .hero {
+    padding: 2px 0 !important;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 2px 12px;
+  }
+  .hero .eyebrow { display: none; }
+  .hero h1 {
+    font-size: clamp(1.15rem, 1.6vw, 1.45rem) !important;
+    margin: 0 !important;
+  }
+  .hero p {
+    font-size: .78rem;
+    line-height: 1.3;
+  }
+  .head {
+    margin: 4px 0 6px !important;
+  }
+  .head > div {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .head h2 { font-size: 1.1rem !important; }
+  .head p { margin: 0 !important; font-size: .78rem !important; }
+
+  #backupList {
+    flex: 1 1 auto;
+    min-height: 280px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 8px;
+    padding-bottom: 6px;
+    gap: 7px !important;
+  }
+  /* تقليل ارتفاع كل كارت باك أب عشان الشاشة تستوعب عدد أكبر */
+  .backup-row {
+    min-height: 74px !important;
+    padding: 8px 14px !important;
+    gap: 12px !important;
+  }
+  .backup-thumb {
+    width: 88px !important;
+    height: 52px !important;
+  }
+  .backup-extra {
+    margin-top: 4px !important;
+  }
+  .notice {
+    margin: 5px 0 !important;
+    padding: 5px 12px !important;
+    font-size: .74rem !important;
+    line-height: 1.35;
+  }
+  .footer {
+    margin-top: 0 !important;
+    padding: 5px 0 !important;
+    font-size: .72rem !important;
+  }
 }
-.wrap {
-  height: 100dvh;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+
+/* سكرول مستقل لقائمة الباكبات على الموبايل والشاشات الصغيرة */
+@media (max-width: 768px), (max-height: 599px) {
+  #backupList {
+    max-height: 62vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 4px;
+  }
 }
-header.top {
-  flex: 0 0 auto;
-  padding: 10px 0 !important;
-}
-.site-main-nav {
-  margin: 0 !important;
-}
-main {
-  flex: 1 1 auto;
-  min-height: 0;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-.hero {
-  flex: 0 0 auto;
-  padding: 8px 0 6px !important;
-}
-.hero h1 {
-  font-size: clamp(1.35rem, 2.3vw, 1.9rem) !important;
-  margin: 2px 0 4px !important;
-}
-.hero p {
-  font-size: .84rem;
-  line-height: 1.5;
-}
-main > section:nth-of-type(3) {
-  flex: 1 1 auto;
-  min-height: 0;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-.head {
-  flex: 0 0 auto;
-  margin: 6px 0 8px !important;
-}
+
 #backupList {
-  flex: 1 1 auto;
-  min-height: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding-left: 8px;
-  padding-bottom: 8px;
   scrollbar-width: thin;
   scrollbar-color: #3c7197 #0b1727;
 }
-#backupList::-webkit-scrollbar {
-  width: 8px;
-}
-#backupList::-webkit-scrollbar-track {
-  background: #0b1727;
-  border-radius: 999px;
-}
-#backupList::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #3c7197, #234968);
-  border-radius: 999px;
-}
-.notice {
-  flex: 0 0 auto;
-  margin: 8px 0 !important;
-  padding: 8px 14px !important;
-  font-size: .78rem !important;
-  line-height: 1.5;
-}
-.footer {
-  flex: 0 0 auto;
-  margin-top: 0 !important;
-  padding: 10px 0 !important;
-}
+#backupList::-webkit-scrollbar { width: 8px; }
+#backupList::-webkit-scrollbar-track { background: #0b1727; border-radius: 999px; }
+#backupList::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #3c7197, #234968); border-radius: 999px; }
 
-/* 2. توسيط صورة الجهاز وتحتها اسمه بخط كبير وواضح */
+/* 2. صورة الجهاز في المنتصف وتحتها الاسم بخط كبير وواضح (بمساحة رأسية متوازنة) */
 .device-panel {
-  flex: 0 0 auto;
   flex-direction: column !important;
   align-items: center !important;
   justify-content: center !important;
   text-align: center !important;
-  gap: 10px !important;
+  gap: 4px !important;
   min-height: auto !important;
-  margin: 8px 0 10px !important;
-  padding: 14px 18px !important;
+  margin: 4px 0 6px !important;
+  padding: 8px 14px !important;
 }
 .device-panel .art {
-  width: min(240px, 72%) !important;
+  width: min(175px, 60%) !important;
   flex: 0 0 auto !important;
-  min-height: 110px !important;
-  padding: 8px 12px !important;
+  min-height: 70px !important;
+  padding: 5px 8px !important;
   margin: 0 auto !important;
 }
 .device-panel .art img,
 .device-panel .dreambox-device-image {
-  max-height: 115px !important;
+  max-height: 68px !important;
   height: auto !important;
   width: auto !important;
   max-width: 100% !important;
-  padding: 4px !important;
+  padding: 0 !important;
   margin: 0 auto;
 }
 .device-panel > div:last-child {
@@ -176,24 +225,23 @@ main > section:nth-of-type(3) {
   align-items: center;
 }
 .device-panel small {
-  font-size: .82rem;
-  letter-spacing: 1px;
+  font-size: .74rem;
+  line-height: 1.2;
 }
-.device-panel h2,
-#modelTitle {
-  font-size: clamp(1.75rem, 3vw, 2.4rem) !important;
+.device-panel h2, #modelTitle {
+  font-size: clamp(1.55rem, 2.5vw, 2.05rem) !important;
   font-weight: 800 !important;
-  line-height: 1.2 !important;
-  margin: 4px 0 4px !important;
+  line-height: 1.15 !important;
+  margin: 1px 0 2px !important;
   color: #ffffff !important;
   text-shadow: 0 2px 12px rgba(103, 210, 255, .28);
 }
 .device-panel p {
-  font-size: .84rem;
-  line-height: 1.45;
+  font-size: .76rem !important;
+  line-height: 1.3 !important;
 }
 
-/* 3. زرار التحميل أخضر لامع مع لمعة متحركة (Shimmer) */
+/* 3. زرار التحميل أخضر لامع + لمعة متحركة (Shimmer) */
 .download-outline {
   position: relative;
   overflow: hidden;
@@ -218,14 +266,7 @@ main > section:nth-of-type(3) {
   left: -130%;
   width: 65%;
   height: 140%;
-  background: linear-gradient(
-    110deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, .15) 35%,
-    rgba(255, 255, 255, .68) 50%,
-    rgba(255, 255, 255, .15) 65%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  background: linear-gradient(110deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.15) 35%, rgba(255,255,255,.68) 50%, rgba(255,255,255,.15) 65%, rgba(255,255,255,0) 100%);
   transform: skewX(-22deg);
   pointer-events: none;
   animation: o4tDownloadShimmer 3s ease-in-out infinite;
@@ -242,26 +283,7 @@ main > section:nth-of-type(3) {
   filter: brightness(1.06);
   box-shadow: inset 0 1px 2px rgba(255, 255, 255, .8), 0 0 22px rgba(38, 240, 126, .68) !important;
 }
-.download-outline:hover::after {
-  animation-duration: 1.4s;
-}
-@media (prefers-reduced-motion: reduce) {
-  .download-outline::after { animation: none; }
-}
-
-@media (max-width: 760px) {
-  .hero { padding: 4px 0 !important; }
-  .hero p { display: none; }
-  .device-panel { padding: 10px 12px !important; gap: 6px !important; margin: 6px 0 !important; }
-  .device-panel .art { width: min(170px, 60%) !important; min-height: 82px !important; padding: 6px !important; }
-  .device-panel .art img,
-  .device-panel .dreambox-device-image { max-height: 80px !important; }
-  .device-panel h2, #modelTitle { font-size: 1.5rem !important; }
-  .device-panel p { display: none; }
-  .head p { display: none; }
-  .notice { padding: 6px 10px !important; font-size: .72rem !important; }
-  .footer { padding: 6px 0 !important; font-size: .72rem !important; }
-}
+.download-outline:hover::after { animation-duration: 1.4s; }
 </style>
 </head>
 <body><div class="wrap">
