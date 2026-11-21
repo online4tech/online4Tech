@@ -1,8 +1,8 @@
 # تقرير استيراد ومزامنة النسخ الاحتياطية
 
-- وقت التنفيذ: 2026-11-20T21:39:09Z
-- النسخ الجديدة في هذه الجولة: 0
-- إجمالي النسخ المنشورة بروابط Online4Tech: 92
+- وقت التنفيذ: 2026-11-21T09:58:23Z
+- النسخ الجديدة في هذه الجولة: 10
+- إجمالي النسخ المنشورة بروابط Online4Tech: 106
 - المرفوضة أو غير المكتملة في هذه الجولة: 0
 
 > الروابط العامة تشير إلى ملفات مستضافة في مستودع Online4Tech. يتم فحص ZIP وCRC وSHA-256 للنسخ التي تمر عبر مستورد الباك أب.
@@ -11,6 +11,10 @@
 
 | الملف | رابط Online4Tech | التوافق |
 |---|---|---|
+| Vu+ Uno | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/963370be28eb-egami-11.0.r21-vuuno4kse-backup-20260822_BY.Rome7.zip) | Vu+ Uno 4K SE فقط |
+| Vu+ Duo 4K SE — OpenATV 7.4 | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/5a4936532bba-openatv-7.4-vuduo4kse-backup-20240703_Rome7.zip) | Vu+ Duo 4K SE فقط |
+| Vu+ Uno 4K SE — Pure2 7.6 | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip) | Vu+ Uno 4K SE فقط |
+| Vu+ Duo 4K SE — EGAMI 11.0 R18 | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6c56c6aee383-egami-11.0.r18-vuduo4kse-backup-20260328_Rome7.zip) | Vu+ Duo 4K SE فقط |
 | egami-10.5.r10-vuzero-03102026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/egami-10.5.r10-vuzero-03102026.zip) | Vu+ Zero العادي فقط |
 | OpenATV-8.0.1-vuzero-02102026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/OpenATV-8.0.1-vuzero-02102026.zip) | Vu+ Zero العادي فقط |
 | openbh-6.0.004-vuzero-03102026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups-vuzero/openbh-6.0.004-vuzero-03102026.zip) | Vu+ Zero العادي فقط |
@@ -103,3 +107,13 @@
 | 12_Hyperion-X3-novalerpro_18102026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/08c14e70bec9-12_Hyperion-X3-novalerpro_18102026.zip) | Novaler Pro فقط |
 | 13_novalerpro_corvoboys_slot5.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/3cb2177b23dd-13_novalerpro_corvoboys_slot5.zip) | Novaler Pro فقط |
 | openvix-6.9.007-vuduo4k_19112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/588bea701aec-openvix-6.9.007-vuduo4k_19112026.zip) | Vu+ Duo 4K فقط |
+| 01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6fba255c349b-01_OpenATV-8.1.0_beta-multiboxpro_21112026.zip) | Novaler Pro فقط |
+| 02_PurE2-7.6-multiboxpro_21112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/959ccbffb7cf-02_PurE2-7.6-multiboxpro_21112026.zip) | Novaler Pro فقط |
+| 03_OpenATV-8.0.1-multiboxpro_20112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/b56eb9f430b4-03_OpenATV-8.0.1-multiboxpro_20112026.zip) | Novaler Pro فقط |
+| 04_OpenSPA-8.7-multiboxpro_20112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/33e04c550aaa-04_OpenSPA-8.7-multiboxpro_20112026.zip) | Novaler Pro فقط |
+| 05_EGAMI-11.0-multiboxpro_10112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/35590dba2f77-05_EGAMI-11.0-multiboxpro_10112026.zip) | Novaler Pro فقط |
+| 06_openHDF-8.0-multiboxpro_09112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/162c73ea7a94-06_openHDF-8.0-multiboxpro_09112026.zip) | Novaler Pro فقط |
+| 07_OpenPLi-wrynose-multiboxpro_09112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/f698efbd7f90-07_OpenPLi-wrynose-multiboxpro_09112026.zip) | Novaler Pro فقط |
+| 08_Teamblue-8.0-multiboxpro_08112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/8f20e62eb42c-08_Teamblue-8.0-multiboxpro_08112026.zip) | Novaler Pro فقط |
+| 09_OpenBh-6.0-multiboxpro_08112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6418e5d01fbf-09_OpenBh-6.0-multiboxpro_08112026.zip) | Novaler Pro فقط |
+| 11_OpenPLi-GCC-16.1-novalerpro_19102026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/269480c393b9-11_OpenPLi-GCC-16.1-novalerpro_19102026.zip) | Novaler Pro فقط |
