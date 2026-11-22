@@ -17,6 +17,20 @@ function check(folder){
 function setup(node){
  if(node.dataset.galleryChecked==='1')return;
  var folder=node.dataset.galleryFolder,title=node.dataset.galleryName||((node.querySelector('h2,h3,strong')||{}).textContent||'').trim();
+ if(!folder&&node.matches('.release-skin-card')&&node.dataset.galleryImages){
+  var imageList=[];
+  try{imageList=JSON.parse(node.dataset.galleryImages)}catch(e){}
+  imageList=Array.isArray(imageList)?imageList.filter(function(src){return typeof src==='string'&&/^https?:\\/\\//i.test(src)}):[];
+  if(!imageList.length)return;
+  node.dataset.galleryChecked='1';
+  var link=document.createElement('a');
+  link.className='gallery-link';
+  link.textContent='🖼️ الصور';
+  link.href='gallery.html?images='+encodeURIComponent(JSON.stringify(imageList))+'&name='+encodeURIComponent(title);
+  link.setAttribute('aria-label','عرض صور '+title);
+  node.appendChild(link);
+  return;
+ }
  if(!folder&&node.matches('#pluginGrid a.topic')){
   var href=node.getAttribute('href')||'',slug=href.split('/').pop().replace(/\.html(?:[?#].*)?$/,'');
   if(!slug)return;
