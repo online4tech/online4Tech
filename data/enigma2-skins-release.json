@@ -3,7 +3,7 @@
   "source": "KhaledAli65/skins@Enigma2",
   "releaseUrl": "https://github.com/online4tech/online4Tech/releases/tag/o4t-enigma2-skins-20261121",
   "generatedAt": "2026-11-22",
-  "count": 73,
+  "count": 133,
   "items": [
     {
       "id": "o4t-skin-1",
@@ -2008,6 +2008,1986 @@
           "https://github.com/smcam/enigma2/raw/main/ScreenShot/06.jpg"
         ],
         "imageAlt": "لقطات شاشة Youchie-PLI-FHD من مستودع المطور على GitHub"
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-1",
+      "name": "MX-HC2-MOD-By-RAED.zip",
+      "title": "MX-HC2",
+      "format": "zip",
+      "size": 2079872,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/MX-HC2-MOD-By-RAED.zip",
+      "command": "wget -O '/tmp/MX-HC2-MOD-By-RAED.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/MX-HC2-MOD-By-RAED.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_212_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_213_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_214_skin_big.jpeg"
+        ],
+        "imageAlt": "صور MX-HC2",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-2",
+      "name": "Skin-MX_HQ9_By-Matrix10-MOD-By-RAED.zip",
+      "title": "MX HQ9",
+      "format": "zip",
+      "size": 2386090,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-MX_HQ9_By-Matrix10-MOD-By-RAED.zip",
+      "command": "wget -O '/tmp/Skin-MX_HQ9_By-Matrix10-MOD-By-RAED.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-MX_HQ9_By-Matrix10-MOD-By-RAED.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_215_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_216_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_217_skin_big.jpeg"
+        ],
+        "imageAlt": "صور MX HQ9",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-3",
+      "name": "Skin-MX-X7-By-Matrix10-MOD-By-RAED.zip",
+      "title": "MX X7",
+      "format": "zip",
+      "size": 2929500,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-MX-X7-By-Matrix10-MOD-By-RAED.zip",
+      "command": "wget -O '/tmp/Skin-MX-X7-By-Matrix10-MOD-By-RAED.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-MX-X7-By-Matrix10-MOD-By-RAED.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_218_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_219_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_220_skin_big.jpeg"
+        ],
+        "imageAlt": "صور MX X7",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-4",
+      "name": "Skin-DarkSilverFHD-By-Sharp987-MOD-By-RAED.zip",
+      "title": "DarkSilver FHD",
+      "format": "zip",
+      "size": 7629473,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-DarkSilverFHD-By-Sharp987-MOD-By-RAED.zip",
+      "command": "wget -O '/tmp/Skin-DarkSilverFHD-By-Sharp987-MOD-By-RAED.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-DarkSilverFHD-By-Sharp987-MOD-By-RAED.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_221_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_222_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_223_skin_big.jpeg"
+        ],
+        "imageAlt": "صور DarkSilver FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-5",
+      "name": "skin-MX_Graphite_FHD-OpenATV-Mod-Borsalino.zip",
+      "title": "MX Graphite FHD",
+      "format": "zip",
+      "size": 3821776,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/skin-MX_Graphite_FHD-OpenATV-Mod-Borsalino.zip",
+      "command": "wget -O '/tmp/skin-MX_Graphite_FHD-OpenATV-Mod-Borsalino.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/skin-MX_Graphite_FHD-OpenATV-Mod-Borsalino.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_227_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_228_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_229_skin_big.jpeg"
+        ],
+        "imageAlt": "صور MX Graphite FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-6",
+      "name": "Skin-Sky-FHD-By-Maggy-MOD-By-RAED.zip",
+      "title": "Sky FHD",
+      "format": "zip",
+      "size": 3605334,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-Sky-FHD-By-Maggy-MOD-By-RAED.zip",
+      "command": "wget -O '/tmp/Skin-Sky-FHD-By-Maggy-MOD-By-RAED.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-Sky-FHD-By-Maggy-MOD-By-RAED.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_230_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_231_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_232_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Sky FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-7",
+      "name": "Skin-BundesligaFHD-By-Maggy-MOD-By-RAED.zip",
+      "title": "Bundesliga FHD",
+      "format": "zip",
+      "size": 14437688,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-BundesligaFHD-By-Maggy-MOD-By-RAED.zip",
+      "command": "wget -O '/tmp/Skin-BundesligaFHD-By-Maggy-MOD-By-RAED.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-BundesligaFHD-By-Maggy-MOD-By-RAED.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_235_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_236_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_237_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Bundesliga FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-8",
+      "name": "Skin-Multibox-FHD-By-stein17-Mod-By-RAED_OpenSource-only.zip",
+      "title": "Multibox FHD",
+      "format": "zip",
+      "size": 14074290,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-Multibox-FHD-By-stein17-Mod-By-RAED_OpenSource-only.zip",
+      "command": "wget -O '/tmp/Skin-Multibox-FHD-By-stein17-Mod-By-RAED_OpenSource-only.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-Multibox-FHD-By-stein17-Mod-By-RAED_OpenSource-only.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_238_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_239_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_240_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Multibox FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-9",
+      "name": "enigma2-plugin-skins-litehd_1.6_all.zip",
+      "title": "skins-litehd",
+      "format": "zip",
+      "size": 65461,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-litehd_1.6_all.zip",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-litehd_1.6_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-litehd_1.6_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_241_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_242_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_243_skin_big.jpeg"
+        ],
+        "imageAlt": "صور skins-litehd",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-10",
+      "name": "Skin-MX-X6-By-Matrix10-MOD-By-RAED.zip",
+      "title": "MX X6",
+      "format": "zip",
+      "size": 3647306,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-MX-X6-By-Matrix10-MOD-By-RAED.zip",
+      "command": "wget -O '/tmp/Skin-MX-X6-By-Matrix10-MOD-By-RAED.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-MX-X6-By-Matrix10-MOD-By-RAED.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_244_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_245_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_246_skin_big.jpeg"
+        ],
+        "imageAlt": "صور MX X6",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-11",
+      "name": "Skin-Beyonce-F1-By-Matrix10-MOD-By-RAED.zip",
+      "title": "Beyonce F1",
+      "format": "zip",
+      "size": 1794795,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-Beyonce-F1-By-Matrix10-MOD-By-RAED.zip",
+      "command": "wget -O '/tmp/Skin-Beyonce-F1-By-Matrix10-MOD-By-RAED.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-Beyonce-F1-By-Matrix10-MOD-By-RAED.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_247_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_248_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_249_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Beyonce F1",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-12",
+      "name": "enigma2-skin-fullhdglass17_7.10_all.ipk.zip",
+      "title": "Full HD Glass 17",
+      "format": "zip",
+      "size": 11370380,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-skin-fullhdglass17_7.10_all.ipk.zip",
+      "command": "wget -O '/tmp/enigma2-skin-fullhdglass17_7.10_all.ipk.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-skin-fullhdglass17_7.10_all.ipk.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_304_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_305_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_306_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Full HD Glass 17",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-13",
+      "name": "enigma2-plugin-skins-dreamosatfhd-adrenalinnrw-mod_1.0-r0_all.zip",
+      "title": "Dreamosatfhd-adrenalinnrw",
+      "format": "zip",
+      "size": 5780760,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-dreamosatfhd-adrenalinnrw-mod_1.0-r0_all.zip",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-dreamosatfhd-adrenalinnrw-mod_1.0-r0_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-dreamosatfhd-adrenalinnrw-mod_1.0-r0_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_322_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_323_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_324_skin_big.png"
+        ],
+        "imageAlt": "صور Dreamosatfhd-adrenalinnrw",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-14",
+      "name": "enigma2-plugin-skins-ozskin-fhd_by.Mmark.v.1.0.0_all.zip",
+      "title": "Ozskin-fhd",
+      "format": "zip",
+      "size": 1880967,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-ozskin-fhd_by.Mmark.v.1.0.0_all.zip",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-ozskin-fhd_by.Mmark.v.1.0.0_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-ozskin-fhd_by.Mmark.v.1.0.0_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_365_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_366_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_367_skin_big.png"
+        ],
+        "imageAlt": "صور Ozskin-fhd",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-15",
+      "name": "enigma2-plugin-skins-madmax-impossible_1.6.zip",
+      "title": "Madmax impossible",
+      "format": "zip",
+      "size": 13619447,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-madmax-impossible_1.6.zip",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-madmax-impossible_1.6.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-madmax-impossible_1.6.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_382_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_383_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_385_skin_big.png"
+        ],
+        "imageAlt": "صور Madmax impossible",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-16",
+      "name": "skin-octelfhd_2.2-By-SkinMania-MOD-By-MEHDI_all.zip",
+      "title": "Octelfhd By-SkinMania",
+      "format": "zip",
+      "size": 2812027,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/skin-octelfhd_2.2-By-SkinMania-MOD-By-MEHDI_all.zip",
+      "command": "wget -O '/tmp/skin-octelfhd_2.2-By-SkinMania-MOD-By-MEHDI_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/skin-octelfhd_2.2-By-SkinMania-MOD-By-MEHDI_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_386_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_387_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_388_skin_big.png"
+        ],
+        "imageAlt": "صور Octelfhd By-SkinMania",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-17",
+      "name": "enigma2-plugin-skins-octagoneightfhd_V4.50_all.zip",
+      "title": "Octagon eightfhd",
+      "format": "zip",
+      "size": 1549069,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-octagoneightfhd_V4.50_all.zip",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-octagoneightfhd_V4.50_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-octagoneightfhd_V4.50_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_389_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_390_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_391_skin_big.png"
+        ],
+        "imageAlt": "صور Octagon eightfhd",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-18",
+      "name": "enigma2-plugin-skins-octagon-hd-style-dark_1.3_all.zip",
+      "title": "Octagon hd style dark",
+      "format": "zip",
+      "size": 2102173,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-octagon-hd-style-dark_1.3_all.zip",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-octagon-hd-style-dark_1.3_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-octagon-hd-style-dark_1.3_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_392_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_393_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_394_skin_big.png"
+        ],
+        "imageAlt": "صور Octagon hd style dark",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-19",
+      "name": "Skin-EUR02020-FHD-N-By-Muaath.zip",
+      "title": "Skin EUR02020-FHD-N",
+      "format": "zip",
+      "size": 7192222,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-EUR02020-FHD-N-By-Muaath.zip",
+      "command": "wget -O '/tmp/Skin-EUR02020-FHD-N-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-EUR02020-FHD-N-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_403_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_404_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_405_skin_big.png"
+        ],
+        "imageAlt": "صور Skin EUR02020-FHD-N",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-20",
+      "name": "Skin-Spider-Man-HD-By-muaath-MOD-By-RAED.zip",
+      "title": "Skin-Spider-Man-HD",
+      "format": "zip",
+      "size": 4775185,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-Spider-Man-HD-By-muaath-MOD-By-RAED.zip",
+      "command": "wget -O '/tmp/Skin-Spider-Man-HD-By-muaath-MOD-By-RAED.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-Spider-Man-HD-By-muaath-MOD-By-RAED.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_441_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_442_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_443_skin_big.png"
+        ],
+        "imageAlt": "صور Skin-Spider-Man-HD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-21",
+      "name": "enigma2-plugin-skins-nitro-fhd-all_1.1_all.ipk.rar",
+      "title": "Nitro-fhd",
+      "format": "rar",
+      "size": 6471601,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-nitro-fhd-all_1.1_all.ipk.rar",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-nitro-fhd-all_1.1_all.ipk.rar' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-nitro-fhd-all_1.1_all.ipk.rar'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_444_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_445_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_446_skin_big.png"
+        ],
+        "imageAlt": "صور Nitro-fhd",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-22",
+      "name": "Skin-BATMAN-BLACK-P-FHD-By-Muaath.zip",
+      "title": "BATMAN-BLACK-P",
+      "format": "zip",
+      "size": 4826868,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-BATMAN-BLACK-P-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/Skin-BATMAN-BLACK-P-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-BATMAN-BLACK-P-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_447_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_448_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_449_skin_big.png"
+        ],
+        "imageAlt": "صور BATMAN-BLACK-P",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-23",
+      "name": "Skin-BATMAN-RED-FHD-By-Muaath.zip",
+      "title": "BATMAN-RED-FHD",
+      "format": "zip",
+      "size": 4924541,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-BATMAN-RED-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/Skin-BATMAN-RED-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-BATMAN-RED-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_450_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_451_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_452_skin_big.png"
+        ],
+        "imageAlt": "صور BATMAN-RED-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-24",
+      "name": "Skin-BEIN-BLACK-NP-FHD-By-Muaath.zip",
+      "title": "Skin-BEIN-BLACK-NP-FHD",
+      "format": "zip",
+      "size": 4431336,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-BEIN-BLACK-NP-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/Skin-BEIN-BLACK-NP-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-BEIN-BLACK-NP-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_491_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_492_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_493_skin_big.png"
+        ],
+        "imageAlt": "صور Skin-BEIN-BLACK-NP-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-25",
+      "name": "Skin-BEIN-NEP-FHD-By-Muaath.zip",
+      "title": "Skin-BEIN-NEP-FHD",
+      "format": "zip",
+      "size": 5853558,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-BEIN-NEP-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/Skin-BEIN-NEP-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-BEIN-NEP-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_496_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_497_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_498_skin_big.png"
+        ],
+        "imageAlt": "صور Skin-BEIN-NEP-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-26",
+      "name": "Skin-CH.LEAGUE-PN-FHD-By-Muaath.zip",
+      "title": "Skin-CH.LEAGUE-PN-FHD",
+      "format": "zip",
+      "size": 13482827,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-CH.LEAGUE-PN-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/Skin-CH.LEAGUE-PN-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-CH.LEAGUE-PN-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_499_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_500_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_501_skin_big.png"
+        ],
+        "imageAlt": "صور Skin-CH.LEAGUE-PN-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-27",
+      "name": "Skin-OSN-PN-FHD-By-Muaath.zip",
+      "title": "Skin-OSN-PN-FHD-By",
+      "format": "zip",
+      "size": 5654199,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-OSN-PN-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/Skin-OSN-PN-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-OSN-PN-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_502_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_503_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_504_skin_big.png"
+        ],
+        "imageAlt": "صور Skin-OSN-PN-FHD-By",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-28",
+      "name": "Skin-ROBOCOP-P-FHD-By-Muaath.zip",
+      "title": "Skin-ROBOCOP-P-FHD",
+      "format": "zip",
+      "size": 6424305,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-ROBOCOP-P-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/Skin-ROBOCOP-P-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-ROBOCOP-P-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_514_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_515_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_516_skin_big.png"
+        ],
+        "imageAlt": "صور Skin-ROBOCOP-P-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-29",
+      "name": "Skin-SPIDERMAN-P-FHD-By-Muaath.zip",
+      "title": "Skin-SPIDERMAN-P-FHD",
+      "format": "zip",
+      "size": 14445057,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-SPIDERMAN-P-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/Skin-SPIDERMAN-P-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-SPIDERMAN-P-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_517_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_518_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_519_skin_big.png"
+        ],
+        "imageAlt": "صور Skin-SPIDERMAN-P-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-30",
+      "name": "Skin-SPIDERMAN-SP-FHD-By-Muaath.zip",
+      "title": "Skin-SPIDERMAN-SP-FHD",
+      "format": "zip",
+      "size": 13897687,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-SPIDERMAN-SP-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/Skin-SPIDERMAN-SP-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-SPIDERMAN-SP-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_520_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_521_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_522_skin_big.png"
+        ],
+        "imageAlt": "صور Skin-SPIDERMAN-SP-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-31",
+      "name": "Skin-QATAR2022-GPN-FHD-By-Muaath.zip",
+      "title": "Skin-QATAR2022-GPN-FHD",
+      "format": "zip",
+      "size": 6149361,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-QATAR2022-GPN-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/Skin-QATAR2022-GPN-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Skin-QATAR2022-GPN-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_523_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_524_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_525_skin_big.png"
+        ],
+        "imageAlt": "صور Skin-QATAR2022-GPN-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-32",
+      "name": "skin-NitroGreenWoodFHD.tar.gz",
+      "title": "Skin Nitro Green Wood-FHD",
+      "format": "tar.gz",
+      "size": 13778837,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/skin-NitroGreenWoodFHD.tar.gz",
+      "command": "wget -O '/tmp/skin-NitroGreenWoodFHD.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/skin-NitroGreenWoodFHD.tar.gz' && mkdir -p '/tmp/o4t-skins/skin-NitroGreenWoodFHD' && tar -xzf '/tmp/skin-NitroGreenWoodFHD.tar.gz' -C '/tmp/o4t-skins/skin-NitroGreenWoodFHD' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/skin-NitroGreenWoodFHD' && find '/tmp/o4t-skins/skin-NitroGreenWoodFHD' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_533_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_534_skin_big.png",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_535_skin_big.png"
+        ],
+        "imageAlt": "صور Skin Nitro Green Wood-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-33",
+      "name": "enigma2-skin-metrixperience-adrenalinnrw_1.0_all.zip",
+      "title": "Skin metrixperience-adrenalinnrw",
+      "format": "zip",
+      "size": 12723498,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-skin-metrixperience-adrenalinnrw_1.0_all.zip",
+      "command": "wget -O '/tmp/enigma2-skin-metrixperience-adrenalinnrw_1.0_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-skin-metrixperience-adrenalinnrw_1.0_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_617_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_618_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_619_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skin metrixperience-adrenalinnrw",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-34",
+      "name": "enigma2-plugin-skins-novaler-s-x-fhd_MNASR_1.6_all.zip",
+      "title": "novaler-s-x-fhd_MNASR",
+      "format": "zip",
+      "size": 21653259,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-novaler-s-x-fhd_MNASR_1.6_all.zip",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-novaler-s-x-fhd_MNASR_1.6_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-novaler-s-x-fhd_MNASR_1.6_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_643_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_644_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_645_skin_big.jpeg"
+        ],
+        "imageAlt": "صور novaler-s-x-fhd_MNASR",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-35",
+      "name": "enigma2-plugin-skins-madmax-impossible-poster.zip",
+      "title": "madmax-impossible-poster",
+      "format": "zip",
+      "size": 13050985,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-madmax-impossible-poster.zip",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-madmax-impossible-poster.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-madmax-impossible-poster.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_658_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_659_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_660_skin_big.jpeg"
+        ],
+        "imageAlt": "صور madmax-impossible-poster",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-36",
+      "name": "enigma2-plugin-skins-nitrofhd-green-all_2.5-1_all.ipk.rar",
+      "title": "skins-nitrofhd-green",
+      "format": "rar",
+      "size": 7041888,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-nitrofhd-green-all_2.5-1_all.ipk.rar",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-nitrofhd-green-all_2.5-1_all.ipk.rar' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-nitrofhd-green-all_2.5-1_all.ipk.rar'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_723_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_724_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_725_skin_big.jpeg"
+        ],
+        "imageAlt": "صور skins-nitrofhd-green",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-37",
+      "name": "enigma2-plugin-skins-karonte-fhd-all_1.0_all.ipk.rar",
+      "title": "skins-karonte-fhd",
+      "format": "rar",
+      "size": 4229007,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-karonte-fhd-all_1.0_all.ipk.rar",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-karonte-fhd-all_1.0_all.ipk.rar' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-karonte-fhd-all_1.0_all.ipk.rar'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_726_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_727_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_728_skin_big.jpeg"
+        ],
+        "imageAlt": "صور skins-karonte-fhd",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-38",
+      "name": "enigma2-skin-metrixconfluenceatv-adrenalinnrw_1_7full_dragon_multiposter_all.zip",
+      "title": "Skin-metrixconfluenceatv-adrenalinnrw",
+      "format": "zip",
+      "size": 12671943,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-skin-metrixconfluenceatv-adrenalinnrw_1_7full_dragon_multiposter_all.zip",
+      "command": "wget -O '/tmp/enigma2-skin-metrixconfluenceatv-adrenalinnrw_1_7full_dragon_multiposter_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-skin-metrixconfluenceatv-adrenalinnrw_1_7full_dragon_multiposter_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_751_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_752_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_753_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skin-metrixconfluenceatv-adrenalinnrw",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-39",
+      "name": "enigma2-plugin-skins-extremegolden-fhd-all_v1.0_all.zip",
+      "title": "Skin-extremegolden-fhd",
+      "format": "zip",
+      "size": 4799260,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-extremegolden-fhd-all_v1.0_all.zip",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-extremegolden-fhd-all_v1.0_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-extremegolden-fhd-all_v1.0_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_754_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_755_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_756_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skin-extremegolden-fhd",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-40",
+      "name": "enigma2-plugin-skins-extreme-fhd-all_v1.0_all.zip",
+      "title": "Skin-extreme-fhd",
+      "format": "zip",
+      "size": 4627377,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-extreme-fhd-all_v1.0_all.zip",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-extreme-fhd-all_v1.0_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-extreme-fhd-all_v1.0_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_757_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_758_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_759_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skin-extreme-fhd",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-41",
+      "name": "enigma2-plugin-skins-octagon-fhd-all_v1.1_all.zip",
+      "title": "Skins-Octagon-Fhd",
+      "format": "zip",
+      "size": 27030320,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-octagon-fhd-all_v1.1_all.zip",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-octagon-fhd-all_v1.1_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-octagon-fhd-all_v1.1_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_764_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_765_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_766_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skins-Octagon-Fhd",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-42",
+      "name": "SKIN-ORANGESKY-XP-FHD-By-Muaath.zip",
+      "title": "SKIN-ORANGESKY-XP-FHD",
+      "format": "zip",
+      "size": 5061802,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-ORANGESKY-XP-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/SKIN-ORANGESKY-XP-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-ORANGESKY-XP-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_779_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_780_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_781_skin_big.jpeg"
+        ],
+        "imageAlt": "صور SKIN-ORANGESKY-XP-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-43",
+      "name": "SKIN-ORANGESKY-XP2-FHD-By-Muaath.zip",
+      "title": "SKIN-ORANGESKY-XP2-FHD",
+      "format": "zip",
+      "size": 5068221,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-ORANGESKY-XP2-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/SKIN-ORANGESKY-XP2-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-ORANGESKY-XP2-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_782_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_783_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_784_skin_big.jpeg"
+        ],
+        "imageAlt": "صور SKIN-ORANGESKY-XP2-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-44",
+      "name": "enigma2-enigma2-plugin-skins-red-dragon-fhd_v1.0_all.zip",
+      "title": "Skins Red Dragon Fhd",
+      "format": "zip",
+      "size": 14563932,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-enigma2-plugin-skins-red-dragon-fhd_v1.0_all.zip",
+      "command": "wget -O '/tmp/enigma2-enigma2-plugin-skins-red-dragon-fhd_v1.0_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-enigma2-plugin-skins-red-dragon-fhd_v1.0_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_810_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_811_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_812_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skins Red Dragon Fhd",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-45",
+      "name": "enigma2-plugin-skins-KIII-PRO-by-zelda77_v3.3_all.ipk.rar",
+      "title": "skins-KIII-PRO",
+      "format": "rar",
+      "size": 22203082,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-KIII-PRO-by-zelda77_v3.3_all.ipk.rar",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-KIII-PRO-by-zelda77_v3.3_all.ipk.rar' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-KIII-PRO-by-zelda77_v3.3_all.ipk.rar'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_813_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_814_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_815_skin_big.jpeg"
+        ],
+        "imageAlt": "صور skins-KIII-PRO",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-46",
+      "name": "enigma2-plugin-skins-kitte888lite-fhd-all_1.3_all.ipk.rar",
+      "title": "Skins kitte888lite",
+      "format": "rar",
+      "size": 9106331,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-kitte888lite-fhd-all_1.3_all.ipk.rar",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-kitte888lite-fhd-all_1.3_all.ipk.rar' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-kitte888lite-fhd-all_1.3_all.ipk.rar'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_816_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_817_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_818_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skins kitte888lite",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-47",
+      "name": "SKIN-SPIDERMAN-VPX-FHD-By-Muaath.zip",
+      "title": "SKIN SPIDERMAN VPX FHD",
+      "format": "zip",
+      "size": 17625423,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-SPIDERMAN-VPX-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/SKIN-SPIDERMAN-VPX-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-SPIDERMAN-VPX-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_819_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_820_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_821_skin_big.jpeg"
+        ],
+        "imageAlt": "صور SKIN SPIDERMAN VPX FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-48",
+      "name": "SKIN-ICONE-VPX-FHD-By-Muaath.zip",
+      "title": "SKIN-ICONE-VPX-FHD",
+      "format": "zip",
+      "size": 3334720,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-ICONE-VPX-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/SKIN-ICONE-VPX-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-ICONE-VPX-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_822_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_823_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_824_skin_big.jpeg"
+        ],
+        "imageAlt": "صور SKIN-ICONE-VPX-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-49",
+      "name": "enigma2-skin-metrixconfluenceatv-adrenalinnrw_1_7full_dragon_multiposter_all.ipk.rar",
+      "title": "Skin Metrixconfluenceatv-adrenalinnrw",
+      "format": "rar",
+      "size": 12605049,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-skin-metrixconfluenceatv-adrenalinnrw_1_7full_dragon_multiposter_all.ipk.rar",
+      "command": "wget -O '/tmp/enigma2-skin-metrixconfluenceatv-adrenalinnrw_1_7full_dragon_multiposter_all.ipk.rar' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-skin-metrixconfluenceatv-adrenalinnrw_1_7full_dragon_multiposter_all.ipk.rar'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_825_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_826_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_827_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skin Metrixconfluenceatv-adrenalinnrw",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-50",
+      "name": "enigma2-plugin-skins-novaler-s-fhd-indianred_3.3_all.ipk.rar",
+      "title": "Skins Novaler-s Fhd Indianred",
+      "format": "rar",
+      "size": 10857875,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-novaler-s-fhd-indianred_3.3_all.ipk.rar",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-novaler-s-fhd-indianred_3.3_all.ipk.rar' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-novaler-s-fhd-indianred_3.3_all.ipk.rar'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_828_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_829_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_830_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skins Novaler-s Fhd Indianred",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-51",
+      "name": "SKIN-ICONE-VPX2-FHD-By-Muaath.zip",
+      "title": "SKIN-ICONE-VPX2-FHD",
+      "format": "zip",
+      "size": 3344197,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-ICONE-VPX2-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/SKIN-ICONE-VPX2-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-ICONE-VPX2-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_831_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_832_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_833_skin_big.jpeg"
+        ],
+        "imageAlt": "صور SKIN-ICONE-VPX2-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-52",
+      "name": "SKIN-BATMAN-VPX2-FHD.-By-Muaath.zip",
+      "title": "SKIN-BATMAN-VPX2-FHD",
+      "format": "zip",
+      "size": 13320916,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-BATMAN-VPX2-FHD.-By-Muaath.zip",
+      "command": "wget -O '/tmp/SKIN-BATMAN-VPX2-FHD.-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-BATMAN-VPX2-FHD.-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_834_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_835_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_836_skin_big.jpeg"
+        ],
+        "imageAlt": "صور SKIN-BATMAN-VPX2-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-53",
+      "name": "SKIN-BATMAN-VPX-FHD-By-Muaath.zip",
+      "title": "SKIN-BATMAN-VPX-FHD",
+      "format": "zip",
+      "size": 13361015,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-BATMAN-VPX-FHD-By-Muaath.zip",
+      "command": "wget -O '/tmp/SKIN-BATMAN-VPX-FHD-By-Muaath.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-BATMAN-VPX-FHD-By-Muaath.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_837_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_838_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_839_skin_big.jpeg"
+        ],
+        "imageAlt": "صور SKIN-BATMAN-VPX-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-54",
+      "name": "enigma2-plugin-skins-bianca-fhd_1.0_all.ipk.rar",
+      "title": "Skin-Bianca-Fhd",
+      "format": "rar",
+      "size": 5383259,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-bianca-fhd_1.0_all.ipk.rar",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-bianca-fhd_1.0_all.ipk.rar' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-bianca-fhd_1.0_all.ipk.rar'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_842_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_843_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_844_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skin-Bianca-Fhd",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-55",
+      "name": "enigma2-skin-beta-pro-fhd_v1.1_all_BY_BAhaa_1772022_Xtraevent.ipk.rar",
+      "title": "Skin-beta-pro-fhd",
+      "format": "rar",
+      "size": 5595387,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-skin-beta-pro-fhd_v1.1_all_BY_BAhaa_1772022_Xtraevent.ipk.rar",
+      "command": "wget -O '/tmp/enigma2-skin-beta-pro-fhd_v1.1_all_BY_BAhaa_1772022_Xtraevent.ipk.rar' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-skin-beta-pro-fhd_v1.1_all_BY_BAhaa_1772022_Xtraevent.ipk.rar'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_845_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_846_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_847_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skin-beta-pro-fhd",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-56",
+      "name": "enigma2-plugin-skins-obselite-fhd-all_1.0_all.ipk.rar",
+      "title": "Skins-obselite-fhd",
+      "format": "rar",
+      "size": 5328568,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-obselite-fhd-all_1.0_all.ipk.rar",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-obselite-fhd-all_1.0_all.ipk.rar' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-obselite-fhd-all_1.0_all.ipk.rar'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_848_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_849_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_850_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skins-obselite-fhd",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-57",
+      "name": "SKIN-pDreamy-N-FHD-ByMOATH.tar.gz",
+      "title": "Skin pDreamy-N-FHD",
+      "format": "tar.gz",
+      "size": 4927250,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-pDreamy-N-FHD-ByMOATH.tar.gz",
+      "command": "wget -O '/tmp/SKIN-pDreamy-N-FHD-ByMOATH.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/SKIN-pDreamy-N-FHD-ByMOATH.tar.gz' && mkdir -p '/tmp/o4t-skins/SKIN-pDreamy-N-FHD-ByMOATH' && tar -xzf '/tmp/SKIN-pDreamy-N-FHD-ByMOATH.tar.gz' -C '/tmp/o4t-skins/SKIN-pDreamy-N-FHD-ByMOATH' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/SKIN-pDreamy-N-FHD-ByMOATH' && find '/tmp/o4t-skins/SKIN-pDreamy-N-FHD-ByMOATH' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_972_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_973_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_974_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skin pDreamy-N-FHD",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-58",
+      "name": "Malek-FHD_v1.5_MNASR.tar.gz",
+      "title": "Skin Malek-FHD v1.5",
+      "format": "tar.gz",
+      "size": 8251433,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Malek-FHD_v1.5_MNASR.tar.gz",
+      "command": "wget -O '/tmp/Malek-FHD_v1.5_MNASR.tar.gz' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Malek-FHD_v1.5_MNASR.tar.gz' && mkdir -p '/tmp/o4t-skins/Malek-FHD_v1.5_MNASR' && tar -xzf '/tmp/Malek-FHD_v1.5_MNASR.tar.gz' -C '/tmp/o4t-skins/Malek-FHD_v1.5_MNASR' && echo 'تم فك الأرشيف للمراجعة داخل /tmp/o4t-skins/Malek-FHD_v1.5_MNASR' && find '/tmp/o4t-skins/Malek-FHD_v1.5_MNASR' -maxdepth 3 -type f | head -40",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/01/thumb_999_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/02/thumb_1000_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/02/thumb_1001_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skin Malek-FHD v1.5",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-59",
+      "name": "Enigma2-plugin-skins-cobaltfhd3_OpenBH-Openpli.15.03.2023_all.zip",
+      "title": "Skin cobaltfhd3",
+      "format": "zip",
+      "size": 110389843,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Enigma2-plugin-skins-cobaltfhd3_OpenBH-Openpli.15.03.2023_all.zip",
+      "command": "wget -O '/tmp/Enigma2-plugin-skins-cobaltfhd3_OpenBH-Openpli.15.03.2023_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/Enigma2-plugin-skins-cobaltfhd3_OpenBH-Openpli.15.03.2023_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/02/thumb_1002_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/02/thumb_1003_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/02/thumb_1004_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skin cobaltfhd3",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
+      }
+    },
+    {
+      "id": "o4t-skin-novalar-60",
+      "name": "enigma2-plugin-skins-mx--sline-posterx_2.0-mod2ha_all.zip",
+      "title": "Skin Mx-sline-posterx OBH",
+      "format": "zip",
+      "size": 11930306,
+      "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-mx--sline-posterx_2.0-mod2ha_all.zip",
+      "command": "wget -O '/tmp/enigma2-plugin-skins-mx--sline-posterx_2.0-mod2ha_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-skins-novalar-20261122/enigma2-plugin-skins-mx--sline-posterx_2.0-mod2ha_all.zip'",
+      "commandLabel": "أمر تثبيت من متجر Online4Tech",
+      "description": "سكين من مجموعة Novaler؛ صور المعاينة من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا.",
+      "tags": [
+        "Novalar",
+        "FHD"
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novalar — Skins",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "images": [
+          "https://www.novaler.com/uploads/media/skin/0001/02/thumb_1005_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/02/thumb_1006_skin_big.jpeg",
+          "https://www.novaler.com/uploads/media/skin/0001/02/thumb_1007_skin_big.jpeg"
+        ],
+        "imageAlt": "صور Skin Mx-sline-posterx OBH",
+        "resolution": "FHD",
+        "researchStatus": "preview-only",
+        "researchNote": "ملف السكين مرفوع على Release الخاص بنا (Novalar Skins Collection)."
       }
     }
   ],
