@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "source": "Novalar Plugins",
+ "source": "Online4Tech Plugins",
  "releaseUrl": "https://github.com/online4tech/online4Tech/releases/tag/o4t-enigma2-plugins-novalar-20261122",
  "generatedAt": "2026-11-22",
  "count": 44,
@@ -16,18 +16,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "مشغل IPTV لقوائم Xtream Codes على جهازك.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_185_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_185_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_185_software_medium.jpeg"
     ],
@@ -35,7 +30,7 @@
     "version": "4.02",
     "date": "10 mai 2023",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -49,18 +44,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "لوحة أدوات متكاملة لإدارة إضافات وأدوات Enigma2.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_194_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_194_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_194_software_medium.jpeg"
     ],
@@ -68,7 +58,7 @@
     "version": "v8.8.5",
     "date": "06 mai 2023",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -82,18 +72,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "إدارة السوفت كام والتبديل بين الكامات من مكان واحد.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_197_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_197_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_197_software_medium.jpeg"
     ],
@@ -101,7 +86,7 @@
     "version": "4.0",
     "date": "28 mars 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -115,18 +100,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "مواقيت الصلاة والأذان على شاشة جهازك.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_198_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_198_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_198_software_medium.jpeg"
     ],
@@ -134,7 +114,7 @@
     "version": "2.8",
     "date": "10 mai 2023",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -148,18 +128,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "تشغيل الصوت بصورة داخل صورة أثناء مشاهدة قناة أخرى.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_199_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_199_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_199_software_medium.jpeg"
     ],
@@ -167,7 +142,7 @@
     "version": "0.3",
     "date": "01 février 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -181,18 +156,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "الاستماع لتلاوات القرآن الكريم من جهازك.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_202_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_202_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_202_software_medium.jpeg"
     ],
@@ -200,7 +170,7 @@
     "version": "1.0",
     "date": "01 février 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -214,18 +184,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "تغيير اتصال VPN من داخل الجهاز.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_203_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_203_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_203_software_medium.jpeg"
     ],
@@ -233,7 +198,7 @@
     "version": "1.2.9",
     "date": "01 février 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -247,18 +212,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "مشغل IPTV لقوائم Xtream.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_204_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_204_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_204_software_medium.jpeg"
     ],
@@ -266,7 +226,7 @@
     "version": "1.8",
     "date": "28 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -280,18 +240,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "البحث عن فيدات الأقمار الصناعية.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_205_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_205_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_205_software_medium.jpeg"
     ],
@@ -299,73 +254,63 @@
     "version": "1.6",
     "date": "01 février 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
    "id": "o4t-plugin-novalar-10",
    "name": "novaler-wifi-driver.zip",
-   "title": "Novaler Wifi Driver Multibox & Multiboxse",
+   "title": "Wifi Driver Multibox & Multiboxse",
    "format": "zip",
    "size": 304633,
    "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-novalar-20261122/novaler-wifi-driver.zip",
    "command": "wget -O '/tmp/novaler-wifi-driver.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-novalar-20261122/novaler-wifi-driver.zip'",
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
-   "description": "بلجن Enigma2 من مجموعة Novaler؛ ملف التحميل مرفوع على Release الخاص بنا.",
+   "description": "بلجن Enigma2 من مكتبة Online4Tech؛ ملف التحميل مرفوع على Release الخاص بنا.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_206_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_206_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_206_software_medium.jpeg"
     ],
-    "imageAlt": "لوجو Novaler Wifi Driver Multibox & Multiboxse",
+    "imageAlt": "لوجو Wifi Driver Multibox & Multiboxse",
     "version": "4.4.35",
     "date": "18 décembre 2022",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
    "id": "o4t-plugin-novalar-11",
    "name": "enigma2-plugin-extensions-camnova_1.8-arm_all.zip",
-   "title": "Novaler MultiCam Manager",
+   "title": "MultiCam Manager",
    "format": "zip",
    "size": 3149965,
    "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-novalar-20261122/enigma2-plugin-extensions-camnova_1.8-arm_all.zip",
    "command": "wget -O '/tmp/enigma2-plugin-extensions-camnova_1.8-arm_all.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-novalar-20261122/enigma2-plugin-extensions-camnova_1.8-arm_all.zip'",
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
-   "description": "بلجن Enigma2 من مجموعة Novaler؛ ملف التحميل مرفوع على Release الخاص بنا.",
+   "description": "بلجن Enigma2 من مكتبة Online4Tech؛ ملف التحميل مرفوع على Release الخاص بنا.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_345_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_345_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_345_software_medium.jpeg"
     ],
-    "imageAlt": "لوجو Novaler MultiCam Manager",
+    "imageAlt": "لوجو MultiCam Manager",
     "version": "1.8",
     "date": "12 septembre 2023",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -379,18 +324,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "جلب مفاتيح Biss للفيدات تلقائيًا.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_346_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_346_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_346_software_medium.png"
     ],
@@ -398,7 +338,7 @@
     "version": "V2.8",
     "date": "28 mars 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -412,18 +352,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "إنشاء بوكيهات IPTV من حساب Xtream Codes.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_347_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_347_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_347_software_medium.png"
     ],
@@ -431,7 +366,7 @@
     "version": "6.36",
     "date": "09 mai 2024",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -445,18 +380,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "قياس سرعة الإنترنت من جهاز الاستقبال.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_362_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_362_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_362_software_medium.png"
     ],
@@ -464,7 +394,7 @@
     "version": "1.2",
     "date": "03 juin 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -478,18 +408,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "حزمة سوفت كام لأجهزة 4K.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_402_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_402_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_402_software_medium.jpeg"
     ],
@@ -497,7 +422,7 @@
     "version": "1.2",
     "date": "01 novembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -511,18 +436,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "محرر إعدادات Oscam من جهازك.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_471_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_471_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_471_software_medium.png"
     ],
@@ -530,7 +450,7 @@
     "version": "1.1",
     "date": "10 juillet 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -544,18 +464,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "قنوات Pluto TV المجانية.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_526_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_526_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_526_software_medium.png"
     ],
@@ -563,7 +478,7 @@
     "version": "3.0",
     "date": "20 février 2024",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -577,18 +492,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "تثبيت صور Enigma2 متعددة والتبديل بينها (مالتي بوت).",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_528_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_528_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_528_software_medium.png"
     ],
@@ -596,7 +506,7 @@
     "version": "5.9",
     "date": "28 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -610,18 +520,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "تلاوات القرآن الكريم.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_543_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_543_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_543_software_medium.png"
     ],
@@ -629,7 +534,7 @@
     "version": "1.3",
     "date": "28 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -643,18 +548,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "تحميل سيرفرات CCcam.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_544_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_544_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_544_software_medium.jpeg"
     ],
@@ -662,7 +562,7 @@
     "version": "FIX7x",
     "date": "28 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -676,18 +576,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "سيرفرات شيرنج مجانية.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_545_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_545_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_545_software_medium.jpeg"
     ],
@@ -695,7 +590,7 @@
     "version": "7.2.6",
     "date": "28 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -709,18 +604,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "أيقونات قنوات (Picons) لشاشة جهازك.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_546_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_546_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_546_software_medium.png"
     ],
@@ -728,7 +618,7 @@
     "version": "5.0",
     "date": "28 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -742,18 +632,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "دعم تحميل الترجمات للأفلام والمسلسلات.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_558_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_558_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_558_software_medium.png"
     ],
@@ -761,7 +646,7 @@
     "version": "1.5.8-r3",
     "date": "28 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -775,18 +660,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "قنوات تلفزيونية عبر الإنترنت.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_557_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_557_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_557_software_medium.png"
     ],
@@ -794,7 +674,7 @@
     "version": "1.3",
     "date": "28 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -808,18 +688,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "قياس سرعة الإنترنت من جهازك.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_550_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_550_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_550_software_medium.png"
     ],
@@ -827,7 +702,7 @@
     "version": "2.1.3",
     "date": "28 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -841,18 +716,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "التقاط لقطات من شاشة جهازك.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_555_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_555_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_555_software_medium.jpeg"
     ],
@@ -860,7 +730,7 @@
     "version": "2.6",
     "date": "28 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -874,18 +744,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "تحويل قوائم m3u إلى بوكيهات قنوات.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_553_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_553_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_553_software_medium.jpeg"
     ],
@@ -893,7 +758,7 @@
     "version": "1.0.43",
     "date": "29 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -907,18 +772,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "حالة الطقس على شاشة جهازك.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_560_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_560_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_560_software_medium.png"
     ],
@@ -926,7 +786,7 @@
     "version": "1.3-r3_PY2_3",
     "date": "29 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -940,18 +800,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "قياس قوة الإشارة وجودتها بسرعة.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_561_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_561_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_561_software_medium.png"
     ],
@@ -959,7 +814,7 @@
     "version": "12.0",
     "date": "29 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -973,18 +828,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "حفظ واسترجاع القنوات العربية المفضلة.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_562_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_562_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_562_software_medium.png"
     ],
@@ -992,7 +842,7 @@
     "version": "1.3",
     "date": "29 septembre 2021",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -1006,18 +856,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "البحث عن الفيدات وجلب مفاتيح Biss تلقائيًا.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_612_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_612_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_612_software_medium.jpeg"
     ],
@@ -1025,7 +870,7 @@
     "version": "v2022",
     "date": "11 janvier 2022",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -1037,20 +882,15 @@
    "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-novalar-20261122/enigma2-plugin-extensions-novatv.zip",
    "command": "wget -O '/tmp/enigma2-plugin-extensions-novatv.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-novalar-20261122/enigma2-plugin-extensions-novatv.zip'",
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
-   "description": "تطبيق قنوات Novaler التلفزيونية.",
+   "description": "تطبيق قنوات Online4Tech التلفزيونية.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_707_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_707_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_707_software_medium.jpeg"
     ],
@@ -1058,7 +898,7 @@
     "version": "11.0",
     "date": "16 mai 2026",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -1067,23 +907,18 @@
    "title": "Chromium Os",
    "format": "zip",
    "size": 334532508,
-   "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-novalar-20261122/enigma2-plugin-extensions-chromium2.zip",
-   "command": "wget -O '/tmp/enigma2-plugin-extensions-chromium2.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-novalar-20261122/enigma2-plugin-extensions-chromium2.zip'",
+   "url": "https://drive.google.com/file/d/19wx2ZcL5eoaicydSlOW5vBzoABRFvCG1/view",
+   "command": "wget -O '/tmp/enigma2-plugin-extensions-chromium2.zip' 'https://drive.google.com/uc?export=download&id=19wx2ZcL5eoaicydSlOW5vBzoABRFvCG1'",
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "متصفح Chromium على جهاز الاستقبال.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_718_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_718_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_718_software_medium.png"
     ],
@@ -1091,7 +926,7 @@
     "version": "1.0 & 1.1",
     "date": "28 janvier 2025",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. الملف 320 ميجا فمرفوع على Google Drive بدل الريليس."
    }
   },
   {
@@ -1105,18 +940,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "قنوات SUPTV.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_801_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_801_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_801_software_medium.png"
     ],
@@ -1124,7 +954,7 @@
     "version": "6.0",
     "date": "16 mai 2026",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -1138,18 +968,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "إضافة مفاتيح Biss وCW للقنوات المشفرة.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_809_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_809_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_809_software_medium.png"
     ],
@@ -1157,7 +982,7 @@
     "version": "5.7",
     "date": "28 juin 2022",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -1171,18 +996,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "كام Supreme.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1078_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1078_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/02/thumb_1078_software_medium.png"
     ],
@@ -1190,7 +1010,7 @@
     "version": "9.2",
     "date": "09 mai 2024",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -1204,18 +1024,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "بث صوتي وقنوات راديو عبر الإنترنت.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/01/thumb_929_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/01/thumb_929_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/01/thumb_929_software_medium.jpeg"
     ],
@@ -1223,7 +1038,7 @@
     "version": "5.0",
     "date": "16 mai 2026",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -1237,18 +1052,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "قنوات فضائية عبر الإنترنت.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1017_software_medium.jpeg",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1017_software_medium.jpeg",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/02/thumb_1017_software_medium.jpeg"
     ],
@@ -1256,7 +1066,7 @@
     "version": "11.0",
     "date": "16 mai 2026",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -1270,18 +1080,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "قنوات Rakuten TV.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1080_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1080_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/02/thumb_1080_software_medium.png"
     ],
@@ -1289,7 +1094,7 @@
     "version": "3.0",
     "date": "24 mars 2024",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -1303,18 +1108,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "قنوات Vavoo.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1105_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1105_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/02/thumb_1105_software_medium.png"
     ],
@@ -1322,7 +1122,7 @@
     "version": "3.0",
     "date": "15 avril 2024",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -1334,20 +1134,15 @@
    "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-novalar-20261122/enigma2-plugin-extensions-beengo.zip",
    "command": "wget -O '/tmp/enigma2-plugin-extensions-beengo.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-novalar-20261122/enigma2-plugin-extensions-beengo.zip'",
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
-   "description": "بلجن Enigma2 من مجموعة Novaler.",
+   "description": "بلجن Enigma2 من مكتبة Online4Tech.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1209_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1209_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/02/thumb_1209_software_medium.png"
     ],
@@ -1355,7 +1150,7 @@
     "version": "11.0",
     "date": "16 mai 2026",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -1369,18 +1164,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "سوفت كام UltraCam.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1216_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1216_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/02/thumb_1216_software_medium.png"
     ],
@@ -1388,40 +1178,35 @@
     "version": "3.0",
     "date": "16 août 2025",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
    "id": "o4t-plugin-novalar-43",
    "name": "enigma2-plugin-extensions-novalerstore.zip",
-   "title": "Novaler Store",
+   "title": "Store",
    "format": "zip",
    "size": 3470809,
    "url": "https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-novalar-20261122/enigma2-plugin-extensions-novalerstore.zip",
    "command": "wget -O '/tmp/enigma2-plugin-extensions-novalerstore.zip' 'https://github.com/online4tech/online4Tech/releases/download/o4t-enigma2-plugins-novalar-20261122/enigma2-plugin-extensions-novalerstore.zip'",
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
-   "description": "بلجن Enigma2 من مجموعة Novaler؛ ملف التحميل مرفوع على Release الخاص بنا.",
+   "description": "بلجن Enigma2 من مكتبة Online4Tech؛ ملف التحميل مرفوع على Release الخاص بنا.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1227_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1227_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/02/thumb_1227_software_medium.png"
     ],
-    "imageAlt": "لوجو Novaler Store",
+    "imageAlt": "لوجو Store",
     "version": "5.0",
     "date": "16 mai 2026",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   },
   {
@@ -1435,18 +1220,13 @@
    "commandLabel": "أمر تثبيت من متجر Online4Tech",
    "description": "كام Nova Pro وقنوات NovaTV.",
    "tags": [
-    "Novalar",
+    "Online4Tech",
     "Enigma2"
    ],
    "logo": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1241_software_medium.png",
    "research": {
-    "sourceLinks": [
-     {
-      "label": "Novalar — Plugins",
-      "url": "https://www.novaler.com/dz/downloads/plugins"
-     }
-    ],
-    "galleryUrl": "https://www.novaler.com/dz/downloads/plugins",
+    "sourceLinks": [],
+    "galleryUrl": "https://www.novaler.com/uploads/media/software/0001/02/thumb_1241_software_medium.png",
     "images": [
      "https://www.novaler.com/uploads/media/software/0001/02/thumb_1241_software_medium.png"
     ],
@@ -1454,7 +1234,7 @@
     "version": "4.0 & 11.0",
     "date": "16 mai 2026",
     "researchStatus": "preview-only",
-    "researchNote": "بلجن من مجموعة Novaler؛ اللوجو من موقع Novaler. ملف التحميل مرفوع على Release الخاص بنا."
+    "researchNote": "بلجن من مكتبة Online4Tech. ملف التحميل مرفوع على Release الخاص بنا."
    }
   }
  ]
