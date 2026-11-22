@@ -179,7 +179,20 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — BlueAccents FHD",
+            "url": "https://www.enigma2.net/skin-blueaccents-fhd-for-openatv/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/skin-blueaccents-fhd-for-openatv/",
+        "designer": "غير مؤكد من المصدر المفتوح",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "الصفحة تعرض BlueAccents FHD for OpenATV وصورًا متعددة، وتذكر توفره من feeds الخاصة بـ OpenATV. لم تتم مطابقة إصدار الملف الموجود عندنا."
+      }
     },
     {
       "id": "o4t-skin-11",
@@ -208,7 +221,19 @@
       "tags": [
         "IPK",
         "FHD"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — CobaltFHD for VTi",
+            "url": "https://www.enigma2.net/skin-cobaltfhd-for-vti/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/skin-cobaltfhd-for-vti/",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "المصدر المتاح يخص CobaltFHD for VTi، لذلك لا نعمم توافق VTi على ملف CobaltFHD الموجود عندنا دون فحص محتويات الحزمة."
+      }
     },
     {
       "id": "o4t-skin-13",
@@ -598,7 +623,34 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "GitHub — SimpleGray",
+            "url": "https://github.com/Taapat/skin-SimpleGray"
+          },
+          {
+            "label": "ENIGMA2 — SimpleGray",
+            "url": "https://www.enigma2.net/skin-simplegray/"
+          }
+        ],
+        "galleryUrl": "https://github.com/Taapat/skin-SimpleGray",
+        "designer": "Taapat",
+        "resolution": "SD / HD / FHD",
+        "sourceVersion": "SimpleGray (المستودع)",
+        "researchStatus": "source-confirmed",
+        "supportedImages": [
+          "OpenPLi 8.1 فأحدث والصور المبنية على OpenPLi"
+        ],
+        "images": [
+          "https://user-images.githubusercontent.com/1623947/141681347-18e3b9e2-f8c2-4e37-8456-b2d513aac254.jpg",
+          "https://user-images.githubusercontent.com/1623947/141681352-f5f7e848-0236-4dda-8c1d-b3f1b871cf88.jpg",
+          "https://user-images.githubusercontent.com/1623947/141681376-eb147cf4-4f44-45db-b1d6-e68fee3c9edd.jpg"
+        ],
+        "imageAlt": "لقطات SimpleGray من مستودع Taapat",
+        "researchNote": "المطور يذكر دعم SD/HD/FHD باستخدام scaling وSVG، ويذكر أن الحد الأدنى OpenPLi 8.1 بسبب دعم SVG والـ scaling."
+      }
     },
     {
       "id": "o4t-skin-39",
@@ -644,7 +696,37 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "GitHub — MadMax Impossible Skin",
+            "url": "https://github.com/m4dhouse/MadMax-FHD"
+          }
+        ],
+        "galleryUrl": "https://github.com/m4dhouse/MadMax-FHD",
+        "designer": "Madhouse (الكود) وStixMax (الرسوم والتصميم)",
+        "resolution": "FHD",
+        "sourceVersion": "MadMax Impossible 1.6 (المستودع)",
+        "researchStatus": "source-confirmed",
+        "supportedImages": [
+          "OpenPLi",
+          "OpenEight",
+          "OpenBlackhole",
+          "OpenViX",
+          "OpenATV (Python 2/3)",
+          "Egami",
+          "PurE2"
+        ],
+        "images": [
+          "https://user-images.githubusercontent.com/35741027/112509568-e57e5180-8d90-11eb-97b4-1d12875bfb0e.jpg",
+          "https://user-images.githubusercontent.com/35741027/112630089-6db63280-8e35-11eb-9062-5be4e801f529.jpg",
+          "https://user-images.githubusercontent.com/35741027/113190492-a2beec80-925c-11eb-97c8-e5e6063b5e33.jpg",
+          "https://user-images.githubusercontent.com/35741027/113191294-a69f3e80-925d-11eb-9164-6da0ececdf16.jpg"
+        ],
+        "imageAlt": "لقطات MadMax Impossible من مستودع المطور",
+        "researchNote": "المستودع يذكر دعم الصور أعلاه ويضم إضافات تحديث أونلاين والطقس. يجب مطابقة إصدار ملفنا مع إصدار المستودع قبل اعتماد التوافق."
+      }
     },
     {
       "id": "o4t-skin-41",
@@ -813,7 +895,24 @@
       "tags": [
         "IPK",
         "FHD"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatSupreme — Novaler FHD",
+            "url": "https://www.satsupreme.com/showthread.php/453263-Skin-Novaler-FHD"
+          },
+          {
+            "label": "ENIGMA2 — Novaler S FHD",
+            "url": "https://www.enigma2.net/skin-novaler-s-fhd-mnasr-green-v3-0/"
+          }
+        ],
+        "galleryUrl": "https://www.satsupreme.com/showthread.php/453263-Skin-Novaler-FHD",
+        "designer": "MNASR",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "المصادر تعرض إصدارات Novaler-S-FHD وتحديثات Green/IndianRed، مع توافق منشور لإصدارات محددة من OpenATV وEgami وPurE2 وOpenSPA وOpenPLi. لم تتم مطابقة إصدار ملفنا."
+      }
     },
     {
       "id": "o4t-skin-52",
@@ -911,7 +1010,20 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — Skins Page 2 (oZeta FHD)",
+            "url": "https://www.enigma2.net/category/enigma2/skins/page/2/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/category/enigma2/skins/page/2/",
+        "resolution": "FHD",
+        "sourceVersion": "oZeta FHD v1.5.1 (صفحة الفهرس)",
+        "researchStatus": "partial",
+        "researchNote": "فهرس ENIGMA2 يذكر oZeta FHD v1.5.1 مع OpenATV وOpenPLi؛ رابط المصدر الحالي صفحة فهرس وليس صفحة إصدار مباشرة."
+      }
     },
     {
       "id": "o4t-skin-59",
@@ -996,7 +1108,25 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — Revolution Pro",
+            "url": "https://www.enigma2.net/skin-revolution-pro/"
+          },
+          {
+            "label": "LinuxSat-Support — Revolution Pro",
+            "url": "https://www.linuxsat-support.com/thread/156096-skin-revolution-pro/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/skin-revolution-pro/",
+        "designer": "@dragon@ (ملف LinuxSat)",
+        "resolution": "FHD",
+        "sourceVersion": "Revolution Pro v1.8 / ملف LinuxSat v7.1 (مصادر مختلفة)",
+        "researchStatus": "source-confirmed",
+        "researchNote": "المصادر تذكر إصدارات OpenATV وOpenBH وOpenPLi وOpenSPA، وتخصيص Infobar وSecond Infobar وChannel List، مع استخدام USB/HDD لتنزيل posters/backdrops في بعض الإصدارات. لا تُعمم التفاصيل على ملفنا قبل مطابقة الإصدار."
+      }
     },
     {
       "id": "o4t-skin-65",
@@ -1068,7 +1198,24 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "LinuxSat-Support — Cino-Grey for DreamOS",
+            "url": "https://www.linuxsat-support.com/thread/153001-cino-grey-for-dreambox-oe2-6-edit-by-dr-sat-can-be-installed-on-cvs-image/"
+          },
+          {
+            "label": "Dreambox4K — Cino-Grey OE2.6",
+            "url": "https://www.dreambox4k.com/skin-cino-grey-for-dreambox-oe2-6/"
+          }
+        ],
+        "galleryUrl": "https://www.linuxsat-support.com/thread/153001-cino-grey-for-dreambox-oe2-6-edit-by-dr-sat-can-be-installed-on-cvs-image/",
+        "designer": "Dr.Sat (نسخة التعديل)",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "الموضوع يخص Cino-Grey المعدّل لـ Dreambox OE2.6/CVS، ويذكر ملف DEB ومجلدات Renderers وConverters منفصلة؛ لا تفترض أن أرشيف skin_cino.tar.gz لدينا هو نفس الحزمة أو طريقة التثبيت."
+      }
     },
     {
       "id": "o4t-skin-69",
@@ -1193,7 +1340,8 @@
   "researchUpdatedAt": "2026-11-22",
   "researchSummary": {
     "totalItems": 73,
-    "withSourceLinks": 8,
-    "policy": "المعلومات والتوافق المنقولان من المصادر لا يُنسبان إلى ملف Online4Tech إلا بعد مطابقة إصدار الحزمة."
+    "withSourceLinks": 16,
+    "withVerifiedScreenshots": 4,
+    "policy": "التوافق والإصدارات المذكورة تخص المصدر المشار إليه فقط إلى أن تتم مطابقة ملف Online4Tech نفسه."
   }
 }
