@@ -95,7 +95,19 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "researchNote": "كتالوج Novaler يعرض اسمًا مطابقًا أو قريبًا لهذا السكين ضمن قائمة التنزيلات. هذا تطابق اسم فقط، وليس إثباتًا أن ملف Online4Tech هو نفس الإصدار أو أن له نفس التوافق.",
+        "catalogMatch": "name-only",
+        "researchStatus": "possible-match"
+      }
     },
     {
       "id": "o4t-skin-5",
@@ -109,7 +121,19 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "researchNote": "كتالوج Novaler يعرض اسمًا مطابقًا أو قريبًا لهذا السكين ضمن قائمة التنزيلات. هذا تطابق اسم فقط، وليس إثباتًا أن ملف Online4Tech هو نفس الإصدار أو أن له نفس التوافق.",
+        "catalogMatch": "name-only",
+        "researchStatus": "possible-match"
+      }
     },
     {
       "id": "o4t-skin-6",
@@ -123,7 +147,19 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "researchNote": "كتالوج Novaler يعرض اسمًا مطابقًا أو قريبًا لهذا السكين ضمن قائمة التنزيلات. هذا تطابق اسم فقط، وليس إثباتًا أن ملف Online4Tech هو نفس الإصدار أو أن له نفس التوافق.",
+        "catalogMatch": "name-only",
+        "researchStatus": "possible-match"
+      }
     },
     {
       "id": "o4t-skin-7",
@@ -206,7 +242,19 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "researchNote": "كتالوج Novaler يعرض اسمًا مطابقًا أو قريبًا لهذا السكين ضمن قائمة التنزيلات. هذا تطابق اسم فقط، وليس إثباتًا أن ملف Online4Tech هو نفس الإصدار أو أن له نفس التوافق.",
+        "catalogMatch": "name-only",
+        "researchStatus": "possible-match"
+      }
     },
     {
       "id": "o4t-skin-12",
@@ -227,12 +275,17 @@
           {
             "label": "ENIGMA2 — CobaltFHD for VTi",
             "url": "https://www.enigma2.net/skin-cobaltfhd-for-vti/"
+          },
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
           }
         ],
         "galleryUrl": "https://www.enigma2.net/skin-cobaltfhd-for-vti/",
         "resolution": "FHD",
         "researchStatus": "partial",
-        "researchNote": "المصدر المتاح يخص CobaltFHD for VTi، لذلك لا نعمم توافق VTi على ملف CobaltFHD الموجود عندنا دون فحص محتويات الحزمة."
+        "researchNote": "المصدر المتاح يخص CobaltFHD for VTi، لذلك لا نعمم توافق VTi على ملف CobaltFHD الموجود عندنا دون فحص محتويات الحزمة.",
+        "catalogMatch": "name-only"
       }
     },
     {
@@ -581,7 +634,19 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "researchNote": "كتالوج Novaler يعرض اسمًا مطابقًا أو قريبًا لهذا السكين ضمن قائمة التنزيلات. هذا تطابق اسم فقط، وليس إثباتًا أن ملف Online4Tech هو نفس الإصدار أو أن له نفس التوافق.",
+        "catalogMatch": "name-only",
+        "researchStatus": "possible-match"
+      }
     },
     {
       "id": "o4t-skin-36",
@@ -595,7 +660,19 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "researchNote": "كتالوج Novaler يعرض اسمًا مطابقًا أو قريبًا لهذا السكين ضمن قائمة التنزيلات. هذا تطابق اسم فقط، وليس إثباتًا أن ملف Online4Tech هو نفس الإصدار أو أن له نفس التوافق.",
+        "catalogMatch": "name-only",
+        "researchStatus": "possible-match"
+      }
     },
     {
       "id": "o4t-skin-37",
@@ -719,13 +796,18 @@
           {
             "label": "Enigma2.net — Malek FHD",
             "url": "https://www.enigma2.net/skinmalek-fhd/"
+          },
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
           }
         ],
         "galleryUrl": "https://www.enigma2.net/skinmalek-fhd/",
         "designer": "MNASR (بحسب تسمية الموضوع المتداولة)",
         "resolution": "FHD",
         "researchStatus": "partial",
-        "researchNote": "صفحة مرجعية بعنوان Malek FHD وتحتوي صورًا؛ لم يتم التحقق من أن ملف Malek الموجود في متجرنا هو نفس الإصدار المنشور."
+        "researchNote": "صفحة مرجعية بعنوان Malek FHD وتحتوي صورًا؛ لم يتم التحقق من أن ملف Malek الموجود في متجرنا هو نفس الإصدار المنشور.",
+        "catalogMatch": "name-only"
       }
     },
     {
@@ -853,7 +935,19 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "researchNote": "كتالوج Novaler يعرض اسمًا مطابقًا أو قريبًا لهذا السكين ضمن قائمة التنزيلات. هذا تطابق اسم فقط، وليس إثباتًا أن ملف Online4Tech هو نفس الإصدار أو أن له نفس التوافق.",
+        "catalogMatch": "name-only",
+        "researchStatus": "possible-match"
+      }
     },
     {
       "id": "o4t-skin-51",
@@ -878,13 +972,18 @@
           {
             "label": "ENIGMA2 — Novaler S FHD",
             "url": "https://www.enigma2.net/skin-novaler-s-fhd-mnasr-green-v3-0/"
+          },
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
           }
         ],
         "galleryUrl": "https://www.satsupreme.com/showthread.php/453263-Skin-Novaler-FHD",
         "designer": "MNASR",
         "resolution": "FHD",
         "researchStatus": "partial",
-        "researchNote": "المصادر تعرض إصدارات Novaler-S-FHD وتحديثات Green/IndianRed، مع توافق منشور لإصدارات محددة من OpenATV وEgami وPurE2 وOpenSPA وOpenPLi. لم تتم مطابقة إصدار ملفنا."
+        "researchNote": "المصادر تعرض إصدارات Novaler-S-FHD وتحديثات Green/IndianRed، مع توافق منشور لإصدارات محددة من OpenATV وEgami وPurE2 وOpenSPA وOpenPLi. لم تتم مطابقة إصدار ملفنا.",
+        "catalogMatch": "name-only"
       }
     },
     {
@@ -955,7 +1054,19 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "researchNote": "كتالوج Novaler يعرض اسمًا مطابقًا أو قريبًا لهذا السكين ضمن قائمة التنزيلات. هذا تطابق اسم فقط، وليس إثباتًا أن ملف Online4Tech هو نفس الإصدار أو أن له نفس التوافق.",
+        "catalogMatch": "name-only",
+        "researchStatus": "possible-match"
+      }
     },
     {
       "id": "o4t-skin-57",
@@ -969,7 +1080,19 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "researchNote": "كتالوج Novaler يعرض اسمًا مطابقًا أو قريبًا لهذا السكين ضمن قائمة التنزيلات. هذا تطابق اسم فقط، وليس إثباتًا أن ملف Online4Tech هو نفس الإصدار أو أن له نفس التوافق.",
+        "catalogMatch": "name-only",
+        "researchStatus": "possible-match"
+      }
     },
     {
       "id": "o4t-skin-58",
@@ -1052,7 +1175,19 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "researchNote": "كتالوج Novaler يعرض اسمًا مطابقًا أو قريبًا لهذا السكين ضمن قائمة التنزيلات. هذا تطابق اسم فقط، وليس إثباتًا أن ملف Online4Tech هو نفس الإصدار أو أن له نفس التوافق.",
+        "catalogMatch": "name-only",
+        "researchStatus": "possible-match"
+      }
     },
     {
       "id": "o4t-skin-63",
@@ -1113,7 +1248,19 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "researchNote": "كتالوج Novaler يعرض اسمًا مطابقًا أو قريبًا لهذا السكين ضمن قائمة التنزيلات. هذا تطابق اسم فقط، وليس إثباتًا أن ملف Online4Tech هو نفس الإصدار أو أن له نفس التوافق.",
+        "catalogMatch": "name-only",
+        "researchStatus": "possible-match"
+      }
     },
     {
       "id": "o4t-skin-66",
@@ -1225,7 +1372,19 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Novaler — كتالوج السكينات",
+            "url": "https://www.novaler.com/downloads/skins"
+          }
+        ],
+        "galleryUrl": "https://www.novaler.com/downloads/skins",
+        "researchNote": "كتالوج Novaler يعرض اسمًا مطابقًا أو قريبًا لهذا السكين ضمن قائمة التنزيلات. هذا تطابق اسم فقط، وليس إثباتًا أن ملف Online4Tech هو نفس الإصدار أو أن له نفس التوافق.",
+        "catalogMatch": "name-only",
+        "researchStatus": "possible-match"
+      }
     },
     {
       "id": "o4t-skin-70",
@@ -1336,8 +1495,9 @@
   "researchUpdatedAt": "2026-11-22",
   "researchSummary": {
     "totalItems": 73,
-    "withSourceLinks": 16,
+    "withSourceLinks": 28,
     "withVerifiedScreenshots": 4,
-    "policy": "التوافق والإصدارات المذكورة تخص المصدر المشار إليه فقط إلى أن تتم مطابقة ملف Online4Tech نفسه."
+    "withCatalogNameMatches": 15,
+    "policy": "لا يُنسب التوافق أو رقم الإصدار إلى ملف Online4Tech إلا بعد مطابقة الحزمة نفسها؛ تطابق الاسم في الكتالوج لا يثبت تطابق الملف."
   }
 }
