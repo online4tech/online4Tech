@@ -1,15 +1,16 @@
 /* Online4Tech per-item image galleries.
- * Discovers real images from the GitHub repository tree and links them to skin cards.
+ * Reads GitHub's recursive tree response (data.tree) and enables buttons only for real images.
  */
 (function(){
 'use strict';
 var indexUrl='https://api.github.com/repos/online4tech/online4Tech/git/trees/main?recursive=1';
-var allowed=/\\.(png|jpe?g|gif|webp|avif|svg)$/i, checked=Object.create(null), indexPromise=null;
+var allowed=/\.(png|jpe?g|gif|webp|avif|svg)$/i;
+var checked=Object.create(null),indexPromise=null;
 var style=document.createElement('style');
 style.textContent='.gallery-link{display:inline-flex;align-items:center;justify-content:center;margin:8px 0 0;padding:8px 12px;border:1px solid #315574;border-radius:11px;background:linear-gradient(145deg,#102a42,#0b1b2b);color:#8bdcff;font-weight:bold;font-size:.82rem;text-decoration:none;cursor:pointer}.gallery-link:hover{background:#173954;border-color:#67d2ff}.gallery-link[hidden]{display:none!important}.gallery-link.is-disabled{opacity:.42;cursor:not-allowed;filter:grayscale(.35);pointer-events:none}';
 document.head.appendChild(style);
 function slugify(value){
- return String(value||'item').normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'')||'item';
+ return String(value||'item').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'')||'item';
 }
 function getFileIndex(){
  if(!indexPromise){
@@ -18,12 +19,12 @@ function getFileIndex(){
    return r.json();
   }).then(function(data){
    if(!data||!Array.isArray(data.tree))throw new Error('GitHub tree response has no tree array');
-   return data.tree.filter(function(f){return f&&f.type==='blob'&&typeof f.path==='string';}).map(function(f){return f.path.replace(/^\\/+/, '');});
+   return data.tree.filter(function(f){return f&&f.type==='blob'&&typeof f.path==='string';}).map(function(f){return f.path.replace(/^\/+/, '');});
   });
  }
  return indexPromise;
 }
-/* Existing uploaded folders whose names include resolution/image-family suffixes. */
+/* Existing folders use descriptive suffixes not present in the card title. */
 var folderAliases={
  'aglare pli':'images/skins/aglare-fhd-openpli',
  'aglare':'images/skins/aglare-fhd-openatv',
@@ -31,13 +32,12 @@ var folderAliases={
 };
 function folderForSkin(title){
  var key=String(title||'').trim().toLowerCase();
- if(folderAliases[key])return folderAliases[key];
- return 'images/skins/'+slugify(title);
+ return folderAliases[key]||('images/skins/'+slugify(title));
 }
 function check(folder){
  if(!checked[folder]){
   checked[folder]=getFileIndex().then(function(files){
-   var prefix=folder.replace(/^\\/+|\\/+$/g,'')+'/';
+   var prefix=folder.replace(/^\/+|\/+$/g,'')+'/';
    return files.some(function(path){return path.indexOf(prefix)===0&&allowed.test(path);});
   }).catch(function(error){
    console.warn('[Online4Tech gallery] image index failed for '+folder,error);
@@ -50,7 +50,6 @@ function addLink(node,folder,title){
  var link=document.createElement('a');
  link.className='gallery-link is-disabled';
  link.textContent='🖼️ الصور';
- link.removeAttribute('href');
  link.setAttribute('aria-label','زر الصور غير مفعل لحين التأكد من وجود الصور');
  link.setAttribute('aria-disabled','true');
  link.setAttribute('tabindex','-1');
@@ -78,7 +77,7 @@ function setup(node){
  if(!folder&&node.matches('.release-skin-card')&&node.dataset.galleryImages){
   var imageList=[];
   try{imageList=JSON.parse(node.dataset.galleryImages);}catch(e){}
-  imageList=Array.isArray(imageList)?imageList.filter(function(src){return typeof src==='string'&&/^https?:\\/\\//i.test(src);}):[];
+  imageList=Array.isArray(imageList)?imageList.filter(function(src){return typeof src==='string'&&/^https?:\/\//i.test(src);}):[];
   if(imageList.length){
    node.dataset.galleryChecked='1';
    var externalLink=document.createElement('a');
@@ -88,12 +87,12 @@ function setup(node){
   }
  }
  if(!folder&&node.matches('#pluginGrid a.topic')){
-  var href=node.getAttribute('href')||'',pluginSlug=href.split('/').pop().replace(/\\.html(?:[?#].*)?$/,'');
+  var href=node.getAttribute('href')||'',pluginSlug=href.split('/').pop().replace(/\.html(?:[?#].*)?$/,'');
   if(!pluginSlug)return;
   folder='images/plugins/'+pluginSlug;title=(node.querySelector('h2')||{}).textContent||pluginSlug;
   node.dataset.galleryChecked='1';node.dataset.galleryFolder=folder;node.dataset.galleryName=title;
   var shell=document.createElement('div');shell.className='topic-shell';node.parentNode.insertBefore(shell,node);shell.appendChild(node);node=shell;
- }else if(!folder&&/\\/skins\\.html$/.test(location.pathname)&&node.matches('article.card')){
+ }else if(!folder&&/\/skins\.html$/.test(location.pathname)&&node.matches('article.card')){
   folder=folderForSkin(title);node.dataset.galleryFolder=folder;node.dataset.galleryName=title;
  }
  if(!folder)return;
@@ -104,7 +103,7 @@ function scan(root){
  var nodes=[];
  if(root.matches&&root.matches('[data-gallery-folder],#pluginGrid a.topic'))nodes.push(root);
  if(root.querySelectorAll)nodes=nodes.concat(Array.from(root.querySelectorAll('[data-gallery-folder],#pluginGrid a.topic')));
- if(/\\/skins\\.html$/.test(location.pathname)){
+ if(/\/skins\.html$/.test(location.pathname)){
   if(root.matches&&root.matches('article.card'))nodes.push(root);
   if(root.querySelectorAll)nodes=nodes.concat(Array.from(root.querySelectorAll('article.card')));
  }
