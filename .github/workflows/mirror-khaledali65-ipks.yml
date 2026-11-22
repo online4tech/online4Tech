@@ -51,6 +51,7 @@ jobs:
           cp monitoring/KHALEDALI65-IPK-MIRROR.md /tmp/online4tech-ipk-report.md
           git fetch origin "${GITHUB_REF_NAME}"
           git reset --hard "origin/${GITHUB_REF_NAME}"
+          git checkout -B "${GITHUB_REF_NAME}"          
           python3 .github/scripts/merge_catalog_changes.py /tmp/online4tech-local-catalog.json assets/allblugin/demo-data.json
           cp /tmp/online4tech-ipk-report.md monitoring/KHALEDALI65-IPK-MIRROR.md
           git add -f assets/allblugin/demo-data.json monitoring/KHALEDALI65-IPK-MIRROR.md
