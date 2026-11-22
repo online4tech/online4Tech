@@ -329,7 +329,19 @@
       "tags": [
         "IPK",
         "FHD"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — DarkFHD for OpenPLi",
+            "url": "https://www.enigma2.net/skin-darkfhd-for-openpli/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/skin-darkfhd-for-openpli/",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "يوجد مصدر بعنوان DarkFHD for OpenPLi مع صور، لكن لم يتم تحديد رقم إصدار أو مطابقة الحزمة الموجودة في متجرنا."
+      }
     },
     {
       "id": "o4t-skin-15",
@@ -509,11 +521,15 @@
           {
             "label": "SatSupreme — Enigma2 Skins Upload Center",
             "url": "https://www.satsupreme.com/ulc.php/36-Skins"
+          },
+          {
+            "label": "VUPlus4K — Full HD Glass 17",
+            "url": "https://www.vuplus4k.com/category/enigma-2/skins/openatv/"
           }
         ],
-        "galleryUrl": "https://www.satsupreme.com/ulc.php/36-Skins",
+        "galleryUrl": "https://www.vuplus4k.com/category/enigma-2/skins/openatv/",
         "researchStatus": "partial",
-        "researchNote": "ظهر اسم حزمة fullhdglass17 في مركز رفع SatSupreme مع رقم إصدار 9.50-r12 في قائمة الملفات؛ لم يتم التحقق من تطابقها مع حزمة Online4Tech أو العثور على صور موثوقة."
+        "researchNote": "فهرس VUPlus4K يعرض Full HD Glass 17 version 5.19؛ يلزم مطابقة الإصدار مع ملف fullhdglass17.ipk الموجود في متجرنا."
       }
     },
     {
@@ -542,7 +558,23 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "LinuxSat-Support — PLi FullNightHD",
+            "url": "https://www.linuxsat-support.com/thread/158274-skin-pli-fullnighthd-for-openpli-9-edit-by-dr-sat/"
+          },
+          {
+            "label": "SatSupreme — FullNightHD PLi",
+            "url": "https://www.satsupreme.com/showthread.php/429641-Skin-FullNightHD-PLi"
+          }
+        ],
+        "galleryUrl": "https://www.linuxsat-support.com/thread/158274-skin-pli-fullnighthd-for-openpli-9-edit-by-dr-sat/",
+        "resolution": "HD",
+        "researchStatus": "partial",
+        "researchNote": "المصادر تخص PLi-FullNightHD المعدل لـ OpenPLi 8/9، وتذكر ملفات Converter وWeather وFonts منفصلة. لا تفترض أن أرشيف fullnight.tar.gz هو نفس الإصدار أو نفس طريقة التثبيت."
+      }
     },
     {
       "id": "o4t-skin-29",
@@ -1002,7 +1034,18 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — Nacht Skin",
+            "url": "https://www.enigma2.net/skin-nacht/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/skin-nacht/",
+        "researchStatus": "partial",
+        "researchNote": "صفحة المصدر بعنوان Nacht وتحتوي صورًا وتذكر أن السكين متاح للتنزيل أونلاين؛ لا توجد بيانات كافية عن الإصدار أو توافق الصور."
+      }
     },
     {
       "id": "o4t-skin-50",
@@ -1079,7 +1122,34 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "LinuxSat-Support — Novax FHD",
+            "url": "https://www.linuxsat-support.com/thread/153632-novax-fhd-skin/"
+          },
+          {
+            "label": "ENIGMA2 — Novax FHD",
+            "url": "https://www.enigma2.net/skin-novax-fhd/"
+          }
+        ],
+        "galleryUrl": "https://www.linuxsat-support.com/thread/153632-novax-fhd-skin/",
+        "designer": "odem2014 / MNASR (الموضوع يذكر الإصدار)",
+        "resolution": "FHD",
+        "sourceVersion": "Novax-FHD-MNASR v1.0 (الموضوع)",
+        "researchStatus": "source-confirmed",
+        "supportedImages": [
+          "OpenPLi 8.2",
+          "OpenPLi 8.3",
+          "OpenEight 6.8",
+          "OpenATV 6.4",
+          "OpenATV 7.0",
+          "OpenATV 7.1",
+          "Egami 10.2"
+        ],
+        "researchNote": "الموضوع يذكر دعم Python 2 و3 والاعتماد على enhanced PosterX وXtraEvent، ويحتوي عددًا كبيرًا من صور المعاينة. التوافق المذكور يخص v1.0 المنشور."
+      }
     },
     {
       "id": "o4t-skin-53",
@@ -1254,7 +1324,19 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — PD1LOI Full-HD",
+            "url": "https://www.enigma2.net/skin-pd1loi-full-hd-for-openpli/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/skin-pd1loi-full-hd-for-openpli/",
+        "resolution": "HD / FHD",
+        "researchStatus": "partial",
+        "researchNote": "صفحة المصدر تعرض PD1LOI Full-HD for OpenPLi مع صور وإصدار 3.0.5b؛ لم يتم مطابقة الإصدار مع ملف pd1loi.tar.gz الموجود عندنا."
+      }
     },
     {
       "id": "o4t-skin-62",
@@ -1518,7 +1600,24 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SourceForge — Skin WAR PN FHD",
+            "url": "https://sourceforge.net/projects/mysatbox/files/Enigma2%20Skins/"
+          },
+          {
+            "label": "SourceForge — WAR IPK",
+            "url": "https://sourceforge.net/projects/mysatbox/files/Enigma2%20Skins/Skin-WAR-PN-FHD-By-Muaath.ipk/download"
+          }
+        ],
+        "galleryUrl": "https://sourceforge.net/projects/mysatbox/files/Enigma2%20Skins/",
+        "designer": "Muaath (حسب اسم الملف)",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "تم العثور على ملف باسم Skin-WAR-PN-FHD-By-Muaath.ipk في SourceForge؛ الاسم متطابق تقريبًا، لكن لم يتم التحقق من أن ملف WAR.tar.gz لدينا هو نفس الحزمة."
+      }
     },
     {
       "id": "o4t-skin-72",
@@ -1601,8 +1700,15 @@
   "researchUpdatedAt": "2026-11-22",
   "researchSummary": {
     "totalItems": 73,
-    "withSourceLinks": 36,
+    "withSourceLinks": 42,
     "withVerifiedScreenshots": 4,
+    "verifiedScreenshotCount": 15,
+    "statusCounts": {
+      "source-confirmed": 12,
+      "none": 31,
+      "possible-match": 12,
+      "partial": 18
+    },
     "policy": "التوافق والإصدارات المنقولة تخص المصدر المشار إليه فقط حتى مطابقة ملف Online4Tech نفسه."
   }
 }
