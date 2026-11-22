@@ -81,7 +81,20 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatSupreme — Enigma2 Skins (Artemis OpenATV 7.x)",
+            "url": "https://www.satsupreme.com/forumdisplay.php/3221-Enigma2-Skins"
+          }
+        ],
+        "galleryUrl": "https://www.satsupreme.com/forumdisplay.php/3221-Enigma2-Skins",
+        "designer": "Dragon (حسب عنوان الموضوع)",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "فهرس SatSupreme يعرض موضوع Artemis OpenATV 7.x by Dragon مع 28 مرفقًا؛ رابط الموضوع المباشر لم يتوفر في نتيجة البحث الحالية، ولم تتم مطابقة إصدار الحزمة."
+      }
     },
     {
       "id": "o4t-skin-4",
@@ -173,7 +186,23 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — Black NEON FHD",
+            "url": "https://www.enigma2.net/category/enigma2/skins/page/5/"
+          },
+          {
+            "label": "SatDreamGR — أرشيف Enigma2 Skins",
+            "url": "https://www.satdreamgr.com/forum/archive/index.php/f-390-p-4.html"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/category/enigma2/skins/page/5/",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "المصادر تعرض Black NEON FHD v3 ونسخًا أخرى من Black Neon؛ لم يتم التحقق من أن ملف blackneon.tar.gz هو نفس الإصدار."
+      }
     },
     {
       "id": "o4t-skin-8",
@@ -187,7 +216,20 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatDreamGR — أرشيف Enigma2 Skins",
+            "url": "https://www.satdreamgr.com/forum/archive/index.php/f-390-p-4.html"
+          }
+        ],
+        "galleryUrl": "https://www.satdreamgr.com/forum/archive/index.php/f-390-p-4.html",
+        "designer": "Kimoo (حسب عنوان القائمة)",
+        "resolution": "FHD",
+        "researchStatus": "possible-match",
+        "researchNote": "أرشيف SatDreamGR يسجل Skin BlackX FHD by Kimoo؛ الاسم قريب من Blackx الموجود لدينا، لكن لا يوجد تطابق إصدار أو حزمة مثبت."
+      }
     },
     {
       "id": "o4t-skin-9",
@@ -457,7 +499,24 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatSupreme — Elite FHD",
+            "url": "https://www.satsupreme.com/showthread.php/423417-Skin-Elite-FHD"
+          },
+          {
+            "label": "LinuxSat-Support — Elite FHD",
+            "url": "https://www.linuxsat-support.com/thread/150474-updated-elite-fhd-for-openatv/"
+          }
+        ],
+        "galleryUrl": "https://www.satsupreme.com/showthread.php/423417-Skin-Elite-FHD",
+        "designer": "sandman_1983 (الموضوع)",
+        "resolution": "FHD",
+        "researchStatus": "source-confirmed",
+        "researchNote": "الموضوع يوثق Elite FHD وتحديثات v1.1–v1.3؛ الإصدار الأول مذكور أنه Python 2 فقط ومختبر على OpenATV 6.4، لذا لا يُنسب هذا التوافق إلى ملفنا دون مطابقة الحزمة."
+      }
     },
     {
       "id": "o4t-skin-23",
@@ -621,7 +680,23 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — Grey Shadow FHD",
+            "url": "https://www.enigma2.net/skin-grey-shadow-fhd/"
+          },
+          {
+            "label": "SatDreamGR — أرشيف Enigma2 Skins",
+            "url": "https://www.satdreamgr.com/forum/archive/index.php/f-390-p-4.html"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/skin-grey-shadow-fhd/",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "يوجد موضوع Grey-Shadow-FHD مع صور، كما يظهر اسم Grey Shadow في أرشيف سكينات Enigma2؛ لم يتم تحديد إصدار مطابق لملفنا."
+      }
     },
     {
       "id": "o4t-skin-31",
@@ -635,7 +710,18 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatDreamGR — أرشيف Enigma2 Skins",
+            "url": "https://www.satdreamgr.com/forum/archive/index.php/f-390-p-4.html"
+          }
+        ],
+        "galleryUrl": "https://www.satdreamgr.com/forum/archive/index.php/f-390-p-4.html",
+        "researchStatus": "possible-match",
+        "researchNote": "الأرشيف يذكر Nitro Honey comb FHD؛ قد يكون الاسم قريبًا من honycomb الموجود لدينا، لكن لم يتم التحقق من تطابق الملف."
+      }
     },
     {
       "id": "o4t-skin-32",
@@ -1700,14 +1786,14 @@
   "researchUpdatedAt": "2026-11-22",
   "researchSummary": {
     "totalItems": 73,
-    "withSourceLinks": 42,
+    "withSourceLinks": 48,
     "withVerifiedScreenshots": 4,
     "verifiedScreenshotCount": 15,
     "statusCounts": {
-      "source-confirmed": 12,
-      "none": 31,
-      "possible-match": 12,
-      "partial": 18
+      "source-confirmed": 13,
+      "partial": 21,
+      "possible-match": 14,
+      "none": 25
     },
     "policy": "التوافق والإصدارات المنقولة تخص المصدر المشار إليه فقط حتى مطابقة ملف Online4Tech نفسه."
   }
