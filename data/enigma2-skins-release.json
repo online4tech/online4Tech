@@ -17,7 +17,25 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Sat-Forum — Aglare FHD / PLI",
+            "url": "https://www.sat-forum.net/viewtopic.php?t=5268"
+          },
+          {
+            "label": "SatSupreme — Enigma2 Skins",
+            "url": "https://www.satsupreme.com/forumdisplay.php/3221-Enigma-2-Skins"
+          }
+        ],
+        "galleryUrl": "https://www.sat-forum.net/viewtopic.php?t=5268",
+        "designer": "MNASR",
+        "resolution": "FHD",
+        "sourceVersion": "Aglare FHD-PLI v1.3 (الموضوع)",
+        "researchStatus": "source-confirmed",
+        "researchNote": "الموضوع يذكر نسخة PLI ودعم OpenPLi 9/develop وOpenBH 5.3/5.4 وTeamBlue وSatLodge وNonSoloSat؛ لا يُعمم التوافق على ملف Online4Tech قبل مطابقة إصدار الحزمة."
+      }
     },
     {
       "id": "o4t-skin-2",
@@ -31,7 +49,25 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Sat-Forum — Aglare FHD",
+            "url": "https://www.sat-forum.net/viewtopic.php?t=5268"
+          },
+          {
+            "label": "SatSupreme — Enigma2 Skins",
+            "url": "https://www.satsupreme.com/forumdisplay.php/3221-Enigma-2-Skins"
+          }
+        ],
+        "galleryUrl": "https://www.sat-forum.net/viewtopic.php?t=5268",
+        "designer": "MNASR",
+        "resolution": "FHD",
+        "sourceVersion": "Aglare FHD v1.1 / v1.5 (الموضوع)",
+        "researchStatus": "source-confirmed",
+        "researchNote": "الموضوع يذكر دعم OpenATV 7.3/7.4 وEgami 10.4/10.5 وPurE2 7.3 وOpenSPA 8.3 لنسخ محددة من Aglare FHD؛ يلزم مطابقة إصدار ملفنا."
+      }
     },
     {
       "id": "o4t-skin-3",
@@ -417,7 +453,21 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatSupreme — Fury FHD v8.6",
+            "url": "https://www.satsupreme.com/showthread.php/462848-%E2%95%91%E2%9E%BD%E2%95%91E%C2%B2%E2%95%91Skins%E2%95%91Fury_FHD_Skins%E2%95%91v-8-0%E2%95%91By-Islam-Salama%E2%95%91"
+          }
+        ],
+        "galleryUrl": "https://www.satsupreme.com/showthread.php/462848-%E2%95%91%E2%9E%BD%E2%95%91E%C2%B2%E2%95%91Skins%E2%95%91Fury_FHD_Skins%E2%95%91v-8-0%E2%95%91By-Islam-Salama%E2%95%91",
+        "designer": "Islam Salama",
+        "resolution": "FHD",
+        "sourceVersion": "Fury FHD v8.6 (عنوان الموضوع؛ تفاصيل منشورة لإصدارات 4.7–5.5)",
+        "researchStatus": "source-confirmed",
+        "researchNote": "الموضوع يتضمن صورًا وتحديثات وذكر توافق مع OpenATV وEgami وPurE2 وOpenSPA وOpenBH وOpenViX وOpenDroid وOpenPLi بإصدارات محددة؛ لا نثبت هذا التوافق لملفنا قبل مطابقة الإصدار."
+      }
     },
     {
       "id": "o4t-skin-30",
@@ -557,7 +607,25 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "LinuxSat-Support — Luka-FHD",
+            "url": "https://www.linuxsat-support.com/thread/160898-luka-fhd/"
+          },
+          {
+            "label": "SatSupreme — Enigma2 Skins",
+            "url": "https://www.satsupreme.com/forumdisplay.php/3221-Enigma-2-Skins"
+          }
+        ],
+        "galleryUrl": "https://www.linuxsat-support.com/thread/160898-luka-fhd/",
+        "designer": "ödem2014",
+        "resolution": "FHD",
+        "sourceVersion": "Luka-FHD v1.0–v1.3 (الموضوع)",
+        "researchStatus": "source-confirmed",
+        "researchNote": "الموضوع يوثق انتقال الدعم من Egami إلى OpenATV مع تحديثات وإضافات ألوان؛ توجد تجارب مستخدمين على صور أخرى لكن لا تُعد دعمًا رسميًا تلقائيًا."
+      }
     },
     {
       "id": "o4t-skin-40",
@@ -585,7 +653,20 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Enigma2.net — Malek FHD",
+            "url": "https://www.enigma2.net/skinmalek-fhd/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/skinmalek-fhd/",
+        "designer": "MNASR (بحسب تسمية الموضوع المتداولة)",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "صفحة مرجعية بعنوان Malek FHD وتحتوي صورًا؛ لم يتم التحقق من أن ملف Malek الموجود في متجرنا هو نفس الإصدار المنشور."
+      }
     },
     {
       "id": "o4t-skin-42",
@@ -952,7 +1033,23 @@
       "description": "يُنزل السكربت من متجرنا ويعرض محتواه للمراجعة فقط؛ لا يتم تشغيله تلقائيًا قبل التأكد من أوامره.",
       "tags": [
         "SH"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "LinuxSat-Support — MohammedSkin",
+            "url": "https://www.linuxsat-support.com/board/873-enigma2-skins/"
+          },
+          {
+            "label": "منتدى Tunisia-Sat — XDREAMY",
+            "url": "https://www.tunisia-sat.com/forums/threads/4408420/"
+          }
+        ],
+        "galleryUrl": "https://www.linuxsat-support.com/board/873-enigma2-skins/",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "مصدر LinuxSat يعرض موضوع MohammedSkin FHD مع Online Posters وWeather. رابط Tunisia-Sat الظاهر في البحث متعلق بـ XDREAMY وليس MohammedSkin؛ أُدرج كرابط مرجعي للمنتدى فقط، وليس كمصدر لهذا الملف."
+      }
     },
     {
       "id": "o4t-skin-68",
@@ -1022,7 +1119,29 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "Sat-Forum — XDREAMY",
+            "url": "https://www.sat-forum.net/viewtopic.php?t=6816"
+          },
+          {
+            "label": "Tunisia-Sat — XDREAMY",
+            "url": "https://www.tunisia-sat.com/forums/threads/4408420/"
+          },
+          {
+            "label": "SatSupreme — XDreamy FHD",
+            "url": "https://www.satsupreme.com/showthread.php/456152-%E2%95%91%E2%9E%BD%E2%95%91E%C2%B2%E2%95%91Skins%E2%95%91%E2%9E%BD%E2%95%91XDreamy-FHD%E2%95%917-4-0%E2%95%91%F0%9F%94%B4Mahmoud-Hussein%E2%95%91"
+          }
+        ],
+        "galleryUrl": "https://www.sat-forum.net/viewtopic.php?t=6816",
+        "designer": "Inspiron (حسب موضوع XDREAMY v4.0)",
+        "resolution": "FHD",
+        "sourceVersion": "XDREAMY v4.0 (Sat-Forum)؛ تحديثات لاحقة في SatSupreme",
+        "researchStatus": "source-confirmed",
+        "researchNote": "المصادر تذكر خيارات تخصيص الواجهة والألوان والخطوط والشاشات، ومكوّن PosterX. توافق الصور المنشور يخص الإصدارات المذكورة في كل موضوع، وليس بالضرورة ملف Online4Tech الحالي."
+      }
     },
     {
       "id": "o4t-skin-73",
@@ -1036,7 +1155,31 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "GitHub — Youchie-PLI-FHD",
+            "url": "https://github.com/smcam/enigma2"
+          },
+          {
+            "label": "SatSupreme — Youchie-PLI-FHD",
+            "url": "https://www.satsupreme.com/showthread.php/458959-E%C2%B2-Skin-Youchie-PLI-FHD"
+          }
+        ],
+        "galleryUrl": "https://github.com/smcam/enigma2/tree/main/ScreenShot",
+        "designer": "SMARTCAM TEAM / Youchie (حسب مستودع المصدر)",
+        "resolution": "FHD",
+        "sourceVersion": "Youchie-PLI-FHD v1.0.0 (الموضوع)",
+        "researchStatus": "source-confirmed",
+        "researchNote": "مستودع المصدر يذكر Vu+ وOpenPLi وOpenBH وOpenViX ودقة FHD، ومجلد ScreenShot للصور. يجب مطابقة محتويات ملف Online4Tech مع المصدر قبل اعتماد التوافق."
+      }
     }
-  ]
+  ],
+  "researchUpdatedAt": "2026-11-22",
+  "researchSummary": {
+    "totalItems": 73,
+    "withSourceLinks": 8,
+    "policy": "المعلومات والتوافق المنقولان من المصادر لا يُنسبان إلى ملف Online4Tech إلا بعد مطابقة إصدار الحزمة."
+  }
 }
