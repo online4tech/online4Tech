@@ -1,8 +1,8 @@
 # تقرير مراقبة مستودعات KhaledAli65
 
-- آخر فحص: 2026-11-22T09:51:20.829368+00:00
+- آخر فحص: 2026-11-22T20:04:14.683241+00:00
 - المستودعات العامة المفحوصة: 11
-- الملفات المطابقة في الإصدارات: 811
+- الملفات المطابقة في الإصدارات: 812
 - أخطاء الفحص: 0
 
 > هذا الفحص يرصد الملفات فقط. لا يتم تنفيذ ملفات SH أو أوامر Telnet، ولا تُنشر ملفات IPK أو الصور أو النسخ الاحتياطية تلقائيًا قبل فحص التوافق والتصنيف.
@@ -223,6 +223,7 @@
 | [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Panelscript](https://github.com/KhaledAli65/Channels/releases/tag/Panelscript) | [PANEL-Levi45.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-Levi45.sh) | 116 bytes |
 | [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Panelscript](https://github.com/KhaledAli65/Channels/releases/tag/Panelscript) | [PANEL-Levi45Addon.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-Levi45Addon.sh) | 114 bytes |
 | [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Panelscript](https://github.com/KhaledAli65/Channels/releases/tag/Panelscript) | [PANEL-MagicPanelMax.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-MagicPanelMax.sh) | 14,402 bytes |
+| [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Panelscript](https://github.com/KhaledAli65/Channels/releases/tag/Panelscript) | [PANEL-RomehPanel.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-RomehPanel.sh) | 2,193 bytes |
 | [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Panelscript](https://github.com/KhaledAli65/Channels/releases/tag/Panelscript) | [PANEL-SkyBlue.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-SkyBlue.sh) | 331 bytes |
 | [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Panelscript](https://github.com/KhaledAli65/Channels/releases/tag/Panelscript) | [PANEL-SmartAddon.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-SmartAddon.sh) | 129 bytes |
 | [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Panelscript](https://github.com/KhaledAli65/Channels/releases/tag/Panelscript) | [PANEL-Team_nitro.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-Team_nitro.sh) | 104 bytes |
