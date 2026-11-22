@@ -20,7 +20,7 @@
 <footer><div class="wrap foot">© 2026 Online4Tech · معرض صور يتم تحديثه تلقائيًا من ملفات المستودع</div></footer>
 <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="معرض الصور المكبر"><button class="btn close" id="close" type="button">✕ إغلاق</button><button class="nav-arrow nav-prev" id="prevImage" type="button" aria-label="الصورة السابقة">‹</button><img id="large" alt=""><button class="nav-arrow nav-next" id="nextImage" type="button" aria-label="الصورة التالية">›</button></div>
 <script>
-const params=new URLSearchParams(location.search),folder=(params.get('folder')||'images').replace(/^\/+|\/+$/g,''),label=params.get('name')||folder.split('/').pop().replace(/[-_]+/g,' ');
+const params=new URLSearchParams(location.search),folder=(params.get('folder')||(params.has('images')?'images/skins':'images')).replace(/^\/+|\/+$/g,''),label=params.get('name')||folder.split('/').pop().replace(/[-_]+/g,' ');
 let explicitImages=[];try{const raw=JSON.parse(params.get('images')||'[]');if(Array.isArray(raw))explicitImages=raw.filter(function(src){return typeof src==='string'&&(src.indexOf('https://')===0||src.indexOf('http://')===0)})}catch(e){}
 const title=document.getElementById('title'),subtitle=document.getElementById('subtitle'),gallery=document.getElementById('gallery'),state=document.getElementById('state'),count=document.getElementById('count'),search=document.getElementById('search');let visibleImages=[],currentIndex=0;
 title.textContent='صور '+label;document.title='صور '+label+' | Online4Tech';
