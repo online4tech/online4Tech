@@ -20,7 +20,7 @@ function setup(node){
  if(!folder&&node.matches('.release-skin-card')&&node.dataset.galleryImages){
   var imageList=[];
   try{imageList=JSON.parse(node.dataset.galleryImages)}catch(e){}
-  imageList=Array.isArray(imageList)?imageList.filter(function(src){return typeof src==='string'&&/^https?:\\/\\//i.test(src)}):[];
+  imageList=Array.isArray(imageList)?imageList.filter(function(src){return typeof src==='string'&&(src.indexOf('https://')===0||src.indexOf('http://')===0)}):[];
   if(!imageList.length)return;
   node.dataset.galleryChecked='1';
   var link=document.createElement('a');
