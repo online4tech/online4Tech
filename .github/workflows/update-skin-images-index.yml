@@ -1,0 +1,72 @@
+name: Update Skin Images Fallback Index
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'images/skins/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: skin-images-index
+  cancel-in-progress: false
+
+jobs:
+  update-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Rebuild skin images index
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("images/skins")
+          allowed = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".avif", ".svg"}
+          files = []
+
+          if root.exists():
+              for path in root.rglob("*"):
+                  if path.is_file() and path.suffix.lower() in allowed:
+                      files.append(path.as_posix())
+
+          files.sort(key=lambda value: value.casefold())
+
+          output = Path("data/skin-images-index.json")
+          output.parent.mkdir(parents=True, exist_ok=True)
+          payload = {
+              "version": 1,
+              "files": files
+          }
+          output.write_text(
+              json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+
+          print(f"Indexed {len(files)} skin image(s).")
+          PY
+
+      - name: Commit updated index when changed
+        shell: bash
+        run: |
+          if git diff --quiet -- data/skin-images-index.json; then
+            echo "Skin image index is already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/skin-images-index.json
+          git commit -m "Auto-update skin images fallback index"
+          git push origin HEAD:main
