@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'images/skins/**'
+      - '.github/workflows/update-skin-images-index.yml'
   workflow_dispatch:
 
 permissions:
