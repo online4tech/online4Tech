@@ -1,13 +1,14 @@
 # تقرير توحيد روابط ملفات الكتالوج على Online4Tech
 
-- الروابط الجديدة المنقولة في هذه الجولة: 6
+- الروابط الجديدة المنقولة في هذه الجولة: 3
 - الروابط التي تعذر نقلها: 1
-- إجمالي الروابط المؤرشفة: 74
+- إجمالي الروابط المؤرشفة: 77
 
 > تم نقل الملفات المباشرة والتحقق من سلامة الأرشيفات وبيانات IPK عند توفرها. لا يتم تشغيل أي سكريبت تلقائيًا. الروابط الأصلية محفوظة في بيانات التوثيق.
 
 | الملف | رابط Online4Tech | التحقق |
 |---|---|---|
+| 01_openpli-9.2-vuduo4kse-21112026.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip) | zip |
 | advancedscreenshot.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/49aab7f6b38b-advancedscreenshot.sh) | text |
 | almoaddhin.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/566bdaf92a71-almoaddhin.sh) | text |
 | AlMuaddhin.tar.gz | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/8153dbc2436f-AlMuaddhin.tar.gz) | tar |
@@ -69,7 +70,9 @@
 | openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/8a584af4f32a-openatv-7.5.1-vuuno4kse-backup-20260805_1701_usb.zip) | zip |
 | openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bdca625aa91d-openatv-7.5.1-vuzero4k-backup-20260326_by.Rome7.zip) | zip |
 | oscam_01_all.tar.gz | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/b1139ee139c0-oscam_01_all.tar.gz) | tar |
+| picon.tar.gz | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6050d410d915-picon.tar.gz) | tar |
 | picon.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/52c2f8685fec-picon.zip) | zip |
+| picon.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/31f9dcc94921-picon.zip) | zip |
 | pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/bb90ccc567c2-pure2-7.6-vuuno4kse-backup-20260805_1741_usb.zip) | zip |
 | QuadPip.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/50c3392671b1-QuadPip.sh) | text |
 | QuadPip.tar.gz | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/471a6c781fb3-QuadPip.tar.gz) | tar |

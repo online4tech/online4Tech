@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T10:55:53Z",
+  "generatedAt": "2026-11-22T09:53:13Z",
   "files": [
     {
       "sourceUrl": "https://github.com/emilnabil/backup-images/raw/refs/heads/main/backup-openatv/channel.sh",
@@ -932,6 +932,42 @@
         "members": 23664
       },
       "mirroredAt": "2026-11-21T10:55:53Z"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Picon/picon.tar.gz",
+      "sourceAssetName": "picon.tar.gz",
+      "size": 57120643,
+      "digest": "sha256:6050d410d9152b203d359ad320193025c72bbb394fa05c4dcabb48d396a32ad4",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/6050d410d915-picon.tar.gz",
+      "validation": {
+        "format": "tar",
+        "members": 5733
+      },
+      "mirroredAt": "2026-11-22T09:52:52Z"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Picon/picon.zip",
+      "sourceAssetName": "picon.zip",
+      "size": 58606930,
+      "digest": "sha256:31f9dcc94921183ed73574581ee3d4a97822a41f8c62c0fe7c0b131a71232e96",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/31f9dcc94921-picon.zip",
+      "validation": {
+        "format": "zip",
+        "crc": "passed"
+      },
+      "mirroredAt": "2026-11-22T09:53:00Z"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/books/releases/download/Vuduo4kse/01_openpli-9.2-vuduo4kse-21112026.zip",
+      "sourceAssetName": "01_openpli-9.2-vuduo4kse-21112026.zip",
+      "size": 146733359,
+      "digest": "sha256:a9adb8a1b733db094a513de1b2052e48ec718813e81d989119499fa5a408b1b7",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-catalog-assets/a9adb8a1b733-01_openpli-9.2-vuduo4kse-21112026.zip",
+      "validation": {
+        "format": "zip",
+        "crc": "passed"
+      },
+      "mirroredAt": "2026-11-22T09:53:13Z"
     }
   ]
 }
