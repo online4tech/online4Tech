@@ -300,7 +300,21 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — Copper FHD",
+            "url": "https://www.enigma2.net/skin-copper-fhd/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/skin-copper-fhd/",
+        "designer": "غير محدد في الصفحة",
+        "resolution": "FHD",
+        "sourceVersion": "Copper-FHD v1.0",
+        "researchStatus": "source-confirmed",
+        "researchNote": "المصدر يذكر توافقًا مجربًا مع OpenATV 6.4 و7.2 وOpenPLi 8.3، واعتمادًا على PosterX وXtraEvent. يلزم مطابقة إصدار الملف الموجود لدينا."
+      }
     },
     {
       "id": "o4t-skin-14",
@@ -489,7 +503,18 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatSupreme — Enigma2 Skins Upload Center",
+            "url": "https://www.satsupreme.com/ulc.php/36-Skins"
+          }
+        ],
+        "galleryUrl": "https://www.satsupreme.com/ulc.php/36-Skins",
+        "researchStatus": "partial",
+        "researchNote": "ظهر اسم حزمة fullhdglass17 في مركز رفع SatSupreme مع رقم إصدار 9.50-r12 في قائمة الملفات؛ لم يتم التحقق من تطابقها مع حزمة Online4Tech أو العثور على صور موثوقة."
+      }
     },
     {
       "id": "o4t-skin-27",
@@ -620,7 +645,19 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatSupreme — Enigma2 Skins Upload Center",
+            "url": "https://www.satsupreme.com/ulc.php/36-Skins"
+          }
+        ],
+        "galleryUrl": "https://www.satsupreme.com/ulc.php/36-Skins",
+        "sourceVersion": "Jihad 2.20 (مركز الرفع)",
+        "researchStatus": "partial",
+        "researchNote": "مركز الرفع يعرض حزمة enigma2-plugin-skins-jihad_2.20_all.ipk بتاريخ 30-08-2026؛ لم يتم مطابقة محتوياتها مع ملف Jihad الموجود في متجر Online4Tech."
+      }
     },
     {
       "id": "o4t-skin-35",
@@ -700,7 +737,23 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "LinuxSat-Support — Enigma2 Skins",
+            "url": "https://www.linuxsat-support.com/board/873-enigma2-skins/"
+          },
+          {
+            "label": "SatSupreme — Upload Center",
+            "url": "https://www.satsupreme.com/ulc.php/36-Skins"
+          }
+        ],
+        "galleryUrl": "https://www.linuxsat-support.com/board/873-enigma2-skins/",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "توجد مواضيع LiiS8_FHD ومرفقات له في LinuxSat-Support، كما يظهر ملف LiiS8 FHD في مركز رفع SatSupreme. لا توجد مطابقة مؤكدة بين إصدار المصدر وملفنا الحالي."
+      }
     },
     {
       "id": "o4t-skin-39",
@@ -823,7 +876,24 @@
       "tags": [
         "IPK",
         "FHD"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "LinuxSat-Support — Metrix FHD neo",
+            "url": "https://www.linuxsat-support.com/thread/138869-metrix-fhd-neo-for-openatv/"
+          },
+          {
+            "label": "SatSupreme — Metrixf FHD v7.5.6",
+            "url": "https://www.satsupreme.com/showthread.php/411384-E%C2%B2-Skin-MetrixfFHD-for-OpenATV-by-neo3%E2%95%91"
+          }
+        ],
+        "galleryUrl": "https://www.linuxsat-support.com/thread/138869-metrix-fhd-neo-for-openatv/",
+        "designer": "neo3 (نسخة المصدر)",
+        "resolution": "FHD",
+        "researchStatus": "source-confirmed",
+        "researchNote": "المصادر توثق Metrix FHD neo لـ OpenATV ونسخًا/تعديلات مختلفة. يجب التمييز بين Metrixfhd-neo وبين MetrixfHD v7.5.6؛ لم نثبت أن ملفنا يطابق أيًا منهما بعد."
+      }
     },
     {
       "id": "o4t-skin-43",
@@ -865,7 +935,18 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — Skins archive",
+            "url": "https://www.enigma2.net/category/enigma2/skins/page/2/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/category/enigma2/skins/page/2/",
+        "researchStatus": "partial",
+        "researchNote": "فهرس ENIGMA2 يعرض MultiPoster FHD، لكن الاسم وحده لا يثبت أن ملف multiposter.tar.gz هو نفس المشروع أو نفس الإصدار."
+      }
     },
     {
       "id": "o4t-skin-46",
@@ -1040,7 +1121,19 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "GitHub — oDreamy skin source",
+            "url": "https://github.com/formiano/skins-oDreamy"
+          }
+        ],
+        "galleryUrl": "https://github.com/formiano/skins-oDreamy",
+        "designer": "mmark / Dream Elite Team (حسب تعليقات skin.xml)",
+        "researchStatus": "partial",
+        "researchNote": "المستودع يحتوي نسخة oDreamy معدلة ومخصصة لـ OpenDroid فقط حسب تعليق skin.xml؛ لا يُعمم هذا التوافق على ملف odreamy.ipk لدينا دون فحص الحزمة."
+      }
     },
     {
       "id": "o4t-skin-56",
@@ -1202,7 +1295,20 @@
       "tags": [
         "IPK",
         "FHD"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — Premium-FHD",
+            "url": "https://www.enigma2.net/category/enigma2/skins/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/category/enigma2/skins/",
+        "sourceVersion": "Premium-FHD v2.4 (فهرس المصدر)",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "فهرس ENIGMA2 يعرض Premium-FHD v2.4 ويذكر دعم عدة صور في وصف الموضوع؛ يلزم فتح الموضوع ومطابقة الإصدار مع ملفنا قبل اعتماد التوافق."
+      }
     },
     {
       "id": "o4t-skin-64",
@@ -1495,9 +1601,8 @@
   "researchUpdatedAt": "2026-11-22",
   "researchSummary": {
     "totalItems": 73,
-    "withSourceLinks": 28,
+    "withSourceLinks": 36,
     "withVerifiedScreenshots": 4,
-    "withCatalogNameMatches": 15,
-    "policy": "لا يُنسب التوافق أو رقم الإصدار إلى ملف Online4Tech إلا بعد مطابقة الحزمة نفسها؛ تطابق الاسم في الكتالوج لا يثبت تطابق الملف."
+    "policy": "التوافق والإصدارات المنقولة تخص المصدر المشار إليه فقط حتى مطابقة ملف Online4Tech نفسه."
   }
 }
