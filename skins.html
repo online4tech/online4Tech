@@ -26,21 +26,6 @@
 </style><style id="o4t-skins-research-style">
 .release-skin-card .research-meta{color:#8bdcff;font-size:.82rem;margin:0}
 .release-skin-card .research-note{color:#b9cce0;font-size:.78rem;line-height:1.7;border-right:2px solid #39799a;padding:5px 9px;margin:0}
-.release-skin-card .photo-actions{margin-top:0}
-.release-skin-card .photo-button{width:100%;background:#102a42;color:#8bdcff;border:1px solid #315574;font-weight:bold;cursor:pointer}
-.release-skin-card .photo-button:hover{background:#173954;border-color:#67d2ff}
-.skin-photo-modal[hidden]{display:none!important}
-.skin-photo-modal{position:fixed;inset:0;z-index:99999;display:grid;place-items:center;padding:18px}
-.skin-photo-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.82);backdrop-filter:blur(5px)}
-.skin-photo-dialog{position:relative;z-index:1;width:min(100%,980px);max-height:min(90vh,900px);overflow:auto;border:1px solid #34516d;border-radius:18px;background:#0b1725;box-shadow:0 25px 80px #000b;padding:16px}
-.skin-photo-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}
-.skin-photo-head h2{margin:0;font-size:1.2rem;color:#f4f8ff}
-.skin-photo-close{width:40px;height:40px;border:1px solid #34516d;border-radius:10px;background:#102139;color:#fff;font-size:1.1rem;cursor:pointer}
-.skin-photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.skin-photo-item{display:block;overflow:hidden;border:1px solid #31506c;border-radius:12px;background:#050c15;min-height:120px}
-.skin-photo-item img{display:block;width:100%;height:auto;max-height:65vh;object-fit:contain}
-body.skin-photo-open{overflow:hidden}
-@media(max-width:600px){.skin-photo-modal{padding:8px}.skin-photo-dialog{padding:12px;max-height:94vh}.skin-photo-grid{grid-template-columns:1fr}}
 </style></head><body>
 <header><div class="wrap top"><a class="brand" href="index.html">Online<span>4Tech</span></a><nav aria-label="التنقل"><a href="index.html">الرئيسية</a><a href="downloads.html">التحميلات</a><a href="plugins/">البلجنز</a></nav></div></header>
 <main class="wrap"><section class="hero"><span class="tag">ENIGMA2 SKINS LIBRARY</span><h1>🎨 مكتبة سكينات Enigma2</h1><p>حمّل ملفات IPK مباشرة من الأزرار، أو انسخ أمر Telnet المناسب لجهازك. الأوامر بتنزّل الملف وتثبّته على الجهاز.</p><div class="notice">⚠️ اتأكد من توافق السكين مع صورة جهازك وإصدار Enigma2 قبل التثبيت، وخد نسخة احتياطية. أوامر التثبيت مخصصة للأجهزة اللي بتستخدم opkg؛ نفّذ الأمر الخاص بالنسخة المناسبة لجهازك فقط.</div></section>
@@ -64,4 +49,4 @@ body.skin-photo-open{overflow:hidden}
 document.querySelectorAll('.card').forEach(function(card){var command=card.querySelector('.command');if(!command)return;var button=command.querySelector('.copy');if(!button)return;var actions=card.querySelector('.actions');if(!actions){actions=document.createElement('div');actions.className='actions';command.parentNode.insertBefore(actions,command)}button.classList.add('btn');actions.appendChild(button)});
 document.querySelectorAll('.copy').forEach(function(button){button.addEventListener('click',function(){var el=document.getElementById(button.dataset.copy);var value=el.textContent;if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(value).then(function(){button.textContent='تم النسخ ✓'}).catch(function(){fallback(value,button)})}else{fallback(value,button)}})});
 function fallback(value,button){var area=document.createElement('textarea');area.value=value;area.style.position='fixed';area.style.opacity='0';document.body.appendChild(area);area.select();try{document.execCommand('copy');button.textContent='تم النسخ ✓'}catch(e){button.textContent='انسخ الأمر يدويًا'}area.remove()}
-</script><script src="js/skins-release-library.js?v=2" defer></script><script src="assets/gallery-buttons.js?v=6" defer></script><script src="assets/site-header.js?v=6" defer></script></body></html>
+</script><script src="js/skins-release-library.js?v=3" defer></script><script src="assets/gallery-buttons.js?v=7" defer></script><script src="assets/site-header.js?v=6" defer></script></body></html>
