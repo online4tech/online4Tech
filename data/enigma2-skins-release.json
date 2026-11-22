@@ -425,7 +425,20 @@
       "tags": [
         "IPK",
         "FHD"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "OpenPLi Forums — DarkSilverFHD",
+            "url": "https://forums.openpli.org/topic/42311-skin-darksilverfhd-1920x1080-by-sharp987/"
+          }
+        ],
+        "galleryUrl": "https://forums.openpli.org/topic/42311-skin-darksilverfhd-1920x1080-by-sharp987/",
+        "designer": "Sharp987",
+        "resolution": "FHD (1920×1080)",
+        "researchStatus": "partial",
+        "researchNote": "منتدى OpenPLi يوثق DarkSilverFHD 1920×1080 ونسخًا قديمة OpenPLi 4.0؛ لم يتم إثبات تطابق ملف DarkSilverFHD.ipk الموجود لدينا مع تلك الحزمة القديمة."
+      }
     },
     {
       "id": "o4t-skin-17",
@@ -441,7 +454,21 @@
         "TAR.GZ",
         "FHD",
         "OpenPLi"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatFan — decfHD Xtra by Chari7",
+            "url": "https://satfan.info/threads/drugie-skiny.120/page-2"
+          }
+        ],
+        "galleryUrl": "https://satfan.info/threads/drugie-skiny.120/page-2",
+        "designer": "Chari7",
+        "resolution": "HD/FHD (حسب إصدار المصدر)",
+        "sourceVersion": "decfHD Xtra 0.3 r16",
+        "researchStatus": "partial",
+        "researchNote": "المصدر يسجل SKIN decfHD Xtra by Chari7 0.3 r16 لـ OpenPLi 8.3، مع صور ومرفق RAR؛ لم يتم مطابقة محتويات الأرشيف مع ملفنا."
+      }
     },
     {
       "id": "o4t-skin-18",
@@ -570,7 +597,19 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatDreamGR — Flat-UI by Kaleem_Club",
+            "url": "https://www.satdreamgr.com/forum/archive/index.php/f-390-p-4.html"
+          }
+        ],
+        "galleryUrl": "https://www.satdreamgr.com/forum/archive/index.php/f-390-p-4.html",
+        "designer": "Kaleem_Club (حسب الأرشيف)",
+        "researchStatus": "partial",
+        "researchNote": "أرشيف SatDreamGR يسجل Skin FLAT-UI by Kaleem_Club؛ لا توجد تفاصيل إصدار أو توافق مؤكدة للملف Flat-UI.tar.gz الموجود لدينا."
+      }
     },
     {
       "id": "o4t-skin-25",
@@ -584,7 +623,23 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — Froid",
+            "url": "https://www.enigma2.net/skin-froid/"
+          },
+          {
+            "label": "LinuxSat-Support — xtraEvent / Froid-based skinparts",
+            "url": "https://www.linuxsat-support.com/thread/150647-xtraevent-plugin-by-digiteng-poster-etc/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/skin-froid/",
+        "designer": "غير مؤكد",
+        "researchStatus": "partial",
+        "researchNote": "يوجد موضوع Froid على ENIGMA2، كما أن وثائق xtraEvent تشير إلى skinparts مبنية على Froid. لم يتم تحديد إصدار Froid.tar.gz أو مطابقة محتوياته."
+      }
     },
     {
       "id": "o4t-skin-26",
@@ -1194,7 +1249,19 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatFan — BlueMetalFHD / MyBlueMetal",
+            "url": "https://satfan.info/threads/bluemetalfhd.759/"
+          }
+        ],
+        "galleryUrl": "https://satfan.info/threads/bluemetalfhd.759/",
+        "designer": "kvinto (الموضوع)",
+        "researchStatus": "possible-match",
+        "researchNote": "المصدر يعرض BlueMetalFHD وإضافات MyBlueMetal لإصدارات OpenATV متعددة؛ الاسم قريب من mybluemetal الموجود لدينا، لكن قد يكون Plugin مرافقًا وليس Skin مستقلًا، فلا نعتمد توافقًا أو وصفًا قبل فحص الملف."
+      }
     },
     {
       "id": "o4t-skin-49",
@@ -1883,14 +1950,14 @@
   "researchUpdatedAt": "2026-11-22",
   "researchSummary": {
     "totalItems": 73,
-    "withSourceLinks": 55,
+    "withSourceLinks": 60,
     "withVerifiedScreenshots": 4,
     "verifiedScreenshotCount": 15,
     "statusCounts": {
       "source-confirmed": 15,
-      "partial": 25,
-      "possible-match": 15,
-      "none": 18
+      "partial": 29,
+      "possible-match": 16,
+      "none": 13
     },
     "policy": "التوافق والإصدارات المنقولة تخص المصدر المشار إليه فقط حتى مطابقة ملف Online4Tech نفسه."
   }
