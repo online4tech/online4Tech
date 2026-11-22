@@ -1,12 +1,12 @@
 /* Online4Tech per-item image galleries. Buttons appear only when a folder has real image files. */
 (function(){
 'use strict';
-var indexUrl='https://data.jsdelivr.com/v1/package/gh/online4tech/online4Tech@main/flat';
+var indexUrl='https://api.github.com/repos/online4tech/online4Tech/git/trees/main?recursive=1';
 var allowed=/\.(png|jpe?g|gif|webp|avif|svg)$/i, checked={}, indexPromise=null;
 var style=document.createElement('style');style.textContent='.gallery-link{display:inline-flex;align-items:center;justify-content:center;margin:8px 0 0;padding:8px 12px;border:1px solid #315574;border-radius:11px;background:linear-gradient(145deg,#102a42,#0b1b2b);color:#8bdcff;font-weight:bold;font-size:.82rem;text-decoration:none;cursor:pointer}.gallery-link:hover{background:#173954;border-color:#67d2ff}.gallery-link[hidden]{display:none!important}.gallery-link.is-disabled{opacity:.42;cursor:not-allowed;filter:grayscale(.35);pointer-events:none}.gallery-link.is-disabled:hover{background:linear-gradient(145deg,#102a42,#0b1b2b);border-color:#315574}';document.head.appendChild(style);
 function slugify(value){return String(value||'item').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'')||'item'}
 function getFileIndex(){
- if(!indexPromise)indexPromise=fetch(indexUrl).then(function(r){if(!r.ok)throw new Error('index unavailable');return r.json()}).then(function(data){if(!Array.isArray(data.files))throw new Error('invalid index');return data.files.map(function(f){return String(f.name||'').replace(/^\/+/, '')})});
+ if(!indexPromise)indexPromise=fetch(indexUrl).then(function(r){if(!r.ok)throw new Error('index unavailable');return r.json()}).then(function(data){if(!Array.isArray(data.files))throw new Error('invalid index');if(!Array.isArray(data.tree))throw new Error('invalid repository tree');return data.tree.filter(function(f){return f.type==='blob'}).map(function(f){return String(f.path||'').replace(/^\/+/, '')})});
  return indexPromise;
 }
 function check(folder){
