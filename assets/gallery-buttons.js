@@ -67,7 +67,7 @@ function addLink(node,folder,title){
   if(!link.isConnected)return;
   if(hasImages===true){
    var base=(location.pathname.indexOf('/plugins/')!==-1||location.pathname.indexOf('/devices/')!==-1)?'../':'';
-   link.href=base+'gallery.html?folder='+encodeURIComponent(folder)+'&name='+encodeURIComponent(title);
+   link.href=base+'gallery.html?folder='+encodeURIComponent(folder)+'&name='+encodeURIComponent(title)+'&v=2';
    link.classList.remove('is-disabled');
    link.setAttribute('aria-label','عرض صور '+title);
    link.removeAttribute('aria-disabled');link.removeAttribute('tabindex');link.removeAttribute('title');
