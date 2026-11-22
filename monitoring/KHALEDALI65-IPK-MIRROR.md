@@ -1,13 +1,14 @@
 # تقرير نقل حزم IPK إلى Online4Tech
 
-- الحزم الجديدة في هذه الجولة: 0
-- إجمالي الحزم المنشورة: 166
+- الحزم الجديدة في هذه الجولة: 4
+- إجمالي الحزم المنشورة: 171
 - الملفات المرفوضة في هذه الجولة: 2
 
 > تم فحص بنية IPK وقراءة Package وVersion وArchitecture. هذا فحص بيانات وليس مراجعة أمنية للكود الداخلي؛ راجع التوافق قبل التثبيت.
 
 | الحزمة | الإصدار | المعمارية | رابط Online4Tech |
 |---|---|---|---|
+| enigma2-plugin-extensions-ipaudiopro | 1.7 |  | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipaudiopro/65580ca53f0f-ipaudiopro-installer.sh) |
 | enigma2-plugin-extensions-ajpanel | v10.8.6 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/b07ec8816d43-ajpanel.ipk) |
 | enigma2-plugin-extensions-alkuds | r183 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/30524ec1cd9a-Alkuds_ipaudio.ipk) |
 | enigma2-plugin-extensions-ansite | 1.12.py3 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/13dce017e310-ansite.ipk) |
@@ -174,6 +175,10 @@
 | enigma2-plugin-skins-simple-gray | git273-1-124be6c-r0.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/3e2b357f3b80-simple-gray.ipk) |
 | enigma2-plugin-skins-xDreamy | 7.4.0 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/db8e0b09aad0-xDreamy.ipk) |
 | enigma2-plugin-skins-youchie-pli-fhd-for-bh | v1.0.1 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/cf4382a3119e-Youchie.ipk) |
+| enigma2-plugin-softcams-gosatplus-oscam | 11991-emu-r802 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/af6cea4af574-enigma2-plugin-softcams-gosatplus-oscam_11991-emu-r802_all.ipk) |
+| enigma2-plugin-softcams-powercam-oscam | 11991-emu-r802 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/2bcceae6757a-enigma2-plugin-softcams-powercam-oscam_11991-emu-r802_all.ipk) |
+| enigma2-plugin-softcams-supcam-oscam | 11991-emu-r802 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/8844da1dd54c-enigma2-plugin-softcams-supcam-oscam_11991-emu-r802_all.ipk) |
+| enigma2-plugin-softcams-ultracam-oscam | 11991-emu-r802 | all | [تحميل](https://github.com/online4tech/online4Tech/releases/download/online4tech-ipk/74a183814823-enigma2-plugin-softcams-ultracam-oscam_11991-emu-r802_all.ipk) |
 
 ## ملفات مرفوضة
 - KhaledAli65/Slot / e2m3u2bouquet.ipk: ليس IPK/ar
