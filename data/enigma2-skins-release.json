@@ -827,7 +827,20 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "MasrawySat — ICONE FHD by Muaath",
+            "url": "https://masrawysat.com/vb/forumdisplay.php?f=589"
+          }
+        ],
+        "galleryUrl": "https://masrawysat.com/vb/forumdisplay.php?f=589",
+        "designer": "Muaath (حسب عنوان الموضوع)",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "منتدى مصراوي سات يعرض موضوع SKIN ICONE FHD BY MUAATH؛ الاسم قريب من icon.tar.gz، لكن لم يتم إثبات أن الحزمة الموجودة لدينا هي نفس السكين."
+      }
     },
     {
       "id": "o4t-skin-33",
@@ -841,7 +854,20 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatDreamGR — Infinity FHD neo",
+            "url": "https://www.satdreamgr.com/forum/archive/index.php/f-390-p-4.html"
+          }
+        ],
+        "galleryUrl": "https://www.satdreamgr.com/forum/archive/index.php/f-390-p-4.html",
+        "designer": "غير مؤكد من الأرشيف",
+        "resolution": "FHD",
+        "researchStatus": "possible-match",
+        "researchNote": "أرشيف SatDreamGR يذكر Skin Infinity FHD neo for OpenATV؛ الاسم قريب من infinity neo لدينا، ولا توجد مطابقة إصدار أو ملف مؤكدة."
+      }
     },
     {
       "id": "o4t-skin-34",
@@ -1418,7 +1444,20 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "MasrawySat — OctelFHD MOD",
+            "url": "https://masrawysat.com/vb/forumdisplay.php?f=589"
+          }
+        ],
+        "galleryUrl": "https://masrawysat.com/vb/forumdisplay.php?f=589",
+        "designer": "RAED (حسب عنوان الموضوع)",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "منتدى مصراوي سات يعرض موضوع افضل اسكين للانيجما OctelFHD-MOD-By-RAED مع صور ومناقشات؛ لم يتم التحقق من أن octel.tar.gz هو نفس الإصدار."
+      }
     },
     {
       "id": "o4t-skin-55",
@@ -1551,7 +1590,32 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "LinuxSat-Support — PD1LOI HD Night Weatherfull",
+            "url": "https://www.linuxsat-support.com/thread/159704-pd1loi-hd-night-weatherfull-by-arthur-skin-for-openpli/"
+          },
+          {
+            "label": "SatSupreme — PD1LOI Full-HD Skin",
+            "url": "https://www.satsupreme.com/showthread.php/396761-PD1LOI-Full-HD-Skin"
+          },
+          {
+            "label": "MasrawySat — PD1LOI-HD-NIGHT",
+            "url": "https://masrawysat.com/vb/showthread.php?t=2955194"
+          }
+        ],
+        "galleryUrl": "https://www.linuxsat-support.com/thread/159704-pd1loi-hd-night-weatherfull-by-arthur-skin-for-openpli/",
+        "designer": "Mr Loui / Arthur (حسب الإصدار)",
+        "resolution": "HD/FHD",
+        "researchStatus": "source-confirmed",
+        "supportedImages": [
+          "OpenPLi 8.3",
+          "OpenPLi 9.0 (نسخة Weatherfull المذكورة)"
+        ],
+        "researchNote": "المصادر توثق PD1LOI-HD-NIGHT وإصدارات Weatherfull وتعديلات الخطوط والطقس. التوافق المنشور يخص إصدارات محددة ولا يُنسب تلقائيًا إلى ملفنا."
+      }
     },
     {
       "id": "o4t-skin-61",
@@ -1950,14 +2014,14 @@
   "researchUpdatedAt": "2026-11-22",
   "researchSummary": {
     "totalItems": 73,
-    "withSourceLinks": 60,
+    "withSourceLinks": 64,
     "withVerifiedScreenshots": 4,
     "verifiedScreenshotCount": 15,
     "statusCounts": {
-      "source-confirmed": 15,
-      "partial": 29,
-      "possible-match": 16,
-      "none": 13
+      "source-confirmed": 16,
+      "partial": 31,
+      "possible-match": 17,
+      "none": 9
     },
     "policy": "التوافق والإصدارات المنقولة تخص المصدر المشار إليه فقط حتى مطابقة ملف Online4Tech نفسه."
   }
