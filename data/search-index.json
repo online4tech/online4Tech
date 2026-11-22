@@ -1631,8 +1631,16 @@
   },
   {
     "title": "البلجنز",
-    "description": "مكتبة سكينات Enigma2 من Online4Tech — روابط السكينات ومصادرها الأصلية.",
+    "description": "مكتبة بلجنات Enigma2 من Online4Tech — روابط البلجنات ومصادرها الأصلية.",
     "url": "https://online4tech.github.io/online4Tech/plugins/",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "التحميلات",
+    "description": "مكتبة بلجنات Enigma2 من Online4Tech — روابط البلجنات ومصادرها الأصلية.",
+    "url": "https://online4tech.github.io/online4Tech/downloads.html",
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Plugin"
@@ -1699,6 +1707,14 @@
     "url": "https://online4tech.github.io/online4Tech/plugins/alkuds-audio.html",
     "category": "إضافات",
     "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "بلجنات Enigma2 | Online4Tech",
+    "description": "مكتبة بلجنات Enigma2 من Online4Tech — روابط البلجنات ومصادرها الأصلية.",
+    "url": "https://online4tech.github.io/online4Tech/plugins-novalar.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
     "type": "Plugin"
   },
   {
@@ -2607,6 +2623,14 @@
     "url": "https://online4tech.github.io/online4Tech/plugins/enigmaplay.html",
     "category": "إضافات",
     "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "🧩 مكتبة بلجنات Enigma2",
+    "description": "مكتبة بلجنات Enigma2 من Online4Tech — روابط البلجنات ومصادرها الأصلية.",
+    "url": "https://online4tech.github.io/online4Tech/plugins-novalar.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
     "type": "Plugin"
   },
   {
@@ -6066,14 +6090,6 @@
     "type": "Backups"
   },
   {
-    "title": "التحميلات",
-    "description": "مكتبة سكينات Enigma2 من Online4Tech — روابط السكينات ومصادرها الأصلية.",
-    "url": "https://online4tech.github.io/online4Tech/downloads.html",
-    "category": "ملفات",
-    "brand": "Enigma2",
-    "type": "Tools"
-  },
-  {
     "title": "التفاصيل",
     "description": "Online4Tech — تحميل ملفات قنوات Enigma2 والملفات التقنية من مكتبة Online4Tech المنظمة.",
     "url": "https://online4tech.github.io/online4Tech/downloads.html",
@@ -6712,6 +6728,14 @@
     "category": "منتجات",
     "brand": "Online4Tech",
     "type": "Tools"
+  },
+  {
+    "title": "🆕 بلجنات متجر Online4Tech",
+    "description": "مكتبة بلجنات Enigma2 من Online4Tech — روابط البلجنات ومصادرها الأصلية.",
+    "url": "https://online4tech.github.io/online4Tech/plugins-novalar.html#o4t-release-plugins",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
   },
   {
     "title": "💾نسخ الباك أبانتقل لمكتبة التحميل، واختار الشركة والموديل المناسب لجهازك.اختار جهازك ←",
