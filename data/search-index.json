@@ -1718,6 +1718,14 @@
     "type": "Plugin"
   },
   {
+    "title": "بلجنات Enigma2 | Online4Tech",
+    "description": "مكتبة بلجنات Enigma2 من Online4Tech — روابط البلجنات ومصادرها الأصلية.",
+    "url": "https://online4tech.github.io/online4Tech/plugins.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
     "title": "بيكونات القنوات Picons | Online4Tech",
     "description": "تحميل بيكونات Picons للقنوات لأجهزة Enigma2 مع أمر Telnet لتنزيل الملف إلى الرسيفر.",
     "url": "https://online4tech.github.io/online4Tech/plugins/picons.html",
@@ -2629,6 +2637,14 @@
     "title": "🧩 مكتبة بلجنات Enigma2",
     "description": "مكتبة بلجنات Enigma2 من Online4Tech — روابط البلجنات ومصادرها الأصلية.",
     "url": "https://online4tech.github.io/online4Tech/plugins-novalar.html",
+    "category": "إضافات",
+    "brand": "Enigma2",
+    "type": "Plugin"
+  },
+  {
+    "title": "🧩 مكتبة بلجنات Enigma2",
+    "description": "مكتبة بلجنات Enigma2 من Online4Tech — روابط البلجنات ومصادرها الأصلية.",
+    "url": "https://online4tech.github.io/online4Tech/plugins.html",
     "category": "إضافات",
     "brand": "Enigma2",
     "type": "Plugin"
@@ -6733,6 +6749,14 @@
     "title": "🆕 بلجنات متجر Online4Tech",
     "description": "مكتبة بلجنات Enigma2 من Online4Tech — روابط البلجنات ومصادرها الأصلية.",
     "url": "https://online4tech.github.io/online4Tech/plugins-novalar.html#o4t-release-plugins",
+    "category": "منتجات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "🆕 بلجنات متجر Online4Tech",
+    "description": "مكتبة بلجنات Enigma2 من Online4Tech — روابط البلجنات ومصادرها الأصلية.",
+    "url": "https://online4tech.github.io/online4Tech/plugins.html#o4t-release-plugins",
     "category": "منتجات",
     "brand": "Online4Tech",
     "type": "Plugin"
