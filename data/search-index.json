@@ -1615,6 +1615,14 @@
   },
   {
     "title": "البلجن",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/#services",
+    "category": "إضافات",
+    "brand": "Online4Tech",
+    "type": "Plugin"
+  },
+  {
+    "title": "البلجن",
     "description": "فهرس شروحات Online4Tech لأجهزة Enigma2: ملفات القنوات، تركيب الباك أب، إعدادات الدايسك، AJPanel والتحكم من الموبايل.",
     "url": "https://online4tech.github.io/online4Tech/tutorials.html",
     "category": "إضافات",
@@ -6074,6 +6082,14 @@
     "type": "Page"
   },
   {
+    "title": "الاسكين",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/#services",
+    "category": "ملفات",
+    "brand": "Online4Tech",
+    "type": "Tools"
+  },
+  {
     "title": "الاسكينات (Skins)",
     "description": "Online4Tech Enigma2 Manager — لوحة مساعدة لإدارة أجهزة Enigma2، وتجهيز أوامر SSH وTelnet وفحص التوافق.",
     "url": "https://online4tech.github.io/online4Tech/enigma2-manager.html#catalogSection",
@@ -6738,6 +6754,14 @@
     "type": "Plugin"
   },
   {
+    "title": "🎨الاسكين133 سكين Enigma2 بصور ومعاينة، وروابط تحميل مباشرة.افتح مكتبة الاسكين ←",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/skins.html",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
     "title": "💾نسخ الباك أبانتقل لمكتبة التحميل، واختار الشركة والموديل المناسب لجهازك.اختار جهازك ←",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/library.html",
@@ -6797,6 +6821,14 @@
     "title": "🛰️ صور Vu+",
     "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
     "url": "https://online4tech.github.io/online4Tech/vuplus-images.html",
+    "category": "منتجات",
+    "brand": "Dreambox",
+    "type": "Backups"
+  },
+  {
+    "title": "🧩البلجن44 بلجن Enigma2 جاهزة للتحميل، مع أمر تثبيت لكل بلجن.افتح مكتبة البلجن ←",
+    "description": "Online4Tech — ملفات قنوات Enigma2، باك أب لأجهزة Vu+ وDreambox، شروحات تقنية ومتجر أجهزة استقبال.",
+    "url": "https://online4tech.github.io/online4Tech/plugins.html",
     "category": "منتجات",
     "brand": "Dreambox",
     "type": "Backups"
