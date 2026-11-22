@@ -41,6 +41,7 @@ jobs:
           cp monitoring/KHALEDALI65-SCRIPT-MIRROR.md /tmp/online4tech-script-report.md
           git fetch origin "${GITHUB_REF_NAME}"
           git reset --hard "origin/${GITHUB_REF_NAME}"
+          git checkout -B "${GITHUB_REF_NAME}"          
           cp /tmp/online4tech-script-manifest.json monitoring/khaledali65-script-mirror-manifest.json
           cp /tmp/online4tech-script-report.md monitoring/KHALEDALI65-SCRIPT-MIRROR.md
           git add -f monitoring/khaledali65-script-mirror-manifest.json monitoring/KHALEDALI65-SCRIPT-MIRROR.md
