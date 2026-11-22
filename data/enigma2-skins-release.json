@@ -397,7 +397,20 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "LinuxSat-Support — DarknessFHD",
+            "url": "https://www.linuxsat-support.com/thread/130150-darknessfhd-enigma2-skin-by-digiteng-for-openatv/"
+          }
+        ],
+        "galleryUrl": "https://www.linuxsat-support.com/thread/130150-darknessfhd-enigma2-skin-by-digiteng-for-openatv/",
+        "designer": "digiteng",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "الموضوع يوثق DarknessFHD لـ OpenATV 6.1 و6.2 مع 1920×1080 وطقس متحرك وتخصيصات؛ لم يتم إثبات أن darkness.tar.gz هو نفس الإصدار."
+      }
     },
     {
       "id": "o4t-skin-16",
@@ -471,7 +484,18 @@
       "tags": [
         "IPK",
         "FHD"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatSupreme — Enigma2 Skins Upload Center",
+            "url": "https://www.satsupreme.com/ulc.php/36-Skins"
+          }
+        ],
+        "galleryUrl": "https://www.satsupreme.com/ulc.php/36-Skins",
+        "researchStatus": "possible-match",
+        "researchNote": "مركز الرفع يعرض حزمة باسم dreamosatfhd-adrenalinnrw؛ الاسم قريب من dreamosatfhd الموجود لدينا، لكن لا يوجد إثبات أن الملفين متطابقان."
+      }
     },
     {
       "id": "o4t-skin-21",
@@ -603,7 +627,20 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SatFan — Revolution/FullHDLine forum",
+            "url": "https://satfan.info/threads/drugie-skiny.120/page-4"
+          }
+        ],
+        "galleryUrl": "https://satfan.info/threads/drugie-skiny.120/page-4",
+        "designer": "MIC71 / RAED (نسخة التعديل المذكورة)",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "المصدر يعرض Skin FULLHDLine by MIC71 mod by RAED؛ الاسم قريب من fullhdline الموجود لدينا، ولم يتم التحقق من أن الأرشيف هو نفس النسخة."
+      }
     },
     {
       "id": "o4t-skin-28",
@@ -841,7 +878,18 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — Lava Skin",
+            "url": "https://www.enigma2.net/category/skins/page/13/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/category/skins/page/13/",
+        "researchStatus": "partial",
+        "researchNote": "فهرس ENIGMA2 يعرض موضوعًا باسم Lava skin؛ لا توجد معلومات كافية لتأكيد رقم الإصدار أو التوافق أو مطابقته مع Lava.tar.gz."
+      }
     },
     {
       "id": "o4t-skin-38",
@@ -1025,7 +1073,20 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "SAT-4-ALL — MetriXperiencE",
+            "url": "https://www.sat-4-all.com/board/topic/327970-skin-metrixperience/"
+          }
+        ],
+        "galleryUrl": "https://www.sat-4-all.com/board/topic/327970-skin-metrixperience/",
+        "designer": "Adrenalinnrw / DreamOSat (حسب الموضوع)",
+        "resolution": "FHD",
+        "researchStatus": "source-confirmed",
+        "researchNote": "الموضوع يعرض MetriXperiencE v1.0 لـ OpenPLi وOpenBH، ويذكر أنه يعمل أيضًا على OpenATV 6.4. يلزم مطابقة الأرشيف الموجود لدينا مع النسخة المنشورة."
+      }
     },
     {
       "id": "o4t-skin-44",
@@ -1078,7 +1139,19 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "ENIGMA2 — MX Graphite for OpenPLi",
+            "url": "https://www.enigma2.net/skin-mx-graphite-for-openpli/"
+          }
+        ],
+        "galleryUrl": "https://www.enigma2.net/skin-mx-graphite-for-openpli/",
+        "resolution": "FHD",
+        "researchStatus": "partial",
+        "researchNote": "يوجد موضوع MX Graphite for OpenPLi مع صور؛ لم يتم التحقق من أن mxgraphite.tar.gz يطابق هذا المصدر أو الإصدار."
+      }
     },
     {
       "id": "o4t-skin-47",
@@ -1092,7 +1165,22 @@
       "description": "الأرشيف يُنزّل من متجرنا ويفك داخل مجلد مؤقت للمراجعة؛ لم ننفّذ تثبيتًا تلقائيًا لأن بنية ملفات الأرشيفات مختلفة.",
       "tags": [
         "TAR.GZ"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "OpenBH Team — Skin updates / MX Maestra Gray",
+            "url": "https://board.openbh.net/threads/info-about-skins-update-for-openbh.218/page-2"
+          },
+          {
+            "label": "OpenBH Team — MX Maestra family",
+            "url": "https://board.openbh.net/threads/info-about-skins-update-for-openbh.218/page-2"
+          }
+        ],
+        "galleryUrl": "https://board.openbh.net/threads/info-about-skins-update-for-openbh.218/page-2",
+        "researchStatus": "partial",
+        "researchNote": "منتدى OpenBH يذكر MX Maestra Gray ضمن عائلة سكينات MX المتاحة لصورة OpenBH 5.x فأحدث؛ لا يثبت ذلك توافق الأرشيف الموجود لدينا."
+      }
     },
     {
       "id": "o4t-skin-48",
@@ -1594,13 +1682,22 @@
         "sourceLinks": [
           {
             "label": "LinuxSat-Support — MohammedSkin",
-            "url": "https://www.linuxsat-support.com/board/873-enigma2-skins/"
+            "url": "https://www.linuxsat-support.com/thread/163734-mohammedskin/"
           }
         ],
-        "galleryUrl": "https://www.linuxsat-support.com/board/873-enigma2-skins/",
-        "resolution": "FHD",
-        "researchStatus": "partial",
-        "researchNote": "مصدر LinuxSat يعرض موضوع MohammedSkin FHD مع Online Posters وWeather. رابط Tunisia-Sat الظاهر في البحث متعلق بـ XDREAMY وليس MohammedSkin؛ أُدرج كرابط مرجعي للمنتدى فقط، وليس كمصدر لهذا الملف."
+        "galleryUrl": "https://www.linuxsat-support.com/thread/163734-mohammedskin/",
+        "resolution": "FHD (1920×1080)",
+        "researchStatus": "source-confirmed",
+        "researchNote": "الموضوع يذكر تحميل Posters/Backdrops/Scenes أونلاين وتوافق الصور أعلاه، مع installer.sh وملف IPK. ملف Online4Tech عندنا SH؛ يجب مراجعة السكربت ومطابقة مصدره قبل نقل أي تفاصيل تثبيت.",
+        "designer": "icanbefly",
+        "sourceVersion": "MohammedSkin 2.1.8 (الموضوع)",
+        "supportedImages": [
+          "OpenViX",
+          "OpenBlackHole",
+          "OpenATV",
+          "PurE2",
+          "Egami"
+        ]
       }
     },
     {
@@ -1786,14 +1883,14 @@
   "researchUpdatedAt": "2026-11-22",
   "researchSummary": {
     "totalItems": 73,
-    "withSourceLinks": 48,
+    "withSourceLinks": 55,
     "withVerifiedScreenshots": 4,
     "verifiedScreenshotCount": 15,
     "statusCounts": {
-      "source-confirmed": 13,
-      "partial": 21,
-      "possible-match": 14,
-      "none": 25
+      "source-confirmed": 15,
+      "partial": 25,
+      "possible-match": 15,
+      "none": 18
     },
     "policy": "التوافق والإصدارات المنقولة تخص المصدر المشار إليه فقط حتى مطابقة ملف Online4Tech نفسه."
   }
