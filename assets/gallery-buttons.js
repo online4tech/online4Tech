@@ -20,6 +20,14 @@ function getFileIndex(){
   }).then(function(data){
    if(!data||!Array.isArray(data.tree))throw new Error('GitHub tree response has no tree array');
    return data.tree.filter(function(f){return f&&f.type==='blob'&&typeof f.path==='string';}).map(function(f){return f.path.replace(/^\/+/, '');});
+  }).catch(function(apiError){
+   return fetch('https://raw.githubusercontent.com/online4tech/online4Tech/main/data/skin-images-index.json?v=1',{cache:'no-store'}).then(function(r){
+    if(!r.ok)throw apiError;
+    return r.json();
+   }).then(function(index){
+    if(!index||!Array.isArray(index.files))throw apiError;
+    return index.files.filter(function(path){return typeof path==='string';});
+   });
   });
  }
  return indexPromise;
