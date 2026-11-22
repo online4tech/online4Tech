@@ -466,7 +466,12 @@
         "resolution": "FHD",
         "sourceVersion": "Fury FHD v8.6 (عنوان الموضوع؛ تفاصيل منشورة لإصدارات 4.7–5.5)",
         "researchStatus": "source-confirmed",
-        "researchNote": "الموضوع يتضمن صورًا وتحديثات وذكر توافق مع OpenATV وEgami وPurE2 وOpenSPA وOpenBH وOpenViX وOpenDroid وOpenPLi بإصدارات محددة؛ لا نثبت هذا التوافق لملفنا قبل مطابقة الإصدار."
+        "researchNote": "الموضوع يتضمن صورًا وتحديثات وذكر توافق مع OpenATV وEgami وPurE2 وOpenSPA وOpenBH وOpenViX وOpenDroid وOpenPLi بإصدارات محددة؛ لا نثبت هذا التوافق لملفنا قبل مطابقة الإصدار.",
+        "images": [
+          "https://i.postimg.cc/QMtzgVg8/1.png",
+          "https://i.postimg.cc/4dHFMMSk/2.png"
+        ],
+        "imageAlt": "لقطات شاشة منشورة لسكين Fury FHD في موضوع SatSupreme"
       }
     },
     {
@@ -1172,7 +1177,16 @@
         "resolution": "FHD",
         "sourceVersion": "Youchie-PLI-FHD v1.0.0 (الموضوع)",
         "researchStatus": "source-confirmed",
-        "researchNote": "مستودع المصدر يذكر Vu+ وOpenPLi وOpenBH وOpenViX ودقة FHD، ومجلد ScreenShot للصور. يجب مطابقة محتويات ملف Online4Tech مع المصدر قبل اعتماد التوافق."
+        "researchNote": "مستودع المصدر يذكر Vu+ وOpenPLi وOpenBH وOpenViX ودقة FHD، ومجلد ScreenShot للصور. يجب مطابقة محتويات ملف Online4Tech مع المصدر قبل اعتماد التوافق.",
+        "images": [
+          "https://github.com/smcam/enigma2/raw/main/ScreenShot/01.jpg",
+          "https://github.com/smcam/enigma2/raw/main/ScreenShot/02.jpg",
+          "https://github.com/smcam/enigma2/raw/main/ScreenShot/03.jpg",
+          "https://github.com/smcam/enigma2/raw/main/ScreenShot/04.jpg",
+          "https://github.com/smcam/enigma2/raw/main/ScreenShot/05.jpg",
+          "https://github.com/smcam/enigma2/raw/main/ScreenShot/06.jpg"
+        ],
+        "imageAlt": "لقطات شاشة Youchie-PLI-FHD من مستودع المطور على GitHub"
       }
     }
   ],
