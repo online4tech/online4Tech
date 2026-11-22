@@ -1,8 +1,8 @@
 # تقرير نقل سكريبتات وأوامر Telnet إلى Online4Tech
 
-- الملفات الجديدة المنقولة في هذه الجولة: 0
+- الملفات الجديدة المنقولة في هذه الجولة: 1
 - الملفات المرفوضة: 0
-- إجمالي الملفات في الفهرس: 331
+- إجمالي الملفات في الفهرس: 332
 
 > تم نقل الملفات النصية فقط. لم يتم تشغيل أي سكريبت. كل عنصر يظل للمراجعة اليدوية قبل إتاحته كأمر تثبيت أو تحديث.
 
@@ -133,6 +133,7 @@
 | KhaledAli65/Channels | PANEL-Levi45.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/366c5734d5d4-Channels-PANEL-Levi45.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | PANEL-Levi45Addon.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/7de2180a696a-Channels-PANEL-Levi45Addon.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | PANEL-MagicPanelMax.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/91918421d9b9-Channels-PANEL-MagicPanelMax.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | PANEL-RomehPanel.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/37f70f57fef6-Channels-PANEL-RomehPanel.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | PANEL-SkyBlue.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a7789b5de838-Channels-PANEL-SkyBlue.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | PANEL-SmartAddon.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/40988c235c48-Channels-PANEL-SmartAddon.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | PANEL-Team_nitro.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/a6752309c856-Channels-PANEL-Team_nitro.sh) | مراجعة يدوية مطلوبة |

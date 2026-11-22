@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T09:51:54Z",
+  "generatedAt": "2026-11-22T20:04:55Z",
   "policy": "manual review only; never execute automatically",
   "files": [
     {
@@ -3310,6 +3310,16 @@
       "digest": "sha256:17161fc29bc9afe657bc393339820fae82254278502fdd3c37137f5448a2fda9",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/17161fc29bc9-Slot-install-feed.sh",
       "mirroredAt": "2026-11-21T09:55:49Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-RomehPanel.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "PANEL-RomehPanel.sh",
+      "size": 2193,
+      "digest": "sha256:37f70f57fef698b525d9d431fb143a42f43eb637719ebb03498e65c957cf0677",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/37f70f57fef6-Channels-PANEL-RomehPanel.sh",
+      "mirroredAt": "2026-11-22T20:04:55Z",
       "reviewStatus": "manual_review_never_execute"
     }
   ]
