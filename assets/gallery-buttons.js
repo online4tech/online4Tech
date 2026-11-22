@@ -26,7 +26,7 @@ function setup(node){
   var link=document.createElement('a');
   link.className='gallery-link';
   link.textContent='🖼️ الصور';
-  link.href='gallery.html?images='+encodeURIComponent(JSON.stringify(imageList))+'&name='+encodeURIComponent(title);
+  link.href='gallery.html?v=skin-images-1&images='+encodeURIComponent(JSON.stringify(imageList))+'&name='+encodeURIComponent(title);
   link.setAttribute('aria-label','عرض صور '+title);
   node.appendChild(link);
   return;
