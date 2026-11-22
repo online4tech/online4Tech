@@ -623,34 +623,7 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ],
-      "research": {
-        "sourceLinks": [
-          {
-            "label": "GitHub — SimpleGray",
-            "url": "https://github.com/Taapat/skin-SimpleGray"
-          },
-          {
-            "label": "ENIGMA2 — SimpleGray",
-            "url": "https://www.enigma2.net/skin-simplegray/"
-          }
-        ],
-        "galleryUrl": "https://github.com/Taapat/skin-SimpleGray",
-        "designer": "Taapat",
-        "resolution": "SD / HD / FHD",
-        "sourceVersion": "SimpleGray (المستودع)",
-        "researchStatus": "source-confirmed",
-        "supportedImages": [
-          "OpenPLi 8.1 فأحدث والصور المبنية على OpenPLi"
-        ],
-        "images": [
-          "https://user-images.githubusercontent.com/1623947/141681347-18e3b9e2-f8c2-4e37-8456-b2d513aac254.jpg",
-          "https://user-images.githubusercontent.com/1623947/141681352-f5f7e848-0236-4dda-8c1d-b3f1b871cf88.jpg",
-          "https://user-images.githubusercontent.com/1623947/141681376-eb147cf4-4f44-45db-b1d6-e68fee3c9edd.jpg"
-        ],
-        "imageAlt": "لقطات SimpleGray من مستودع Taapat",
-        "researchNote": "المطور يذكر دعم SD/HD/FHD باستخدام scaling وSVG، ويذكر أن الحد الأدنى OpenPLi 8.1 بسبب دعم SVG والـ scaling."
-      }
+      ]
     },
     {
       "id": "o4t-skin-39",
@@ -1154,7 +1127,34 @@
       "description": "ملف IPK؛ ينزّله الأمر من Release الخاص بنا ثم يثبّته باستخدام opkg. تأكد من توافق الحزمة مع صورة جهازك.",
       "tags": [
         "IPK"
-      ]
+      ],
+      "research": {
+        "sourceLinks": [
+          {
+            "label": "GitHub — SimpleGray",
+            "url": "https://github.com/Taapat/skin-SimpleGray"
+          },
+          {
+            "label": "ENIGMA2 — SimpleGray",
+            "url": "https://www.enigma2.net/skin-simplegray/"
+          }
+        ],
+        "galleryUrl": "https://github.com/Taapat/skin-SimpleGray",
+        "designer": "Taapat",
+        "resolution": "SD / HD / FHD",
+        "sourceVersion": "SimpleGray (المستودع)",
+        "researchStatus": "source-confirmed",
+        "supportedImages": [
+          "OpenPLi 8.1 فأحدث والصور المبنية على OpenPLi"
+        ],
+        "images": [
+          "https://user-images.githubusercontent.com/1623947/141681347-18e3b9e2-f8c2-4e37-8456-b2d513aac254.jpg",
+          "https://user-images.githubusercontent.com/1623947/141681352-f5f7e848-0236-4dda-8c1d-b3f1b871cf88.jpg",
+          "https://user-images.githubusercontent.com/1623947/141681376-eb147cf4-4f44-45db-b1d6-e68fee3c9edd.jpg"
+        ],
+        "imageAlt": "لقطات SimpleGray من مستودع Taapat",
+        "researchNote": "المطور يذكر دعم SD/HD/FHD باستخدام scaling وSVG، ويذكر أن الحد الأدنى OpenPLi 8.1 بسبب دعم SVG والـ scaling."
+      }
     },
     {
       "id": "o4t-skin-67",
@@ -1174,10 +1174,6 @@
           {
             "label": "LinuxSat-Support — MohammedSkin",
             "url": "https://www.linuxsat-support.com/board/873-enigma2-skins/"
-          },
-          {
-            "label": "منتدى Tunisia-Sat — XDREAMY",
-            "url": "https://www.tunisia-sat.com/forums/threads/4408420/"
           }
         ],
         "galleryUrl": "https://www.linuxsat-support.com/board/873-enigma2-skins/",
