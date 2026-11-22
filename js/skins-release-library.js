@@ -41,7 +41,7 @@
     modal.querySelector('#skin-photo-title').textContent='صور '+item.title;
     const content=modal.querySelector('.skin-photo-content');
     const alt=research.imageAlt||('صور '+item.title);
-    content.innerHTML='<div class="skin-photo-grid">'+images.map((src,i)=>'<a href="'+esc(src)+'" target="_blank" rel="noopener noreferrer" class="skin-photo-item"><img src="'+esc(src)+'" alt="'+esc(alt)+' '+(i+1)+'" loading="lazy"></a>').join('')+'</div>';
+    content.innerHTML='<div class="skin-photo-grid">'+images.map((src,i)=>'<div class="skin-photo-item"><img src="'+esc(src)+'" alt="'+esc(alt)+' '+(i+1)+'" loading="lazy"></div>').join('')+'</div>';
     modal.hidden=false;
     document.body.classList.add('skin-photo-open');
     modal.querySelector('.skin-photo-close').focus();
