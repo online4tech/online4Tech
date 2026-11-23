@@ -15,6 +15,9 @@ on:
       - '.github/workflows/search-index.yml'
   workflow_dispatch:
 
+concurrency:
+  group: refresh-search-index
+  cancel-in-progress: false
 permissions:
   contents: write
 
@@ -43,5 +46,13 @@ jobs:
           git add data/search-index.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: rebuild search index"
-            git push
+            for attempt in 1 2 3 4 5; do
+              if git pull --rebase origin main && git push; then
+                break
+              fi
+              if [ "$attempt" -eq 5 ]; then
+                exit 1
+              fi
+              sleep 10
+            done
           fi
