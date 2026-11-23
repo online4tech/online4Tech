@@ -19,7 +19,7 @@ jobs:
     timeout-minutes: 360
     steps:
       - name: Checkout website
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Download, verify and mirror release assets
         env:
