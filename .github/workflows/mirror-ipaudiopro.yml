@@ -30,7 +30,7 @@ jobs:
     timeout-minutes: 180
     steps:
       - name: Checkout Online4Tech
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           filter: blob:none
           sparse-checkout: |
@@ -46,7 +46,7 @@ jobs:
           git fetch origin main
           git checkout -B main origin/main
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Mirror IPAudioPro v1.7 IPK variants and build installer
@@ -86,7 +86,7 @@ jobs:
           fi
       - name: Upload IPAudioPro report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: online4tech-ipaudiopro-report
           path: monitoring/IPAUDIOPRO-MIRROR.md
