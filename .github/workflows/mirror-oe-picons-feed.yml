@@ -28,7 +28,7 @@ jobs:
     timeout-minutes: 180
     steps:
       - name: Checkout Online4Tech
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           filter: blob:none
           sparse-checkout: |
@@ -44,7 +44,7 @@ jobs:
           git fetch origin main
           git checkout -B main origin/main
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Mirror and verify Picons packages
@@ -84,7 +84,7 @@ jobs:
           fi
       - name: Upload Picons feed report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: online4tech-picons-feed-report
           path: monitoring/ONLINE4TECH-PICONS-FEED.md
