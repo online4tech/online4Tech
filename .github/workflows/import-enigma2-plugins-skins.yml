@@ -10,6 +10,9 @@ on:
 
 permissions:
   contents: write
+  concurrency:
+    group: import-enigma2-plugins-skins
+      cancel-in-progress: false
 
 jobs:
   import:
@@ -98,4 +101,12 @@ jobs:
             exit 0
           fi
           git commit -m "Import Enigma2 plugin IPKs and skins"
-          git push origin HEAD:main
+          for attempt in 1 2 3 4 5; do
+                      if git pull --rebase origin main && git push origin HEAD:main; then
+                                    break
+                                                fi
+                                                            if [ "$attempt" -eq 5 ]; then
+                                                                          exit 1
+                                                                                      fi
+                                                                                                  sleep 10
+                                                                                                            done
