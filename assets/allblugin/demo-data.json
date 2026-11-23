@@ -4067,7 +4067,7 @@
       "downloads": 0,
       "keywords": "IPAudioPro Audio zKhadiri Enigma2 بلجن",
       "icon": "🎬",
-      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-ipaudiopro/65580ca53f0f-ipaudiopro-installer.sh",
+      "sourceUrl": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-ipaudiopro",
       "installCommand": "wget https://raw.githubusercontent.com/emilnabil/ipaudiopro/refs/heads/main/ipaudiopro.sh -O - | /bin/sh",
       "command": "wget -qO /tmp/ipaudiopro-installer.sh https://github.com/online4tech/online4Tech/releases/download/online4tech-ipaudiopro/65580ca53f0f-ipaudiopro-installer.sh && sh /tmp/ipaudiopro-installer.sh",
       "compatibility": "يختار حسب معمارية الجهاز وإصدار Python، ويطلب اختيار FF عند تعدد النسخ",
@@ -4075,7 +4075,7 @@
       "originalSourceUrl": "https://github.com/emilnabil/ipaudiopro",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-ipaudiopro/65580ca53f0f-ipaudiopro-installer.sh",
       "repoUrl": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-ipaudiopro",
-      "detailUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-ipaudiopro/65580ca53f0f-ipaudiopro-installer.sh",
+      "detailUrl": "https://github.com/online4tech/online4Tech/releases/tag/online4tech-ipaudiopro",
       "sourceRepo": "emilnabil/ipaudiopro",
       "packageName": "enigma2-plugin-extensions-ipaudiopro",
       "packageVariants": 45
