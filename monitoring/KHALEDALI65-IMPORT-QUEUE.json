@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-22T09:51:52.325825+00:00",
-  "source_scan_at": "2026-11-22T09:51:20.829368+00:00",
-  "total_new_candidates": 556,
+  "generated_at": "2026-11-23T14:43:13.555582+00:00",
+  "source_scan_at": "2026-11-23T14:42:43.687368+00:00",
+  "total_new_candidates": 549,
   "summary": {
     "manual_model_review": 195,
     "model_matched_needs_archive_validation": 6,
-    "metadata_and_architecture_review_required": 11,
-    "manual_security_review_never_execute": 325,
+    "metadata_and_architecture_review_required": 3,
+    "manual_security_review_never_execute": 326,
     "manual_content_review_never_execute": 19
   },
   "policy": {
@@ -2247,94 +2247,6 @@
       "status": "manual_model_review"
     },
     {
-      "repository": "KhaledAli65/emu",
-      "release": "",
-      "asset": "enigma2-plugin-softcams-gosatplus-oscam_11991-emu-r802_all.ipk",
-      "size": 4610576,
-      "download_url": "https://raw.githubusercontent.com/KhaledAli65/emu/main/enigma2-plugin-softcams-gosatplus-oscam_11991-emu-r802_all.ipk",
-      "release_url": "",
-      "published_at": "",
-      "type": "plugin_package",
-      "status": "metadata_and_architecture_review_required"
-    },
-    {
-      "repository": "KhaledAli65/emu",
-      "release": "Emu",
-      "asset": "enigma2-plugin-softcams-gosatplus-oscam_11991-emu-r802_all.ipk",
-      "size": 4610576,
-      "download_url": "https://github.com/KhaledAli65/emu/releases/download/Emu/enigma2-plugin-softcams-gosatplus-oscam_11991-emu-r802_all.ipk",
-      "release_url": "https://github.com/KhaledAli65/emu/releases/tag/Emu",
-      "published_at": "2026-07-20T05:20:01Z",
-      "type": "plugin_package",
-      "status": "metadata_and_architecture_review_required"
-    },
-    {
-      "repository": "KhaledAli65/emu",
-      "release": "",
-      "asset": "enigma2-plugin-softcams-powercam-oscam_11991-emu-r802_all.ipk",
-      "size": 4610354,
-      "download_url": "https://raw.githubusercontent.com/KhaledAli65/emu/main/enigma2-plugin-softcams-powercam-oscam_11991-emu-r802_all.ipk",
-      "release_url": "",
-      "published_at": "",
-      "type": "plugin_package",
-      "status": "metadata_and_architecture_review_required"
-    },
-    {
-      "repository": "KhaledAli65/emu",
-      "release": "Emu",
-      "asset": "enigma2-plugin-softcams-powercam-oscam_11991-emu-r802_all.ipk",
-      "size": 4610354,
-      "download_url": "https://github.com/KhaledAli65/emu/releases/download/Emu/enigma2-plugin-softcams-powercam-oscam_11991-emu-r802_all.ipk",
-      "release_url": "https://github.com/KhaledAli65/emu/releases/tag/Emu",
-      "published_at": "2026-07-20T05:20:01Z",
-      "type": "plugin_package",
-      "status": "metadata_and_architecture_review_required"
-    },
-    {
-      "repository": "KhaledAli65/emu",
-      "release": "",
-      "asset": "enigma2-plugin-softcams-supcam-oscam_11991-emu-r802_all.ipk",
-      "size": 4607230,
-      "download_url": "https://raw.githubusercontent.com/KhaledAli65/emu/main/enigma2-plugin-softcams-supcam-oscam_11991-emu-r802_all.ipk",
-      "release_url": "",
-      "published_at": "",
-      "type": "plugin_package",
-      "status": "metadata_and_architecture_review_required"
-    },
-    {
-      "repository": "KhaledAli65/emu",
-      "release": "Emu",
-      "asset": "enigma2-plugin-softcams-supcam-oscam_11991-emu-r802_all.ipk",
-      "size": 4607230,
-      "download_url": "https://github.com/KhaledAli65/emu/releases/download/Emu/enigma2-plugin-softcams-supcam-oscam_11991-emu-r802_all.ipk",
-      "release_url": "https://github.com/KhaledAli65/emu/releases/tag/Emu",
-      "published_at": "2026-07-20T05:20:01Z",
-      "type": "plugin_package",
-      "status": "metadata_and_architecture_review_required"
-    },
-    {
-      "repository": "KhaledAli65/emu",
-      "release": "",
-      "asset": "enigma2-plugin-softcams-ultracam-oscam_11991-emu-r802_all.ipk",
-      "size": 985442,
-      "download_url": "https://raw.githubusercontent.com/KhaledAli65/emu/main/enigma2-plugin-softcams-ultracam-oscam_11991-emu-r802_all.ipk",
-      "release_url": "",
-      "published_at": "",
-      "type": "plugin_package",
-      "status": "metadata_and_architecture_review_required"
-    },
-    {
-      "repository": "KhaledAli65/emu",
-      "release": "Emu",
-      "asset": "enigma2-plugin-softcams-ultracam-oscam_11991-emu-r802_all.ipk",
-      "size": 985442,
-      "download_url": "https://github.com/KhaledAli65/emu/releases/download/Emu/enigma2-plugin-softcams-ultracam-oscam_11991-emu-r802_all.ipk",
-      "release_url": "https://github.com/KhaledAli65/emu/releases/tag/Emu",
-      "published_at": "2026-07-20T05:20:01Z",
-      "type": "plugin_package",
-      "status": "metadata_and_architecture_review_required"
-    },
-    {
       "repository": "KhaledAli65/skins",
       "release": "",
       "asset": "malek.ipk",
@@ -3715,6 +3627,17 @@
       "asset": "PANEL-MagicPanelMax.sh",
       "size": 14402,
       "download_url": "https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-MagicPanelMax.sh",
+      "release_url": "https://github.com/KhaledAli65/Channels/releases/tag/Panelscript",
+      "published_at": "2026-09-18T03:15:21Z",
+      "type": "script",
+      "status": "manual_security_review_never_execute"
+    },
+    {
+      "repository": "KhaledAli65/Channels",
+      "release": "Panelscript",
+      "asset": "PANEL-RomehPanel.sh",
+      "size": 2193,
+      "download_url": "https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-RomehPanel.sh",
       "release_url": "https://github.com/KhaledAli65/Channels/releases/tag/Panelscript",
       "published_at": "2026-09-18T03:15:21Z",
       "type": "script",
@@ -6088,17 +6011,6 @@
     {
       "repository": "KhaledAli65/picons",
       "release": "",
-      "asset": "backup-pro.txt",
-      "size": 3314,
-      "download_url": "https://raw.githubusercontent.com/KhaledAli65/picons/main/backup-pro.txt",
-      "release_url": "",
-      "published_at": "",
-      "type": "text_or_command",
-      "status": "manual_content_review_never_execute"
-    },
-    {
-      "repository": "KhaledAli65/picons",
-      "release": "",
       "asset": "README.md",
       "size": 8,
       "download_url": "https://raw.githubusercontent.com/KhaledAli65/picons/main/README.md",
@@ -6135,6 +6047,17 @@
       "asset": "README.md",
       "size": 8,
       "download_url": "https://raw.githubusercontent.com/KhaledAli65/skins/main/README.md",
+      "release_url": "",
+      "published_at": "",
+      "type": "text_or_command",
+      "status": "manual_content_review_never_execute"
+    },
+    {
+      "repository": "KhaledAli65/Slot",
+      "release": "",
+      "asset": "backup-pro.txt",
+      "size": 3314,
+      "download_url": "https://raw.githubusercontent.com/KhaledAli65/Slot/main/backup-pro.txt",
       "release_url": "",
       "published_at": "",
       "type": "text_or_command",
