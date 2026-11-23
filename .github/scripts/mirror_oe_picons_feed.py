@@ -112,6 +112,7 @@ def main():
         previous=[]
     previous_by_path={x.get('sourcePath'):x for x in previous if x.get('sourcePath')}
     rows=[]
+    skipped=[]
     with tempfile.TemporaryDirectory(prefix='o4t-picons-') as td:
         root=Path(td)
         for i,(filename,up_fields) in enumerate(package_rows):
@@ -127,10 +128,14 @@ def main():
             size=fetch_raw(tree_item['path'],p,int(tree_item.get('size') or 0))
             meta=ipkmod.control_fields(p)
             if meta['Package']!=up_fields.get('Package') or meta['Version']!=up_fields.get('Version'):
-                raise RuntimeError('بيانات IPK لا تطابق Packages: '+filename)
+                print(f"WARNING: skipping IPK whose control data differs from Packages: {filename} (ipk Package={meta['Package']} Version={meta['Version']}; Packages Package={up_fields.get('Package')} Version={up_fields.get('Version')})", flush=True)
+                skipped.append(filename)
+                continue
             md5=hashlib.md5(p.read_bytes()).hexdigest(); sha=hashlib.sha256(p.read_bytes()).hexdigest()
             if int(up_fields.get('Size','0'))!=size or up_fields.get('MD5Sum','').lower()!=md5:
-                raise RuntimeError('فشل مطابقة Size/MD5Sum: '+filename)
+                print(f"WARNING: skipping IPK whose Size/MD5Sum differ from Packages: {filename}", flush=True)
+                skipped.append(filename)
+                continue
             own,assets=upload(p,Path(filename).name,sha,size,assets)
             rows.append({'sourcePath':tree_item['path'],'sourceBlobSha':tree_item.get('sha'),'filename':Path(filename).name,'package':meta['Package'],'version':meta['Version'],'architecture':meta['Architecture'],'size':size,'md5':md5,'sha256':sha,'downloadUrl':own})
     # Preserve the upstream package metadata and relative filenames; release assets share one feed base.
@@ -154,9 +159,10 @@ def main():
         item['sourceUrl']=release_page; item['repoUrl']=release_page; item['detailUrl']=release_page
         item['sourceRepo']=SOURCE; item['feedPackagesCount']=len(ipks); item['feedMirroredAt']=datetime.utcnow().isoformat(timespec='seconds')+'Z'
     CATALOG.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    manifest={'generatedAt':datetime.utcnow().isoformat(timespec='seconds')+'Z','source':f'https://github.com/{SOURCE}/tree/{BRANCH}','feedBase':BASE,'packages':rows}
+    manifest={'generatedAt':datetime.utcnow().isoformat(timespec='seconds')+'Z','source':f'https://github.com/{SOURCE}/tree/{BRANCH}','feedBase':BASE,'packages':rows,'skippedPackages':skipped}
     MANIFEST.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    lines=['# Online4Tech Picons Feed Mirror','',f'- حزم IPK المنقولة: {len(ipks)}',f'- إجمالي ملفات Release مع الفهرس: {len(rows)}',f'- حجم ملفات IPK: {sum(x["size"] for x in rows if x["filename"].lower().endswith(".ipk"))} bytes',f'- Feed URL: {BASE}','','> تم التحقق من بيانات Package وVersion وArchitecture ومطابقة Size وMD5Sum لكل حزمة. لم يتم تشغيل أي ملف.','','| الحزمة | الإصدار | المعمارية | رابط Online4Tech |','|---|---|---|---|']
+    lines=['# Online4Tech Picons Feed Mirror','',f'- حزم IPK المنقولة: {len(ipks)}',f'- حزم تم تخطيها لعدم مطابقة بيانات Packages: {len(skipped)}',f'- إجمالي ملفات Release مع الفهرس: {len(rows)}',f'- حجم ملفات IPK: {sum(x["size"] for x in rows if x["filename"].lower().endswith(".ipk"))} bytes',f'- Feed URL: {BASE}','','> تم التحقق من بيانات Package وVersion وArchitecture ومطابقة Size وMD5Sum لكل حزمة منقولة. الحزم التي لم تطابق بيانات Packages تم تخطيها وتسجيلها في التقرير. لم يتم تشغيل أي ملف.','','| الحزمة | الإصدار | المعمارية | رابط Online4Tech |','|---|---|---|---|']
+    if skipped: lines += ['', '## حزم تم تخطيها'] + [f'- {x}' for x in skipped]
     for x in rows:
         if x['filename'].lower().endswith('.ipk'): lines.append(f"| {x['package']} | {x['version']} | {x['architecture']} | [تحميل]({x['downloadUrl']}) |")
     REPORT.parent.mkdir(parents=True,exist_ok=True); REPORT.write_text('\n'.join(lines)+'\n',encoding='utf-8')
