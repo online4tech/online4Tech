@@ -24,7 +24,7 @@ jobs:
     timeout-minutes: 90
     steps:
       - name: Checkout website repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Switch to main branch for commits
         shell: bash
@@ -33,7 +33,7 @@ jobs:
           git checkout -B main origin/main
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -74,7 +74,7 @@ jobs:
 
       - name: Upload import report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: khaledali65-verified-import-report
           path: monitoring/KHALEDALI65-VERIFIED-IMPORT.md
