@@ -1,6 +1,6 @@
 # تقرير مراقبة مستودعات KhaledAli65
 
-- آخر فحص: 2026-11-22T20:04:14.683241+00:00
+- آخر فحص: 2026-11-23T10:51:32.671596+00:00
 - المستودعات العامة المفحوصة: 11
 - الملفات المطابقة في الإصدارات: 812
 - أخطاء الفحص: 0
@@ -465,7 +465,6 @@
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | [Zero4k](https://github.com/KhaledAli65/novaler/releases/tag/Zero4k) | [openvix-6.9.003-vuzero4k_03112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/openvix-6.9.003-vuzero4k_03112026.zip) | 254,121,239 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | [Zero4k](https://github.com/KhaledAli65/novaler/releases/tag/Zero4k) | [PurE2-7.6-vuzero4k_03112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/PurE2-7.6-vuzero4k_03112026.zip) | 255,023,176 bytes |
 | [KhaledAli65/picon](https://github.com/KhaledAli65/picon) | []() | [README.md](https://raw.githubusercontent.com/KhaledAli65/picon/main/README.md) | 14 bytes |
-| [KhaledAli65/picons](https://github.com/KhaledAli65/picons) | []() | [backup-pro.txt](https://raw.githubusercontent.com/KhaledAli65/picons/main/backup-pro.txt) | 3,314 bytes |
 | [KhaledAli65/picons](https://github.com/KhaledAli65/picons) | []() | [openpicon.ipk](https://raw.githubusercontent.com/KhaledAli65/picons/main/openpicon.ipk) | 14,012,866 bytes |
 | [KhaledAli65/picons](https://github.com/KhaledAli65/picons) | []() | [picon.tar.gz](https://raw.githubusercontent.com/KhaledAli65/picons/main/picon.tar.gz) | 21,077,645 bytes |
 | [KhaledAli65/picons](https://github.com/KhaledAli65/picons) | []() | [piconCrypt.tar.gz](https://raw.githubusercontent.com/KhaledAli65/picons/main/piconCrypt.tar.gz) | 460,581 bytes |
@@ -707,6 +706,7 @@
 | [KhaledAli65/skins](https://github.com/KhaledAli65/skins) | [Enigma2](https://github.com/KhaledAli65/skins/releases/tag/Enigma2) | [WAR.tar.gz](https://github.com/KhaledAli65/skins/releases/download/Enigma2/WAR.tar.gz) | 12,108,202 bytes |
 | [KhaledAli65/skins](https://github.com/KhaledAli65/skins) | [Enigma2](https://github.com/KhaledAli65/skins/releases/tag/Enigma2) | [xDreamy.ipk](https://github.com/KhaledAli65/skins/releases/download/Enigma2/xDreamy.ipk) | 21,364,720 bytes |
 | [KhaledAli65/skins](https://github.com/KhaledAli65/skins) | [Enigma2](https://github.com/KhaledAli65/skins/releases/tag/Enigma2) | [Youchie.ipk](https://github.com/KhaledAli65/skins/releases/download/Enigma2/Youchie.ipk) | 25,458,420 bytes |
+| [KhaledAli65/Slot](https://github.com/KhaledAli65/Slot) | []() | [backup-pro.txt](https://raw.githubusercontent.com/KhaledAli65/Slot/main/backup-pro.txt) | 3,314 bytes |
 | [KhaledAli65/Slot](https://github.com/KhaledAli65/Slot) | []() | [e2multiboot_engine.sh](https://raw.githubusercontent.com/KhaledAli65/Slot/main/e2multiboot_engine.sh) | 2,540 bytes |
 | [KhaledAli65/Slot](https://github.com/KhaledAli65/Slot) | []() | [install-feed.sh](https://raw.githubusercontent.com/KhaledAli65/Slot/main/install-feed.sh) | 1,537 bytes |
 | [KhaledAli65/Slot](https://github.com/KhaledAli65/Slot) | []() | [README.md](https://raw.githubusercontent.com/KhaledAli65/Slot/main/README.md) | 14 bytes |
