@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: online4tech-main-push
+  group: mirror-scripts
   cancel-in-progress: false
 
 jobs:
