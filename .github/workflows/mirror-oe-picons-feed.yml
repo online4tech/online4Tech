@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: online4tech-main-push
+  group: mirror-picons-feed
   cancel-in-progress: false
 
 jobs:
