@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: online4tech-main-push
+  group: khaledali65-release-monitor
   cancel-in-progress: false
 
 jobs:
