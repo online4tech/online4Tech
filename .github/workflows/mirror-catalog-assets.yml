@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: online4tech-catalog-assets
+  group: online4tech-main-push
   cancel-in-progress: false
 
 jobs:
@@ -40,14 +40,23 @@ jobs:
             assets/allblugin/demo-data.json
             monitoring
           sparse-checkout-cone-mode: false
+
+      - name: Switch to main branch for commits
+        shell: bash
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Mirror direct catalog assets and validate files
         env:
           GH_TOKEN: ${{ github.token }}
         run: python .github/scripts/mirror_catalog_assets.py
+
       - name: Merge and publish Online4Tech catalog links
         shell: bash
         run: |
@@ -55,8 +64,6 @@ jobs:
           cp assets/allblugin/demo-data.json /tmp/online4tech-local-catalog.json
           cp monitoring/catalog-assets-mirror-manifest.json /tmp/online4tech-catalog-assets-manifest.json
           cp monitoring/CATALOG-ASSETS-MIRROR.md /tmp/online4tech-catalog-assets-report.md
-          git fetch origin "${GITHUB_REF_NAME}"
-          git reset --hard "origin/${GITHUB_REF_NAME}"
           python3 .github/scripts/merge_catalog_changes.py /tmp/online4tech-local-catalog.json assets/allblugin/demo-data.json
           cp /tmp/online4tech-catalog-assets-manifest.json monitoring/catalog-assets-mirror-manifest.json
           cp /tmp/online4tech-catalog-assets-report.md monitoring/CATALOG-ASSETS-MIRROR.md
@@ -67,8 +74,21 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "Mirror catalog downloads under Online4Tech links"
-            git push
+            pushed=false
+            for attempt in 1 2 3 4 5; do
+              if git pull --rebase origin main && git push; then
+                pushed=true
+                break
+              fi
+              echo "Push attempt $attempt failed; retrying in 10s..."
+              sleep 10
+            done
+            if [ "$pushed" = false ]; then
+              echo "Failed to push after 5 attempts."
+              exit 1
+            fi
           fi
+
       - name: Upload catalog mirror report
         if: always()
         uses: actions/upload-artifact@v4
