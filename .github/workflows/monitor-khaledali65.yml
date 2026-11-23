@@ -162,10 +162,10 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "Update KhaledAli65 release monitoring report"
-          pushed=false
-          for attempt in 1 2 3 4 5; do
-            if git pull --rebase origin main && git push; then
-              pushed=true
+            pushed=false
+            for attempt in 1 2 3 4 5; do
+              if git pull --rebase origin main && git push; then
+                pushed=true
                 break
               fi
               echo "Push attempt $attempt failed; retrying in 10s..."
@@ -175,10 +175,10 @@ jobs:
               echo "Failed to push after 5 attempts."
               exit 1
             fi
-            fi
-            
-        - name: Upload scan report
-          uses: actions/upload-artifact@v4
+          fi
+
+      - name: Upload scan report
+        uses: actions/upload-artifact@v4
         with:
           name: khaledali65-monitoring-report
           path: monitoring/
