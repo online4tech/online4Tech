@@ -20,7 +20,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: online4tech-main-push
+  group: mirror-ipaudiopro
   cancel-in-progress: false
 
 jobs:
