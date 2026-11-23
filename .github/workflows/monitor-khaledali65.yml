@@ -166,19 +166,19 @@ jobs:
           for attempt in 1 2 3 4 5; do
             if git pull --rebase origin main && git push; then
               pushed=true
-              break
+                break
+              fi
+              echo "Push attempt $attempt failed; retrying in 10s..."
+              sleep 10
+            done
+            if [ "$pushed" = false ]; then
+              echo "Failed to push after 5 attempts."
+              exit 1
             fi
-            echo "Push attempt $attempt failed; retrying in 10s..."
-            sleep 10
-          done
-          if [ "$pushed" = false ]; then
-            echo "Failed to push after 5 attempts."
-            exit 1
-          fi
-          fi
-          
-      - name: Upload scan report
-        uses: actions/upload-artifact@v4
+            fi
+            
+        - name: Upload scan report
+          uses: actions/upload-artifact@v4
         with:
           name: khaledali65-monitoring-report
           path: monitoring/
