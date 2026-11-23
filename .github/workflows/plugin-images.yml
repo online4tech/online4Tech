@@ -120,12 +120,13 @@ jobs:
           fi
           git add data/image-report.json
           git commit -m "feat(images): automatic GitHub plugin image discovery and gallery system"
-          for attempt in 1 2 3; do
+          for attempt in 1 2 3 4 5; do
             if git pull --rebase origin main && git push origin HEAD:main; then trap - ERR; exit 0; fi
-            sleep 3
+            if [ "$attempt" -eq 5 ]; then
+              exit 1
+            fi
+            sleep 10
           done
-          echo "Push failed after retries."
-          exit 1
       - name: Upload image report and rollback catalog
         if: always()
         uses: actions/upload-artifact@v7
