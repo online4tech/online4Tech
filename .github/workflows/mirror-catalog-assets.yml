@@ -18,7 +18,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: online4tech-main-push
+  group: mirror-catalog-assets
   cancel-in-progress: false
 
 jobs:
