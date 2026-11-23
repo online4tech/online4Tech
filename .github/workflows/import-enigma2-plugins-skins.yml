@@ -102,11 +102,11 @@ jobs:
           fi
           git commit -m "Import Enigma2 plugin IPKs and skins"
           for attempt in 1 2 3 4 5; do
-                      if git pull --rebase origin main && git push origin HEAD:main; then
-                                    break
-                                                fi
-                                                            if [ "$attempt" -eq 5 ]; then
-                                                                          exit 1
-                                                                                      fi
-                                                                                                  sleep 10
-                                                                                                            done
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              break
+            fi
+            if [ "$attempt" -eq 5 ]; then
+              exit 1
+            fi
+            sleep 10
+          done
