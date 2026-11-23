@@ -1,8 +1,8 @@
 # تقرير نقل سكريبتات وأوامر Telnet إلى Online4Tech
 
-- الملفات الجديدة المنقولة في هذه الجولة: 0
+- الملفات الجديدة المنقولة في هذه الجولة: 1
 - الملفات المرفوضة: 0
-- إجمالي الملفات في الفهرس: 332
+- إجمالي الملفات في الفهرس: 333
 
 > تم نقل الملفات النصية فقط. لم يتم تشغيل أي سكريبت. كل عنصر يظل للمراجعة اليدوية قبل إتاحته كأمر تثبيت أو تحديث.
 
@@ -338,5 +338,6 @@
 | KhaledAli65/plugins | build_khaled_feed.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/bdeb492b403f-plugins-build_khaled_feed.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/plugins | tar_list.txt | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/2c76a7be8070-plugins-tar_list.txt) | مراجعة يدوية مطلوبة |
 | KhaledAli65/skins | SKIN-MohammedSkin.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e4893b6a6347-skins-SKIN-MohammedSkin.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Slot | backup-pro.txt | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/17540b16493a-Slot-backup-pro.txt) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Slot | e2multiboot_engine.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/decb8fd7282c-Slot-e2multiboot_engine.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Slot | install-feed.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/17161fc29bc9-Slot-install-feed.sh) | مراجعة يدوية مطلوبة |

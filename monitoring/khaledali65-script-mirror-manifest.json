@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T20:05:30Z",
+  "generatedAt": "2026-11-23T10:52:09Z",
   "policy": "manual review only; never execute automatically",
   "files": [
     {
@@ -3320,6 +3320,16 @@
       "digest": "sha256:37f70f57fef698b525d9d431fb143a42f43eb637719ebb03498e65c957cf0677",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/37f70f57fef6-Channels-PANEL-RomehPanel.sh",
       "mirroredAt": "2026-11-22T20:04:55Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://raw.githubusercontent.com/KhaledAli65/Slot/main/backup-pro.txt",
+      "repository": "KhaledAli65/Slot",
+      "sourceAssetName": "backup-pro.txt",
+      "size": 3314,
+      "digest": "sha256:17540b16493ae7570202f8eb7f1d7a6a326cabed2ceab9899fb81fffa1e0d175",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/17540b16493a-Slot-backup-pro.txt",
+      "mirroredAt": "2026-11-23T10:52:09Z",
       "reviewStatus": "manual_review_never_execute"
     }
   ]
