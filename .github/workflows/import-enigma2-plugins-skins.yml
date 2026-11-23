@@ -10,8 +10,8 @@ on:
 
 permissions:
   contents: write
-  concurrency:
-    group: import-enigma2-plugins-skins
+concurrency:
+  group: import-enigma2-plugins-skins
   cancel-in-progress: false
 
 jobs:
