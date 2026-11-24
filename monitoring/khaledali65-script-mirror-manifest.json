@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T16:45:36Z",
+  "generatedAt": "2026-11-24T12:30:39Z",
   "policy": "manual review only; never execute automatically",
   "files": [
     {
@@ -3330,6 +3330,16 @@
       "digest": "sha256:17540b16493ae7570202f8eb7f1d7a6a326cabed2ceab9899fb81fffa1e0d175",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/17540b16493a-Slot-backup-pro.txt",
       "mirroredAt": "2026-11-23T10:52:09Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Emuscript/EMU-oscam_subcam.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "EMU-oscam_subcam.sh",
+      "size": 2633,
+      "digest": "sha256:f2340afe6cd86073c1da933311eca9f979466209af0e6a884efcc564b96b1200",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f2340afe6cd8-Channels-EMU-oscam_subcam.sh",
+      "mirroredAt": "2026-11-24T12:30:39Z",
       "reviewStatus": "manual_review_never_execute"
     }
   ]

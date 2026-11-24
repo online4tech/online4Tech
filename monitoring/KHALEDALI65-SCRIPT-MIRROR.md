@@ -1,8 +1,8 @@
 # تقرير نقل سكريبتات وأوامر Telnet إلى Online4Tech
 
-- الملفات الجديدة المنقولة في هذه الجولة: 0
+- الملفات الجديدة المنقولة في هذه الجولة: 1
 - الملفات المرفوضة: 0
-- إجمالي الملفات في الفهرس: 333
+- إجمالي الملفات في الفهرس: 334
 
 > تم نقل الملفات النصية فقط. لم يتم تشغيل أي سكريبت. كل عنصر يظل للمراجعة اليدوية قبل إتاحته كأمر تثبيت أو تحديث.
 
@@ -92,6 +92,7 @@
 | KhaledAli65/Channels | EMU-oscam_icam.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/e2e84f304c02-Channels-EMU-oscam_icam.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | EMU-oscam_powercam.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4ca08ab7b471-Channels-EMU-oscam_powercam.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | EMU-oscam_revcam.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c74fd450dfbc-Channels-EMU-oscam_revcam.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | EMU-oscam_subcam.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f2340afe6cd8-Channels-EMU-oscam_subcam.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | EMU-oscam_supcam.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/5fc6825946bc-Channels-EMU-oscam_supcam.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | EMU-oscam_ultracam.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4af208b3d648-Channels-EMU-oscam_ultracam.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | EMU-powercam.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/51e175074365-Channels-EMU-powercam.sh) | مراجعة يدوية مطلوبة |
