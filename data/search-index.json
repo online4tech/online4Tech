@@ -1842,14 +1842,6 @@
     "type": "Plugin"
   },
   {
-    "title": "عن الموقع",
-    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
-    "url": "https://online4tech.github.io/online4Tech/backups/about.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "كل الإضافات",
     "description": "مركز إضافات Enigma2 من Online4Tech. ابحث وصفّي وقارن الإضافات واعرف التوافق والتنزيلات من مكان واحد.",
     "url": "https://online4tech.github.io/online4Tech/plugins/index.html",
@@ -1935,14 +1927,6 @@
     "url": "https://online4tech.github.io/online4Tech/library.html",
     "category": "إضافات",
     "brand": "Online4Tech",
-    "type": "Plugin"
-  },
-  {
-    "title": "مكتبة التحميل",
-    "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
-    "url": "https://online4tech.github.io/online4Tech/backups/library.html",
-    "category": "إضافات",
-    "brand": "Enigma2",
     "type": "Plugin"
   },
   {
