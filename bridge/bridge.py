@@ -141,6 +141,13 @@ def connect_client(host, port, username, password):
     except paramiko.AuthenticationException:
         client.close()
         raise ValueError("اسم المستخدم أو كلمة المرور غلط.")
+    # AutoAddPolicy keeps the new fingerprint in memory only; persist it so the
+    # next connection actually verifies the receiver instead of trusting blindly.
+    try:
+        client.save_host_keys(KNOWN_HOSTS)
+    except Exception as exc:
+        client.close()
+        raise RuntimeError("تعذر حفظ بصمة مفتاح الرسيفر: %s" % exc)
     transport = client.get_transport()
     if transport:
         transport.set_keepalive(20)

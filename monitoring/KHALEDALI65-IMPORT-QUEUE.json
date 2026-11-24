@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-24T12:30:39.368037+00:00",
+  "generated_at": "2026-11-24T22:25:43.556603+00:00",
   "source_scan_at": "2026-11-24T12:30:07.865840+00:00",
-  "total_new_candidates": 545,
+  "total_new_candidates": 538,
   "summary": {
     "manual_model_review": 195,
-    "model_matched_needs_archive_validation": 13,
+    "model_matched_needs_archive_validation": 6,
     "metadata_and_architecture_review_required": 3,
     "manual_security_review_never_execute": 315,
     "manual_content_review_never_execute": 19
@@ -107,34 +107,6 @@
     },
     {
       "repository": "KhaledAli65/books",
-      "release": "Novalerpro",
-      "asset": "01_OpenPLi-wrynose-multiboxpro_24112026.zip",
-      "size": 222853714,
-      "download_url": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/01_OpenPLi-wrynose-multiboxpro_24112026.zip",
-      "release_url": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
-      "published_at": "2026-03-24T06:28:37Z",
-      "type": "backup",
-      "status": "model_matched_needs_archive_validation",
-      "subcategory": "novaler-pro",
-      "model": "Novaler Pro",
-      "group": "Novaler"
-    },
-    {
-      "repository": "KhaledAli65/books",
-      "release": "Novalerpro",
-      "asset": "02_OpenATV-8.1.0_beta-multiboxpro_21112026.zip",
-      "size": 297562418,
-      "download_url": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/02_OpenATV-8.1.0_beta-multiboxpro_21112026.zip",
-      "release_url": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
-      "published_at": "2026-03-24T06:28:37Z",
-      "type": "backup",
-      "status": "model_matched_needs_archive_validation",
-      "subcategory": "novaler-pro",
-      "model": "Novaler Pro",
-      "group": "Novaler"
-    },
-    {
-      "repository": "KhaledAli65/books",
       "release": "Vuduo4kse",
       "asset": "02_openvix-6.9.006-vuduo4kse_13112026.zip",
       "size": 257421662,
@@ -163,20 +135,6 @@
     },
     {
       "repository": "KhaledAli65/books",
-      "release": "Novalerpro",
-      "asset": "03_PurE2-7.6-multiboxpro_21112026.zip",
-      "size": 315909206,
-      "download_url": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/03_PurE2-7.6-multiboxpro_21112026.zip",
-      "release_url": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
-      "published_at": "2026-03-24T06:28:37Z",
-      "type": "backup",
-      "status": "model_matched_needs_archive_validation",
-      "subcategory": "novaler-pro",
-      "model": "Novaler Pro",
-      "group": "Novaler"
-    },
-    {
-      "repository": "KhaledAli65/books",
       "release": "Vuduo4kse",
       "asset": "04_egami-11.0-r23-vuduo4kse-02112026.zip",
       "size": 259803031,
@@ -188,20 +146,6 @@
       "subcategory": "vu-duo4kse",
       "model": "Vu+ Duo 4K SE",
       "group": "Vu+"
-    },
-    {
-      "repository": "KhaledAli65/books",
-      "release": "Novalerpro",
-      "asset": "04_OpenATV-8.0.1-multiboxpro_20112026.zip",
-      "size": 316942952,
-      "download_url": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/04_OpenATV-8.0.1-multiboxpro_20112026.zip",
-      "release_url": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
-      "published_at": "2026-03-24T06:28:37Z",
-      "type": "backup",
-      "status": "model_matched_needs_archive_validation",
-      "subcategory": "novaler-pro",
-      "model": "Novaler Pro",
-      "group": "Novaler"
     },
     {
       "repository": "KhaledAli65/books",
@@ -219,34 +163,6 @@
     },
     {
       "repository": "KhaledAli65/books",
-      "release": "Novalerpro",
-      "asset": "05_OpenSPA-8.7-multiboxpro_20112026.zip",
-      "size": 301141032,
-      "download_url": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/05_OpenSPA-8.7-multiboxpro_20112026.zip",
-      "release_url": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
-      "published_at": "2026-03-24T06:28:37Z",
-      "type": "backup",
-      "status": "model_matched_needs_archive_validation",
-      "subcategory": "novaler-pro",
-      "model": "Novaler Pro",
-      "group": "Novaler"
-    },
-    {
-      "repository": "KhaledAli65/books",
-      "release": "Novalerpro",
-      "asset": "06_EGAMI-11.0-multiboxpro_10112026.zip",
-      "size": 251271032,
-      "download_url": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/06_EGAMI-11.0-multiboxpro_10112026.zip",
-      "release_url": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
-      "published_at": "2026-03-24T06:28:37Z",
-      "type": "backup",
-      "status": "model_matched_needs_archive_validation",
-      "subcategory": "novaler-pro",
-      "model": "Novaler Pro",
-      "group": "Novaler"
-    },
-    {
-      "repository": "KhaledAli65/books",
       "release": "Vuduo4kse",
       "asset": "06_openbh-6.0.005-vuduo4kse-02112026.zip",
       "size": 221222283,
@@ -258,20 +174,6 @@
       "subcategory": "vu-duo4kse",
       "model": "Vu+ Duo 4K SE",
       "group": "Vu+"
-    },
-    {
-      "repository": "KhaledAli65/books",
-      "release": "Novalerpro",
-      "asset": "07_openHDF-8.0-multiboxpro_09112026.zip",
-      "size": 226095129,
-      "download_url": "https://github.com/KhaledAli65/books/releases/download/Novalerpro/07_openHDF-8.0-multiboxpro_09112026.zip",
-      "release_url": "https://github.com/KhaledAli65/books/releases/tag/Novalerpro",
-      "published_at": "2026-03-24T06:28:37Z",
-      "type": "backup",
-      "status": "model_matched_needs_archive_validation",
-      "subcategory": "novaler-pro",
-      "model": "Novaler Pro",
-      "group": "Novaler"
     },
     {
       "repository": "KhaledAli65/books",
@@ -6052,4 +5954,4 @@
       "status": "manual_content_review_never_execute"
     }
   ]
-}\n
+}

@@ -154,7 +154,7 @@ jobs:
               "candidates": queue
           }
           Path("monitoring/KHALEDALI65-IMPORT-QUEUE.json").write_text(
-              json.dumps(result, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8"
+              json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
           )
 
           lines = [
@@ -176,7 +176,7 @@ jobs:
           for x in queue:
               model = x.get("model", "غير محدد")
               lines.append(f"| {x['type']} | {x['status']} | [{x['asset']}]({x['download_url']}) | {model} | {x['size']:,} bytes | {x['repository']} |")
-          Path("monitoring/KHALEDALI65-IMPORT-QUEUE.md").write_text("\\n".join(lines) + "\\n", encoding="utf-8")
+          Path("monitoring/KHALEDALI65-IMPORT-QUEUE.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
           print(f"Prepared {len(queue)} new candidates; no website catalog items were published.")
           PY
 
