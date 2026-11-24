@@ -22,7 +22,8 @@
       return '<article class="card release-plugin-card"><a href="'+esc(x.url)+'" target="_blank" rel="noopener noreferrer" aria-label="تحميل '+esc(x.title)+'">'+(logo?'<img class="preview" src="'+esc(logo)+'" alt="لوجو '+esc(x.title)+'" loading="lazy" onerror="this.style.display=\'none\'">':'')+'</a><div class="symbol">🧩</div><h2>'+esc(x.title)+'</h2><p class="file-name" dir="ltr">'+esc(x.name)+'</p><p>'+esc(x.description)+'</p>'+(meta?'<p class="research-meta">'+esc(meta)+'</p>':'')+(detail?'<p class="research-note">'+esc(detail)+'</p>':'')+'<div class="tags">'+x.tags.map(t=>'<span>'+esc(t)+'</span>').join('')+'<span>'+sizeText(x)+'</span></div><div class="actions"><a class="btn primary" href="'+esc(x.url)+'" download>⬇ تحميل مباشر</a><button class="copy btn" type="button" data-plugin-copy="'+esc(x.id)+'">نسخ الأمر</button></div><div class="command" aria-hidden="true"><code>'+esc(x.command)+'</code></div></article>';
     }).join('');
   }
-  fetch('/online4Tech/data/enigma2-plugins-store.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(d=>{items=d.items||[];render();}).catch(e=>{count.textContent='تعذر تحميل فهرس البلجنات. حدّث الصفحة بعد اكتمال نشر الموقع.';grid.innerHTML='<p class="note">'+esc(e.message)+'</p>';});
+  const dataUrl=new URL('../data/enigma2-plugins-store.json',(document.currentScript&&document.currentScript.src)||location.href).href;
+  fetch(dataUrl,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(d=>{items=d.items||[];render();}).catch(e=>{count.textContent='تعذر تحميل فهرس البلجنات. حدّث الصفحة بعد اكتمال نشر الموقع.';grid.innerHTML='<p class="note">'+esc(e.message)+'</p>';});
   search.addEventListener('input',render);filter.addEventListener('change',render);
   root.addEventListener('click',function(e){
     const b=e.target.closest('[data-plugin-copy]');

@@ -21,7 +21,8 @@
       return '<article class="card release-skin-card"'+(images.length?' data-gallery-images="'+esc(JSON.stringify(images))+'"':'')+'><div class="symbol">'+(x.format==='ipk'?'🎨':x.format==='tar.gz'?'🗂️':'🛠️')+'</div><h2>'+esc(x.title)+'</h2><p class="file-name" dir="ltr">'+esc(x.name)+'</p><p>'+esc(x.description)+'</p>'+(research.designer?'<p class="research-meta">المصمم: '+esc(research.designer)+(research.resolution?' · '+esc(research.resolution):'')+'</p>':'')+(detail?'<p class="research-note">'+esc(detail)+'</p>':'')+'<div class="tags">'+x.tags.map(t=>'<span>'+esc(t)+'</span>').join('')+'<span>'+((x.size/1048576).toFixed(1))+' MB</span></div><div class="actions"><a class="btn primary" href="'+esc(x.url)+'" download>⬇ تحميل مباشر</a><button class="copy btn" type="button" data-skin-copy="'+esc(x.id)+'">نسخ الأمر</button></div><div class="command" aria-hidden="true"><code>'+esc(x.command)+'</code></div></article>';
     }).join('');
   }
-  fetch('/online4Tech/data/enigma2-skins-release.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(d=>{items=d.items||[];render();}).catch(e=>{count.textContent='تعذر تحميل فهرس الاسكينات. حدّث الصفحة بعد اكتمال نشر الموقع.';grid.innerHTML='<p class="note">'+esc(e.message)+'</p>';});
+  const dataUrl=new URL('../data/enigma2-skins-release.json',(document.currentScript&&document.currentScript.src)||location.href).href;
+  fetch(dataUrl,{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(d=>{items=d.items||[];render();}).catch(e=>{count.textContent='تعذر تحميل فهرس الاسكينات. حدّث الصفحة بعد اكتمال نشر الموقع.';grid.innerHTML='<p class="note">'+esc(e.message)+'</p>';});
   search.addEventListener('input',render);filter.addEventListener('change',render);
   root.addEventListener('click',function(e){
     const b=e.target.closest('[data-skin-copy]');

@@ -13,6 +13,7 @@
       if (repoIndex >= 0) {
         return '/' + segments.slice(0, repoIndex + 1).join('/') + '/';
       }
+      if (segments.length > 1 && segments[segments.length - 2].toLowerCase() === 'js') segments.pop();
       const withoutFile = segments.slice(0, -1);
       return withoutFile.length ? '/' + withoutFile.join('/') + '/' : '/';
     } catch (_) {
