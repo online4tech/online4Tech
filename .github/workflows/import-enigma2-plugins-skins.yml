@@ -42,7 +42,7 @@ jobs:
           src=/tmp/e2src/plugin-source
           while IFS= read -r -d '' pkg; do
             rel="${pkg#"$src"/}"
-            if [[ "$rel" =~ (softcam|cccam|oscam|cam|emulator|biss|iptv|xtream|stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]]; then
+            if [[ "$rel" =~ (stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]]; then
               continue
             fi
             dir="$(dirname "$pkg")"
@@ -61,7 +61,7 @@ jobs:
             cp -n "$pkg" "$dest/"
             for installer in "${installers[@]}"; do
               name="$(basename "$installer")"
-              [[ "$name" =~ (softcam|cccam|oscam|cam|emulator|biss|iptv|xtream|stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]] && continue
+              [[ "$name" =~ (stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]] && continue
               cp -n "$installer" "$dest/" || true
             done
           done < <(find "$src" -type f \( -iname '*.ipk' -o -iname '*.deb' -o -iname '*.tar.gz' \) -print0)
@@ -76,7 +76,7 @@ jobs:
             mkdir -p "$dest"
             while IFS= read -r -d '' file; do
               name="$(basename "$file")"
-              [[ "$name" =~ (softcam|cccam|oscam|cam|emulator|biss|iptv|xtream|stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]] && continue
+              [[ "$name" =~ (stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]] && continue
               case "$name" in
                 *.ipk|*.sh) cp -n "$file" "$dest/" || true ;;
                 *.tar.gz)
