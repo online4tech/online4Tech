@@ -42,9 +42,7 @@ jobs:
           src=/tmp/e2src/plugin-source
           while IFS= read -r -d '' pkg; do
             rel="${pkg#"$src"/}"
-            if [[ "$rel" =~ (stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]]; then
-              continue
-            fi
+            # No exclusion filter — owner allows all items (2026-11-24).
             dir="$(dirname "$pkg")"
             shopt -s nullglob
             installers=("$dir"/*.sh)
@@ -61,7 +59,6 @@ jobs:
             cp -n "$pkg" "$dest/"
             for installer in "${installers[@]}"; do
               name="$(basename "$installer")"
-              [[ "$name" =~ (stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]] && continue
               cp -n "$installer" "$dest/" || true
             done
           done < <(find "$src" -type f \( -iname '*.ipk' -o -iname '*.deb' -o -iname '*.tar.gz' \) -print0)
@@ -76,7 +73,6 @@ jobs:
             mkdir -p "$dest"
             while IFS= read -r -d '' file; do
               name="$(basename "$file")"
-              [[ "$name" =~ (stalker|free.server|reader|key.add|iptosat|autobiss|emu-installer|setpasswd) ]] && continue
               case "$name" in
                 *.ipk|*.sh) cp -n "$file" "$dest/" || true ;;
                 *.tar.gz)
