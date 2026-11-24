@@ -1938,14 +1938,6 @@
     "type": "Plugin"
   },
   {
-    "title": "مكتبة البلجن",
-    "description": "تفاصيل ومميزات وأمر تثبيت إضافات Enigma2 من مكتبة Online4Tech.",
-    "url": "https://online4tech.github.io/online4Tech/plugin-library/",
-    "category": "إضافات",
-    "brand": "Enigma2",
-    "type": "Plugin"
-  },
-  {
     "title": "مكتبة التحميل",
     "description": "مركز ONLINE4TECH للبلجنات والأدوات الخاصة بأجهزة Enigma2: استكشف الإضافات والتصنيفات وأوامر النظام والشبكة والنسخ الاحتياطية بسهولة.",
     "url": "https://online4tech.github.io/online4Tech/backups/library.html",
