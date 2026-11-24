@@ -1,8 +1,8 @@
 # تقرير استيراد ومزامنة النسخ الاحتياطية
 
-- وقت التنفيذ: 2026-11-23T16:45:30Z
-- النسخ الجديدة في هذه الجولة: 0
-- إجمالي النسخ المنشورة بروابط Online4Tech: 119
+- وقت التنفيذ: 2026-11-24T12:33:15Z
+- النسخ الجديدة في هذه الجولة: 7
+- إجمالي النسخ المنشورة بروابط Online4Tech: 126
 - المرفوضة أو غير المكتملة في هذه الجولة: 0
 
 > الروابط العامة تشير إلى ملفات مستضافة في مستودع Online4Tech. يتم فحص ZIP وCRC وSHA-256 للنسخ التي تمر عبر مستورد الباك أب.
@@ -130,3 +130,10 @@
 | 04_OpenBH-6.0-dm520-16112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/04_OpenBH-6.0-dm520-16112026.zip) | غير محدد |
 | 05_OpenVix-6.9-dm520-16112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/05_OpenVix-6.9-dm520-16112026.zip) | غير محدد |
 | 06_TSimage-13.0-dm520-17112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/o4t-dm520-dm525-backups-20261121/06_TSimage-13.0-dm520-17112026.zip) | غير محدد |
+| 01_OpenPLi-wrynose-multiboxpro_24112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/084a60800045-01_OpenPLi-wrynose-multiboxpro_24112026.zip) | Novaler Pro فقط |
+| 02_OpenATV-8.1.0_beta-multiboxpro_21112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/6fba255c349b-02_OpenATV-8.1.0_beta-multiboxpro_21112026.zip) | Novaler Pro فقط |
+| 03_PurE2-7.6-multiboxpro_21112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/959ccbffb7cf-03_PurE2-7.6-multiboxpro_21112026.zip) | Novaler Pro فقط |
+| 04_OpenATV-8.0.1-multiboxpro_20112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/b56eb9f430b4-04_OpenATV-8.0.1-multiboxpro_20112026.zip) | Novaler Pro فقط |
+| 05_OpenSPA-8.7-multiboxpro_20112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/33e04c550aaa-05_OpenSPA-8.7-multiboxpro_20112026.zip) | Novaler Pro فقط |
+| 06_EGAMI-11.0-multiboxpro_10112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/35590dba2f77-06_EGAMI-11.0-multiboxpro_10112026.zip) | Novaler Pro فقط |
+| 07_openHDF-8.0-multiboxpro_09112026.zip | [تحميل من Online4Tech](https://github.com/online4tech/online4Tech/releases/download/online4tech-backups/162c73ea7a94-07_openHDF-8.0-multiboxpro_09112026.zip) | Novaler Pro فقط |
