@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-24T12:30:07.865840+00:00",
+  "generated_at": "2026-11-25T11:18:39.102372+00:00",
   "owner": "KhaledAli65",
   "repositories_scanned": 11,
-  "matching_release_assets": 801,
+  "matching_release_assets": 803,
   "assets": [
     {
       "repository": "KhaledAli65/Backup",
@@ -5108,7 +5108,7 @@
       "release_url": "https://github.com/KhaledAli65/emu/releases/tag/Emu",
       "published_at": "2026-07-20T05:20:01Z",
       "asset": "khaled_fullsat.tar.gz",
-      "size": 720458,
+      "size": 722366,
       "download_url": "https://github.com/KhaledAli65/emu/releases/download/Emu/khaled_fullsat.tar.gz",
       "content_type": "application/octet-stream",
       "source_type": "release_asset"
@@ -5262,7 +5262,7 @@
       "release_url": "",
       "published_at": "",
       "asset": "khaled_fullsat.tar.gz",
-      "size": 720458,
+      "size": 722366,
       "download_url": "https://raw.githubusercontent.com/KhaledAli65/novaler/main/khaled_fullsat.tar.gz",
       "content_type": "repository_file",
       "source_type": "repository_file",
@@ -5377,6 +5377,18 @@
       "release": "Zero4k",
       "release_url": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
       "published_at": "2026-08-07T08:32:43Z",
+      "asset": "egami-11.0-r23-vuzero4k-25112026.zip",
+      "size": 303366720,
+      "download_url": "https://github.com/KhaledAli65/novaler/releases/download/Zero4k/egami-11.0-r23-vuzero4k-25112026.zip",
+      "content_type": "application/octet-stream",
+      "source_type": "release_asset"
+    },
+    {
+      "repository": "KhaledAli65/novaler",
+      "repository_url": "https://github.com/KhaledAli65/novaler",
+      "release": "Zero4k",
+      "release_url": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "published_at": "2026-08-07T08:32:43Z",
       "asset": "openatv-8.0.1-vuzero4k-03112026.zip",
       "size": 251220439,
       "download_url": "https://github.com/KhaledAli65/novaler/releases/download/Zero4k/openatv-8.0.1-vuzero4k-03112026.zip",
@@ -5416,6 +5428,18 @@
       "asset": "PurE2-7.6-vuzero4k_03112026.zip",
       "size": 255023176,
       "download_url": "https://github.com/KhaledAli65/novaler/releases/download/Zero4k/PurE2-7.6-vuzero4k_03112026.zip",
+      "content_type": "application/octet-stream",
+      "source_type": "release_asset"
+    },
+    {
+      "repository": "KhaledAli65/novaler",
+      "repository_url": "https://github.com/KhaledAli65/novaler",
+      "release": "Zero4k",
+      "release_url": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "published_at": "2026-08-07T08:32:43Z",
+      "asset": "PurE2-7.6-vuzero4k_25112026.zip",
+      "size": 299809969,
+      "download_url": "https://github.com/KhaledAli65/novaler/releases/download/Zero4k/PurE2-7.6-vuzero4k_25112026.zip",
       "content_type": "application/octet-stream",
       "source_type": "release_asset"
     },

@@ -1,8 +1,8 @@
 # تقرير مراقبة مستودعات KhaledAli65
 
-- آخر فحص: 2026-11-24T12:30:07.865840+00:00
+- آخر فحص: 2026-11-25T11:18:39.102372+00:00
 - المستودعات العامة المفحوصة: 11
-- الملفات المطابقة في الإصدارات: 801
+- الملفات المطابقة في الإصدارات: 803
 - أخطاء الفحص: 0
 
 > هذا الفحص يرصد الملفات فقط. لا يتم تنفيذ ملفات SH أو أوامر Telnet، ولا تُنشر ملفات IPK أو الصور أو النسخ الاحتياطية تلقائيًا قبل فحص التوافق والتصنيف.
@@ -428,7 +428,7 @@
 | [KhaledAli65/emu](https://github.com/KhaledAli65/emu) | [Emu](https://github.com/KhaledAli65/emu/releases/tag/Emu) | [enigma2-plugin-softcams-ultracam-oscam_11991-emu-r802_all.ipk](https://github.com/KhaledAli65/emu/releases/download/Emu/enigma2-plugin-softcams-ultracam-oscam_11991-emu-r802_all.ipk) | 985,442 bytes |
 | [KhaledAli65/emu](https://github.com/KhaledAli65/emu) | [Emu](https://github.com/KhaledAli65/emu/releases/tag/Emu) | [enigma2-softcams-cccam.ipk](https://github.com/KhaledAli65/emu/releases/download/Emu/enigma2-softcams-cccam.ipk) | 1,412,832 bytes |
 | [KhaledAli65/emu](https://github.com/KhaledAli65/emu) | [Emu](https://github.com/KhaledAli65/emu/releases/tag/Emu) | [IPtoSAT.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/IPtoSAT.tar.gz) | 12,662 bytes |
-| [KhaledAli65/emu](https://github.com/KhaledAli65/emu) | [Emu](https://github.com/KhaledAli65/emu/releases/tag/Emu) | [khaled_fullsat.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/khaled_fullsat.tar.gz) | 720,458 bytes |
+| [KhaledAli65/emu](https://github.com/KhaledAli65/emu) | [Emu](https://github.com/KhaledAli65/emu/releases/tag/Emu) | [khaled_fullsat.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/khaled_fullsat.tar.gz) | 722,366 bytes |
 | [KhaledAli65/emu](https://github.com/KhaledAli65/emu) | [Emu](https://github.com/KhaledAli65/emu/releases/tag/Emu) | [picon.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/picon.tar.gz) | 23,439,567 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [channels.zip](https://raw.githubusercontent.com/KhaledAli65/novaler/main/channels.zip) | 379,047 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [Cloud_More_Panel.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/Cloud_More_Panel.tar.gz) | 13,022 bytes |
@@ -440,7 +440,7 @@
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [install.sh](https://raw.githubusercontent.com/KhaledAli65/novaler/main/install.sh) | 2,113 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [ipaudiopro.ipk](https://raw.githubusercontent.com/KhaledAli65/novaler/main/ipaudiopro.ipk) | 723,452 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [iptosat.json](https://raw.githubusercontent.com/KhaledAli65/novaler/main/iptosat.json) | 5,974 bytes |
-| [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [khaled_fullsat.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/khaled_fullsat.tar.gz) | 720,458 bytes |
+| [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [khaled_fullsat.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/khaled_fullsat.tar.gz) | 722,366 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [Khaled_inline_Backup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/Khaled_inline_Backup.tar.gz) | 11,810 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [KhaledUninstaller.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/KhaledUninstaller.tar.gz) | 11,702 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [metrix_poster.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/metrix_poster.tar.gz) | 394,837 bytes |
@@ -449,10 +449,12 @@
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [README.md](https://raw.githubusercontent.com/KhaledAli65/novaler/main/README.md) | 9 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [Vu_Backup_Downloader.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/Vu_Backup_Downloader.tar.gz) | 11,728 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | [Zero4k](https://github.com/KhaledAli65/novaler/releases/tag/Zero4k) | [egami-11.0-r23-vuzero4k-03112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/egami-11.0-r23-vuzero4k-03112026.zip) | 274,187,897 bytes |
+| [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | [Zero4k](https://github.com/KhaledAli65/novaler/releases/tag/Zero4k) | [egami-11.0-r23-vuzero4k-25112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/egami-11.0-r23-vuzero4k-25112026.zip) | 303,366,720 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | [Zero4k](https://github.com/KhaledAli65/novaler/releases/tag/Zero4k) | [openatv-8.0.1-vuzero4k-03112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/openatv-8.0.1-vuzero4k-03112026.zip) | 251,220,439 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | [Zero4k](https://github.com/KhaledAli65/novaler/releases/tag/Zero4k) | [openbh-6.0.005-vuzero4k-03112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/openbh-6.0.005-vuzero4k-03112026.zip) | 230,983,618 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | [Zero4k](https://github.com/KhaledAli65/novaler/releases/tag/Zero4k) | [openvix-6.9.003-vuzero4k_03112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/openvix-6.9.003-vuzero4k_03112026.zip) | 254,121,239 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | [Zero4k](https://github.com/KhaledAli65/novaler/releases/tag/Zero4k) | [PurE2-7.6-vuzero4k_03112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/PurE2-7.6-vuzero4k_03112026.zip) | 255,023,176 bytes |
+| [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | [Zero4k](https://github.com/KhaledAli65/novaler/releases/tag/Zero4k) | [PurE2-7.6-vuzero4k_25112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/PurE2-7.6-vuzero4k_25112026.zip) | 299,809,969 bytes |
 | [KhaledAli65/picon](https://github.com/KhaledAli65/picon) | []() | [README.md](https://raw.githubusercontent.com/KhaledAli65/picon/main/README.md) | 14 bytes |
 | [KhaledAli65/picons](https://github.com/KhaledAli65/picons) | []() | [openpicon.ipk](https://raw.githubusercontent.com/KhaledAli65/picons/main/openpicon.ipk) | 14,012,866 bytes |
 | [KhaledAli65/picons](https://github.com/KhaledAli65/picons) | []() | [picon.tar.gz](https://raw.githubusercontent.com/KhaledAli65/picons/main/picon.tar.gz) | 21,077,645 bytes |
