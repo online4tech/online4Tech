@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-24T22:25:43.556603+00:00",
-  "source_scan_at": "2026-11-24T12:30:07.865840+00:00",
-  "total_new_candidates": 538,
+  "generated_at": "2026-11-25T11:19:13.548166+00:00",
+  "source_scan_at": "2026-11-25T11:18:39.102372+00:00",
+  "total_new_candidates": 540,
   "summary": {
     "manual_model_review": 195,
-    "model_matched_needs_archive_validation": 6,
+    "model_matched_needs_archive_validation": 8,
     "metadata_and_architecture_review_required": 3,
     "manual_security_review_never_execute": 315,
     "manual_content_review_never_execute": 19
@@ -248,7 +248,7 @@
       "repository": "KhaledAli65/emu",
       "release": "Emu",
       "asset": "khaled_fullsat.tar.gz",
-      "size": 720458,
+      "size": 722366,
       "download_url": "https://github.com/KhaledAli65/emu/releases/download/Emu/khaled_fullsat.tar.gz",
       "release_url": "https://github.com/KhaledAli65/emu/releases/tag/Emu",
       "published_at": "2026-07-20T05:20:01Z",
@@ -276,6 +276,20 @@
       "published_at": "",
       "type": "backup",
       "status": "manual_model_review"
+    },
+    {
+      "repository": "KhaledAli65/novaler",
+      "release": "Zero4k",
+      "asset": "egami-11.0-r23-vuzero4k-25112026.zip",
+      "size": 303366720,
+      "download_url": "https://github.com/KhaledAli65/novaler/releases/download/Zero4k/egami-11.0-r23-vuzero4k-25112026.zip",
+      "release_url": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "published_at": "2026-08-07T08:32:43Z",
+      "type": "backup",
+      "status": "model_matched_needs_archive_validation",
+      "subcategory": "vu-zero4k",
+      "model": "Vu+ Zero 4K",
+      "group": "Vu+"
     },
     {
       "repository": "KhaledAli65/novaler",
@@ -336,7 +350,7 @@
       "repository": "KhaledAli65/novaler",
       "release": "",
       "asset": "khaled_fullsat.tar.gz",
-      "size": 720458,
+      "size": 722366,
       "download_url": "https://raw.githubusercontent.com/KhaledAli65/novaler/main/khaled_fullsat.tar.gz",
       "release_url": "",
       "published_at": "",
@@ -375,6 +389,20 @@
       "published_at": "",
       "type": "backup",
       "status": "manual_model_review"
+    },
+    {
+      "repository": "KhaledAli65/novaler",
+      "release": "Zero4k",
+      "asset": "PurE2-7.6-vuzero4k_25112026.zip",
+      "size": 299809969,
+      "download_url": "https://github.com/KhaledAli65/novaler/releases/download/Zero4k/PurE2-7.6-vuzero4k_25112026.zip",
+      "release_url": "https://github.com/KhaledAli65/novaler/releases/tag/Zero4k",
+      "published_at": "2026-08-07T08:32:43Z",
+      "type": "backup",
+      "status": "model_matched_needs_archive_validation",
+      "subcategory": "vu-zero4k",
+      "model": "Vu+ Zero 4K",
+      "group": "Vu+"
     },
     {
       "repository": "KhaledAli65/novaler",

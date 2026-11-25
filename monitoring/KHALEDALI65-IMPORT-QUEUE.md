@@ -1,7 +1,7 @@
 # قائمة تجهيز الاستيراد — KhaledAli65
 
-- وقت الإنشاء: 2026-11-24T22:25:43.556603+00:00
-- الملفات الجديدة بعد منع التكرار: 538
+- وقت الإنشاء: 2026-11-25T11:19:13.548166+00:00
+- الملفات الجديدة بعد منع التكرار: 540
 
 > القائمة لا تنشر أي ملف للموقع. ملفات النسخ الاحتياطية تحتاج فحص محتوى الأرشيف والتوافق، وملفات IPK تحتاج قراءة بيانات الحزمة والمعمارية. لا يتم تشغيل أي سكريبت أو أمر Telnet.
 
@@ -13,7 +13,7 @@
 | manual_model_review | 195 |
 | manual_security_review_never_execute | 315 |
 | metadata_and_architecture_review_required | 3 |
-| model_matched_needs_archive_validation | 6 |
+| model_matched_needs_archive_validation | 8 |
 
 ## العناصر المرشحة
 
@@ -38,18 +38,20 @@
 | backup | manual_model_review | [15_openatv-8.0.1-novaler4kpro_recovery_emmc.zip](https://github.com/KhaledAli65/books/releases/download/Novalerpro/15_openatv-8.0.1-novaler4kpro_recovery_emmc.zip) | غير محدد | 17,152,322 bytes | KhaledAli65/books |
 | backup | manual_model_review | [RestoreBackup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/books/main/RestoreBackup.tar.gz) | غير محدد | 10,867 bytes | KhaledAli65/books |
 | backup | manual_model_review | [IPtoSAT.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/IPtoSAT.tar.gz) | غير محدد | 12,662 bytes | KhaledAli65/emu |
-| backup | manual_model_review | [khaled_fullsat.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/khaled_fullsat.tar.gz) | غير محدد | 720,458 bytes | KhaledAli65/emu |
+| backup | manual_model_review | [khaled_fullsat.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/khaled_fullsat.tar.gz) | غير محدد | 722,366 bytes | KhaledAli65/emu |
 | backup | manual_model_review | [channels.zip](https://raw.githubusercontent.com/KhaledAli65/novaler/main/channels.zip) | غير محدد | 379,047 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [Cloud_More_Panel.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/Cloud_More_Panel.tar.gz) | غير محدد | 13,022 bytes | KhaledAli65/novaler |
+| backup | model_matched_needs_archive_validation | [egami-11.0-r23-vuzero4k-25112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/egami-11.0-r23-vuzero4k-25112026.zip) | Vu+ Zero 4K | 303,366,720 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [epg.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/epg.tar.gz) | غير محدد | 52,120 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [EPGGrabber.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/EPGGrabber.tar.gz) | غير محدد | 167,795 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [fonts_metrix.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/fonts_metrix.tar.gz) | غير محدد | 709,914 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [hosts.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/hosts.tar.gz) | غير محدد | 596,880 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [hotkey_backup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/hotkey_backup.tar.gz) | غير محدد | 269 bytes | KhaledAli65/novaler |
-| backup | manual_model_review | [khaled_fullsat.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/khaled_fullsat.tar.gz) | غير محدد | 720,458 bytes | KhaledAli65/novaler |
+| backup | manual_model_review | [khaled_fullsat.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/khaled_fullsat.tar.gz) | غير محدد | 722,366 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [Khaled_inline_Backup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/Khaled_inline_Backup.tar.gz) | غير محدد | 11,810 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [KhaledUninstaller.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/KhaledUninstaller.tar.gz) | غير محدد | 11,702 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [metrix_poster.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/metrix_poster.tar.gz) | غير محدد | 394,837 bytes | KhaledAli65/novaler |
+| backup | model_matched_needs_archive_validation | [PurE2-7.6-vuzero4k_25112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/PurE2-7.6-vuzero4k_25112026.zip) | Vu+ Zero 4K | 299,809,969 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [Vu_Backup_Downloader.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/Vu_Backup_Downloader.tar.gz) | غير محدد | 11,728 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [piconCrypt.tar.gz](https://raw.githubusercontent.com/KhaledAli65/picons/main/piconCrypt.tar.gz) | غير محدد | 460,581 bytes | KhaledAli65/picons |
 | backup | manual_model_review | [piconProv.tar.gz](https://raw.githubusercontent.com/KhaledAli65/picons/main/piconProv.tar.gz) | غير محدد | 9,839,955 bytes | KhaledAli65/picons |
