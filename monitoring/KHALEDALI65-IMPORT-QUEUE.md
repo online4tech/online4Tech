@@ -1,7 +1,7 @@
 # قائمة تجهيز الاستيراد — KhaledAli65
 
-- وقت الإنشاء: 2026-11-25T11:19:13.548166+00:00
-- الملفات الجديدة بعد منع التكرار: 540
+- وقت الإنشاء: 2026-11-26T10:54:44.858030+00:00
+- الملفات الجديدة بعد منع التكرار: 553
 
 > القائمة لا تنشر أي ملف للموقع. ملفات النسخ الاحتياطية تحتاج فحص محتوى الأرشيف والتوافق، وملفات IPK تحتاج قراءة بيانات الحزمة والمعمارية. لا يتم تشغيل أي سكريبت أو أمر Telnet.
 
@@ -13,7 +13,7 @@
 | manual_model_review | 195 |
 | manual_security_review_never_execute | 315 |
 | metadata_and_architecture_review_required | 3 |
-| model_matched_needs_archive_validation | 8 |
+| model_matched_needs_archive_validation | 21 |
 
 ## العناصر المرشحة
 
@@ -27,12 +27,22 @@
 | backup | manual_model_review | [Backup_image/backup_OpenSPA.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup_OpenSPA.tar.gz) | غير محدد | 4,472 bytes | KhaledAli65/Backup |
 | backup | manual_model_review | [Backup_image/backup_pur.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup_pur.tar.gz) | غير محدد | 1,403 bytes | KhaledAli65/Backup |
 | backup | manual_model_review | [Backup_image/backup_vix.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup_vix.tar.gz) | غير محدد | 2,470 bytes | KhaledAli65/Backup |
+| backup | model_matched_needs_archive_validation | [01_openatv-8.0.1-novaler4kse-26112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/01_openatv-8.0.1-novaler4kse-26112026.zip) | Novaler 4K | 303,128,152 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [02_egami-11.0-r23-novaler4kse-26112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/02_egami-11.0-r23-novaler4kse-26112026.zip) | Novaler 4K | 277,461,631 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [02_openvix-6.9.006-vuduo4kse_13112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuduo4kse/02_openvix-6.9.006-vuduo4kse_13112026.zip) | Vu+ Duo 4K SE | 257,421,662 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [03_openatv-8.1.0.beta-vuduo4kse-12112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuduo4kse/03_openatv-8.1.0.beta-vuduo4kse-12112026.zip) | Vu+ Duo 4K SE | 329,602,471 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [03_openpli-9.2-release-multiboxse-26112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/03_openpli-9.2-release-multiboxse-26112026.zip) | Novaler SE | 176,799,202 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [04_egami-11.0-r23-vuduo4kse-02112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuduo4kse/04_egami-11.0-r23-vuduo4kse-02112026.zip) | Vu+ Duo 4K SE | 259,803,031 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [04_openpli-scarthgap-multiboxse-26112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/04_openpli-scarthgap-multiboxse-26112026.zip) | Novaler SE | 213,615,054 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [05_openatv-8.0.1-vuduo4kse-02112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuduo4kse/05_openatv-8.0.1-vuduo4kse-02112026.zip) | Vu+ Duo 4K SE | 265,912,352 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [05_openspa-8.7.003-novalerse-10112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/05_openspa-8.7.003-novalerse-10112026.zip) | Novaler SE | 265,020,291 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [06_OpenBh-6.0-multiboxse_06112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/06_OpenBh-6.0-multiboxse_06112026.zip) | Novaler SE | 223,147,791 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [06_openbh-6.0.005-vuduo4kse-02112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuduo4kse/06_openbh-6.0.005-vuduo4kse-02112026.zip) | Vu+ Duo 4K SE | 221,222,283 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [07_OpenATV-8.1.0_beta-multiboxse_06112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/07_OpenATV-8.1.0_beta-multiboxse_06112026.zip) | Novaler SE | 257,229,709 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [07_PurE2-7.6-vuduo4kse-02112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuduo4kse/07_PurE2-7.6-vuduo4kse-02112026.zip) | Vu+ Duo 4K SE | 243,013,286 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [08_OpenViX-6.9-multiboxse_06112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/08_OpenViX-6.9-multiboxse_06112026.zip) | Novaler SE | 235,364,816 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [09_PurE2-7.6-multiboxse_06112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/09_PurE2-7.6-multiboxse_06112026.zip) | Novaler SE | 250,219,774 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [10_novalerSE_corvoboys_slot5.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/10_novalerSE_corvoboys_slot5.zip) | Novaler SE | 116,524,864 bytes | KhaledAli65/books |
 | backup | manual_model_review | [10_OpenViX-6.9-novaler4kpro_01112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerpro/10_OpenViX-6.9-novaler4kpro_01112026.zip) | غير محدد | 245,983,429 bytes | KhaledAli65/books |
 | backup | manual_model_review | [14_novaler4kpro-3.53_recovery.zip](https://github.com/KhaledAli65/books/releases/download/Novalerpro/14_novaler4kpro-3.53_recovery.zip) | غير محدد | 17,632,678 bytes | KhaledAli65/books |
 | backup | manual_model_review | [15_openatv-8.0.1-novaler4kpro_recovery_emmc.zip](https://github.com/KhaledAli65/books/releases/download/Novalerpro/15_openatv-8.0.1-novaler4kpro_recovery_emmc.zip) | غير محدد | 17,152,322 bytes | KhaledAli65/books |
@@ -42,7 +52,7 @@
 | backup | manual_model_review | [channels.zip](https://raw.githubusercontent.com/KhaledAli65/novaler/main/channels.zip) | غير محدد | 379,047 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [Cloud_More_Panel.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/Cloud_More_Panel.tar.gz) | غير محدد | 13,022 bytes | KhaledAli65/novaler |
 | backup | model_matched_needs_archive_validation | [egami-11.0-r23-vuzero4k-25112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/egami-11.0-r23-vuzero4k-25112026.zip) | Vu+ Zero 4K | 303,366,720 bytes | KhaledAli65/novaler |
-| backup | manual_model_review | [epg.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/epg.tar.gz) | غير محدد | 52,120 bytes | KhaledAli65/novaler |
+| backup | manual_model_review | [epg.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/epg.tar.gz) | غير محدد | 69,522 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [EPGGrabber.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/EPGGrabber.tar.gz) | غير محدد | 167,795 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [fonts_metrix.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/fonts_metrix.tar.gz) | غير محدد | 709,914 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [hosts.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/hosts.tar.gz) | غير محدد | 596,880 bytes | KhaledAli65/novaler |
@@ -51,6 +61,9 @@
 | backup | manual_model_review | [Khaled_inline_Backup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/Khaled_inline_Backup.tar.gz) | غير محدد | 11,810 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [KhaledUninstaller.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/KhaledUninstaller.tar.gz) | غير محدد | 11,702 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [metrix_poster.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/metrix_poster.tar.gz) | غير محدد | 394,837 bytes | KhaledAli65/novaler |
+| backup | model_matched_needs_archive_validation | [openatv-8.0.1-vuzero4k-25112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/openatv-8.0.1-vuzero4k-25112026.zip) | Vu+ Zero 4K | 316,225,320 bytes | KhaledAli65/novaler |
+| backup | model_matched_needs_archive_validation | [openbh-6.0.005-vuzero4k-25112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/openbh-6.0.005-vuzero4k-25112026.zip) | Vu+ Zero 4K | 240,550,548 bytes | KhaledAli65/novaler |
+| backup | model_matched_needs_archive_validation | [openvix-6.9.007-vuzero4k_25112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/openvix-6.9.007-vuzero4k_25112026.zip) | Vu+ Zero 4K | 250,578,039 bytes | KhaledAli65/novaler |
 | backup | model_matched_needs_archive_validation | [PurE2-7.6-vuzero4k_25112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/PurE2-7.6-vuzero4k_25112026.zip) | Vu+ Zero 4K | 299,809,969 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [Vu_Backup_Downloader.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/Vu_Backup_Downloader.tar.gz) | غير محدد | 11,728 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [piconCrypt.tar.gz](https://raw.githubusercontent.com/KhaledAli65/picons/main/piconCrypt.tar.gz) | غير محدد | 460,581 bytes | KhaledAli65/picons |
@@ -540,7 +553,7 @@
 | script | manual_security_review_never_execute | [SKIN-MohammedSkin.sh](https://github.com/KhaledAli65/skins/releases/download/Enigma2/SKIN-MohammedSkin.sh) | غير محدد | 3,499 bytes | KhaledAli65/skins |
 | script | manual_security_review_never_execute | [e2multiboot_engine.sh](https://raw.githubusercontent.com/KhaledAli65/Slot/main/e2multiboot_engine.sh) | غير محدد | 2,540 bytes | KhaledAli65/Slot |
 | script | manual_security_review_never_execute | [install-feed.sh](https://raw.githubusercontent.com/KhaledAli65/Slot/main/install-feed.sh) | غير محدد | 1,537 bytes | KhaledAli65/Slot |
-| text_or_command | manual_content_review_never_execute | [backup-se.txt](https://raw.githubusercontent.com/KhaledAli65/Backup/main/backup-se.txt) | غير محدد | 3,310 bytes | KhaledAli65/Backup |
+| text_or_command | manual_content_review_never_execute | [backup-se.txt](https://raw.githubusercontent.com/KhaledAli65/Backup/main/backup-se.txt) | غير محدد | 3,515 bytes | KhaledAli65/Backup |
 | text_or_command | manual_content_review_never_execute | [README.md](https://raw.githubusercontent.com/KhaledAli65/Backup/main/README.md) | غير محدد | 8 bytes | KhaledAli65/Backup |
 | text_or_command | manual_content_review_never_execute | [README.md](https://raw.githubusercontent.com/KhaledAli65/books/main/README.md) | غير محدد | 22 bytes | KhaledAli65/books |
 | text_or_command | manual_content_review_never_execute | [whitelist.txt](https://raw.githubusercontent.com/KhaledAli65/books/main/whitelist.txt) | غير محدد | 90 bytes | KhaledAli65/books |
