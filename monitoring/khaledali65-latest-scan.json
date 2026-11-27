@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-26T10:54:12.491687+00:00",
+  "generated_at": "2026-11-27T10:51:45.195874+00:00",
   "owner": "KhaledAli65",
   "repositories_scanned": 11,
-  "matching_release_assets": 802,
+  "matching_release_assets": 803,
   "assets": [
     {
       "repository": "KhaledAli65/Backup",
@@ -1783,9 +1783,33 @@
       "release": "Vuuno4kse",
       "release_url": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
       "published_at": "2026-03-26T11:11:35Z",
-      "asset": "egami-11.0-r23-vuuno4kse-01112026.zip",
+      "asset": "01_openatv-8.0.1-vuuno4kse-27112026.zip",
+      "size": 316083865,
+      "download_url": "https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/01_openatv-8.0.1-vuuno4kse-27112026.zip",
+      "content_type": "application/octet-stream",
+      "source_type": "release_asset"
+    },
+    {
+      "repository": "KhaledAli65/books",
+      "repository_url": "https://github.com/KhaledAli65/books",
+      "release": "Vuuno4kse",
+      "release_url": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "published_at": "2026-03-26T11:11:35Z",
+      "asset": "02_openvix-6.9.007-vuuno4kse_27112026.zip",
+      "size": 257559289,
+      "download_url": "https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/02_openvix-6.9.007-vuuno4kse_27112026.zip",
+      "content_type": "application/octet-stream",
+      "source_type": "release_asset"
+    },
+    {
+      "repository": "KhaledAli65/books",
+      "repository_url": "https://github.com/KhaledAli65/books",
+      "release": "Vuuno4kse",
+      "release_url": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
+      "published_at": "2026-03-26T11:11:35Z",
+      "asset": "03_egami-11.0-r23-vuuno4kse-01112026.zip",
       "size": 255104359,
-      "download_url": "https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/egami-11.0-r23-vuuno4kse-01112026.zip",
+      "download_url": "https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/03_egami-11.0-r23-vuuno4kse-01112026.zip",
       "content_type": "application/octet-stream",
       "source_type": "release_asset"
     },
@@ -1795,21 +1819,9 @@
       "release": "Vuuno4kse",
       "release_url": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
       "published_at": "2026-03-26T11:11:35Z",
-      "asset": "openatv-8.0.1-vuuno4kse-01112026.zip",
-      "size": 257776006,
-      "download_url": "https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/openatv-8.0.1-vuuno4kse-01112026.zip",
-      "content_type": "application/octet-stream",
-      "source_type": "release_asset"
-    },
-    {
-      "repository": "KhaledAli65/books",
-      "repository_url": "https://github.com/KhaledAli65/books",
-      "release": "Vuuno4kse",
-      "release_url": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
-      "published_at": "2026-03-26T11:11:35Z",
-      "asset": "openbh-6.0.005-vuuno4kse-01112026.zip",
+      "asset": "04_openbh-6.0.005-vuuno4kse-01112026.zip",
       "size": 253712451,
-      "download_url": "https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/openbh-6.0.005-vuuno4kse-01112026.zip",
+      "download_url": "https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/04_openbh-6.0.005-vuuno4kse-01112026.zip",
       "content_type": "application/octet-stream",
       "source_type": "release_asset"
     },
@@ -1819,21 +1831,9 @@
       "release": "Vuuno4kse",
       "release_url": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
       "published_at": "2026-03-26T11:11:35Z",
-      "asset": "openvix-6.9.003-vuuno4kse_01112026.zip",
-      "size": 393433400,
-      "download_url": "https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/openvix-6.9.003-vuuno4kse_01112026.zip",
-      "content_type": "application/octet-stream",
-      "source_type": "release_asset"
-    },
-    {
-      "repository": "KhaledAli65/books",
-      "repository_url": "https://github.com/KhaledAli65/books",
-      "release": "Vuuno4kse",
-      "release_url": "https://github.com/KhaledAli65/books/releases/tag/Vuuno4kse",
-      "published_at": "2026-03-26T11:11:35Z",
-      "asset": "PurE2-7.6_vuuno4kse-01112026.zip",
+      "asset": "05_PurE2-7.6_vuuno4kse-01112026.zip",
       "size": 254527069,
-      "download_url": "https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/PurE2-7.6_vuuno4kse-01112026.zip",
+      "download_url": "https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/05_PurE2-7.6_vuuno4kse-01112026.zip",
       "content_type": "application/octet-stream",
       "source_type": "release_asset"
     },
@@ -2505,7 +2505,7 @@
       "release_url": "https://github.com/KhaledAli65/Channels/releases/tag/Panelscript",
       "published_at": "2026-09-18T03:15:21Z",
       "asset": "PANEL-MagicPanelMax.sh",
-      "size": 14402,
+      "size": 15882,
       "download_url": "https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-MagicPanelMax.sh",
       "content_type": "text/x-sh",
       "source_type": "release_asset"
@@ -8841,6 +8841,18 @@
       "asset": "BootLogoSwapper_OBH.tar.gz",
       "size": 1044331,
       "download_url": "https://github.com/KhaledAli65/Slot/releases/download/v1.0.0/BootLogoSwapper_OBH.tar.gz",
+      "content_type": "application/gzip",
+      "source_type": "release_asset"
+    },
+    {
+      "repository": "KhaledAli65/Slot",
+      "repository_url": "https://github.com/KhaledAli65/Slot",
+      "release": "v1.0.0",
+      "release_url": "https://github.com/KhaledAli65/Slot/releases/tag/v1.0.0",
+      "published_at": "2026-07-14T12:10:31Z",
+      "asset": "BootLogoSwapper_PLI.tar.gz",
+      "size": 1205880,
+      "download_url": "https://github.com/KhaledAli65/Slot/releases/download/v1.0.0/BootLogoSwapper_PLI.tar.gz",
       "content_type": "application/gzip",
       "source_type": "release_asset"
     },
