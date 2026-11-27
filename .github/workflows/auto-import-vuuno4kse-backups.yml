@@ -1,0 +1,72 @@
+name: Auto-import Vu+ Uno 4K SE backups (daily)
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-import-vuuno4kse-backups
+  cancel-in-progress: false
+
+jobs:
+  auto-import-vuuno4kse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Check and import new Vuuno4kse backups
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          SOURCE_REPO="KhaledAli65/books"
+          SOURCE_TAG="Vuuno4kse"
+          DEST_REPO="online4tech/online4Tech"
+          DEST_TAG="online4tech-backups-vuuno4kse"
+          echo "Reading source release: ${SOURCE_REPO}/${SOURCE_TAG}"
+          gh api "repos/${SOURCE_REPO}/releases/tags/${SOURCE_TAG}" > release.json
+          if ! gh release view "$DEST_TAG" --repo "$DEST_REPO" >/dev/null 2>&1; then
+            gh release create "$DEST_TAG" --repo "$DEST_REPO" --title "Online4Tech backups - Vuuno4kse" --notes "Imported from ${SOURCE_REPO} release ${SOURCE_TAG}. Original source is unchanged. Each file is checked by size and SHA-256."
+          fi
+          gh release view "$DEST_TAG" --repo "$DEST_REPO" --json assets --jq '.assets[].name' > existing.txt || true
+          NEW_COUNT=0
+          while IFS= read -r encoded; do
+            item="$(printf '%s' "$encoded" | base64 -d)"
+            ASSET_NAME="$(printf '%s' "$item" | jq -r '.name')"
+            if grep -qxF "$ASSET_NAME" existing.txt; then
+              echo "Already imported, skipping: $ASSET_NAME"
+              continue
+            fi
+            EXPECTED_SIZE="$(printf '%s' "$item" | jq -r '.size')"
+            EXPECTED_DIGEST="$(printf '%s' "$item" | jq -r '.digest // empty')"
+            SOURCE_URL="$(printf '%s' "$item" | jq -r '.browser_download_url')"
+            echo "::group::Importing $ASSET_NAME"
+            curl --fail --location --retry 4 --retry-delay 3 "$SOURCE_URL" --output "$ASSET_NAME"
+            ACTUAL_SIZE="$(stat -c%s "$ASSET_NAME")"
+            test "$ACTUAL_SIZE" = "$EXPECTED_SIZE"
+            if [[ -n "$EXPECTED_DIGEST" && "$EXPECTED_DIGEST" == sha256:* ]]; then
+              EXPECTED_SHA="${EXPECTED_DIGEST#sha256:}"
+              ACTUAL_SHA="$(sha256sum "$ASSET_NAME" | awk '{print $1}')"
+              test "$ACTUAL_SHA" = "$EXPECTED_SHA"
+              echo "SHA256 verified: $ACTUAL_SHA"
+            else
+              echo "No source SHA256 supplied by GitHub; size verified only."
+            fi
+            gh release upload "$DEST_TAG" "$ASSET_NAME" --repo "$DEST_REPO" --clobber
+            DEST_ASSET="$(gh release view "$DEST_TAG" --repo "$DEST_REPO" --json assets --jq ".assets[] | select(.name == \"$ASSET_NAME\")")"
+            DEST_SIZE="$(printf '%s' "$DEST_ASSET" | jq -r '.size')"
+            test "$DEST_SIZE" = "$EXPECTED_SIZE"
+            if [[ -n "$EXPECTED_DIGEST" ]]; then
+              DEST_DIGEST="$(printf '%s' "$DEST_ASSET" | jq -r '.digest // empty')"
+              test "$DEST_DIGEST" = "$EXPECTED_DIGEST"
+            fi
+            echo "UPLOAD VERIFIED: $ASSET_NAME ($ACTUAL_SIZE bytes)"
+            rm -f "$ASSET_NAME"
+            echo "::endgroup::"
+            NEW_COUNT=$((NEW_COUNT+1))
+          done < <(jq -r '.assets[] | @base64' release.json)
+          echo "IMPORT_COMPLETE: $NEW_COUNT new assets imported to ${DEST_TAG}."
