@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sources>
+	<sourcecat sourcecatname="Online4Tech EPG — Nilesat Arabic">
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>bevy Arabia (AR) — Nilesat</description>
+			<url>https://www.bevy.be/bevyfiles/arabia.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Online4Tech elcinema.com — generated daily</description>
+			<url>https://raw.githubusercontent.com/online4tech/online4Tech/main/epg/guides/elcinema.com.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Jawwy TV (AR) — Nilesat</description>
+			<url>https://raw.githubusercontent.com/MOHAMED19OS/XMLTV/main/jawwytv.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>OSN Arabic — MOHAMED19OS (AR)</description>
+			<url>https://raw.githubusercontent.com/MOHAMED19OS/DZ_EPG/main/osnara.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>epgshare Saudi 1 (AR) — Nilesat</description>
+			<url>https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>iptv-org TV Blue Arabic — Nilesat</description>
+			<url>https://iptv-org.github.io/epg/guides/ar/tv.blue.ch.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>epgshare Egypt 1 (AR) — Nilesat</description>
+			<url>https://epgshare01.online/epgshare01/epg_ripper_EG1.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Bein Sport.net</description>
+			<url>/etc/epgimport/ziko_epg/bein.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Bein Entertainment.net</description>
+			<url>/etc/epgimport/ziko_epg/beinent.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Bein Sport Connect</description>
+			<url>/etc/epgimport/ziko_epg/beinConnect.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Bein Entertainment Connect</description>
+			<url>/etc/epgimport/ziko_epg/beinentC.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Egypt2_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/egypt2.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Qatar1_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/qatar1.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Qatar2_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/qatar2.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Qatar3_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/qatar3.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Qatar4_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/qatar4.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Qatar5_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/qatar5.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Saudiarabia1_iet5 by (iet5 )</description>
+			<url>/etc/epgimport/ziko_epg/saudiarabia1.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Saudiarabia2_iet5 by (iet5 )</description>
+			<url>/etc/epgimport/ziko_epg/saudiarabia2.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Saudiarabia3_iet5 by (iet5 )</description>
+			<url>/etc/epgimport/ziko_epg/saudiarabia3.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Saudiarabia4_iet5 by (iet5 )</description>
+			<url>/etc/epgimport/ziko_epg/saudiarabia4.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>UAE1_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/uae1.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>UAE2_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/uae2.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>UAE3_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/uae3.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>UAE4_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/uae4.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Osnplay</description>
+			<url>/etc/epgimport/ziko_epg/osnplay.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Elcinema/Elcinema English</description>
+			<url>/etc/epgimport/ziko_epg/elcinema.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Aljazeera.net</description>
+			<url>/etc/epgimport/ziko_epg/aljazeera.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>MBC</description>
+			<url>/etc/epgimport/ziko_epg/mbc.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Rotana</description>
+			<url>/etc/epgimport/ziko_epg/rotana.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Snrt</description>
+			<url>/etc/epgimport/ziko_epg/snrt.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Le Matin</description>
+			<url>/etc/epgimport/ziko_epg/lematin.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Bein Entertainment Cinema</description>
+			<url>/etc/epgimport/ziko_epg/beinentCin.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="osn.channels.xml.xz">
+			<description>OSN Channels Arabic (xz)</description>
+			<url>http://raw.githubusercontent.com/MOHAMED19OS/DZ_EPG/main/osnara.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>MBC EPG</description>
+			<url>/etc/epgimport/ziko_epg/mbc.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Online4Tech bein.com — generated daily</description>
+			<url>https://raw.githubusercontent.com/online4tech/online4Tech/main/epg/guides/bein.com.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Online4Tech osn.com — generated daily</description>
+			<url>https://raw.githubusercontent.com/online4tech/online4Tech/main/epg/guides/osn.com.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-ar.channels.xml">
+			<description>Online4Tech beinsports.com — generated daily</description>
+			<url>https://raw.githubusercontent.com/online4tech/online4Tech/main/epg/guides/beinsports.com.xml</url>
+		</source>
+	</sourcecat>
+	<mappings>
+		<channel name="osn.channels.xml.xz" nocheck="1">
+			<url>http://raw.githubusercontent.com/MOHAMED19OS/DZ_EPG/main/osn.channels.xml.xz</url>
+		</channel>
+	</mappings>
+</sources>

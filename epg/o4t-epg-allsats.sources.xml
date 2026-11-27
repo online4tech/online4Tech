@@ -1,0 +1,734 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sources>
+	<sourcecat sourcecatname="Online4Tech EPG — All Satellites">
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-allsats.channels.xml">
+			<description>bevy Arabia (AR) — Nilesat</description>
+			<url>https://www.bevy.be/bevyfiles/arabia.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-allsats.channels.xml">
+			<description>Online4Tech elcinema.com — generated daily</description>
+			<url>https://raw.githubusercontent.com/online4tech/online4Tech/main/epg/guides/elcinema.com.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-allsats.channels.xml">
+			<description>iptv-org OSN English — Nilesat</description>
+			<url>https://iptv-org.github.io/epg/guides/en/osn.com.epg.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-allsats.channels.xml">
+			<description>Jawwy TV (AR) — Nilesat</description>
+			<url>https://raw.githubusercontent.com/MOHAMED19OS/XMLTV/main/jawwytv.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-allsats.channels.xml">
+			<description>Online4Tech bein.com — generated daily</description>
+			<url>https://raw.githubusercontent.com/online4tech/online4Tech/main/epg/guides/bein.com.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-allsats.channels.xml">
+			<description>OSN Arabic — MOHAMED19OS (AR)</description>
+			<url>https://raw.githubusercontent.com/MOHAMED19OS/DZ_EPG/main/osnara.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-allsats.channels.xml">
+			<description>epgshare Saudi 1 (AR) — Nilesat</description>
+			<url>https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-allsats.channels.xml">
+			<description>iptv-org TV Blue Arabic — Nilesat</description>
+			<url>https://iptv-org.github.io/epg/guides/ar/tv.blue.ch.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-allsats.channels.xml">
+			<description>epgshare Egypt 1 (AR) — Nilesat</description>
+			<url>https://epgshare01.online/epgshare01/epg_ripper_EG1.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Bein Sport.net</description>
+			<url>/etc/epgimport/ziko_epg/bein.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Bein Entertainment.net</description>
+			<url>/etc/epgimport/ziko_epg/beinent.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Bein Sport Connect</description>
+			<url>/etc/epgimport/ziko_epg/beinConnect.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Bein Entertainment Connect</description>
+			<url>/etc/epgimport/ziko_epg/beinentC.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Egypt2_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/egypt2.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Qatar1_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/qatar1.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Qatar2_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/qatar2.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Qatar3_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/qatar3.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Qatar4_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/qatar4.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Qatar5_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/qatar5.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Saudiarabia1_iet5 by (iet5 )</description>
+			<url>/etc/epgimport/ziko_epg/saudiarabia1.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Saudiarabia2_iet5 by (iet5 )</description>
+			<url>/etc/epgimport/ziko_epg/saudiarabia2.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Saudiarabia3_iet5 by (iet5 )</description>
+			<url>/etc/epgimport/ziko_epg/saudiarabia3.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Saudiarabia4_iet5 by (iet5 )</description>
+			<url>/etc/epgimport/ziko_epg/saudiarabia4.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>UAE1_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/uae1.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>UAE2_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/uae2.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>UAE3_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/uae3.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>UAE4_iet5 by (iet5)</description>
+			<url>/etc/epgimport/ziko_epg/uae4.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>POLAND1_iet5 by (iet5 )</description>
+			<url>/etc/epgimport/ziko_epg/poland1.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>POLAND2_iet5 by (iet5 )</description>
+			<url>/etc/epgimport/ziko_epg/poland2.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Osnplay</description>
+			<url>/etc/epgimport/ziko_epg/osnplay.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Elcinema/Elcinema English</description>
+			<url>/etc/epgimport/ziko_epg/elcinema.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Aljazeera.net</description>
+			<url>/etc/epgimport/ziko_epg/aljazeera.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>MBC</description>
+			<url>/etc/epgimport/ziko_epg/mbc.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Rotana</description>
+			<url>/etc/epgimport/ziko_epg/rotana.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>SAT TV</description>
+			<url>/etc/epgimport/ziko_epg/satTv.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Snrt</description>
+			<url>/etc/epgimport/ziko_epg/snrt.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Le Matin</description>
+			<url>/etc/epgimport/ziko_epg/lematin.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Bein Entertainment Cinema</description>
+			<url>/etc/epgimport/ziko_epg/beinentCin.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Discovery 0.8W and 4.8E</description>
+			<url>/etc/epgimport/ziko_epg/discovery.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="/etc/epgimport/ziko_config/caf.channels.xml">
+			<description>Canal+AF</description>
+			<url>/etc/epgimport/ziko_epg/caf.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Espn</description>
+			<url>/etc/epgimport/ziko_epg/espn.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>FREESAT TV</description>
+			<url>/etc/epgimport/ziko_epg/freesat.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>UK Sports Channels</description>
+			<url>/etc/epgimport/ziko_epg/skyuk.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Love Nature</description>
+			<url>/etc/epgimport/ziko_epg/lovenature.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>Indian Sports Channels</description>
+			<url>/etc/epgimport/ziko_epg/sony.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>SKY IT</description>
+			<url>/etc/epgimport/ziko_epg/skyit.xml</url>
+		</source>
+		<source type="gen_xmltv" channels="o4t-epg-allsats.channels.xml">
+			<description>DSTV</description>
+			<url>/etc/epgimport/ziko_epg/dstv.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="osn.channels.xml.xz">
+			<description>OSN Channels English (xz)</description>
+			<url>http://raw.githubusercontent.com/MOHAMED19OS/DZ_EPG/main/osnen.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="osn.channels.xml.xz">
+			<description>OSN Channels Arabic (xz)</description>
+			<url>http://raw.githubusercontent.com/MOHAMED19OS/DZ_EPG/main/osnara.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>News Channels (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecNWS.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecNWS.xz</url>
+			<url>http://epg.vuplus-community.net/rytecNWS.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Erotic (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecERO.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecERO.xz</url>
+			<url>http://epg.vuplus-community.net/rytecERO.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>AFN (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecAFN.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecAFN.xz</url>
+			<url>http://epg.vuplus-community.net/rytecAFN.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Rytec IPTV XMLTV (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecIPTV.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecIPTV.xz</url>
+			<url>http://epg.vuplus-community.net/rytecIPTV.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Miscellaneous XMLTV (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecMisc.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecMisc.xz</url>
+			<url>http://epg.vuplus-community.net/rytecMisc.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Nederland - Basis (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecNL_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecNL_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecNL_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Vlaanderen - Basis (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecBE_VL_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecBE_VL_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecBE_VL_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Vlaanderen/Nederland - Gemeenschappelijk (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecBE_NL_Common.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecBE_NL_Common.xz</url>
+			<url>http://epg.vuplus-community.net/rytecBE_NL_Common.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Nederland - Sport/Movies (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecNL_Extra.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecNL_Extra.xz</url>
+			<url>http://epg.vuplus-community.net/rytecNL_Extra.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Wallonie - Telesat Base (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecBE_FR_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecBE_FR_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecBE_FR_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>France - TNT (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecTNT_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecTNT_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecTNT_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>France/Wallonie - Commun (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecBE_FR_Common.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecBE_FR_Common.xz</url>
+			<url>http://epg.vuplus-community.net/rytecBE_FR_Common.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>France - Mixte (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecFR_Mixte.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecFR_Mixte.xz</url>
+			<url>http://epg.vuplus-community.net/rytecFR_Mixte.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>France - Sport/Cinema (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecFR_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecFR_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecFR_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Bulgaria</description>
+			<url>http://www.xmltvepg.nl/rytecBG.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecBG.xz</url>
+			<url>http://epg.vuplus-community.net/rytecBG.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Slovensko - Bazicky (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecSK_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecSK_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecSK_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Ceska - Bazicky (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecCZ_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecCZ_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecCZ_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Ceska/Slovensko - Rozdeleny (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecCZ_SK_Common.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecCZ_SK_Common.xz</url>
+			<url>http://epg.vuplus-community.net/rytecCZ_SK_Common.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Ceska/Slovensko - Sportove/Filmy (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecCZ_SK_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecCZ_SK_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecCZ_SK_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Danmark - Grundleggende (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecDK_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecDK_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecDK_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Danmark - Delt (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecDK_Misc.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecDK_Misc.xz</url>
+			<url>http://epg.vuplus-community.net/rytecDK_Misc.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Danmark - Sport/Movies (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecDK_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecDK_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecDK_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Deutschland - Basis  (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecDE_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecDE_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecDE_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Osterreich - Basis  (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecAT_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecAT_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecAT_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Switzerland - Basis  (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecCH_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecCH_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecCH_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Deutschland/Osterreich/Switzerland - Gemeinsam  (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecDE_Common.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecDE_Common.xz</url>
+			<url>http://epg.vuplus-community.net/rytecDE_Common.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Deutschland/Osterreich/Switzerland - Sports/Film  (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecDE_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecDE_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecDE_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Ellada - Genikos (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecGR_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecGR_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecGR_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Ellada - Athlitismos/Kinimatografou (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecGR_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecGR_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecGR_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Italia - Basis (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecIT_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecIT_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecIT_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Italia - Sky (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecIT_Sky.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecIT_Sky.xz</url>
+			<url>http://epg.vuplus-community.net/rytecIT_Sky.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Italia - Sports/Film/Premium (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecIT_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecIT_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecIT_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Portugal (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecPT.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecPT.xz</url>
+			<url>http://epg.vuplus-community.net/rytecPT.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Norge - Basic (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecNO_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecNO_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecNO_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Norge - Delt (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecNO_Misc.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecNO_Misc.xz</url>
+			<url>http://epg.vuplus-community.net/rytecNO_Misc.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Norge - Sport/Movies (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecNO_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecNO_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecNO_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Romania - Baza (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecRO_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecRO_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecRO_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Romania - Sport/Film (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecRO_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecRO_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecRO_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Hrvatska - Osnovni (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecHRV_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecHRV_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecHRV_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Hrvatska - Dodatni (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecHRV_Misc.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecHRV_Misc.xz</url>
+			<url>http://epg.vuplus-community.net/rytecHRV_Misc.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Hrvatska - Sport/Film (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecHRV_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecHRV_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecHRV_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Srbija/Crna Gora - Osnovni (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecSRB_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecSRB_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecSRB_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Srbija/Crna Gora - Dodatni (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecSRB_Misc.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecSRB_Misc.xz</url>
+			<url>http://epg.vuplus-community.net/rytecSRB_Misc.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Srbija/Crna Gora - Sport/Film (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecHRV_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecHRV_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecHRV_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Slovenija - Podlaga (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecSVN_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecSVN_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecSVN_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Slovenija - Dodatni (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecSVN_Misc.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecSVN_Misc.xz</url>
+			<url>http://epg.vuplus-community.net/rytecSVN_Misc.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Slovenija - Sport/Film (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecSVN_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecSVN_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecSVN_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Sverige - Grundlaggande (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecSE_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecSE_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecSE_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Sverige - Diverse (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecSE_Misc.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecSE_Misc.xz</url>
+			<url>http://epg.vuplus-community.net/rytecSE_Misc.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Sverige - Sport/Filmer (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecSE_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecSE_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecSE_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Suomi - Perustiedot (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecFI_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecFI_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecFI_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Suomi - Yhteinen (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecFI_Misc.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecFI_Misc.xz</url>
+			<url>http://epg.vuplus-community.net/rytecFI_Misc.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>Suomi - Sport/Movies (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecFI_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecFI_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecFI_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>UK/Ireland - FreeSat/FTA (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecUK_Basic.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecUK_Basic.xz</url>
+			<url>http://epg.vuplus-community.net/rytecUK_Basic.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>UK/Ireland - Sky (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecUK_SkyLive.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecUK_SkyLive.xz</url>
+			<url>http://epg.vuplus-community.net/rytecUK_SkyLive.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="rytec.channels.xml.xz">
+			<description>UK/Ireland - Sports/Movies (xz)</description>
+			<url>http://www.xmltvepg.nl/rytecUK_SportMovies.xz</url>
+			<url>http://rytecepg.wanwizard.eu/rytecUK_SportMovies.xz</url>
+			<url>http://epg.vuplus-community.net/rytecUK_SportMovies.xz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-4W.xml.gz">
+			<description>(epg by Igor@K-runigma)- AMOS 4.0W</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-1W.xml.gz">
+			<description>(epg by Igor@K-runigma)- Thor 5/6/7 1.0W</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-49E.xml.gz">
+			<description>(epg by Igor@K-runigma)- SIRIUS 4.9E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-90E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Eutelsat 9.0E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-130E.xml.gz">
+			<description>(epg by Igor@K-runigma)- HOTBIRD 13.0E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-190E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Astra 19.2E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-282E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Astra 2E/2F/2G 28.2E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-315E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Astra 31.5E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-360E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Eutelsat 36B/36C</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-tricolor-360E.xml.gz">
+			<description>(epg by Igor@K-iptvx)- Tricolor</description>
+			<url>http://iptvx.one/epg/epg.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-400E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Express-AM7 40E</description>
+			<url>"&gt;http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-460E.xml.gz">
+			<description>(epg by Igor@K-runigma)- AzerSpace 46E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-515E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Belintersat 1  51.5E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-530E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Express-AM6 53E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-549E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Yamal402 54.9E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-560E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Express-AT1 56E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-600E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Intelsat 60E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-749E.xml.gz">
+			<description>(epg by Igor@K-runigma)- ABS-2/2A 74.9E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-800E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Express 80.0°E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-900E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Yamal401 90.0E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/SAT/channels-965E.xml.gz">
+			<description>(epg by Igor@K-runigma)- Express-AM33 96.5E</description>
+			<url>http://runigma.com.ua/EPG/SAT/epg-sat.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://runigma.com.ua/EPG/IPTV/channels-iptv.xml.gz">
+			<description>(epg by Igor@K-runigma)- IPTV</description>
+			<url>http://runigma.com.ua/EPG/IPTV/epg-iptv.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" channels="https://www.open-epg.com/files/turkey1.xml">
+			<description>Open-EPG - Turkey1 (xml)</description>
+			<url>https://www.open-epg.com/files/turkey1.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" channels="https://www.open-epg.com/files/turkey2.xml">
+			<description>Open-EPG - Turkey2 (xml)</description>
+			<url>https://www.open-epg.com/files/turkey2.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" channels="https://www.open-epg.com/files/turkey3.xml">
+			<description>Open-EPG - Turkey3 (xml)</description>
+			<url>https://www.open-epg.com/files/turkey3.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" channels="https://www.open-epg.com/files/turkey4.xml">
+			<description>Open-EPG - Turkey4 (xml)</description>
+			<url>https://www.open-epg.com/files/turkey4.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" channels="https://epgshare01.online/epgshare01/epg_ripper_TR1.xml">
+			<description>EPG-Ripper - TR1-TR3 (xml)</description>
+			<url>https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz</url>
+			<url>https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" channels="https://epg.tvcdn.net/guide/tr-guide.xml">
+			<description>TVCDN - TR1-TR3 (xml)</description>
+			<url>https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz</url>
+			<url>https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" channels="azman.channels.xml.xz">
+			<description>Polska - Podstawowy</description>
+			<url>http://www.topolowa4.pl/azman_basic.xml.xz</url>
+			<url>http://www.xmltvepg.nl/azman_basic.xml.xz</url>
+			<url>http://rytecepg.wanwizard.eu/azman_basic.xml.xz</url>
+			<url>http://epg.vuplus-community.net/azman_basic.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="azman.channels.xml.xz">
+			<description>Polska - Dodatkowy</description>
+			<url>http://www.topolowa4.pl/azman_misc.xml.xz</url>
+			<url>http://www.xmltvepg.nl/azman_misc.xml.xz</url>
+			<url>http://rytecepg.wanwizard.eu/azman_misc.xml.xz</url>
+			<url>http://epg.vuplus-community.net/azman_misc.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="azman.channels.xml.xz">
+			<description>Polska - IPTV</description>
+			<url>http://www.topolowa4.pl/azman_iptv.xml.xz</url>
+			<url>http://www.xmltvepg.nl/azman_iptv.xml.xz</url>
+			<url>http://rytecepg.wanwizard.eu/azman_iptv.xml.xz</url>
+			<url>http://epg.vuplus-community.net/azman_iptv.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="azman.channels.xml.xz">
+			<description>Polska - Radio</description>
+			<url>http://www.topolowa4.pl/azman_radio.xml.xz</url>
+			<url>http://www.xmltvepg.nl/azman_radio.xml.xz</url>
+			<url>http://rytecepg.wanwizard.eu/azman_radio.xml.xz</url>
+			<url>http://epg.vuplus-community.net/azman_radio.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="azman.channels.xml.xz">
+			<description>Polsat Box VOD/FAST</description>
+			<url>http://www.topolowa4.pl/azman_vod_pb.xml.xz</url>
+			<url>http://www.xmltvepg.nl/azman_vod_pb.xml.xz</url>
+			<url>http://rytecepg.wanwizard.eu/azman_vod_pb.xml.xz</url>
+			<url>http://epg.vuplus-community.net/azman_vod_pb.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="azman.channels.xml.xz">
+			<description>iTVN (Timezone)</description>
+			<url>http://www.topolowa4.pl/azman_itvn.xml.xz</url>
+			<url>http://www.xmltvepg.nl/azman_itvn.xml.xz</url>
+			<url>http://rytecepg.wanwizard.eu/azman_itvn.xml.xz</url>
+			<url>http://epg.vuplus-community.net/azman_itvn.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="azman.channels.xml.xz">
+			<description>Private Azman FAST TV</description>
+			<url>http://www.topolowa4.pl/azman_fast_tv.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" channels="azman.channels.xml.xz">
+			<description>Testy EPG</description>
+			<url>http://www.topolowa4.pl/azman_testy.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://tropical.jungle-team.online/epg/koala7.channels.xml.gz">
+			<description>Koala 7 dias - Classic XMLTV</description>
+			<url>http://tropical.jungle-team.online/epg/koala7.xml.gz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="http://tropical.jungle-team.online/epg/koala_epg.channels.xml.xz">
+			<description>Koala 15 dias XMLTV</description>
+			<url>http://tropical.jungle-team.online/epg/koala15.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-allsats.channels.xml">
+			<description>MBC EPG</description>
+			<url>/etc/epgimport/ziko_epg/mbc.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-allsats.channels.xml">
+			<description>Online4Tech osn.com — generated daily</description>
+			<url>https://raw.githubusercontent.com/online4tech/online4Tech/main/epg/guides/osn.com.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-allsats.channels.xml">
+			<description>Online4Tech beinsports.com — generated daily</description>
+			<url>https://raw.githubusercontent.com/online4tech/online4Tech/main/epg/guides/beinsports.com.xml</url>
+		</source>
+	</sourcecat>
+	<mappings>
+		<channel name="osn.channels.xml.xz" nocheck="1">
+			<url>http://raw.githubusercontent.com/MOHAMED19OS/DZ_EPG/main/osn.channels.xml.xz</url>
+		</channel>
+	</mappings>
+	<mappings>
+		<channel name="azman.channels.xml.xz">
+			<url>http://www.topolowa4.pl/azman.channels.xml.xz</url>
+			<url>http://www.xmltvepg.nl/azman.channels.xml.xz</url>
+			<url>http://rytecepg.wanwizard.eu/azman.channels.xml.xz</url>
+			<url>http://epg.vuplus-community.net/azman.channels.xml.xz</url>
+		</channel>
+	</mappings>
+</sources>

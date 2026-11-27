@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<sources>
+	<sourcecat sourcecatname="Online4Tech EPG — Nilesat English">
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-en.channels.xml">
+			<description>iptv-org OSN English — Nilesat</description>
+			<url>https://iptv-org.github.io/epg/guides/en/osn.com.epg.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-en.channels.xml">
+			<description>Online4Tech elcinema.com — generated daily</description>
+			<url>https://raw.githubusercontent.com/online4tech/online4Tech/main/epg/guides/elcinema.com.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-en.channels.xml">
+			<description>Online4Tech bein.com — generated daily</description>
+			<url>https://raw.githubusercontent.com/online4tech/online4Tech/main/epg/guides/bein.com.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="osn.channels.xml.xz">
+			<description>OSN Channels English (xz)</description>
+			<url>http://raw.githubusercontent.com/MOHAMED19OS/DZ_EPG/main/osnen.xml.xz</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-en.channels.xml">
+			<description>Online4Tech osn.com — generated daily</description>
+			<url>https://raw.githubusercontent.com/online4tech/online4Tech/main/epg/guides/osn.com.xml</url>
+		</source>
+		<source type="gen_xmltv" nocheck="1" channels="o4t-epg-nilesat-en.channels.xml">
+			<description>Online4Tech beinsports.com — generated daily</description>
+			<url>https://raw.githubusercontent.com/online4tech/online4Tech/main/epg/guides/beinsports.com.xml</url>
+		</source>
+	</sourcecat>
+	<mappings>
+		<channel name="osn.channels.xml.xz" nocheck="1">
+			<url>http://raw.githubusercontent.com/MOHAMED19OS/DZ_EPG/main/osn.channels.xml.xz</url>
+		</channel>
+	</mappings>
+</sources>
