@@ -1,7 +1,7 @@
 # قائمة تجهيز الاستيراد — KhaledAli65
 
-- وقت الإنشاء: 2026-11-26T10:54:44.858030+00:00
-- الملفات الجديدة بعد منع التكرار: 553
+- وقت الإنشاء: 2026-11-27T10:52:15.600626+00:00
+- الملفات الجديدة بعد منع التكرار: 559
 
 > القائمة لا تنشر أي ملف للموقع. ملفات النسخ الاحتياطية تحتاج فحص محتوى الأرشيف والتوافق، وملفات IPK تحتاج قراءة بيانات الحزمة والمعمارية. لا يتم تشغيل أي سكريبت أو أمر Telnet.
 
@@ -10,10 +10,10 @@
 | الحالة | العدد |
 |---|---:|
 | manual_content_review_never_execute | 19 |
-| manual_model_review | 195 |
+| manual_model_review | 196 |
 | manual_security_review_never_execute | 315 |
 | metadata_and_architecture_review_required | 3 |
-| model_matched_needs_archive_validation | 21 |
+| model_matched_needs_archive_validation | 26 |
 
 ## العناصر المرشحة
 
@@ -28,14 +28,19 @@
 | backup | manual_model_review | [Backup_image/backup_pur.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup_pur.tar.gz) | غير محدد | 1,403 bytes | KhaledAli65/Backup |
 | backup | manual_model_review | [Backup_image/backup_vix.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup_vix.tar.gz) | غير محدد | 2,470 bytes | KhaledAli65/Backup |
 | backup | model_matched_needs_archive_validation | [01_openatv-8.0.1-novaler4kse-26112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/01_openatv-8.0.1-novaler4kse-26112026.zip) | Novaler 4K | 303,128,152 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [01_openatv-8.0.1-vuuno4kse-27112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/01_openatv-8.0.1-vuuno4kse-27112026.zip) | Vu+ Uno 4K SE | 316,083,865 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [02_egami-11.0-r23-novaler4kse-26112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/02_egami-11.0-r23-novaler4kse-26112026.zip) | Novaler 4K | 277,461,631 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [02_openvix-6.9.006-vuduo4kse_13112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuduo4kse/02_openvix-6.9.006-vuduo4kse_13112026.zip) | Vu+ Duo 4K SE | 257,421,662 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [02_openvix-6.9.007-vuuno4kse_27112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/02_openvix-6.9.007-vuuno4kse_27112026.zip) | Vu+ Uno 4K SE | 257,559,289 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [03_egami-11.0-r23-vuuno4kse-01112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/03_egami-11.0-r23-vuuno4kse-01112026.zip) | Vu+ Uno 4K SE | 255,104,359 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [03_openatv-8.1.0.beta-vuduo4kse-12112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuduo4kse/03_openatv-8.1.0.beta-vuduo4kse-12112026.zip) | Vu+ Duo 4K SE | 329,602,471 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [03_openpli-9.2-release-multiboxse-26112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/03_openpli-9.2-release-multiboxse-26112026.zip) | Novaler SE | 176,799,202 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [04_egami-11.0-r23-vuduo4kse-02112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuduo4kse/04_egami-11.0-r23-vuduo4kse-02112026.zip) | Vu+ Duo 4K SE | 259,803,031 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [04_openbh-6.0.005-vuuno4kse-01112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/04_openbh-6.0.005-vuuno4kse-01112026.zip) | Vu+ Uno 4K SE | 253,712,451 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [04_openpli-scarthgap-multiboxse-26112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/04_openpli-scarthgap-multiboxse-26112026.zip) | Novaler SE | 213,615,054 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [05_openatv-8.0.1-vuduo4kse-02112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuduo4kse/05_openatv-8.0.1-vuduo4kse-02112026.zip) | Vu+ Duo 4K SE | 265,912,352 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [05_openspa-8.7.003-novalerse-10112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/05_openspa-8.7.003-novalerse-10112026.zip) | Novaler SE | 265,020,291 bytes | KhaledAli65/books |
+| backup | model_matched_needs_archive_validation | [05_PurE2-7.6_vuuno4kse-01112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuuno4kse/05_PurE2-7.6_vuuno4kse-01112026.zip) | Vu+ Uno 4K SE | 254,527,069 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [06_OpenBh-6.0-multiboxse_06112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/06_OpenBh-6.0-multiboxse_06112026.zip) | Novaler SE | 223,147,791 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [06_openbh-6.0.005-vuduo4kse-02112026.zip](https://github.com/KhaledAli65/books/releases/download/Vuduo4kse/06_openbh-6.0.005-vuduo4kse-02112026.zip) | Vu+ Duo 4K SE | 221,222,283 bytes | KhaledAli65/books |
 | backup | model_matched_needs_archive_validation | [07_OpenATV-8.1.0_beta-multiboxse_06112026.zip](https://github.com/KhaledAli65/books/releases/download/Novalerse/07_OpenATV-8.1.0_beta-multiboxse_06112026.zip) | Novaler SE | 257,229,709 bytes | KhaledAli65/books |
@@ -203,6 +208,7 @@
 | backup | manual_model_review | [BootLogoSwapper_ATV.tar.gz](https://github.com/KhaledAli65/Slot/releases/download/v1.0.0/BootLogoSwapper_ATV.tar.gz) | غير محدد | 1,057,915 bytes | KhaledAli65/Slot |
 | backup | manual_model_review | [BootLogoSwapper_Egami.tar.gz](https://github.com/KhaledAli65/Slot/releases/download/v1.0.0/BootLogoSwapper_Egami.tar.gz) | غير محدد | 1,164,214 bytes | KhaledAli65/Slot |
 | backup | manual_model_review | [BootLogoSwapper_OBH.tar.gz](https://github.com/KhaledAli65/Slot/releases/download/v1.0.0/BootLogoSwapper_OBH.tar.gz) | غير محدد | 1,044,331 bytes | KhaledAli65/Slot |
+| backup | manual_model_review | [BootLogoSwapper_PLI.tar.gz](https://github.com/KhaledAli65/Slot/releases/download/v1.0.0/BootLogoSwapper_PLI.tar.gz) | غير محدد | 1,205,880 bytes | KhaledAli65/Slot |
 | backup | manual_model_review | [BootLogoSwapper_PUR.tar.gz](https://github.com/KhaledAli65/Slot/releases/download/v1.0.0/BootLogoSwapper_PUR.tar.gz) | غير محدد | 1,398,166 bytes | KhaledAli65/Slot |
 | backup | manual_model_review | [BootLogoSwapper_SPA.tar.gz](https://github.com/KhaledAli65/Slot/releases/download/v1.0.0/BootLogoSwapper_SPA.tar.gz) | غير محدد | 1,193,653 bytes | KhaledAli65/Slot |
 | backup | manual_model_review | [BootLogoSwapper_VIX.tar.gz](https://github.com/KhaledAli65/Slot/releases/download/v1.0.0/BootLogoSwapper_VIX.tar.gz) | غير محدد | 858,290 bytes | KhaledAli65/Slot |
@@ -349,7 +355,7 @@
 | script | manual_security_review_never_execute | [PANEL-IraqiPanel.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-IraqiPanel.sh) | غير محدد | 92 bytes | KhaledAli65/Channels |
 | script | manual_security_review_never_execute | [PANEL-Levi45.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-Levi45.sh) | غير محدد | 116 bytes | KhaledAli65/Channels |
 | script | manual_security_review_never_execute | [PANEL-Levi45Addon.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-Levi45Addon.sh) | غير محدد | 114 bytes | KhaledAli65/Channels |
-| script | manual_security_review_never_execute | [PANEL-MagicPanelMax.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-MagicPanelMax.sh) | غير محدد | 14,402 bytes | KhaledAli65/Channels |
+| script | manual_security_review_never_execute | [PANEL-MagicPanelMax.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-MagicPanelMax.sh) | غير محدد | 15,882 bytes | KhaledAli65/Channels |
 | script | manual_security_review_never_execute | [PANEL-RomehPanel.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-RomehPanel.sh) | غير محدد | 2,193 bytes | KhaledAli65/Channels |
 | script | manual_security_review_never_execute | [PANEL-SkyBlue.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-SkyBlue.sh) | غير محدد | 331 bytes | KhaledAli65/Channels |
 | script | manual_security_review_never_execute | [PANEL-SmartAddon.sh](https://github.com/KhaledAli65/Channels/releases/download/Panelscript/PANEL-SmartAddon.sh) | غير محدد | 129 bytes | KhaledAli65/Channels |
