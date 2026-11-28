@@ -1,7 +1,7 @@
 # قائمة تجهيز الاستيراد — KhaledAli65
 
-- وقت الإنشاء: 2026-11-27T10:52:15.600626+00:00
-- الملفات الجديدة بعد منع التكرار: 559
+- وقت الإنشاء: 2026-11-28T10:28:14.843575+00:00
+- الملفات الجديدة بعد منع التكرار: 560
 
 > القائمة لا تنشر أي ملف للموقع. ملفات النسخ الاحتياطية تحتاج فحص محتوى الأرشيف والتوافق، وملفات IPK تحتاج قراءة بيانات الحزمة والمعمارية. لا يتم تشغيل أي سكريبت أو أمر Telnet.
 
@@ -11,7 +11,7 @@
 |---|---:|
 | manual_content_review_never_execute | 19 |
 | manual_model_review | 196 |
-| manual_security_review_never_execute | 315 |
+| manual_security_review_never_execute | 316 |
 | metadata_and_architecture_review_required | 3 |
 | model_matched_needs_archive_validation | 26 |
 
@@ -20,7 +20,7 @@
 | النوع | الحالة | الملف | الموديل | الحجم | المصدر |
 |---|---|---|---|---:|---|
 | backup | manual_model_review | [ajpanel_backup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/ajpanel_backup.tar.gz) | غير محدد | 30,648 bytes | KhaledAli65/Backup |
-| backup | manual_model_review | [Backup_image/backup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup.tar.gz) | غير محدد | 2,712 bytes | KhaledAli65/Backup |
+| backup | manual_model_review | [Backup_image/backup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup.tar.gz) | غير محدد | 6,667 bytes | KhaledAli65/Backup |
 | backup | manual_model_review | [Backup_image/backup_bh.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup_bh.tar.gz) | غير محدد | 2,097 bytes | KhaledAli65/Backup |
 | backup | manual_model_review | [Backup_image/backup_egami.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup_egami.tar.gz) | غير محدد | 1,831 bytes | KhaledAli65/Backup |
 | backup | manual_model_review | [Backup_image/backup_OpenPLI.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup_OpenPLI.tar.gz) | غير محدد | 1,805 bytes | KhaledAli65/Backup |
@@ -53,7 +53,7 @@
 | backup | manual_model_review | [15_openatv-8.0.1-novaler4kpro_recovery_emmc.zip](https://github.com/KhaledAli65/books/releases/download/Novalerpro/15_openatv-8.0.1-novaler4kpro_recovery_emmc.zip) | غير محدد | 17,152,322 bytes | KhaledAli65/books |
 | backup | manual_model_review | [RestoreBackup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/books/main/RestoreBackup.tar.gz) | غير محدد | 10,867 bytes | KhaledAli65/books |
 | backup | manual_model_review | [IPtoSAT.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/IPtoSAT.tar.gz) | غير محدد | 12,662 bytes | KhaledAli65/emu |
-| backup | manual_model_review | [khaled_fullsat.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/khaled_fullsat.tar.gz) | غير محدد | 722,366 bytes | KhaledAli65/emu |
+| backup | manual_model_review | [khaled_fullsat.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/khaled_fullsat.tar.gz) | غير محدد | 524,509 bytes | KhaledAli65/emu |
 | backup | manual_model_review | [channels.zip](https://raw.githubusercontent.com/KhaledAli65/novaler/main/channels.zip) | غير محدد | 379,047 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [Cloud_More_Panel.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/Cloud_More_Panel.tar.gz) | غير محدد | 13,022 bytes | KhaledAli65/novaler |
 | backup | model_matched_needs_archive_validation | [egami-11.0-r23-vuzero4k-25112026.zip](https://github.com/KhaledAli65/novaler/releases/download/Zero4k/egami-11.0-r23-vuzero4k-25112026.zip) | Vu+ Zero 4K | 303,366,720 bytes | KhaledAli65/novaler |
@@ -62,7 +62,7 @@
 | backup | manual_model_review | [fonts_metrix.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/fonts_metrix.tar.gz) | غير محدد | 709,914 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [hosts.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/hosts.tar.gz) | غير محدد | 596,880 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [hotkey_backup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/hotkey_backup.tar.gz) | غير محدد | 269 bytes | KhaledAli65/novaler |
-| backup | manual_model_review | [khaled_fullsat.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/khaled_fullsat.tar.gz) | غير محدد | 722,366 bytes | KhaledAli65/novaler |
+| backup | manual_model_review | [khaled_fullsat.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/khaled_fullsat.tar.gz) | غير محدد | 524,509 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [Khaled_inline_Backup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/Khaled_inline_Backup.tar.gz) | غير محدد | 11,810 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [KhaledUninstaller.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/KhaledUninstaller.tar.gz) | غير محدد | 11,702 bytes | KhaledAli65/novaler |
 | backup | manual_model_review | [metrix_poster.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/metrix_poster.tar.gz) | غير محدد | 394,837 bytes | KhaledAli65/novaler |
@@ -377,6 +377,7 @@
 | script | manual_security_review_never_execute | [PLUGIN-Bootlogo_swap_ATV.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_ATV.sh) | غير محدد | 2,606 bytes | KhaledAli65/Channels |
 | script | manual_security_review_never_execute | [PLUGIN-Bootlogo_swap_EGAMI.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_EGAMI.sh) | غير محدد | 2,608 bytes | KhaledAli65/Channels |
 | script | manual_security_review_never_execute | [PLUGIN-Bootlogo_swap_OBH.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_OBH.sh) | غير محدد | 2,606 bytes | KhaledAli65/Channels |
+| script | manual_security_review_never_execute | [PLUGIN-Bootlogo_swap_PLI.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_PLI.sh) | غير محدد | 2,606 bytes | KhaledAli65/Channels |
 | script | manual_security_review_never_execute | [PLUGIN-Bootlogo_swap_PUR.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_PUR.sh) | غير محدد | 2,606 bytes | KhaledAli65/Channels |
 | script | manual_security_review_never_execute | [PLUGIN-Bootlogo_swap_SPA.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_SPA.sh) | غير محدد | 2,606 bytes | KhaledAli65/Channels |
 | script | manual_security_review_never_execute | [PLUGIN-Bootlogo_swap_VIX.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_VIX.sh) | غير محدد | 2,606 bytes | KhaledAli65/Channels |
