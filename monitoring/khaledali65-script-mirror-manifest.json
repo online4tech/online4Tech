@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T10:52:20Z",
+  "generatedAt": "2026-11-28T10:28:17Z",
   "policy": "manual review only; never execute automatically",
   "files": [
     {
@@ -3340,6 +3340,16 @@
       "digest": "sha256:f2340afe6cd86073c1da933311eca9f979466209af0e6a884efcc564b96b1200",
       "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/f2340afe6cd8-Channels-EMU-oscam_subcam.sh",
       "mirroredAt": "2026-11-24T12:30:39Z",
+      "reviewStatus": "manual_review_never_execute"
+    },
+    {
+      "sourceUrl": "https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_PLI.sh",
+      "repository": "KhaledAli65/Channels",
+      "sourceAssetName": "PLUGIN-Bootlogo_swap_PLI.sh",
+      "size": 2606,
+      "digest": "sha256:c088414968de5d15f92925b7becb0a57b0d346583915973a6f724ee7794c26f2",
+      "downloadUrl": "https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c088414968de-Channels-PLUGIN-Bootlogo_swap_PLI.sh",
+      "mirroredAt": "2026-11-28T10:28:17Z",
       "reviewStatus": "manual_review_never_execute"
     }
   ]

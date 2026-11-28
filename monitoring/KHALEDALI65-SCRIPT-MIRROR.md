@@ -1,8 +1,8 @@
 # تقرير نقل سكريبتات وأوامر Telnet إلى Online4Tech
 
-- الملفات الجديدة المنقولة في هذه الجولة: 0
+- الملفات الجديدة المنقولة في هذه الجولة: 1
 - الملفات المرفوضة: 0
-- إجمالي الملفات في الفهرس: 334
+- إجمالي الملفات في الفهرس: 335
 
 > تم نقل الملفات النصية فقط. لم يتم تشغيل أي سكريبت. كل عنصر يظل للمراجعة اليدوية قبل إتاحته كأمر تثبيت أو تحديث.
 
@@ -155,6 +155,7 @@
 | KhaledAli65/Channels | PLUGIN-Bootlogo_swap_ATV.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/6675cefa65f8-Channels-PLUGIN-Bootlogo_swap_ATV.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | PLUGIN-Bootlogo_swap_EGAMI.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/0e4ef5f3b700-Channels-PLUGIN-Bootlogo_swap_EGAMI.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | PLUGIN-Bootlogo_swap_OBH.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/8e915feba0e1-Channels-PLUGIN-Bootlogo_swap_OBH.sh) | مراجعة يدوية مطلوبة |
+| KhaledAli65/Channels | PLUGIN-Bootlogo_swap_PLI.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/c088414968de-Channels-PLUGIN-Bootlogo_swap_PLI.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | PLUGIN-Bootlogo_swap_PUR.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4b694b9cc075-Channels-PLUGIN-Bootlogo_swap_PUR.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | PLUGIN-Bootlogo_swap_SPA.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/4ea1a32c1ec8-Channels-PLUGIN-Bootlogo_swap_SPA.sh) | مراجعة يدوية مطلوبة |
 | KhaledAli65/Channels | PLUGIN-Bootlogo_swap_VIX.sh | [فتح الملف](https://github.com/online4tech/online4Tech/releases/download/online4tech-telnet-scripts/faf99f03965d-Channels-PLUGIN-Bootlogo_swap_VIX.sh) | مراجعة يدوية مطلوبة |
