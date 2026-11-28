@@ -22,25 +22,47 @@ import sys
 import xml.etree.ElementTree as ET
 
 
+def normalize_grabbed_id(raw_id):
+    """Normalize an id from the grabber before the mapping lookup.
+
+    The grabber's output ids carry quality/region suffixes that the
+    iptv-org API (guides.json) does not list, e.g.
+    "beINSports3.qa@USA", "AlJazeeraDocumentary.qa@SD" — strip
+    everything from "@" onward (and surrounding whitespace) so the
+    bare id matches the mapping keys.
+    """
+    if raw_id is None:
+        return None
+    return raw_id.split("@", 1)[0].strip()
+
+
 def remap_file(path, mapping, out_path):
     tree = ET.parse(path)
     root = tree.getroot()
     kept_channels = 0
     dropped_channels = 0
+    seen_ids = set()
     for channel in list(root.findall("channel")):
         old_id = channel.get("id")
-        new_id = mapping.get(old_id)
+        new_id = mapping.get(normalize_grabbed_id(old_id))
         if new_id is None:
             root.remove(channel)
             dropped_channels += 1
         else:
-            channel.set("id", new_id)
-            kept_channels += 1
+            # Two grabbed channels can map to the same Online4Tech id
+            # (e.g. SD + HD feeds); keep the first, drop the duplicate.
+            if new_id in seen_ids:
+                root.remove(channel)
+                dropped_channels += 1
+            else:
+                seen_ids.add(new_id)
+                channel.set("id", new_id)
+                kept_channels += 1
     kept_programmes = 0
     dropped_programmes = 0
     for programme in list(root.findall("programme")):
         old_id = programme.get("channel")
-        new_id = mapping.get(old_id)
+        new_id = mapping.get(normalize_grabbed_id(old_id))
         if new_id is None:
             root.remove(programme)
             dropped_programmes += 1
