@@ -183,8 +183,8 @@
 <programme start="20261128183000 +0000" stop="20261128193000 +0000" channel="Al-Kass-5"><title lang="en">Arabia Football</title><category lang="en">Sports General</category></programme>
 <programme start="20261128193000 +0000" stop="20261128203000 +0000" channel="Al-Kass-5"><title lang="ar">Alhaseela</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128193000 +0000" stop="20261128203000 +0000" channel="Al-Kass-5"><title lang="en">Preview</title><category lang="en">Sports General</category></programme>
-<programme start="20261128203000 +0000" stop="20261128203000 +0000" channel="Al-Kass-5"><title lang="ar">FIBA</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128203000 +0000" stop="20261129000000 +0000" channel="Al-Kass-5"><title lang="ar">FIBA</title><category lang="ar">الرياضة العام</category></programme>
+<programme start="20261128203000 +0000" stop="20261128203000 +0000" channel="Al-Kass-5"><title lang="ar">FIBA</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128203000 +0000" stop="20261129000000 +0000" channel="Al-Kass-5"><title lang="en">FIBA World Basketball</title><category lang="en">Sports General</category></programme>
 <programme start="20261128203000 +0000" stop="20261128203000 +0000" channel="Al-Kass-5"><title lang="en">FIBA World Basketball</title><category lang="en">Sports General</category></programme>
 <programme start="20261129000000 +0000" stop="20261129050000 +0000" channel="Al-Kass-5"><title lang="ar">رالي قطر الدولي</title><category lang="ar">الرياضة العام</category></programme>
@@ -311,8 +311,8 @@
 <programme start="20261128023000 +0000" stop="20261128030000 +0000" channel="Al-Kass-1-1"><title lang="en">FIBA World Basketball</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128030000 +0000" stop="20261128033000 +0000" channel="Al-Kass-1-1"><title lang="ar">نيوز</title><category lang="ar">أخبار</category></programme>
 <programme start="20261128030000 +0000" stop="20261128043000 +0000" channel="Al-Kass-1-1"><title lang="ar">90 دقيقة</title><category lang="ar">ترفيه</category></programme>
-<programme start="20261128030000 +0000" stop="20261128043000 +0000" channel="Al-Kass-1-1"><title lang="en">Tesaon Daqiqa</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128030000 +0000" stop="20261128033000 +0000" channel="Al-Kass-1-1"><title lang="en">News</title><category lang="en">News</category></programme>
+<programme start="20261128030000 +0000" stop="20261128043000 +0000" channel="Al-Kass-1-1"><title lang="en">Tesaon Daqiqa</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128033000 +0000" stop="20261128050000 +0000" channel="Al-Kass-1-1"><title lang="ar">دوري الدرجة الثانية القطري</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128033000 +0000" stop="20261128050000 +0000" channel="Al-Kass-1-1"><title lang="en">Dawry Al Darajah Al Thanya Al Qatary</title><category lang="en">Sports General</category></programme>
 <programme start="20261128043000 +0000" stop="20261128060000 +0000" channel="Al-Kass-1-1"><title lang="ar">مهرجان قطر للإبل</title><category lang="ar">الرياضة العام</category></programme>
@@ -337,8 +337,8 @@
 <programme start="20261128093000 +0000" stop="20261128100000 +0000" channel="Al-Kass-1-1"><title lang="en">Jarayed</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128100000 +0000" stop="20261128103000 +0000" channel="Al-Kass-1-1"><title lang="ar">كينج أوف ذا كورت بيتش فوليبول تشامبيونشيب</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128100000 +0000" stop="20261128120000 +0000" channel="Al-Kass-1-1"><title lang="ar">ديربي الكويت</title><category lang="ar">الرياضة العام</category></programme>
-<programme start="20261128100000 +0000" stop="20261128120000 +0000" channel="Al-Kass-1-1"><title lang="en">Derby Al Kwuait</title><category lang="en">Sports General</category></programme>
 <programme start="20261128100000 +0000" stop="20261128103000 +0000" channel="Al-Kass-1-1"><title lang="en">King of the Court Beach Volleyball Championship</title><category lang="en">Sports General</category></programme>
+<programme start="20261128100000 +0000" stop="20261128120000 +0000" channel="Al-Kass-1-1"><title lang="en">Derby Al Kwuait</title><category lang="en">Sports General</category></programme>
 <programme start="20261128103000 +0000" stop="20261128110000 +0000" channel="Al-Kass-1-1"><title lang="ar">ذا فوتبول ريفيو</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128103000 +0000" stop="20261128110000 +0000" channel="Al-Kass-1-1"><title lang="en">The Football Review</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128110000 +0000" stop="20261128130000 +0000" channel="Al-Kass-1-1"><title lang="ar">دوري الدرجة الثانية القطري</title><category lang="ar">الرياضة العام</category></programme>
@@ -349,8 +349,8 @@
 <programme start="20261128123000 +0000" stop="20261128130000 +0000" channel="Al-Kass-1-1"><title lang="en">Al Studio Al Tahlily Lekorat Al Qadam</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128130000 +0000" stop="20261128131500 +0000" channel="Al-Kass-1-1"><title lang="ar">نيوز</title><category lang="ar">أخبار</category></programme>
 <programme start="20261128130000 +0000" stop="20261128151500 +0000" channel="Al-Kass-1-1"><title lang="ar">ديربي تونس</title><category lang="ar">الرياضة العام</category></programme>
-<programme start="20261128130000 +0000" stop="20261128151500 +0000" channel="Al-Kass-1-1"><title lang="en">Derby Tunis</title><category lang="en">Sports General</category></programme>
 <programme start="20261128130000 +0000" stop="20261128131500 +0000" channel="Al-Kass-1-1"><title lang="en">News</title><category lang="en">News</category></programme>
+<programme start="20261128130000 +0000" stop="20261128151500 +0000" channel="Al-Kass-1-1"><title lang="en">Derby Tunis</title><category lang="en">Sports General</category></programme>
 <programme start="20261128131500 +0000" stop="20261128134500 +0000" channel="Al-Kass-1-1"><title lang="ar">كينج أوف ذا كورت بيتش فوليبول تشامبيونشيب</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128131500 +0000" stop="20261128134500 +0000" channel="Al-Kass-1-1"><title lang="en">King of the Court Beach Volleyball Championship</title><category lang="en">Sports General</category></programme>
 <programme start="20261128134500 +0000" stop="20261128141500 +0000" channel="Al-Kass-1-1"><title lang="ar">سبورت كونفدينشيال</title><category lang="ar">ترفيه</category></programme>
@@ -379,8 +379,8 @@
 <programme start="20261128200000 +0000" stop="20261128203000 +0000" channel="Al-Kass-1-1"><title lang="en">Sport Confidential</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128203000 +0000" stop="20261128203000 +0000" channel="Al-Kass-1-1"><title lang="ar">كينج أوف ذا كورت بيتش فوليبول تشامبيونشيب</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128203000 +0000" stop="20261128203000 +0000" channel="Al-Kass-1-1"><title lang="ar">لايفز</title><category lang="ar">ترفيه</category></programme>
-<programme start="20261128203000 +0000" stop="20261128203000 +0000" channel="Al-Kass-1-1"><title lang="en">Lifes</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128203000 +0000" stop="20261128203000 +0000" channel="Al-Kass-1-1"><title lang="en">King of the Court Beach Volleyball Championship</title><category lang="en">Sports General</category></programme>
+<programme start="20261128203000 +0000" stop="20261128203000 +0000" channel="Al-Kass-1-1"><title lang="en">Lifes</title><category lang="en">Entertainment</category></programme>
 <programme start="20261127200000 +0000" stop="20261128021500 +0000" channel="Al-Kass-7"><title lang="ar">تخمين</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261127200000 +0000" stop="20261128021500 +0000" channel="Al-Kass-7"><title lang="en">takhmin</title><category lang="en">Sports General</category></programme>
 <programme start="20261128021500 +0000" stop="20261128031500 +0000" channel="Al-Kass-7"><title lang="ar">TINTEIN W NOSS</title><category lang="ar">الرياضة العام</category></programme>
@@ -481,8 +481,8 @@
 <programme start="20261128193000 +0000" stop="20261128200000 +0000" channel="Al-Kass-6"><title lang="en">The Inside Line</title><category lang="en">Sports General</category></programme>
 <programme start="20261128200000 +0000" stop="20261128203000 +0000" channel="Al-Kass-6"><title lang="ar">GOLMANIA</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128200000 +0000" stop="20261128203000 +0000" channel="Al-Kass-6"><title lang="en">Golmania</title><category lang="en">Sports General</category></programme>
-<programme start="20261128203000 +0000" stop="20261129020000 +0000" channel="Al-Kass-6"><title lang="ar">Beach Volleyball Championship</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128203000 +0000" stop="20261128203000 +0000" channel="Al-Kass-6"><title lang="ar">Beach Volleyball Championship</title><category lang="ar">الرياضة العام</category></programme>
+<programme start="20261128203000 +0000" stop="20261129020000 +0000" channel="Al-Kass-6"><title lang="ar">Beach Volleyball Championship</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128203000 +0000" stop="20261129020000 +0000" channel="Al-Kass-6"><title lang="en">Asian Beach Volleyball Championship</title><category lang="en">Sports General</category></programme>
 <programme start="20261128203000 +0000" stop="20261128203000 +0000" channel="Al-Kass-6"><title lang="en">Asian Beach Volleyball Championship</title><category lang="en">Sports General</category></programme>
 <programme start="20261129020000 +0000" stop="20261129023000 +0000" channel="Al-Kass-6"><title lang="ar">المرأة</title><category lang="ar">الرياضة العام</category></programme>
@@ -537,8 +537,8 @@
 <programme start="20261128050000 +0000" stop="20261128053000 +0000" channel="Al-Kass-3"><title lang="en">Botolat Al Alam Lejmal Al Khayl Al Arabyia Al Asela</title><category lang="en">Sports General</category></programme>
 <programme start="20261128053000 +0000" stop="20261128060000 +0000" channel="Al-Kass-3"><title lang="ar">جولمانيا</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128053000 +0000" stop="20261128060000 +0000" channel="Al-Kass-3"><title lang="en">Golmania</title><category lang="en">Entertainment</category></programme>
-<programme start="20261128060000 +0000" stop="20261128063000 +0000" channel="Al-Kass-3"><title lang="ar">سبورت كونفدينشيال</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128060000 +0000" stop="20261128083000 +0000" channel="Al-Kass-3"><title lang="ar">دوري الدرجة الثانية القطري</title><category lang="ar">الرياضة العام</category></programme>
+<programme start="20261128060000 +0000" stop="20261128063000 +0000" channel="Al-Kass-3"><title lang="ar">سبورت كونفدينشيال</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128060000 +0000" stop="20261128063000 +0000" channel="Al-Kass-3"><title lang="en">Sport Confidential</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128060000 +0000" stop="20261128083000 +0000" channel="Al-Kass-3"><title lang="en">Dawry Al Darajah Al Thanya Al Qatary</title><category lang="en">Sports General</category></programme>
 <programme start="20261128063000 +0000" stop="20261128070000 +0000" channel="Al-Kass-3"><title lang="ar">جولمانيا</title><category lang="ar">ترفيه</category></programme>
@@ -549,8 +549,8 @@
 <programme start="20261128080000 +0000" stop="20261128090000 +0000" channel="Al-Kass-3"><title lang="en">Al Hasila</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128083000 +0000" stop="20261128090000 +0000" channel="Al-Kass-3"><title lang="ar">فيبا وورلد باسكت بول</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128083000 +0000" stop="20261128090000 +0000" channel="Al-Kass-3"><title lang="en">FIBA World Basketball</title><category lang="en">Entertainment</category></programme>
-<programme start="20261128090000 +0000" stop="20261128120000 +0000" channel="Al-Kass-3"><title lang="ar">ديربي الكويت</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128090000 +0000" stop="20261128093000 +0000" channel="Al-Kass-3"><title lang="ar">أخبار</title><category lang="ar">أخبار</category></programme>
+<programme start="20261128090000 +0000" stop="20261128120000 +0000" channel="Al-Kass-3"><title lang="ar">ديربي الكويت</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128090000 +0000" stop="20261128120000 +0000" channel="Al-Kass-3"><title lang="en">Derby Al Kwuait</title><category lang="en">Sports General</category></programme>
 <programme start="20261128090000 +0000" stop="20261128093000 +0000" channel="Al-Kass-3"><title lang="en">Akhbar</title><category lang="en">News</category></programme>
 <programme start="20261128093000 +0000" stop="20261128100000 +0000" channel="Al-Kass-3"><title lang="ar">جرايد</title><category lang="ar">ترفيه</category></programme>
@@ -607,8 +607,8 @@
 <programme start="20261128030000 +0000" stop="20261128033000 +0000" channel="Al-Kass-2"><title lang="en">News</title><category lang="en">News</category></programme>
 <programme start="20261128033000 +0000" stop="20261128040000 +0000" channel="Al-Kass-2"><title lang="ar">ذا كونتيندرز</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128033000 +0000" stop="20261128060000 +0000" channel="Al-Kass-2"><title lang="ar">سي إتش أي الشقب إنترناشيونال إكويستريان كومبيتيشن</title><category lang="ar">الرياضة العام</category></programme>
-<programme start="20261128033000 +0000" stop="20261128040000 +0000" channel="Al-Kass-2"><title lang="en">The Contenders</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128033000 +0000" stop="20261128060000 +0000" channel="Al-Kass-2"><title lang="en">Botolat Al Shaqab Al Dawlya Lel Forosya</title><category lang="en">Sports General</category></programme>
+<programme start="20261128033000 +0000" stop="20261128040000 +0000" channel="Al-Kass-2"><title lang="en">The Contenders</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128040000 +0000" stop="20261128043000 +0000" channel="Al-Kass-2"><title lang="ar">جولمانيا</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128040000 +0000" stop="20261128043000 +0000" channel="Al-Kass-2"><title lang="en">Golmania</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128043000 +0000" stop="20261128061500 +0000" channel="Al-Kass-2"><title lang="ar">استوديو لونجين للقفز على الحواجز</title><category lang="ar">ترفيه</category></programme>
@@ -631,8 +631,8 @@
 <programme start="20261128093000 +0000" stop="20261128100000 +0000" channel="Al-Kass-2"><title lang="en">Jarayed</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128100000 +0000" stop="20261128103000 +0000" channel="Al-Kass-2"><title lang="ar">كأس سمو الأمير لكرة السلة</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128100000 +0000" stop="20261128120000 +0000" channel="Al-Kass-2"><title lang="ar">دوري نجوم قطر</title><category lang="ar">الرياضة العام</category></programme>
-<programme start="20261128100000 +0000" stop="20261128103000 +0000" channel="Al-Kass-2"><title lang="en">Ka's Somou Al Amir Le Korat Al Salla</title><category lang="en">Sports General</category></programme>
 <programme start="20261128100000 +0000" stop="20261128120000 +0000" channel="Al-Kass-2"><title lang="en">Dawry Nojom Qatar</title><category lang="en">Sports General</category></programme>
+<programme start="20261128100000 +0000" stop="20261128103000 +0000" channel="Al-Kass-2"><title lang="en">Ka's Somou Al Amir Le Korat Al Salla</title><category lang="en">Sports General</category></programme>
 <programme start="20261128103000 +0000" stop="20261128113000 +0000" channel="Al-Kass-2"><title lang="ar">دوري نجوم قطر</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128103000 +0000" stop="20261128113000 +0000" channel="Al-Kass-2"><title lang="en">Dawry Nojom Qatar</title><category lang="en">Sports General</category></programme>
 <programme start="20261128113000 +0000" stop="20261128130000 +0000" channel="Al-Kass-2"><title lang="ar">كأس سمو الأمير لكرة السلة</title><category lang="ar">الرياضة العام</category></programme>
@@ -653,8 +653,8 @@
 <programme start="20261128163000 +0000" stop="20261128170000 +0000" channel="Al-Kass-2"><title lang="en">The Football Review</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128170000 +0000" stop="20261128173000 +0000" channel="Al-Kass-2"><title lang="ar">كأس سمو الأمير لكرة السلة</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128170000 +0000" stop="20261128173000 +0000" channel="Al-Kass-2"><title lang="ar">سبورت كونفدينشيال</title><category lang="ar">ترفيه</category></programme>
-<programme start="20261128170000 +0000" stop="20261128173000 +0000" channel="Al-Kass-2"><title lang="en">Ka's Somou Al Amir Le Korat Al Salla</title><category lang="en">Sports General</category></programme>
 <programme start="20261128170000 +0000" stop="20261128173000 +0000" channel="Al-Kass-2"><title lang="en">Sport Confidential</title><category lang="en">Entertainment</category></programme>
+<programme start="20261128170000 +0000" stop="20261128173000 +0000" channel="Al-Kass-2"><title lang="en">Ka's Somou Al Amir Le Korat Al Salla</title><category lang="en">Sports General</category></programme>
 <programme start="20261128173000 +0000" stop="20261128180000 +0000" channel="Al-Kass-2"><title lang="ar">تواصل</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128173000 +0000" stop="20261128180000 +0000" channel="Al-Kass-2"><title lang="ar">تواصل</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128173000 +0000" stop="20261128180000 +0000" channel="Al-Kass-2"><title lang="en">Tawasol</title><category lang="en">Entertainment</category></programme>
@@ -665,8 +665,8 @@
 <programme start="20261128180000 +0000" stop="20261128183000 +0000" channel="Al-Kass-2"><title lang="en">News</title><category lang="en">News</category></programme>
 <programme start="20261128183000 +0000" stop="20261128190000 +0000" channel="Al-Kass-2"><title lang="ar">ذا كونتيندرز</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128183000 +0000" stop="20261128193000 +0000" channel="Al-Kass-2"><title lang="ar">دوري نجوم قطر</title><category lang="ar">الرياضة العام</category></programme>
-<programme start="20261128183000 +0000" stop="20261128190000 +0000" channel="Al-Kass-2"><title lang="en">The Contenders</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128183000 +0000" stop="20261128193000 +0000" channel="Al-Kass-2"><title lang="en">Dawry Nojom Qatar</title><category lang="en">Sports General</category></programme>
+<programme start="20261128183000 +0000" stop="20261128190000 +0000" channel="Al-Kass-2"><title lang="en">The Contenders</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128190000 +0000" stop="20261128190000 +0000" channel="Al-Kass-2"><title lang="ar">دوري الدرجة الثانية القطري</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128190000 +0000" stop="20261128190000 +0000" channel="Al-Kass-2"><title lang="en">Dawry Al Darajah Al Thanya Al Qatary</title><category lang="en">Sports General</category></programme>
 <programme start="20261128193000 +0000" stop="20261128203000 +0000" channel="Al-Kass-2"><title lang="ar">المرأة</title><category lang="ar">ترفيه</category></programme>
@@ -747,10 +747,10 @@
 <programme start="20261128163200 +0000" stop="20261128180000 +0000" channel="beIN 1 PREM"><title lang="en">The Naked Gun</title><category lang="en">Movies</category></programme>
 <programme start="20261128180000 +0000" stop="20261128194500 +0000" channel="beIN 1 PREM"><title lang="ar">الحظ السعيد</title><category lang="ar">أفلام</category></programme>
 <programme start="20261128180000 +0000" stop="20261128194500 +0000" channel="beIN 1 PREM"><title lang="en">Good Fortune</title><category lang="en">Movies</category></programme>
-<programme start="20261128194500 +0000" stop="20261128214500 +0000" channel="beIN 1 PREM"><title lang="ar">الفايكنغ الأخير</title><category lang="ar">أفلام</category></programme>
 <programme start="20261128194500 +0000" stop="20261128194500 +0000" channel="beIN 1 PREM"><title lang="ar">الفايكنغ الأخير</title><category lang="ar">أفلام</category></programme>
-<programme start="20261128194500 +0000" stop="20261128194500 +0000" channel="beIN 1 PREM"><title lang="en">The Last Viking</title><category lang="en">Movies</category></programme>
+<programme start="20261128194500 +0000" stop="20261128214500 +0000" channel="beIN 1 PREM"><title lang="ar">الفايكنغ الأخير</title><category lang="ar">أفلام</category></programme>
 <programme start="20261128194500 +0000" stop="20261128214500 +0000" channel="beIN 1 PREM"><title lang="en">The Last Viking</title><category lang="en">Movies</category></programme>
+<programme start="20261128194500 +0000" stop="20261128194500 +0000" channel="beIN 1 PREM"><title lang="en">The Last Viking</title><category lang="en">Movies</category></programme>
 <programme start="20261128214500 +0000" stop="20261128234400 +0000" channel="beIN 1 PREM"><title lang="ar">حاكم الأشرار</title><category lang="ar">أفلام</category></programme>
 <programme start="20261128214500 +0000" stop="20261128234400 +0000" channel="beIN 1 PREM"><title lang="en">Lord of Misrule</title><category lang="en">Movies</category></programme>
 <programme start="20261128234400 +0000" stop="20261129013000 +0000" channel="beIN 1 PREM"><title lang="ar">بعد 28 عامًا: معبد العظام</title><category lang="ar">أفلام</category></programme>
@@ -931,10 +931,10 @@
 <programme start="20261128154500 +0000" stop="20261128172900 +0000" channel="Bein_Movies_Family_4"><title lang="en">Monster House</title><category lang="en">Movies</category></programme>
 <programme start="20261128155700 +0000" stop="20261128172900 +0000" channel="Bein_Movies_Family_4"><title lang="ar">هل وصلنا بعد؟</title><category lang="ar">أفلام</category></programme>
 <programme start="20261128155700 +0000" stop="20261128172900 +0000" channel="Bein_Movies_Family_4"><title lang="en">Are We There Yet?</title><category lang="en">Movies</category></programme>
-<programme start="20261128172900 +0000" stop="20261128191400 +0000" channel="Bein_Movies_Family_4"><title lang="ar">بيتر الأرنب</title><category lang="ar">أفلام</category></programme>
 <programme start="20261128172900 +0000" stop="20261128192900 +0000" channel="Bein_Movies_Family_4"><title lang="ar">إي تي كائن فضائي</title><category lang="ar">أفلام</category></programme>
-<programme start="20261128172900 +0000" stop="20261128191400 +0000" channel="Bein_Movies_Family_4"><title lang="en">Peter Rabbit</title><category lang="en">Movies</category></programme>
+<programme start="20261128172900 +0000" stop="20261128191400 +0000" channel="Bein_Movies_Family_4"><title lang="ar">بيتر الأرنب</title><category lang="ar">أفلام</category></programme>
 <programme start="20261128172900 +0000" stop="20261128192900 +0000" channel="Bein_Movies_Family_4"><title lang="en">E.T. the Extra - Terrestrial</title><category lang="en">Movies</category></programme>
+<programme start="20261128172900 +0000" stop="20261128191400 +0000" channel="Bein_Movies_Family_4"><title lang="en">Peter Rabbit</title><category lang="en">Movies</category></programme>
 <programme start="20261128191400 +0000" stop="20261128204400 +0000" channel="Bein_Movies_Family_4"><title lang="ar">سبونج بوب: سبونج على اليابسة</title><category lang="ar">أفلام</category></programme>
 <programme start="20261128191400 +0000" stop="20261128204400 +0000" channel="Bein_Movies_Family_4"><title lang="en">The SpongeBob Movie: Sponge Out of Water</title><category lang="en">Movies</category></programme>
 <programme start="20261128192900 +0000" stop="20261128192900 +0000" channel="Bein_Movies_Family_4"><title lang="ar">هل إنتهينا بعد؟</title><category lang="ar">أفلام</category></programme>
@@ -1018,8 +1018,8 @@
 <programme start="20261128151500 +0000" stop="20261128183000 +0000" channel="beIN_SPORTS2_PREMIUM"><title lang="en">Zamalek (EGY) vs Club Africain (TUN) - CAF Champions League 2026/27 MD1</title><category lang="en">CAF Champions league</category></programme>
 <programme start="20261128183000 +0000" stop="20261128183000 +0000" channel="beIN_SPORTS2_PREMIUM"><title lang="ar">Raja CA (MAR) vs Asko De Kara (TGO) - CAF Confederations Cup 2026/27</title><category lang="ar">كرة قدم</category></programme>
 <programme start="20261128183000 +0000" stop="20261128213000 +0000" channel="beIN_SPORTS2_PREMIUM"><title lang="ar">Raja CA (MAR) vs Asko De Kara (TGO) - CAF Confederations Cup 2026/27</title><category lang="ar">كرة قدم</category></programme>
-<programme start="20261128183000 +0000" stop="20261128183000 +0000" channel="beIN_SPORTS2_PREMIUM"><title lang="en">Raja CA (MAR) vs Asko De Kara (TGO) - CAF Confederations Cup 2026/27</title><category lang="en">Football</category></programme>
 <programme start="20261128183000 +0000" stop="20261128213000 +0000" channel="beIN_SPORTS2_PREMIUM"><title lang="en">Raja CA (MAR) vs Asko De Kara (TGO) - CAF Confederations Cup 2026/27</title><category lang="en">Football</category></programme>
+<programme start="20261128183000 +0000" stop="20261128183000 +0000" channel="beIN_SPORTS2_PREMIUM"><title lang="en">Raja CA (MAR) vs Asko De Kara (TGO) - CAF Confederations Cup 2026/27</title><category lang="en">Football</category></programme>
 <programme start="20261128213000 +0000" stop="20261128220000 +0000" channel="beIN_SPORTS2_PREMIUM"><title lang="ar">Al Nassr vs Al Sadd - AFC Champions League Elite 2026/2027 - MD 5</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128213000 +0000" stop="20261128220000 +0000" channel="beIN_SPORTS2_PREMIUM"><title lang="en">Al Nassr vs Al Sadd - AFC Champions League Elite 2026/2027</title><category lang="en">Sports General</category></programme>
 <programme start="20261128220000 +0000" stop="20261129003000 +0000" channel="beIN_SPORTS2_PREMIUM"><title lang="ar">Orlando vs Washington - NBA Season - 2026</title><category lang="ar">الدوري الأميركي لكرة السلة</category></programme>
@@ -1080,10 +1080,10 @@
 <programme start="20261128181500 +0000" stop="20261128184500 +0000" channel="beIN_SPORTS3_PREMIUM"><title lang="en">La Liga Highlights 2026/2027 EP.13</title><category lang="en">Spanish League - Primera División</category></programme>
 <programme start="20261128184500 +0000" stop="20261128191500 +0000" channel="beIN_SPORTS3_PREMIUM"><title lang="ar">Ligue 1 Show - 2026/2027</title><category lang="ar">الدوري الفرنسي</category></programme>
 <programme start="20261128184500 +0000" stop="20261128191500 +0000" channel="beIN_SPORTS3_PREMIUM"><title lang="en">Ligue 1 Show - 2026/2027</title><category lang="en">French League - Ligue 1</category></programme>
-<programme start="20261128191500 +0000" stop="20261128223000 +0000" channel="beIN_SPORTS3_PREMIUM"><title lang="ar">PSG vs Lorient - French Ligue 1 2026/2027 - Week 12</title><category lang="ar">الدوري الفرنسي</category></programme>
 <programme start="20261128191500 +0000" stop="20261128191500 +0000" channel="beIN_SPORTS3_PREMIUM"><title lang="ar">PSG vs Lorient - French Ligue 1 2026/2027 - Week 12</title><category lang="ar">الدوري الفرنسي</category></programme>
-<programme start="20261128191500 +0000" stop="20261128223000 +0000" channel="beIN_SPORTS3_PREMIUM"><title lang="en">PSG vs Lorient - French Ligue 1 2026/2027</title><category lang="en">French League - Ligue 1</category></programme>
+<programme start="20261128191500 +0000" stop="20261128223000 +0000" channel="beIN_SPORTS3_PREMIUM"><title lang="ar">PSG vs Lorient - French Ligue 1 2026/2027 - Week 12</title><category lang="ar">الدوري الفرنسي</category></programme>
 <programme start="20261128191500 +0000" stop="20261128191500 +0000" channel="beIN_SPORTS3_PREMIUM"><title lang="en">PSG vs Lorient - French Ligue 1 2026/2027</title><category lang="en">French League - Ligue 1</category></programme>
+<programme start="20261128191500 +0000" stop="20261128223000 +0000" channel="beIN_SPORTS3_PREMIUM"><title lang="en">PSG vs Lorient - French Ligue 1 2026/2027</title><category lang="en">French League - Ligue 1</category></programme>
 <programme start="20261128223000 +0000" stop="20261129003000 +0000" channel="beIN_SPORTS3_PREMIUM"><title lang="ar">Pyramids (EGY) vs MAS De Fes (MAR) - CAF Champions League 2026/27 MD1</title><category lang="ar">دوري أبطال أفريقيا</category></programme>
 <programme start="20261128223000 +0000" stop="20261129003000 +0000" channel="beIN_SPORTS3_PREMIUM"><title lang="en">Pyramids (EGY) vs MAS De Fes (MAR) - CAF Champions League 2026/27 MD1</title><category lang="en">CAF Champions league</category></programme>
 <programme start="20261129003000 +0000" stop="20261129034500 +0000" channel="beIN_SPORTS3_PREMIUM"><title lang="ar">PSG vs Lorient - French Ligue 1 2026/2027 - Week 12</title><category lang="ar">الدوري الفرنسي</category></programme>
@@ -1242,8 +1242,8 @@
 <programme start="20261128172000 +0000" stop="20261128193500 +0000" channel="beINSPORTS5.qa"><title lang="en">Elche vs Atletico Madrid - Spanish LaLiga 2026/2027</title><category lang="en">Spanish League - Primera División</category></programme>
 <programme start="20261128193500 +0000" stop="20261128193500 +0000" channel="beINSPORTS5.qa"><title lang="ar">Le Mans vs Lille - French Ligue 1 2026/2027 - Week 12</title><category lang="ar">الدوري الفرنسي</category></programme>
 <programme start="20261128193500 +0000" stop="20261128220000 +0000" channel="beINSPORTS5.qa"><title lang="ar">Le Mans vs Lille - French Ligue 1 2026/2027 - Week 12</title><category lang="ar">الدوري الفرنسي</category></programme>
-<programme start="20261128193500 +0000" stop="20261128193500 +0000" channel="beINSPORTS5.qa"><title lang="en">Le Mans vs Lille - French Ligue 1 2026/2027</title><category lang="en">French League - Ligue 1</category></programme>
 <programme start="20261128193500 +0000" stop="20261128220000 +0000" channel="beINSPORTS5.qa"><title lang="en">Le Mans vs Lille - French Ligue 1 2026/2027</title><category lang="en">French League - Ligue 1</category></programme>
+<programme start="20261128193500 +0000" stop="20261128193500 +0000" channel="beINSPORTS5.qa"><title lang="en">Le Mans vs Lille - French Ligue 1 2026/2027</title><category lang="en">French League - Ligue 1</category></programme>
 <programme start="20261128220000 +0000" stop="20261129000000 +0000" channel="beINSPORTS5.qa"><title lang="ar">Real Betis vs Rayo Vallecano - Spanish LaLiga 2026/2027 - Week 14</title><category lang="ar">الدوري الإسباني لكرة القدم</category></programme>
 <programme start="20261128220000 +0000" stop="20261129000000 +0000" channel="beINSPORTS5.qa"><title lang="en">Real Betis vs Rayo Vallecano - Spanish LaLiga 2026/2027</title><category lang="en">Spanish League - Primera División</category></programme>
 <programme start="20261129000000 +0000" stop="20261129020000 +0000" channel="beINSPORTS5.qa"><title lang="ar">Málaga vs Athletic Bilbao - Spanish LaLiga 2026/2027 - Week 14</title><category lang="ar">الدوري الإسباني لكرة القدم</category></programme>
@@ -1298,8 +1298,8 @@
 <programme start="20261128190000 +0000" stop="20261128194500 +0000" channel="beINSPORTS6.qa"><title lang="en">EPL Stories 2026/2027 EP.19</title><category lang="en">English Premier League</category></programme>
 <programme start="20261128194500 +0000" stop="20261128220000 +0000" channel="beINSPORTS6.qa"><title lang="ar">Palmeiras (Brazil) vs Estudiantes (Argentina) - Copa Libertadores 2026 - Final</title><category lang="ar">كأس ليبرتادوريس</category></programme>
 <programme start="20261128194500 +0000" stop="20261128194500 +0000" channel="beINSPORTS6.qa"><title lang="ar">Palmeiras (Brazil) vs Estudiantes (Argentina) - Copa Libertadores 2026 - Final</title><category lang="ar">كأس ليبرتادوريس</category></programme>
-<programme start="20261128194500 +0000" stop="20261128194500 +0000" channel="beINSPORTS6.qa"><title lang="en">Palmeiras (Brazil) vs Estudiantes (Argentina) - Copa Libertadores 2026</title><category lang="en">Copa Libertadores</category></programme>
 <programme start="20261128194500 +0000" stop="20261128220000 +0000" channel="beINSPORTS6.qa"><title lang="en">Palmeiras (Brazil) vs Estudiantes (Argentina) - Copa Libertadores 2026</title><category lang="en">Copa Libertadores</category></programme>
+<programme start="20261128194500 +0000" stop="20261128194500 +0000" channel="beINSPORTS6.qa"><title lang="en">Palmeiras (Brazil) vs Estudiantes (Argentina) - Copa Libertadores 2026</title><category lang="en">Copa Libertadores</category></programme>
 <programme start="20261128220000 +0000" stop="20261129000000 +0000" channel="beINSPORTS6.qa"><title lang="ar">Preston North End vs Norwich City - EFL - English Football League SkyBet - Championship 2026/2027</title><category lang="ar">دوري البطولة الإنجليزية - الدرجة الأولى</category></programme>
 <programme start="20261128220000 +0000" stop="20261129000000 +0000" channel="beINSPORTS6.qa"><title lang="en">Preston North End vs Norwich City - EFL</title><category lang="en">English League - Championship</category></programme>
 <programme start="20261129000000 +0000" stop="20261129020000 +0000" channel="beINSPORTS6.qa"><title lang="ar">Leeds United vs Coventry City - English Premier League 2026/2027 - Week 12</title><category lang="ar">الدوري الإنجليزي الممتاز</category></programme>
@@ -1344,28 +1344,24 @@
 <programme start="20261128030000 +0000" stop="20261128050000 +0000" channel="beIN SPORTS 7"><title lang="en">Match 1 - Asia</title><category lang="en">Sports General</category></programme>
 <programme start="20261128032100 +0000" stop="20261128050000 +0000" channel="beIN SPORTS 7"><title lang="ar">Asia-Pacific Wildcard Play Off - Australian Open 2026 - Men’s Double Final - Kaito Uesugi (JPN) / Ta</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128032100 +0000" stop="20261128050000 +0000" channel="beIN SPORTS 7"><title lang="en">Asia - Pacific Wildcard Play Off</title><category lang="en">Sports General</category></programme>
+<programme start="20261128050000 +0000" stop="20261128074000 +0000" channel="beIN SPORTS 7"><title lang="ar">Match 1 - Asia-Pacific Wildcard Play Off - Australian Open 2026</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128050000 +0000" stop="20261128060000 +0000" channel="beIN SPORTS 7"><title lang="ar">Eight Flags and one Passion</title><category lang="ar">الرياضة العام</category></programme>
-<programme start="20261128050000 +0000" stop="20261128070000 +0000" channel="beIN SPORTS 7"><title lang="ar">Match 1 - Asia-Pacific Wildcard Play Off - Australian Open 2026</title><category lang="ar">الرياضة العام</category></programme>
-<programme start="20261128050000 +0000" stop="20261128070000 +0000" channel="beIN SPORTS 7"><title lang="en">Match 1 - Asia</title><category lang="en">Sports General</category></programme>
+<programme start="20261128050000 +0000" stop="20261128074000 +0000" channel="beIN SPORTS 7"><title lang="en">Match 1 - Asia</title><category lang="en">Sports General</category></programme>
 <programme start="20261128050000 +0000" stop="20261128060000 +0000" channel="beIN SPORTS 7"><title lang="en">Eight Flags and one Passion</title><category lang="en">Sports General</category></programme>
 <programme start="20261128060000 +0000" stop="20261128090000 +0000" channel="beIN SPORTS 7"><title lang="ar">Syria vs New Zealand - FIBA Asian Qualifiers - 2027</title><category lang="ar">كرة السلة</category></programme>
 <programme start="20261128060000 +0000" stop="20261128090000 +0000" channel="beIN SPORTS 7"><title lang="en">Syria vs New Zealand - FIBA Asian Qualifiers</title><category lang="en">Basketball</category></programme>
-<programme start="20261128070000 +0000" stop="20261128090000 +0000" channel="beIN SPORTS 7"><title lang="ar">Match 2 - Asia-Pacific Wildcard Play Off - Australian Open 2026</title><category lang="ar">الرياضة العام</category></programme>
-<programme start="20261128070000 +0000" stop="20261128090000 +0000" channel="beIN SPORTS 7"><title lang="en">Match 2 - Asia</title><category lang="en">Sports General</category></programme>
+<programme start="20261128074000 +0000" stop="20261128103000 +0000" channel="beIN SPORTS 7"><title lang="ar">Match 2 - Asia-Pacific Wildcard Play Off - Australian Open 2026</title><category lang="ar">الرياضة العام</category></programme>
+<programme start="20261128074000 +0000" stop="20261128103000 +0000" channel="beIN SPORTS 7"><title lang="en">Match 2 - Asia</title><category lang="en">Sports General</category></programme>
 <programme start="20261128090000 +0000" stop="20261128110000 +0000" channel="beIN SPORTS 7"><title lang="ar">Iran vs Philippines - FIBA Asian Qualifiers - 2027</title><category lang="ar">كرة السلة</category></programme>
-<programme start="20261128090000 +0000" stop="20261128100000 +0000" channel="beIN SPORTS 7"><title lang="ar">Eight Flags and one Passion</title><category lang="ar">الرياضة العام</category></programme>
-<programme start="20261128090000 +0000" stop="20261128100000 +0000" channel="beIN SPORTS 7"><title lang="en">Eight Flags and one Passion</title><category lang="en">Sports General</category></programme>
 <programme start="20261128090000 +0000" stop="20261128110000 +0000" channel="beIN SPORTS 7"><title lang="en">Iran vs Philippines - FIBA Asian Qualifiers</title><category lang="en">Basketball</category></programme>
-<programme start="20261128100000 +0000" stop="20261128103000 +0000" channel="beIN SPORTS 7"><title lang="ar">ATP Tour - Magazine 2026</title><category lang="ar">الرياضة العام</category></programme>
-<programme start="20261128100000 +0000" stop="20261128103000 +0000" channel="beIN SPORTS 7"><title lang="en">ATP Tour - Magazine 2026</title><category lang="en">Sports General</category></programme>
 <programme start="20261128103000 +0000" stop="20261128110000 +0000" channel="beIN SPORTS 7"><title lang="ar">NBA Action 2026/2027</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128103000 +0000" stop="20261128110000 +0000" channel="beIN SPORTS 7"><title lang="en">NBA Action 2026/2027</title><category lang="en">Sports General</category></programme>
-<programme start="20261128110000 +0000" stop="20261128130000 +0000" channel="beIN SPORTS 7"><title lang="ar">Match 2 - Asia-Pacific Wildcard Play Off - Australian Open 2026</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128110000 +0000" stop="20261128130000 +0000" channel="beIN SPORTS 7"><title lang="ar">Great Britain vs Spain - SF2 - Davis Cup Final 8 - 2026</title><category lang="ar">الرياضة العام</category></programme>
+<programme start="20261128110000 +0000" stop="20261128130000 +0000" channel="beIN SPORTS 7"><title lang="ar">Match 2 - Asia-Pacific Wildcard Play Off - Australian Open 2026</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128110000 +0000" stop="20261128130000 +0000" channel="beIN SPORTS 7"><title lang="en">Great Britain vs Spain - SF2</title><category lang="en">Sports General</category></programme>
 <programme start="20261128110000 +0000" stop="20261128130000 +0000" channel="beIN SPORTS 7"><title lang="en">Match 2 - Asia</title><category lang="en">Sports General</category></programme>
-<programme start="20261128130000 +0000" stop="20261128133000 +0000" channel="beIN SPORTS 7"><title lang="ar">ATP Tour - Magazine 2026</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128130000 +0000" stop="20261128150000 +0000" channel="beIN SPORTS 7"><title lang="ar">Great Britain vs Spain - SF2 - Davis Cup Final 8 - 2026</title><category lang="ar">الرياضة العام</category></programme>
+<programme start="20261128130000 +0000" stop="20261128133000 +0000" channel="beIN SPORTS 7"><title lang="ar">ATP Tour - Magazine 2026</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128130000 +0000" stop="20261128150000 +0000" channel="beIN SPORTS 7"><title lang="en">Great Britain vs Spain - SF2</title><category lang="en">Sports General</category></programme>
 <programme start="20261128130000 +0000" stop="20261128133000 +0000" channel="beIN SPORTS 7"><title lang="en">ATP Tour - Magazine 2026</title><category lang="en">Sports General</category></programme>
 <programme start="20261128133000 +0000" stop="20261128140000 +0000" channel="beIN SPORTS 7"><title lang="ar">NBA Action 2026/2027</title><category lang="ar">الرياضة العام</category></programme>
@@ -1490,8 +1486,8 @@
 <programme start="20261128183000 +0000" stop="20261128193500 +0000" channel="beINSPORTS9.qa"><title lang="en">HL – csi5* - Grand Prix Final</title><category lang="en">Equestrian</category></programme>
 <programme start="20261128193500 +0000" stop="20261128193500 +0000" channel="beINSPORTS9.qa"><title lang="ar">Nice vs Troyes - French Ligue 1 2026/2027 - Week 12</title><category lang="ar">الدوري الفرنسي</category></programme>
 <programme start="20261128193500 +0000" stop="20261128220000 +0000" channel="beINSPORTS9.qa"><title lang="ar">Nice vs Troyes - French Ligue 1 2026/2027 - Week 12</title><category lang="ar">الدوري الفرنسي</category></programme>
-<programme start="20261128193500 +0000" stop="20261128220000 +0000" channel="beINSPORTS9.qa"><title lang="en">Nice vs Troyes - French Ligue 1 2026/2027</title><category lang="en">French League - Ligue 1</category></programme>
 <programme start="20261128193500 +0000" stop="20261128193500 +0000" channel="beINSPORTS9.qa"><title lang="en">Nice vs Troyes - French Ligue 1 2026/2027</title><category lang="en">French League - Ligue 1</category></programme>
+<programme start="20261128193500 +0000" stop="20261128220000 +0000" channel="beINSPORTS9.qa"><title lang="en">Nice vs Troyes - French Ligue 1 2026/2027</title><category lang="en">French League - Ligue 1</category></programme>
 <programme start="20261128220000 +0000" stop="20261128233000 +0000" channel="beINSPORTS9.qa"><title lang="ar">Premier Padel - Mexico Major 2026 - SF1</title><category lang="ar">باديل</category></programme>
 <programme start="20261128220000 +0000" stop="20261128233000 +0000" channel="beINSPORTS9.qa"><title lang="en">Premier Padel - Mexico Major 2026</title><category lang="en">Padel</category></programme>
 <programme start="20261128233000 +0000" stop="20261129010000 +0000" channel="beINSPORTS9.qa"><title lang="ar">Premier Padel - Mexico Major 2026 - SF2</title><category lang="ar">باديل</category></programme>
@@ -1506,12 +1502,12 @@
 <programme start="20261129043000 +0000" stop="20261129061500 +0000" channel="beINSPORTS9.qa"><title lang="en">Longines Global Champions Tour - Cannes Jumping</title><category lang="en">Equestrian</category></programme>
 <programme start="20261129061500 +0000" stop="20261129072000 +0000" channel="beINSPORTS9.qa"><title lang="ar">Longines Global Champions Tour - Cannes Jumping - Round 2 Competition Team</title><category lang="ar">الفروسية</category></programme>
 <programme start="20261129061500 +0000" stop="20261129072000 +0000" channel="beINSPORTS9.qa"><title lang="en">Longines Global Champions Tour - Cannes Jumping</title><category lang="en">Equestrian</category></programme>
-<programme start="20261129072000 +0000" stop="20261129093000 +0000" channel="beINSPORTS9.qa"><title lang="ar">Longines Global Champions Tour - Cannes Jumping - Against The Clock With Jump Off</title><category lang="ar">الفروسية</category></programme>
-<programme start="20261129072000 +0000" stop="20261129093000 +0000" channel="beINSPORTS9.qa"><title lang="en">Longines Global Champions Tour - Cannes Jumping</title><category lang="en">Equestrian</category></programme>
-<programme start="20261129093000 +0000" stop="20261129113000 +0000" channel="beINSPORTS9.qa"><title lang="ar">Longines Global Champions Tour - Cannes Jumping - Grand Prix</title><category lang="ar">الفروسية</category></programme>
-<programme start="20261129093000 +0000" stop="20261129113000 +0000" channel="beINSPORTS9.qa"><title lang="en">Longines Global Champions Tour - Cannes Jumping</title><category lang="en">Equestrian</category></programme>
-<programme start="20261129113000 +0000" stop="20261129120000 +0000" channel="beINSPORTS9.qa"><title lang="ar">HL H.H.the Father Amirs prix 2026– Jump – Off 1.50 – Week 4</title><category lang="ar">الفروسية</category></programme>
-<programme start="20261129113000 +0000" stop="20261129120000 +0000" channel="beINSPORTS9.qa"><title lang="en">HL H.H.the Father Amirs prix 2026– Jump – Off 1.50 – Week 4</title><category lang="en">Equestrian</category></programme>
+<programme start="20261129072000 +0000" stop="20261129093100 +0000" channel="beINSPORTS9.qa"><title lang="ar">Longines Global Champions Tour - Cannes Jumping - Against The Clock With Jump Off</title><category lang="ar">الفروسية</category></programme>
+<programme start="20261129072000 +0000" stop="20261129093100 +0000" channel="beINSPORTS9.qa"><title lang="en">Longines Global Champions Tour - Cannes Jumping</title><category lang="en">Equestrian</category></programme>
+<programme start="20261129093100 +0000" stop="20261129113200 +0000" channel="beINSPORTS9.qa"><title lang="ar">Longines Global Champions Tour - Cannes Jumping - Grand Prix</title><category lang="ar">الفروسية</category></programme>
+<programme start="20261129093100 +0000" stop="20261129113200 +0000" channel="beINSPORTS9.qa"><title lang="en">Longines Global Champions Tour - Cannes Jumping</title><category lang="en">Equestrian</category></programme>
+<programme start="20261129113200 +0000" stop="20261129120000 +0000" channel="beINSPORTS9.qa"><title lang="ar">HL H.H.the Father Amirs prix 2026– Jump – Off 1.50 – Week 4</title><category lang="ar">الفروسية</category></programme>
+<programme start="20261129113200 +0000" stop="20261129120000 +0000" channel="beINSPORTS9.qa"><title lang="en">HL H.H.the Father Amirs prix 2026– Jump – Off 1.50 – Week 4</title><category lang="en">Equestrian</category></programme>
 <programme start="20261129120000 +0000" stop="20261129135000 +0000" channel="beINSPORTS9.qa"><title lang="ar">Jordan vs Australia - FIBA Asian Qualifiers - 2027</title><category lang="ar">كرة السلة</category></programme>
 <programme start="20261129120000 +0000" stop="20261129135000 +0000" channel="beINSPORTS9.qa"><title lang="en">Jordan vs Australia - FIBA Asian Qualifiers</title><category lang="en">Basketball</category></programme>
 <programme start="20261129135000 +0000" stop="20261129160000 +0000" channel="beINSPORTS9.qa"><title lang="ar">Auxerre vs Marseille - French Ligue 1 2026/2027 - Week 12</title><category lang="ar">الدوري الفرنسي</category></programme>
@@ -1770,10 +1766,10 @@
 <programme start="20261128020000 +0000" stop="20261128023000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Sport Confidential</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128021500 +0000" stop="20261128023000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">أهداف</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128021500 +0000" stop="20261128023000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Ahdaf</title><category lang="en">Entertainment</category></programme>
-<programme start="20261128023000 +0000" stop="20261128041500 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">ديربي تونس</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128023000 +0000" stop="20261128033000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">الحصيلة</title><category lang="ar">ترفيه</category></programme>
-<programme start="20261128023000 +0000" stop="20261128041500 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Derby Tunis</title><category lang="en">Sports General</category></programme>
+<programme start="20261128023000 +0000" stop="20261128041500 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">ديربي تونس</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128023000 +0000" stop="20261128033000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Al Hasila</title><category lang="en">Entertainment</category></programme>
+<programme start="20261128023000 +0000" stop="20261128041500 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Derby Tunis</title><category lang="en">Sports General</category></programme>
 <programme start="20261128033000 +0000" stop="20261128063000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">ديربي الكويت</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128033000 +0000" stop="20261128063000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Derby Al Kwuait</title><category lang="en">Sports General</category></programme>
 <programme start="20261128041500 +0000" stop="20261128043000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">أوتو مونديال</title><category lang="ar">ترفيه</category></programme>
@@ -1800,28 +1796,28 @@
 <programme start="20261128093000 +0000" stop="20261128100000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">جرايد</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128093000 +0000" stop="20261128100000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Jarayed</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128093000 +0000" stop="20261128100000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Jarayed</title><category lang="en">Entertainment</category></programme>
-<programme start="20261128100000 +0000" stop="20261128103000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">تواصل</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128100000 +0000" stop="20261128113000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">الحكم</title><category lang="ar">ترفيه</category></programme>
-<programme start="20261128100000 +0000" stop="20261128103000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Tawasol</title><category lang="en">Entertainment</category></programme>
+<programme start="20261128100000 +0000" stop="20261128103000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">تواصل</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128100000 +0000" stop="20261128113000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Al Hakam</title><category lang="en">Entertainment</category></programme>
+<programme start="20261128100000 +0000" stop="20261128103000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Tawasol</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128103000 +0000" stop="20261128110000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">كينج أوف ذا كورت بيتش فوليبول تشامبيونشيب</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128103000 +0000" stop="20261128110000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">King of the Court Beach Volleyball Championship</title><category lang="en">Sports General</category></programme>
 <programme start="20261128110000 +0000" stop="20261128113000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">جولمانيا</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128110000 +0000" stop="20261128113000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Golmania</title><category lang="en">Entertainment</category></programme>
-<programme start="20261128113000 +0000" stop="20261128123000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">ثنتين ونص</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128113000 +0000" stop="20261128130000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">ثنتين ونص</title><category lang="ar">ترفيه</category></programme>
-<programme start="20261128113000 +0000" stop="20261128123000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Thenteen Wa Nos</title><category lang="en">Entertainment</category></programme>
+<programme start="20261128113000 +0000" stop="20261128123000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">ثنتين ونص</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128113000 +0000" stop="20261128130000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Thenteen Wa Nos</title><category lang="en">Entertainment</category></programme>
+<programme start="20261128113000 +0000" stop="20261128123000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Thenteen Wa Nos</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128123000 +0000" stop="20261128130000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">ذي إنسايد لاين</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128123000 +0000" stop="20261128130000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">The Inside Line</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128130000 +0000" stop="20261128131500 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">نيوز</title><category lang="ar">أخبار</category></programme>
 <programme start="20261128130000 +0000" stop="20261128131500 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">نيوز</title><category lang="ar">أخبار</category></programme>
 <programme start="20261128130000 +0000" stop="20261128131500 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">News</title><category lang="en">News</category></programme>
 <programme start="20261128130000 +0000" stop="20261128131500 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">News</title><category lang="en">News</category></programme>
-<programme start="20261128131500 +0000" stop="20261128133000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">الإستوديو التحليلي لكرة القدم</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128131500 +0000" stop="20261128134500 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">جولمانيا</title><category lang="ar">ترفيه</category></programme>
-<programme start="20261128131500 +0000" stop="20261128133000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Al Studio Al Tahlily Lekorat Al Qadam</title><category lang="en">Entertainment</category></programme>
+<programme start="20261128131500 +0000" stop="20261128133000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">الإستوديو التحليلي لكرة القدم</title><category lang="ar">ترفيه</category></programme>
 <programme start="20261128131500 +0000" stop="20261128134500 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Golmania</title><category lang="en">Entertainment</category></programme>
+<programme start="20261128131500 +0000" stop="20261128133000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Al Studio Al Tahlily Lekorat Al Qadam</title><category lang="en">Entertainment</category></programme>
 <programme start="20261128133000 +0000" stop="20261128160000 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">دوري نجوم قطر</title><category lang="ar">الرياضة العام</category></programme>
 <programme start="20261128133000 +0000" stop="20261128160000 +0000" channel="beINSPORTSMAX6.qa"><title lang="en">Dawry Nojom Qatar</title><category lang="en">Sports General</category></programme>
 <programme start="20261128134500 +0000" stop="20261128144500 +0000" channel="beINSPORTSMAX6.qa"><title lang="ar">إيجان بيتش فوليبول تشامبيونشيب</title><category lang="ar">الرياضة العام</category></programme>
@@ -4116,8 +4112,8 @@
 <programme start="20261128204500 +0000" stop="20261128204500 +0000" channel="Jeem-HD-01"><title lang="ar">أخبار أفريقيا</title><category lang="ar">أخبار</category></programme>
 <programme start="20261128204900 +0000" stop="20261128205500 +0000" channel="Jeem-HD-01"><title lang="en">Cuddlies - Tomato Patch</title><category lang="en">Kids</category></programme>
 <programme start="20261128205500 +0000" stop="20261128205900 +0000" channel="Jeem-HD-01"><title lang="en">Close your Eyes - Sleepy Time</title><category lang="en">Kids</category></programme>
-<programme start="20261128205900 +0000" stop="20261128210300 +0000" channel="Jeem-HD-01"><title lang="en">Close your Eyes - Full Moon</title><category lang="en">Kids</category></programme>
 <programme start="20261128205900 +0000" stop="20261128205900 +0000" channel="Jeem-HD-01"><title lang="en">Close your Eyes - Full Moon</title><category lang="en">Kids</category></programme>
+<programme start="20261128205900 +0000" stop="20261128210300 +0000" channel="Jeem-HD-01"><title lang="en">Close your Eyes - Full Moon</title><category lang="en">Kids</category></programme>
 <programme start="20261128210300 +0000" stop="20261128210600 +0000" channel="Jeem-HD-01"><title lang="en">Close your Eyes - Twinkling Stars</title><category lang="en">Kids</category></programme>
 <programme start="20261128210600 +0000" stop="20261128210900 +0000" channel="Jeem-HD-01"><title lang="en">Close your Eyes - Time for Bed 2</title><category lang="en">Kids</category></programme>
 <programme start="20261128210900 +0000" stop="20261128211300 +0000" channel="Jeem-HD-01"><title lang="en">Close your Eyes - Relaxing Time 2</title><category lang="en">Kids</category></programme>
@@ -4760,8 +4756,8 @@
 <programme start="20261128143000 +0000" stop="20261128173000 +0000" channel="beIN SPORTS 1 EN.qa"><title lang="en">Manchester United vs Brentford - English Premier League 2026/2027</title><category lang="en">English Premier League</category></programme>
 <programme start="20261128173000 +0000" stop="20261128200000 +0000" channel="beIN SPORTS 1 EN.qa"><title lang="ar">Ipswich Town vs Aston Villa - English Premier League 2026/2027 - Week 12</title><category lang="ar">الدوري الإنجليزي الممتاز</category></programme>
 <programme start="20261128173000 +0000" stop="20261128200000 +0000" channel="beIN SPORTS 1 EN.qa"><title lang="en">Ipswich Town vs Aston Villa - English Premier League 2026/2027</title><category lang="en">English Premier League</category></programme>
-<programme start="20261128200000 +0000" stop="20261128200000 +0000" channel="beIN SPORTS 1 EN.qa"><title lang="ar">Real Madrid vs Alavés - Spanish LaLiga 2026/2027 - Week 14</title><category lang="ar">الدوري الإسباني لكرة القدم</category></programme>
 <programme start="20261128200000 +0000" stop="20261128223000 +0000" channel="beIN SPORTS 1 EN.qa"><title lang="ar">Real Madrid vs Alavés - Spanish LaLiga 2026/2027 - Week 14</title><category lang="ar">الدوري الإسباني لكرة القدم</category></programme>
+<programme start="20261128200000 +0000" stop="20261128200000 +0000" channel="beIN SPORTS 1 EN.qa"><title lang="ar">Real Madrid vs Alavés - Spanish LaLiga 2026/2027 - Week 14</title><category lang="ar">الدوري الإسباني لكرة القدم</category></programme>
 <programme start="20261128200000 +0000" stop="20261128200000 +0000" channel="beIN SPORTS 1 EN.qa"><title lang="en">Real Madrid vs Alavés - Spanish LaLiga 2026/2027</title><category lang="en">Spanish League - Primera División</category></programme>
 <programme start="20261128200000 +0000" stop="20261128223000 +0000" channel="beIN SPORTS 1 EN.qa"><title lang="en">Real Madrid vs Alavés - Spanish LaLiga 2026/2027</title><category lang="en">Spanish League - Primera División</category></programme>
 <programme start="20261128223000 +0000" stop="20261128230000 +0000" channel="beIN SPORTS 1 EN.qa"><title lang="ar">Manchester City vs Napoli - UEFA Champions League MD5</title><category lang="ar">دوري أبطال أوروبا لكرة القدم</category></programme>
