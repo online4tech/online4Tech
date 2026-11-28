@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27T10:51:45.195874+00:00",
+  "generated_at": "2026-11-28T10:27:43.457294+00:00",
   "owner": "KhaledAli65",
   "repositories_scanned": 11,
-  "matching_release_assets": 803,
+  "matching_release_assets": 804,
   "assets": [
     {
       "repository": "KhaledAli65/Backup",
@@ -37,7 +37,7 @@
       "release_url": "",
       "published_at": "",
       "asset": "Backup_image/backup.tar.gz",
-      "size": 2712,
+      "size": 6667,
       "download_url": "https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup.tar.gz",
       "content_type": "repository_file",
       "source_type": "repository_file",
@@ -2744,6 +2744,18 @@
       "release": "Pluginscript",
       "release_url": "https://github.com/KhaledAli65/Channels/releases/tag/Pluginscript",
       "published_at": "2026-09-18T03:17:50Z",
+      "asset": "PLUGIN-Bootlogo_swap_PLI.sh",
+      "size": 2606,
+      "download_url": "https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_PLI.sh",
+      "content_type": "text/x-sh",
+      "source_type": "release_asset"
+    },
+    {
+      "repository": "KhaledAli65/Channels",
+      "repository_url": "https://github.com/KhaledAli65/Channels",
+      "release": "Pluginscript",
+      "release_url": "https://github.com/KhaledAli65/Channels/releases/tag/Pluginscript",
+      "published_at": "2026-09-18T03:17:50Z",
       "asset": "PLUGIN-Bootlogo_swap_PUR.sh",
       "size": 2606,
       "download_url": "https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_PUR.sh",
@@ -5120,7 +5132,7 @@
       "release_url": "https://github.com/KhaledAli65/emu/releases/tag/Emu",
       "published_at": "2026-07-20T05:20:01Z",
       "asset": "khaled_fullsat.tar.gz",
-      "size": 722366,
+      "size": 524509,
       "download_url": "https://github.com/KhaledAli65/emu/releases/download/Emu/khaled_fullsat.tar.gz",
       "content_type": "application/octet-stream",
       "source_type": "release_asset"
@@ -5274,7 +5286,7 @@
       "release_url": "",
       "published_at": "",
       "asset": "khaled_fullsat.tar.gz",
-      "size": 722366,
+      "size": 524509,
       "download_url": "https://raw.githubusercontent.com/KhaledAli65/novaler/main/khaled_fullsat.tar.gz",
       "content_type": "repository_file",
       "source_type": "repository_file",

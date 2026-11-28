@@ -1,8 +1,8 @@
 # تقرير مراقبة مستودعات KhaledAli65
 
-- آخر فحص: 2026-11-27T10:51:45.195874+00:00
+- آخر فحص: 2026-11-28T10:27:43.457294+00:00
 - المستودعات العامة المفحوصة: 11
-- الملفات المطابقة في الإصدارات: 803
+- الملفات المطابقة في الإصدارات: 804
 - أخطاء الفحص: 0
 
 > هذا الفحص يرصد الملفات فقط. لا يتم تنفيذ ملفات SH أو أوامر Telnet، ولا تُنشر ملفات IPK أو الصور أو النسخ الاحتياطية تلقائيًا قبل فحص التوافق والتصنيف.
@@ -13,7 +13,7 @@
 |---|---|---|---:|
 | [KhaledAli65/Backup](https://github.com/KhaledAli65/Backup) | []() | [ajpanel_backup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/ajpanel_backup.tar.gz) | 30,648 bytes |
 | [KhaledAli65/Backup](https://github.com/KhaledAli65/Backup) | []() | [backup-se.txt](https://raw.githubusercontent.com/KhaledAli65/Backup/main/backup-se.txt) | 3,515 bytes |
-| [KhaledAli65/Backup](https://github.com/KhaledAli65/Backup) | []() | [Backup_image/backup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup.tar.gz) | 2,712 bytes |
+| [KhaledAli65/Backup](https://github.com/KhaledAli65/Backup) | []() | [Backup_image/backup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup.tar.gz) | 6,667 bytes |
 | [KhaledAli65/Backup](https://github.com/KhaledAli65/Backup) | []() | [Backup_image/backup_bh.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup_bh.tar.gz) | 2,097 bytes |
 | [KhaledAli65/Backup](https://github.com/KhaledAli65/Backup) | []() | [Backup_image/backup_egami.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup_egami.tar.gz) | 1,831 bytes |
 | [KhaledAli65/Backup](https://github.com/KhaledAli65/Backup) | []() | [Backup_image/backup_OpenPLI.tar.gz](https://raw.githubusercontent.com/KhaledAli65/Backup/main/Backup_image/backup_OpenPLI.tar.gz) | 1,805 bytes |
@@ -232,6 +232,7 @@
 | [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Pluginscript](https://github.com/KhaledAli65/Channels/releases/tag/Pluginscript) | [PLUGIN-Bootlogo_swap_ATV.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_ATV.sh) | 2,606 bytes |
 | [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Pluginscript](https://github.com/KhaledAli65/Channels/releases/tag/Pluginscript) | [PLUGIN-Bootlogo_swap_EGAMI.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_EGAMI.sh) | 2,608 bytes |
 | [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Pluginscript](https://github.com/KhaledAli65/Channels/releases/tag/Pluginscript) | [PLUGIN-Bootlogo_swap_OBH.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_OBH.sh) | 2,606 bytes |
+| [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Pluginscript](https://github.com/KhaledAli65/Channels/releases/tag/Pluginscript) | [PLUGIN-Bootlogo_swap_PLI.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_PLI.sh) | 2,606 bytes |
 | [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Pluginscript](https://github.com/KhaledAli65/Channels/releases/tag/Pluginscript) | [PLUGIN-Bootlogo_swap_PUR.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_PUR.sh) | 2,606 bytes |
 | [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Pluginscript](https://github.com/KhaledAli65/Channels/releases/tag/Pluginscript) | [PLUGIN-Bootlogo_swap_SPA.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_SPA.sh) | 2,606 bytes |
 | [KhaledAli65/Channels](https://github.com/KhaledAli65/Channels) | [Pluginscript](https://github.com/KhaledAli65/Channels/releases/tag/Pluginscript) | [PLUGIN-Bootlogo_swap_VIX.sh](https://github.com/KhaledAli65/Channels/releases/download/Pluginscript/PLUGIN-Bootlogo_swap_VIX.sh) | 2,606 bytes |
@@ -429,7 +430,7 @@
 | [KhaledAli65/emu](https://github.com/KhaledAli65/emu) | [Emu](https://github.com/KhaledAli65/emu/releases/tag/Emu) | [enigma2-plugin-softcams-ultracam-oscam_11991-emu-r802_all.ipk](https://github.com/KhaledAli65/emu/releases/download/Emu/enigma2-plugin-softcams-ultracam-oscam_11991-emu-r802_all.ipk) | 985,442 bytes |
 | [KhaledAli65/emu](https://github.com/KhaledAli65/emu) | [Emu](https://github.com/KhaledAli65/emu/releases/tag/Emu) | [enigma2-softcams-cccam.ipk](https://github.com/KhaledAli65/emu/releases/download/Emu/enigma2-softcams-cccam.ipk) | 1,412,832 bytes |
 | [KhaledAli65/emu](https://github.com/KhaledAli65/emu) | [Emu](https://github.com/KhaledAli65/emu/releases/tag/Emu) | [IPtoSAT.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/IPtoSAT.tar.gz) | 12,662 bytes |
-| [KhaledAli65/emu](https://github.com/KhaledAli65/emu) | [Emu](https://github.com/KhaledAli65/emu/releases/tag/Emu) | [khaled_fullsat.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/khaled_fullsat.tar.gz) | 722,366 bytes |
+| [KhaledAli65/emu](https://github.com/KhaledAli65/emu) | [Emu](https://github.com/KhaledAli65/emu/releases/tag/Emu) | [khaled_fullsat.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/khaled_fullsat.tar.gz) | 524,509 bytes |
 | [KhaledAli65/emu](https://github.com/KhaledAli65/emu) | [Emu](https://github.com/KhaledAli65/emu/releases/tag/Emu) | [picon.tar.gz](https://github.com/KhaledAli65/emu/releases/download/Emu/picon.tar.gz) | 23,439,567 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [channels.zip](https://raw.githubusercontent.com/KhaledAli65/novaler/main/channels.zip) | 379,047 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [Cloud_More_Panel.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/Cloud_More_Panel.tar.gz) | 13,022 bytes |
@@ -441,7 +442,7 @@
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [install.sh](https://raw.githubusercontent.com/KhaledAli65/novaler/main/install.sh) | 2,113 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [ipaudiopro.ipk](https://raw.githubusercontent.com/KhaledAli65/novaler/main/ipaudiopro.ipk) | 723,452 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [iptosat.json](https://raw.githubusercontent.com/KhaledAli65/novaler/main/iptosat.json) | 5,974 bytes |
-| [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [khaled_fullsat.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/khaled_fullsat.tar.gz) | 722,366 bytes |
+| [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [khaled_fullsat.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/khaled_fullsat.tar.gz) | 524,509 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [Khaled_inline_Backup.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/Khaled_inline_Backup.tar.gz) | 11,810 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [KhaledUninstaller.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/KhaledUninstaller.tar.gz) | 11,702 bytes |
 | [KhaledAli65/novaler](https://github.com/KhaledAli65/novaler) | []() | [metrix_poster.tar.gz](https://raw.githubusercontent.com/KhaledAli65/novaler/main/metrix_poster.tar.gz) | 394,837 bytes |
