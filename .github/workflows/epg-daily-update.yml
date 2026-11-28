@@ -3,14 +3,10 @@ name: Update Online4Tech EPG daily
 # Generates fresh EPG guides every day from public sources and
 # publishes them in this repo, so the plugin always downloads from
 # Online4Tech's own links that never die.
-#
-# NOTE: this file lives under .github/workflows/, which the GitHub
-# connector cannot push (403). It must be created/edited through the
-# cloud browser on Liam's signed-in GitHub account.
 
 on:
   schedule:
-    - cron: "0 3 * * *"  # 03:00 UTC = 05:00 EET, every day
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -25,7 +21,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Clone the iptv-org EPG grabber
         run: git clone --depth 1 https://github.com/iptv-org/epg.git /tmp/epg-tool
@@ -34,13 +30,21 @@ jobs:
         working-directory: /tmp/epg-tool
         run: npm ci
 
-      - name: Grab fresh guides (beIN, OSN, elCinema, beIN Sports)
+      - name: Grab fresh guides (beIN, OSN, beIN Sports)
         working-directory: /tmp/epg-tool
         run: |
           npm run grab --- \
-            --sites=bein.com,osn.com,elcinema.com,beinsports.com \
+            --sites=bein.com,osn.com,beinsports.com \
             --output=/tmp/guides/{site}.xml \
             --maxConnections=10
+
+      - name: Grab fresh guide (elCinema, slow)
+        working-directory: /tmp/epg-tool
+        run: |
+          npm run grab --- \
+            --sites=elcinema.com \
+            --output=/tmp/guides/{site}.xml \
+            --maxConnections=3
 
       - name: Remap channel ids to Online4Tech ids
         run: |
