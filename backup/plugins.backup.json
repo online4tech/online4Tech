@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27",
+  "generatedAt": "2026-11-28",
   "schemaVersion": 4,
   "categories": [
     "Developer Tools",
@@ -59,10 +59,6 @@
       "downloadUrl": "https://github.com/AMAJamry/AJPanel",
       "tutorialUrl": "",
       "changelog": [
-        {
-          "date": "2026-10-28",
-          "action": "plugin-updated"
-        },
         {
           "date": "2026-10-29",
           "action": "plugin-updated"
@@ -178,6 +174,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -206,7 +206,7 @@
       "githubStars": 13,
       "githubForks": 0,
       "lastUpdated": "2026-04-23T15:08:07Z",
-      "popularityScore": 6.474,
+      "popularityScore": 6.471,
       "telnetCommands": [
         {
           "label": "AJPanel — المصدر الرسمي",
@@ -581,10 +581,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-updated"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -699,6 +695,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -727,7 +727,7 @@
       "githubStars": 3,
       "githubForks": 3,
       "lastUpdated": "2026-11-26T16:52:01Z",
-      "popularityScore": 6.852,
+      "popularityScore": 6.848,
       "telnetCommands": [
         {
           "label": "Quick Install",
@@ -768,10 +768,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-updated"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -886,6 +882,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -915,7 +915,7 @@
       "features": [],
       "githubStars": 0,
       "githubForks": 0,
-      "lastUpdated": "2026-11-27T11:34:25Z",
+      "lastUpdated": "2026-11-28T10:54:28Z",
       "popularityScore": 2.0,
       "telnetCommands": [
         {
@@ -962,10 +962,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-updated"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -1080,6 +1076,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -1110,7 +1110,7 @@
       "githubStars": 1,
       "githubForks": 3,
       "lastUpdated": "2026-11-27T10:38:26Z",
-      "popularityScore": 5.466,
+      "popularityScore": 5.462,
       "telnetCommands": [
         {
           "label": "تثبيت من مستودع المطوّر",
@@ -1154,10 +1154,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-updated"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -1272,6 +1268,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -1300,7 +1300,7 @@
       "githubStars": 5,
       "githubForks": 4,
       "lastUpdated": "2026-10-09T19:19:40Z",
-      "popularityScore": 7.82,
+      "popularityScore": 7.816,
       "telnetCommands": [
         {
           "label": "تحديث المستودعات",
@@ -1591,10 +1591,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-updated"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -1709,6 +1705,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -1737,7 +1737,7 @@
       "githubStars": 58,
       "githubForks": 32,
       "lastUpdated": "2026-11-08T14:01:53Z",
-      "popularityScore": 15.333,
+      "popularityScore": 15.329,
       "telnetCommands": [
         {
           "label": "التثبيت من مستودع صورة النظام",
@@ -1855,10 +1855,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-updated"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -1973,6 +1969,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -2003,7 +2003,7 @@
       "githubStars": 2,
       "githubForks": 0,
       "lastUpdated": "2026-11-20T20:23:56Z",
-      "popularityScore": 4.175,
+      "popularityScore": 4.171,
       "telnetCommands": [
         {
           "label": "تثبيت من مستودع GitHub",
@@ -2380,10 +2380,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-updated"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -2498,6 +2494,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -2522,8 +2522,8 @@
       "features": [],
       "githubStars": 32,
       "githubForks": 99,
-      "lastUpdated": "2026-11-21T22:48:04Z",
-      "popularityScore": 15.882,
+      "lastUpdated": "2026-11-27T13:15:59Z",
+      "popularityScore": 15.901,
       "telnetCommands": [
         {
           "label": "التثبيت من مستودع صورة النظام",
@@ -2568,10 +2568,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-updated"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -2686,6 +2682,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -2720,9 +2720,9 @@
       ],
       "features": [],
       "githubStars": 217,
-      "githubForks": 223,
+      "githubForks": 224,
       "lastUpdated": "2026-05-15T15:54:29Z",
-      "popularityScore": 20.164,
+      "popularityScore": 20.167,
       "telnetCommands": [
         {
           "label": "التثبيت من مستودع صورة النظام",
@@ -2896,10 +2896,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-updated"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -3014,6 +3010,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -3038,7 +3038,7 @@
       "githubStars": 1,
       "githubForks": 0,
       "lastUpdated": "2026-11-27T00:43:49Z",
-      "popularityScore": 3.386,
+      "popularityScore": 3.383,
       "telnetCommands": [
         {
           "label": "Quick Install",
@@ -3867,10 +3867,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-updated"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -3985,6 +3981,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -4009,7 +4009,7 @@
       "githubStars": 1,
       "githubForks": 2,
       "lastUpdated": "2026-06-05T20:10:27Z",
-      "popularityScore": 4.39,
+      "popularityScore": 4.386,
       "telnetCommands": [
         {
           "label": "Quick Install",
@@ -4052,10 +4052,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-updated"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -4170,6 +4166,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -4194,7 +4194,7 @@
       "githubStars": 12,
       "githubForks": 4,
       "lastUpdated": "2026-09-16T15:28:50Z",
-      "popularityScore": 9.281,
+      "popularityScore": 9.277,
       "telnetCommands": [
         {
           "label": "Quick Install",
@@ -4353,10 +4353,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-updated"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -4471,6 +4467,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -4495,7 +4495,7 @@
       "githubStars": 0,
       "githubForks": 0,
       "lastUpdated": "2026-11-18T20:45:27Z",
-      "popularityScore": 1.97,
+      "popularityScore": 1.967,
       "telnetCommands": [
         {
           "label": "Quick Install",
@@ -4594,10 +4594,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-added"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -4712,6 +4708,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -4732,7 +4732,7 @@
       "githubStars": 0,
       "githubForks": 2,
       "lastUpdated": "2025-07-05T08:11:31Z",
-      "popularityScore": 1.759
+      "popularityScore": 1.755
     },
     {
       "id": "enigma2-plugin-blurayplayer",
@@ -4770,10 +4770,6 @@
       "tutorialUrl": "",
       "changelog": [
         {
-          "date": "2026-10-28",
-          "action": "plugin-added"
-        },
-        {
           "date": "2026-10-29",
           "action": "plugin-updated"
         },
@@ -4888,6 +4884,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -4908,7 +4908,7 @@
       "githubStars": 3,
       "githubForks": 5,
       "lastUpdated": "2025-07-10T13:07:00Z",
-      "popularityScore": 5.594
+      "popularityScore": 5.59
     },
     {
       "id": "o4t-4158",
@@ -8496,6 +8496,10 @@
         {
           "date": "2026-11-27",
           "action": "plugin-updated"
+        },
+        {
+          "date": "2026-11-28",
+          "action": "plugin-updated"
         }
       ],
       "tags": [
@@ -8522,7 +8526,7 @@
       "githubStars": 1,
       "githubForks": 0,
       "lastUpdated": "2026-11-26T15:28:15Z",
-      "popularityScore": 3.386
+      "popularityScore": 3.383
     }
   ]
 }

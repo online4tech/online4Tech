@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-27T13:28:19.241Z",
+  "generatedAt": "2026-11-28T12:41:47.721Z",
   "pluginsScanned": 82,
-  "imagesDownloaded": 65,
+  "imagesDownloaded": 59,
   "imagesUpdated": 0,
   "placeholdersGenerated": 0,
-  "totalStoredImages": 97,
-  "repositoryImagesStored": 97,
+  "totalStoredImages": 94,
+  "repositoryImagesStored": 94,
   "placeholderAssetsStored": 0,
   "missingImages": [
     {
@@ -383,6 +383,6 @@
       "error": "GitHub API 404 https://api.github.com/repos/digiteng/xtra"
     }
   ],
-  "cachedRepositories": 6,
+  "cachedRepositories": 7,
   "catalogChanged": true
 }
